@@ -1141,6 +1141,19 @@
   "pages": 8
  },
  {
+  "id": "mckinsey",
+  "co": "McKinsey / QuantumBlack",
+  "target": "quantumblack",
+  "big": true,
+  "type": "mckinsey",
+  "queries": [
+   "quantumblack",
+   "data scientist",
+   "machine learning engineer",
+   "AI engineer"
+  ]
+ },
+ {
   "id": "mercedes",
   "co": "Mercedes-Benz",
   "target": "mercedes",
