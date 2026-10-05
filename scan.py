@@ -797,6 +797,29 @@ def google_list(src):
     return list(out.values()), complete
 
 
+def mckinsey_list(src):
+    """McKinsey / QuantumBlack careers search API (public, used by mckinsey.com/careers)."""
+    base = "https://gateway.mckinsey.com/apigw-x0cceuow60/v1/api/jobs/search"
+    hdr = {"Accept": "application/json", "Origin": "https://www.mckinsey.com",
+           "Referer": "https://www.mckinsey.com/careers/search-jobs"}
+    out = {}
+    for q in src.get("queries") or ["quantumblack"]:
+        start = 1
+        for _ in range(src.get("pages", 6)):
+            data = http("GET", f"{base}?pageSize=50&start={start}&lang=en&q={quote(q)}", headers=hdr)
+            docs = data.get("docs") or []
+            for d in docs:
+                loc = ", ".join(d.get("cities") or []) + (" (" + ", ".join(d.get("countries") or []) + ")" if d.get("countries") else "")
+                desc = strip_html((d.get("whatYouWillDo") or "") + "\n" + (d.get("yourBackground") or ""))
+                url = f"https://www.mckinsey.com/careers/search-jobs/jobs/{d.get('friendlyURL')}"
+                r = rec(src, d.get("jobID"), d.get("title"), url, loc, d.get("postedToLinkedInDate"), desc=desc)
+                out[r["key"]] = r
+            start += 50
+            if len(docs) < 50 or start > (data.get("numFound") or 0):
+                break
+    return list(out.values()), False
+
+
 def gem_list(src):
     data = http("GET", f"https://api.gem.com/job_board/v0/{src['board']}/job_posts/")
     jobs = data if isinstance(data, list) else (data.get("job_posts") or data.get("jobs") or [])
@@ -896,6 +919,7 @@ ADAPTERS = {
     "radancy": (radancy_list, generic_detail),
     "google": (google_list, None),
     "gem": (gem_list, None),
+    "mckinsey": (mckinsey_list, None),
     "links": (links_list, generic_detail),
     "sitemap": (sitemap_list, sitemap_detail),
     "watch": (watch_list, None),
