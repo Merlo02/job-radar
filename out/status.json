@@ -1,18 +1,16 @@
 {
- "run_at": "2026-10-05T10:39:12Z",
- "duration_s": 468,
+ "run_at": "2026-10-05T15:12:24Z",
+ "duration_s": 310,
  "sources": 121,
  "failed": [
-  "ai4i",
   "bfl",
   "eni",
   "google-eu",
-  "iit",
   "owkin"
  ],
- "new": 547,
- "open": 545,
- "recent": 545,
+ "new": 16,
+ "open": 537,
+ "recent": 540,
  "details": [
   {
    "id": "a2z",
@@ -24,7 +22,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -32,34 +30,35 @@
    "co": "ABB",
    "type": "workday",
    "ok": true,
-   "raw": 271,
-   "matched": 5,
+   "raw": 289,
+   "matched": 3,
    "complete": false,
-   "details": 5,
-   "secs": 32.8,
-   "new": 5,
+   "details": 0,
+   "secs": 30.9,
+   "new": 0,
    "closed": 0
   },
   {
    "id": "ai4i",
    "co": "AI4I (Torino)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: GET https://ai4i.it/work-with-us/ failed: HTTP 429",
-   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 887, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 831, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 323, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://ai4i.it/work-with-us/ failed: HTTP 429\n",
-   "secs": 58.0
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 0.9
   },
   {
    "id": "airbus",
    "co": "Airbus",
    "type": "workday",
    "ok": true,
-   "raw": 458,
-   "matched": 12,
+   "raw": 435,
+   "matched": 13,
    "complete": false,
-   "details": 12,
-   "secs": 71.5,
-   "new": 12,
+   "details": 1,
+   "secs": 54.8,
+   "new": 1,
    "closed": 0
   },
   {
@@ -71,7 +70,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -80,12 +79,12 @@
    "co": "AMD (Silo AI)",
    "type": "jibe",
    "ok": true,
-   "raw": 819,
+   "raw": 818,
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 21.0,
-   "new": 4,
+   "secs": 50.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -93,13 +92,13 @@
    "co": "Anthropic",
    "type": "greenhouse",
    "ok": true,
-   "raw": 638,
-   "matched": 18,
+   "raw": 637,
+   "matched": 17,
    "complete": true,
-   "details": 18,
-   "secs": 8.1,
-   "new": 18,
-   "closed": 0
+   "details": 0,
+   "secs": 0.7,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "anybotics",
@@ -111,7 +110,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -119,12 +118,12 @@
    "co": "ASML",
    "type": "workday",
    "ok": true,
-   "raw": 179,
+   "raw": 180,
    "matched": 2,
    "complete": false,
-   "details": 2,
-   "secs": 19.2,
-   "new": 2,
+   "details": 0,
+   "secs": 17.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -137,7 +136,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -148,9 +147,9 @@
    "raw": 29,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 1.3,
-   "new": 2,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -161,7 +160,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.6
   },
   {
    "id": "bfl",
@@ -169,7 +168,7 @@
    "type": "greenhouse",
    "ok": false,
    "error": "Gone: 404 https://boards-api.greenhouse.io/v1/boards/blackforestlabs/jobs",
-   "trace": "t):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 887, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 393, in greenhouse_list\n    data = http(\"GET\", f\"https://{greenhouse_host(src)}/v1/boards/{src['board']}/jobs\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 186, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://boards-api.greenhouse.io/v1/boards/blackforestlabs/jobs\n",
+   "trace": "t):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 933, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 437, in greenhouse_list\n    data = http(\"GET\", f\"https://{greenhouse_host(src)}/v1/boards/{src['board']}/jobs\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 230, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://boards-api.greenhouse.io/v1/boards/blackforestlabs/jobs\n",
    "secs": 0.4
   },
   {
@@ -177,12 +176,12 @@
    "co": "BMW Group",
    "type": "sf_rss",
    "ok": true,
-   "raw": 81,
-   "matched": 18,
+   "raw": 83,
+   "matched": 19,
    "complete": false,
    "details": 0,
-   "secs": 12.0,
-   "new": 18,
+   "secs": 9.8,
+   "new": 1,
    "closed": 0
   },
   {
@@ -190,12 +189,12 @@
    "co": "Booking.com",
    "type": "jibe",
    "ok": true,
-   "raw": 73,
+   "raw": 72,
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 9.6,
-   "new": 6,
+   "secs": 9.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -203,12 +202,12 @@
    "co": "Bosch",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 2343,
-   "matched": 35,
+   "raw": 2342,
+   "matched": 33,
    "complete": false,
-   "details": 35,
-   "secs": 65.6,
-   "new": 35,
+   "details": 1,
+   "secs": 35.3,
+   "new": 1,
    "closed": 0
   },
   {
@@ -219,19 +218,20 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 20.1
+   "secs": 20.0,
+   "new": 1
   },
   {
    "id": "cern",
    "co": "CERN",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 54,
+   "raw": 55,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 2.5,
-   "new": 2,
+   "details": 0,
+   "secs": 1.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -239,12 +239,12 @@
    "co": "Cohere",
    "type": "ashby",
    "ok": true,
-   "raw": 136,
+   "raw": 134,
    "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 16,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -255,7 +255,8 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.5,
+   "new": 1
   },
   {
    "id": "csem",
@@ -266,7 +267,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.6,
+   "secs": 1.9,
    "new": 0,
    "closed": 0
   },
@@ -275,12 +276,12 @@
    "co": "Datadog",
    "type": "greenhouse",
    "ok": true,
-   "raw": 442,
+   "raw": 441,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 1.3,
-   "new": 2,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -293,7 +294,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -301,24 +302,24 @@
    "co": "Google DeepMind",
    "type": "google",
    "ok": true,
-   "raw": 101,
-   "matched": 15,
+   "raw": 93,
+   "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 3.4,
-   "new": 15,
-   "closed": 0
+   "secs": 2.8,
+   "new": 0,
+   "closed": 2
   },
   {
    "id": "disney",
    "co": "Disney (Disney Research)",
    "type": "workday",
    "ok": true,
-   "raw": 208,
+   "raw": 209,
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 18.2,
+   "secs": 22.3,
    "new": 0,
    "closed": 0
   },
@@ -330,19 +331,20 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.3,
+   "new": 1
   },
   {
    "id": "dnv",
    "co": "DNV",
    "type": "oracle",
    "ok": true,
-   "raw": 93,
-   "matched": 10,
+   "raw": 92,
+   "matched": 8,
    "complete": false,
-   "details": 10,
-   "secs": 22.0,
-   "new": 10,
+   "details": 0,
+   "secs": 14.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -350,12 +352,12 @@
    "co": "Doctolib",
    "type": "greenhouse",
    "ok": true,
-   "raw": 157,
+   "raw": 155,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 1.3,
-   "new": 2,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -367,7 +369,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -380,7 +382,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -389,13 +391,13 @@
    "co": "ElevenLabs",
    "type": "ashby",
    "ok": true,
-   "raw": 169,
+   "raw": 168,
    "matched": 7,
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 7,
-   "closed": 0
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "embl",
@@ -406,7 +408,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 11.3,
+   "secs": 10.1,
    "new": 0,
    "closed": 0
   },
@@ -419,7 +421,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -428,11 +430,11 @@
    "co": "Enel",
    "type": "avature",
    "ok": true,
-   "raw": 139,
+   "raw": 140,
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 52.0,
+   "secs": 54.0,
    "new": 0,
    "closed": 0
   },
@@ -441,9 +443,9 @@
    "co": "Eni",
    "type": "oracle",
    "ok": false,
-   "error": "RuntimeError: GET https://jobs.eni.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs%3BsiteNumber%3DCX_1004%2Climit%3D25%2Coffset%3D0%2Ckeyword%3D%22machine%20learning%22%2CsortBy%3DPOSTING_DATES_DESC failed: SSLError: HTTPSConnecti",
-   "trace": "it%3D25%2Coffset%3D0%2Ckeyword%3D%22machine%20learning%22%2CsortBy%3DPOSTING_DATES_DESC failed: SSLError: HTTPSConnectionPool(host='jobs.eni.com', port=443): Max retries exceeded with url: /hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs%3BsiteNumber%3DCX_1004%2Climit%3D25%2Coffset%3D0%2Ckeyword%3D%22machine%20learning%22%2CsortBy%3DPOSTING_DATES_DESC (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))\n",
-   "secs": 14.1
+   "error": "RuntimeError: GET https://jobs.eni.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs%3BsiteNumber%3DCX_1004%2Climit%3D25%2Coffset%3D0%2Ckeyword%3D%22machine%20learning%22%2CsortBy%3DPOSTING_DATES_DESC failed: JSONDecodeError: Expect",
+   "trace": "er/work/job-radar/job-radar/scan.py\", line 703, in oracle_list\n    data = http(\"GET\", url)\n           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 246, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://jobs.eni.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs%3BsiteNumber%3DCX_1004%2Climit%3D25%2Coffset%3D0%2Ckeyword%3D%22machine%20learning%22%2CsortBy%3DPOSTING_DATES_DESC failed: JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+   "secs": 17.4
   },
   {
    "id": "epfl",
@@ -454,8 +456,8 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 8.4,
-   "new": 6,
+   "secs": 7.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -463,12 +465,12 @@
    "co": "Ericsson",
    "type": "eightfold",
    "ok": true,
-   "raw": 154,
-   "matched": 5,
+   "raw": 146,
+   "matched": 6,
    "complete": false,
-   "details": 5,
-   "secs": 29.7,
-   "new": 5,
+   "details": 2,
+   "secs": 19.8,
+   "new": 2,
    "closed": 0
   },
   {
@@ -480,8 +482,8 @@
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 10.1,
-   "new": 7,
+   "secs": 9.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -492,7 +494,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.1
   },
   {
    "id": "essilorluxottica",
@@ -503,8 +505,8 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
-   "new": 2,
+   "secs": 10.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -512,12 +514,12 @@
    "co": "ETH Zurich",
    "type": "links",
    "ok": true,
-   "raw": 111,
+   "raw": 117,
    "matched": 3,
    "complete": true,
-   "details": 3,
-   "secs": 2.6,
-   "new": 3,
+   "details": 0,
+   "secs": 1.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -528,9 +530,9 @@
    "raw": 10,
    "matched": 1,
    "complete": true,
-   "details": 1,
-   "secs": 3.0,
-   "new": 1,
+   "details": 0,
+   "secs": 1.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -543,7 +545,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 9,
+   "new": 0,
    "closed": 0
   },
   {
@@ -551,11 +553,11 @@
    "co": "Ferrari",
    "type": "sf_rss",
    "ok": true,
-   "raw": 23,
+   "raw": 25,
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 8.6,
+   "secs": 7.6,
    "new": 0,
    "closed": 0
   },
@@ -568,8 +570,8 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 2,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -577,11 +579,11 @@
    "co": "GE Aerospace / Avio Aero",
    "type": "workday",
    "ok": true,
-   "raw": 190,
+   "raw": 172,
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 13.7,
+   "secs": 14.8,
    "new": 0,
    "closed": 0
   },
@@ -590,12 +592,12 @@
    "co": "GE HealthCare",
    "type": "workday",
    "ok": true,
-   "raw": 266,
+   "raw": 232,
    "matched": 1,
    "complete": false,
-   "details": 3,
-   "secs": 20.9,
-   "new": 1,
+   "details": 1,
+   "secs": 18.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -603,8 +605,8 @@
    "co": "Google",
    "type": "google",
    "ok": false,
-   "error": "JSONDecodeError: Extra data: line 1 column 4 (char 3)",
-   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 887, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 732, in google_list\n    data = json.loads(html[a:e])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Extra data: line 1 column 4 (char 3)\n",
+   "error": "TypeError: 'int' object is not iterable",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 933, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 781, in google_list\n    for j in jobs:\n             ^^^^\nTypeError: 'int' object is not iterable\n",
    "secs": 0.5
   },
   {
@@ -612,25 +614,25 @@
    "co": "Google",
    "type": "google",
    "ok": true,
-   "raw": 52,
-   "matched": 12,
+   "raw": 53,
+   "matched": 11,
    "complete": true,
    "details": 0,
-   "secs": 1.8,
-   "new": 12,
-   "closed": 0
+   "secs": 1.7,
+   "new": 1,
+   "closed": 2
   },
   {
    "id": "graphcore",
    "co": "Graphcore",
    "type": "greenhouse",
    "ok": true,
-   "raw": 179,
+   "raw": 178,
    "matched": 3,
    "complete": true,
-   "details": 3,
-   "secs": 1.7,
-   "new": 3,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -642,7 +644,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 1.0,
    "new": 0,
    "closed": 0
   },
@@ -656,7 +658,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -668,7 +670,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 8.9,
+   "secs": 9.5,
    "new": 0,
    "closed": 0
   },
@@ -677,12 +679,12 @@
    "co": "Helsing",
    "type": "greenhouse",
    "ok": true,
-   "raw": 168,
+   "raw": 167,
    "matched": 17,
    "complete": true,
-   "details": 17,
-   "secs": 8.0,
-   "new": 17,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -690,12 +692,12 @@
    "co": "Huawei Research Germany/Austria",
    "type": "teamtailor",
    "ok": true,
-   "raw": 94,
+   "raw": 95,
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 1.6,
-   "new": 8,
+   "secs": 1.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -707,8 +709,8 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.4,
-   "new": 3,
+   "secs": 1.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -720,8 +722,8 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 8,
+   "secs": 0.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -733,8 +735,8 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
-   "new": 1,
+   "secs": 0.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -745,19 +747,23 @@
    "raw": 24,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 3.3,
-   "new": 2,
+   "details": 0,
+   "secs": 1.1,
+   "new": 0,
    "closed": 0
   },
   {
    "id": "iit",
    "co": "IIT – Istituto Italiano di Tecnologia",
    "type": "links",
-   "ok": false,
-   "error": "RuntimeError: GET https://iit.it/openings failed: ConnectTimeout: HTTPSConnectionPool(host='iit.it', port=443): Max retries exceeded with url: /openings (Caused by ConnectTimeoutError(<HTTPSConnection(host='iit.it', port=443) at 0x7f825cec93a0>, 'Connection to iit.it timed out. (connect timeout=40)'))",
-   "trace": "^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 772, in links_list\n    html = http(\"GET\", u, expect=\"text\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 202, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://iit.it/openings failed: ConnectTimeout: HTTPSConnectionPool(host='iit.it', port=443): Max retries exceeded with url: /openings (Caused by ConnectTimeoutError(<HTTPSConnection(host='iit.it', port=443) at 0x7f825cec93a0>, 'Connection to iit.it timed out. (connect timeout=40)'))\n",
-   "secs": 134.1
+   "ok": true,
+   "raw": 11,
+   "matched": 0,
+   "complete": true,
+   "details": 0,
+   "secs": 4.8,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "imec",
@@ -767,7 +773,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.6
   },
   {
    "id": "inrim",
@@ -777,7 +783,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.3
   },
   {
    "id": "instadeep",
@@ -788,7 +794,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 2.3,
+   "secs": 1.0,
    "new": 0,
    "closed": 0
   },
@@ -801,8 +807,8 @@
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 10.9,
-   "new": 8,
+   "secs": 9.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -813,9 +819,9 @@
    "raw": 30,
    "matched": 5,
    "complete": true,
-   "details": 5,
-   "secs": 2.5,
-   "new": 5,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -828,7 +834,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -839,9 +845,9 @@
    "raw": 40,
    "matched": 3,
    "complete": false,
-   "details": 3,
-   "secs": 22.0,
-   "new": 3,
+   "details": 0,
+   "secs": 18.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -853,7 +859,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -862,12 +868,12 @@
    "co": "KUKA",
    "type": "sf_rss",
    "ok": true,
-   "raw": 26,
-   "matched": 1,
+   "raw": 25,
+   "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 9.7,
-   "new": 1,
+   "secs": 7.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -878,7 +884,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "lakera",
@@ -898,12 +904,12 @@
    "co": "Leonardo",
    "type": "workday",
    "ok": true,
-   "raw": 190,
-   "matched": 16,
+   "raw": 191,
+   "matched": 14,
    "complete": false,
-   "details": 16,
-   "secs": 39.7,
-   "new": 16,
+   "details": 1,
+   "secs": 21.3,
+   "new": 1,
    "closed": 0
   },
   {
@@ -914,19 +920,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.3
   },
   {
    "id": "logitech",
    "co": "Logitech",
    "type": "workday",
    "ok": true,
-   "raw": 115,
+   "raw": 113,
    "matched": 1,
    "complete": false,
-   "details": 1,
-   "secs": 15.3,
-   "new": 1,
+   "details": 0,
+   "secs": 14.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -934,12 +940,12 @@
    "co": "Medtronic",
    "type": "workday",
    "ok": true,
-   "raw": 273,
+   "raw": 258,
    "matched": 2,
    "complete": false,
-   "details": 2,
-   "secs": 46.5,
-   "new": 2,
+   "details": 0,
+   "secs": 49.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -947,12 +953,12 @@
    "co": "Mercedes-Benz",
    "type": "sitemap",
    "ok": true,
-   "raw": 847,
+   "raw": 855,
    "matched": 1,
    "complete": true,
-   "details": 16,
-   "secs": 11.4,
-   "new": 1,
+   "details": 15,
+   "secs": 9.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -964,7 +970,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 11.5,
+   "secs": 12.4,
    "new": 0,
    "closed": 0
   },
@@ -978,7 +984,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.7,
-   "new": 3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -986,13 +992,13 @@
    "co": "Mistral AI",
    "type": "ashby",
    "ok": true,
-   "raw": 209,
-   "matched": 39,
+   "raw": 208,
+   "matched": 26,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
-   "new": 39,
-   "closed": 0
+   "secs": 0.5,
+   "new": 0,
+   "closed": 13
   },
   {
    "id": "nokia",
@@ -1002,9 +1008,9 @@
    "raw": 208,
    "matched": 2,
    "complete": false,
-   "details": 2,
-   "secs": 29.9,
-   "new": 2,
+   "details": 0,
+   "secs": 28.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1012,12 +1018,12 @@
    "co": "Novartis",
    "type": "workday",
    "ok": true,
-   "raw": 220,
+   "raw": 222,
    "matched": 3,
    "complete": false,
-   "details": 3,
-   "secs": 48.6,
-   "new": 3,
+   "details": 0,
+   "secs": 38.9,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1025,12 +1031,12 @@
    "co": "NVIDIA",
    "type": "workday",
    "ok": true,
-   "raw": 656,
+   "raw": 671,
    "matched": 6,
    "complete": false,
-   "details": 49,
-   "secs": 105.8,
-   "new": 6,
+   "details": 43,
+   "secs": 113.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1038,12 +1044,12 @@
    "co": "OpenAI",
    "type": "ashby",
    "ok": true,
-   "raw": 828,
+   "raw": 829,
    "matched": 14,
    "complete": true,
    "details": 0,
    "secs": 0.8,
-   "new": 14,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1051,7 +1057,7 @@
    "co": "Oura",
    "type": "greenhouse",
    "ok": true,
-   "raw": 79,
+   "raw": 80,
    "matched": 0,
    "complete": true,
    "details": 0,
@@ -1065,20 +1071,20 @@
    "type": "greenhouse",
    "ok": false,
    "error": "RuntimeError: GET https://boards-api.eu.greenhouse.io/v1/boards/owkin/jobs failed: ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/owkin/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.eu.greenhouse.io', port=443):",
-   "trace": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 202, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://boards-api.eu.greenhouse.io/v1/boards/owkin/jobs failed: ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/owkin/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.eu.greenhouse.io', port=443): Failed to resolve 'boards-api.eu.greenhouse.io' ([Errno -2] Name or service not known)\"))\n",
-   "secs": 13.2
+   "trace": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 246, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://boards-api.eu.greenhouse.io/v1/boards/owkin/jobs failed: ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/owkin/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.eu.greenhouse.io', port=443): Failed to resolve 'boards-api.eu.greenhouse.io' ([Errno -2] Name or service not known)\"))\n",
+   "secs": 13.3
   },
   {
    "id": "perplexity",
    "co": "Perplexity",
    "type": "ashby",
    "ok": true,
-   "raw": 127,
+   "raw": 129,
    "matched": 18,
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 18,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1086,12 +1092,12 @@
    "co": "Philips",
    "type": "workday",
    "ok": true,
-   "raw": 251,
+   "raw": 252,
    "matched": 4,
    "complete": false,
-   "details": 6,
-   "secs": 77.4,
-   "new": 4,
+   "details": 2,
+   "secs": 52.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1104,7 +1110,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1115,9 +1121,9 @@
    "raw": 44,
    "matched": 1,
    "complete": true,
-   "details": 1,
-   "secs": 0.9,
-   "new": 1,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1126,11 +1132,11 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 33,
-   "matched": 4,
+   "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 10.4,
-   "new": 4,
+   "secs": 8.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1168,8 +1174,8 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 8,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1177,12 +1183,12 @@
    "co": "Qualcomm",
    "type": "eightfold",
    "ok": true,
-   "raw": 253,
+   "raw": 269,
    "matched": 3,
    "complete": false,
-   "details": 3,
-   "secs": 28.5,
-   "new": 3,
+   "details": 0,
+   "secs": 33.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1194,8 +1200,8 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
-   "new": 1,
+   "secs": 1.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1203,12 +1209,12 @@
    "co": "Roche",
    "type": "workday",
    "ok": true,
-   "raw": 329,
+   "raw": 335,
    "matched": 8,
    "complete": false,
-   "details": 8,
-   "secs": 35.3,
-   "new": 8,
+   "details": 0,
+   "secs": 26.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1219,9 +1225,9 @@
    "raw": 219,
    "matched": 1,
    "complete": false,
-   "details": 1,
-   "secs": 35.4,
-   "new": 1,
+   "details": 0,
+   "secs": 32.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1229,12 +1235,12 @@
    "co": "Sanofi",
    "type": "radancy",
    "ok": true,
-   "raw": 278,
-   "matched": 0,
+   "raw": 282,
+   "matched": 2,
    "complete": false,
-   "details": 0,
-   "secs": 6.2,
-   "new": 0,
+   "details": 2,
+   "secs": 6.9,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1258,19 +1264,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "id": "siemens",
    "co": "Siemens",
    "type": "avature",
    "ok": true,
-   "raw": 488,
-   "matched": 44,
+   "raw": 493,
+   "matched": 15,
    "complete": false,
-   "details": 45,
-   "secs": 330.6,
-   "new": 44,
+   "details": 3,
+   "secs": 200.8,
+   "new": 1,
    "closed": 0
   },
   {
@@ -1278,12 +1284,12 @@
    "co": "Sonar",
    "type": "lever",
    "ok": true,
-   "raw": 123,
+   "raw": 122,
    "matched": 10,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
-   "new": 10,
+   "secs": 0.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1295,8 +1301,8 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
-   "new": 3,
+   "secs": 9.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1308,7 +1314,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 19.5,
+   "secs": 20.2,
    "new": 0,
    "closed": 0
   },
@@ -1321,8 +1327,8 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
-   "new": 3,
+   "secs": 2.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1333,9 +1339,9 @@
    "raw": 136,
    "matched": 8,
    "complete": false,
-   "details": 8,
-   "secs": 43.7,
-   "new": 8,
+   "details": 0,
+   "secs": 27.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1346,9 +1352,9 @@
    "raw": 6,
    "matched": 1,
    "complete": true,
-   "details": 1,
-   "secs": 0.8,
-   "new": 1,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1360,7 +1366,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 9.8,
+   "secs": 9.2,
    "new": 0,
    "closed": 0
   },
@@ -1372,9 +1378,9 @@
    "raw": 26,
    "matched": 1,
    "complete": false,
-   "details": 1,
-   "secs": 13.7,
-   "new": 1,
+   "details": 0,
+   "secs": 11.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1382,12 +1388,12 @@
    "co": "Swiss Re",
    "type": "links",
    "ok": true,
-   "raw": 250,
+   "raw": 252,
    "matched": 2,
    "complete": true,
-   "details": 2,
-   "secs": 2.3,
-   "new": 2,
+   "details": 0,
+   "secs": 0.7,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1400,7 +1406,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1408,12 +1414,12 @@
    "co": "Telefónica",
    "type": "sf_rss",
    "ok": true,
-   "raw": 33,
+   "raw": 34,
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 12.2,
-   "new": 3,
+   "secs": 9.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1421,12 +1427,12 @@
    "co": "Tether",
    "type": "recruitee",
    "ok": true,
-   "raw": 169,
+   "raw": 172,
    "matched": 21,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
-   "new": 21,
+   "secs": 0.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1434,12 +1440,12 @@
    "co": "Thales / Thales Alenia Space",
    "type": "workday",
    "ok": true,
-   "raw": 460,
-   "matched": 19,
+   "raw": 400,
+   "matched": 18,
    "complete": false,
-   "details": 19,
-   "secs": 73.9,
-   "new": 19,
+   "details": 0,
+   "secs": 52.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1451,8 +1457,8 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.6,
-   "new": 3,
+   "secs": 1.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1460,25 +1466,25 @@
    "co": "UniCredit",
    "type": "avature",
    "ok": true,
-   "raw": 618,
-   "matched": 2,
+   "raw": 616,
+   "matched": 0,
    "complete": true,
-   "details": 2,
-   "secs": 165.3,
-   "new": 2,
-   "closed": 0
+   "details": 0,
+   "secs": 159.8,
+   "new": 0,
+   "closed": 2
   },
   {
    "id": "valeo",
    "co": "Valeo",
    "type": "workday",
    "ok": true,
-   "raw": 245,
+   "raw": 244,
    "matched": 1,
    "complete": false,
-   "details": 1,
-   "secs": 34.2,
-   "new": 1,
+   "details": 0,
+   "secs": 29.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1486,12 +1492,12 @@
    "co": "Wayve",
    "type": "ashby",
    "ok": true,
-   "raw": 88,
-   "matched": 3,
+   "raw": 100,
+   "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 3,
+   "secs": 0.4,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1503,8 +1509,8 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 1,
+   "secs": 0.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1512,12 +1518,12 @@
    "co": "Zalando",
    "type": "links",
    "ok": true,
-   "raw": 174,
+   "raw": 179,
    "matched": 1,
    "complete": true,
-   "details": 1,
-   "secs": 11.1,
-   "new": 1,
+   "details": 0,
+   "secs": 9.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1525,12 +1531,12 @@
    "co": "Zurich Insurance",
    "type": "sf_rss",
    "ok": true,
-   "raw": 93,
+   "raw": 91,
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 9.2,
-   "new": 8,
+   "secs": 8.9,
+   "new": 0,
    "closed": 0
   }
  ]
