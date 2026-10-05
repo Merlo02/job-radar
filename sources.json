@@ -170,16 +170,6 @@
   "site": "NVIDIAExternalCareerSite"
  },
  {
-  "id": "stellantis",
-  "co": "Stellantis",
-  "target": "stellantis",
-  "big": true,
-  "type": "workday",
-  "host": "stellantis.wd3.myworkdayjobs.com",
-  "tenant": "stellantis",
-  "site": "External_Career_Site_ID01"
- },
- {
   "id": "leonardo",
   "co": "Leonardo",
   "target": "leonardo",
@@ -208,6 +198,16 @@
   "host": "disney.wd5.myworkdayjobs.com",
   "tenant": "disney",
   "site": "disneycareer"
+ },
+ {
+  "id": "healthineers",
+  "co": "Siemens Healthineers",
+  "target": "healthineers",
+  "big": true,
+  "type": "workday",
+  "host": "onehealthineers.wd3.myworkdayjobs.com",
+  "tenant": "onehealthineers",
+  "site": "SHSJB"
  },
  {
   "id": "anthropic",
@@ -296,23 +296,6 @@
   "big": false,
   "type": "greenhouse",
   "board": "scandit"
- },
- {
-  "id": "bfl",
-  "co": "Black Forest Labs",
-  "target": "bfl",
-  "big": false,
-  "type": "greenhouse",
-  "board": "blackforestlabs"
- },
- {
-  "id": "owkin",
-  "co": "Owkin",
-  "target": "owkin",
-  "big": false,
-  "type": "greenhouse",
-  "board": "owkin",
-  "eu": true
  },
  {
   "id": "mistral",
@@ -465,6 +448,14 @@
   "big": false,
   "type": "ashby",
   "board": "AlephAlpha"
+ },
+ {
+  "id": "bfl",
+  "co": "Black Forest Labs",
+  "target": "bfl",
+  "big": false,
+  "type": "ashby",
+  "board": "black-forest-labs"
  },
  {
   "id": "spotify",
@@ -891,25 +882,6 @@
    "data scientist",
    "computer vision",
    "research"
-  ]
- },
- {
-  "id": "healthineers",
-  "co": "Siemens Healthineers",
-  "target": "healthineers",
-  "big": true,
-  "type": "avature",
-  "host": "jobs.siemens-healthineers.com",
-  "path": "/en_US/searchjobs/SearchJobs/{q}",
-  "offset_param": "folderOffset",
-  "step": 6,
-  "max_pages": 25,
-  "queries": [
-   "machine learning",
-   "artificial intelligence",
-   "deep learning",
-   "data scientist",
-   "algorithm"
   ]
  },
  {
