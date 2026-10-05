@@ -81,7 +81,8 @@ EXCLUDE = re.compile(
     r"professor|lecturer|faculty position|technician|nurse|physician|"
     r"\bphd student\b.*(?:chemistry|biology)|(?<!phd )(?<!doctoral )\bstudent\b|undergraduate|placement|"
     r"\btesi\b|curricular|mandatory internship|pflicht|product owner|customer|strategist|producer|"
-    r"go-to-market|business development|solutions? engineer|pre-?sales|"
+    r"go-to-market|business development|solutions? engineer|pre-?sales|platform engineer|reliability|\bSRE\b|"
+    r"\bQA\b|quality assurance|test automation|product analytics|devops|infrastructure engineer|"
     r"\bL[6-9]\b|\bIC[5-9]\b|\bP[5-9]\b|\bE[6-9]\b",
     re.I)
 
@@ -228,7 +229,7 @@ def http(method, url, *, json_body=None, headers=None, expect="json", tries=3, d
                 r = session().request(method, url, json=json_body, headers=headers, timeout=40, verify=verify)
             if r.status_code in (404, 410):
                 raise Gone(f"{r.status_code} {url}")
-            if r.status_code in (429, 500, 502, 503, 504):
+            if r.status_code == 429 or r.status_code >= 500:
                 last = f"HTTP {r.status_code}"
                 time.sleep(4 * (i + 1) ** 2)
                 continue
@@ -1020,7 +1021,11 @@ def main():
                 prev = meta["watch"].get(sid)
                 if prev and prev.get("hash") != h:
                     old = set(prev.get("lines", []))
-                    added = [l for l in lines if l not in old][:40]
+                    added = [l for l in lines if l not in old and not l.lstrip().startswith(("{", "[", "<"))]
+                    jobby = re.compile(r"position|job|engineer|research|scientist|developer|call for|bando|posizion|"
+                                       r"borsa|ph\.?d|doctoral|intern|stage|apply|candidat|hiring|vacanc|open role|"
+                                       r"assegno|ricercat|fellow", re.I)
+                    added = [l for l in added if jobby.search(l)][:40]
                     if added:
                         k = f"{sid}:{TODAY.isoformat()}"
                         jobs[k] = {"key": k, "src": sid, "co": src["co"], "target": src.get("target"),
