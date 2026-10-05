@@ -79,7 +79,9 @@ EXCLUDE = re.compile(
     r"masterarbeit|bachelorarbeit|apprentice|ausbildung|lehrling|duales? stud|praktikum|"
     r"stagiaire|\bstage\b|tirocinio|alternance|alternant|postdoc|post-doc|postdoctoral|"
     r"professor|lecturer|faculty position|technician|nurse|physician|"
-    r"\bphd student\b.*(?:chemistry|biology)|"
+    r"\bphd student\b.*(?:chemistry|biology)|(?<!phd )(?<!doctoral )\bstudent\b|undergraduate|placement|"
+    r"\btesi\b|curricular|mandatory internship|pflicht|product owner|customer|strategist|producer|"
+    r"go-to-market|business development|solutions? engineer|pre-?sales|"
     r"\bL[6-9]\b|\bIC[5-9]\b|\bP[5-9]\b|\bE[6-9]\b",
     re.I)
 
@@ -176,12 +178,54 @@ def session():
     return s
 
 
+_CHAINS = {}
+
+
+def extra_chain(host):
+    """Some servers forget to send their intermediate certificate. Fetch it from the
+    certificate's AIA field and verify against certifi + that intermediate (still verified)."""
+    if host in _CHAINS:
+        return _CHAINS[host]
+    import ssl
+    try:
+        import certifi
+        import cryptography  # noqa: F401
+    except ImportError:  # installed on demand, only needed for a few hosts
+        import subprocess
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "cryptography", "certifi"], check=False)
+        import certifi
+    from cryptography import x509
+    from cryptography.hazmat.primitives.serialization import Encoding
+    from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
+    leaf = x509.load_pem_x509_certificate(ssl.get_server_certificate((host, 443)).encode())
+    aia = leaf.extensions.get_extension_for_oid(ExtensionOID.AUTHORITY_INFORMATION_ACCESS).value
+    url = next(d.access_location.value for d in aia if d.access_method == AuthorityInformationAccessOID.CA_ISSUERS)
+    raw = requests.get(url, timeout=30).content
+    try:
+        inter = x509.load_der_x509_certificate(raw)
+    except Exception:
+        inter = x509.load_pem_x509_certificate(raw)
+    path = os.path.join(ROOT, f".ca-{host}.pem")
+    with open(certifi.where(), encoding="utf-8") as f, open(path, "w", encoding="utf-8") as g:
+        g.write(f.read() + "\n" + inter.public_bytes(Encoding.PEM).decode())
+    _CHAINS[host] = path
+    return path
+
+
 def http(method, url, *, json_body=None, headers=None, expect="json", tries=3, delay=0.35):
     last = None
+    host = urlsplit(url).hostname
+    verify = _CHAINS.get(host, True)
     for i in range(tries):
         try:
             time.sleep(delay)
-            r = session().request(method, url, json=json_body, headers=headers, timeout=40)
+            try:
+                r = session().request(method, url, json=json_body, headers=headers, timeout=40, verify=verify)
+            except requests.exceptions.SSLError:
+                if verify is not True:
+                    raise
+                verify = extra_chain(host)
+                r = session().request(method, url, json=json_body, headers=headers, timeout=40, verify=verify)
             if r.status_code in (404, 410):
                 raise Gone(f"{r.status_code} {url}")
             if r.status_code in (429, 500, 502, 503, 504):
@@ -330,7 +374,7 @@ def generic_detail(src, r):
         text = text[i:]
     r["desc_full"] = text[:12000]
     if not r.get("loc") or loc_status(r["loc"]) == "unknown":
-        m = re.search(r"(?:location|standort|sede|lieu|arbeitsort)\s*[:\n]\s*([^\n]{2,80})", text, re.I)
+        m = re.search(r"(?:location(?:\(s\)|s)?|standort|sede|lieu|arbeitsort)\s*[:\n]\s*([^\n]{2,120})", text, re.I)
         if m:
             r["loc"] = m.group(1).strip()
 
@@ -627,12 +671,14 @@ def avature_list(src):
                         continue
                     jid = re.search(r"/JobDetail/(?:[^?#]*/)?(\d+)", href)
                     jid = jid.group(1) if jid else hashlib.md5(href.encode()).hexdigest()[:10]
-                    sub = strip_html(b[m.end():m.end() + 1500]).split("\n")
-                    loc = ""
-                    for line in sub[:6]:
-                        if "Job ID" in line or "•" in line or loc_status(line) == "eu":
-                            loc = line.split("•")[0].strip()
-                            break
+                    seg = re.sub(r"\s+", " ", b[m.end():m.end() + 8000])
+                    lm = re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</(?:span|div|li)>', seg, re.S)
+                    loc = strip_html(lm.group(1)).replace("\n", " ").strip() if lm else ""
+                    if not loc:
+                        for line in strip_html(seg[:3000]).split("\n")[:6]:
+                            if "Job ID" in line or "•" in line or loc_status(line) == "eu":
+                                loc = line.split("•")[0].strip()
+                                break
                     r = rec(src, jid, text, href, loc)
                     if r["key"] not in out:
                         found += 1
@@ -710,9 +756,10 @@ def radancy_list(src):
             href, inner = m.group(1), m.group(2)
             t = re.search(r"<h\d[^>]*>(.*?)</h\d>", inner, re.S)
             title = strip_html(t.group(1) if t else inner).split("\n")[0]
-            l = re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</', inner, re.S)
+            l = re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</span>', inner, re.S)
+            loc = re.sub(r"^\s*location\s*:\s*", "", strip_html(l.group(1)), flags=re.I) if l else ""
             jid = href.rstrip("/").rsplit("/", 1)[-1]
-            r = rec(src, jid, title, urljoin(f"https://{host}", href), strip_html(l.group(1)) if l else "")
+            r = rec(src, jid, title, urljoin(f"https://{host}", href), loc)
             out[r["key"]] = r
     return list(out.values()), False
 
@@ -728,8 +775,7 @@ def google_list(src):
         if s < 0:
             raise RuntimeError("Google: data block not found")
         a = html.find("data:", s) + 5
-        e = html.find(", sideChannel", a)
-        data = json.loads(html[a:e])
+        data, _ = json.JSONDecoder().raw_decode(html, a)
         jobs = data[0] or []
         total = data[2] if len(data) > 2 else total
         for j in jobs:
