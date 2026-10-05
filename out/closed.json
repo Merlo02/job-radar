@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-05T15:38:44Z",
+ "generated": "2026-10-05T16:28:40Z",
  "days": 14,
- "count": 31,
+ "count": 32,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -521,6 +521,23 @@
    "last_seen": "2026-10-05T15:12:24Z",
    "ats": "google",
    "closed_at": "2026-10-05T15:23:47Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-muc:99529259868922566",
+   "co": "Google",
+   "target": "deepmind",
+   "big": true,
+   "title": "Software Engineer III, AI Edge Applied ML Experiences",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/99529259868922566-software-engineer-iii-ai-edge-applied-ml-experiences",
+   "loc": "Munich, Germany (DE)",
+   "loc_status": "eu",
+   "posted": "2026-09-08",
+   "first_seen": "2026-10-05T15:23:47Z",
+   "last_seen": "2026-10-05T15:38:44Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-05T16:28:40Z",
    "reason": "not listed anymore"
   }
  ]
