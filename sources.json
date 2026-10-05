@@ -928,16 +928,6 @@
   "job_url": "https://jobs.nokia.com/en/sites/CX_1/job/{id}"
  },
  {
-  "id": "eni",
-  "co": "Eni",
-  "target": "eni",
-  "big": true,
-  "type": "oracle",
-  "host": "jobs.eni.com",
-  "site": "CX_1004",
-  "job_url": "https://jobs.eni.com/en/sites/CX_1004/job/{id}"
- },
- {
   "id": "booking",
   "co": "Booking.com",
   "target": "booking",
@@ -989,52 +979,142 @@
   "pages": 6
  },
  {
-  "id": "google-eu",
+  "id": "google-muc",
   "co": "Google",
   "target": "deepmind",
   "big": true,
   "type": "google",
-  "pages": 15,
+  "pages": 4,
   "params": [
    [
     "location",
     "Munich, Germany"
    ],
    [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-ber",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
+   [
     "location",
     "Berlin, Germany"
    ],
+   [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-par",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
    [
     "location",
     "Paris, France"
    ],
    [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-mil",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
+   [
     "location",
     "Milan, Italy"
    ],
+   [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-ams",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
    [
     "location",
     "Amsterdam, Netherlands"
    ],
    [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-lon",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
+   [
     "location",
     "London, UK"
    ],
+   [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-dub",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
    [
     "location",
     "Dublin, Ireland"
    ],
    [
+    "sort_by",
+    "date"
+   ]
+  ]
+ },
+ {
+  "id": "google-war",
+  "co": "Google",
+  "target": "deepmind",
+  "big": true,
+  "type": "google",
+  "pages": 4,
+  "params": [
+   [
     "location",
     "Warsaw, Poland"
-   ],
-   [
-    "location",
-    "Aarhus, Denmark"
-   ],
-   [
-    "location",
-    "Stockholm, Sweden"
    ],
    [
     "sort_by",
