@@ -1,0 +1,20 @@
+[
+ {
+  "id": "sal-eth-html",
+  "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+  "status": 200,
+  "final": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+  "ctype": "text/html;charset=utf-8",
+  "bytes": 57533,
+  "title": "Salary | ETH Zurich"
+ },
+ {
+  "id": "kul-appjs",
+  "url": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/api/appJs/latest",
+  "status": 200,
+  "final": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/api/appJs/latest",
+  "ctype": "application/json",
+  "bytes": 134,
+  "title": ""
+ }
+]
