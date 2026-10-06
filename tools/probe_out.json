@@ -1,0 +1,29 @@
+[
+ {
+  "id": "sal-eth",
+  "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+  "status": 200,
+  "final": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+  "ctype": "text/html;charset=utf-8",
+  "bytes": 57533,
+  "title": "Salary | ETH Zurich"
+ },
+ {
+  "id": "kul-js",
+  "url": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/js/get_latest_app_js.js",
+  "status": 200,
+  "final": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/js/get_latest_app_js.js",
+  "ctype": "application/javascript",
+  "bytes": 237,
+  "title": ""
+ },
+ {
+  "id": "sal-uzh2",
+  "url": "https://www.uzh.ch/en/explore/work/working-conditions/salary.html",
+  "status": 404,
+  "final": "https://www.uzh.ch/en/explore/work/working-conditions/salary.html",
+  "ctype": "text/html;charset=UTF-8",
+  "bytes": 133499,
+  "title": "404 - page not found! | University of Zurich | UZH"
+ }
+]
