@@ -1,12 +1,12 @@
 [
  {
-  "id": "sal-eth-html",
-  "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+  "id": "sal-eth-json",
+  "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary/_jcr_content/par/accordion/accordionitem/par/table_563363501_copy_968822674.tableComp.json",
   "mode": "raw"
  },
  {
-  "id": "kul-appjs",
-  "url": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/api/appJs/latest",
+  "id": "kul-app",
+  "url": "https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/js/app.js?id=7ff0bc1bd308156724b8cef0c50674d3",
   "mode": "raw"
  }
 ]
