@@ -100,7 +100,8 @@ PHD_TOPIC = re.compile(
     r"sensor|sensing|wearable|robot|vision|imaging|image|ultrasound|acoustic|biomedical|health|medical|"
     r"computational|algorithm|autonom|embedded|edge|hardware|\bLLMs?\b|language model|foundation model|"
     r"generative|time series|control|digital twin|statistic|computer|information technology|"
-    r"electrical|electronic|informatics|intelligen|neuro", re.I)
+    r"electrical|electronic|informatics|intelligen|neuro|physiolog|biosignal|\bECG\b|\bEEG\b|\bEMG\b|"
+    r"gait|motion|movement|perception|radar|wireless|speech|audio", re.I)
 
 
 def keep_title(src, r):
@@ -1022,6 +1023,30 @@ def ugent_list(src):
     return out, True
 
 
+def kuleuven_list(src):
+    """KU Leuven jobsite: the search API behind the PhD vacancy page (15 results per page)."""
+    base = ("https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/api/projects/"
+            + src.get("project", "Jobsite_phd") + "/search")
+    hdr = {"Origin": "https://www.kuleuven.be", "Referer": "https://www.kuleuven.be/personeel/jobsite/jobs/phd?lang=en"}
+    out = {}
+    for page in range(src.get("pages", 10)):
+        d = http("POST", base + (f"?page={page}" if page else ""),
+                 json_body={"_locale": "en", "environment": "production"}, headers=hdr)
+        hits = d.get("hits") or []
+        for h in hits:
+            s = h.get("_source") or {}
+            p = s.get("posting") or {}
+            jid = s.get("id") or h.get("_id")
+            ab = str(s.get("applyBefore") or "")
+            r = rec(src, jid, p.get("title"), f"https://www.kuleuven.be/personeel/jobsite/jobs/{jid}?lang=en",
+                    s.get("city") or "", None, desc=p.get("teaser"), dept=s.get("orgUnitDescription") or "",
+                    deadline=f"{ab[:4]}-{ab[4:6]}-{ab[6:8]}" if re.fullmatch(r"\d{8}", ab) else None)
+            out[r["key"]] = r
+        if not hits or len(out) >= (d.get("total_nb_hits") or 0):
+            break
+    return list(out.values()), True
+
+
 def watch_list(src):
     """Pages without a job list: report when their text changes."""
     text = page_text(src["url"])
@@ -1053,6 +1078,7 @@ ADAPTERS = {
     "prospective": (prospective_list, None),
     "academictransfer": (academictransfer_list, None),
     "ugent": (ugent_list, generic_detail),
+    "kuleuven": (kuleuven_list, generic_detail),
 }
 
 

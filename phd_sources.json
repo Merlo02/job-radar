@@ -2,7 +2,7 @@
  {"id": "ethz-phd", "co": "ETH Zurich", "type": "ethz", "url": "https://jobs.ethz.ch/?lang=en", "country": "ch", "big": true},
  {"id": "uzh-phd", "co": "Università di Zurigo (UZH)", "type": "prospective", "medium": "1002007", "country": "ch", "loc_default": "Zürich", "big": true},
  {"id": "epfl-phd", "co": "EPFL", "type": "sf_rss", "host": "careers.epfl.ch", "locale": "en_US", "queries": ["doctoral", "PhD", "doctorant"], "country": "ch", "big": true},
- {"id": "at-nl", "co": "AcademicTransfer", "type": "academictransfer", "country": "nl", "ignore_location": true, "topic": false, "big": true, "pages": 12,
-  "queries": ["machine learning", "deep learning", "artificial intelligence", "computer vision", "signal processing", "foundation model", "wearable", "embedded", "robot", "time series", "medical imaging", "ultrasound", "neural network", "reinforcement learning", "language model", "edge AI"]},
- {"id": "ugent-phd", "co": "Ghent University", "type": "ugent", "url": "https://www.ugent.be/en/work/scientific", "country": "be", "loc_default": "Gent, Belgium", "ignore_location": true, "all_phd": true, "big": true}
+ {"id": "at-nl", "co": "AcademicTransfer", "type": "academictransfer", "country": "nl", "ignore_location": true, "big": true, "pages": 12, "queries": ["machine learning", "deep learning", "artificial intelligence", "computer vision", "signal processing", "foundation model", "wearable", "embedded", "robot", "time series", "medical imaging", "ultrasound", "neural network", "reinforcement learning", "language model", "edge AI"]},
+ {"id": "ugent-phd", "co": "Ghent University", "type": "ugent", "url": "https://www.ugent.be/en/work/scientific", "country": "be", "loc_default": "Gent, Belgium", "ignore_location": true, "all_phd": true, "big": true},
+ {"id": "kuleuven-phd", "co": "KU Leuven", "type": "kuleuven", "project": "Jobsite_phd", "country": "be", "ignore_location": true, "all_phd": true, "big": true}
 ]
