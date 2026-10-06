@@ -3,7 +3,7 @@ name: Probe (one-off checks)
 on:
   push:
     branches: ["claude/**"]
-    paths: ["tools/probe_in.json", "tools/probe.py"]
+    paths: ["tools/probe_in.json", "tools/probe.py", "phd_sources.json", "scan.py"]
   workflow_dispatch:
 
 permissions:
@@ -20,11 +20,13 @@ jobs:
           python-version: "3.12"
       - run: pip install requests pypdf
       - run: python tools/probe.py
+      - name: PhD scan (test of the phd profile)
+        run: SCAN_PROFILE=phd python scan.py
       - name: Save results
         run: |
           git config user.name "job-scanner"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tools/probe_out.json tools/raw 2>/dev/null || git add tools/probe_out.json
+          git add tools/probe_out.json out/phd_*.json; git add tools/raw 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "probe results"
           for i in 1 2 3; do

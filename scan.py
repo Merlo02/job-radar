@@ -12,6 +12,9 @@ and writes into out/:
   status.json   health of every source in the last run
   state.json    internal memory between runs
 
+With SCAN_PROFILE=phd it reads phd_sources.json instead, keeps funded PhD positions
+(title filter below) and writes the same files with a phd_ prefix (phd_recent.json, ...).
+
 Only the standard library and `requests` are needed.
 """
 import concurrent.futures as cf
@@ -36,6 +39,8 @@ OUT = os.path.join(ROOT, "out")
 NOW = dt.datetime.now(dt.timezone.utc)
 NOW_ISO = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 TODAY = NOW.date()
+PROFILE = os.environ.get("SCAN_PROFILE", "jobs")   # "jobs" or "phd"
+PREFIX = "phd_" if PROFILE == "phd" else ""
 
 RECENT_DAYS = 7      # how long a posting stays in recent.json
 CLOSED_DAYS = 14     # how long a closure stays in closed.json
@@ -85,6 +90,28 @@ EXCLUDE = re.compile(
     r"\bQA\b|quality assurance|test automation|product analytics|devops|infrastructure engineer|"
     r"\bL[6-9]\b|\bIC[5-9]\b|\bP[5-9]\b|\bE[6-9]\b",
     re.I)
+
+
+PHD_RE = re.compile(r"\bph\.?\s?d\b|doctoral|doctorate|doctoraat|promovend|doktorand|doctorant|dottorat", re.I)
+PHD_EXCLUDE = re.compile(r"post-?doc|postdoctoral|professor|lecturer|master'?s? (?:thesis|project)|"
+                         r"student assistant|internship|technician|\bmanager\b|pre-?doctoral", re.I)
+PHD_TOPIC = re.compile(
+    r"machine learning|deep learning|\bAI\b|artificial intelligence|neural|learning\b|\bdata\b|signal|"
+    r"sensor|sensing|wearable|robot|vision|imaging|image|ultrasound|acoustic|biomedical|health|medical|"
+    r"computational|algorithm|autonom|embedded|edge|hardware|\bLLMs?\b|language model|foundation model|"
+    r"generative|time series|control|digital twin|statistic|computer|information technology|"
+    r"electrical|electronic|informatics|intelligen|neuro", re.I)
+
+
+def keep_title(src, r):
+    if PROFILE != "phd":
+        return title_ok(r["title"])
+    t = r.get("title") or ""
+    if PHD_EXCLUDE.search(t):
+        return False
+    if not (r.get("_is_phd") or src.get("all_phd") or PHD_RE.search(t)):
+        return False
+    return src.get("topic") is False or bool(PHD_TOPIC.search(t + " " + (r.get("dept") or "")))
 
 
 def title_ok(title):
@@ -360,6 +387,8 @@ def rec(src, jid, title, url, loc="", posted=None, desc=None, **extra):
     }
     if desc:
         r["desc_full"] = desc
+    if src.get("country"):
+        r["country"] = src["country"]
     r.update(extra)
     return r
 
@@ -896,6 +925,103 @@ def sitemap_detail(src, r):
             r["loc"] = mm.group(1).strip()
 
 
+def ethz_list(src):
+    """ETH Zurich job portal: one server-rendered page with every open position."""
+    html = http("GET", src.get("url", "https://jobs.ethz.ch/?lang=en"), expect="text")
+    out = []
+    for m in re.finditer(r'<a href="(/job/view/[^"]+)" class="job-ad__item__link".*?job-ad__item__title">(.*?)</h3>'
+                         r'.*?job-ad__item__details">(.*?)</div>.*?job-ad__item__company">(.*?)</div>', html, re.S):
+        path, title, details, company = m.groups()
+        date, _, dept = strip_html(company).partition("|")
+        d = re.match(r"(\d{2})\.(\d{2})\.(\d{4})", date.strip())
+        posted = f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None
+        out.append(rec(src, path.rsplit("/", 1)[-1], strip_html(title), urljoin("https://jobs.ethz.ch", path),
+                       strip_html(details), posted, dept=re.sub(r"\s+", " ", dept).strip(" |")))
+    return out, True
+
+
+def prospective_list(src):
+    """prospective.ch job feeds (University of Zurich and others)."""
+    out, off = [], 0
+    while True:
+        d = http("GET", f"https://ohws.prospective.ch/public/v1/medium/{src['medium']}/jobs?lang=en&limit=100&offset={off}")
+        jobs = d.get("jobs") or []
+        for j in jobs:
+            sz = j.get("szas") or {}
+            desc = strip_html(" ".join(str(sz.get(k) or "") for k in
+                                       ("sza_tasks", "sza_profile", "sza_requirements", "sza_offer", "sza_starting_date")))
+            out.append(rec(src, j["id"], j.get("title"), (j.get("links") or {}).get("directlink"),
+                           sz.get("sza_location.city") or src.get("loc_default", ""), j.get("start_date"),
+                           desc=desc, dept=strip_html(sz.get("sza_department") or "")))
+        off += 100
+        if not jobs or off >= (d.get("total") or 0):
+            break
+    return out, True
+
+
+def nuxt_values(html):
+    """Decode the __NUXT_DATA__ payload of a Nuxt page and return every object in it."""
+    m = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return []
+    arr = json.loads(m.group(1))
+
+    def res(v, depth=0):
+        if depth > 10 or isinstance(v, bool) or not isinstance(v, int) or not 0 <= v < len(arr):
+            return v
+        x = arr[v]
+        if isinstance(x, dict):
+            return {k: res(y, depth + 1) for k, y in x.items()}
+        if isinstance(x, list):
+            if x and x[0] in ("ShallowReactive", "Reactive", "Ref", "ShallowRef"):
+                return res(x[1], depth + 1)
+            return [res(y, depth + 1) for y in x]
+        return x
+    return [res(i) for i, x in enumerate(arr) if isinstance(x, dict)]
+
+
+def academictransfer_list(src):
+    """AcademicTransfer (all Dutch universities): keyword searches, 10 results per page."""
+    out = {}
+    for q in queries_for(src):
+        for page in range(src.get("pages", 10)):
+            url = f"https://www.academictransfer.com/en/jobs/?q={quote(q)}" + (f"&offset={page * 10}" if page else "")
+            vals = [v for v in nuxt_values(http("GET", url, expect="text"))
+                    if "absolute_url" in v and "function_types" in v]
+            for v in vals:
+                if 9 not in (v.get("function_types") or []):   # 9 = PhD position
+                    continue
+                sal = None
+                if v.get("min_salary"):
+                    sal = f"€{v['min_salary']}–{v.get('max_salary') or v['min_salary']} lordi/mese"
+                r = rec(src, v.get("external_id") or v.get("id"), v.get("title"), v.get("absolute_url"),
+                        v.get("city") or "", v.get("created_datetime"),
+                        desc=strip_html((v.get("description") or "") + "\n" + (v.get("requirements") or "")),
+                        dept=v.get("department_name") or "", deadline=to_date(v.get("end_date")), salary=sal,
+                        _is_phd=True)
+                r["co"] = v.get("organisation_name") or r["co"]
+                out[r["key"]] = r
+            if len(vals) < 10:
+                break
+    return list(out.values()), False
+
+
+def ugent_list(src):
+    """Ghent University: table of open doctoral fellowships."""
+    html = http("GET", src["url"], expect="text")
+    out = []
+    for row in re.findall(r"<tr.*?</tr>", html, re.S):
+        m = re.search(r'href="([^"]*/doctoral-fellow-(\d+))"', row)
+        if not m:
+            continue
+        cells = [strip_html(c) for c in re.findall(r"<td.*?</td>", row, re.S)]
+        dl = re.search(r"(\d{4}-\d{2}-\d{2})", row)
+        out.append(rec(src, m.group(2), cells[0] if cells else "Doctoral fellow", urljoin(src["url"], m.group(1)),
+                       src.get("loc_default", ""), None, dept=cells[1] if len(cells) > 1 else "",
+                       deadline=dl.group(1) if dl else None))
+    return out, True
+
+
 def watch_list(src):
     """Pages without a job list: report when their text changes."""
     text = page_text(src["url"])
@@ -923,6 +1049,10 @@ ADAPTERS = {
     "links": (links_list, generic_detail),
     "sitemap": (sitemap_list, sitemap_detail),
     "watch": (watch_list, None),
+    "ethz": (ethz_list, generic_detail),
+    "prospective": (prospective_list, None),
+    "academictransfer": (academictransfer_list, None),
+    "ugent": (ugent_list, generic_detail),
 }
 
 
@@ -965,7 +1095,7 @@ def run_source(src, known_keys, has_detail):
             if r["key"] in seen:
                 continue
             seen.add(r["key"])
-            if not title_ok(r["title"]):
+            if not keep_title(src, r):
                 continue
             if src.get("exclude") and re.search(src["exclude"], r["title"], re.I):
                 continue
@@ -986,7 +1116,7 @@ def run_source(src, known_keys, has_detail):
                     continue
                 except Exception as e:
                     r["detail_error"] = str(e)[:160]
-                if r.get("_slug_title") and not title_ok(r["title"]):
+                if r.get("_slug_title") and not keep_title(src, r):
                     continue
                 ls = loc_status(r.get("loc"))
                 if ls == "no" and not src.get("ignore_location"):
@@ -1005,7 +1135,7 @@ def run_source(src, known_keys, has_detail):
 
 def public(e, with_desc):
     keys = ["key", "co", "target", "big", "title", "url", "loc", "loc_status", "posted",
-            "first_seen", "last_seen", "baseline", "ats"]
+            "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary"]
     if with_desc:
         keys += ["desc", "signals"]
     return {k: e.get(k) for k in keys if e.get(k) not in (None, "")}
@@ -1013,16 +1143,16 @@ def public(e, with_desc):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    sources = load(os.path.join(ROOT, "sources.json"), [])
+    sources = load(os.path.join(ROOT, PREFIX + "sources.json"), [])
     only = set(sys.argv[1:])
     if only:
         sources = [s for s in sources if s["id"] in only]
-    state = load(os.path.join(OUT, "state.json"), {"jobs": {}, "meta": {}})
+    state = load(os.path.join(OUT, PREFIX + "state.json"), {"jobs": {}, "meta": {}})
     jobs, meta = state["jobs"], state["meta"]
     meta.setdefault("raw_counts", {})
     meta.setdefault("sources_seen", [])
     meta.setdefault("watch", {})
-    closed = [c for c in load(os.path.join(OUT, "closed.json"), {"items": []}).get("items", [])
+    closed = [c for c in load(os.path.join(OUT, PREFIX + "closed.json"), {"items": []}).get("items", [])
               if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
 
     known = set(jobs)
@@ -1080,6 +1210,7 @@ def main():
                 if e is None:
                     e = {x: r.get(x) for x in ("key", "src", "co", "target", "big", "ats", "id", "title",
                                                "url", "loc", "loc_status", "posted")}
+                    e.update({x: r[x] for x in ("country", "dept", "deadline", "salary") if r.get(x)})
                     e["first_seen"] = NOW_ISO
                     if baseline:
                         e["baseline"] = True
@@ -1096,6 +1227,7 @@ def main():
                         e["loc"], e["loc_status"] = r["loc"], r.get("loc_status")
                     if r.get("posted") and not e.get("posted"):
                         e["posted"] = r["posted"]
+                    e.update({x: r[x] for x in ("deadline", "salary") if r.get(x)})
                 e["last_seen"] = NOW_ISO
                 if desc_full:
                     e["det"] = True
@@ -1147,13 +1279,13 @@ def main():
     statuses.sort(key=lambda s: s["id"])
     failed = [s["id"] for s in statuses if not s.get("ok")]
 
-    save(os.path.join(OUT, "state.json"), {"jobs": jobs, "meta": meta})
-    save(os.path.join(OUT, "recent.json"), {"generated": NOW_ISO, "days": RECENT_DAYS,
+    save(os.path.join(OUT, PREFIX + "state.json"), {"jobs": jobs, "meta": meta})
+    save(os.path.join(OUT, PREFIX + "recent.json"), {"generated": NOW_ISO, "days": RECENT_DAYS,
                                            "count": len(recent), "items": recent})
-    save(os.path.join(OUT, "open.json"), {"generated": NOW_ISO, "count": len(open_), "items": open_})
-    save(os.path.join(OUT, "closed.json"), {"generated": NOW_ISO, "days": CLOSED_DAYS,
+    save(os.path.join(OUT, PREFIX + "open.json"), {"generated": NOW_ISO, "count": len(open_), "items": open_})
+    save(os.path.join(OUT, PREFIX + "closed.json"), {"generated": NOW_ISO, "days": CLOSED_DAYS,
                                            "count": len(closed), "items": closed})
-    save(os.path.join(OUT, "status.json"), {
+    save(os.path.join(OUT, PREFIX + "status.json"), {
         "run_at": NOW_ISO, "duration_s": round(time.time() - t0),
         "sources": len(statuses), "failed": failed, "new": new_total,
         "open": len(open_), "recent": len(recent), "details": statuses})

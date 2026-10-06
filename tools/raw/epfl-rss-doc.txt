@@ -1,957 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?><rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'><channel><atom:link href='https://careers.epfl.ch/feeds/(doctoral)/?locale=en_US' rel='self' type='application/rss+xml' /><title>EPFL - Custom Search (doctoral)</title><link>https://careers.epfl.ch/feeds/(doctoral)/?locale=en_US</link><description>Custom RSS Feed for EPFL</description><lastBuildDate>Tue, 6 Oct 2026 10:15:28 GMT</lastBuildDate><language>en-us</language><image><url></url><title><![CDATA[EPFL - Custom Search (doctoral)]]></title><link>https://careers.epfl.ch/feeds/(doctoral)/?locale=en_US</link></image><ttl>720</ttl> <item><title><![CDATA[PhD: Urban provisioning systems, sufficiency behaviour, and well-being (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><table style="width:100%" border="1" cellspacing="1" cellpadding="1">
-<tbody>
-<tr>
-<td>
-<p>Connecting urban systems, human behaviour, and well-being: How can cities reduce resource use and carbon emissions while maintaining or improving human well-being? How do changes in urban provisioning systems influence citizens’ perceptions, behaviours, and everyday choices? And how do these individual changes translate into changes in resource demand and material and energy flows across urban systems?</p>
-<p> </p>
-<p>The Laboratory for Human-Environment Relations in Urban Systems (HERUS) at the School of Architecture, Civil and Environmental Engineering (ENAC), EPFL, investigates how urban systems transform towards sustainability. A key challenge is understanding how changes in urban infrastructure and provisioning systems can be aligned with low-carbon futures, social acceptance, and human well-being.</p>
-<p> </p>
-<p>Within a planned interdisciplinary research project in collaboration with the University of Freiburg im Breisgau, Germany, we investigate how transformations of urban provisioning systems can contribute to low-carbon futures and improved human well-being at the city scale.</p>
-<p> </p>
-<p><br>The PhD project will examine how urban planning interventions and changes in provisioning systems influence citizens’ perceptions, behavioural choices, and subjective well-being. A central aim is to connect these social and behavioural dimensions with socio-metabolic research, investigating how individual behaviours translate into changes in resource demand and material and energy flows across urban systems.</p>
-<p> </p>
-<p>The successful candidate will work in close collaboration with our partners at the University of Freiburg, as well as with the HERUS research team. </p>
-<p> </p>
-</td>
-</tr>
-</tbody>
-</table></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><ul>
-<li>Develop an interdisciplinary framework connecting urban provisioning systems, resource flows, citizens’ behaviour, perceptions, and well-being.</li>
-<li>Conduct a systematic review of urban interventions and demand-side options across key services, including housing, mobility, and public amenities.</li>
-<li>Develop and spatially enrich high-resolution synthetic household populations for selected case-study cities by integrating micro-census, survey, and socio-metabolic data.</li>
-<li>Design and conduct empirical research, including surveys, discrete choice experiments, interviews, and stakeholder workshops, to investigate citizens’ preferences and perceptions and support the co-design of urban interventions. </li>
-<li>Analyse how behavioural changes translate into changes in resource demand and urban socio-metabolic profiles. </li>
-<li>Conduct research in close collaboration with the HERUS team and project partners under the co-supervision of Prof. Claudia R. Binder and Dr. Maria Anna Hecher.</li>
-<li>Publish research findings in international peer-reviewed journals and present them at scientific conferences.</li>
-<li>Contribute to teaching and student supervision at EPFL (20%).</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>An excellent MSc degree in Social Sciences, Environmental Sciences, Environmental Systems Sciences, Sustainability Science, Geography, Urban Planning, or a closely related interdisciplinary field.</li>
-<li>A strong interest in connecting social and behavioural perspectives with biophysical and material dimensions of urban systems.</li>
-<li>An interest in socio-technical transitions, human-environment interactions, sustainability science, and/or urban systems.</li>
-<li>Experience or strong interest in quantitative or mixed-methods research, such as survey design, statistical analysis, or choice modelling, as well as spatial data analysis and micro-data modelling.</li>
-<li>Excellent analytical and problem-solving skills, strong communication and teamwork abilities, and the capacity to work independently.</li>
-<li>A high level of motivation for problem-driven interdisciplinary research.</li>
-<li>Excellent written and spoken English. Knowledge of French and/or German is a strong asset, particularly for empirical fieldwork.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>A PhD position for up to four years within an interdisciplinary and international research environment at EPFL.</li>
-<li>The opportunity to work at the intersection of urban sustainability, human behaviour, socio-metabolic research, and spatial analysis.</li>
-<li>Close collaboration with researchers at HERUS and the University of Freiburg.</li>
-<li>The opportunity to develop an independent research profile while contributing to a broader interdisciplinary research project.</li>
-<li>Structured doctoral training through EPFL doctoral programs and close research mentorship.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span> </p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, i.e. EDCE.<br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p> </p>
-<p>Your application should contain:</p>
-<ul>
-<li>A motivation letter: A statement (max. one page) where you outline why you want to join this group, what your specific interests are, how your skills can contribute to the mission of the HERUS laboratory and how you think you can advance in your own academic/scholarly pursuit while being a part of the team.</li>
-<li>Detailed CV</li>
-<li>Contact information</li>
-<li>The names and contact information of 3 references</li>
-<li>Transcript of records (Bachelor and Master)</li>
-</ul>
-<p> </p>
-<p>Application deadline: 12.11.2026</p>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: 01.02.2026</p>
-<p>Activity Rate: 100%</p>
-<p>Contract Type: CDD</p>
-<p>Duration: 4 years</p>
-<p>Reference: 2504</p>
-<p>Contact: claudia.binder@epfl.ch</p>
-<p><br>For inquiries regarding the position and project scope, please contact Prof. Claudia R. Binder (claudia.binder@epfl.ch) or Dr. Maria Anna Hecher (maria.hecher@epfl.ch). <br>For more information on past and ongoing research at HERUS, please visit: <a href="http://herus.epfl.ch/">http://herus.epfl.ch/</a> </p></div></div></div>]]></description><pubDate>Tue, 06 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Urban-provisioning-systems%2C-sufficiency-behaviour%2C-and-well-being/1165557355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Urban-provisioning-systems%2C-sufficiency-behaviour%2C-and-well-being/1165557355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD : Trade-off and tipping dynamics in urban transitions at EPFL (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>Understanding how urban sustainability transitions interact: How do transformations in different urban sectors—such as energy and food—interact? Under what conditions do they reinforce one another or create trade-offs, and when do they trigger tipping dynamics?</p>
-<p> </p>
-<p>The Laboratory for Human-Environment Relations in Urban Systems (HERUS) at the School of Architecture, Civil and Environmental Engineering (ENAC), EPFL, investigates how urban systems transform towards sustainability. We are looking for a PhD candidate to investigate coupled sustainability transitions, with an initial focus on the interactions between energy and food systems. </p>
-<p> </p>
-<p>The PhD project is embedded within the ongoing research project “Tipping Transition”, which investigates the drivers and dynamics of renewable energy technology adoption in housing in Lausanne. An interdisciplinary agent-based model (ABM) has been developed to represent the energy transition at the level of Lausanne, integrating not only economic factors but also social and behavioural dimensions, such as attitudes, social norm, and their evolution over time. </p>
-<p> </p>
-<p>The PhD project “Trade-off and tipping dynamics in urban transitions “ will extend this modelling framework to investigate interactions between different urban sectors, initially focusing on energy and food. A particular focus will be placed on the role of provisioning systems—the infrastructures, technologies, institutions, markets, and practices through which goods and services are provided—in enabling or constraining sustainability transitions. </p>
-<p> </p>
-<p>The successful candidate will work in collaboration with a current PhD researcher developing the energy transition model. This provides an opportunity to build on an established modelling framework, contribute to its further development, and benefit from expertise and ongoing research. </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><ul>
-<li>Develop a framework for analyzing coupled sustainability transitions in urban systems. </li>
-<li>Extend and further develop an interdisciplinary agent-based model of urban transitions in Lausanne. </li>
-<li>Investigate synergies, trade-offs, and tipping dynamics between sectors such as energy and food. </li>
-<li>Analyse how changes in provisioning systems influence sustainability transitions </li>
-<li>Develop and conduct your own research under the guidance of Prof. Claudia R. Binder. </li>
-<li>Collaborate closely with the HERUS research team and the existing PhD project. </li>
-<li>Publish research findings in international peer-reviewed journals and present them at scientific conferences. </li>
-<li>Contribute to teaching and student supervision at EPFL (20%). </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>An excellent MSc degree in Computer Science, Energy Science, Social Sciences, Environmental Sciences, Sustainability Science, Geography, or a closely related interdiscipline.</li>
-<li>A strong interest in sustainability transitions and/or urban systems tipping dynamics.</li>
-<li>Good knowledge of computational modelling and programming. Experience with Python and agent-based modelling is particularly valuable. Knowledge of Scala or Julia is an asset. </li>
-<li>Strong analytical and problem-solving skills and an interest in interdisciplinary research. </li>
-<li>Strong communication and interpersonal skills, the ability to work independently, and a high level of motivation for academic research.</li>
-<li>Excellent written and spoken English. Knowledge of French and/or German is an asset. </li>
-</ul>
-<p> </p>
-<p>Previous experience with agent-based modelling or sustainability transitions is welcome, but candidates with a strong quantitative or computational background and an interest in developing interdisciplinary expertise are also encouraged to apply. </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>A PhD position for up to four years within an interdisciplinary and international research environment at EPFL. </li>
-<li>The opportunity to develop an independent research profile at the intersection of computational modelling, sustainability science, and urban studies. </li>
-<li>Close collaboration with the HERUS research team.</li>
-<li>The opportunity to contribute to the development of innovative approaches for understanding interconnected urban sustainability transitions.</li>
-<li>Structured doctoral training through EPFL doctoral programs and close research mentorship. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span> </p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, i.e. EDCE.<br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL.</span></span></p>
-<p>Your application should contain:</p>
-<ul>
-<li>Motivation letter: A statement (max. one page), where you outline why you want to join this group, what your specific interests are, how your skills can contribute to the mission of the HERUS laboratory and how you think you can advance in your own academic/scholarly pursuit while being a part of the team. </li>
-<li>Detailed CV</li>
-<li>Contact information </li>
-<li>The names and contact information of 3 references  </li>
-<li>Transcript of records (Bachelor and Master) </li>
-</ul>
-<p> </p>
-<p>Application deadline: 12/11/2026</p>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: 02/01/2027</p>
-<p>Activity Rate: 100.00</p>
-<p>Contract Type: CDD</p>
-<p>Duration: 4 years</p>
-<p>Reference: 2503</p>
-<p>For inquiries regarding the position and project scope, please contact Prof. Claudia R. Binder (<a href="mailto:claudia.binder@epfl.ch">claudia.binder@epfl.ch</a>) or Dr. Maria Anna Hecher (<a href="mailto:maria.hecher@epfl.ch">maria.hecher@epfl.ch</a>).</p>
-<p>For more information on past and ongoing research at HERUS, please visit: <a href="http://herus.epfl.ch/">http://herus.epfl.ch/</a></p></div></div></div>]]></description><pubDate>Mon, 05 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Trade-off-and-tipping-dynamics-in-urban-transitions-at-EPFL/1165554455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Trade-off-and-tipping-dynamics-in-urban-transitions-at-EPFL/1165554455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Postdoctoral Researcher in Advanced Flexure-Mechanism Design (W/M) (Neuchâtel, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">The Micromechanical and Horological Design Laboratory (INSTANT-LAB) at EPFL invites applications for a postdoctoral research position in advanced flexure-mechanism design.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Flexure-based mechanisms achieve motion through the elastic deformation of slender structural elements rather than through conventional sliding or rolling joints. As a class of compliant mechanisms, they enable exceptional motion precision in demanding environments such as space systems, cryogenic applications, ultra-clean settings, microelectromechanical systems, and surgical instruments.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Their main advantages include frictionless operation, the absence of backlash, reduced maintenance requirements, excellent repeatability, and long service life. Their monolithic architecture also facilitates miniaturization and simplifies manufacturing by eliminating assembly steps.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Despite significant advances in the field, flexure-mechanism design continues to be constrained by performance trade-offs. Improvements in motion range, load-carrying capability, or stiffness often result in compromises elsewhere. In addition, high-performance designs are frequently sensitive to manufacturing variations, requiring tight tolerances and increasing production costs.</span></p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">He or she will contribute to the development of a new design and modelling framework for flexure-based mechanisms that simultaneously addresses multiple performance criteria and robustness to manufacturing tolerances.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">The project combines fundamental research supported by the Swiss National Science Foundation with an industrial collaboration supported by the Swiss Innovation Agency. The successful candidate will work closely with an industrial partner whose products rely on advanced adjustable-stiffness flexure-based load cells.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">He or she will build upon more than fourteen years of expertise developed within INSTANT-LAB, an established patent portfolio, and long-standing industrial collaborations.</span></p>
-<p style="line-height:normal;margin:6.0pt 0.0cm 0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">The main responsibilities include:</span></p>
-<ul style="margin-bottom:0.0cm;margin-top:8.0px" type="disc">
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Developing analytical and numerical models for flexure-based mechanisms;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Designing innovative precision-engineering solutions;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Conducting experimental validation and performance testing;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Publishing research results in leading scientific journals;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Collaborating with academic and industrial partners;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Contributing to the advancement of the laboratory's research activities.</span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">PhD in Mechanical Engineering, Microengineering, Robotics, or a closely related field;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Expertise in analytical and numerical structural mechanics, mechanical design, and precision engineering;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">At least two peer-reviewed journal publications;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Strong experimental skills and a practical, hands-on approach;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Experience in industrial collaborations is considered an asset;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Strong motivation for interdisciplinary research;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Ability to work independently while contributing effectively to a team environment;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Creative, solution-oriented, and open-minded attitude;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Excellent command of English; knowledge of French is an advantage.</span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul style="margin-bottom:11.0px">
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Renewable one-year fixed-term contract;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Competitive remuneration package;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Opportunities for international collaboration and research visits;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Access to state-of-the-art research facilities;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">A stimulating scientific and entrepreneurial environment;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">A position located at the EPFL campus in Neuchâtel.</span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Only applications submitted through the online platform are considered. You are asked to supply by 1st December 2026 :</span></span></span></p>
-<ul style="margin-bottom:0.0cm;margin-top:8.0px" type="disc">
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">A motivation letter of one to two pages describing your research achievements, your research interests, and your motivation for joining the project;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">A detailed curriculum vitae, including a complete publication list and final grades obtained for each degree, together with the corresponding grading scale;</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">The names and contact details of at least three references (reference letters are optional);</span></li>
-<li style="line-height:normal;margin-top:6.0pt;margin-right:0.0cm;margin-bottom:0.0cm;text-align:justify;font-size:10.0pt;font-family:&#39;Times New Roman&#39;, serif;color:black"><span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Two or three representative publications or your doctoral thesis.</span></li>
-</ul>
-<p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">For any further information, please contact: <span style="font-size:11.0pt;font-family:&#39;Calibri Light&#39;, sans-serif">Dr Guillaume Lods: guillaume.lods@epfl.ch</span></span></span></span></p>
-<p style="margin-bottom:11.0px"> </p>
-<p><span style="font-size:10.0pt">Contract Start Date : 01/01/2027 </span></p>
-<p><span style="font-size:10.0pt">Activity Rate : 100.00 </span></p>
-<p><span style="font-size:10.0pt">Contract Type: CDD</span></p>
-<p><span style="font-size:10.0pt">Duration: 1 year renewable</span></p>
-<p><span style="font-size:10.0pt">Reference: 2501 </span></p></div></div></div>]]></description><pubDate>Mon, 05 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Neuch%C3%A2tel-Postdoctoral-Researcher-in-Advanced-Flexure-Mechanism-Design-%28WM%29/1165552555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Neuch%C3%A2tel-Postdoctoral-Researcher-in-Advanced-Flexure-Mechanism-Design-%28WM%29/1165552555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD Student Position in Interoperable Digital Workflows for Regenerative Building Design and Perform (Fribourg, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>The South–North Laboratory for Sustainable Construction and Conservation (SONO Lab) at EPFL is recruiting a full-time PhD Student (100%) within the School of Architecture, Civil and Environmental Engineering (ENAC), based at the EPFL Fribourg associated campus.</p>
-<p>SONO Lab investigates low-carbon, climate-responsive and socially inclusive approaches to building design, construction and conservation. Its research combines architectural design, environmental assessment, digital methods, full-scale experimentation, building-performance monitoring and participatory approaches, with a particular focus on collaborations between Europe and Africa.</p>
-<p>The successful candidate will contribute to REGEN4BE—Regenerative Design for the Built Environment, a Horizon Europe project developed within the New European Bauhaus framework. REGEN4BE seeks to make regenerative design measurable, interoperable and scalable through digital tools, innovative materials, participatory processes, Living Labs and policy development. Its outputs include a Regenerative Evaluation Framework and the Regenerative Design Intelligence Platform (REDIP). Fribourg is one of the project’s European demonstration and replication sites.</p>
-<p>Within REGEN4BE, the candidate will develop and scientifically validate interoperable digital workflows linking Building Information Modelling (BIM), Building Energy Modelling (BEM), Life-Cycle Assessment (LCA), embodied and operational carbon, circularity and material-reuse indicators, building monitoring, sensor data, Post-Occupancy Evaluation (PoE), and feedback from building operation into future design decisions.</p>
-<p>The methods will be developed and tested through the REGEN4BE Fribourg demonstration activities, using Smart Living Lab data and infrastructure in close collaboration with the Building2050 team.</p>
-<p>As an integrated strand of the doctoral thesis, the candidate will apply and adapt the REGEN4BE framework to selected earth-block and Limestone Calcined Clay Cement (LC3)-based housing systems in African contexts. Building on SONO’s projects and partnerships, this research will examine how local materials, passive environmental strategies, construction processes, whole-life carbon, circularity, repairability, measured building performance and residents’ experience can inform regenerative design.</p>
-<p>The European and African research strands will form one coherent doctoral project. The candidate will contribute to a generic interoperability framework within REGEN4BE and assess its transferability and necessary adaptation across different materials, climates, construction cultures and levels of digital infrastructure.</p>
-<p> </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will take scientific responsibility for developing and completing your doctoral dissertation, formulate original research questions, and establish a rigorous methodology. You will conduct computational, experimental and field-based research in collaboration with academic, technical, institutional, software-development and industry partners. Your responsibilities will include collecting, managing, analysing and interpreting quantitative and qualitative data, preparing articles for peer-reviewed journals, presenting findings at conferences, workshops and project meetings, contributing to REGEN4BE deliverables, demonstrations and dissemination activities, and participating in teaching and, where appropriate, the supervision of student projects.</p>
-<p>Within REGEN4BE, you will contribute to the development and scientific validation of the Regenerative Design Intelligence Platform (REDIP) and its building-data and performance-assessment workflows. You will develop and test interoperable methods linking BIM, openBIM and IFC with building-energy models, Life-Cycle Assessment, whole-life-carbon calculations, circularity indicators, monitoring data, occupant feedback and Post-Occupancy Evaluation. You will investigate data continuity, traceability, uncertainty and interoperability across the design, construction and operational phases of buildings, and define information requirements and data structures for exchanging geometry, materials, environmental indicators, measured performance and occupant feedback across digital environments.</p>
-<p>You will establish protocols for assessing the reliability, accuracy, completeness, reproducibility and usability of the proposed workflows. Using Smart Living Lab datasets and infrastructure, you will undertake full-scale testing, data collection, model calibration and scientific validation in Fribourg. You will compare predicted and simulated performance with measured environmental conditions and occupant experience, and collaborate with Building2050, relevant EPFL laboratories and ENAC research platforms, including PL-MTI where applicable. You will also support the scientific specification, testing and validation of APIs, connectors, data pipelines and interfaces in coordination with the project’s software-development partners, and assess the transferability of the methods across REGEN4BE demonstration sites and different building, climatic and institutional contexts.</p>
-<p>As part of the doctoral thesis, you will apply and adapt the REGEN4BE framework to selected SONO housing projects and partnerships in Africa. You will develop BIM information structures for earth blocks, compressed and stabilised-earth systems, LC3-based blocks, mortars, concrete components and related assemblies, incorporating locally specific material and construction data. You will investigate BIM-to-BEM workflows for passive environmental performance, including thermal mass, solar protection, natural ventilation, indoor air movement, temperature, humidity and occupant-controlled openings. You will also develop BIM-linked LCA, whole-life-carbon and circularity methods for locally produced, low-carbon and repairable construction, determine which methods are transferable and which require adaptation to local climatic, material, economic, technical and social conditions, and translate the findings into design recommendations and decision-support methods for climate-responsive and regenerative housing.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>A Master’s degree in architecture, architectural engineering, building science, civil engineering, mechanical engineering, computational design, environmental engineering, or a related field</li>
-<li>Strong interest in the intersection of architectural design, building technology, environmental performance, and digital methods</li>
-<li>Experience with BIM workflows and an interest in open, interoperable digital environments, including IFC</li>
-<li>Knowledge or experience in one or more of the following areas:<br>- building energy modelling and simulation;<br>- Life Cycle Assessment;<br>- embodied- and operational-carbon assessment;<br>- circular construction;<br>- building monitoring and Post-Occupancy Evaluation;<br>- computational design;<br>- building-data interoperability</li>
-<li>Strong data-analysis skills and the ability to work with heterogeneous datasets from digital models, simulations, environmental databases, sensors, surveys, and interviews</li>
-</ul>
-<ul>
-<li>Experience in scientific programming, scripting, or workflow automation. Knowledge of Python or an equivalent language is highly desirable</li>
-<li>Experience with APIs, databases, visual programming, parametric design, or data visualization is an asset.<br>Interest in earth construction, low-carbon cementitious systems, LC3, passive environmental design, and housing in African contexts</li>
-<li>Interest in full-scale experimentation, Living Labs, and the links between research, design, construction, building operation, and occupant experience</li>
-<li>Ability to conduct fieldwork and collaborate with researchers, professionals, contractors, institutions, communities, and residents</li>
-<li>Capacity to formulate original research questions, develop rigorous validation methods, and communicate findings through peer-reviewed scientific publications</li>
-<li>Excellent written and spoken English; French is an asset</li>
-<li>Scientific autonomy, intellectual curiosity, and the ability to work effectively in an interdisciplinary and international research environment.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>Four years to complete your PhD, with competitive remuneration according to EPFL employment conditions</li>
-<li>Membership in the EPFL Doctoral Program in Architecture and Sciences of the City—EDAR, subject to formal admission by the programme</li>
-<li>An opportunity to develop a distinctive scientific profile at the intersection of regenerative design, building-data interoperability, environmental simulation, whole-life-carbon assessment, circular construction, building monitoring and low-carbon materials</li>
-<li>Participation in a major international Horizon Europe consortium involving academic, public, technical, design and industry partners</li>
-<li>A world-class research and training environment with access to the Smart Living Lab, Building2050 expertise and relevant EPFL research infrastructure</li>
-<li>Opportunities for full-scale experimentation, international collaboration and field research connected to SONO’s projects and partnerships</li>
-<li>A multicultural and stimulating working environment at EPFL’s Fribourg associated campus</li>
-<li>A one-year fixed-term contract, renewable annually for a total planned duration of four years, subject to satisfactory progress and applicable EPFL employment conditions.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span> </p>
-<p>The doctoral candidate will be based at the South–North Laboratory for Sustainable Construction and Conservation—SONO Lab, within EPFL’s School of Architecture, Civil and Environmental Engineering, at the EPFL Fribourg associated campus. The thesis will be supervised by Prof. Aziza Chaouni.</p>
-<p>The candidate will collaborate closely with, the REGEN4BE consortium; Smart Living Lab researchers and technical teams; Building2050; relevant EPFL laboratories and research platforms; SONO Lab’s academic and institutional partners in Africa; local researchers, professionals, construction partners, communities and building users involved in the selected case studies.</p>
-<p> </p>
-<p><strong><span style="color:black">Application documents</span></strong></p>
-<p> </p>
-<p>Applications must include:</p>
-<ul>
-<li>A one-page motivation letter explaining your interest in the position and how your experience relates to the proposed research</li>
-<li>A detailed curriculum vitae, including your address, email and telephone number</li>
-<li>Copies of university diplomas and academic transcripts</li>
-<li>A research statement of no more than two pages outlining your relevant methodological experience and initial research interests</li>
-<li>One representative sample of relevant work, such as a publication, portfolio, thesis excerpt, research report, computational portfolio or technical project</li>
-<li>The names, affiliations and contact details of three referees willing to provide recommendations.</li>
-</ul>
-<p>Please do not upload reference letters with the recruitment application. Only the referees’ names and contact details are required at this stage. They may later be contacted directly by the hiring manager. The separate EDAR application follows its own confidential recommendation procedure.</p>
-<p> </p>
-<p>PhD application deadline: 1st October 2026<br>EDAR application deadline: 15 September 2026<br>Contract start date: 15 January 2027<br>Activity rate: 100%<br>Contract type: Fixed-term contract—CDD<br>Duration: Four years, from  15 January 2027 to 14 January 2031</p>
-<p>For questions regarding the scientific content of the position, please contact aziza.chaouni@epfl.ch.</p>
-<p>Applications must be submitted through the official EPFL recruitment platform. Applications sent by email will not be considered formal applications</p></div></div></div>]]></description><pubDate>Sat, 03 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Fribourg-PhD-Student-Position-in-Interoperable-Digital-Workflows-for-Regenerative-Building-Design-and-Perform/1165384655/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Fribourg-PhD-Student-Position-in-Interoperable-Digital-Workflows-for-Regenerative-Building-Design-and-Perform/1165384655/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Postdoc at the Digital and Cognitive Musicology Lab, EPFL Lausanne (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profil</b></H2></div><div><ul style="margin-bottom:11.0px">
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">PhD (or nearing completion of) in ….</span></span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Background in….</span></span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Research experience in ...</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Strong computational and analytical skills…</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Experimental skills and experience in analyzing …</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Publication record (relative to your career stage) in internationally leading journals</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Independent, creative, and solution-oriented</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Excellent written and oral communication skills in English</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Strong motivation to explore new research domains</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Good team spirit</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">[XX]</span></span></span></span></span></li>
-</ul>
-</div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Nous offrons</b></H2></div><div><ul style="margin-bottom:11.0px">
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A stimulating and international working environment </span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Competitive salary and excellent working conditions – more information can be found on our website (https://www.epfl.ch/campus/services/human-resources/en/basic-starting-salary-of-doctoral-assistants-and-postdocs/)</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to perform state-of-the-art research in one of the most dynamic scientific institutions in Europe.</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to interact with internationally renowned experts, and with a strong team of postdoctoral researchers and PhD students</span></span></span></span></span></li>
-</ul>
-</div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Only applications submitted through the online platform are considered. You are asked to supply:</span></span></span></span></p>
-
-<ul style="margin-bottom:11.0px">
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A brief cover letter (pdf, up to 2 pages).</span></span></span></span></span></li>
-</ul>
-
-<p style="margin-bottom:11.0px;margin-left:24.0px"><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">And in one PDF: </span></span></span></span></p>
-
-<ul style="margin-bottom:11.0px">
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A CV with a publication list.</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A research statement (pdf, up to 3 pages).</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Contact details for 3 referees.</span></span></span></span></span></li>
-</ul>
-
-<p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">For any further information, please contact: [XXX]</span></span></span></span></p>
-
-<p style="margin-bottom:11.0px"> </p>
-
-<p style="margin-bottom:11.0px"> </p>
-
-<p>Contract Start Date :  </p>
-
-<p>Activity Rate Min : 100,00 </p>
-
-<p>Activity Rate Max : 100,00 </p>
-
-<p>Contract Type: CDD</p>
-
-<p>Duration: [Non traduit dans la langue sélectionnée] </p>
-
-<p>Reference: 2065 </p>
-</div></div></div>]]></description><pubDate>Fri, 02 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-Postdoc-at-the-Digital-and-Cognitive-Musicology-Lab%2C-EPFL-Lausanne/1164200555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-Postdoc-at-the-Digital-and-Cognitive-Musicology-Lab%2C-EPFL-Lausanne/1164200555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD. Student position in Integrated photonic-spintronic devices (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>The Hybrid Photonics Laboratory at EPFL is seeking for talented and motivated candidates to join our growing team in the field of Integrated Photonics for generation of high-quality electronic signals at elevated frequencies beyond 100 GHz. This is a collaborative project with IEMN Lille as part of a Swiss-French collaborative project.<br>High-end microwave instrumentation is at the core of communications, computing, metrology, sensing or ranging. Yet, it relies on the availability of broadband tunable, narrow linewidth, and bright microwave sources that can be used to excite a high-frequency circuit or to detect its response via heterodyne techniques.<br><br>You will research hybrid photonic-spintronic chips on silicon nitride, an offering integrated photonic platform providing ultra low-loss, negligible two-photon absorption, high optical nonlinearity, possibilities to engineer both positive and negative group velocity dispersion through waveguide design and high-Finesse optical resonators, with the aim to develop compact and efficient sources of pulsed and continuous wave terahertz radiation in the band from 100 GHz to 10 THz.<br>As a successful candidate of a dynamic team, you will shape the future of photonics-based millimeterwave-optical technology in our young and dynamic lab. You will develop first-of-their kind hybrid platforms that enable complex high-frequency operations directly inside miniaturized photonic chips.<br>You will kick off diverse aspects of the experimental effort: technical (setting up an optical measurement setup design, including design of high-frequency electronics and custom-tailored mechanical components) and conceptual (develop the theory of millimeterwave/terahertz generation inside photonic chips).  In the lab, you will learn about integrated and free-space quantum optical technologies and engineering, and nonlinear optics. You will contribute to the automatisation of measurement routines, comprehensive characterisation of fabricated samples and to bridging the area of microwave/terahertz-optical science and technology with the most modern integrated photonic techniques.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><ul>
-<li>Develop miniaturised millimeterwave/terahertz oscillator and apply them to photonic circuits, together with their driving software/hardware, automatize measurement procedures.</li>
-<li>Simulate optical and mmW/THz properties using simulations software such as COMSOL or CST.</li>
-<li>Characterize samples in the lab.</li>
-<li>Model experimental data from first principles using Matlab/Python codes.</li>
-<li>Write scientific publications, file patents, disseminate work at national and international conferences.</li>
-<li>Maintain collaborations and deliver periodic reports that describe your progress within the project. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>Physics background, strong interest in high-frequency electronics and integrated photonics, nonlinear optics, high-frequency electronics, metrology and/or electro-optic transduction are mandatory. Prior experience in any of these fields is a plus, but not mandatory. More important is the interest to learn and drive this field as a young scientist in a world-wide research community.</li>
-<li>Knowledgeable in (or interest to learn) Python, Matlab, Labview, Inventor, Illustrator, CST Microwave studio and Comsol.</li>
-<li>Enjoy thinking about difficult problems and solving them step by step.</li>
-<li>Hands-on attitude and an interest for taking on new challenges are mandatory for this group. In return, you get to witness setting up experiments from scratch!</li>
-<li>Enjoy collaborations with various other scientific groups, take on a leading junior role in international teams.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>A unique opportunity to contribute and take on entirely new avenues in the field of quantum photonics in a young and dynamic team.</li>
-<li>Excellent infrastructure through the <a href="https://www.epfl.ch/research/facilities/cmi/">cleanroom at EPFL</a>, the Lausanne center for ultrafast science, and the Quantum Science Center at EPFL</li>
-<li>Competitive salary, coverage of conference costs, a dynamic and inspiring scientific community. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, (see <a title="STI doctoral programs" href="https://sti.epfl.ch/doctoral-programs/" target="_blank" rel="noopener">STI doctoral programs</a>). <br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL.</span></span></p>
-<p>Your application should contain:</p>
-<ul>
-<li style="font-size:12.0pt"><span style="font-size:12.0pt">A motivation Letter (a statement, max. one page, where you outline why you want to join this group, what your specific interests are, how your skills can contribute to the mission of the lab and how you think you can advance in your own academic/scholarly pursuit while being a part of the Hybrid Photonics Laboratory)</span></li>
-<li style="font-size:12.0pt"><span style="font-size:12.0pt">Your detailed CV</span></li>
-<li style="font-size:12.0pt"><span style="font-size:12.0pt">Contact information</span></li>
-<li style="text-align:justify;font-size:12.0pt"><span style="font-size:12.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">The names and contact information of 3 references willing to write a recommendation letter</span></span></span></li>
-<li style="font-size:12.0pt"><span style="font-size:12.0pt">Transcript of records (Bachelor and Master) <br><br></span></li>
-</ul>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: 10/01/2026</p>
-<p>Activity Rate : 100.00</p>
-<p>Contract Type: CDD</p>
-<p>Duration: 1 year, renewable</p>
-<p>Reference: 2336</p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD_-Student-position-in-Integrated-photonic-spintronic-devices/1165041255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD_-Student-position-in-Integrated-photonic-spintronic-devices/1165041255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Ph.D. position in Microcombs for atomic clocks (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Your mission</b></H2></div><div><p>The Hybrid Photonics Laboratory at EPFL is seeking for talented and motivated candidates to work in the field of Integrated Photonics for building fully integrated microcombs for atomic clocks. <br>This is a part of a European consortium (with UK and Germany) within the <a href="https://quantera.eu/call-2025/">QUANTERA</a> funding network.</p>
-<p>Atomic clocks are used for precise timing where an accurate knowledge of the absolute time is needed. Based on ultraprecise transitions in atoms, these devices require precise laser control. At the same time, their deployment requires miniaturization away from table-top laser systems towards compact, on-chip laser sources. The aim of this project is a butterfly packaged, soliton-based optical frequency comb (OFC) device which will be used to interrogate a 2-photon Rb based quantum optical clock. Its stabilization requires f-2f frequency locking, and our lab will contribute thin film lithium niobate for this task. Our lab has been making significant progress in developing TFLN photonics for various applications. Building upon these demonstrations, we want to develop periodically poled lithium niobate devices for these metrology tasks.</p>
-<p>You will exploit the low-loss thin film lithium niobate photonics platform, which we can fabricate in-house, at EPFL, to realize efficient and low-foot print frequency converters. In parallel, you will study the performance of these devices at frequencies away of the telecom C-band. You will fabricate these hybrid devices in-house at EPFL cleanroom using newly developed fabrication protocols available in the group.</p>
-<p>As a successful candidate of a dynamic team, you will shape the future of photonics-based atomic clock technology in our young and dynamic lab. You will push forward our TFLN technology.</p>
-<p>You will kick off diverse aspects of the experimental effort: technical (setting up an optical measurement setup design, including multi-frequency setups and custom-tailored mechanical components) and conceptual (develop the theory of frequency conversion inside photonic chips).  In the lab, you will learn about integrated and free-space quantum optical technologies and engineering, and nonlinear optics. You will contribute to the automatisation of measurement routines, comprehensive characterisation of fabricated samples and to bridging the area of microwave/terahertz-optical science and technology with the most modern integrated photonic techniques.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><ul>
-<li>Develop miniaturised frequency converters and apply them to microcombs within the consortium, together with their driving software/hardware, automatize measurement procedures.</li>
-<li>Simulate optical properties using simulations software such as COMSOL or CST.</li>
-<li>Characterize samples in the lab.</li>
-<li>Model experimental data from first principles using Matlab/Python codes.</li>
-<li>Write scientific publications, file patents, disseminate work at national and international conferences.</li>
-<li>Maintain collaborations and deliver periodic reports that describe your progress within the project. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>M.Sc. in Physics or related fields, strong interest in high-frequency electronics and integrated photonics, nonlinear optics, high-frequency electronics, metrology and/or electro-optic transduction are mandatory.</li>
-<li>Knowledgeable in Python, Matlab, Labview, Inventor, Illustrator, CST Microwave studio and Comsol (or willingness to learn).</li>
-<li>Enjoy thinking about difficult problems and solving them step by step.</li>
-<li>Hands-on attitude and an interest for taking on new challenges are mandatory for this group. In return, you get to witness setting up experiments from scratch!</li>
-<li>Enjoy collaborations with various other scientific groups, take on a leading junior role in international teams. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>A unique opportunity to contribute and take on entirely new avenues in the field of quantum photonics in a young and dynamic team.</li>
-<li>Excellent infrastructure through the <a href="https://www.epfl.ch/research/facilities/cmi/">cleanroom at EPFL</a>, the Lausanne center for ultrafast science, and the Quantum Science Center at EPFL</li>
-<li>Competitive salary, coverage of conference costs, a dynamic and inspiring scientific community. </li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span></p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, (see <a title="STI doctoral programs" href="https://sti.epfl.ch/doctoral-programs/" target="_blank" rel="noopener">STI doctoral programs</a>). <br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p>Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL.</p>
-<p>Your application should contain:</p>
-<ul>
-<li>A motivation Letter (a statement, max. one page, where you outline why you want to join this group, what your specific interests are, how your skills can contribute to the mission of the lab and how you think you can advance in your own academic/scholarly pursuit while being a part of the Hybrid Photonics Laboratory)</li>
-<li>Your detailed CV</li>
-<li>Contact information</li>
-<li>The names and contact information of 3 references willing to write a recommendation letter</li>
-<li>Transcript of records (Bachelor and Master) </li>
-</ul>
-<p><span id="cke_bm_10628S" style="display:none"> <br></span></p>
-<p> </p>
-<p>Contract Start Date: 09/01/2026</p>
-<p>Activity Rate : 100.00</p>
-<p> Contract Type: CDD</p>
-<p>Duration: 1 year, renewable</p>
-<p>Reference: 2337</p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-Ph_D_-position-in-Microcombs-for-atomic-clocks/1165041355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-Ph_D_-position-in-Microcombs-for-atomic-clocks/1165041355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Business Analyst Senior PLEXUS1 (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Mission</H2></div><div><p>L’EPFL a des défis majeurs en termes de gestion du Système d’Information. La Direction des Systèmes d’Information de l’EPFL (DSI) est responsable de mettre en œuvre la stratégie numérique de l’EPFL. Ces missions incluent, dans une combinaison de responsabilités directes et de responsabilités matricielles, l'élaboration et la mise en œuvre de la stratégie informatique et du plan directeur de l’EPFL, la digitalisation des processus métiers, la sécurité informatique, la gestion des infrastructures informatiques centrales, la gestion des applications cœur-de-métier, ainsi que la coordination avec les services informatiques des Facultés.</p>
-<p> </p>
-<p>Le Service « Systèmes d’Information pour les Services Académiques » (ISAS) est au cœur de la création de valeur du Système d’Information de l’EPFL et de ses évolutions. Les équipes collaborent avec les métiers de l’EPFL pour analyser les besoins, développer, enrichir et consolider des solutions informatiques, tout en maintenant leur stabilité. Elles conseillent également sur l’impact potentiel des solutions sur les processus métiers et proposent des améliorations des processus sur la base de solutions standard du marché ou plus rarement sur la base de solutions spécifiques.</p>
-<p> </p>
-<p>En tant que <strong>Business Analyst confirmé-e </strong>pour au sein de l’unité ISAS-GIF, vous êtes en charge des analyses métiers et de l’implémentation dans les nouveaux outils destinés à la gestion des études et vous veillez à ce qu’ils soient adaptés aux besoins des corps administratif, estudiantin, professoral et doctoral. Dans le cadre du projet <strong>PLEXUS1</strong>, vous travaillez en collaboration étroite avec l’ensemble de la Vice-Présidence Académique/Éducation, ainsi qu’avec des partenaires de tierces maintenances applicatives en Suisse et à l'étranger.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Principales tâches et responsabilités</H2></div><div><ul style="list-style-type:disc">
-<li>Contribue à la conception et à la définition de spécifications générales et/ou fonctionnelles.</li>
-<li>Réalise les analyses techniques et les études détaillées.</li>
-<li>Adapte et paramètre des composants applicatifs.</li>
-<li>Construire et maintenir une roadmap centrée sur les résultats.</li>
-<li>Réalise des prototypages.</li>
-<li>Rédige ou participe à la rédaction des livrables, y compris chiffrages, planification, spécifications générales et détaillées en respectant les méthodologies et standards internes.</li>
-<li>Acquérir les connaissances métier académiques et être capable de challenger les fonctionnalités des produits.</li>
-<li>Participe à la recette client et s’assure que les UAT soient effectués.</li>
-<li>Pilote les relations avec les parties prenantes internes et externes (intervenants métier, prestataires externes, services manager et architectes logiciels).</li>
-<li>Anticipe les risques et les aléas du projet et communiquer sur l'avancée du projet.</li>
-<li>Assure l’intégration et le paramétrage de logiciels du marché dans le paysage des systèmes d'information</li>
-</ul>
-<p> </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Profil</H2></div><div><ul style="list-style-type:disc">
-<li>Formation universitaire ou jugée équivalente en informatique (niveau Bachelor) ou un parcours professionnel justifiant de l’expérience dans la fonction.</li>
-<li>Expériences dans un rôle similaire de Business Analyst Senior (minimum 7-8 années).</li>
-<li>Expériences de paramétrage applicatif requises</li>
-<li>Expériences dans la gestion de projets informatiques et suivi méthodologique.</li>
-<li>Bonne capacité d’adaptation, ouverture d’esprit et autonomie.</li>
-<li>Excellent esprit d'analyse, de synthèse, de vulgarisation, très bon niveau rédactionnel.</li>
-<li>Sensibilité à la sécurité informatique.</li>
-<li>Certification Agile et/ou gestion de projet, HERMES, un plus</li>
-<li>Connaissances académiques, ou connaissances de l'environnement EPFL un plus.</li>
-</ul>
-<p> </p>
-<p><u><strong>Compétences personnelles et sociales :</strong></u></p>
-<ul>
-<li>Orienté·e solutions et client, sens aigu du service, à la recherche du dialogue tout en ayant et défendant ses convictions, très bonne aptitude à communiquer et force de propositions.</li>
-<li>Capacité à gérer plusieurs priorités sous pression avec un éventail de parties prenantes et grande résistance au stress.<br>Rigueur, précision, proactivité.</li>
-<li>Esprit d'équipe, capacité à travailler dans des équipes mixtes et internationales, sens de l’écoute et de la communication.</li>
-</ul>
-<p> </p>
-<p><u><strong>Langues :</strong></u></p>
-<ul>
-<li>Très bonnes connaissances en français (lu, écrit, parlé), niveau équivalent C1</li>
-<li>Très bonnes connaissances en anglais (lu, écrit, parlé), <strong>niveau équivalent C1</strong></li>
-</ul>
-<p> </p>
-<p><em><strong>Les candidatures féminines sont encouragées</strong></em></p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Nous offrons</H2></div><div><ul>
-<li>Environnement professionnel dynamique, multiculturel et stimulant</li>
-<li>Ambiance et cadre de travail agréables</li>
-<li>Conditions d’engagement attractives</li>
-<li>Possibilité de formation continue et perfectionnement selon les exigences de la fonction</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Conditions de candidatures</H2></div><div><p><u><strong>Seuls les dossiers complets seront étudiés. Merci d'y inclure :</strong></u></p>
-<ul style="margin-bottom:11.0px">
-<li>Une lettre de motivation personnalisée (obligatoire)</li>
-<li>Un CV (obligatoire)</li>
-<li>Les copies des diplômes (obligatoire)</li>
-<li>Tous les certificats de travail (obligatoire)</li>
-<li>Certifications (le cas échéant)</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px">Informations</H2></div><div><p>Date d'entrée en fonction : Dès que possible ou à convenir</p>
-<p>Taux d'occupation : 100% (non négociable)</p>
-<p>Type de contrat : CDD de 1 an renouvelable </p>
-<p>Référence : 2374<br> </p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-Business-Analyst-Senior-PLEXUS1/1165220455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-Business-Analyst-Senior-PLEXUS1/1165220455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[2 PhD Positions in Mechanics of Reinforced Concrete (ENAC/CONSTRUCT) (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>The CONSTRUCT Laboratory at the School of Architecture, Civil and Environmental Engineering (ENAC), EPFL, led by Prof. David Ruggiero, is seeking two highly motivated PhD candidates to join a newly funded Swiss National Science Foundation (SNSF) project: “Multiscale Modelling of Cracked Reinforced Concrete: From Aggregate Interlock to Structural Assessment”. The positions are expected to start in early 2027 (or upon agreement).<br>The PhD research will focus on the development of a new framework for the mechanics-based assessment of cracked reinforced concrete structures, enabling engineers to directly incorporate observed crack behaviour (shape, width, slip) into structural analysis and evaluation. The project combines experimental testing, advanced sensing, and multiscale modelling, spanning from crack-scale behaviour to full structural systems. <br>Research activities include:<br>- Investigation of crack behaviour in concrete under complex loading conditions <br>- Development of path-dependent constitutive models for crack interface mechanics (aggregate interlock) <br>- Large-scale testing of reinforced concrete elements (panels, beams, walls)<br>- Development of analytical and numerical models for crack-based structural assessment <br>- Integration of experimental data into practical engineering tools and simplified models <br>The successful candidates will join the Concrete Behaviour and Structural Design Laboratory (CONSTRUCT), which focuses on the mechanics of reinforced concrete structures, with particular emphasis on:<br>- Experimental investigation of reinforced concrete behaviour <br>- Development of mechanics-based models for structural response <br>- Integration of research into engineering practice and design methods <br>- Sustainable design and assessment of buildings and infrastructure <br>The lab offers access to state-of-the-art experimental facilities, including large-scale structural testing systems (e.g., Panel Element Tester) and advanced instrumentation (e.g., Digital Image Correlation and Distributed Fibre Optic Sensing), as well as strong links to international collaborators and industry partners.</p>
-<p> </p>
-<p> </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD candidate, you will be expected to:<br>- Conduct cutting-edge research including experimental design, testing, data analysis, and modelling <br>- Develop analytical and numerical models of the structural behaviour of cracked reinforced concrete<br>- Publish results in peer-reviewed journals and present at international conferences <br>- Collaborate with academic and industry partners <br>- Contribute to laboratory activities, including supervision of MSc students and teaching assistance </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><p>- Master’s degree in Civil Engineering, preferably with focus on reinforced concrete structures (completed or expected before the employment start date)<br>- Interest in both experimental and analytical aspects of structural engineering<br>- Experience with large-scale structural testing, ideally using Digital Image Correlation and/or Distributed Fibre Optic Sensing<br>- Solid analytical and problem-solving skills <br>- Programming experience (e.g., Python, MATLAB) and experience operating on large datasets<br>- Ability to work both independently and collaboratively <br>- Strong communication skills in English (written and spoken) </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p>- A world-class research and training environment at EPFL <br>- Competitive salary and excellent working conditions, 1-year fixed-term contract (CDD), renewable for 3 years (4 years in total) to complete your PhD<br>- Access to unique experimental infrastructure <br>- Opportunities to publish in leading journals and present at international conferences <br>- Collaboration with leading researchers and industry partners <br>- A stimulating and international work environment in Lausanne </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span> The selection process involves multiple stages, and short-listed candidates will also be requested to apply to the doctoral program in Civil and Environmental Engineering (<a title="" href="https://www.epfl.ch/education/phd/edce-civil-and-environmental-engineering/" target="_self">EDCE</a>). Applicants who have already applied to or been deemed admissible by EDCE should indicate this in their application. <br>Only applications submitted through the online platform will be considered. You are asked to supply:<br>•    A motivation letter describing your research interests and experience (max. 2 pages)<br>•    A single PDF containing: Curriculum Vitae, Bachelor’s and Master’s academic transcripts, contact information for 2-3 referees<br>Application deadline: 30/09/2026<br>Contract start date: Early 2027 or upon mutual agreement<br>Activity Rate: 100%<br>Contract Type: CDD<br>Duration: 4 years<br>For more information, please contact: david.ruggiero@epfl.ch. No applications sent directly to this address shall be considered.</p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-2-PhD-Positions-in-Mechanics-of-Reinforced-Concrete-%28ENACCONSTRUCT%29/1165376555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-2-PhD-Positions-in-Mechanics-of-Reinforced-Concrete-%28ENACCONSTRUCT%29/1165376555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD position in Integrated Design and Optimization (Neuchâtel, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p> </p>
-<p>We are offering a challenging position as a full-time (100%) PhD Student at STI IGM LAMD at EPFL, Neuchatel.</p>
-<p>You will be working on the <span>TurboImpact project, funded by Horizon Europe – MSCA-DN, tackles challenges in designing, optimizing, selecting materials, and manufacturing small-scale turbomachinery for applications in heat pumps, fuel cells, organic Rankine cycles, or gas turbines.</span><span> </span></p>
-<div>
-<p><span>This project develops robust system and component design methods, an integrated manufacturing platform, and multi-material joining techniques to efficiently produce small-scale turbomachinery.</span><span> </span></p>
-</div>
-<div>
-<p><span>The goal will be achieved by establishing a network of 14 Doctoral Candidates (DC) working in synergy on complementary topics and supported by highly qualified supervisors from European universities and research-intensive European companies </span></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<ul>
-<li>Have full responsibility for your own dissertation</li>
-<li>Research in close collaboration with industry partners</li>
-<li>Experiment design and execution</li>
-<li>Analyze and interpret experimental results</li>
-<li>Write scientific articles for publication in peer-reviewed journals</li>
-<li>Present at international conferences</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">Participate in education and supervise student projects</span></span></span>
-<p><span> </span>More specifically, within this project, you will:</p>
-</li>
-</ul>
-<ul>
-<li><span>Develop and apply multi-objective topology optimization to identify and characterize the trade-off between structural integrity and heat-transfer resistance in turbomachinery components.</span></li>
-<li><span> Develop viable concepts for internal cooling of hollow hub and blade structures in small-scale turbomachinery, addressing the thermo-structural challenges inherent in these configurations.</span></li>
-<li><span>Integrate hollow hub structural design with a robust design and optimization framework to ensure performance reliability across varying operating conditions and manufacturing uncertainties. </span><span> </span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Required competences</b></H2></div><div><div>
-<div> </div>
-<div>
-<ul>
-<li>
-<p><span>Topology optimization, multi-objective optimization methods, and multi-disciplinary design optimization frameworks.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Heat transfer fundamentals, structural mechanics and integrity assessment, coupled thermal-structural analysis.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Robust design methodologies and uncertainty quantification.</span><span> </span></p>
-</li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Special requirements</b></H2></div><div><div>
-<div>
-<p><span>In accordance with the Marie Skłodowska-Curie Actions Doctoral Network regulations:</span><span> </span></p>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must comply with the MSCA Mobility Rule. At the time of recruitment, candidates must not have resided or carried out their main activity (work, studies, etc.) in the <strong>hiring </strong></span><strong><span>Country</span></strong><span><strong> </strong>for more than 12 months during the 36 months immediately preceding recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must be doctoral candidates (i.e., not already hold a doctoral degree) and be eligible under the MSCA Doctoral Network rules at the time of recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Short stays such as holidays, compulsory national service, or time spent as part of a refugee procedure are not considered.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<p><span>Applicants must have a </span><span>two-year master's degre </span><span>in Mechanical Engineering, Manufacturing Engineering, Materials </span><span>Science, Computer Science, Data Science, Software Engineering, or a </span><span>similar degree with an academic level equivalent to a two-year master's degree.</span><span> </span></p>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p style="text-align:justify"><span>At EPFL, we believe that people achieve great results when they feel supported, respected and enabled to succeed. By joining our community, you will help shape the future of society through education, research and innovation.</span></p>
-<p style="text-align:justify">We offer an inspiring, international and collaborative environment where your work has real impact and your ideas are valued. Combined with flexible ways of working and attractive employment conditions, we aim to create an environment where everyone can contribute, grow and make a difference.</p>
-<p style="text-align:justify">Beyond work, our campuses host a vibrant community and unique environment, enriched by initiatives promoting equality, inclusion, diversity, well-being and sustainability as well as an engaging program of cultural, sports and community activities throughout the year.</p>
-<div>
-<p><span>Successful candidates will receive a comprehensive financial package in line with the rules for Doctoral Candidates (DCs) in a Marie Skłodowska-Curie Actions (MSCA) Doctoral Network. Employment will be provided by the recruiting organization and will include mobility and family allowances (where applicable), together with full social security coverage.</span><span> </span></p>
-</div>
-<div>
-<p><span>Doctoral Candidates will benefit from a competitive salary, paid leave (in accordance with institutional regulations), and access to national social security schemes.</span><span> </span></p>
-</div>
-<div>
-<p><span>The period of employment is 3 years, starting on 1 February 2027 or according to mutual agreement. The position is a full-time position.</span> </p>
-<p><a title="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" href="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" target="_self">Read about our employment conditions and employee benefits</a></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Assessment</b></H2></div><div><div>
-<div>
-<p><span>Recruitment will be carried out and monitored in full accordance with the principles of the European Charter for Researchers, the Code of Conduct for the Recruitment of Researchers, and the Doctoral Network mobility rules. The process will follow an open, transparent, merit-based, impartial, and equitable procedure, tailored to each individual DC position. Promising candidates will undergo a series of interviews with the PI, the Supervisory Team, and the Recruitment Committee.</span></p>
-<p>Successful candidates will: </p>
-<ul>
-<li>    be enrolled in a PhD program of the hiring university, </li>
-<li>    conduct research in a stimulating international environment with access to state-of-the-art facilities and supervision by recognized experts, </li>
-<li>    participate in local and network-wide training activities aimed at advancing scientific knowledge and transferable skills, </li>
-<li>    attend workshops and international conferences relevant to their research topic, </li>
-<li>    undertake secondments of approximately 4–6 months at other network or associated partner institutions. </li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Application procedure</b></H2></div><div><p>Your complete online application must be submitted no later than 30 November 2026 (23:59h).  </p>
-<p>Applications must be submitted as one PDF file containing all materials to be given consideration. To apply, please open the link "Apply now", fill out the online application form, and attach all your materials in English in one PDF file. The file must include:  </p>
-<ul>
-<li>    A motivation letter  </li>
-<li>    Curriculum vitae  </li>
-<li>    Grade transcripts and BSc/MSc diploma (in English) including official description of grading scale  </li>
-<li>    A copy of your BSc thesis (in pdf)  </li>
-<li>    A copy of your MSc thesis (in pdf)  </li>
-<li>    The names of three referees who are willing to write a reference letter  </li>
-</ul>
-<p>You may apply prior to obtaining your master's degree but cannot begin before having received it.  </p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noreferrer noopener"><span>EPFL Doctoral Program</span></a> to qualify for a PhD at EPFL. Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/" target="_blank" rel="noreferrer noopener"><span>this page</span></a>  for additional information on admission. Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL. </p>
-<p>Applications received after the deadline will not be considered.  </p>
-<p>All interested candidates, irrespective of age, gender, disability, race, religion, or ethnic background, are encouraged to apply. Because the universities in this consortium conduct research in critical technology, which is subject to special security and export-control rules, we may conduct open-source background checks on qualified candidates.  </p>
-<p>For more information, please contact: <a href="mailto:jurg.schiffmann@epfl.ch" target="_blank" rel="noreferrer noopener"><span>jurg.schiffmann@epfl.ch</span></a>  or <a href="mailto:enrica.tagliamonte@epfl.ch" target="_blank" rel="noreferrer noopener"><span>enrica.tagliamonte@epfl.ch.</span></a> </p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Integrated-Design-and-Optimization/1165538755/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Integrated-Design-and-Optimization/1165538755/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD position in Aerodynamic Design of Small-Scale Turbomachinery -2 (Neuchâtel, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p> </p>
-<p>We are offering a challenging position as a full-time (100%) PhD Student at STI IGM LAMD at EPFL, Neuchatel.</p>
-<p>You will be working on the <span>TurboImpact project, funded by Horizon Europe – MSCA-DN, tackles challenges in designing, optimizing, selecting materials, and manufacturing small-scale turbomachinery for applications in heat pumps, fuel cells, organic Rankine cycles, or gas turbines.</span><span> </span></p>
-<div>
-<p><span>This project develops robust system and component design methods, an integrated manufacturing platform, and multi-material joining techniques to efficiently produce small-scale turbomachinery.</span><span> </span></p>
-</div>
-<div>
-<p><span>The goal will be achieved by establishing a network of 14 Doctoral Candidates (DC) working in synergy on complementary topics and supported by highly qualified supervisors from European universities and research-intensive European companies </span></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<ul>
-<li>Have full responsibility for your own dissertation</li>
-<li>Research in close collaboration with industry partners</li>
-<li>Experiment design and execution</li>
-<li>Analyze and interpret experimental results</li>
-<li>Write scientific articles for publication in peer-reviewed journals</li>
-<li>Present at international conferences</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">Participate in education and supervise student projects</span></span></span>
-<p><span> </span>More specifically, within this project, you will c<span>onduct research into how material properties, surface finish, and geometric tolerances affect the aerodynamic performance of small-scale turbomachinery, with a focus on understanding how degrees of design freedom related to manufacturing and material properties influence overall performance outcomes. Building on these insights, identify ideal aeromechanical turbomachinery designs that exploit new materials and manufacturing processes, and validate these findings through experimental comparisons of conventional and ceramic turbocompressor components manufactured using the novel processes developed.</span><span> </span></p>
-</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Required competences</b></H2></div><div><div>
-<div>
-<p><span> </span></p>
-<ul>
-<li>    Strong background in fluid dynamics fundamentals, turbomachinery aerodynamics, aeromechanical design principles, experience with CFD &amp; FEA. </li>
-<li>    Materials science, particularly properties of ceramics and conventional metals/alloys, manufacturing processes, surface engineering and its effect on flow behavior, geometric dimensioning and tolerancing. </li>
-<li>    Experience with turbomachinery testing procedures, instrumentation and sensor selection, data acquisition, uncertainty analysis and measurement validation. </li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Special requirements</b></H2></div><div><div>
-<div>
-<p><span>In accordance with the Marie Skłodowska-Curie Actions Doctoral Network regulations:</span><span> </span></p>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must comply with the MSCA Mobility Rule. At the time of recruitment, candidates must not have resided or carried out their main activity (work, studies, etc.) in the <strong>hiring </strong></span><strong><span>Country</span></strong><span><strong> </strong>for more than 12 months during the 36 months immediately preceding recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must be doctoral candidates (i.e., not already hold a doctoral degree) and be eligible under the MSCA Doctoral Network rules at the time of recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Short stays such as holidays, compulsory national service, or time spent as part of a refugee procedure are not considered.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<p><span>Applicants must have a </span><span>two-year master's degre </span><span>in Mechanical Engineering, Manufacturing Engineering, Materials </span><span>Science, Computer Science, Data Science, Software Engineering, or a </span><span>similar degree with an academic level equivalent to a two-year master's degree.</span><span> </span></p>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p style="text-align:justify"><span>At EPFL, we believe that people achieve great results when they feel supported, respected and enabled to succeed. By joining our community, you will help shape the future of society through education, research and innovation.</span></p>
-<p style="text-align:justify">We offer an inspiring, international and collaborative environment where your work has real impact and your ideas are valued. Combined with flexible ways of working and attractive employment conditions, we aim to create an environment where everyone can contribute, grow and make a difference.</p>
-<p style="text-align:justify">Beyond work, our campuses host a vibrant community and unique environment, enriched by initiatives promoting equality, inclusion, diversity, well-being and sustainability as well as an engaging program of cultural, sports and community activities throughout the year.</p>
-<div>
-<p><span>Successful candidates will receive a comprehensive financial package in line with the rules for Doctoral Candidates (DCs) in a Marie Skłodowska-Curie Actions (MSCA) Doctoral Network. Employment will be provided by the recruiting organization and will include mobility and family allowances (where applicable), together with full social security coverage.</span><span> </span></p>
-</div>
-<div>
-<p><span>Doctoral Candidates will benefit from a competitive salary, paid leave (in accordance with institutional regulations), and access to national social security schemes.</span><span> </span></p>
-</div>
-<div>
-<p><span>The period of employment is 3 years, starting on 1 February 2027 or according to mutual agreement. The position is a full-time position.</span> </p>
-<p><a title="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" href="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" target="_self">Read about our employment conditions and employee benefits</a></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Assessment</b></H2></div><div><div>
-<div>
-<p><span>Recruitment will be carried out and monitored in full accordance with the principles of the European Charter for Researchers, the Code of Conduct for the Recruitment of Researchers, and the Doctoral Network mobility rules. The process will follow an open, transparent, merit-based, impartial, and equitable procedure, tailored to each individual DC position. Promising candidates will undergo a series of interviews with the PI, the Supervisory Team, and the Recruitment Committee.</span></p>
-<p>Successful candidates will: </p>
-<ul>
-<li>    be enrolled in a PhD program of the hiring university, </li>
-<li>    conduct research in a stimulating international environment with access to state-of-the-art facilities and supervision by recognized experts, </li>
-<li>    participate in local and network-wide training activities aimed at advancing scientific knowledge and transferable skills, </li>
-<li>    attend workshops and international conferences relevant to their research topic, </li>
-<li>    undertake secondments of approximately 4–6 months at other network or associated partner institutions. </li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Application procedure</b></H2></div><div><p>Your complete online application must be submitted no later than 30 November 2026 (23:59h).  </p>
-<p>Applications must be submitted as one PDF file containing all materials to be given consideration. To apply, please open the link "Apply now", fill out the online application form, and attach all your materials in English in one PDF file. The file must include:  </p>
-<ul>
-<li>    A motivation letter  </li>
-<li>    Curriculum vitae  </li>
-<li>    Grade transcripts and BSc/MSc diploma (in English) including official description of grading scale  </li>
-<li>    A copy of your BSc thesis (in pdf)  </li>
-<li>    A copy of your MSc thesis (in pdf)  </li>
-<li>    The names of three referees who are willing to write a reference letter  </li>
-</ul>
-<p>You may apply prior to obtaining your master's degree but cannot begin before having received it.  </p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noreferrer noopener"><span>EPFL Doctoral Program</span></a> to qualify for a PhD at EPFL. Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/" target="_blank" rel="noreferrer noopener"><span>this page</span></a>  for additional information on admission. Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL. </p>
-<p>Applications received after the deadline will not be considered.  </p>
-<p>All interested candidates, irrespective of age, gender, disability, race, religion, or ethnic background, are encouraged to apply. Because the universities in this consortium conduct research in critical technology, which is subject to special security and export-control rules, we may conduct open-source background checks on qualified candidates.  </p>
-<p>For more information, please contact: <a href="mailto:jurg.schiffmann@epfl.ch" target="_blank" rel="noreferrer noopener"><span>jurg.schiffmann@epfl.ch</span></a>  or <a href="mailto:enrica.tagliamonte@epfl.ch" target="_blank" rel="noreferrer noopener"><span>enrica.tagliamonte@epfl.ch.</span></a> </p>
-<div>
-<p><strong><span>Please note that this position is part of a consortium involving several partner universities. By submitting your application, you consent to your personal data, CV and motivation letter being shared with and accessible to the relevant members of the consortium for the purposes of the recruitment and selection process.</span><span> </span></strong></p>
-</div></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery-2/1165538555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery-2/1165538555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD position in Aerodynamic Design of Small-Scale Turbomachinery (Neuchâtel, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p> </p>
-<p>We are offering a challenging position as a full-time (100%) PhD Student at STI IGM LAMD at EPFL, Neuchatel.</p>
-<p>You will be working on the <span>TurboImpact project, funded by Horizon Europe – MSCA-DN, tackles challenges in designing, optimizing, selecting materials, and manufacturing small-scale turbomachinery for applications in heat pumps, fuel cells, organic Rankine cycles, or gas turbines.</span><span> </span></p>
-<div>
-<p><span>This project develops robust system and component design methods, an integrated manufacturing platform, and multi-material joining techniques to efficiently produce small-scale turbomachinery.</span><span> </span></p>
-</div>
-<div>
-<p><span>The goal will be achieved by establishing a network of 14 Doctoral Candidates (DC) working in synergy on complementary topics and supported by highly qualified supervisors from European universities and research-intensive European companies </span></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<ul>
-<li>Have full responsibility for your own dissertation</li>
-<li>Research in close collaboration with industry partners</li>
-<li>Experiment design and execution</li>
-<li>Analyze and interpret experimental results</li>
-<li>Write scientific articles for publication in peer-reviewed journals</li>
-<li>Present at international conferences</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">Participate in education and supervise student projects</span></span></span>
-<p><span> </span>More specifically, within this project, you will:</p>
-</li>
-</ul>
-<ul>
-<li><span>Develop and apply multi-objective topology optimization to identify and characterize the trade-off between structural integrity and heat-transfer resistance in turbomachinery components.</span></li>
-<li><span> Develop viable concepts for internal cooling of hollow hub and blade structures in small-scale turbomachinery, addressing the thermo-structural challenges inherent in these configurations.</span></li>
-<li><span>Integrate hollow hub structural design with a robust design and optimization framework to ensure performance reliability across varying operating conditions and manufacturing uncertainties. </span><span> </span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Required competences</b></H2></div><div><div>
-<div> </div>
-<div>
-<ul>
-<li>
-<p><span>Topology optimization, multi-objective optimization methods, and multi-disciplinary design optimization frameworks.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Heat transfer fundamentals, structural mechanics and integrity assessment, coupled thermal-structural analysis.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Robust design methodologies and uncertainty quantification.</span><span> </span></p>
-</li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Special requirements</b></H2></div><div><div>
-<div>
-<p><span>In accordance with the Marie Skłodowska-Curie Actions Doctoral Network regulations:</span><span> </span></p>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must comply with the MSCA Mobility Rule. At the time of recruitment, candidates must not have resided or carried out their main activity (work, studies, etc.) in the <strong>hiring </strong></span><strong><span>Country</span></strong><span><strong> </strong>for more than 12 months during the 36 months immediately preceding recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Applicants must be doctoral candidates (i.e., not already hold a doctoral degree) and be eligible under the MSCA Doctoral Network rules at the time of recruitment.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-<p><span>Short stays such as holidays, compulsory national service, or time spent as part of a refugee procedure are not considered.</span><span> </span></p>
-</li>
-</ul>
-</div>
-<div>
-<p><span>Applicants must have a </span><span>two-year master's degre </span><span>in Mechanical Engineering, Manufacturing Engineering, Materials </span><span>Science, Computer Science, Data Science, Software Engineering, or a </span><span>similar degree with an academic level equivalent to a two-year master's degree.</span><span> </span></p>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p style="text-align:justify"><span>At EPFL, we believe that people achieve great results when they feel supported, respected and enabled to succeed. By joining our community, you will help shape the future of society through education, research and innovation.</span></p>
-<p style="text-align:justify">We offer an inspiring, international and collaborative environment where your work has real impact and your ideas are valued. Combined with flexible ways of working and attractive employment conditions, we aim to create an environment where everyone can contribute, grow and make a difference.</p>
-<p style="text-align:justify">Beyond work, our campuses host a vibrant community and unique environment, enriched by initiatives promoting equality, inclusion, diversity, well-being and sustainability as well as an engaging program of cultural, sports and community activities throughout the year.</p>
-<div>
-<p><span>Successful candidates will receive a comprehensive financial package in line with the rules for Doctoral Candidates (DCs) in a Marie Skłodowska-Curie Actions (MSCA) Doctoral Network. Employment will be provided by the recruiting organization and will include mobility and family allowances (where applicable), together with full social security coverage.</span><span> </span></p>
-</div>
-<div>
-<p><span>Doctoral Candidates will benefit from a competitive salary, paid leave (in accordance with institutional regulations), and access to national social security schemes.</span><span> </span></p>
-</div>
-<div>
-<p><span>The period of employment is 3 years, starting on 1 February 2027 or according to mutual agreement. The position is a full-time position.</span> </p>
-<p><a title="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" href="https://www.epfl.ch/about/working/working-at-epfl/employment-conditions/" target="_self">Read about our employment conditions and employee benefits</a></p>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Assessment</b></H2></div><div><div>
-<div>
-<p><span>Recruitment will be carried out and monitored in full accordance with the principles of the European Charter for Researchers, the Code of Conduct for the Recruitment of Researchers, and the Doctoral Network mobility rules. The process will follow an open, transparent, merit-based, impartial, and equitable procedure, tailored to each individual DC position. Promising candidates will undergo a series of interviews with the PI, the Supervisory Team, and the Recruitment Committee.</span></p>
-<p>Successful candidates will: </p>
-<ul>
-<li>    be enrolled in a PhD program of the hiring university, </li>
-<li>    conduct research in a stimulating international environment with access to state-of-the-art facilities and supervision by recognized experts, </li>
-<li>    participate in local and network-wide training activities aimed at advancing scientific knowledge and transferable skills, </li>
-<li>    attend workshops and international conferences relevant to their research topic, </li>
-<li>    undertake secondments of approximately 4–6 months at other network or associated partner institutions. </li>
-</ul>
-</div>
-</div></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Application procedure</b></H2></div><div><p>Your complete online application must be submitted no later than 30 November 2026 (23:59h).  </p>
-<p>Applications must be submitted as one PDF file containing all materials to be given consideration. To apply, please open the link "Apply now", fill out the online application form, and attach all your materials in English in one PDF file. The file must include:  </p>
-<ul>
-<li>    A motivation letter  </li>
-<li>    Curriculum vitae  </li>
-<li>    Grade transcripts and BSc/MSc diploma (in English) including official description of grading scale  </li>
-<li>    A copy of your BSc thesis (in pdf)  </li>
-<li>    A copy of your MSc thesis (in pdf)  </li>
-<li>    The names of three referees who are willing to write a reference letter  </li>
-</ul>
-<p>You may apply prior to obtaining your master's degree but cannot begin before having received it.  </p>
-<p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noreferrer noopener"><span>EPFL Doctoral Program</span></a> to qualify for a PhD at EPFL. Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/" target="_blank" rel="noreferrer noopener"><span>this page</span></a>  for additional information on admission. Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL. </p>
-<p>Applications received after the deadline will not be considered.  </p>
-<p>All interested candidates, irrespective of age, gender, disability, race, religion, or ethnic background, are encouraged to apply. Because the universities in this consortium conduct research in critical technology, which is subject to special security and export-control rules, we may conduct open-source background checks on qualified candidates.  </p>
-<p>For more information, please contact: <a href="mailto:jurg.schiffmann@epfl.ch" target="_blank" rel="noreferrer noopener"><span>jurg.schiffmann@epfl.ch</span></a>  or <a href="mailto:enrica.tagliamonte@epfl.ch" target="_blank" rel="noreferrer noopener"><span>enrica.tagliamonte@epfl.ch.</span></a> </p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery/1165538855/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery/1165538855/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD Student in Trustworthy AI for Autonomous Plant Operations (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b></b></H2></div><div><p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">The Intelligent Maintenance and Operations Systems (IMOS) Lab at EPFL is looking for a motivated and out-of-the-box thinking PhD researcher, (100%, in Lausanne, fixed-term) starting in November or upon agreement.</span></span></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><strong><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">PROJECT DESCRIPTION</span></strong></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">The objective of this project is to develop a trustworthy AI framework for the autonomous operation of process plants. The research will focus on AI agents that monitor the plant state, detect and diagnose abnormal situations, and recommend or execute operating actions, while meeting the safety, reliability and transparency requirements of safety-critical environments.</span></p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">The project will explore how learning-based and agentic AI systems (e.g., agents built on large language or foundation models) can be combined with physics-informed process models, digital twins and engineering knowledge such as P&amp;IDs and operating procedures. A particular emphasis lies on trustworthiness: quantifying uncertainty, verifying agent decisions before they reach the plant (e.g., doer–checker architectures), explaining recommendations to operators, and remaining robust to sensor faults, distribution shifts and previously unseen operating conditions.</span></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Applications will include complex process plants, where autonomous decisions directly affect safety, product quality and asset lifetime.</span></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><strong><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">WORK ENVIRONMENT</span></strong></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">EPFL is one of the most dynamic university campuses in Europe, ranks among the top 20 universities worldwide and offers an exceptional working environment with very competitive salaries. The IMOS Lab (https://www.epfl.ch/labs/imos/ ) offers a highly motivating, interdisciplinary scientific environment with many opportunities to interact across projects and researchers, and maintains an excellent network of collaborations with industrial stakeholders and leading international universities.</span></p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b></b></H2></div><div><p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><strong><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">CANDIDATE PROFILE</span></strong></p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">We are looking for a PhD candidate with a strong analytical background and an outstanding MSc degree in Computer Science, Robotics, Chemical/Process, Mechanical or Electrical Engineering, Control, Applied Mathematics, or a related field. You should have a solid foundation in machine learning and strong programming skills (Python, deep learning frameworks such as PyTorch), ideally with experience in one or more of the following: large language models and agentic AI, uncertainty quantification, anomaly detection and fault diagnosis, or decision-making under uncertainty.</span></p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Prior experience with process systems engineering or process control, physics-informed or hybrid modeling, explainable AI, or the verification and safety assurance of learning-based systems is considered a strong asset, as is experience with industrial time-series data or process simulators.</span></p>
-<p style="margin-right:0.0cm;margin-left:0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">We expect the candidate to be self-driven, with strong problem-solving abilities and out-of-the-box thinking. Professional command of English (both written and spoken) is mandatory. </span></p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b></b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span></p>
-<p><strong><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">APPLICATION PROCESS</span></strong></p>
-<p> </p>
-<p><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Formal applications including:</span></p>
-<ul style="margin-top:12.0pt;margin-bottom:12.0pt">
-<li style="margin:12.0pt 0.0cm 12.0pt 24.4px;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif;text-indent:0.4px"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">a letter of motivation,</span></li>
-<li style="margin:12.0pt 0.0cm 12.0pt 24.4px;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif;text-indent:0.4px"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">a CV of the candidate,</span></li>
-<li style="margin:12.0pt 0.0cm 12.0pt 24.4px;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif;text-indent:0.4px"><span style="font-size:7.0pt;color:black"> </span><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">brief research statement (one page) describing your project idea in the field of trustworthy AI for autonomous plant operations, making connections to your experience and related work from the literature,</span></li>
-<li style="margin:12.0pt 0.0cm 12.0pt 24.4px;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif;text-indent:0.4px"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">transcripts of all obtained degrees (in English),</span></li>
-<li style="margin:12.0pt 0.0cm 12.0pt 24.4px;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif;text-indent:0.4px"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">one publication (e.g. thesis or preferably a conference or journal publication, a link is sufficient),</span></li>
-</ul>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Should be submitted via the application platform. </span></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Further information on EPFL IMOS Lab can be found under: https://www.epfl.ch/labs/imos/</span></p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"> </p>
-<p style="margin:12.0pt 0.0cm;font-size:12.0pt;font-family:&#39;Times New Roman&#39;, serif"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">Shortlisted candidates will be invited to apply to one of the </span><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black"><a title="" href="https://www.epfl.ch/education/phd/programs/" target="_self">EPFL doctoral schools</a> (e.g. EDRS, EDCE or </span><a href="https://www.epfl.ch/education/phd/programs/edce-civil-and-environmental-engineering-2/"><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">EDEE</span></a><span style="font-size:11.0pt;font-family:Arial, sans-serif;color:black">). This parallel application process is necessary to be eligible for a PhD at EPFL. Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</span></p>
-<p> </p>
-<p>Application deadline: 31.10.2026</p>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: 01.11.2026</p>
-<p>Activity Rate Min: 100</p>
-<p>Activity Rate Max: 100</p>
-<p>Contract Type: CDD</p>
-<p>Duration: 1 year renewable</p>
-<p>Reference: 2494</p>
-<p> </p>
-<p>For more information, please contact: thy.maire@epfl.ch</p></div></div></div>]]></description><pubDate>Thu, 01 Oct 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Student-in-Trustworthy-AI-for-Autonomous-Plant-Operations/1165540855/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Student-in-Trustworthy-AI-for-Autonomous-Plant-Operations/1165540855/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD Position in Forest Ecophysiology and Remote Sensing (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>We are offering a full-time (100%) PhD position at ENAC at EPFL, Lausanne, Switzerland, within the Plant Ecology Research Laboratory (PERL): <a href="https://www.epfl.ch/labs/perl/">https://www.epfl.ch/labs/perl/</a> </p>
-<p><br>The PhD project will investigate how forest canopy temperature and spectral properties reflect tree physiological responses to increasing atmospheric drought and soil water limitation. The overarching objective is to understand how forests regulate canopy temperature and water use under drought and to use thermal and spectral signals to map forest vulnerability from individual trees to large spatial scales.</p>
-<p><br>The project will combine plant ecophysiology, field experiments, thermal and spectral remote sensing, UAV observations, and satellite data. Initial work will take place at the Pfynwald experimental forest in Switzerland, where ongoing manipulations allow disentangling the effects of vapor pressure deficit (VPD) and soil moisture on mature trees. The project will then expand to a network of forest sites across Europe and ultimately use satellite observations to assess forest sensitivity and vulnerability at continental to global scales.</p>
-<p><br>The successful candidate will be supervised by Prof. Charlotte Grossiord (EPFL) and co-supervised by Dr. Petra D’Odorico (WSL) and Dr. Helena Vallicrosa (WSL).</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD student, you will be expected to:<br>    •    Conduct original doctoral research on forest responses to atmospheric and soil drought, combining ecophysiological and remote-sensing approaches.<br>    •    Conduct and analyze measurements including sap flow, dendrometer data, leaf water potential, gas exchange, chlorophyll fluorescence, and thermal responses.<br>    •    Analyze thermal, RGB and potentially multispectral or hyperspectral imagery collected from fixed cameras and UAVs.<br>    •    Use satellite and environmental datasets to identify regions where forests are particularly sensitive or vulnerable to atmospheric drought.<br>    •    Disseminate research findings through peer-reviewed scientific publications and conference presentations.<br>    •    Participate in laboratory activities and, when appropriate, contribute to the supervision of student projects.<br>    •    Contribute to teaching as part of the PERL group at EPFL</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><p>    •    A MSc degree in ecology, plant biology, environmental sciences, forestry, remote sensing, Earth observation, geography, or a related field<br>    •    Strong interest in plant and forest responses to drought, heat and climate change<br>    •    Interest in combining field ecophysiology with remote sensing and large-scale data analysis<br>    •    Experience with plant physiological measurements, field ecology and/or remote sensing is an asset<br>    •    Good quantitative and statistical skills<br>    •    Familiarity with R, Python, GIS, image analysis or remote-sensing software is an asset<br>    •    Self-motivated, independent and collaborative mindset, with a high level of rigor for academic research<br>    •    Excellent communication skills in English, both written and spoken<br>    •    Willingness to participate in field campaigns in Switzerland and other European forest sites</p>
-<p><br>We do not expect candidates to already be specialists in all components of the project. Candidates with a strong background in either plant ecophysiology or remote sensing and a clear motivation to develop expertise in the complementary field are particularly encouraged to apply.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p>    •    A stimulating, interdisciplinary and international research environment<br>    •    Competitive salary and excellent working conditions, with a 1-year fixed-term contract (CDD), renewable for 3 years (4 years in total) to complete the PhD<br>    •    Opportunity to conduct state-of-the-art research combining experimental plant ecophysiology, forest ecology and remote sensing<br>    •    Access to unique experimental forest infrastructure and long-term physiological datasets<br>    •    Collaboration with researchers at EPFL, WSL and a European network of forest research sites<br>    •    Opportunities for international collaboration, conference participation and research visits<br>    •    A collaborative research environment within PERL, with expertise spanning plant ecophysiology, forest drought responses, climate extremes and ecosystem functioning</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific EPFL Doctoral Program to qualify for a PhD at EPFL, i.e. the Doctoral School of Civil and Environmental Engineering (EDCE). Please check this page for additional information on admission. Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL. The application for the EDCE doctoral school can be conducted after the candidate selection.<br>Only applications submitted through the online platform will be considered. You are asked to supply:<br>    •    A cover letter outlining your motivation for the position, your relevant experience, and your interest in the project (PDF, up to 2 pages)<br>    •    A single PDF containing your Curriculum Vitae, and contact information for 2 referees<br> <br>Application deadline: Running deadline. The position will remain open until filled.<br>Contract Start Date: April or May, 2027<br>Activity Rate: 100%<br>Contract Type: CDD<br>Duration: 1 year, renewable</p>
-<p><br>Reference: For more information, please contact: Charlotte Grossiord (charlotte.grossiord@epfl.ch), Petra D’Odorico (WSL, petra.dodorico@wsl.ch), or Helena Vallicrosa (WSL, helena.vallicrosa@epfl.ch). Applications sent directly to these email addresses shall not be considered.<br> </p>
-<p> </p>
-<p>Reference: 2490 </p></div></div></div>]]></description><pubDate>Wed, 30 Sep 2026 0:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Position-in-Forest-Ecophysiology-and-Remote-Sensing/1165533355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Position-in-Forest-Ecophysiology-and-Remote-Sensing/1165533355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD student position - Long- and short- range structure in electrolyte solutions (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>We are offering a challenging position as a full-time (100%) PhD Student at School of Engineering - STI at EPFL. At the Laboratory for fundamental BioPhotonics - LBP we are developing nonlinear imaging techniques to study, characterize and image water in different configuration.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Introduction </b></H2></div><div><p>Electrolyte solutions in water are an essential ingredient of many aspects of life and technology: the bodily fluids (blood and cellular fluid are prime examples), but also are the key contents of batteries. The electrolyte in batteries determines the power output, life span and efficient energy storage. Electrolyte solutions are commonly described as homogeneous mixtures in which ions are statistically distributed. However, it is well known from theoretical considerations in the 1930’s that this simple description is incomplete for the relevant concentration range and that the structure of electrolyte solutions is far more complex. Experiments to understand this need to cover time scales ranging from femto- to milliseconds, and length scales from atomistic dimensions to microns, a huge challenge.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b> The Project at EPFL</b></H2></div><div><p>We will use various novel home-built technologies based on nonlinear optical scattering and imaging methods to achieve this: second harmonic imaging, angle-resolved-second harmonic scattering, and correlated vibrational spectroscopy, all ultrafast optical methods, supplemented by standard linear spectroscopy and light scattering methods. These methods will be applied to simple 3D electrolytes in water, and 2D electrolyte regions at aqueous interfaces. Linking all datasets will allow to map both short – and long-range interactions and collective effects pertaining to all molecular actors. This allows to solve the puzzle surrounding concentrated electrolyte solutions and how they work, for example in their charge transmitting/storing functions and lead to a better understanding, and ultimately new technology.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<ul>
-<li>Have full responsibility for your own dissertation</li>
-<li>Research in close collaboration with industry partners</li>
-<li>Experiment design and execution</li>
-<li>Analyze and interpret experimental results</li>
-<li>Write scientific articles for publication in peer-reviewed journals</li>
-<li>Present at international conferences</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">Participate in education and supervise student project<br></span></span></span><br>This research has many interdisciplinary aspects that demand a highly motivated candidate with strong analytical abilities that can think out of the box. The successful candidate has a background in photonics, physics, chemistry/material science, or electrical engineering, ideally supplemented by hands-on experience in free space optics / microscopy, nonlinear optics or ultrafast spectroscopy. We offer excellent working conditions and a state-of-the-art infrastructure in a highly dynamic and international environment at the forefront of research.</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>A MSc degree </li>
-<li>Good communication skills and willingness to work as part of a team</li>
-<li>Enthusiasm, scientific curiosity, eager to learn, good organizational skills, rigor in experimental work</li>
-<li>High level of motivation for academic research work</li>
-<li>Fluency in English is essential, French / German / Italian would be an asset</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>4 years to complete your PhD with a competitive remuneration</li>
-<li>An opportunity to develop a scientific career </li>
-<li>A world-class research and training environment with access to state-of-the-art research facilities</li>
-<li>A multi-cultural and stimulating work environment</li>
-<li>A 1-year fixed-term contract (CDD), renewable for 4 years</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, photonics, materials science, or electrical engineering.<br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL.</span></span></p>
-<p style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Only applications submitted through the platform will be considered.</span></span></p>
-<p>Your application should contain:</p>
-<ul>
-<li>A motivation Letter</li>
-<li>Your detailed CV</li>
-<li>Contact information</li>
-<li>Transcripts of diplomas</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">The names and contact information of 3 references willing to write a recommendation letter</span></span></li>
-</ul>
-<p> </p>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: to be confirmed</p>
-<p>Activity Rate: 100.00</p>
-<p>Contract Type: PhD Student</p>
-<p>Duration: 1 year, renewable</p>
-<p>Reference: 2128</p>
-<p> </p>
-<p>For more information, please contact:<strong> sylvie.roke@epfl.ch</strong></p></div></div></div>]]></description><pubDate>Tue, 29 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-student-position-Long-and-short-range-structure-in-electrolyte-solutions/1164348155/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-student-position-Long-and-short-range-structure-in-electrolyte-solutions/1164348155/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD - Multimodal Generative AI for Materials Design (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>EPFL is one of the most dynamic university campuses in Europe, ranks among the top 20 universities worldwide and offers an exceptional working environment with very competitive salaries. The LTS2 Lab https://lts2.epfl.ch offers a highly    motivating, interdisciplinary scientific environment with many opportunities to interact between different projects and researchers, and has an excellent network of collaborative research projects with applications ranging from biology to neuroscience. The objective of this project is to develop groundbreaking generative AI methodologies for the design of novel materials. This is part of a large ERC Synergy project involving de novo simulations, automated experimental platforms driven by AI models. It offers extraordinary opportunites to collaborate with materials scientists on a quest to set-up a new blueprint for materials discovery, from computational approaches to actual synthesis and characterization.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><p>We are looking for 2 PhD students who will contribute novel multimodal generative AI architectures, latent diffusion processes, and reinforcement learning approaches. Interestingly, the proposed model will interface with an automated platform performing experimental materials synthesis and incorporate data from experimental characterization and simulations.</p>
-<p>We are looking for PhD candidates with a strong analytical background, and an outstanding MSc degree in Engineering, Computer Science, Physics, Applied Mathematics, or a related field. You should be proficient in or willing to learn generative deep learning – in particular based on latent diffusion, multimodal approaches, statistics and learning theory. We expect the candidate to be self-driven with strong problem-solving abilities and out-of-the-box thinking. You are willing to contribute and understand new AI architectures, implement and test them. More importantly, you are willing to partake in a collective international research endeavour involving researchers from different disciplines. Professional command of English (both written and spoken) is mandatory. To be eligible for these positions you must also apply and be accepted to the doctoral program in Electrical Engineering. Please check <a href="https://www.epfl.ch/education/phd/">https://www.epfl.ch/education/phd/</a> for additional information. Please note that this is a separate application process.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<p>Have full responsibility for your own dissertation</p>
-<p>Research in close collaboration with academic partners;</p>
-<p>Experiment design and execution ;</p>
-<p>Analyze and interpret experimental results;</p>
-<p>Write scientific articles for publication in peer-reviewed journals;</p>
-<p>Present at international conferences.</p>
-<p>Supervise student projects</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><p>4 years to complete your PhD with a competitive remuneration</p>
-<p>A world-class research and training environment with access to state-of-the-art research facilities;</p>
-<p>A multi-cultural and stimulating work environment;</p>
-<p>International collaboration and research internships at other institutions in Belgium and France;</p>
-<p>Term of employment: 1-year fixed-term contract (CDD), renewable for 4 years.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p>Only applications submitted through the online platform are considered.</p>
-<p>Your application should contain:</p>
-<ul>
-<li>Motivation Letter</li>
-<li>Detailed CV</li>
-<li>Contact information</li>
-<li>At least 2 references willing to write a recommendation letter.</li>
-</ul>
-<p>For more information, please contact: pierre.vandergheynst@epfl.ch</p>
-<p>Activity Rate : 100.00</p>
-<p>Contract Type : PhD Student</p>
-<p>Reference : 2048</p></div></div></div>]]></description><pubDate>Tue, 29 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Multimodal-Generative-AI-for-Materials-Design/1164180355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Multimodal-Generative-AI-for-Materials-Design/1164180355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD student position -Interfacial Imaging of Membrane Water (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>We are offering a challenging position as a full-time (100%) PhD Student at School of Engineering - STI at EPFL. At the Laboratory for fundamental BioPhotonics - LBP we are developing nonlinear imaging techniques to study, characterize and image water in different configuration.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Introduction </b></H2></div><div><p>Water is the liquid of life. It is intimately linked to our well-being. Without water, cell membranes cannot function. Charges and charged groups cannot be dissolved, self-assembly cannot occur, and proteins cannot fold. That water is intimately linked with life, we experience time and again when we quench our thirst, but how does this link work?</p>
-<p>Osmosis is the flow of water across a (cell) membrane that separates two aqueous solutions with different concentrations of a solutes. Regulating osmotic pressure is a key survival strategy of cells and plays an important role in the functioning of every organism. How osmotic pressure and cell membrane tension are regulated on the molecular level is not known. It is the aim of the ERC Synergy Grant R2-Tension, a collaboration between EPFL (Prof. S. Roke) and the University of Geneva (Prof. A. Roux) to work this out. To do so, we <strong>will develop new technology</strong> and perform experiments in vitro and vivo.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b> The Project at EPFL – focused on technology development &amp; in vitro studies</b></H2></div><div><p>Nonlinear optical imaging and new ultrafast spectroscopic techniques have recently been developed in the Roke lab and used to image in real time interfacial water and electrostatic potentials on membrane interfaces of model membranes and in living cells.</p>
-<p>We will use second harmonic water imaging to (1) image interfacial water in real time as well as the electrostatic field lines on lipid membrane interface model systems, and (2) image in real time membrane fusion and osmosis. The imaging data will be used to link molecular level information to electrostatics and mechanics of membranes.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p>As a PhD Student, you will be expected to:</p>
-<ul>
-<li>Have full responsibility for your own dissertation</li>
-<li>Research in close collaboration with industry partners</li>
-<li>Experiment design and execution</li>
-<li>Analyze and interpret experimental results</li>
-<li>Write scientific articles for publication in peer-reviewed journals</li>
-<li>Present at international conferences</li>
-<li><span style="font-size:10.0pt"><span><span style="font-family:&#39;Arial&#39;, sans-serif">Participate in education and supervise student project<br></span></span></span></li>
-</ul>
-<p> </p>
-<p>This research has many interdisciplinary aspects that demand a highly motivated candidate with strong analytical abilities that is able to think out of the box. The diverse aspects of the project allow a wide range of backgrounds that should include photonics, physics, chemistry/material science, electrical or bioengineering. Experience in nonlinear optics / microscopy, or ultrafast spectroscopy is a bonus. We offer excellent working conditions and a state-of-the-art infrastructure in a highly dynamic and international environment at the forefront of research. </p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul>
-<li>A MSc degree </li>
-<li>Good communication skills and willingness to work as part of a team</li>
-<li>Enthusiasm, scientific curiosity, eager to learn, good organizational skills, rigor in experimental work</li>
-<li>High level of motivation for academic research work</li>
-<li>Fluency in English is essential, French / German / Italian would be an asset</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul>
-<li>4 years to complete your PhD with a competitive remuneration</li>
-<li>An opportunity to develop a scientific career </li>
-<li>A world-class research and training environment with access to state-of-the-art research facilities</li>
-<li>A multi-cultural and stimulating work environment</li>
-<li>A 1-year fixed-term contract (CDD), renewable for 4 years</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p>The selection process involves multiple stages, and short-listed candidates will be requested to apply to a specific <a href="https://www.epfl.ch/education/phd/programs/" target="_blank" rel="noopener">EPFL Doctoral Program</a> to qualify for a PhD at EPFL, photonics, materials science, or electrical engineering.<br>Please check <a href="https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/">this page</a> for additional information on admission.</p>
-<p style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Please note that this is a separate application process necessary to be eligible to complete your PhD at EPFL.</span></span></p>
-<p style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">Only applications submitted through the platform will be considered.</span></span></p>
-<p>Your application should contain:</p>
-<ul>
-<li>A motivation Letter</li>
-<li>Your detailed CV</li>
-<li>Contact information</li>
-<li>Transcripts of diplomas</li>
-<li style="text-align:justify"><span style="font-size:10.0pt"><span style="font-family:&#39;Arial&#39;, sans-serif">The names and contact information of 3 references willing to write a recommendation letter</span></span></li>
-</ul>
-<p> </p>
-<p><span id="cke_bm_10628S" style="display:none"> </span>Contract Start Date: to be confirmed</p>
-<p>Activity Rate: 100.00</p>
-<p>Contract Type: PhD Student</p>
-<p>Duration: </p>
-<p>Reference: 2130</p>
-<p> </p>
-<p>For more information, please contact:<strong> sylvie.roke@epfl.ch</strong></p></div></div></div>]]></description><pubDate>Tue, 29 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-student-position-Interfacial-Imaging-of-Membrane-Water/1164348255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-student-position-Interfacial-Imaging-of-Membrane-Water/1164348255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[PhD Student Position in Operations, Economics and Strategy (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p> </p>
-<p>The Chair of Operations, Economics and Strategy (OES) at the College of Management of Technology at EPFL invites applications for a full-time PhD student position within the EPFL doctoral school program in Management of Technology (EDMT).</p>
-<p>We are offering a challenging full-time PhD student position at the Chair of Operations, Economics and Strategy (OES) at EPFL.</p>
-<p>The mission of OES is to conduct world-class research and teaching at the intersection of operations, economics, and strategy, with a focus on organizations and their interactions.</p>
-<p>At OES, you will have the opportunity to work on the design, analysis, and implementation of innovative models for decision-making, economics, and operations. Research topics may include optimization, decision-making under uncertainty, market design and pricing, operations research, dynamic systems, and strategy-relevant applications.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p> </p>
-<ul type="disc">
-<li>Develop and complete an original doctoral dissertation</li>
-<li>Conduct independent research in close interaction with the Chair and, where appropriate, with external or industry partners</li>
-<li>Contribute to teaching activities, including co-supervision of student projects</li>
-<li>Provide limited support for academic and administrative activities of the Chair</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul type="disc">
-<li>An excellent Master’s-level degree in Engineering, Applied Mathematics, Operations Research, Economics, Industrial Engineering, Mathematics, Computer Science, or a related quantitative field</li>
-<li>A strong mathematical background, including familiarity with optimization, probability, and the analysis of mathematical models</li>
-<li>A sincere interest in business-related, economic, and operational problems</li>
-<li>Proficiency in English</li>
-<li>Strong motivation for academic research, critical thinking, independence, good self-management skills, and team spirit</li>
-<li>Interest in a career involving research and teaching is an asset</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul type="disc">
-<li>Excellent working conditions in an international research environment</li>
-<li>Individual and intensive supervision of your PhD project</li>
-<li>Financial support in accordance with EPFL doctoral student conditions</li>
-<li>The opportunity to work on rigorous, practically relevant research at the interface of operations, economics, and strategy</li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p><span id="cke_bm_8708S" style="display:none"> </span> </p>
-<p>Your application should include:</p>
-<ul type="disc">
-<li>CV</li>
-<li>Motivation letter</li>
-<li>Diplomas</li>
-<li>Transcripts/grades from Bachelor’s and Master’s studies</li>
-</ul>
-<p>To be eligible for a PhD at EPFL, candidates must be admitted to an EPFL doctoral school program. For this position, candidates should also apply to the EPFL <strong>EDMT Doctoral School</strong>:<br><a href="https://www.epfl.ch/education/phd/edmt-management-of-technology/edmt-how-to-apply/?utm_source=chatgpt.com" target="_new">https://www.epfl.ch/education/phd/edmt-management-of-technology/edmt-how-to-apply/</a></p>
-<p><strong>Application deadlines:</strong> January 15, 2027 and April 15, 2027. Applications to OES may be reviewed on a rolling basis; formal admission to EDMT requires a complete application by one of these deadlines.</p>
-<p><strong>Expected start date:</strong> September 1st, 2027. An alternative start date may exceptionally be agreed upon by mutual agreement.</p>
-<p>Only shortlisted candidates will be contacted.</p></div></div></div>]]></description><pubDate>Sun, 27 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Operations%2C-Economics-and-Strategy/1164674255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Operations%2C-Economics-and-Strategy/1164674255/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Postdoc Position in Quantitative Finance at EPFL (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>The <a href="https://www.epfl.ch/labs/csf">Swissquote Chair in Quantitative Finance</a> at EPFL seeks postdocs to reinforce our research in quantitative finance with a focus on applied machine learning.</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Working and collaborating on research projects. The precise research topic(s) will be discussed with the successful candidate depending on their background, expertise and affinities.</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Analysis and publication of results</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Build a strong network in the field of research</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Participate in education, and PhD and master student supervision</span></span></span></span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul style="margin-bottom:11.0px">
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A stimulating and international working environment </span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Competitive salary and excellent working conditions – more information can be found on our website (https://www.epfl.ch/campus/services/human-resources/en/basic-starting-salary-of-doctoral-assistants-and-postdocs/)</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to perform state-of-the-art research in one of the most dynamic scientific institutions in Europe.</span></span></span></span></span></li>
-	<li><span style="font-size:11.0pt"><span><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to interact with internationally renowned experts, and with a strong team of postdoctoral researchers and PhD students</span></span></span></span></span></li>
-</ul>
-</div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Only applications submitted through the online platform are considered. You are asked to supply:</span></span></span></p>
-<ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A brief cover letter (pdf, up to 2 pages).</span></span></span></span></li>
-</ul>
-<p style="margin-bottom:11.0px;margin-left:24.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">And in one PDF: </span></span></span></p>
-<ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A CV with a publication list.</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A research statement (pdf, up to 3 pages).</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Contact details for 3 referees.</span></span></span></span></li>
-</ul>
-<p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">For any further information, please contact: Ms Sophie Kauz-Cadena ( <a href="mailto:sophie.cadenakauz@epfl.ch">sophie.cadenakauz@epfl.ch</a> )</span></span></span></p>
-<p style="margin-bottom:11.0px"> </p>
-<p>Contract Start Date :  </p>
-<p>Activity Rate: 100.00 </p>
-<p>Contract Type: CDD</p>
-<p>Duration: 1 year renewable </p>
-<p>Reference: 2226 </p></div></div></div>]]></description><pubDate>Fri, 25 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item><item><title><![CDATA[Postdoctoral researcher in fly neuroscience and robotics (Lausanne, CH)]]></title><description><![CDATA[<div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Mission</b></H2></div><div><p>We are looking for a highly motivated Postdoctoral researcher (W/M) to join our Neuroengineering Laboratory at EPFL (<a href="https://go.epfl.ch/ramdya/">https://go.epfl.ch/ramdya/</a>) to work on an ERC funded project aiming to reverse-engineer insect limb motor control for bioinspired robotics.</p>
-<p><br>The main focus of this project is how neural circuits in the motor system of the fly, Drosophila melanogaster, orchestrate limb movements and autonomous behavior in complex environments. Specifically, we are looking for Postdoctoral scientists to perform microscopy-based neural recordings in behaving flies, computational analysis, and, if interested, neuromechanical simulations or robots driven by connectome-constrained artificial neural networks. Candidates from outside the field of neuroscience are encouraged to apply, but must be curious, persistent, and passionate to delve into the mysteries of the brain!</p></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Main duties and responsibilities</b></H2></div><div><p style="text-align:justify;margin:0.0cm;font-size:12.0pt;font-family:Calibri, sans-serif"> </p>
-<ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Working on a ERC funded project aiming to reverse-engineer insect limb motor control for bioinspired robotics. The precise research topic(s) will be discussed with the successful candidate depending on their background, expertise and affinities</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Analysis and publication of results</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Build a strong network in the field of research</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Participate in education, and PhD and master student supervision</span></span></span></span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Profile</b></H2></div><div><ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">PhD (or nearing completion of)</span></span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-size:12.0pt"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Background in experimental neuroscience, computational neuroscience, and/or robotics</span></span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Strong computational and analytical skills</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Strong publication record (relative to your career stage)</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Independent, creative, and solution-oriented</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Excellent written and oral communication skills in English</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Strong motivation to explore new research domains</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Good team spirit</span></span></span></span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>We offer</b></H2></div><div><ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A stimulating and international working environment </span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Competitive salary and excellent working conditions – more information can be found on our website (https://www.epfl.ch/campus/services/human-resources/en/basic-starting-salary-of-doctoral-assistants-and-postdocs/)</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to perform state-of-the-art research in one of the most dynamic scientific institutions in Europe.</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Opportunity to interact with internationally renowned experts, and with a strong team of postdoctoral researchers and PhD students</span></span></span></span></li>
-</ul></div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><H2 style="font-size:1.0em;margin:0.0px"><b>Informations</b></H2></div><div><p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Only applications submitted through the online platform are considered. You are asked to supply:</span></span></span></p>
-<ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A brief cover letter outlining your research interests and why you want to join the lab (pdf, up to 1 page).</span></span></span></span></li>
-</ul>
-<p style="margin-bottom:11.0px;margin-left:24.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">And in one PDF: </span></span></span></p>
-<ul style="margin-bottom:11.0px">
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">A CV with a publication list.</span></span></span></span></li>
-<li><span style="font-size:11.0pt"><span><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">Contact details for 3 referees.</span></span></span></span></li>
-</ul>
-<p style="margin-bottom:11.0px"><span style="font-size:11.0pt"><span style="font-family:Calibri, sans-serif"><span style="font-family:&#39;Calibri Light&#39;, sans-serif">For any further information, please contact: kathryn.aitkenmaulaz@epfl.ch</span></span></span></p>
-<p style="margin-bottom:11.0px"> </p>
-<p>Contract Start Date : Novembre 1, 2026</p>
-<p>Activity Rate : 100.00 </p>
-<p>Contract Type: CDD</p>
-<p>Duration: Up to 5 years </p>
-<p>Reference: 2318 </p></div></div></div>]]></description><pubDate>Fri, 25 Sep 2026 2:00:00 GMT</pubDate><link>https://careers.epfl.ch/job/Lausanne-Postdoctoral-researcher-in-fly-neuroscience-and-robotics/1165009655/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</link><guid>https://careers.epfl.ch/job/Lausanne-Postdoctoral-researcher-in-fly-neuroscience-and-robotics/1165009655/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS</guid></item></channel></rss>
