@@ -1,11 +1,11 @@
 {
- "run_at": "2026-10-06T10:34:49Z",
- "duration_s": 197,
- "sources": 5,
+ "run_at": "2026-10-06T10:39:03Z",
+ "duration_s": 225,
+ "sources": 6,
  "failed": [],
- "new": 0,
- "open": 81,
- "recent": 81,
+ "new": 9,
+ "open": 90,
+ "recent": 90,
  "details": [
   {
    "id": "at-nl",
@@ -13,10 +13,10 @@
    "type": "academictransfer",
    "ok": true,
    "raw": 48,
-   "matched": 46,
+   "matched": 28,
    "complete": false,
    "details": 0,
-   "secs": 197.2,
+   "secs": 224.6,
    "new": 0,
    "closed": 0
   },
@@ -29,7 +29,7 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 3.1,
+   "secs": 4.0,
    "new": 0,
    "closed": 0
   },
@@ -42,8 +42,21 @@
    "matched": 21,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 1.1,
    "new": 0,
+   "closed": 0
+  },
+  {
+   "id": "kuleuven-phd",
+   "co": "KU Leuven",
+   "type": "kuleuven",
+   "ok": true,
+   "raw": 30,
+   "matched": 9,
+   "complete": true,
+   "details": 0,
+   "secs": 2.0,
+   "new": 9,
    "closed": 0
   },
   {
@@ -55,7 +68,7 @@
    "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -68,7 +81,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
+   "secs": 2.9,
    "new": 0,
    "closed": 0
   }
