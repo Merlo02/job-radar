@@ -3,6 +3,7 @@ name: Job scanner
 on:
   schedule:
     - cron: "17 3 * * *"   # every night, ~05:17 Italian time (04:17 in winter)
+    - cron: "52 3 * * *"   # second try in case GitHub skips the first one
   workflow_dispatch:        # "Run workflow" button
   push:
     branches: [main]
