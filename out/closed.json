@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-06T07:48:13Z",
+ "generated": "2026-10-06T10:13:39Z",
  "days": 14,
- "count": 35,
+ "count": 36,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -589,6 +589,23 @@
    "baseline": true,
    "ats": "google",
    "closed_at": "2026-10-06T07:48:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-war:111360003910050502",
+   "co": "Google",
+   "target": "deepmind",
+   "big": true,
+   "title": "Software Engineer III, AI/ML, Vertex Inference On Hybrid Clouds",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/111360003910050502-software-engineer-iii-ai-ml-vertex-inference-on-hybrid-clouds",
+   "loc": "Warsaw, Poland (PL)",
+   "loc_status": "eu",
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-05T15:23:47Z",
+   "last_seen": "2026-10-06T07:48:13Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-06T10:13:39Z",
    "reason": "not listed anymore"
   }
  ]
