@@ -1,1 +1,0 @@
-$.ajax({type:"GET",url:("undefined"!=typeof filter_component_api_base_url?filter_component_api_base_url:"")+"/api/appJs/latest",async:!0,dataType:"json",success:function(e){document.getElementById("latest_app_js").src=e.latest_app_js}});
