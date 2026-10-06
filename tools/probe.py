@@ -47,11 +47,12 @@ S = session()
 
 
 def get(url, **kw):
-    for i in range(3):
+    last = None
+    for i in range(2):
         try:
             r = S.get(url, timeout=40, allow_redirects=True, **kw)
-            if r.status_code == 429:
-                time.sleep(15 * (i + 1))
+            if r.status_code == 429 and i == 0:
+                time.sleep(10)
                 continue
             return r
         except Exception as e:  # noqa: BLE001
@@ -138,6 +139,15 @@ def check(item):
     return out
 
 
+def pdf_text(content):
+    try:
+        import io
+        from pypdf import PdfReader
+        return "\n".join((pg.extract_text() or "") for pg in PdfReader(io.BytesIO(content)).pages[:20])
+    except Exception as e:  # noqa: BLE001
+        return f"[pdf error {e}]"
+
+
 def raw(item):
     out = {"id": item["id"], "url": item["url"]}
     try:
@@ -146,9 +156,12 @@ def raw(item):
             r = S.post(item["url"], json=item["post"], headers=hdr, timeout=40)
         else:
             r = S.get(item["url"], headers=hdr, timeout=40)
+        body = pdf_text(r.content) if "pdf" in r.headers.get("content-type", "") else r.text
+        if item.get("text") and "pdf" not in r.headers.get("content-type", ""):
+            body = text_of(body)
         os.makedirs(os.path.join(ROOT, "raw"), exist_ok=True)
         with open(os.path.join(ROOT, "raw", item["id"] + ".txt"), "w", encoding="utf-8") as f:
-            f.write(r.text[:MAX_RAW])
+            f.write(body[:MAX_RAW])
         out.update({"status": r.status_code, "final": r.url, "ctype": r.headers.get("content-type"),
                     "bytes": len(r.content), "title": title_of(r.text)})
     except Exception as e:  # noqa: BLE001
@@ -166,8 +179,14 @@ def main():
     rest = [i for i in items if i not in linkedin]
     with ThreadPoolExecutor(6) as ex:
         res = list(ex.map(run, rest))
-    for i in linkedin:  # LinkedIn rate-limits: one at a time
-        res.append(run(i))
+    blocked = 0
+    for i in linkedin:  # LinkedIn rate-limits: one at a time, give up after 3 refusals
+        if blocked >= 3:
+            res.append({"id": i["id"], "url": i["url"], "state": "unknown", "detail": "linkedin skipped (rate limit)"})
+            continue
+        r = run(i)
+        blocked = blocked + 1 if r.get("state") in ("unknown", "error") else 0
+        res.append(r)
         time.sleep(2.5)
     json.dump(res, open(os.path.join(ROOT, "probe_out.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
