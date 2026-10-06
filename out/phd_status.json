@@ -1,6 +1,6 @@
 {
- "run_at": "2026-10-06T10:25:09Z",
- "duration_s": 248,
+ "run_at": "2026-10-06T10:29:57Z",
+ "duration_s": 246,
  "sources": 5,
  "failed": [],
  "new": 0,
@@ -16,7 +16,7 @@
    "matched": 46,
    "complete": false,
    "details": 0,
-   "secs": 248.3,
+   "secs": 245.5,
    "new": 0,
    "closed": 0
   },
@@ -29,7 +29,7 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 3.4,
+   "secs": 3.6,
    "new": 0,
    "closed": 0
   },
@@ -42,7 +42,7 @@
    "matched": 21,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -55,7 +55,7 @@
    "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -68,7 +68,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.8,
+   "secs": 2.0,
    "new": 0,
    "closed": 0
   }
