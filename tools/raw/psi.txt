@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://matomo.psi.ch/" : "https://matomo.psi.ch/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDocumentTitle", "404/URL = " + encodeURIComponent(document.location.pathname+document.location.search) + "/From = " + encodeURIComponent(document.referrer)]);_paq.push(["setDoNotTrack", 1]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<link rel="canonical" href="https://www.psi.ch/en/error-404" />
+<link rel="icon" href="/themes/custom/design2/images/favicon/favicon.ico" />
+<link rel="mask-icon" href="/themes/custom/design2/images/favicon/safari-pinned-tab.svg" />
+<link rel="icon" sizes="16x16" href="/themes/custom/design2/images/favicon/favicon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/themes/custom/design2/images/favicon/favicon-32x32.png" />
+<link rel="icon" sizes="192x192" href="/themes/custom/design2/images/favicon/android-chrome-192x192.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/design2/images/favicon/apple-touch-icon.png" />
+<meta property="og:site_name" content="PSI" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.psi.ch/en/pa/job-openings" />
+<meta property="og:title" content="404 Page" />
+<meta property="og:image" content="https://www.psi.ch/sites/default/files/styles/primer_og_image/public/2025-10/20250430_psi_luftbild_0007.jpg.webp?itok=ykHNwf19" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="675" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The desired page could not be found. | PSI" />
+<meta name="twitter:image" content="https://www.psi.ch/sites/default/files/styles/primer_og_image/public/2025-10/20250430_psi_luftbild_0007.jpg.webp?itok=ykHNwf19" />
+<meta name="facebook-domain-verification" content="82boec1r74dj0juhk439kpphgtul2c" />
+<meta name="google-site-verification" content="6x5EqVOGG5n8G9861-an3c4SZI5ZsQPuTAGEf9mOqRs" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="msapplication-config" content="/themes/custom/design2/images/favicon/browserconfig.xml" />
+<meta name="msapplication-square150x150logo" content="/themes/custom/design2/images/favicon/mstile-150x150.png" />
+<meta name="msapplication-tileimage" content="/themes/custom/design2/images/favicon/mstile-150x150.png" />
+<base href="/en/pa/job-openings" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org); Commerce 3" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "headline": "404 Page",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "https://www.psi.ch/sites/default/files/styles/primer_teaser_grid_16_9_scale_md/public/2025-10/20250430_psi_luftbild_0007.jpg.webp?itok=oV2vdQYa",
+                "width": "1200",
+                "height": "675"
+            },
+            "datePublished": "2018-10-31T16:37:00+0100",
+            "dateModified": "2019-04-12T12:28:29+0200",
+            "author": {
+                "@type": "Person",
+                "name": "Primer-Admin"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "PSI",
+                "url": "https://www.psi.ch/en",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.psi.ch/themes/custom/design/logo-medium.png",
+                    "width": "584px",
+                    "height": "232px"
+                }
+            },
+            "mainEntityOfPage": "https://www.psi.ch/en/pa/job-openings"
+        }
+    ]
+}</script>
+<link rel="alternate" hreflang="de" href="https://www.psi.ch/de/error-404" />
+<link rel="alternate" hreflang="en" href="https://www.psi.ch/en/error-404" />
+<link rel="alternate" hreflang="fr" href="https://www.psi.ch/fr/error-404" />
+<link rel="preload" as="font" href="/themes/custom/design2/fonts/Accelerate-Regular.woff2" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" as="font" href="/themes/custom/design2/fonts/Accelerate-Medium.woff2" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" as="font" href="/themes/custom/design2/fonts/Accelerate-Semibold.woff2" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" as="font" href="/themes/custom/design2/fonts/icons.woff2?v=8795eb40" type="font/woff2" crossorigin="anonymous" />
+
+    <title>The desired page could not be found. | PSI</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_kiTeD8SagINuSO3tEFIGTAGw_imv9dh0ic-fkDISo6s.css?delta=0&amp;language=en&amp;theme=design2&amp;include=eJxtj1EOgzAMQy9UqLQLoYSGUhGSqqFs3H5FW7WffVnPkRUbbUIw8gInQhl0WWaQE8yhTZzQh6I56FM67xqAO3xCLpClKA8fWRF4sOPiJNFRnWbVLVGTPXMCmcn_M1uDQo5eR4tt7WPNwOMXXYYCsUBerV9-zlglV-RkKwVnlx20-3vNG1tgUt4" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_g9ENU1scMVct7vASKbDjGocXPbFiTB4kuNpBwPgnoEM.css?delta=1&amp;language=en&amp;theme=design2&amp;include=eJxtj1EOgzAMQy9UqLQLoYSGUhGSqqFs3H5FW7WffVnPkRUbbUIw8gInQhl0WWaQE8yhTZzQh6I56FM67xqAO3xCLpClKA8fWRF4sOPiJNFRnWbVLVGTPXMCmcn_M1uDQo5eR4tt7WPNwOMXXYYCsUBerV9-zlglV-RkKwVnlx20-3vNG1tgUt4" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_bxZ1Pqho4u3LRd-JjvdCJ7VHHU2qiEEd9Ei8qabrrxM.css?delta=2&amp;language=en&amp;theme=design2&amp;include=eJxtj1EOgzAMQy9UqLQLoYSGUhGSqqFs3H5FW7WffVnPkRUbbUIw8gInQhl0WWaQE8yhTZzQh6I56FM67xqAO3xCLpClKA8fWRF4sOPiJNFRnWbVLVGTPXMCmcn_M1uDQo5eR4tt7WPNwOMXXYYCsUBerV9-zlglV-RkKwVnlx20-3vNG1tgUt4" />
+
+    
+  </head>
+  <body class="path-pa page-node-type-primer-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <header class="page__header">
+                      <div class="page__header__top">
+            <div class="page__header__top__inner container">
+                  <div class="row region region-top">
+        <div class="block block-menu block-menu--modal display-only-big">
+      <nav class="nav nav-links">
+        <div class="nav-item">
+          <a href="/en" class="psi-icon-menu-before psi-camera-indoor nav-link psi-nav-link--underline"><span class="label">PSI</span></a>
+        </div>
+      </nav>
+    </div>      <nav  id="block-design2-rebrandingtopcenters" class="block-menu--modal block block-menu navigation menu--top-centers">
+    
+    <div class="nav nav-links">
+    <a data-psi-toggle="modal" data-bs-target="#block-design2-rebrandingtopcenters-modal" class="psi-icon-dropdown block__title nav-link psi-nav-link--underline" href="#" id="block-design2-rebrandingtopcenters-menu" aria-haspopup="true" aria-expanded="false">Centers &amp; Labs</a>
+  </div>
+  
+  <div class="modal fade psi-modal-menu" id="block-design2-rebrandingtopcenters-modal" tabindex="-1" aria-labelledby="block-design2-rebrandingtopcenters-menu" aria-hidden="true" data-bs-backdrop="false">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container">
+            <a href="#" class="overlay-menu-close psi-p-s psi-s-ml-auto" data-bs-dismiss="modal"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="psi-scroll-shadow"></div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="psi-modal-menu__content">
+              
+
+          <a href="/en/research/center-labs" class="overlay-menu__overview__link psi-modal-menu__title">
+          <span class="overlay-menu__overview__title">Center &amp; Labs</span>
+          <span class="psi-p-s label">To overview</span>
+        </a>  <ul class="nav-top-centers">                        <li class="nav-item psi-p-l">                                            <a href="/en/cnm" class="nav-link psi-menu-below" id="top-centersLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61165"><span class="label">PSI Center for Neutron and Muon Sciences</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/cnm" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Neutron and Muon Sciences</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10">
+                          <li class="nav-item">                <a href="/en/ltp" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/62244"><span class="label">Laboratory for Particle Physics</span></a></li>
+                              <li class="nav-item">                <a href="/en/lns" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63373"><span class="label">Laboratory for Neutron Scattering and Imaging</span></a></li>
+                              <li class="nav-item">                <a href="/en/lmu" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63376"><span class="label">Laboratory for Muon Spin Spectroscopy</span></a></li>
+                              <li class="nav-item">                <a href="/en/lin" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/63388"><span class="label">Laboratory for Neutron and Muon Instrumentation</span></a></li>
+                              <li class="nav-item">                <a href="/en/lmx" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel24" data-menu-level="2" data-drupal-link-system-path="node/63391"><span class="label">Laboratory for Multiscale Materials Experiments</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/cps" class="nav-link psi-menu-below" id="top-centersLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61150"><span class="label">PSI Center for Photon Science</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/cps" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Photon Science</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11">
+                          <li class="nav-item">                <a href="/en/lsb" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/63415"><span class="label">Laboratory for Macromolecules and Bioimaging</span></a></li>
+                              <li class="nav-item">                <a href="/en/lxn" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63418"><span class="label">Laboratory for X-ray Nanoscience and Technologies</span></a></li>
+                              <li class="nav-item">                <a href="/en/lsc" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63484"><span class="label">Laboratory Condensed Matter</span></a></li>
+                              <li class="nav-item">                <a href="/en/lsf" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/63463"><span class="label">Laboratory for Synchrotron Radiation and Femtochemistry</span></a></li>
+                              <li class="nav-item">                <a href="/en/lsx" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel24" data-menu-level="2" data-drupal-link-system-path="node/63520"><span class="label">Laboratory for Advanced Spectroscopy and X-ray Sources</span></a></li>
+                              <li class="nav-item">                <a href="/en/lno" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel25" data-menu-level="2" data-drupal-link-system-path="node/63490"><span class="label">Laboratory for Non-linear Optics</span></a></li>
+                              <li class="nav-item">                <a href="/en/lnq" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel26" data-menu-level="2" data-drupal-link-system-path="node/63460"><span class="label">Laboratory for Nano and Quantum Technologies</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/cee" class="nav-link psi-menu-below" id="top-centersLabel12" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61153"><span class="label">PSI Center for Energy and Environmental Sciences </span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/cee" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Energy and Environmental Sciences </span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12">
+                          <li class="nav-item">                <a href="/en/lep" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/63424"><span class="label">Laboratory for Sustainable Energy Carriers and Processes</span></a></li>
+                              <li class="nav-item">                <a href="/en/lec" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63427"><span class="label">Electrochemistry Laboratory</span></a></li>
+                              <li class="nav-item">                <a href="/en/lac" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63412"><span class="label">Laboratory of Atmospheric Chemistry</span></a></li>
+                              <li class="nav-item">                <a href="/en/lsk" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/63523"><span class="label">Laboratory for Catalysis and Sustainable Chemistry</span></a></li>
+                              <li class="nav-item">                <a href="/en/lea" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel24" data-menu-level="2" data-drupal-link-system-path="node/63514"><span class="label">Laboratory for Energy Systems Analysis</span></a></li>
+                              <li class="nav-item">                <a href="/en/lbs" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel25" data-menu-level="2" data-drupal-link-system-path="node/66884"><span class="label">Laboratory for Battery Science</span></a></li>
+                              <li class="nav-item">                <a href="/en/lti" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel26" data-menu-level="2" data-drupal-link-system-path="node/73926"><span class="label">Laboratory for Energy Technologies and Innovation </span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/nes" class="nav-link psi-menu-below" id="top-centersLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61156"><span class="label">PSI Center for Nuclear Engineering and Sciences</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/nes" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Nuclear Engineering and Sciences</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12 top-centersLabel13">
+                          <li class="nav-item">                <a href="/en/lrt" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/63457"><span class="label">Laboratory for Reactor Physics and Thermal-Hydraulics</span></a></li>
+                              <li class="nav-item">                <a href="/en/ahl" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63466"><span class="label">Hot Laboratory</span></a></li>
+                              <li class="nav-item">                <a href="/en/les" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63487"><span class="label">Laboratory for Waste Management</span></a></li>
+                              <li class="nav-item">                <a href="/en/lea" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/63514"><span class="label">Laboratory for Energy Systems Analysis</span></a></li>
+                              <li class="nav-item">                <a href="/en/lnm" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel24" data-menu-level="2" data-drupal-link-system-path="node/63493"><span class="label">Laboratory for Nuclear Materials</span></a></li>
+                              <li class="nav-item">                <a href="/en/lrc" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel25" data-menu-level="2" data-drupal-link-system-path="node/63433"><span class="label">Laboratory of Radiochemistry</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/cls" class="nav-link psi-menu-below" id="top-centersLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61159"><span class="label">PSI Center for Life Sciences</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/cls" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Life Sciences</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12 top-centersLabel13 top-centersLabel14">
+                          <li class="nav-item">                <a href="/en/crs" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/63409"><span class="label">Center for Radiopharmaceutical Sciences</span></a></li>
+                              <li class="nav-item">                <a href="/en/lbr" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63406"><span class="label">Laboratory of Biomolecular Research</span></a></li>
+                              <li class="nav-item">                <a href="/en/lmb" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63403"><span class="label">Laboratory of Multiscale Bioimaging</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/csd" class="nav-link psi-menu-below" id="top-centersLabel15" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61162"><span class="label">PSI Center for Scientific Computing, Theory and Data</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/csd" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Scientific Computing, Theory and Data</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12 top-centersLabel13 top-centersLabel14 top-centersLabel15">
+                          <li class="nav-item">                <a href="/en/lsm" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/63481"><span class="label">Laboratory for Simulation and Modelling</span></a></li>
+                              <li class="nav-item">                <a href="/en/ltc" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/63472"><span class="label">Computational and Theoretical Physics</span></a></li>
+                              <li class="nav-item">                <a href="/en/lms" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/63529"><span class="label">Laboratory for Materials Simulations</span></a></li>
+                              <li class="nav-item">                <a href="/en/awi" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/63469"><span class="label">Science IT Infrastructure and Services</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/cas" class="nav-link psi-menu-below" id="top-centersLabel16" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61168"><span class="label">PSI Center for Accelerator Science and Engineering</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/cas" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Accelerator Science and Engineering</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12 top-centersLabel13 top-centersLabel14 top-centersLabel15 top-centersLabel16">
+                          <li class="nav-item">                <a href="/en/cas/accelerator-operation-and-development" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/17774"><span class="label">Accelerator Operation and Development (ASA)</span></a></li>
+                              <li class="nav-item">                <a href="/en/cas/electronics-and-control-systems" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/17771"><span class="label">Electronics and Control Systems (AEK)</span></a></li>
+                              <li class="nav-item">                <a href="/en/cas/accelerator-technology" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/17780"><span class="label">Accelerator Technology (ABT)</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+                              <li class="nav-item psi-p-l">                                            <a href="/en/ccs" class="nav-link psi-menu-below" id="top-centersLabel17" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61171"><span class="label">PSI Center for Corporate Services</span></a>            <div class="overlay-menu overlay-menu--hide">
+              <div class="overlay-menu__overview">
+                <div>
+                  <a href="/en/ccs" class="overlay-menu__overview__link">
+                    <span class="overlay-menu__overview__title">PSI Center for Corporate Services</span>
+                    <span class="psi-p-s label">To overview</span>
+                  </a>
+                </div>
+              </div>
+              <div class="overlay-menu__content">    <ul class="menu depth-2" aria-labelledby=" top-centersLabel10 top-centersLabel11 top-centersLabel12 top-centersLabel13 top-centersLabel14 top-centersLabel15 top-centersLabel16 top-centersLabel17">
+                          <li class="nav-item">                <a href="/en/ccs/finance-and-services" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel20" data-menu-level="2" data-drupal-link-system-path="node/48715"><span class="label">Finanzen und Dienste</span></a></li>
+                              <li class="nav-item">                <a href="/en/ccs/campus-services" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel21" data-menu-level="2" data-drupal-link-system-path="node/48790"><span class="label">Immobilien und Betrieb</span></a></li>
+                              <li class="nav-item">                <a href="/en/ccs/infrastructure-and-electrical-installations" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel22" data-menu-level="2" data-drupal-link-system-path="node/49048"><span class="label">Infrastruktur und Elektroinstallationen</span></a></li>
+                              <li class="nav-item">                <a href="/en/ccs/information-technology" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel23" data-menu-level="2" data-drupal-link-system-path="node/50782"><span class="label">Informationstechnologie</span></a></li>
+                              <li class="nav-item">                <a href="/en/asi" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel24" data-menu-level="2" data-drupal-link-system-path="node/19709"><span class="label">Abteilung Strahlenschutz und Sicherheit</span></a></li>
+                              <li class="nav-item">                <a href="/en/ccs/communications" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-centersLabel25" data-menu-level="2" data-drupal-link-system-path="node/48793"><span class="label">Kommunikation</span></a></li>
+        </ul>
+  </div>
+            </div>
+          </li>
+        </ul>
+  
+
+            </div>
+              <div class="psi-modal-menu__search">
+    <h4 class="h4 psi-modal-menu__search-title">Labs, Groups & Projects</h4>
+    <div class="form-item psi-fast-search form-floating">
+      <input type="text" class="form-control psi-fast-search__input" id="psi-labs-search" data-psi-search-url="/en/psi/api/centers-labs" data-psi-sitewide-search-url="/en/search" data-psi-search-results-element="#psi-labs-search-results" placeholder="Search">
+      <label for="psi-labs-search" class="psi-fast-search__label ">Search</label>
+      <div id="psi-labs-search-results" class="psi-fast-search__results"></div>
+    </div>
+  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+      <nav  id="block-design2-rebrandingtopfacilities" class="psi-s-ml-auto psi-s-responsive-ml-0 psi-s-responsive-mr-auto block-menu--modal block block-menu navigation menu--top-facilities">
+    
+    <div class="nav nav-links">
+    <a data-psi-toggle="modal" data-bs-target="#block-design2-rebrandingtopfacilities-modal" class="psi-icon-dropdown block__title nav-link psi-nav-link--underline" href="#" id="block-design2-rebrandingtopfacilities-menu" aria-haspopup="true" aria-expanded="false">Facilities &amp; User Services</a>
+  </div>
+  
+  <div class="modal fade psi-modal-menu" id="block-design2-rebrandingtopfacilities-modal" tabindex="-1" aria-labelledby="block-design2-rebrandingtopfacilities-menu" aria-hidden="true" data-bs-backdrop="false">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container">
+            <a href="#" class="overlay-menu-close psi-p-s psi-s-ml-auto" data-bs-dismiss="modal"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="psi-scroll-shadow"></div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="psi-modal-menu__content">
+                <ul class="nav-top-facilities">                  <li class="nav-item psi-p-l">                                            <a href="/en/research/large-research-facilities" class="nav-link psi-menu-below" id="top-facilitiesLabel00" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62997"><span class="label">Large Research Facilities</span></a>            <div class="overlay-menu">
+              <div class="overlay-menu__overview psi-s-mb-sm">
+                <a href="/en/research/large-research-facilities" class="overlay-menu__overview__link psi-modal-menu__title">
+                  <span class="overlay-menu__overview__title">Large Research Facilities</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+              </div>
+              <div class="overlay-menu__content">  <ul class="menu depth-1" aria-labelledby=" top-facilitiesLabel00">                  <li class="nav-item">                <a href="/en/swissfel" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel10" data-menu-level="1" data-drupal-link-system-path="node/17702"><span class="label">SwissFEL – Swiss X-ray Free Electron Laser</span></a></li>                  <li class="nav-item">                <a href="/en/sls" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel11" data-menu-level="1" data-drupal-link-system-path="node/16517"><span class="label">SLS – Swiss Light Source</span></a></li>                  <li class="nav-item">                <a href="/en/sinq" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel12" data-menu-level="1" data-drupal-link-system-path="node/14363"><span class="label">SINQ – Swiss Spallation Neutron Source</span></a></li>                  <li class="nav-item">                <a href="/en/smus" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel13" data-menu-level="1" data-drupal-link-system-path="node/15119"><span class="label">SμS – Swiss Muon Source</span></a></li>                  <li class="nav-item">                <a href="/en/ltp/facilities" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel14" data-menu-level="1" data-drupal-link-system-path="node/12674"><span class="label">CHRISP – Swiss Research Infrastructure for Particle Physics</span></a></li></ul></div>
+            </div>
+          </li>                  <li class="nav-item psi-p-l">                                            <a href="/en/useroffice" class="nav-link psi-menu-below" id="top-facilitiesLabel01" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63532"><span class="label">User Office</span></a>            <div class="overlay-menu">
+              <div class="overlay-menu__overview psi-s-mb-sm">
+                <a href="/en/useroffice" class="overlay-menu__overview__link psi-modal-menu__title">
+                  <span class="overlay-menu__overview__title">User Office</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+              </div>
+              <div class="overlay-menu__content">  <ul class="menu depth-1" aria-labelledby=" top-facilitiesLabel00 top-facilitiesLabel01">                  <li class="nav-item">                <a href="/en/research/data-analysis-service" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel10" data-menu-level="1" data-drupal-link-system-path="node/9713"><span class="label">Data Analysis Service</span></a></li>                  <li class="nav-item">                <a href="https://duo.psi.ch/duo/" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel11" data-menu-level="1"><span class="label">Digital User Office (DUO)</span></a></li>                  <li class="nav-item">                <a href="/en/useroffice/eu-support-programmes" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel12" data-menu-level="1" data-drupal-link-system-path="node/9878"><span class="label">EU support programmes</span></a></li>                  <li class="nav-item">                <a href="/en/research/methods-and-scopes-of-the-large-research-facilities" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel13" data-menu-level="1" data-drupal-link-system-path="node/497"><span class="label">Methods at the PSI User Facilities</span></a></li>                  <li class="nav-item">                <a href="/en/guesthouse" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel14" data-menu-level="1" data-drupal-link-system-path="node/63544"><span class="label">PSI Guest House</span></a></li>                  <li class="nav-item">                <a href="/en/useroffice/proposal-deadlines" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel15" data-menu-level="1" data-drupal-link-system-path="node/20792"><span class="label">Proposal Deadlines</span></a></li>                  <li class="nav-item">                <a href="/en/useroffice/from-proposals-to-experiments" class="nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="top-facilitiesLabel16" data-menu-level="1" data-drupal-link-system-path="node/29987"><span class="label">Proposals for Beam Time</span></a></li></ul></div>
+            </div>
+          </li></ul>
+
+            </div>
+                                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+  <nav  id="block-design2-rebrandingnaviright" class="d-none psi-d-nav-collapse-block block block-menu navigation menu--navi-right" aria-label="Navi Right">
+      
+        
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en" class="psi-icon-menu-before psi-camera-indoor display-only-small psi-nav-link--underline nav-link" data-drupal-link-system-path="&lt;front&gt;"><span class="label">PSI Home</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/hr/job-opportunities" class="psi-nav-link--underline nav-link" data-drupal-link-system-path="node/3698"><span class="label">Jobs</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/suche/telefonbuch-und-e-mail" class="psi-nav-link--underline nav-link" data-drupal-link-system-path="node/462"><span class="label">Persons</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/about/contacts" class="psi-nav-link--underline nav-link" data-drupal-link-system-path="node/62370"><span class="label">Contact us</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/shop" class="psi-nav-link--underline nav-link" data-drupal-link-system-path="node/66962"><span class="label">PSI Shop</span></a></li>
+        </ul>
+  
+
+</nav>
+  <div class="language-switcher-language-url d-none psi-d-nav-collapse-block block-menu block block-language block-language-blocklanguage-interface" id="block-design2-languageswitcher" role="navigation">
+                <div class="links dropdown dropdown-language">    <button  aria-controls="menu" aria-haspopup="true" aria-label="Change website language (current English)" aria-expanded="false" class="btn nav-link psi-icon-dropdown psi-nav-link--underline" id="languagedropdownmenu--2" data-bs-toggle="dropdown" title="Change website language" type="button">English</button><ul  aria-labelledby="languagedropdownmenu--2" class="dropdown-menu dropdown-menu-end" role="menu">
+          <div class="dropdown-header">Language</div><li><a href="/de/error-404" class="language-link dropdown-item" role="menuitem" hreflang="de" data-drupal-link-system-path="node/442">Deutsch</a></li><li><a href="/en/error-404" class="language-link dropdown-item active" role="menuitem" hreflang="en" data-drupal-link-system-path="node/442">English</a></li><li><a href="/fr/error-404" class="language-link dropdown-item" role="menuitem" hreflang="fr" data-drupal-link-system-path="node/442">Français</a></li><li><a href="/it/error-404" class="language-link dropdown-item" role="menuitem" hreflang="it" data-drupal-link-system-path="node/442">Italiano</a></li></ul></div>      </div>
+  <nav  id="block-design2-rebrandingtopsearch" class="display-only-big block block-menu navigation menu--top-search" aria-label="(Rebranding) Top Search">
+      
+        
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/search" class="psi-search nav-link" data-drupal-link-system-path="node/202"><span class="label">Search</span></a></li>
+        </ul>
+  
+
+</nav>
+</div>
+
+            </div>
+          </div>
+              
+                      <div class="navbar-wrapper">
+            <div class="navbar container navbar-expand-ncrb">
+              <div class="region region-brand">  <div id="block-design2-sitebranding" class="navbar-brand block-logo-svg block block-system block-system-branding-block">
+                  <a href="/en" class="site-logo-link site-logo-link--svg"  aria-label="Back to home">
+      <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid site-logo" width="194.3" height="80" viewBox="0 0 137.8 56.7" id="psi-logo">
+  <g transform="translate(-11 -14.2)" id="psi-svg-logo-cloud">
+    <path d="M55.3 66.7c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM58 65.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM57.5 66c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5-.3-.6-.6-.6ZM55.8 65.5c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5c0-.4-.3-.6-.6-.6zM54.4 65.8c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM54.9 66.5c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM53 66.1c.4 0 .6-.3.6-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5 0 .4.2.6.6.6zM53 68c.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM54.6 63.4c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM52.2 67c0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.5s.3.6.6.6.5-.3.5-.6zM51.7 66.2c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM51.3 64.4c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5z"/>
+    <path d="M54 64.1c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM52.7 64.3c0-.3-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.2.5.6.5.3 0 .5-.2.5-.5zM52.6 62.4c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM51.9 63.2c0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6.4 0 .6-.2.6-.6zM52.3 61.1c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM53.7 62.3c-.3 0-.5.2-.5.6 0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM57.2 65.1c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.3.5-.6zM65.8 61.8c-.3 0-.6.2-.6.6 0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6zM68.8 61.4c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5s-.2-.6-.6-.6z"/>
+    <path d="M55.6 64c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6z"/>
+    <circle cx="51.2" cy="59.5" r=".6"/>
+    <path d="M52.1 59.4c0 .3.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5s-.6.2-.6.5zM42.4 59.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM40.8 58.8c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM43.6 58.3c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM42 58.5c.4 0 .6-.3.6-.6s-.2-.6-.5-.6-.6.3-.6.6.3.6.6.6zM40.4 56.6c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM41.5 56.1c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM39.3 57.1c-.3 0-.5.3-.5.6s.2.5.5.5.6-.2.6-.5-.3-.6-.6-.6zM39.7 53.1c.3 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6zM39.3 50.4c0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.5.3-.5.6zM37.3 53c0 .3.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5zM37 53.9c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6z"/>
+    <circle cx="36.3" cy="52.3" r=".6"/>
+    <path d="M34.2 52.7c0-.3-.3-.5-.6-.5s-.6.2-.6.5.3.6.6.6.6-.3.6-.6zM32.5 51.5c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5.3.6.6.6zM34.4 49.7c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6zM39.6 55c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM37.7 51.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6z"/>
+    <circle cx="28.6" cy="49.3" r=".6"/>
+    <path d="M28.5 51.8c0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.6.6.3 0 .5-.3.5-.6zM32 53c0-.4-.3-.7-.6-.7s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM29.9 50.7c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6zM28.1 54.2c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM38.1 49c0 .4.3.6.6.6s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.3-.6.6zM37 50.5c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5zM39 47.9c.3 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6z"/>
+    <circle cx="37.1" cy="47.1" r=".6"/>
+    <path d="M37.2 45.5c0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.3-.5.6z"/>
+    <circle cx="39.1" cy="43.4" r=".6"/>
+    <path d="M41.3 48.8c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM41.6 47.8c0 .3.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5zM40.1 46.3c0 .3.3.5.6.5s.6-.2.6-.5-.3-.6-.6-.6-.6.3-.6.6zM43.4 49.2c0 .3.3.6.6.6s.5-.3.5-.6-.2-.6-.5-.6-.6.3-.6.6zM42.3 49c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM42.8 46.4c0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6zM46.4 47.7c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM42.4 43.3c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM45.8 46c-.4 0-.6.2-.6.5s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.5-.6zM44.5 48.5c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5zM43.2 50.8c0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.5zM41.1 50.8c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM43.4 53c.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5 0 .4.3.6.6.6zM41.5 52.7c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM44.4 50.4c-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM41.5 53.8c0-.4-.3-.6-.6-.6s-.5.2-.5.5c0 .4.2.6.5.6.4 0 .6-.2.6-.5zM43 54.1c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6zM44.6 53.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM45.4 49.2c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM46.1 52.7c-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6zM46 50.4c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM45 52.2c0 .3.2.5.5.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6s-.6.2-.6.6zM48.1 53.1c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6c.4 0 .6-.3.6-.6zM44.8 56.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM43 55.4c0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6zM43 57c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM44.3 54c0-.2-.2-.5-.5-.5-.4 0-.6.3-.6.6s.2.5.5.5c.4 0 .6-.2.6-.5zM41.6 54.5c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM46.4 56.4c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6zM46 55.8c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6z"/>
+    <path d="M45.9 54.3c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM43.3 61.5c.3 0 .5-.3.5-.6s-.2-.5-.5-.5-.6.2-.6.5c0 .4.3.6.6.6zM42.4 61.3c0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.5zM39 63.6c-.2 0-.5.2-.5.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM37.8 63.2c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.5.6zM41.8 62.6c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM42.6 63c-.3 0-.6.3-.6.6 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5zM44.5 59.3c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.3.6-.6zM44.8 62.1c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM43.8 62.1c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM44.3 63.7c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.5.6zM46.8 62.5c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.3.6-.6zM46 61.8c.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM46 59.3c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM45.3 58.5c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6h-.1v-.2c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6h.2v.2c0 .3.2.5.5.5zM46.7 57.9c.3 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM46.9 59.1c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6z"/>
+    <path d="M47.1 59.7c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6zM47.2 52.4c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5.3.6.6.6zM49.2 54c0-.4-.3-.6-.6-.6s-.6.2-.6.5.3.6.6.6.6-.3.6-.6zM47 55c.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5zM48.3 57.4c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM48.6 58c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6zM47.8 58.9c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6zM49 59.4c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6zM50 57.7c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6z"/>
+    <path d="M51 58.4 51 58h.2c.3 0 .5-.2.5-.5s-.2-.6-.5-.6c-.4 0-.6.3-.6.6 0 .2 0 .3.2.4h-.2c-.3 0-.6.2-.6.5 0 .2 0 .4.2.5a.6.6 0 0 0-.2 1.1c-.2 0-.3 0-.4.2 0-.4-.3-.6-.6-.6s-.6.2-.6.5a.6.6 0 0 0 1 .4c0 .4.3.6.6.6s.6-.2.6-.5-.2-.5-.5-.6a.6.6 0 0 0 .4-1c.4 0 .6-.3.6-.6zM50.3 56.6a.6.6 0 0 0-.9-.5.6.6 0 0 0-.3-1c-.3 0-.6.3-.6.6a.6.6 0 0 0 .9.5.6.6 0 0 0 .3 1c.3 0 .6-.3.6-.6z"/>
+    <path d="M50.8 57c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM49.6 55.1c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM48.2 52.4c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM49.2 51.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM47.4 50.8c0 .3.2.6.5.6s.6-.3.6-.6-.3-.5-.6-.5-.5.2-.5.5zM52.8 49c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6zM51.2 49c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5z"/>
+    <circle cx="50" cy="47.5" r=".6"/>
+    <path d="M50.4 49.8c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM51 51.9c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6z"/>
+    <circle cx="51.2" cy="52.9" r=".6"/>
+    <path d="M51.8 50c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5zM53.2 49.4c-.3 0-.6.3-.6.6s.3.5.6.5.5-.2.5-.5-.2-.6-.5-.6zM55.2 49.2c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM56.5 49.7c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6zM57.4 48.7c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6c.4 0 .6-.3.6-.6zM61.6 45.2c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM60.1 46c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM58.4 46c.3 0 .6-.3.6-.6 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5zM59.6 49.9c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5.3.6.6.6zM58.2 48.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM56 46.5c.2 0 .5-.2.5-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM58 46.9c0-.3-.3-.6-.6-.6-.4 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6z"/>
+    <circle cx="56.8" cy="44.8" r=".6"/>
+    <path d="M56.5 47.3c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6c.4 0 .6-.3.6-.6zM55 47.1c0-.3-.3-.6-.7-.6-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6zM51.7 46.1c0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6zM54.5 46c.3 0 .5-.2.5-.5s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM53.6 49c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM53.5 46.5c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6zM51.9 48.2c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5c0 .4.3.6.6.6zM49.7 53.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM48.7 60.9c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM50.2 61.2c-.3 0-.6.2-.6.5s.3.6.6.6c.2 0 .4-.1.5-.3v.1c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.2 0-.4.1-.5.3 0-.4-.3-.6-.6-.6z"/>
+    <path d="M49.3 61.9c-.3 0-.6.2-.6.5s.3.6.6.6c.1 0 .3 0 .4-.2l-.2.4c0 .3.3.5.6.5s.6-.2.6-.5-.3-.6-.6-.6c-.2 0-.3 0-.4.2l.1-.4c0-.3-.2-.5-.5-.5zM48 63.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5z"/>
+    <path d="M47.7 63.5c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM49 64.4c.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6z"/>
+    <circle cx="47.9" cy="64.7" r=".6"/>
+    <circle cx="49.6" cy="66.8" r=".6"/>
+    <path d="M48.3 66.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6-.6.3-.6.6.3.6.6.6zM48.3 68.2c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5zM46.6 65.7c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM43.7 64c-.3 0-.5.3-.5.6s.2.6.5.6.6-.3.6-.6-.3-.6-.6-.6zM36 62c0-.3-.2-.5-.5-.5s-.6.2-.6.5.3.6.6.6.6-.3.6-.6zM42.8 65.8c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6zM40.8 64.5c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM42 65.3c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM45.7 66.7c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6z"/>
+    <circle cx="45.3" cy="65.3" r=".6"/>
+    <path d="M45.1 64.4c.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5 0 .4.2.6.5.6zM46.6 65.2c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM44.8 60.9c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM47.3 62.2a.6.6 0 0 0 .3-1c.4 0 .6-.3.6-.6 0-.4-.2-.6-.6-.6-.3 0-.5.3-.5.6 0 .2 0 .4.3.5h-.1c-.3 0-.6.2-.6.5 0 .4.3.6.6.6z"/>
+    <circle cx="47.5" cy="47" r=".6"/>
+    <path d="M48.8 45.6c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM47 49.2c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6z"/>
+    <circle cx="48.3" cy="48.5" r=".6"/>
+    <path d="M49.3 50.1c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5zM41 60.7c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM35.5 55.7c0 .3.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5zM34.9 54.6c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6s.3.5.6.5zM36.3 60c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM35.2 59.3c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6zM39.3 58.9c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM38.4 58.7c0-.3-.3-.5-.6-.5s-.5.2-.5.5.2.6.5.6c.4 0 .6-.3.6-.6zM39.4 56.2c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM38.4 55c0-.4-.3-.6-.6-.6s-.6.2-.6.5.3.6.6.6.6-.3.6-.6zM37.3 57.9c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5c0 .4.3.6.6.6zM35.3 58.1c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM33.7 56.3c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM32.5 58.4c.3 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5zM33.1 54.5c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5c0-.4-.3-.6-.6-.6z"/>
+    <circle cx="31" cy="54.8" r=".6"/>
+    <path d="M30.4 56.5c-.3 0-.5.2-.5.5s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.5-.6-.5zM33.6 61.3c.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM37.2 61.3c.3 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6zM40.3 61c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM39.2 61.9c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM32.5 60c0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5.4 0 .6-.2.6-.5zM55.5 51.7c.3 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6zM56.6 52.5c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM57.6 50.3c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM58.3 50c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM62 48.4c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM60.6 48.1c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM60.9 50c.3 0 .5-.2.5-.5s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.5.6.5z"/>
+    <path d="M60.8 50.5c0-.3-.3-.6-.6-.6a.6.6 0 0 0-.5.8.6.6 0 0 0-.4-.2H59c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6 0 .2 0 .4.2.5-.4 0-.7.2-.7.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.2-.1-.3-.3-.4h.4c0 .3.2.6.6.6a.6.6 0 0 0 .5-.8.6.6 0 0 0 1-.4zM57.4 51.5c0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.3.6-.6zM55.1 49.7c0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6zM55.3 52c0-.2-.3-.5-.6-.5s-.6.2-.6.6c0 .3.3.5.6.5s.6-.2.6-.5zM54.4 53c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5zM52.3 51.7c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6zM53.2 53c0-.4-.3-.7-.6-.7s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM53.6 51.5c0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6.4 0 .6-.3.6-.6z"/>
+    <path d="M54.2 51.5c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM55.1 53.8c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.5c0 .4.2.6.5.6zM50.6 55.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6z"/>
+    <path d="M50.7 53.4c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM52 53.4c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM53.2 53.7c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6z"/>
+    <circle cx="53.2" cy="55.5" r=".6"/>
+    <path d="M53.7 56.7c0-.3-.3-.5-.6-.5s-.6.2-.6.5.3.6.6.6.6-.3.6-.6z"/>
+    <path d="M52 56.7c.4 0 .6-.2.6-.5s-.1-.5-.4-.6a.6.6 0 0 0-.3-1c-.3 0-.6.3-.6.6s.2.5.4.5a.6.6 0 0 0 .4 1zM52.8 57.5c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM52 58c-.4 0-.6.3-.6.6s.2.6.5.6.6-.3.6-.6-.3-.6-.6-.6zM66 51c.2 0 .5-.2.5-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5z"/>
+    <path d="M65.1 50.2c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM63.6 50.6c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM61.5 50.2a.6.6 0 0 0-.3 1.1l-.2.3c0-.3-.2-.5-.5-.5s-.6.3-.6.6.3.5.6.5c.2 0 .5-.2.5-.4 0 .3.3.5.6.5s.6-.2.6-.5-.2-.5-.4-.6c.2 0 .2-.2.2-.4 0-.3-.2-.6-.5-.6zM62.8 49.4c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5s.2.6.5.6c.4 0 .6-.3.6-.6zM64.6 48.8c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6c.4 0 .6-.3.6-.6z"/>
+    <circle cx="65.3" cy="48.3" r=".6"/>
+    <path d="M63.4 48.1c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6.6-.3.6-.6zM69 48.2c-.4 0-.7.3-.7.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6z"/>
+    <circle cx="67.6" cy="48.5" r=".6"/>
+    <path d="M69 46.8c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM66.8 47.6c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.5.6.5.5-.2.5-.5zM67.7 46.7c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM70.1 47.5c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6z"/>
+    <circle cx="68.9" cy="45.9" r=".6"/>
+    <path d="M67.4 45c0 .4.2.6.6.6.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6zM68.4 43.4c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.3.5-.6-.2-.5-.5-.5zM67.7 46c0-.2-.3-.5-.6-.5s-.6.2-.6.6c0 .3.3.5.6.5s.6-.2.6-.5zM62.8 45.5c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM63.9 44.5c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5z"/>
+    <circle cx="64.1" cy="47.4" r=".6"/>
+    <path d="M62.9 47.2c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM59.7 46.9c0-.3-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5zM61 47.6c.4 0 .7-.2.7-.5s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM58.5 43.3c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM59.6 44c0 .4.2.7.5.7.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6zM55.7 44c0-.2-.3-.5-.6-.5s-.6.3-.6.6.3.5.6.5.6-.2.6-.5z"/>
+    <circle cx="57" cy="43.3" r=".6"/>
+    <path d="M56.5 39.4c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM58.5 41.6c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5s-.2-.6-.6-.6zM52.5 41.3c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM54 43.1c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM51.3 41.9c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM51.6 40.8c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6.6-.3.6-.6zM48.4 37.2c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM51.9 39.4c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.3-.5-.6-.5-.5.2-.5.5zM56.2 38.5c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6zM56.7 36.6c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5s-.2-.6-.6-.6zM57.7 37.6c0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5s-.6.2-.6.5zM60.4 39.5c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM63.9 41c0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5.4 0 .6-.2.6-.5zM68.1 41.5c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6zM66.8 41.5c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.6.6.6c.3 0 .5-.3.5-.6zM70 44.6c0-.3-.3-.6-.6-.6-.4 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6zM64.1 38.6c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5zM63.5 36.6c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM64 40.3c.4 0 .7-.2.7-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.5c0 .4.3.6.6.6zM65 38.2c-.2 0-.5.3-.5.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM62.7 38c0-.4-.3-.7-.6-.7s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM61.2 37.4c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.3.5.6.5.5-.2.5-.5z"/>
+    <circle cx="62" cy="36.5" r=".6"/>
+    <path d="M59.9 36.6c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM58.3 35c0 .4.2.7.6.7.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM60 36c0 .2.3.5.6.5.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5zM57 34.2c-.4 0-.7.3-.7.6s.3.5.6.5.6-.2.6-.5-.3-.6-.6-.6zM60.3 34.2c-.3 0-.6.3-.6.6s.3.5.6.5.5-.2.5-.5-.2-.6-.5-.6zM63.2 35.3c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM54.7 40.7c0 .3.2.5.5.5s.6-.2.6-.5-.3-.6-.6-.6-.5.3-.5.6zM54 39.4c-.2 0-.5.3-.5.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM61 41.4c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM58 41c0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5s.5-.2.5-.5zM59.4 40.7c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6zM57 42c0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5zM54.2 42.4c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.5.3-.5.6zM49 42.4c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6z"/>
+    <circle cx="48.6" cy="44.5" r=".6"/>
+    <path d="M47.5 43.4c.3 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM44.5 44c-.3 0-.6.3-.6.7 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM46.8 45.4c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5.3.6.6.6zM44.5 42.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5zM49.8 45.1c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.5.3-.5.6z"/>
+    <circle cx="51.5" cy="43.8" r=".6"/>
+    <path d="M52.9 45.5c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM59.9 43.3c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6zM66 46.5c0-.3-.2-.5-.5-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.3.6-.6zM65.5 41.8c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM64.3 42.3c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM63.8 43.7c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM61 43.9c0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6z"/>
+    <circle cx="61.8" cy="40.8" r=".6"/>
+    <path d="M61.5 41.9c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.3.5-.6-.2-.5-.5-.5zM67.2 43.4c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM65.6 43.2c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.6-.6-.6z"/>
+    <circle cx="65.8" cy="45" r=".6"/>
+    <path d="M76.8 43.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM75 38.5c.4 0 .6-.2.6-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.3.5.6.5zM65.8 40.4c0-.3-.2-.5-.5-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6zM65.1 41.5c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.5.5.5c.4 0 .6-.2.6-.5zM66.7 39.6c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.5.5.5.6-.2.6-.5zM74.5 37.4c.3 0 .5-.2.6-.4h.2c.3 0 .6-.2.6-.5s-.3-.6-.6-.6c-.2 0-.5.2-.5.4h-.3l-.4.1v-.1c0-.2 0-.4-.2-.5l.1-.4c0-.2-.1-.4-.3-.5.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6 0-.3-.3-.5-.6-.5s-.5.3-.5.6.2.6.5.6c.4 0 .6-.3.6-.6 0 .2.2.4.3.4-.4 0-.6.3-.6.6a.6.6 0 0 0-1.1.1c0 .3.2.5.4.6-.2 0-.3.3-.3.5 0 .3.2.5.4.5-.2.1-.3.3-.3.6s.2.5.6.5c.3 0 .5-.2.5-.5s-.2-.5-.4-.6c.2 0 .4-.3.4-.5v-.1c0 .2.2.4.5.4l.4-.2v.1c0 .3.2.6.5.6zM73 36.3l-.4-.3c.2 0 .3-.2.3-.5 0 .2.1.3.3.4l-.2.4zM70 37c0-.3-.3-.6-.6-.6-.4 0-.6.2-.6.6 0 .3.2.5.6.5.3 0 .5-.2.5-.5zM68 34.7c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6z"/>
+    <circle cx="66.8" cy="34.2" r=".6"/>
+    <path d="M69 34c-.2 0-.5.2-.5.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM70.7 35.4c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6z"/>
+    <path d="M69.6 35.7c0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .1 0 .2.2.3h-.3c-.3 0-.6.2-.6.5a.6.6 0 0 0-.4-.2c-.3 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6a.6.6 0 1 0 .9-.7l.3.1c.3 0 .6-.2.6-.5zM64 36.1c0 .3.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5s-.6.2-.6.5zM65.4 35.5c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM66 36.7c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.5.6.5z"/>
+    <path d="M67.2 35.8c.1.1.3.3.5.3.3 0 .6-.3.6-.6a.6.6 0 0 0-1-.4.6.6 0 0 0-1 .3.6.6 0 0 0 .9.4zM65.4 37.6c0-.3-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.3.5.6.5s.5-.2.5-.5zM63.5 35c0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.2-.6.6zM64.5 34.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM62.5 35c0-.2-.3-.5-.6-.5s-.5.3-.5.6.2.5.5.5c.4 0 .6-.2.6-.5zM63 33.6c-.2 0-.5.3-.5.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM66.7 37.5c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5z"/>
+    <path d="M69.1 37.9c0-.3-.2-.6-.6-.6-.3 0-.5.2-.5.6 0-.3-.3-.5-.6-.5s-.5.3-.5.5h-.2c-.4 0-.6.3-.6.6s.2.5.6.5c.2 0 .5-.2.5-.5h.2c.3 0 .6-.2.6-.5 0 .2.3.4.5.4-.2 0-.5.3-.5.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6c.3 0 .5-.2.5-.5zM70.2 33.6c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5c0-.4-.3-.6-.6-.6z"/>
+    <path d="M71.1 33c0-.2-.2-.5-.5-.5s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM69.8 33.2c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6zM70.6 31.1c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.6-.6-.6zM72.2 31.7c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM72.5 33.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6h-.2c0-.3-.3-.6-.6-.6s-.5.3-.5.6.2.6.5.6h.3c0 .3.2.6.5.6zM74.6 36c.4 0 .6-.3.6-.6 0-.4-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.5.5.5zM76.5 36.4c.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5 0 .4.2.6.6.6zM76.3 38.5c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6zM76.4 40.5c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6z"/>
+    <path d="M67.6 32.7c0 .3.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5zM68.1 31.6c0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6.4 0 .6-.2.6-.6zM66.3 32.8c0 .3.3.5.6.5s.6-.2.6-.5-.3-.6-.6-.6-.6.3-.6.6z"/>
+    <path d="M65.8 32.8c.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.6.6zM66.3 30.2c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.6-.6-.6zM69.8 32c0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6zM64.5 33c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM62.7 32.4c-.3 0-.6.3-.6.6s.3.5.6.5.5-.2.5-.5c0-.4-.2-.6-.5-.6zM63.3 31.2c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.6-.6-.6zM57.6 33.7c0 .3.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5zM59.9 32.8c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM56.9 32.7c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM57.2 36c0 .4.2.6.5.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5s-.5.2-.5.5zM55.5 33c-.3 0-.6.3-.6.6 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM55.6 35.1c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM55.4 31.5c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6z"/>
+    <circle cx="51" cy="36.1" r=".6"/>
+    <path d="M60.9 30.1c0 .3.3.6.6.6s.5-.3.5-.6-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM64 31c0 .4.3.6.6.6s.6-.2.6-.5-.3-.6-.6-.6-.6.3-.6.6zM62 30.8c-.2 0-.5.3-.5.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM54.3 37c0 .2.3.5.6.5s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5zM51 38.4c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM52 37.5c0 .3.3.5.6.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6zM47.8 35.3c-.3 0-.5.2-.5.5 0 .4.2.6.5.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM48.8 33.3c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.5zM60 30.8c-.4 0-.7.2-.7.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM60.9 33.7c0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6zM65.3 29.3c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM71 29.8c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM67.6 29.7c-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5zM57.2 32.4c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM58.7 31.6c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM58 31c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.6 0 .3.2.5.6.5zM59.4 30c0 .3.2.5.5.5.4 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5zM73.2 31.8c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM73.4 33.1c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM69.6 30.3c0 .3.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5zM68.8 31.4c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM69 30c.2 0 .5-.3.5-.6 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5zM66.5 28.8c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM71 28.6c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM72.4 28.8c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM67.2 28.6c0 .3.2.6.5.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5s-.6.2-.6.5zM66.8 27c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM66.2 27.5c-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5zM69.2 25.4c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5c0-.4-.3-.6-.6-.6zM64.3 28c0 .3.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5zM63.6 29.2c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6zM63.2 29.7c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM65.3 26c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM62.3 28.2c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM60.6 28.1c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM63.4 27.3c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.6-.6-.6zM63.6 27c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM61.2 27.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6z"/>
+    <circle cx="58.5" cy="27.6" r=".6"/>
+    <path d="M58.8 28.5c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6zM55.9 29.5c-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5zM59 25.1c-.3 0-.5.3-.5.6s.2.6.5.6.6-.3.6-.6-.3-.6-.6-.6zM66.7 25.4c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6zM66.2 25c.3 0 .5-.3.5-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.6.6zM70.2 25.1c0 .3.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5s-.6.2-.6.5zM70.9 26.2c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM68.5 27.9c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM72.9 30.2c0 .3.2.5.6.5.3 0 .5-.2.5-.5s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM64.2 25.6c.3 0 .5-.3.5-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5 0 .4.2.6.6.6zM62.6 25c-.3 0-.6.3-.6.6 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM60.9 25.6c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM60.2 26.2c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM51.7 34.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM53.6 32.8c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6zM51.2 32.3c-.3 0-.5.3-.5.6s.2.6.5.6.6-.3.6-.6-.3-.6-.6-.6z"/>
+    <circle cx="54.2" cy="30.6" r=".6"/>
+    <path d="M55 29.4c.2 0 .5-.3.5-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6z"/>
+    <circle cx="56.1" cy="27.5" r=".6"/>
+    <path d="M51.5 30.5c0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6zM50 31.4c0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.2-.6.6zM53 31.4c-.2 0-.5.2-.5.6 0 .3.3.5.6.5s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM49.1 35c0 .4.3.6.6.6s.6-.2.6-.5-.3-.6-.6-.6-.6.3-.6.6zM57.9 29c0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5s.6-.2.6-.6zM55 27c.4 0 .6-.3.6-.6 0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.6 0 .3.2.5.5.5zM56.7 26c0 .4.3.6.6.6s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.3-.6.6zM52.4 29.1c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6z"/>
+    <circle cx="61.7" cy="21.5" r=".6"/>
+    <path d="M62.4 22.4c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM59.8 22.9c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6zM57.5 23.4c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM54.7 21c-.4 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM64.3 22c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM64.2 23.8c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.5.2-.5.5c0 .4.2.6.5.6zM53 27.2c0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6s-.6.2-.6.6zM51.9 27.6c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM57 22.7c.4 0 .6-.2.6-.5 0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5zM58.5 20c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM59.1 21.4c0 .3.3.5.6.5s.6-.2.6-.5-.3-.6-.6-.6-.6.3-.6.6zM53.5 23.8c0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.2-.6.6zM55.7 24c-.3 0-.5.2-.5.5s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.6-.6zM49.6 23.8c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5zM48.3 25.5c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5zM50.3 26c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6zM49.7 29.4c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6z"/>
+    <circle cx="48.5" cy="31" r=".6"/>
+    <path d="M47.5 32c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM45.4 34.8c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM47 37.3c-.3 0-.5.2-.5.6 0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM49.5 39.4c0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.2-.6.6z"/>
+    <circle cx="48.4" cy="39.2" r=".6"/>
+    <circle cx="47" cy="40.5" r=".6"/>
+    <path d="M48.6 40.4c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM45.4 38.4c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5zM42 44.3c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6zM43.8 41.3c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.5c0 .4.3.6.6.6zM40.4 41.5c0 .3.3.6.6.6s.5-.3.5-.6-.2-.5-.5-.5c-.4 0-.6.2-.6.5zM41 38.5c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM40.4 36.3c0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6zM47.3 28.8c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM45 27.7c-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5zM48.8 27.3c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM36.4 30.5c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM40 40.7c.3 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM36.8 41.4c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.5.3-.5.6zM46.8 25.8c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6z"/>
+    <circle cx="40.2" cy="30.6" r=".6"/>
+    <path d="M42 28.7c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM34.1 44c0-.4-.2-.6-.6-.6-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.2.6-.6zM36.1 43.6c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6zM32.8 41.4c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM33.8 48.1c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5zM35.9 47.8c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM35.4 46.3c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM34.6 50.7c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM30.1 43.6c0 .3.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5-.6.2-.6.5z"/>
+    <circle cx="32.5" cy="39.5" r=".6"/>
+    <path d="M43.6 37.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.3-.5-.6-.5-.5.2-.5.5z"/>
+    <circle cx="41.8" cy="32.4" r=".6"/>
+    <path d="M37 35.4c-.3 0-.6.2-.6.6 0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6zM40.4 33.2c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM42 35c-.2 0-.5.2-.5.5s.3.6.6.6.5-.3.5-.6-.2-.5-.5-.5zM45.1 31.3c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM28.8 46.6c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM24.1 46.8c0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6s-.6.2-.6.6zM21.2 45.1c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM25.6 49.5c-.4 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5 0-.4-.2-.6-.6-.6zM26.8 44.1c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5-.3-.6-.6-.6zM23.4 41.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM32.2 45.3c-.3 0-.5.2-.5.6 0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM27.5 41.5c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM30.8 48.6c0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5s-.6.2-.6.5z"/>
+    <circle cx="33.7" cy="36.6" r=".6"/>
+    <path d="M28.7 35.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM34.3 33c-.3 0-.6.2-.6.5s.3.5.6.5.5-.2.5-.5-.2-.6-.5-.6zM37 32.8c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM24.3 34.9c.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5 0 .4.2.6.6.6zM33.7 28.7c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5s-.6.2-.6.5c0 .4.3.6.6.6zM39.3 27.6c-.3 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM36.7 25.8c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM44 22.8c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6zM46.2 23.9c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6zM40.8 26c.3 0 .6-.3.6-.6 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5zM48 21.2c-.4 0-.6.3-.6.6s.2.6.5.6.6-.3.6-.6-.3-.6-.6-.6zM38.8 23.6c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM34.1 25.4c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM29.6 30.3c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5zM31.8 33.1c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.5.6.5zM43.4 29.4c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM43.2 26.7c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM51.8 23c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM47 33.6c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6z"/>
+    <circle cx="43.8" cy="34.4" r=".6"/>
+    <path d="M44.1 31.8c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5zM36.5 39.2c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM25.3 26.9c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.3.6.6.6zM22.8 42.5c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM26.3 39.2c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM29.7 37.2c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM19.6 39.3c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM25.2 52.9c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM25.2 55c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5z"/>
+    <circle cx="32.4" cy="62.9" r=".6"/>
+    <path d="M23.9 58c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM28.4 63.5c-.3 0-.5.3-.5.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.6-.6zM28.8 58.4c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM21 49c-.4 0-.6.3-.6.6 0 .4.2.6.5.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM19.3 54c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM16 47.4c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM13.4 46c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM13.9 40.6c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM19.8 35.3c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM11.6 34.3c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM19 29.7c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM18 25.4c0-.3-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5s.6-.2.6-.5zM31.8 22.5c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5c0 .4.3.6.6.6z"/>
+    <circle cx="36.6" cy="16.9" r=".6"/>
+    <path d="M27.2 21.6c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM39.6 20.5c.3 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM46.5 20.1c.3 0 .5-.3.5-.6s-.2-.5-.5-.5-.6.2-.6.5c0 .4.3.6.6.6zM43.7 21c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM44.9 15.6c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.2.6.6.6zM47.8 17.4c.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM50.7 20.3c.3 0 .5-.3.5-.6s-.2-.6-.5-.6-.6.3-.6.6.3.6.6.6z"/>
+    <circle cx="52.1" cy="21.3" r=".6"/>
+    <path d="M52.3 25.4c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5zM51.9 17.8c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.6c0 .3.3.5.6.5zM55.2 15.3c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5 0 .4.3.6.6.6zM53.9 19c.3 0 .5-.3.5-.6 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.3.5.6.5zM55.4 20c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM59.2 17.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6-.6.3-.6.6.3.6.6.6zM61.9 16.8c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM65 19.4c.4 0 .7-.2.7-.5 0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5zM62 19.5c0 .3.3.6.7.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6zM66.3 23.2c.4 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5s.2.6.5.6zM70 22.7c.2 0 .5-.2.5-.5 0-.4-.3-.6-.6-.6s-.5.2-.5.6c0 .3.2.5.5.5z"/>
+    <circle cx="68.7" cy="23.5" r=".6"/>
+    <path d="M73.2 27c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6zM75.1 30c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.6.2.6.5.6zM74.9 31.6c0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.3-.5.6zM77 34.9c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM75.5 33.3c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM77 38.3c0 .3.2.6.5.6.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6zM77.9 39.9c0 .3.3.5.6.5s.5-.2.5-.5c0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6zM78.5 42.6c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM77.5 47.6c.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.5.5.5zM77.2 45c.3 0 .5-.3.5-.6 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.3.5.6.5zM77.8 48.9c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6zM76.7 42.1c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.2.5.6.5zM76.5 50.6c.4 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0 .4.2.6.5.6zM76.6 53c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6z"/>
+    <path d="M75.8 52.3c.3 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6s-.5.1-.5.4a.6.6 0 0 0-1-.5V51l-.1-.5h.4c0 .3.2.5.5.5s.6-.2.6-.6a.6.6 0 0 0-.8-.5v-.1l.2-.5c0-.2 0-.3-.2-.4.3 0 .6-.3.6-.6V48l.3.1c.3 0 .6-.2.6-.6 0-.3-.3-.5-.6-.5l.2-.5a.6.6 0 0 0 1.1-.2c0-.3-.2-.5-.6-.5-.3 0-.5.2-.5.5 0-.2-.3-.4-.6-.4l-.3.2V45.9l.3.1c.3 0 .5-.2.6-.5 0 .2.2.3.4.3.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.5.3-.5.5a.6.6 0 0 0-.7-.2l.1-.4c0-.3-.2-.5-.5-.5h-.2v-.1c0-.2-.1-.4-.3-.5l.1-.3h.2v.3c0 .3.2.6.5.6l.4-.2v.3c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6c-.1 0-.3 0-.4.2l.1-.3-.1-.4h.2c.3 0 .6-.2.6-.5s-.3-.6-.6-.6-.5.2-.6.5a.6.6 0 0 0-.7-.4v-.5c.2 0 .3-.3.3-.5 0-.3-.2-.6-.6-.6 0 0-.2 0-.3.2v-.2c0-.2 0-.4-.2-.5l.1-.2a.6.6 0 0 0 .9.6c0 .3.2.5.5.6-.2 0-.4.2-.4.5s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6c.2 0 .4-.3.4-.5a.6.6 0 0 0-.8-.5c0-.3-.2-.5-.4-.6l.2-.4c0-.3-.3-.6-.6-.6l-.4.2s0-.2-.2-.3c.4 0 .7-.2.7-.6 0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .2 0 .3.2.4-.4 0-.7.3-.7.6a.6.6 0 0 0-1-.2.6.6 0 0 0-.8-.6v-.2c0-.2 0-.5-.3-.5.2 0 .4-.3.4-.5l.3.1c-.2.1-.4.3-.4.5 0 .3.3.6.6.6s.6-.3.6-.6-.2-.5-.5-.5c.2-.1.3-.3.3-.6 0-.2-.2-.4-.4-.5.2 0 .4-.3.4-.6 0-.2-.2-.4-.4-.5.4 0 .6-.2.6-.6 0-.3-.2-.5-.5-.5-.4 0-.6.2-.6.5s.2.5.4.6a.6.6 0 0 0-.2 1.1c-.2 0-.4.2-.4.4h-.3c-.3 0-.6.2-.6.5s.2.5.4.5c-.3.1-.5.3-.5.6 0 .1 0 .3.2.4l-.3-.1c-.3 0-.6.2-.6.6 0 .2.2.4.4.5 0 .4.2.6.5.6a.6.6 0 0 0 .1 1l-.1.4h-.3c-.3 0-.5.2-.5.5 0 .4.2.6.5.6h.3c-.2 0-.3.2-.3.4v.2a.6.6 0 0 0-.4 0v-.4c0-.3-.2-.6-.5-.6s-.5.3-.5.6l-.3-.1c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5H68.8v.4c0 .3.2.5.5.5.2 0 .4 0 .5-.2v.2c0 .3.1.5.3.6l-.1.4c0 .2.1.4.4.5h-.1c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5-.2-.5-.4-.6c.3 0 .6-.2.6-.5s-.2-.5-.4-.6l.1-.2c.1.2.3.3.5.3v.4c0 .3.2.6.5.6h.2v.2a.6.6 0 0 0-.5-.3.6.6 0 0 0-.4 1l-.1.4c0 .3.2.6.6.6.2 0 .4-.2.5-.5l.1.3c-.3 0-.5.2-.5.5 0-.2-.3-.4-.5-.4a.6.6 0 0 0-.1 1.2c-.2 0-.3.1-.4.3l-.2-.1.1-.3c0-.3-.3-.5-.6-.5s-.5.2-.5.5.1.5.4.6l-.1.2c0 .4.2.6.6.6.2 0 .4-.1.5-.4l.1.1a.5.5 0 0 0 0 .5h-.3l-.4.1h-.1c0-.3-.3-.6-.6-.6s-.6.2-.6.5a.6.6 0 0 0-.7-.3c0-.1-.3-.3-.5-.3-.3 0-.6.3-.6.6s.3.5.6.5h.2l.1.2c-.2.1-.3.3-.3.6h-.3l.1-.3c0-.3-.2-.6-.5-.6h-.2a.6.6 0 0 0 0-1c0-.3-.2-.6-.5-.6s-.6.3-.6.6c0 .2.1.4.3.5 0 .4.2.6.5.6h.2a.6.6 0 0 0 0 1h-.1c-.3 0-.6.2-.6.5l-.2.1v-.2c0-.4-.2-.6-.5-.6s-.6.2-.6.6c0 .3.3.5.6.5l.4-.1-.1.3a.6.6 0 0 0-.4-.1c-.1 0-.3 0-.4.2V52c0-.3-.2-.5-.6-.5l.2-.4c.3 0 .6-.3.6-.6s-.2-.5-.6-.5c-.3 0-.5.2-.5.5h-.1a.6.6 0 0 0-.5.7.6.6 0 0 0-.4-.1h-.2c.2 0 .3-.3.3-.5 0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6h.1c-.2 0-.3.2-.3.4s0 .3.2.4h-.3c-.3 0-.5.1-.6.3a.6.6 0 0 0-.4-.1c-.3 0-.6.2-.6.5 0-.3-.2-.6-.5-.6l-.4.2v-.2c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.5.6.5h.3V53a.5.5 0 0 0-.3-.1c-.2 0-.4 0-.5.2 0-.3-.2-.6-.6-.6l-.2.1c0-.3-.3-.6-.6-.6s-.6.3-.6.6a.6.6 0 0 0 .9.5c0 .3.2.6.5.6h.1l-.2.4v.2c0-.4-.3-.6-.6-.6l-.4.1v-.2c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.6.6.6c.1 0 .3 0 .4-.2v.2c0 .3.2.6.5.6 0 .2.1.3.2.3h-.2c-.3 0-.5.2-.5.5l-.3-.2c.2 0 .4-.2.4-.5s-.3-.5-.6-.5h-.3v-.1c0-.4-.3-.6-.6-.6s-.5.2-.5.6a.6.6 0 0 0 .9.4v.4a.6.6 0 0 0-1 .2v-.1c0-.2-.1-.4-.3-.5l.2-.4c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6 0 .2 0 .4.2.5l-.1.4c0 .2 0 .4.3.5-.3 0-.5.3-.5.6s.2.5.5.5c.2 0 .4 0 .5-.2v.3c-.2 0-.5.2-.5.5 0-.2-.3-.3-.5-.3a.6.6 0 0 0-.6.6H53c-.3 0-.5.2-.5.6 0 .3.2.5.5.5h.3c0 .3.2.5.4.6-.2 0-.4.3-.4.5v.2h-.1c-.3 0-.5.1-.6.4v-.1c0-.3-.2-.6-.5-.6s-.6.3-.6.6v.1a.6.6 0 0 0-1 .3c0 .4.2.6.5.6.4 0 .6-.2.6-.6v-.1l.5.2c.2 0 .4-.1.5-.4v.1c0 .3.3.6.6.6l-.2.4c0 .3.2.6.5.6.2 0 .3 0 .5-.2 0 .2.2.4.5.4a.6.6 0 0 0 .4 1h.2c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6h-.2v-.2h.2c.3 0 .5-.1.6-.4h.2a.6.6 0 0 0 0 1 .6.6 0 0 0 .3 1c.1.1.3 0 .4 0 0 .2.2.5.5.5s.6-.3.6-.6a.6.6 0 0 0-1-.4c0-.2-.1-.4-.3-.5l.2-.1c0 .2.3.4.5.4l.4-.1c0 .3.2.5.4.6v.2c0 .3.2.6.5.6s.6-.3.6-.6V64l.4.2a.6.6 0 0 0 .3-1.1l.1-.4c0-.3-.2-.6-.5-.6s-.5.2-.6.4v-.3c.3 0 .5 0 .6-.3 0 .2.2.3.4.3h.1c0 .4.3.6.6.6-.3 0-.5.3-.5.6s.3.5.6.5c-.3.1-.4.3-.4.6-.1-.2-.3-.3-.6-.3s-.5.2-.5.6v.1a.6.6 0 0 0-.4-.1c-.3 0-.5.3-.5.6s.2.5.5.5h.3v.2c0 .3.2.5.6.5.3 0 .5-.2.5-.5s-.2-.6-.5-.6h-.3V65.3l.3.1c.3 0 .6-.2.6-.6a.6.6 0 0 0 1-.2c.1.3.4.4.6.4a.6.6 0 0 0 .6-.7h.2l.3-.1v.1c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.2 0-.3 0-.4.2v-.4l.3.1c.2 0 .4 0 .5-.3l.3.1h.3v.2c0 .3.2.6.5.6s.6-.3.6-.6-.3-.6-.6-.6l-.3.1v-.2a.6.6 0 0 0-.7-.6V62h.1a.6.6 0 0 0 .5-.8c.1.2.3.2.5.2s.3 0 .4-.2a.6.6 0 0 0 .8.6.6.6 0 0 0 .4 1c.3 0 .6-.3.6-.6s-.3-.6-.6-.6h-.2l.1-.3a.6.6 0 1 0 .9-.7c.2 0 .4-.2.4-.5 0 .3.3.5.6.5s.6-.2.6-.5V60l.3.1c.3 0 .6-.2.6-.5v-.1l.4.2a.6.6 0 0 0 .1-1.2c.3 0 .4-.2.4-.5v-.3l.3.1c.3 0 .6-.2.6-.5s-.2-.6-.5-.6c.2 0 .3-.3.3-.5.1.2.3.3.5.3l-.2.5c0 .3.1.5.3.5h-.2c-.3 0-.5.3-.5.6s.2.6.5.6c.4 0 .6-.3.6-.6 0-.2-.1-.4-.3-.5h.1c.3 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5a.6.6 0 0 0 0-1c.2-.1.4-.3.4-.6s-.3-.5-.6-.5l-.1-.4h.1c.3 0 .6-.2.6-.4h.3c.3 0 .6-.2.6-.5V53l.3.1-.1.3c0 .3.1.5.4.6h-.1c-.2 0-.4 0-.5.3 0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6c.2 0 .4-.2.5-.4 0 .3.3.6.6.6s.6-.3.6-.6c0-.2-.2-.4-.4-.5.4 0 .6-.3.6-.6s-.2-.5-.5-.5l.1-.3c0-.3-.2-.5-.4-.6.3 0 .5-.1.6-.4 0 .4.3.6.6.6zm-.5-9.5.1.2h-.2v-.2zM74 39.4l-.2.2v-.3l.2.1zm-11 13a.6.6 0 0 0 .5-.8l.4.2a.6.6 0 0 0-.1.6l-.3-.1c-.3 0-.6.2-.6.5v.3H62.7l.2-.4c0-.2 0-.3-.2-.4h.3zm-.4 9.1-.2-.2c.2 0 .4-.2.4-.4h.2c-.2.1-.4.3-.4.6zm0-1.6v.1l-.1.3h-.3v-.1l.4-.3zm-.2-4.7h.1v.2-.2zm.3-1V54.5c-.1-.2-.3-.3-.6-.3l.2-.3.4.2zm-.9-1.2c.1.2.3.2.4.2h.2l-.2.3c0-.2-.2-.3-.4-.3V53zm-.6 6.5.1-.1h.2v.5h-.1c0-.2 0-.3-.2-.4zm.4-3.5zm0 5h.1l.3.3h-.2s0-.2-.2-.3zm.1-6.7zm0 .7v.1l-.3.3v-.2l.2-.2zm-.3 2.2v.1-.1zm0-1.6v.1zm-.1 2.7h.2l-.3.2h-.2l.3-.2zm-1.7-2.8h.3l-.1.3-.3-.2.1-.1zm-.5-1.2.2.3h-.1c-.2 0-.4 0-.5.2.2-.1.4-.3.4-.5zm-.5-.8zm-.5 2c.2 0 .4-.2.5-.3 0 .2.1.3.3.4a.6.6 0 0 0-.5-.1l-.4.1v-.2h.1zm.3 2.5-.3-.2H58.5v.2zm0 1.3zm-.5-3.2c0 .3.2.5.4.5l-.4.1c0-.2 0-.4-.2-.5h.2zm-.2 1.1c0 .2.1.4.3.5h-.4l-.1-.4.2-.1zm.2 1.6h.3v.2a.6.6 0 0 0-.5-.1c-.3 0-.5.2-.5.5l-.3-.2c.3 0 .5-.3.5-.5l.4.1zm-1-1.7V57v.1zm.1 3.1v.1zm.3.8h.7l-.2.4a.6.6 0 0 0-.4-.2c-.2 0-.4.2-.5.4v-.2c.2 0 .3-.2.4-.4zm0-1v-.2l.1.1h-.1zm0-1.7-.1-.1h.1v.1zm-.2-2.2h.1c-.2.2-.4.4-.4.6v.1l-.2-.3c.2 0 .4-.2.5-.4zm-.6 1.5c0 .2.1.4.3.5-.3 0-.5.3-.5.6l-.3-.2c.2-.1.3-.3.3-.6v-.3h.2zm-2-1.9c.2 0 .4-.1.4-.3 0 .3.3.6.6.6s.6-.3.6-.6v-.1l.2.2c-.2 0-.3.2-.3.5 0 .2 0 .4.3.5-.3 0-.5.3-.5.5v.4c-.2 0-.4 0-.5.2v-.4c.2 0 .5-.3.5-.6a.6.6 0 0 0-1-.4c0-.2-.2-.4-.3-.5zm.7 2.5-.2-.2.2-.2v.4zm-1 1.4c0-.1 0-.2-.2-.2l.4-.5.3.2c-.2 0-.4.2-.4.5zm-.7-1.2v-.2h.2c.3 0 .5-.2.5-.5l.4.3c-.2 0-.4.3-.4.5a.6.6 0 0 0-.7-.1zm.4 3c0-.2-.2-.3-.5-.3l.2-.5v-.2h.5l-.2.3c0 .3.2.5.4.5l-.4.2zm.3-1.2.1-.3a.6.6 0 0 0 .9.2v.4l-.1.1a.6.6 0 0 0-.9-.4zm.9 1.9v.2H55l.1-.5c0-.2-.1-.5-.3-.5l.4-.2c0 .2.2.4.4.4-.2.1-.3.3-.3.6zm.3-2.4c0-.4-.2-.6-.5-.6.3-.1.4-.3.4-.6v-.2l.3.2c-.2 0-.3.3-.3.5 0 .3.3.6.6.6s.5-.3.5-.6l.2.2c-.2 0-.4.3-.4.6a.6.6 0 0 0-.8-.1zm.4 1.8zm.4-.7v.3h-.2v-.4c.2-.1.3-.3.3-.6l.3.2c-.2 0-.4.3-.4.5zm2 2.2v-.1zm-.1-.4a.6.6 0 0 0-.5-.2c-.2 0-.3 0-.4.2 0-.3-.3-.4-.6-.4l.2-.3c0 .3.3.5.6.5s.5-.2.6-.5l.4.2c-.2 0-.3.3-.3.5zm.2-2.6-.3.1-.1-.1.3-.3.2.4zm0-1.5.1-.2v-.1l.2.2h-.2zm.3 3.5h.1zm.3-.8-.2-.2.1-.2.1.4zm.2 1.5c0 .2.2.4.3.5l-.2.4v.2l-.2-.2V63l.2-.3zm.3-2.4c-.3 0-.4.1-.5.3l-.2-.4c.3 0 .4-.1.5-.3l.2.4zm-.2-1V59h.1l-.1.3zm0-1.8a.6.6 0 0 0-.4-.1c.3 0 .6-.3.6-.6v-.1l.3.3c-.3 0-.4.2-.4.5zm.5.6h.1v.2l-.1-.2zm0 .7.1-.3s0 .2.2.3H59.8zm.1 1.6h.1v.2l-.1-.2zm0 .7.1-.3.2.3H60zm.9-6.2h-.3c0-.1 0-.3-.3-.4v-.1h.5v.5zm-.3 1.6H60.8c-.3.1-.5.4-.5.6l-.2-.1c.3 0 .4-.3.4-.5zm0 1zm-.1 2.1v-.3c0-.1 0-.3-.2-.4h.2c0 .2 0 .4.2.5l-.2.2zm.4 2.1zm0-.3-.2-.2.2-.1v.3zm-.2-8c-.2 0-.4 0-.5.3l-.3-.1v-.4l.4.2c.3 0 .5-.3.5-.5 0 .3.3.5.6.5l-.1.3.1.3H61V54c0-.3-.2-.6-.5-.6zm.5 7 .2.4-.3.1.1-.3v-.2zm0 2.4a.6.6 0 0 0 .3-.8l.2-.1c0 .3.3.5.6.5v.1H62c-.3 0-.6.2-.6.5a.6.6 0 0 0-.4-.2zm1.3.9v.1h-.2c-.3 0-.5.3-.5.6 0-.3-.3-.5-.6-.5.3 0 .5-.3.5-.5l.4.2c.2 0 .5-.2.5-.5h.2l-.3.6zm.4-1.7h-.1v-.2l.5.2v.4c0-.2-.2-.4-.4-.4zm.2 1.1.2-.2.1.3-.3-.1zm.3-.4v-.3.2zm0-1.8.2-.2v.3l-.3-.1zm.2-7.3h-.1v-.3h.2l-.1.3zm0 6.5.4.1-.3.2V60zm.4 1.5h-.1v-.2l-.1-.2.3.1V61.6zm0-8.4.1-.2v.1zm.2 7 .1-.1v.1h-.1zm0-7.3V52.6h.1l-.2.3zm.6-.4v.1zm-.3 7v-.2l.1.2zm.2-5.8h.3v.2h-.3v-.2zm.3 7.3v.2l-.3-.2v-.5h.1c.2 0 .4 0 .5-.2v.1c-.1.1-.3.3-.3.6zm.4-1.2.2-.4.2.2-.4.2zm1.7-8.6.3-.1v.7-.2c0-.2-.2-.3-.3-.4zm.1 6.5zm-.1.5zm-.5-1h.2v.1h-.2v-.1zm-.3 1c0 .2.2.2.3.2l-.2.3-.2-.1V58.3zm-.4-5.3v-.3l.3.1-.3.2zM66 61v-.3h.1l.3.1-.4.2zm.5-1.3-.3.1H66c.2 0 .4-.3.5-.5h.1l-.1.4zm.5 1.5c0-.2-.2-.3-.4-.4.3 0 .5-.2.5-.5l.3.4c-.2 0-.4.2-.4.5zm7.7-16v-.1h.2l-.1.3v.2l-.1-.1v-.3zm-.2 2.5c.4 0 .6-.3.6-.6h.3c-.2.2-.2.3-.2.5v.2l-.3-.1c-.2 0-.4 0-.5.2v-.2zm-.2.6.2.4c-.2 0-.4 0-.5.2v-.4c.1 0 .2 0 .3-.2zm-.1-3.7-.2-.2h.2v.2zm-.2-2.3h.2l-.1.2H74v-.2zm0 6.8v.2h-.3l.2-.2zm0 1.3h-.2.1zm-.4-11.5v.2l-.1-.1.1-.1zm0 2v.1l.1.3-.3-.3.3-.1zm-.3 10.3.2.2-.2.1c-.1-.2-.3-.3-.5-.3h.5zm-.4-7.8h.1v.1-.1zm0-1.4v.4l-.2-.1.2-.3zm.1 3.2v-.4l.1.3zm-.3-4.2.2-.3.2.2-.4.1zm0-2.3c0 .1.1.3.3.3l-.3.5c0-.2 0-.4-.2-.5l.1-.3zm0 .8c0 .2.1.4.3.5l-.2.2-.3-.2.2-.5zm-.4 5zm0-.4v.1L72 44h.2zm-.2-4-.2.1v-.3l.2.2zm-.1 3-.2.3v-.2l.2-.1zm0-2.1h-.1c-.1-.1-.3-.3-.5-.3l.4-.2c0 .2 0 .4.2.5zm-.5-2.4v.1-.1zM70 38h.6v.7a.6.6 0 0 0 .5 1l-.3.2c0-.2-.3-.4-.5-.4a.6.6 0 0 0-.2-1v-.1L70 38zm.2 3.5h.2l.4-.1s0 .2.2.3c-.3 0-.4 0-.5.2h-.6c.2 0 .2-.2.3-.4zm.5 1.8a.6.6 0 0 0-.4-.3c-.2 0-.4.1-.5.3v-.4h.4c.2 0 .3 0 .4-.2l.3.1h.2v.1l-.4.4zm.2-2.4c0-.2-.1-.4-.3-.5l.1-.2c0 .3.3.5.5.5l-.2.2zm.4-1.3c.2 0 .3-.3.3-.5h.1a.5.5 0 0 0 0 .6.6.6 0 0 0-.4-.1zm.2 2.5-.2-.3c.3 0 .4 0 .5-.2v.5H71.5zm.2 1.8.1-.3.2.4-.3-.1zm.4 2.4-.2-.4.1-.4.3.2v.2l-.2.3zm.1 5.4v.1-.1zm-.5-2.8h.1-.1zm.3 3.8H72v-.1l.1.1zm-.3 1h.3l.1.1H72l-.3.1v-.2h.1zm0-6.2.2.3c-.2 0-.3.1-.4.3l-.2-.1c.2 0 .4-.3.4-.5zm-.5 8.2a.6.6 0 0 0-.3.7h-.3l-.4.1a.6.6 0 0 0 0-.4h.2c.3 0 .5-.2.5-.5h.3zm-.6-5H70.9v.2l-.4-.2zm.1 2.6zm-.5 1.5c.1.1.3.3.5.3v.1a.6.6 0 0 0-.3-.2l-.3.1-.1-.2.2-.1zm-.2-1.2v.1zm0 3.1v.2-.2zm-1.3-6.3c.2 0 .3-.2.4-.5 0 .2.2.3.3.3a.6.6 0 0 0-.2 1H69l-.3.1.2-.5c0-.1 0-.3-.2-.4zm.7 4.2h-.1V54.3l.1.3zm-.7.6h.2v.1h-.2zm-.8.7v.1zm-.3-3.9zm.7 8.1c0-.3-.2-.5-.5-.5l-.1-.1.3-.2c0 .2.3.4.5.4l-.2.4zm-.2-1.7v.3l-.2-.3.2-.4-.1-.3h.4l.1.1c-.2 0-.4.3-.4.6zm.8-1.6h-.3c.2 0 .3-.2.4-.4l.5.5-.2.1a.6.6 0 0 0-.4-.2zm.7 1.1c-.2 0-.3.2-.4.3L69 58l.3-.2.3.2zm-.4 1.7v.2a.6.6 0 0 0-.3-.2l.2-.4-.1-.4.2-.2c0 .2.2.4.4.4-.2.1-.4.3-.4.6zm.5-3.8h-.3v-.1l.4-.1v.2h-.1zm-.1-4.3-.2-.2.5-.1v.1c-.2 0-.3.1-.3.2zm.6 6.2v.5l-.3-.3c.1 0 .3 0 .4-.2zm0 1.4h-.3c.2-.2.4-.4.4-.6v-.2l.3.3c-.2 0-.4.3-.4.5zm.5-1.7c-.2 0-.3.1-.4.3v-.3h.3l.4-.1.1.3a.6.6 0 0 0-.4-.2zm.5-.5v-.2h.1l-.1.2zm.1-2.4v-.3h.1a.6.6 0 0 0 0 .4zm.2-2v.1zm.4 3.4-.4-.3a.6.6 0 0 0 .4-.7c0 .2.2.4.4.5-.2.1-.4.3-.4.5zm2-3.2a.6.6 0 0 0-.4-.2c-.3 0-.6.2-.6.5h-.6l-.2-.2.4.1c.3 0 .5-.3.5-.6l.6.2h.3v.2zm.5-.7-.3.1V52c0-.3-.1-.5-.3-.5l.3-.1c0 .3.2.6.4.6z"/>
+    <path d="M74.2 55.5c0-.3-.3-.5-.6-.5s-.5.2-.5.5c0 .4.2.6.5.6.4 0 .6-.3.6-.6zM74.3 56.4c-.3 0-.5.2-.5.5s.2.6.5.6c.4 0 .6-.3.6-.6s-.3-.5-.6-.5zM71.8 59.5c-.3 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5zM70.5 60.9c0-.3-.2-.6-.5-.6s-.6.3-.6.6.3.6.6.6.5-.3.5-.6zM70.6 61.8c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM68.2 63.4c-.4 0-.6.2-.6.6 0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6zM66.8 63c-.3 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6zM65 64.2c-.4 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5s-.2-.6-.5-.6zM63.3 66.7c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6zM61.7 65c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM63.2 66.3c.3 0 .6-.3.6-.6s-.3-.6-.6-.6-.6.3-.6.6.3.6.6.6zM61.5 66.3c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM59.5 66.9c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5zM59.5 67.5c-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5 0-.4-.2-.6-.6-.6zM56.7 67.3c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.3.6-.6-.3-.5-.6-.5zM56.7 68.8c-.3 0-.6.3-.6.6s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM54.7 68c-.3 0-.6.2-.6.5s.3.6.6.6.5-.3.5-.6-.2-.6-.5-.6zM53.2 69.6c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM52.1 68c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5zM50.5 69c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM50.9 67.8c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.5.6.5.6-.2.6-.5zM48.5 69c0-.4-.3-.6-.6-.6s-.6.2-.6.6c0 .3.3.5.6.5s.6-.2.6-.5z"/>
+    <circle cx="48.4" cy="70.3" r=".6"/>
+    <path d="M45.9 69c-.4 0-.6.2-.6.5 0 .4.2.6.6.6.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5zM46.2 67.4c-.3 0-.6.3-.6.6s.3.5.6.5.6-.2.6-.5c0-.4-.3-.6-.6-.6zM49.5 65.4c.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.2-.6.6 0 .3.2.5.6.5zM50.5 66.5c.4 0 .6-.3.6-.6s-.2-.6-.6-.6c-.3 0-.5.3-.5.6s.2.6.5.6zM43.2 69.4c-.4 0-.6.2-.6.5s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.5-.5-.5zM40.6 67.2c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.6 0-.3-.2-.5-.6-.5zM43.7 67.2c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6z"/>
+    <circle cx="42.2" cy="66.8" r=".6"/>
+    <path d="M40.5 66.4c0-.3-.2-.6-.6-.6-.3 0-.5.3-.5.6s.2.5.5.5c.4 0 .6-.2.6-.5zM38.8 68c-.4 0-.6.3-.6.6s.2.6.5.6c.4 0 .6-.3.6-.6s-.2-.6-.5-.6zM34 67.2c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM35.8 65c-.3 0-.6.2-.6.6 0 .3.3.5.6.5s.5-.2.5-.6c0-.3-.2-.5-.5-.5zM29.5 60.8c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5 0-.4-.3-.6-.6-.6zM36.3 63.3c-.3 0-.5.2-.5.6 0 .3.2.5.5.5s.6-.2.6-.5c0-.4-.3-.6-.6-.6z"/>
+    <circle cx="32.7" cy="65.6" r=".6"/>
+    <path d="M38.4 65.6c0-.3-.3-.5-.6-.5s-.6.2-.6.5c0 .4.3.6.6.6s.6-.2.6-.6zM76.3 49c0-.2-.2-.5-.5-.5s-.6.3-.6.6.3.5.6.5.5-.2.5-.5zM69.7 40c0-.3-.3-.5-.6-.5s-.5.2-.5.5c0-.3-.3-.5-.6-.5v-.2c0-.3-.2-.5-.5-.5s-.6.2-.6.5.3.6.6.6v.2a.6.6 0 0 0-.6-.2c-.3 0-.5.2-.5.6 0 .3.2.5.5.5.4 0 .6-.2.6-.5v-.1c.1.1.3.3.5.3.3 0 .5-.3.6-.6 0 .2 0 .3.2.4h-.2c-.3 0-.5.2-.5.5 0 .4.2.6.5.6.4 0 .6-.3.6-.6 0-.2-.1-.3-.3-.4h.2c.3 0 .6-.3.6-.6zM75.4 39.7c.3 0 .5-.2.5-.6 0-.3-.2-.5-.5-.5s-.6.2-.6.5c0 .4.3.6.6.6zM66.7 42.3c-.3 0-.6.2-.6.5s.3.6.6.6.6-.3.6-.6-.3-.5-.6-.5zM60.4 38.4c0-.3-.3-.6-.6-.6s-.6.3-.6.6.3.6.6.6.6-.3.6-.6zM58.3 39.5c0 .3.2.5.6.5.3 0 .5-.2.5-.5 0-.4-.2-.6-.5-.6-.4 0-.6.3-.6.6zM65.8 33c-.3 0-.6.3-.6.6s.3.6.6.6.6-.3.6-.6-.3-.6-.6-.6zM62.6 40.2c.3 0 .5-.3.5-.6s-.2-.6-.5-.6c-.4 0-.6.3-.6.6s.2.6.6.6zM61.8 39c0-.3-.2-.6-.5-.6-.4 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6z"/>
+    <circle cx="62.9" cy="42.3" r=".6"/>
+    <path d="M47.8 56c0-.2-.2-.5-.5-.5-.4 0-.6.3-.6.6s.2.5.6.5c.3 0 .5-.2.5-.5zM48 54.5c-.2 0-.5.3-.5.6s.3.5.6.5.5-.2.5-.5-.2-.6-.5-.6zM64.1 46.4c.3 0 .6-.3.6-.6s-.3-.5-.6-.5-.6.2-.6.5.3.6.6.6zM54 37.8c-.3 0-.6.3-.6.6s.2.6.6.6c.3 0 .5-.3.5-.6s-.2-.6-.5-.6zM52.3 35.9c0 .3.3.6.6.6s.6-.3.6-.6-.3-.6-.6-.6-.6.3-.6.6zM54.3 34.5c-.3 0-.6.2-.6.5 0 .4.3.6.6.6s.6-.2.6-.6c0-.3-.3-.5-.6-.5zM56.9 38.8c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5zM60.4 32.2c0 .3.2.6.6.6.3 0 .5-.3.5-.6s-.2-.5-.5-.5c-.4 0-.6.2-.6.5z"/>
+  </g>
+  <path d="M81 14.2h11.6c6.7 0 11.1 3.6 11.1 9.9 0 6.7-4.6 10.2-11.3 10.2h-5.2v8.2H81zm11 14.7c3.4 0 5.4-1.6 5.4-4.6 0-3-1.9-4.7-5.4-4.7h-4.8V29H92zM105.1 33.8h6.4c.3 2.5 2 4.2 5.7 4.2 3.2 0 5-1.4 5-3.5s-1.4-2.9-4-3.3l-3.3-.5c-5.9-1-9-3.5-9-8.2 0-5.4 4.1-8.8 11-8.8 6.8 0 10.5 3.2 11.1 8.6h-6.3c-.4-2.2-2.1-3.6-5-3.6-2.8 0-4.5 1.3-4.5 3.3 0 2 1.4 2.8 4 3.2l3.3.6c5.7.9 9 3.3 9 8 0 5.8-4.4 9.2-11.5 9.2-7.2 0-11-3.3-11.9-9.2zM131.6 14.2h6.2v28.3h-6.2z" id="psi-svg-logo-text"/>
+</svg>
+
+                      <video id="site-logo-video-a" class="site-logo-video" muted playsinline disablePictureInPicture preload="none">
+          <source src="/sites/default/files/logo_videos/logo_A.mp4" type="video/mp4" />
+        </video>
+                    <video id="site-logo-video-b" class="site-logo-video" muted playsinline disablePictureInPicture preload="none">
+          <source src="/sites/default/files/logo_videos/logo_B.mp4" type="video/mp4" />
+        </video>
+          </a>      </div>
+  <div id="block-design2-bs-nav-bar-toggler" class="block block-bs-lib block-bs-lib-navigation-bar-toggler-block">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive">
+  <span class="navbar-toggler-icon"><svg id="psi-toggler" viewBox='0 0 18 12' xmlns='http://www.w3.org/2000/svg' stroke="currentColor"><path stroke-width='2' d='M0 1h18M0 6h18M0 11h18'/></svg></span>
+</button>
+      </div>
+</div>
+                <div class="navbar-responsive offcanvas offcanvas-ncrb offcanvas-end navbar-collapse region region-navbar" tabindex="-1" id="navbarResponsive">
+    <div class="offcanvas-header psi-d-nav-collapse-none">
+      <a href="#" class="offcanvas__close-link" title="Close navigation" data-bs-dismiss="offcanvas">
+        <span class="label psi-typo-p-s">close</span>
+        <span class="psi-icon-lg psi-close-lg"></span>
+      </a>
+    </div>
+    <div class="psi-scroll-shadow"></div>
+    <div class="offcanvas-body">  <div class="block-menu navigation menu--main block block-psi-group block-psi-active-section-menu" id="block-design2-mainnavigation">
+                
+
+      <ul class="navbar-nav">                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/about" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel00" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61618"><span class="label">About PSI</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/about" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">About PSI</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00">                  <li class="nav-item">                                            <a href="/en/about/psi-in-brief" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62379"><span class="label">PSI in brief</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/en/about/strategy" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/19517"><span class="label">Strategy &amp; guiding principles</span></a></li>                  <li class="nav-item">                <a href="/en/about/history-of-psi" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/19520"><span class="label">The history of PSI</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/about/organisation" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63436"><span class="label">Organisational structure</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="/en/about/org-chart-advisory-board" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/19541"><span class="label">Advisory Board</span></a></li>                  <li class="nav-item">                <a href="/en/about/org-chart-foko" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/19547"><span class="label">Research Committee</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/about/facts-and-figures" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/19544"><span class="label">Key figures of PSI</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12">                  <li class="nav-item">                <a href="/en/about/business-report" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/19556"><span class="label">Business Reports</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/about/the-people-at-psi" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63049"><span class="label">The people at PSI</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13">                  <li class="nav-item">                <a href="/en/suche/telefonbuch-und-e-mail" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/462"><span class="label">Directory</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/about/for-the-media" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63181"><span class="label">For the media</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/about/for-the-media#ansprechpartnerin-fur-medienschaffende" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/63181"><span class="label">Contact for the media</span></a></li>                  <li class="nav-item">                <a href="/en/news/news?facet_type%5B6%5D=6&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;6&quot;:&quot;6&quot;},&quot;langcode&quot;:&quot;All&quot;}" data-drupal-link-system-path="node/61627"><span class="label">Media Releases</span></a></li></ul></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                          <p>Paul Scherrer Institute PSI<br>Forschungsstrasse 111<br>5232 Villigen PSI, Switzerland<br><a href="tel:+41563102111">+41 56 310 21 11</a></p><p><a class="nav-link" href="/en/about/contacts" data-entity-type="node" data-entity-uuid="54a7e768-82b2-49d1-972b-55f00f36af95" data-entity-substitution="canonical" title="General contact page">Contact form</a></p>
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/research" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel01" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62376"><span class="label">Research</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/research" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">Research</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01">                  <li class="nav-item">                                            <a href="/en/research/topic-overview" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61621"><span class="label">Main areas of research</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/en/research/future-technologies" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/61705"><span class="label">Future Technologies</span></a></li>                  <li class="nav-item">                <a href="/en/research/energy-and-climate" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/61576"><span class="label">Energy and Climate</span></a></li>                  <li class="nav-item">                <a href="/en/research/health-innovation" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/61702"><span class="label">Health Innovation</span></a></li>                  <li class="nav-item">                <a href="/en/research/fundamentals-of-nature" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/61699"><span class="label">Fundamentals of Nature</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/research/large-research-facilities" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62997"><span class="label">Large Research Facilities</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="/en/swissfel" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/17702"><span class="label">SwissFEL – Swiss X-ray Free Electron Laser</span></a></li>                  <li class="nav-item">                <a href="/en/sls" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/16517"><span class="label">SLS – Swiss Light Source</span></a></li>                  <li class="nav-item">                <a href="/en/sinq" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/14363"><span class="label">Schweizer Spallations-Neutronenquelle SINQ</span></a></li>                  <li class="nav-item">                <a href="/en/smus" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/15119"><span class="label">Myonenquelle SμS</span></a></li>                  <li class="nav-item">                <a href="/en/ltp/facilities" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-system-path="node/12674"><span class="label">CHRISP – Swiss Research Infrastructure for Particle Physics</span></a></li>                  <li class="nav-item">                <a href="/en/research/facilities" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel25" data-menu-level="2" data-drupal-link-system-path="node/9788"><span class="label">Further Facilities</span></a></li></ul></li>                  <li class="nav-item">                <a href="/en/research/center-labs" class="psi-link-target--samesite nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" data-drupal-link-system-path="node/61870"><span class="label">Centers &amp; Labs</span></a></li>                  <li class="nav-item">                                            <a href="/en/useroffice" class="psi-link-target--othersubweb nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63532"><span class="label">User Office</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13">                  <li class="nav-item">                <a href="/en/useroffice/facilities-access" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/62592"><span class="label">Facilities &amp; Access</span></a></li>                  <li class="nav-item">                <a href="/en/useroffice/safety-at-psi" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/9899"><span class="label">Safety &amp; Data</span></a></li>                  <li class="nav-item">                <a href="/en/useroffice/your-stay-at-psi" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/9926"><span class="label">Your stay at PSI</span></a></li>                  <li class="nav-item">                <a href="/en/guesthouse" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/63544"><span class="label">PSI Guest House</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/research/aktuelle-upgrade-projekte-und-forschungsinitiativen" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63055"><span class="label">Large-scale projects and initiatives</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/sls2-0" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/30821"><span class="label">SLS 2.0</span></a></li>                  <li class="nav-item">                <a href="/en/impact" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/48424"><span class="label">IMPACT</span></a></li>                  <li class="nav-item">                <a href="/en/research/esi-platform-new-pathways-to-the-energy-system-of-the-future" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/63641"><span class="label">ESI Platform</span></a></li>                  <li class="nav-item">                <a href="/en/quantum-technologies-collaboration" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/10007"><span class="label">Quantum Technologies Collaboration at PSI (QTC@PSI)</span></a></li>                  <li class="nav-item">                <a href="/en/strategic-areas-eth-domain/funded-initiatives" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-system-path="node/61003"><span class="label">Joint Initiatives</span></a></li></ul></li>                  <li class="nav-item">                <a href="/en/psi-fellow" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel15" data-menu-level="1" data-drupal-link-system-path="node/19463"><span class="label">PSI FELLOW Program</span></a></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                          <p>Paul Scherrer Institute PSI<br>Forschungsstrasse 111<br>5232 Villigen PSI, Switzerland<br><a href="tel:+41563102111">+41 56 310 21 11</a></p><p><a class="nav-link" href="/en/about/contacts" data-entity-type="node" data-entity-uuid="54a7e768-82b2-49d1-972b-55f00f36af95" data-entity-substitution="canonical" title="General contact page">Contact form</a></p>
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                            <li class="nav-item"><a href="/en/integrity" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/9974"><span class="label">Ethics &amp; Research integrity</span></a></li>
+                                            <li class="nav-item"><a href="/en/research/facility-newsletter" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/9770"><span class="label">PSI Facility Newsletter</span></a></li>
+                                            <li class="nav-item"><a href="https://www.dora.lib4ri.ch/psi/" class="nav-link psi-p-s psi-s-py-xxs"><span class="label">Scientific publications (DORA)</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/industry" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel02" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61969"><span class="label">Industry</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/industry" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">Industry</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02">                  <li class="nav-item">                                            <a href="/en/industry/companies" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18641"><span class="label">Cooperation with companies</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/en/industry/principles-of-cooperation" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/18620"><span class="label">Principles of cooperation</span></a></li>                  <li class="nav-item">                <a href="/en/industry/access-to-psis-large-research-facilities" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/18626"><span class="label">Access to PSI's large research facilities</span></a></li>                  <li class="nav-item">                <a href="/en/industry/success-stories" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/18638"><span class="label">Success stories</span></a></li>                  <li class="nav-item">                <a href="/en/industry/psi-s-legal-status-and-questions-of-compliance" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/74452"><span class="label">Legal Status &amp; Questions of Compliance</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/industry/spin-off-companies" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18695"><span class="label">Entrepreneurship &amp; Spin-offs</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="https://www.psi.ch/en/industry/spin-off-companies#entrepreneurship-at-psi" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2"><span class="label">PSI Founder Fellowship</span></a></li>                  <li class="nav-item">                <a href="/en/industry/spin-off-companies#support-spin-offs" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/18695"><span class="label">Support our Entrepreneurs!</span></a></li>                  <li class="nav-item">                <a href="/en/industry/spin-off-companies#spin-offs" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/18695"><span class="label">Spin-offs</span></a></li>                  <li class="nav-item">                <a href="/en/industry/spin-off-companies#ueberblick-spin-offs" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/18695"><span class="label">Overview of our spin-offs</span></a></li>                  <li class="nav-item">                <a href="/en/industry/spin-off-companies#lizenzierungsgrundsaetze" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-system-path="node/18695"><span class="label">Licensing Principles</span></a></li></ul></li>                  <li class="nav-item">                <a href="/en/industry/the-team-of-technology-transfer" class="psi-link-target--samesite nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" data-drupal-link-system-path="node/18662"><span class="label">Meet the Team</span></a></li>                  <li class="nav-item">                <a href="/en/industry/industry-news" class="psi-link-target--samesite nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" data-drupal-link-system-path="node/33740"><span class="label">Industry News</span></a></li>                  <li class="nav-item">                                            <a href="/en/industry/park-innovaare" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18686"><span class="label">Park Innovaare</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/industry/park-innovaare#uber-park-innovaare" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/18686"><span class="label">About Park Innovaare</span></a></li>                  <li class="nav-item">                <a href="/en/industry/park-innovaare#warum-park-innovaare-fur-ihr-unternehmen" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/18686"><span class="label">Why Park Innovaare for your company?</span></a></li></ul></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser content-item--media">
+    <div class="content-item__inner">
+      <div class="psi-people-reference__picture">
+          
+
+<div class="primer-resize--crop media-only media media--type-primer-image media--view-mode-primer-teaser-mini">
+                        <div class="field field--name-primer-image field--label-hidden field__item">    <img loading="lazy" src="/sites/default/files/styles/primer_teaser_mini_square_crop/public/import/industry/ImageBoard/john_millard.jpg.webp?itok=dFeTErmc" width="200" height="200" alt="john millard.jpg" class="img-fluid" />
+
+
+</div>
+      
+      </div>
+
+        </div>      <div class="psi-people-reference__name">
+          <a href="/en/industry/people/john-millard" hreflang="en">John Millard</a>
+        </div>      <div class="psi-people-reference__summary">
+                    <div class="field field--name-field-psi-description field--label-hidden field__item"><p>Head of Technology Transfer</p></div>
+      
+                    <div class="field field--name-primer-phone field--label-hidden field__item"><a href="tel:%2B41%2056%20310%2041%20%2083">+41 56 310 41  83</a></div>
+      
+                              <div class="field field--name-primer-email field--label-hidden field__item"><a href="mailto:john.millard@psi.ch" class="psi-text-overflow">john.millard@psi.ch</a></div>
+      
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                            <li class="nav-item"><a href="https://www.linkedin.com/showcase/psi-industry-relations/" class="nav-link psi-p-s psi-s-py-xxs"><span class="label">Follow Industry (LinkedIn)</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/protontherapy" class="psi-link-target--othersubweb nav-link psi-menu-below" id="main-rebrandingLabel03" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61861"><span class="label">Proton Therapy</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/protontherapy" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">Proton Therapy</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03">                  <li class="nav-item">                <a href="/en/protontherapy/types-of-cancer-we-treat" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" data-drupal-link-system-path="node/45067"><span class="label">Types of cancer we treat</span></a></li>                  <li class="nav-item">                <a href="/en/protontherapy/proton-therapy-at-psi" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" data-drupal-link-system-path="node/18599"><span class="label">What is proton therapy?</span></a></li>                  <li class="nav-item">                <a href="/en/protontherapy/protons-for-babies-and-children" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" data-drupal-link-system-path="node/56995"><span class="label">Protons for Babies and Children</span></a></li>                  <li class="nav-item">                <a href="/en/protontherapy/for-patients-and-family-members" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" data-drupal-link-system-path="node/57016"><span class="label">Patients &amp; Family Members</span></a></li>                  <li class="nav-item">                <a href="/en/protontherapy/arzt-und-patienten-information" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" data-drupal-link-system-path="node/67670"><span class="label">Physicians &amp; referrers</span></a></li>                  <li class="nav-item">                <a href="/en/protontherapy/research-and-development" class="psi-link-target--othersubweb nav-link psi-menu-page overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel15" data-menu-level="1" data-drupal-link-system-path="node/18575"><span class="label">Research &amp; Development</span></a></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser ">
+    <div class="content-item__inner">
+            <div class="psi-people-reference__name">
+          <span></span>
+        </div>      <div class="psi-people-reference__summary">
+                    <div class="field field--name-field-psi-description field--label-hidden field__item"><p><a href="https://www.psi.ch/en/protontherapy/secretary">Patient Office</a><br>Tel: +41 56 310 35 21<br>Tel: +41 56 310 35 35<br><a href="mailto:protonentherapie@psi.ch">protonentherapie@psi.ch</a></p></div>
+      
+        
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser ">
+    <div class="content-item__inner">
+            <div class="psi-people-reference__name">
+          <span>Prof. Dr. Damien Charles Weber</span>
+        </div>      <div class="psi-people-reference__summary">
+                    <div class="field field--name-field-psi-description field--label-hidden field__item"><p>Head and Chairman</p></div>
+      
+                    <div class="field field--name-field-psi-phone field--label-hidden field__item"><a href="tel:%2B41%2056%20310%2035%2035">+41 56 310 35 35</a></div>
+      
+                              <div class="field field--name-field-psi-email field--label-hidden field__item"><a href="mailto:damien.weber@psi.ch" class="psi-text-overflow">damien.weber@psi.ch</a></div>
+      
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                            <li class="nav-item"><a href="/en/protontherapy/informazioni-sulla-terapia-protonica" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/45446"><span class="label">Sito web italiano sulla protonterapia</span></a></li>
+                                            <li class="nav-item"><a href="https://www.primomedico.com/de/spezialist/prof-weber-protonentherapie-villigen/" class="nav-link psi-p-s psi-s-py-xxs"><span class="label">Member of Primo Medico</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/hr" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel04" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61972"><span class="label">Career &amp; Education</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/hr" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">Career &amp; Education</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04">                  <li class="nav-item">                                            <a href="/en/hr/working-at-psi" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18905"><span class="label">PSI as an employer</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/en/hr/personnel-policy" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/18899"><span class="label">Personnel Policy</span></a></li>                  <li class="nav-item">                <a href="/en/respekt" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/51396"><span class="label">Respect</span></a></li>                  <li class="nav-item">                <a href="/en/chancengleichheit" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/19436"><span class="label">Equal Opportunities</span></a></li>                  <li class="nav-item">                <a href="/en/hr/career-center" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/74630"><span class="label">Career Center</span></a></li>                  <li class="nav-item">                <a href="/en/hr/corporate-social-responsibility" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-system-path="node/18914"><span class="label">Corporate Social Responsibility</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/hr/job-opportunities" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/3698"><span class="label">Job Opportunities</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="/en/hr/our-application-process-at-a-glance" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/28085"><span class="label">Applying at PSI</span></a></li>                  <li class="nav-item">                <a href="/en/hr/social-benefits" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/18908"><span class="label">Social Benefits</span></a></li>                  <li class="nav-item">                <a href="/en/hr/further-positive-points" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/18929"><span class="label">Further benefits</span></a></li>                  <li class="nav-item">                <a href="/en/hr/further-positions-in-the-eth-domain" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/18890"><span class="label">Further Positions in the ETH Domain</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/hr/training-and-further-education" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18911"><span class="label">Research career at PSI</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12">                  <li class="nav-item">                <a href="/en/hr/high-school-matriculation-projects" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/18926"><span class="label">Matriculation projects</span></a></li>                  <li class="nav-item">                <a href="/en/hr/higher-education" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/18935"><span class="label">Bachelor's and Master's theses</span></a></li>                  <li class="nav-item">                <a href="/en/summerstudents" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/60763"><span class="label">Summer Student Programme</span></a></li>                  <li class="nav-item">                <a href="/en/hr/phd-students-and-postdocs" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/53558"><span class="label">PhD Students and Postdocs</span></a></li>                  <li class="nav-item">                <a href="/en/hr/tenure-track-en" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-system-path="node/53561"><span class="label">Tenure Track</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/hr/elternschaft" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/66524"><span class="label">Parenthood</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13">                  <li class="nav-item">                <a href="/en/kita" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/63496"><span class="label">KiTa Nanolino</span></a></li>                  <li class="nav-item">                <a href="/en/chancengleichheit/childcare" class="psi-link-target--othersubweb nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/19454"><span class="label">Childcare</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/bab" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/18968"><span class="label">Vocational Training</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/bab/lehrberufe-am-psi" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/19220"><span class="label">Apprenticeships</span></a></li>                  <li class="nav-item">                <a href="/en/bab/ansprechpartnerinnen" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/61636"><span class="label">Contact</span></a></li>                  <li class="nav-item">                <a href="/en/bab/deine-bewerbung" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/19277"><span class="label">Application</span></a></li>                  <li class="nav-item">                <a href="/en/bab/aktuelles" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/18962"><span class="label">News</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/bz" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel15" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62346"><span class="label">Training and further education</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14 main-rebrandingLabel15">                  <li class="nav-item">                <a href="https://www.lead-campus.ch/" class="nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2"><span class="label">Courses for external </span></a></li>                  <li class="nav-item">                <a href="https://login.lead-campus.ch/edoniq/v4/user/userArea/learnplace/trainingOffering" class="nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2"><span class="label">Courses for internal</span></a></li>                  <li class="nav-item">                <a href="/en/bz/infrastructure" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/46690"><span class="label">Infrastructure</span></a></li>                  <li class="nav-item">                <a href="/en/bz/quality" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/64250"><span class="label">Quality</span></a></li></ul></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser ">
+    <div class="content-item__inner">
+            <div class="psi-people-reference__name">
+          <span>People &amp; Culture</span>
+        </div>      <div class="psi-people-reference__summary">
+        
+                    <div class="field field--name-field-psi-phone field--label-hidden field__item"><a href="tel:%2B41%2056%20310%2031%2000">+41 56 310 31 00</a></div>
+      
+                              <div class="field field--name-field-psi-email field--label-hidden field__item"><a href="mailto:hr@psi.ch" class="psi-text-overflow">hr@psi.ch</a></div>
+      
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/news" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel05" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61624"><span class="label">News &amp; Events</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/news" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">News &amp; Events</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05">                  <li class="nav-item">                                            <a href="/en/news/news" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61627"><span class="label">News</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/news/news?research_focus%5B2632%5D=2632&amp;facet_type%5B2679%5D=2679&amp;facet_type%5B6%5D=6&amp;facet_type%5B2678%5D=2678&amp;facet_type%5B2676%5D=2676&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;2679&quot;:&quot;2679&quot;,&quot;6&quot;:&quot;6&quot;,&quot;2678&quot;:&quot;2678&quot;,&quot;2676&quot;:&quot;2676&quot;},&quot;langcode&quot;:&quot;All&quot;,&quot;research_focus&quot;:{&quot;2632&quot;:&quot;2632&quot;}}"><span class="label">Future Technologies</span></a></li>                  <li class="nav-item">                <a href="/news/news?research_focus%5B2629%5D=2629&amp;facet_type%5B2679%5D=2679&amp;facet_type%5B6%5D=6&amp;facet_type%5B2678%5D=2678&amp;facet_type%5B2676%5D=2676&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;2679&quot;:&quot;2679&quot;,&quot;6&quot;:&quot;6&quot;,&quot;2678&quot;:&quot;2678&quot;,&quot;2676&quot;:&quot;2676&quot;},&quot;langcode&quot;:&quot;All&quot;,&quot;research_focus&quot;:{&quot;2629&quot;:&quot;2629&quot;}}"><span class="label">Energy and Climate</span></a></li>                  <li class="nav-item">                <a href="/news/news?research_focus%5B2635%5D=2635&amp;facet_type%5B2679%5D=2679&amp;facet_type%5B6%5D=6&amp;facet_type%5B2678%5D=2678&amp;facet_type%5B2676%5D=2676&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;2679&quot;:&quot;2679&quot;,&quot;6&quot;:&quot;6&quot;,&quot;2678&quot;:&quot;2678&quot;,&quot;2676&quot;:&quot;2676&quot;},&quot;langcode&quot;:&quot;All&quot;,&quot;research_focus&quot;:{&quot;2635&quot;:&quot;2635&quot;}}"><span class="label">Health Innovation</span></a></li>                  <li class="nav-item">                <a href="/news/news?research_focus%5B2638%5D=2638&amp;facet_type%5B6%5D=6&amp;facet_type%5B2678%5D=2678&amp;facet_type%5B2676%5D=2676&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;6&quot;:&quot;6&quot;,&quot;2678&quot;:&quot;2678&quot;,&quot;2676&quot;:&quot;2676&quot;},&quot;langcode&quot;:&quot;All&quot;,&quot;research_focus&quot;:{&quot;2638&quot;:&quot;2638&quot;}}"><span class="label">Fundamentals of Nature</span></a></li>                  <li class="nav-item">                <a href="/news/news?research_focus%5B2674%5D=2674&amp;facet_type%5B2679%5D=2679&amp;facet_type%5B6%5D=6&amp;facet_type%5B2678%5D=2678&amp;facet_type%5B2676%5D=2676&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;2679&quot;:&quot;2679&quot;,&quot;6&quot;:&quot;6&quot;,&quot;2678&quot;:&quot;2678&quot;,&quot;2676&quot;:&quot;2676&quot;},&quot;langcode&quot;:&quot;All&quot;,&quot;research_focus&quot;:{&quot;2674&quot;:&quot;2674&quot;}}"><span class="label">Large Research Facilities</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/news/events" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62137"><span class="label">Events</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="/en/visit/public-tours" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/62427"><span class="label">Public tours</span></a></li>                  <li class="nav-item">                <a href="/en/news/scientific-events" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/9821"><span class="label">Scientific Events</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/news/social-media" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/285"><span class="label">Social Media</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12">                  <li class="nav-item">                <a href="/en/news/psi-community-guidelines" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/51525"><span class="label">PSI Community Guidelines</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/news/publications" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62140"><span class="label">Publications</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13">                  <li class="nav-item">                <a href="/en/news/5232-the-magazine-of-psi" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/18863"><span class="label">5232 — The magazine of the PSI</span></a></li>                  <li class="nav-item">                <a href="/en/news/psi-energy-compass" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/70253"><span class="label">PSI Energy Compass</span></a></li>                  <li class="nav-item">                <a href="/en/news/general-brochures" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/18833"><span class="label">Brochures</span></a></li>                  <li class="nav-item">                <a href="/en/about/business-report" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/19556"><span class="label">Business Reports</span></a></li>                  <li class="nav-item">                <a href="https://www.dora.lib4ri.ch/psi/" target="_blank" class="nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel24" data-menu-level="2"><span class="label">Scientific publications (DORA)</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/news/videos" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/440"><span class="label">Media library</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/news/video-series" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/68618"><span class="label">Video series</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/about/for-the-media" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel15" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/63181"><span class="label">For the media</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14 main-rebrandingLabel15">                  <li class="nav-item">                <a href="/en/news/news?facet_type%5B6%5D=6&amp;langcode=All" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;6&quot;:&quot;6&quot;},&quot;langcode&quot;:&quot;All&quot;}" data-drupal-link-system-path="node/61627"><span class="label">Media Releases</span></a></li>                  <li class="nav-item">                <a href="/en/about/for-the-media#ansprechpartnerin-fur-medienschaffende" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/63181"><span class="label">Contact for the media</span></a></li></ul></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                          <p>Paul Scherrer Institute PSI<br>Forschungsstrasse 111<br>5232 Villigen PSI, Switzerland<br><a href="tel:+41563102111">+41 56 310 21 11</a></p><p><a class="nav-link" href="/en/about/contacts" data-entity-type="node" data-entity-uuid="54a7e768-82b2-49d1-972b-55f00f36af95" data-entity-substitution="canonical" title="General contact page">Contact form</a></p>
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li>                  <li class="nav-item overlay-menu-dropdown">                                            <a href="/en/visit" class="psi-link-target--samesite nav-link psi-menu-below" id="main-rebrandingLabel06" data-menu-level="0" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61093"><span class="label">Visit PSI</span></a>          <div class="overlay-menu overlay-menu-main sidebar">
+            <div class="overlay-menu__overview">
+              <div>                <a href="/en/visit" class="overlay-menu__overview__link">
+                  <span class="overlay-menu__overview__title">Visit PSI</span>
+                  <span class="psi-p-s label">To overview</span>
+                </a>
+                            </div>
+              <a href="#" class="overlay-menu-close psi-p-s"><span class="label">close</span><span class="psi-icon-xl psi-close-xl"></span></a>
+            </div>
+              <div class="overlay-menu__content">      <ul class="menu depth-1" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06">                  <li class="nav-item">                                            <a href="/en/visit/about-us" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel10" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61486"><span class="label">About us</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10">                  <li class="nav-item">                <a href="/en/visit/aktuelles" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/61489"><span class="label">Latest news</span></a></li>                  <li class="nav-item">                <a href="/en/visit/donors-partners" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/61147"><span class="label">Donors &amp; Partners</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/visit/psi-visitor-center" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel11" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62358"><span class="label">PSI Visitor Center</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10 main-rebrandingLabel11">                  <li class="nav-item">                <a href="/en/visit/visit-the-researchers" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/62421"><span class="label">Visit the researchers</span></a></li>                  <li class="nav-item">                <a href="/en/visit/discover-the-13-thematic-islands" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/62418"><span class="label">Exhibition</span></a></li>                  <li class="nav-item">                <a href="/en/visit/3-d-films" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/62415"><span class="label">3D cinema</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/visit/guided-tours" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel12" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/62412"><span class="label">Guided tours</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12">                  <li class="nav-item">                <a href="/en/visit/guided-tours-for-groups" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/62424"><span class="label">Offer for groups</span></a></li>                  <li class="nav-item">                <a href="/en/visit/public-tours" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/62427"><span class="label">Public tours</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/visit/angebot-fuer-schulen" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel13" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61459"><span class="label">Offers for school classes</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13">                  <li class="nav-item">                <a href="/en/visit/primarschule" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/62598"><span class="label">Primary Level</span></a></li>                  <li class="nav-item">                <a href="/en/visit/sekundarstufe-i" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/61465"><span class="label">Upper Secondary level I</span></a></li>                  <li class="nav-item">                <a href="/en/visit/sekundarstufe-ii" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/62505"><span class="label">Upper Secondary level II</span></a></li>                  <li class="nav-item">                <a href="/en/visit/berufswahlparcours" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/70400"><span class="label">Berufswahlparcours</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/visit/visit-planning" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel14" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61474"><span class="label">Plan your visit</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14">                  <li class="nav-item">                <a href="/en/visit/opening-hours" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/61477"><span class="label">Opening hours</span></a></li>                  <li class="nav-item">                <a href="/en/about/how-to-find-us" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/19559"><span class="label">Directions</span></a></li>                  <li class="nav-item">                <a href="/en/visit/catering" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/61483"><span class="label">Catering</span></a></li></ul></li>                  <li class="nav-item">                                            <a href="/en/visit/infomaterial" class="psi-link-target--samesite nav-link psi-menu-below overlay-menu__dropdown-item psi-p-l" id="main-rebrandingLabel15" data-menu-level="1" aria-haspopup="true" aria-expanded="false" data-drupal-link-system-path="node/61495"><span class="label">Information material &amp; merchandise</span></a>      <ul class="menu depth-2" aria-labelledby=" main-rebrandingLabel00 main-rebrandingLabel01 main-rebrandingLabel02 main-rebrandingLabel03 main-rebrandingLabel04 main-rebrandingLabel05 main-rebrandingLabel06 main-rebrandingLabel10 main-rebrandingLabel11 main-rebrandingLabel12 main-rebrandingLabel13 main-rebrandingLabel14 main-rebrandingLabel15">                  <li class="nav-item">                <a href="/en/visit/brochures" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel20" data-menu-level="2" data-drupal-link-system-path="node/67136"><span class="label">Brochures</span></a></li>                  <li class="nav-item">                <a href="/en/visit/arbeitsmaterialien" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel21" data-menu-level="2" data-drupal-link-system-path="node/63034"><span class="label">Working material</span></a></li>                  <li class="nav-item">                <a href="/en/visit/photos" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel22" data-menu-level="2" data-drupal-link-system-path="node/61498"><span class="label">Photos &amp; Videos</span></a></li>                  <li class="nav-item">                <a href="/en/shop" class="psi-link-target--samesite nav-link psi-menu-page  psi-p-base" id="main-rebrandingLabel23" data-menu-level="2" data-drupal-link-system-path="node/66962"><span class="label">PSI Shop</span></a></li></ul></li></ul><div class="overlay-menu__sidebar psi-s-py-sm">
+                  <div class="fw-semibold psi-s-pb-ml">Contact</div>
+                  <div class="contacts">
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser ">
+    <div class="content-item__inner">
+            <div class="psi-people-reference__name">
+          <span>PSI Visitor Center</span>
+        </div>      <div class="psi-people-reference__summary">
+        
+                    <div class="field field--name-field-psi-phone field--label-hidden field__item"><a href="tel:%2B41%2056%20310%2021%2000">+41 56 310 21 00</a></div>
+      
+                              <div class="field field--name-field-psi-email field--label-hidden field__item"><a href="mailto:visitorcenter@psi.ch" class="psi-text-overflow">visitorcenter@psi.ch</a></div>
+      
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                                  <div class="paragraph paragraph--type--psi-people-reference view-mode-primer-teaser-mini paragraph--view-mode-primer-teaser-mini">
+      <article class="paragraph paragraph--type--psi-people-reference content-item content-item--teaser ">
+    <div class="content-item__inner">
+            <div class="psi-people-reference__name">
+          <span>PSI iLab</span>
+        </div>      <div class="psi-people-reference__summary">
+        
+                    <div class="field field--name-field-psi-phone field--label-hidden field__item"><a href="tel:%2B41%2056%20310%2055%2040">+41 56 310 55 40</a></div>
+      
+                              <div class="field field--name-field-psi-email field--label-hidden field__item"><a href="mailto:ilab@psi.ch" class="psi-text-overflow">ilab@psi.ch</a></div>
+      
+                
+      </div>
+    </div>
+  </article>
+    </div>
+    
+                                      </div>
+                                      <div class="psi-p-s fw-semibold psi-s-mt-xl psi-s-pb-ml">Useful links</div>
+                    <ul class="menu overlay-menu__sidebar__links psi-s-mt-nxxs">
+                                            <li class="nav-item"><a href="/en/about/how-to-find-us" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+                                            <li class="nav-item"><a href="/en/shop" class="nav-link psi-p-s psi-s-py-xxs" data-drupal-link-system-path="node/66962"><span class="label">PSI Shop</span></a></li>
+                                          </ul>
+                                  </div>
+              </div>
+          </div>
+        </li></ul>
+      </div>
+  <nav  id="block-design2-rebrandingnaviright-2" class="display-only-small block block-menu navigation menu--navi-right" aria-label="Navi Right (Mobile)">
+      
+        
+                  <ul class="nav navbar-nav">            <li class="nav-item">                                  <a href="/en" class="psi-icon-menu-before psi-camera-indoor display-only-small psi-nav-link--underline nav-link" id="menu-navi-right-0" data-menu-level="0" data-drupal-link-system-path="&lt;front&gt;"><span class="label">PSI Home</span></a>        </li>            <li class="nav-item">                                  <a href="/en/hr/job-opportunities" class="psi-nav-link--underline nav-link" id="menu-navi-right-1" data-menu-level="0" data-drupal-link-system-path="node/3698"><span class="label">Jobs</span></a>        </li>            <li class="nav-item">                                  <a href="/en/suche/telefonbuch-und-e-mail" class="psi-nav-link--underline nav-link" id="menu-navi-right-2" data-menu-level="0" data-drupal-link-system-path="node/462"><span class="label">Persons</span></a>        </li>            <li class="nav-item">                                  <a href="/en/about/contacts" class="psi-nav-link--underline nav-link" id="menu-navi-right-3" data-menu-level="0" data-drupal-link-system-path="node/62370"><span class="label">Contact us</span></a>        </li>            <li class="nav-item">                                  <a href="/en/shop" class="psi-nav-link--underline nav-link" id="menu-navi-right-4" data-menu-level="0" data-drupal-link-system-path="node/66962"><span class="label">PSI Shop</span></a>        </li></ul>
+</nav>
+  <div class="language-switcher-language-url display-only-small block-menu block block-language block-language-blocklanguage-content" id="block-design2-language-switcher-mobile" role="navigation">
+                <div class="links dropdown dropdown-language">    <button  aria-controls="menu" aria-haspopup="true" aria-label="Change website language (current English)" aria-expanded="false" class="btn nav-link psi-icon-dropdown psi-nav-link--underline" id="languagedropdownmenu" data-bs-toggle="dropdown" title="Change website language" type="button">English</button><ul  aria-labelledby="languagedropdownmenu" class="dropdown-menu dropdown-menu-end" role="menu">
+          <div class="dropdown-header">Language</div><li><a href="/de/error-404" class="language-link dropdown-item" role="menuitem" hreflang="de" data-drupal-link-system-path="node/442">Deutsch</a></li><li><a href="/en/error-404" class="language-link dropdown-item active" role="menuitem" hreflang="en" data-drupal-link-system-path="node/442">English</a></li><li><a href="/fr/error-404" class="language-link dropdown-item" role="menuitem" hreflang="fr" data-drupal-link-system-path="node/442">Français</a></li><li><a href="/it/error-404" class="language-link dropdown-item" role="menuitem" hreflang="it" data-drupal-link-system-path="node/442">Italiano</a></li></ul></div>      </div>
+  <nav  id="block-design2-rebrandingtopsearch-2" class="display-only-small block block-menu navigation menu--top-search" aria-label="(Rebranding) Top Search">
+      
+        
+                  <ul class="nav navbar-nav">            <li class="nav-item">                                  <a href="/en/search" class="psi-search nav-link" id="menu-top-search-0" data-menu-level="0" data-drupal-link-system-path="node/202"><span class="label">Search</span></a>        </li></ul>
+</nav>
+</div>
+  </div>
+
+              
+            </div>
+          </div>
+              
+  </header>
+  <main  class="page__main">
+    <div class="visually-hidden" id="main-content" tabindex="-1"></div>
+    <div  class="page__content content">
+              
+                  <div  class="region-content-header-wrapper">
+    <div class="container">
+                <div class="region region-content-header"></div>
+        
+    </div>    </div>                  <div class="region region-content"><div data-drupal-messages-fallback class="hidden"></div>
+  <div id="block-design2-content" class="block block-system block-system-main-block">
+                  
+                        <article class="primer-layout-default node node--type-primer-page view-mode-full node--view-mode-full article">
+                            <div class="article__header container">
+                        
+                
+                                </div>
+                            <div class="article__content">
+                      <div class="container container-default container-top container-paragraph--type--title ">
+      <div class="paragraph paragraph--type--title view-mode-default paragraph--view-mode-default">
+    <div class="article__title">
+        <h1 id="server-fehler-404" class="paragraphs-anchor-link paragraph-title heading">The desired page could not be found.</h1>
+
+    </div>
+      </div>
+      </div>
+  
+            <div class="container container-default container-top container-paragraph--type--text ">
+        <div class="paragraphs-behavior-style--psi-content-limited-width sibling-spacer-y paragraph paragraph--type--text view-mode-default paragraph--view-mode-default">
+        <div class="text">
+            <p><br>
+Please check for spelling or URL errors. You can also try to find the desired content on our&nbsp;<strong><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="25c5d206-393c-4680-a9f7-260227b6f298" href="/en/node/61609" title="PSI Frontpage New">homepage</a>&nbsp;</strong>or our <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f384cb2d-73f6-49c9-8f5d-2b1d2efa3346" href="/en/search" title="Search">search engine.</a>&nbsp;<br>
+<br>
+To return to the previous page, simply use the&nbsp;<strong>back-button of your browser</strong>.</p>
+  
+  </div>
+    </div>
+        </div>
+  
+  
+        </div>
+                                </article>
+        </div>
+</div>
+                          
+      </div>
+  </main>
+      <footer role="contentinfo" class="page__footer">
+              <div class="page__footer__content container">
+          <div class="row">
+                          <div class="region region-footer">      <nav  id="block-design2-footermedia" class="block block-menu navigation menu--footer-media">
+      
+    <h2 id="block-design2-footermedia-menu" class="block__title">For the media</h2>    
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/fr/news/news?facet_type%5B6%5D=6&amp;langcode=All" class="nav-link" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;6&quot;:&quot;6&quot;},&quot;langcode&quot;:&quot;All&quot;}"><span class="label">Media Releases</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/about/for-the-media#ansprechpartnerin-fur-medienschaffende" class="nav-link" data-drupal-link-system-path="node/63181"><span class="label">Contact media centre</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/about/psi-in-brief" class="nav-link" data-drupal-link-system-path="node/62379"><span class="label">PSI in brief</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/about/facts-and-figures" class="nav-link" data-drupal-link-system-path="node/19544"><span class="label">PSI in numbers</span></a></li>
+        </ul>
+  
+
+</nav>
+      <nav  id="block-design2-footerproton" class="block block-menu navigation menu--footer-proton">
+      
+    <h2 id="block-design2-footerproton-menu" class="block__title">Research</h2>    
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/news/news?facet_type%5B46%5D=46&amp;langcode=All" class="nav-link" data-drupal-link-query="{&quot;facet_type&quot;:{&quot;46&quot;:&quot;46&quot;},&quot;langcode&quot;:&quot;All&quot;}"><span class="label">PSI Center Highlights</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/research/large-research-facilities" class="nav-link" data-drupal-link-system-path="node/62997"><span class="label">Facilities</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/useroffice" class="nav-link" data-drupal-link-system-path="node/63532"><span class="label">User Office</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/guesthouse" class="nav-link" data-drupal-link-system-path="node/63544"><span class="label">PSI Guest House</span></a></li>
+        </ul>
+  
+
+</nav>
+      <nav  id="block-design2-footerindustry" class="block block-menu navigation menu--footer-industry">
+      
+    <h2 id="block-design2-footerindustry-menu" class="block__title">Industry</h2>    
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/industry/the-team-of-technology-transfer" class="nav-link" data-drupal-link-system-path="node/18662"><span class="label">Contact Persons</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/industry/spin-off-companies" class="nav-link" data-drupal-link-system-path="node/18695"><span class="label">PSI Spin-offs</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/industry/principles-of-cooperation" class="nav-link" data-drupal-link-system-path="node/18620"><span class="label">Cooperations</span></a></li>
+        </ul>
+  
+
+</nav>
+      <nav  id="block-design2-footercareer" class="block block-menu navigation menu--footer-career">
+      
+    <h2 id="block-design2-footercareer-menu" class="block__title">Career</h2>    
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/hr/job-opportunities" class="nav-link" data-drupal-link-system-path="node/3698"><span class="label">Job Opportunities</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/hr/working-at-psi" class="nav-link" data-drupal-link-system-path="node/18905"><span class="label">Working at PSI</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/bab" class="nav-link" data-drupal-link-system-path="node/18968"><span class="label">Vocational Training</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/bz" class="nav-link" data-drupal-link-system-path="node/62346"><span class="label">Courses at PSI</span></a></li>
+        </ul>
+  
+
+</nav>
+      <nav  id="block-design2-footervisit" class="block block-menu navigation menu--footer-visit">
+      
+    <h2 id="block-design2-footervisit-menu" class="block__title">Visit</h2>    
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/visit/psi-visitor-center" class="nav-link" data-drupal-link-system-path="node/62358"><span class="label">Individual visit</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/visit/angebot-fuer-schulen" class="nav-link" data-drupal-link-system-path="node/61459"><span class="label">For school classes</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/gastronomie" class="nav-link" data-drupal-link-system-path="node/18482"><span class="label">PSI Gastronomy</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/about/how-to-find-us" class="nav-link" data-drupal-link-system-path="node/19559"><span class="label">How to find us</span></a></li>
+        </ul>
+  
+
+</nav>
+</div>
+              <div class="region region-footer-second">  <div id="block-design2-footerpsi" class="block-footer-psi block block-block-content block-block-contenta9c04dc3-ed1b-4053-a61a-cef92e004ef2">
+                    <h2 class="block__title">Paul Scherrer Institute PSI</h2>
+                          <div class="field field--name-body field--label-hidden field__item"><div class="block__psi-address">
+  <p>Forschungsstrasse 111</p>
+  <p>5232 Villigen PSI</p>
+  <p>Switzerland</p>
+</div>
+<div class="block__psi-contacts">
+  <p><a href="tel:+41563102111">+41 56 310 21 11</a></p>
+  <p><a href="https://www.psi.ch/en/about/contacts">Contact form</a></p>
+  <p><a href="https://www.psi.ch/en/search/phonebook-and-e-mail-directory">Directory</a></p>
+</div>
+</div>
+            </div>
+</div>
+                      </div>
+        </div>
+                    <div class="page__footer__social_media">
+          <div class="container">
+            <div class="region region-footer-social-media">  <div id="block-design2-footersociallinks" class="block block-block-content block-block-contenta2548e8e-8fec-454d-8f23-dc79b30344f4">
+                            <div class="field field--name-body field--label-hidden field__item"><div class="psi-social-icons extlink-exclude">
+<a class="psi-social-icons__item" href="https://www.linkedin.com/company/paul-scherrer-institut" title="LinkedIn" rel="noopener" target="_blank">
+<span class="fa fa-linked-in" role="img" aria-label="LinkedIn"></span>
+</a>
+<a class="psi-social-icons__item" href="https://bsky.app/profile/psi.ch" title="bluesky" target="_blank"><span class="fa fa-bluesky" role="img" aria-label="Bluesky" title="Bluesky"></span></a>
+<a class="psi-social-icons__item" href="https://www.instagram.com/paul.scherrer.institut/" title="Instagram" rel="noopener" target="_blank">
+<span class="fa fa-instagram" role="img" aria-label="Instagram"></span>
+</a>
+<a class="psi-social-icons__item" href="https://www.facebook.com/paul.scherrer.institut" title="Facebook" rel="noopener" target="_blank">
+<span class="fa fa-facebook-f" role="img" aria-label="Facebook"></span>
+</a>
+<a class="psi-social-icons__item" href="https://www.youtube.com/c/PaulScherrerInstitut" title="Youtube" rel="noopener" target="_blank">
+<span class="fa fa-youtube" role="img" aria-label="Youtube"></span>
+</a>
+<a class="psi-social-icons__item" href="https://www.threads.net/@paul.scherrer.institut" title="RSS" target="_blank"><span class="fa fa-threads" role="img" aria-label="Threads" title="Threads"></span></a>
+<a class="psi-social-icons__item" href="https://www.whatsapp.com/channel/0029VaDIolj9RZAV3KQdoU2m" title="Whatsapp" rel="noopener" target="_blank"><span class="fa fa-whatsapp" role="img" aria-label="Whatsapp"></span></a>
+</div></div>
+            </div>
+</div>
+          </div>
+        </div>
+                    <div class="page__footer__copyright">
+          <div class="container">
+            <div class="region region-footer-copyright">  <nav  id="block-design2-footerlegal" aria-label="Footer legal" class="block block-menu navigation menu--footer-legal">
+      
+        
+  
+
+
+              <ul class="nav nav-links">
+                    <li class="nav-item">
+                        <a href="/en/lieferanten" class="nav-link" data-drupal-link-system-path="node/19565"><span class="label">Suppliers</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/impressum" class="nav-link" data-drupal-link-system-path="node/3"><span class="label">Imprint</span></a></li>
+                <li class="nav-item">
+                        <a href="/en/nutzungsbedingungen" class="nav-link" data-drupal-link-system-path="node/494"><span class="label">Terms and conditions / Privacy policy</span></a></li>
+                <li class="nav-item">
+                        <a href="/saml/login" class="nav-link" data-drupal-link-system-path="saml/login"><span class="label">Editors' Login</span></a></li>
+        </ul>
+  
+
+</nav>
+  <div id="block-design2-footercopyright" class="block block-block-content block-block-content62a14da9-f801-4242-afa5-f44d5f9a0a09">
+                            <div class="field field--name-body field--label-hidden field__item"><p>© 2026 PSI</p></div>
+            </div>
+</div>
+          </div>
+        </div>
+          </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"matomo":{"disableCookies":false,"trackColorbox":true,"trackMailto":true},"bs_lib":{"anchor_scroll":{"enable":true,"offset":10,"exclude_links":["[href=\u0022#\u0022]",".visually-hidden",".bs-lib-scroll-to-top",".collapsible__link","[role=\u0022tab\u0022]",".offcanvas-close-link"],"fixed_elements":[".top-bar",".navbar-wrapper.is-sticky"]}},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"(psi\\.ch)","extInclude":"","extCssExclude":".shariff, .block-language, .path-admin, .dropbutton-wrapper, .extlink-exclude","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":true,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":true,"extIconPlacement":"append","extPreventOrphan":true,"extPreventOrphanTextLike":true,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":null,"extExcludeNoreferrer":""}},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":true,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022cookie-compliance\u0022\u003E\n          \u003Cdiv class=\u0022popup-content info container\u0022\u003E\n                  \u003Cdiv id=\u0022cookieconsent-desc\u0022 class=\u0022popup-text\u0022 role=\u0022document\u0022\u003E\n            \u003Cp\u003EWe use cookies to support the user-friendliness of our pages. By closing this notice or continuing to explore our pages, you accept the use of cookies. Further information can be found\u0026nbsp;\u003Ca href=\u0022\/en\/nutzungsbedingungen\u0022 data-entity-type=\u0022node\u0022 data-entity-uuid=\u00223d03c45b-77c3-44fd-8ec7-e42e668f4702\u0022 data-entity-substitution=\u0022canonical\u0022 title=\u0022Terms and conditions \/ Privacy policy\u0022\u003Ehere\u003C\/a\u003E.\u003C\/p\u003E\n                      \u003C\/div\u003E\n                \u003Cdiv class=\u0022popup-buttons-wrapper\u0022\u003E\n                    \u003Cdiv class=\u0022popup-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022btn btn-primary agree-button eu-cookie-compliance-default-button\u0022\u003EOK\u003C\/button\u003E\n                      \u003C\/div\u003E\n                  \u003C\/div\u003E\n      \u003C\/div\u003E\n      \u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022cookie-compliance\u0022\u003E\n          \u003Cdiv class=\u0022popup-content info container\u0022\u003E\n                  \u003Cdiv id=\u0022cookieconsent-desc\u0022 class=\u0022popup-text\u0022 role=\u0022document\u0022\u003E\n            \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy tapping any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E\n                      \u003C\/div\u003E\n                \u003Cdiv class=\u0022popup-buttons-wrapper\u0022\u003E\n                    \u003Cdiv class=\u0022popup-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022btn btn-primary agree-button eu-cookie-compliance-default-button\u0022\u003EOK\u003C\/button\u003E\n                      \u003C\/div\u003E\n                  \u003C\/div\u003E\n      \u003C\/div\u003E\n      \u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":true,"popup_height":"auto","popup_width":"100%","popup_delay":0,"popup_link":"\/en\/nutzungsbedingungen","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"default","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button \u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":"","olivero_secondary_button_classes":"","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true,"unverified_scripts":[]},"bs_base":{"navbar_type":"","navbar_responsive_type":"offcanvas-end","navbar_opened_submenu_behavior":"visit","navbar_onhover":false},"user":{"uid":0,"permissionsHash":"1bb8e6f62c97bf3226bd584315a0ae41226fadc4bc9e0a62bb1e31a0e9fa5a78"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_YRBpOBlAb0BKpYjmoJYks4otCZ-bu71-GX-F-0_pehs.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=design2&amp;include=eJxtjkEOwyAMBD9Ei9QPIUMc4sRghEnU_r5IhJ56WntWWo1X50HRZrg8VOPVMXkLOWxSnYYqzBPKugbIF6hZUCnml40sHvih7cOU4w_3LYrQSLLB0wWRg7BHKkx9GO0_aPDd-shhl3oW4Of9mgRNktgRplRKWIfxfQ_V2bQNE06vXb9sHVZo"></script>
+
+  </body>
+</html>

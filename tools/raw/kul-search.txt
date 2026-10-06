@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+    
+
+  <head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <meta name="generator" content="Plone - https://plone.org/" />
+
+  </head>
+
+  <body id="visual-portal-wrapper" class="col-content frontend icons-on portaltype-subsite site-en template-products-cmfplone-browser-templates-error_message thumbs-on userrole-anonymous viewpermission-none" dir="ltr" data-base-url="https://www.kuleuven.be/personeel/jobsite-old/en" data-view-url="https://www.kuleuven.be/personeel/jobsite-old/en" data-portal-url="https://www.kuleuven.be" data-i18ncatalogurl="https://www.kuleuven.be/plonejsi18n" data-pat-pickadate="{&quot;date&quot;: {&quot;selectYears&quot;: 200}, &quot;time&quot;: {&quot;interval&quot;: 5 } }" data-pat-plone-modal="{&quot;actionOptions&quot;: {&quot;displayInModal&quot;: false}}">
+
+    
+
+
+    <header id="portal-top">
+      
+      <div id="portal-header">
+        
+      </div>
+
+    </header>
+
+    <div id="portal-mainnavigation"></div>
+
+    <section id="global_statusmessage">
+      
+      <div>
+      </div>
+    </section>
+
+    <div id="viewlet-above-content"></div>
+
+    <article id="portal-column-content">
+
+      
+
+      
+
+        
+
+          <article id="content">
+
+            
+
+        
+
+            
+
+                <h1 class="documentFirstHeading">This page does not seem to exist&hellip;</h1>
+
+                <div id="content-core">
+                    <p class="description">We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for.</p>
+
+                    <p class="discreet">If you are certain you have the correct web address but are encountering an error, please contact the <span>
+                        <a href="https://admin.kuleuven.be/icts/english/services/wms/need-help">site administration</a></span>.</p>
+
+                    <p>Thank you.</p>
+
+                    <!-- Offer search results for suggestions -->
+                    
+
+                        <h2>You might have been looking for&hellip;</h2>
+                        <nav>
+                        <ul id="page-not-found-list">
+
+                        
+                            <li>
+                                <a href="https://www.kuleuven.be/personeel" class="contenttype-folder state-published">personeel</a>
+                                <span class="discreet"></span>
+                            </li>
+                        
+
+                        
+
+                        </ul>
+                        </nav>
+
+                    
+                </div>
+            
+
+        
+
+        
+
+
+            <footer>
+              <div id="viewlet-below-content"></div>
+            </footer>
+          </article>
+        
+      
+
+      
+    </article>
+
+    
+
+    
+
+    <footer id="portal-footer-wrapper">
+      <div class="row">
+  <div class="col-xs-12">
+    
+  <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f737461746963" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f737461746963" >
+
+<nav class="noindex static col-sm-4 portlet-static-what-do-we-offer" >
+  <h4 >
+    What do we offer
+  </h4>
+
+  <div><ul>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/quick_overview_vacancies">Vacancies</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/working">Working at KU Leuven</a></li>
+<li><a href="https://admin.kuleuven.be/personeel/english_hrdepartment/hr_excellence_in_research">HR Excellence in Research</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/senior-info">Employment conditions Senior Academic Staff &amp; Tenure Track</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/academic-info">Employment conditions Academic Staff Research &amp; Education</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/mansup-info">Employment conditions Management &amp; Support</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/phd-info">Employment conditions PhD</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/testimonials">Testimonials</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/redirect-studentjobs">Student jobs</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/internship">Internships</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/volunteers">Volunteers</a></li>
+</ul>
+</div>
+
+  
+</nav>
+</div>
+
+  <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f7374617469632d31" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f7374617469632d31" >
+
+<nav class="noindex static col-sm-4 portlet-static-quicklinks" >
+  <h4 >
+    Quicklinks
+  </h4>
+
+  <div><ul>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/partnerships">Partnership jobs</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/association">KU Leuven Association jobs</a></li>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/specific-registration">Registration of new employees</a></li>
+</ul>
+</div>
+
+  
+</nav>
+</div>
+
+  <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f7374617469632d32" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a706f72746c65745f7374617469632d32" >
+
+<nav class="noindex static col-sm-4 portlet-static-contact" >
+  <h4 >
+    Contact
+  </h4>
+
+  <div><ul>
+<li><a href="https://www.kuleuven.be/personeel/jobsite/en/contact">Contact us</a></li>
+</ul>
+</div>
+
+  
+</nav>
+</div>
+
+  <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a736f6369616c2d6d65646961" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f61745f7777772f706572736f6e65656c2f6a6f62736974652d6f6c642f656e0a736f6369616c2d6d65646961" ><div class="socialmedia row">
+  <div class="col-xs-12">
+    <div class="share">
+      <span>Follow us on</span>
+      
+      
+      <a target="_blank" href="https://www.linkedin.com/company/ku_leuven/careers?goback=%2Efcs_GLHD_KU+Leuven_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&amp;trk=top_nav_careers" >
+        <svg role="img" title="linkedin" width="20" height="20" viewBox="0 0 1792 1792" >
+          <path d="M365 1414h231V720H365v694zm246-908q-1-52-36-86t-93-34-94.5 34-36.5 86q0 51 35.5 85.5T479 626h1q59 0 95-34.5t36-85.5zm585 908h231v-398q0-154-73-233t-193-79q-136 0-209 117h2V720H723q3 66 0 694h231v-388q0-38 7-56 15-35 45-59.5t74-24.5q116 0 116 157v371zm468-998v960q0 119-84.5 203.5T1376 1664H416q-119 0-203.5-84.5T128 1376V416q0-119 84.5-203.5T416 128h960q119 0 203.5 84.5T1664 416z" ></path>
+        </svg>
+      </a>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+  </div>
+</div>
+
+    </footer>
+
+  </body>
+</html>
+

@@ -1,0 +1,2668 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="bIHZslo4VWX3RfnXkbW_E9AY6ETyBkULiPGG91G7_Dse3rqAOHQhHK8PsZjozdNJvFnbfYo0Nl3lq9CHINDIXw==">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="Stellenangebote der ETH Z&amp;uuml;rich" />
+    <meta
+            property="og:description"
+            content=""
+    />
+    <link rel="apple-touch-icon-precomposed" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/58-Settings.png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/72-hdpi.png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/76-iPad-(@1x).png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/120-iPhone.png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/144-xxhdpi.png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/152-iPad.png?id=144501092022">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-corp/180-iPhone-6-Plus.png?id=144501092022">
+    <link rel="icon" sizes="192x192" href="https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-white/192-xxxhpdi.png?id=144501092022">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons&id=133501042022" rel="stylesheet">
+    <meta
+            property="og:image"
+            content="/assets/images/og-image.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="ETH Logo" />
+    <link rel="stylesheet" type="text/css" href="/css/index.css?v=1778700678" />
+    <link rel="stylesheet" type="text/css" href="/css/eth.css?v=1778700678" />
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css?v=1778700678" />
+    <title>Stellenangebote der ETH Z&uuml;rich</title>
+
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="header__nav-meta">
+        <div class="header__container">
+            <nav aria-labelledby="header__departments-title" class="header__departments">
+            </nav>
+            <nav aria-labelledby="header__services-title" class="header__services">
+                <h2 id="header__services-title" class="hidden">Sprachauswahl</h2>
+                <ul>
+                    <li>
+                        <a href="https://ethz.ch/de/die-eth-zuerich/arbeiten-lehren-forschen/faq-bewerbungsprozess.html">
+                            FAQ</a>
+                    </li>
+                    <li>
+                        <label for="lang-selector-long" class="hidden">de</label>
+                        <select id="lang-selector-long" class="custom-select custom-select--link custom-select--dark" onchange="location = this.value;">
+                            <option value="/site/setlang/en" selected="selected">Deutsch</option>
+                            <option value="/site/setlang/en">English</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="header__wrapper">
+        <div class="title_and_logo">
+            <a href="https://www.ethz.ch">
+                <img
+                        class="header__logo"
+                        alt="ETH Zürich Logo"
+                />
+            </a>
+            <div class="header__title">
+                <a href="/" alt="overview">Stellenportal</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="hero-index"></section>
+    <div class="header-bottom-section">
+        <div class="header-bottom-section-left"></div>
+        <div class="header-bottom-section-right">
+            <div class="header-bottom-section-right-white"></div>
+        </div>
+    </div>
+</header>
+
+
+
+        <!-- MAIN CONTENT -->
+        <main>
+                <? // Alert::widget() ?>
+                
+<a href="#job-filter" class="skip-link">Skip to job filters</a>
+
+<div>
+    <!-- INTRO -->
+    <div class="main-container">
+        <div class="main-wrapper">
+            <div class="main-left"></div>
+            <div class="main-right"></div>
+            <div class="main main-center">
+                <section class="intro">
+                    <div">
+                        <h1 class="intro__title">Stellenangebote der ETH Z&uuml;rich</h1>
+                        <p class="intro__text">
+                            Die ETH Z&uuml;rich ist der Studien-, Forschungs- und Arbeitsplatz von rund 30&rsquo;000 Menschen aus &uuml;ber 120 L&auml;ndern. Informieren Sie sich hier &uuml;ber die aktuellen Stellenangebote. Ausgeschriebene Professuren finden Sie hier:                            </br>
+                        </p>
+                        <p class="sub__intro__text">
+                            Ausgeschriebene <b>Professuren</b> finden Sie auf der Webseite des <a href="https://ethz.ch/de/die-eth-zuerich/arbeiten-lehren-forschen/faculty/faculty-affairs/ausgeschriebene-professuren.html" target="_blank">Stab Professuren  <span class="material-icons">call_made</span></a>                        </p>
+                                                    <h2>117&nbsp;offene Stellen</h2>
+                                            </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="main-wrapper">
+            <div class="main-left"></div>
+            <div class="main-right"></div>
+            <div class="main-center">
+
+                <form id="w0" action="/?lang=en" method="post" role="search" aria-labelledby="filter-title">
+<input type="hidden" name="_csrf-frontend" value="bIHZslo4VWX3RfnXkbW_E9AY6ETyBkULiPGG91G7_Dse3rqAOHQhHK8PsZjozdNJvFnbfYo0Nl3lq9CHINDIXw==">                    <div id="job-filter" role="group" aria-labelledby="filter-title">
+                        <div id="filter-title" class="visually-hidden">
+                                                    </div>
+                    <section class="filter">
+                    <div class="dropdown__wrapper">
+                            <div class="eth-select">
+                                <select id="region-select" class="dropdown__jobs" name="JobSearch[region_id]" aria-label="Arbeitsort" onchange="this.form.submit()" required aria-describedby="location-description">
+<option value="">Arbeitsort</option>
+<option value="1">Zürich</option>
+<option value="2">Basel</option>
+<option value="3">Lugano</option>
+<option value="4">Singapur</option>
+<option value="5">Ascona</option>
+<option value="6">Genf</option>
+<option value="7">Lausanne</option>
+<option value="8">Locarno</option>
+<option value="9">Heilbronn</option>
+</select>                                <span id="location-description" class="visually-hidden">
+                                                                    </span>
+                            </div>
+                            <div class="eth-select">
+                                <select id="jobtype-select" class="dropdown__jobs" name="JobSearch[jobtype_id]" aria-label="Stellentyp" onchange="this.form.submit()" required aria-describedby="jobtype-description">
+<option value="">Stellentyp</option>
+<option value="1">Doktorierende</option>
+<option value="2">Postdoktorierende </option>
+<option value="3">Wissensch. Mitarbeitende</option>
+<option value="4">Management</option>
+<option value="5">Administration</option>
+<option value="6">IT</option>
+<option value="7">Labor</option>
+<option value="8">Technik</option>
+<option value="9">Lehrstellen</option>
+<option value="10">Student. Hilfskraft &amp; Praktika</option>
+</select>                                <span id="jobtype-description" class="visually-hidden">
+                                                                    </span>
+                            </div>
+                            <div class="eth-select">
+                                <select id="workload-select" class="dropdown__jobs" name="JobSearch[workload_id]" aria-label="Pensum" onchange="this.form.submit()" required aria-describedby="workload-description">
+<option value="">Pensum</option>
+<option value="1">&lt; 40%</option>
+<option value="2">40-60%</option>
+<option value="3">60-80%</option>
+<option value="4">80-100%</option>
+<option value="5">100%</option>
+</select>                                <span id="workload-description" class="visually-hidden">
+                                                                    </span>
+                            </div>
+                        </div>
+                        <div class="subscribe__link">
+                            <a class="subscription__link__wrapper" href="/jobmail_de">
+                                <span aria-hidden="true" class="material-icons left">notifications_none</span>
+                                Jobmail abonnieren&nbsp;
+                            </a>
+                        </div>
+                    </section>
+                    </div>
+                </form>            </div>
+        </div>
+    </div>
+
+
+    <div class="main-container">
+        <div class="main-wrapper">
+            <div class="main-left"></div>
+            <div class="main-right"></div>
+            <div class="main-center">
+
+                <!-- JOB ADS -->
+                <section class="job-ad">
+                                                <ul id="w1" class="job-ad__wrapper">
+<div data-key="12166">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_qkfpK67TcZNS7KUtrE" class="job-ad__item__link" target="_blank" aria-label="Fachspezialist:in Marketing &amp; Kommunikation (m/w/d) - 90%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Fachspezialist:in Marketing &amp; Kommunikation (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                90%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                06.10.2026                 |                 Campus Services            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12131">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_0EbRFSiJwdomYIp7L8" class="job-ad__item__link" target="_blank" aria-label="Hörsaalsupporter:in mit Anteil Abenddienst (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Hörsaalsupporter:in mit Anteil Abenddienst (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Informatikdienste            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12161">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_58u057ys6BxuEciK5P" class="job-ad__item__link" target="_blank" aria-label="RobotX Postdoctoral Fellowship - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                RobotX Postdoctoral Fellowship            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Center for Robotics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12162">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso" class="job-ad__item__link" target="_blank" aria-label="RobotX PhD Fellowship 2027 - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                RobotX PhD Fellowship 2027            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Center for Robotics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12179">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_TIiC0vSwRKzG8cjCb4" class="job-ad__item__link" target="_blank" aria-label="PhD Position in Digital Twins of Embryonic Development - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Position in Digital Twins of Embryonic Development            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE) Computational Biology Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12180">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_eMp6VK8Hmtj3lkloXX" class="job-ad__item__link" target="_blank" aria-label="PhD Position in Computational Methods for Digital Twins of Embryonic Development &amp; Disease - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Position in Computational Methods for Digital Twins of Embryonic Development &amp; Disease            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE), Computational Biology Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12182">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_CeeOoz3e4bWjwIztTz" class="job-ad__item__link" target="_blank" aria-label="Doktorand:in in Wahrnehmung des Bevölkerungsrückgangs (m/w/d) - 100%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doktorand:in in Wahrnehmung des Bevölkerungsrückgangs (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Institut für Umweltentscheidungen, Professur für Konsumverhalten            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12184">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_7i39aKM0RXxfeH2plT" class="job-ad__item__link" target="_blank" aria-label="PhD Position in Experimental Nonlinear Dynamics and Nanomechanics - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Position in Experimental Nonlinear Dynamics and Nanomechanics            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Department of Physics (D-PHYS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12026">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_j4tfLxruuolgySEZkU" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in Monitoring Load and Recovery in Athletes - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in Monitoring Load and Recovery in Athletes            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Department of Health Sciences and Technology (D-HEST), Exercise Physiology Lab            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12027">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_7ViZ6MMDY9me3oA5gC" class="job-ad__item__link" target="_blank" aria-label="PhD Position in Determinants of Human Performance in Running - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Position in Determinants of Human Performance in Running            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                05.10.2026                 |                 Department of Health Sciences and Technology (D-HEST), Exercise Physiology Lab            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12139">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_tezsMpGlVuLvSND8CC" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in Generative AI-Based, Computational Design Methods for Engineering Design - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in Generative AI-Based, Computational Design Methods for Engineering Design            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                02.10.2026                 |                 Engineering Design and Computing Laboratory            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12175">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_xG5L2IjrUSX34AJS2T" class="job-ad__item__link" target="_blank" aria-label="Hilfsassistent:in im Bereich Web-Publishing und Support (m/w/d) - 30%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Hilfsassistent:in im Bereich Web-Publishing und Support (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                30%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                02.10.2026                 |                 Hochschulkommunikation            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12143">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_xoycY0syftRiptDI1A" class="job-ad__item__link" target="_blank" aria-label="Labormitarbeiter:in im Bereich Werkstoffe, Korrosion und Dauerhaftigkeit (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Labormitarbeiter:in im Bereich Werkstoffe, Korrosion und Dauerhaftigkeit (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.10.2026                 |                 Institut für Baustoffe am Departement für Bau (D-BAUG), Umwelt und Geomatik            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12158">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_eEYITXPXNJCRYjSxip" class="job-ad__item__link" target="_blank" aria-label="Mediation Support Program Officer in the &#039;Mediation Support Project&#039; - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Mediation Support Program Officer in the &#039;Mediation Support Project&#039;            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                01.10.2026                 |                 Center for Security Studies (CSS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12159">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_0r4YkY1enc7TSSEEt4" class="job-ad__item__link" target="_blank" aria-label="Mediation Support Program Officer in the &#039;Culture and Religion in Mediation&#039; (CARIM) Program - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Mediation Support Program Officer in the &#039;Culture and Religion in Mediation&#039; (CARIM) Program            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                01.10.2026                 |                 Center for Security Studies (CSS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12173">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_ZITHoRnREvdetCi2CO" class="job-ad__item__link" target="_blank" aria-label="Strategische:r Referent:in des Präsidenten (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Strategische:r Referent:in des Präsidenten (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.10.2026                 |                 Stab Präsident            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12101">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_nf3rdJShQT5KWJOJnX" class="job-ad__item__link" target="_blank" aria-label="Gebäudetechniker:in HLKS (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Gebäudetechniker:in HLKS (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                30.09.2026                 |                 Gebäudebereich Ingenieurwesen (HI)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12149">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_L6KiQC87EcmxboVIBq" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher in Embedded Hardware, FPGA, Edge AI and Smart Sensors - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher in Embedded Hardware, FPGA, Edge AI and Smart Sensors            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                30.09.2026                 |                 Dept. of Information Technology and Electrical Engineering (D-ITET)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12165">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_QTalV0i5PTKnk4q8kN" class="job-ad__item__link" target="_blank" aria-label="Doctoral Researcher Position in Sustainable Supply Chain Management - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Researcher Position in Sustainable Supply Chain Management            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                30.09.2026                 |                 Supply Chain Management Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12151">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_qMIkB186fp0chIn47h" class="job-ad__item__link" target="_blank" aria-label="Finance &amp; Controlling and Office Support - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Finance &amp; Controlling and Office Support            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                29.09.2026                 |                 ETH Zurich I Space            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12164">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_V57XZPq33p6eycgvgo" class="job-ad__item__link" target="_blank" aria-label="Student Assistant: Future Data Infrastructure of Smart Grids - 10%-30%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Student Assistant: Future Data Infrastructure of Smart Grids            </h3>
+            <div class="job-ad__item__details">
+                10%-30%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                29.09.2026                 |                 Power Systems Lab            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12153">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_RU68F1vlzLJgmsWpse" class="job-ad__item__link" target="_blank" aria-label="Senior Specialist - Stakeholder Engagement, Communications and Digital Initiatives - 100%, Zurich, permanent" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Senior Specialist - Stakeholder Engagement, Communications and Digital Initiatives            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, permanent            </div>
+            <div class="job-ad__item__company">
+                28.09.2026                 |                 Office of the Vice President for Knowledge Transfer and Corporate Relations            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12152">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_rgVE2FhLWXhKVwySd6" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in Fungal Cell Biology or Biochemistry / Structural Biology of Starship Transposons - 100%, Zurich" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in Fungal Cell Biology or Biochemistry / Structural Biology of Starship Transposons            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich            </div>
+            <div class="job-ad__item__company">
+                25.09.2026                 |                 Institute of Integrative Biology            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12154">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_L9EB3dSHxoSQSAypSG" class="job-ad__item__link" target="_blank" aria-label="Doctoral position in cognitive and moral heuristics in lay people’s reactions to climate change adaptation - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral position in cognitive and moral heuristics in lay people’s reactions to climate change adaptation            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                25.09.2026                 |                 Department of Health Sciences and Technology (D-HEST), Consumer Behavior Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12105">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Nggz9A2uM2fKJhfbF6" class="job-ad__item__link" target="_blank" aria-label="Brandschutzfachfrau/-mann (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Brandschutzfachfrau/-mann (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                24.09.2026                 |                 Sicherheit, Gesundheit und Umwelt (SGU)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12144">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_hzimCyltZRK3k6jfqs" class="job-ad__item__link" target="_blank" aria-label="PhD Researcher - 100%, Singapore, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Researcher            </h3>
+            <div class="job-ad__item__details">
+                100%, Singapore, fixed-term            </div>
+            <div class="job-ad__item__company">
+                24.09.2026                 |                 Future Health Technologies II (FHT II)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12120">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_U3rgbGM1qqBpQMYVNt" class="job-ad__item__link" target="_blank" aria-label="Linux Systemingenieur:in (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Linux Systemingenieur:in (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                23.09.2026                 |                 Departement Informatik (D-INFK) IT Service Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12126">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_o1CzcEIOPQaDfAcBH4" class="job-ad__item__link" target="_blank" aria-label="Flight Software Systems Engineer for Space Missions - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Flight Software Systems Engineer for Space Missions            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026                 |                 ETH Zürich | Space            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12135">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_hfJQki76KJw8Dwn0Pv" class="job-ad__item__link" target="_blank" aria-label="Doctoral Student in Design and Analysis of Human-AI Systems - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Student in Design and Analysis of Human-AI Systems            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026                 |                 Department of Management, Technology and Economics (D-MTEC)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12136">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/12136" class="job-ad__item__link" target="_blank" aria-label="ETH AI Center Doctoral Fellowship 2027 - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                ETH AI Center Doctoral Fellowship 2027            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026 | Partnerinserat                 |                 ETH AI Center            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12137">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/12137" class="job-ad__item__link" target="_blank" aria-label="ETH AI Center Post-Doc Fellowship 2027 - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                ETH AI Center Post-Doc Fellowship 2027            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026 | Partnerinserat                 |                 ETH AI Center            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12138">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_URhJoxBUBdeERNqLjC" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher: Experimental Fracture Mechanics of Soft Materials - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher: Experimental Fracture Mechanics of Soft Materials            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026                 |                 Institute for Building Materials (IfB)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12140">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/12140" class="job-ad__item__link" target="_blank" aria-label="PhD Positions - Max Planck ETH Center for Learning Systems (CLS) - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Positions - Max Planck ETH Center for Learning Systems (CLS)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                23.09.2026 | Partnerinserat                 |                 CLS            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12100">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_4IJ0ZlMFzpCQZI6wck" class="job-ad__item__link" target="_blank" aria-label="Hausmeister:in (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Hausmeister:in (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 Gebäudebereich Ingenieurwesen (HI)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12127">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_EdNelUTz9tatugJayG" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position for Synthetic Biology-Inspired Therapies - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position for Synthetic Biology-Inspired Therapies            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12128">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_UvWKfPOUvmyiRH0Udq" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position for Synthetic Biology-Inspired Therapies - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position for Synthetic Biology-Inspired Therapies            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12129">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_lGyNbZrvjzzgjT7U10" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in Advanced Bioelectronic &amp; Electrical Conversion Research - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in Advanced Bioelectronic &amp; Electrical Conversion Research            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12130">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_pAPaF3G1Cho8jqgZse" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in Advanced Bioelectronic &amp; Electrical Conversion Research - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in Advanced Bioelectronic &amp; Electrical Conversion Research            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12133">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_IXbn4edNVp3qx7IFu7" class="job-ad__item__link" target="_blank" aria-label="Informationsspezialist:in im Bestandsmanagement (m/w/d) - 80%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Informationsspezialist:in im Bestandsmanagement (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 ETH-Bibliothek            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12134">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_r4sk2rJavDF3G25UXK" class="job-ad__item__link" target="_blank" aria-label="Informationsspezialist:in im Metadatenmanagement (m/w/d) - 80%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Informationsspezialist:in im Metadatenmanagement (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                22.09.2026                 |                 ETH-Bibliothek            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12049">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Ih97fhUFUHgau6p6vS" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in Mid-Infrared Integrated Photonics and Optical Sensing - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in Mid-Infrared Integrated Photonics and Optical Sensing            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                21.09.2026                 |                 Optical Nanomaterial Laboratory (D-PHYS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11584">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_MgR4A9fbpfObsSbWtR" class="job-ad__item__link" target="_blank" aria-label="Kauffrau/-mann EFZ (m/w/d) 2027 - Branche D&amp;A - Zürich, Lehrstelle" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Kauffrau/-mann EFZ (m/w/d) 2027 - Branche D&amp;A            </h3>
+            <div class="job-ad__item__details">
+                Zürich, Lehrstelle            </div>
+            <div class="job-ad__item__company">
+                21.09.2026                 |                 Berufsbildung            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12107">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_DgfeAMtNrOfjGsSuCO" class="job-ad__item__link" target="_blank" aria-label="Office Manager at the Chair of Global Security - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Office Manager at the Chair of Global Security            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                21.09.2026                 |                 D-GESS            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12122">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_G2Mju9n4W1cryoWq3i" class="job-ad__item__link" target="_blank" aria-label="Student Assistant for Strategic Trends 2027 - 20%-40%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Student Assistant for Strategic Trends 2027            </h3>
+            <div class="job-ad__item__details">
+                20%-40%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                21.09.2026                 |                 Department of Humanities, Social and Political Sciences (D-GESS) Center for Security Studies            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12111">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_UtuGzrXTpseTskgjY9" class="job-ad__item__link" target="_blank" aria-label="PhD Position in Atmospheric Chemistry - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Position in Atmospheric Chemistry            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                17.09.2026                 |                 Institute for Atmospheric and Climate Science (IAC)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12112">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_osPAfgMWNM4uQUVsCP" class="job-ad__item__link" target="_blank" aria-label="Researcher (ML focus) in Soft Robotics Systems - 100%, Singapore, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Researcher (ML focus) in Soft Robotics Systems            </h3>
+            <div class="job-ad__item__details">
+                100%, Singapore, fixed-term            </div>
+            <div class="job-ad__item__company">
+                17.09.2026                 |                 Project Nyala            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12096">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_HDEseYpQ6hGpNOxW4w" class="job-ad__item__link" target="_blank" aria-label="Senior Data Architect (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Senior Data Architect (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                16.09.2026                 |                 Informatikdienste - Applications            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12102">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_MHYnNeCYPII0ygi4H9" class="job-ad__item__link" target="_blank" aria-label="Bioinformatician – Single-Cell Omics in Vascular &amp; Skeletal Muscle Biology - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Bioinformatician – Single-Cell Omics in Vascular &amp; Skeletal Muscle Biology            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                16.09.2026                 |                 Department of Health Sciences and Technology (D-HEST) - Laboratory of Exercise and Health            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12109">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_1RQKq1dzfZNS9kPv0E" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral position in Systems and Hardware Security - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral position in Systems and Hardware Security            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                16.09.2026                 |                 Department of Information Technology and Electrical Engineering (D-ITET)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12083">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_KmP55NqLRcMmKXZuna" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher in Interiors and Evolution of Sub-Neptunes - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher in Interiors and Evolution of Sub-Neptunes            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                15.09.2026                 |                 Department of Physics (D-PHYS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12097">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_pGJRE5rDAavyV6eLYI" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in sparse reconstruction of virtual histology images - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in sparse reconstruction of virtual histology images            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                15.09.2026                 |                 PSI Center for Photon Science - Paul Scherrer Institute and Professorship for X-ray imaging, Institute for Biomedical Engineering            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11156">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_qlftX17F8qb3wQxLyd" class="job-ad__item__link" target="_blank" aria-label="Mediamatiker:in EFZ (m/w/d) 2027 - Zürich, Lehrstelle" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Mediamatiker:in EFZ (m/w/d) 2027            </h3>
+            <div class="job-ad__item__details">
+                Zürich, Lehrstelle            </div>
+            <div class="job-ad__item__company">
+                14.09.2026                 |                 Berufsbildung            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12095">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_DPag8hXtGdgomqwMdO" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in contact mechanics of architected interfaces - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in contact mechanics of architected interfaces            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                11.09.2026                 |                 Institute for Building Materials (IfB)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12093">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_INHVkFm7btcpysqYwX" class="job-ad__item__link" target="_blank" aria-label="Quality of Education Officer - 60%-80%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Quality of Education Officer            </h3>
+            <div class="job-ad__item__details">
+                60%-80%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                10.09.2026                 |                 Unit for Teaching and Learning (UTL) / Strategy &amp; Analytics Group            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12086">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_xNU4jaRuX9tlmqmJJB" class="job-ad__item__link" target="_blank" aria-label="HPC Systems Software Engineer – OpenCHAMI for Lugano or Zürich - 80%-100%, Lugano, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                HPC Systems Software Engineer – OpenCHAMI for Lugano or Zürich            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Lugano, fixed-term            </div>
+            <div class="job-ad__item__company">
+                09.09.2026                 |                 Swiss National Supercomputing Centre (CSCS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12084">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_esjWnLgV1uifiJ1JQt" class="job-ad__item__link" target="_blank" aria-label="Doctoral Student on impacts of climate and hydrological extremes on water quality - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Student on impacts of climate and hydrological extremes on water quality            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                08.09.2026                 |                 Department of Environmental Systems Sciences (D-USYS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12088">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_3tuqaAfMtOV1CjCMWy" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in Lower-Field Cardiac Magnetic Resonance Imaging - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in Lower-Field Cardiac Magnetic Resonance Imaging            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                08.09.2026                 |                 Insitute for Biomedical Engineering            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11655">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_5jfFbj5xGmFSyYoPWI" class="job-ad__item__link" target="_blank" aria-label="PhD Researcher - PDTx - 100%, Singapore, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Researcher - PDTx            </h3>
+            <div class="job-ad__item__details">
+                100%, Singapore, fixed-term            </div>
+            <div class="job-ad__item__company">
+                08.09.2026                 |                 Future Health Technologies II (FHT II)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12040">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_yMji88yvHcGEduZOS5" class="job-ad__item__link" target="_blank" aria-label="Leiter:in Technisches Gebäudemanagement (TGM) (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Leiter:in Technisches Gebäudemanagement (TGM) (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                07.09.2026                 |                 Facility Services            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12054">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_NwixDnw016KLZG2MGE" class="job-ad__item__link" target="_blank" aria-label="Projektleiter:in IH/IS Gebäudetechnik &amp; Infrastruktur (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Projektleiter:in IH/IS Gebäudetechnik &amp; Infrastruktur (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                07.09.2026                 |                 Facility Services            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12081">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_9ztFwJ2Wmodh4TFajr" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in Soccer Analytics - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in Soccer Analytics            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                07.09.2026                 |                 Social Networks Lab            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12082">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_eQatl0pgVb6ow4UwxK" class="job-ad__item__link" target="_blank" aria-label="Doctoral Student in High-throughput Analysis of Protein-Protein Interactions - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Student in High-throughput Analysis of Protein-Protein Interactions            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                07.09.2026                 |                 Department of Biosystems Science and Engineering (ETH Zurich) and Department of Chemistry (University of Basel)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12015">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_h2mfMU9KNBhcXo5D5p" class="job-ad__item__link" target="_blank" aria-label="Labortechniker:in im Hochspannungslabor (m/w/d) - 40%-60%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Labortechniker:in im Hochspannungslabor (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                40%-60%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                07.09.2026                 |                 Hochspannungstechnik            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12080">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_fEsJT6dU0XVbGPtHhO" class="job-ad__item__link" target="_blank" aria-label="Doctoral Student in Neuromotor Interfaces for Dexterous Robot Teleoperation (multimodal egocentric vision + EMG) - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Student in Neuromotor Interfaces for Dexterous Robot Teleoperation (multimodal egocentric vision + EMG)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                04.09.2026                 |                 Sensing, Interaction &amp; Perception Lab | Institute of Intelligent Interactive Systems | Department of Computer Science            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11872">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_HADDooajzVrtCF2fGd" class="job-ad__item__link" target="_blank" aria-label="NOMIS Foundation ETH Postdoctoral Fellowship - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                NOMIS Foundation ETH Postdoctoral Fellowship            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                04.09.2026                 |                 ETH Zurich Centre for Origin and Prevalence of Life            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12073">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_G5U0mMTovC6WeOdD9F" class="job-ad__item__link" target="_blank" aria-label="AI for Science Engineer - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                AI for Science Engineer            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                02.09.2026                 |                 ETH AI Center            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12057">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_NQ0t1anUYFmmVwevuG" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in Optical Systems for Advanced Biofabrication - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in Optical Systems for Advanced Biofabrication            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Institute for Biomechanics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12058">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_SksxJNWCEnDiqK0smp" class="job-ad__item__link" target="_blank" aria-label="Projekteinkäufer:in Dienstleistungen und Services (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Projekteinkäufer:in Dienstleistungen und Services (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Procurement &amp; Export Services            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="8477">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_o1vNvmPQLykC2qonMM" class="job-ad__item__link" target="_blank" aria-label="Fachperson Betriebsunterhalt EFZ (m/w/d) 2027 - Hausdienst - Basel - Basel, Lehrstelle" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Fachperson Betriebsunterhalt EFZ (m/w/d) 2027 - Hausdienst - Basel            </h3>
+            <div class="job-ad__item__details">
+                Basel, Lehrstelle            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Berufsbildung            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12062">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_NWTmX7lwuI3QrOGWH9" class="job-ad__item__link" target="_blank" aria-label="Gruppenleitung Educational Software Engineering (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Gruppenleitung Educational Software Engineering (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Educational Software Engineering            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12063">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_KrZkN4TsckVwArXTdY" class="job-ad__item__link" target="_blank" aria-label="Partnerships and Research Funding Manager - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Partnerships and Research Funding Manager            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Soft Robotics Lab, Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12068">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_3WHgzaRecSAwEDOAic" class="job-ad__item__link" target="_blank" aria-label="Facility Manager - 100%, Lugano, permanent" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Facility Manager            </h3>
+            <div class="job-ad__item__details">
+                100%, Lugano, permanent            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 CSCS - Swiss National Supercomputing Centre            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12070">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_PiKcNFhW84Jnzdrsoh" class="job-ad__item__link" target="_blank" aria-label="Technische:r Spezialist:in für Nanofabrikationsanlagen und Infrastruktur (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Technische:r Spezialist:in für Nanofabrikationsanlagen und Infrastruktur (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Binnig and Rohrer Nanotechnology Center (BRNC)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12071">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_7gikVYjIkZZcbykZfL" class="job-ad__item__link" target="_blank" aria-label="Studienkoordinator:in (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Studienkoordinator:in (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Departement Maschinenbau und Verfahrenstechnik (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12072">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_jQbCEZBJ4CDH0gx68u" class="job-ad__item__link" target="_blank" aria-label="Nanofabrication R&amp;D Engineer - 100%, Zurich, permanent" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Nanofabrication R&amp;D Engineer            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, permanent            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Binnig and Rohrer Nanotechnology Center (BRNC)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11763">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_smgcezMC3tK7ZbfeTI" class="job-ad__item__link" target="_blank" aria-label="Fachperson Betriebsunterhalt EFZ (m/w/d) 2027 - Hausdienst - Zürich - Zürich, Lehrstelle" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Fachperson Betriebsunterhalt EFZ (m/w/d) 2027 - Hausdienst - Zürich            </h3>
+            <div class="job-ad__item__details">
+                Zürich, Lehrstelle            </div>
+            <div class="job-ad__item__company">
+                01.09.2026                 |                 Berufsbildung            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11468">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_vsmlFlflTKwJazo8iw" class="job-ad__item__link" target="_blank" aria-label="Head of Research Data Management Facility - 100%, Basel, permanent" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Head of Research Data Management Facility            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, permanent            </div>
+            <div class="job-ad__item__company">
+                31.08.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12046">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_sKGJYv288uud0RYkmK" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Fellowship at Design++ - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Fellowship at Design++            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                28.08.2026                 |                 Center for Augmented Computational Design in Architecture, Engineering and Construction            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12047">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_7qpUJghiPxjjg3LgH1" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Fellow / Process Engineer for metal assisted chemical etching - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Fellow / Process Engineer for metal assisted chemical etching            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                28.08.2026                 |                 Institute for Biomedical Engineering (D-ITET) - Professur for X-ray imaging and PSI Center for Photon Science - Paul Scherrer Institut            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12059">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_xPEbTe5DV76cK9b0qO" class="job-ad__item__link" target="_blank" aria-label="Postdoc in modelling of early prokaryote evolution and interaction with earth geodynamics - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoc in modelling of early prokaryote evolution and interaction with earth geodynamics            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                28.08.2026                 |                 Environmental Systems and Planetary Science (D-EAPS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12053">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_4pQ2q5Y9qBeuGF9aBv" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in solid-state transformer development, with a focus on high-power medium-frequency transformers - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in solid-state transformer development, with a focus on high-power medium-frequency transformers            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                27.08.2026                 |                 Laboratory for High Power Electronic Systems (HPE) / Departement Informationstechnologie und Elektrotechnik (D-ITET)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12052">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_0Dk3rwrfGt0kHlu7Rh" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Positions in Robot Learning and Soft, Musculoskeletal, and Biohybrid Robotics - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Positions in Robot Learning and Soft, Musculoskeletal, and Biohybrid Robotics            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                26.08.2026                 |                 Soft Robotics Lab, Institute of Robotics and Intelligent Systems, Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12032">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_VICQKrWgFLEoyEPTP7" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in neutral-atom quantum computing - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in neutral-atom quantum computing            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                25.08.2026                 |                 Institute for Quantum Electronics, D-PHYS            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12050">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb" class="job-ad__item__link" target="_blank" aria-label="Doctoral Positions in Robot Learning and Soft, Musculoskeletal, and Biohybrid Robotics - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Positions in Robot Learning and Soft, Musculoskeletal, and Biohybrid Robotics            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                25.08.2026                 |                 Soft Robotics Lab, Institute for Robotics and Intelligent Systems (IRIS), Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12045">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_QpwSDjGTFrOfniEFrV" class="job-ad__item__link" target="_blank" aria-label="Scientific Assistant – Biomedical Data Science &amp; Spinal Cord Injury Research - 80%-100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Scientific Assistant – Biomedical Data Science &amp; Spinal Cord Injury Research            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                24.08.2026                 |                 Department of Health Sciences and Technology (D-HEST)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12034">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_gtMYyk17Udl4FFFV6t" class="job-ad__item__link" target="_blank" aria-label="Office Manager:in am Lehrstuhl für KI in Mechanik und Fertigung (m/w/d) - 30%-40%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Office Manager:in am Lehrstuhl für KI in Mechanik und Fertigung (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                30%-40%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                01.10.2026                 |                 Lehrstuhl für KI in Mechanik und Fertigung | Departement für Maschinenbau und Verfahrenstechnik (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12038">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_RXOaQH0DOpiNTKwE75" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in Debris Flow Monitoring - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in Debris Flow Monitoring            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                20.08.2026                 |                 Department of Earth Sciences (D-EAPS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12039">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_mZ7lFXZluUIyWaON1N" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in mechanics of frictional particle suspensions - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in mechanics of frictional particle suspensions            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                20.08.2026                 |                 Institute for Building Materials (IfB)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12029">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_g0XuxC18u21Mu6iBB3" class="job-ad__item__link" target="_blank" aria-label="Liaison Librarian Architektur, Städtebau und Raumplanung (m/w/d) - 80%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Liaison Librarian Architektur, Städtebau und Raumplanung (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                17.08.2026                 |                 ETH-Bibliothek            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12002">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_kzU3Bx2lE8HT9YtVg4" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in functional oxide thin films - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in functional oxide thin films            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                14.08.2026                 |                 Laboratory of Inorganic Chemistry (LAC), D-CHAB            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12018">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_4LviIHzRgsOBAvOoB0" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in topochemical tuning of layered oxides - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in topochemical tuning of layered oxides            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                14.08.2026                 |                 Laboratory of Inorganic Chemistry (LAC), D-CHAB            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12019">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_eB7YadA8OsfYmqD1u4" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher (OCCL) - 100%, Singapore, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher (OCCL)            </h3>
+            <div class="job-ad__item__details">
+                100%, Singapore, fixed-term            </div>
+            <div class="job-ad__item__company">
+                14.08.2026                 |                 Fast Track AI            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12022">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_0z7L6XHbhhGWTMZS1r" class="job-ad__item__link" target="_blank" aria-label="Research Assistants (Law, Computer Science, or related fields) - 10%-30%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Research Assistants (Law, Computer Science, or related fields)            </h3>
+            <div class="job-ad__item__details">
+                10%-30%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                14.08.2026                 |                 Center for Law &amp; Economics (D-GESS)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12011">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Ztb8yMz2qN1JyezuM9" class="job-ad__item__link" target="_blank" aria-label="Spezialist:in Arbeitssicherheit und Gesundheitsschutz (m/w/d) - 80%-100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Spezialist:in Arbeitssicherheit und Gesundheitsschutz (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                13.08.2026                 |                 Abteilung Sicherheit, Gesundheit und Umwelt (SGU)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12014">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_GBb3OdHnnRIPeSabrX" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher - Neurostimulation for Stroke Rehabilitation - 100%, Singapore, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher - Neurostimulation for Stroke Rehabilitation            </h3>
+            <div class="job-ad__item__details">
+                100%, Singapore, fixed-term            </div>
+            <div class="job-ad__item__company">
+                13.08.2026                 |                 Future Health Technologies II (FHT II)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12006">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_zqMdn6OeN8wS7ZDRfz" class="job-ad__item__link" target="_blank" aria-label="Doctoral position in experimental characterization of semiconductor nanocrystals - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral position in experimental characterization of semiconductor nanocrystals            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                12.08.2026                 |                 Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="12004">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_PItOe6oQJFLOGTo0rn" class="job-ad__item__link" target="_blank" aria-label="Doctoral position in theoretical modeling of nanocrystal growth - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral position in theoretical modeling of nanocrystal growth            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                11.08.2026                 |                 Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11985">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Z7OndPgBOm7sbpwkNC" class="job-ad__item__link" target="_blank" aria-label="Gebäudetechniker:in HLKKSE (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Gebäudetechniker:in HLKKSE (m/w/d) – Mit Verantwortung und Herz für unsere Gebäude            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                10.08.2026                 |                 Gebäudebereich Physik (HP)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11999">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_N5adwDR63ei5mvEd2z" class="job-ad__item__link" target="_blank" aria-label="Doctoral Student in Operational Decision Making with Data Science - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Student in Operational Decision Making with Data Science            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                10.08.2026                 |                 Department of Management, Technology and Economics (D-MTEC)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11995">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Y3HjOZ86G5P5ss3eqg" class="job-ad__item__link" target="_blank" aria-label="Laboratory Manager - 100%, Basel, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Laboratory Manager            </h3>
+            <div class="job-ad__item__details">
+                100%, Basel, fixed-term            </div>
+            <div class="job-ad__item__company">
+                06.08.2026                 |                 Department of Biosystems Science and Engineering (D-BSSE)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11996">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/11996" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position at the Professorship of Marketing &amp; Technology (TUM) - 70%-80%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position at the Professorship of Marketing &amp; Technology (TUM)            </h3>
+            <div class="job-ad__item__details">
+                70%-80%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                06.08.2026 | Partnerinserat                 |                 Technische Universität München (TUM)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11830">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_Jpk5hTbut4X6uJlGRu" class="job-ad__item__link" target="_blank" aria-label="Legal Counsel im Bereich der Humanforschung (m/w/d) - 60%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Legal Counsel im Bereich der Humanforschung (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                60%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                03.08.2026                 |                 Forschungsvertragsgruppe            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11982">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_JljSxe71PrbQYnXQoB" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Researcher – Tactile Sensing for Dexterous Manipulation - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Researcher – Tactile Sensing for Dexterous Manipulation            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                03.08.2026                 |                 Department of Mechanical and Process Engineering (D-MAVT)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11935">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_P9v49K34WzF1yE3Son" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral and PhD Positions in Neurotechnology: Drug/Biologics Carrier Formulation &amp; Chemical Engineering for Focused Ultrasound-Mediated Brain Drug Delivery - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral and PhD Positions in Neurotechnology: Drug/Biologics Carrier Formulation &amp; Chemical Engineering for Focused Ultrasound-Mediated Brain Drug Delivery            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                22.07.2026                 |                 Institute of Neuroinformatics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11913">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_ZFh1EQy7dSPVVYp5Fe" class="job-ad__item__link" target="_blank" aria-label="Doctoral Position in circularly polarized attosecond pulses and chiral charge migration - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral Position in circularly polarized attosecond pulses and chiral charge migration            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                13.07.2026                 |                 Laboratory of Physical Chemistry            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11914">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_F9OMMLCxFXrZnitx0m" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral Position in attosecond chiroptical coincidence spectroscopy - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral Position in attosecond chiroptical coincidence spectroscopy            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                13.07.2026                 |                 Laboratory of Physical Chemistry            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11154">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_tw2NqKjprjOKgicyhv" class="job-ad__item__link" target="_blank" aria-label="Postdoctoral fellowship on translational research in daylighting for human health and well-being - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Postdoctoral fellowship on translational research in daylighting for human health and well-being            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                10.07.2026                 |                 Department of Architecture            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11878">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_7fnNYGEQBYxvwLABPA" class="job-ad__item__link" target="_blank" aria-label="PhD Positions in Neurotechnology: Next Generation Non-invasive Neurotechnologies &amp; Brain Therapies - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD Positions in Neurotechnology: Next Generation Non-invasive Neurotechnologies &amp; Brain Therapies            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                08.07.2026                 |                 Institute of Neuroinformatics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="9299">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_fV3FNoofTG427Xo88T" class="job-ad__item__link" target="_blank" aria-label="PhD position in Modeling and Control of Nonlinear Dynamical Systems from Data - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD position in Modeling and Control of Nonlinear Dynamical Systems from Data            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                06.07.2026                 |                 Institute for Mechanical Systems            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11856">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_HWURgWr0zhn0vhHkTh" class="job-ad__item__link" target="_blank" aria-label="Landwirtschaftliche:r Mitarbeiter:in Forschungsstation Früebüel (m/w/d) - 80%-100%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Landwirtschaftliche:r Mitarbeiter:in Forschungsstation Früebüel (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                02.07.2026                 |                 Gruppe Tierphysiologie            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11857">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_gSBsyXkVBhYzitmZqZ" class="job-ad__item__link" target="_blank" aria-label="Betriebsleiter:in Forschungsstation Früebüel (m/w/d) - 100%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Betriebsleiter:in Forschungsstation Früebüel (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                02.07.2026                 |                 Gruppe Tierphysiologie            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11796">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_8mKiqyt08ncBT4Vjmf" class="job-ad__item__link" target="_blank" aria-label="PhD opening in material science of stone conservation - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                PhD opening in material science of stone conservation            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                24.06.2026                 |                 Institute for Building Materials            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11742">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_yD8SBG1VJIv6DUeuOI" class="job-ad__item__link" target="_blank" aria-label="Doktorand:in in Rechtswissenschaften (m/w/d) - 100%, Zürich, befristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doktorand:in in Rechtswissenschaften (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, befristet            </div>
+            <div class="job-ad__item__company">
+                29.05.2026                 |                 Center for Law &amp; Economics            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11734">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_WutDHRW09osQjhn0JB" class="job-ad__item__link" target="_blank" aria-label="Systems Engineer – Platform Automation - 80%-100%, Lugano, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Systems Engineer – Platform Automation            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Lugano, fixed-term            </div>
+            <div class="job-ad__item__company">
+                28.05.2026                 |                 CSCS            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11730">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_pPQbOEVFpuNEe6dwGQ" class="job-ad__item__link" target="_blank" aria-label="DevOps Engineer - 80%-100%, Lugano, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                DevOps Engineer            </h3>
+            <div class="job-ad__item__details">
+                80%-100%, Lugano, fixed-term            </div>
+            <div class="job-ad__item__company">
+                27.05.2026                 |                 CSCS            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11409">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_xfuKg5qPN9KmLA8WvS" class="job-ad__item__link" target="_blank" aria-label="Elektrotechniker oder Elektroingenieur (m/w/d) - 100%, Zürich, unbefristet" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Elektrotechniker oder Elektroingenieur (m/w/d)            </h3>
+            <div class="job-ad__item__details">
+                100%, Zürich, unbefristet            </div>
+            <div class="job-ad__item__company">
+                09.03.2026                 |                 Institut für Chemie- und Bioingenieurwissenschaften (ICB)            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+<div data-key="11296">
+<li class="job-ad__item__wrapper" role="article" tabindex="0" onclick="window.open(this.querySelector('a').href, '_blank')" onkeydown="if(event.key === 'Enter') window.open(this.querySelector('a').href, '_blank')">
+    <a href="/job/view/JOPG_ethz_PeBFLlVSXBQT8tuOqj" class="job-ad__item__link" target="_blank" aria-label="Doctoral student position – Evaluating novel mineral sources for treatment of micronutrient deficiencies in humans - 100%, Zurich, fixed-term" tabindex="-1">
+        <div>
+            <h3 class="job-ad__item__title">
+                Doctoral student position – Evaluating novel mineral sources for treatment of micronutrient deficiencies in humans            </h3>
+            <div class="job-ad__item__details">
+                100%, Zurich, fixed-term            </div>
+            <div class="job-ad__item__company">
+                02.02.2026                 |                 Department of Health Science and Technology            </div>
+        </div>
+        <div style="display: flex; align-items: center; min-width: 3.5rem;">
+            <img
+                    class="job-ad__item__icon"
+                    alt="right arrow icon"
+                />
+        </div>
+    </a>
+</li>
+</div>
+</ul>                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-container"  style="background: #F8E8F3">
+        <div class="main-wrapper">
+            <div class="main-left"></div>
+            <div class="main-right"></div>
+            <div class="main-center">
+                <!-- EXTERNAL LINKS -->
+                <section class="external-links main-center">
+                    <div class="external-links__wrapper">
+                        <div class="external-links__heading">Offene Stellen ETH-Bereich</div>
+                        <div class="external-links__links-wrapper">
+                            <a
+                                    href="https://www.epfl.ch/about/working/working-at-epfl/job-openings/"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >EPF Lausanne
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                            <a
+                                    href="https://www.psi.ch/de/pa/stellenangebote"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >Paul Scherrer Institut
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                            <a
+                                    href="https://apply.refline.ch/673276/search.html?lang=de"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >EMPA
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                            <a
+                                    href="https://apply.refline.ch/673277/search.html?lang=de"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >EAWAG
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                            <a
+                                    href="https://apply.refline.ch/273855/search.html?lang=de"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >
+                                WSL
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                            <a
+                                    href="https://www.ethrat.ch/de/jobs"
+                                    class="link external-links__link"
+                                    target="_blank"
+                            >ETH-Rat
+                                <img
+                                        alt="Link icon"
+                                        class="external-links__icon"
+                                /></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+            </main>
+
+
+<!-- FOOTER -->
+<div class="footer-container">
+    <div class="footer__wrapper">
+        <div class="footer__menu">
+            <span class="footer__menu__item">
+                <a
+                        href="https://ethz.ch/staffnet/de/footer/impressum.html"
+                        class="footer__link"
+                        target="_blank"
+                >Impressum</a
+                >
+            </span>
+            <span class="footer__menu__item">
+                <a
+                        href="https://ethz.ch/staffnet/de/anstellung-und-arbeit/rund-um-die-anstellung/rekrutierung/rekrutierungsteam.html"
+                        class="footer__link"
+                        target="_blank"
+                >Unterst&uuml;tzung</a
+                >
+            </span>
+            <span class="footer__menu__item">
+                <a
+                        href="https://ethz.ch/staffnet/de/footer/disclaimer-copyright.html"
+                        class="footer__link"
+                        target="_blank"
+                >Disclaimer</a
+                >
+            </span>
+            <span class="footer__menu__item">
+                <a
+                        href="https://ethz.ch/de/footer/datenschutz.html"
+                        class="footer__link"
+                        target="_blank"
+                >Datenschutz</a
+                >
+            </span>
+        </div>
+        <div class="footer__copy-right">
+            &#169; 2026 ETH Z&uuml;rich        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/scripts.js?v=1778700678"></script>
+
+
+<script src="/assets/49a3ee26/jquery.js?v=1778700684"></script>
+<script src="/assets/5abb751c/yii.js?v=1778700684"></script>
+<script src="/assets/5abb751c/yii.activeForm.js?v=1778700684"></script>
+<script>jQuery(function ($) {
+jQuery('#w0').yiiActiveForm([], []);
+});</script></body>
+</html>
