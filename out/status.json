@@ -1,11 +1,11 @@
 {
- "run_at": "2026-10-07T10:12:29Z",
- "duration_s": 333,
+ "run_at": "2026-10-07T10:36:03Z",
+ "duration_s": 316,
  "sources": 126,
  "failed": [
   "centai"
  ],
- "new": 21,
+ "new": 2,
  "open": 598,
  "recent": 602,
  "details": [
@@ -18,7 +18,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -27,11 +27,11 @@
    "co": "ABB",
    "type": "workday",
    "ok": true,
-   "raw": 304,
+   "raw": 306,
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 34.8,
+   "secs": 31.9,
    "new": 0,
    "closed": 0
   },
@@ -43,18 +43,18 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.1
   },
   {
    "id": "airbus",
    "co": "Airbus",
    "type": "workday",
    "ok": true,
-   "raw": 461,
+   "raw": 460,
    "matched": 11,
    "complete": false,
    "details": 0,
-   "secs": 59.0,
+   "secs": 54.4,
    "new": 0,
    "closed": 0
   },
@@ -76,11 +76,11 @@
    "co": "AMD (Silo AI)",
    "type": "jibe",
    "ok": true,
-   "raw": 822,
+   "raw": 823,
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 24.8,
+   "secs": 27.0,
    "new": 0,
    "closed": 0
   },
@@ -89,26 +89,26 @@
    "co": "Anthropic",
    "type": "greenhouse",
    "ok": true,
-   "raw": 638,
+   "raw": 637,
    "matched": 16,
    "complete": true,
-   "details": 1,
-   "secs": 1.0,
-   "new": 1,
-   "closed": 2
+   "details": 0,
+   "secs": 0.7,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "anybotics",
    "co": "ANYbotics",
    "type": "lever",
    "ok": true,
-   "raw": 24,
-   "matched": 1,
+   "raw": 23,
+   "matched": 0,
    "complete": true,
    "details": 0,
    "secs": 0.5,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "asml",
@@ -119,7 +119,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 17.5,
+   "secs": 17.0,
    "new": 0,
    "closed": 0
   },
@@ -157,7 +157,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.5
   },
   {
    "id": "bfl",
@@ -181,8 +181,8 @@
    "matched": 18,
    "complete": false,
    "details": 0,
-   "secs": 12.8,
-   "new": 1,
+   "secs": 10.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -194,7 +194,7 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 10.3,
+   "secs": 9.7,
    "new": 0,
    "closed": 0
   },
@@ -203,12 +203,12 @@
    "co": "Bosch",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 2345,
-   "matched": 29,
+   "raw": 2350,
+   "matched": 30,
    "complete": false,
-   "details": 0,
-   "secs": 36.6,
-   "new": 0,
+   "details": 1,
+   "secs": 35.7,
+   "new": 1,
    "closed": 0
   },
   {
@@ -218,7 +218,7 @@
    "ok": false,
    "error": "RuntimeError: GET https://centai.eu/careers failed: HTTP 522",
    "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 958, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 901, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 368, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://centai.eu/careers failed: HTTP 522\n",
-   "secs": 115.9
+   "secs": 115.7
   },
   {
    "id": "cern",
@@ -229,7 +229,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -254,7 +254,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.5
   },
   {
    "id": "csem",
@@ -265,7 +265,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.9,
    "new": 0,
    "closed": 0
   },
@@ -278,7 +278,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -304,9 +304,9 @@
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 2.8,
-   "new": 2,
-   "closed": 1
+   "secs": 2.7,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "disney",
@@ -317,7 +317,7 @@
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 20.6,
+   "secs": 20.5,
    "new": 0,
    "closed": 0
   },
@@ -329,7 +329,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5,
+   "secs": 1.4,
    "new": 1
   },
   {
@@ -337,11 +337,11 @@
    "co": "DNV",
    "type": "oracle",
    "ok": true,
-   "raw": 89,
+   "raw": 88,
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 13.8,
+   "secs": 15.7,
    "new": 0,
    "closed": 0
   },
@@ -395,7 +395,7 @@
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "embl",
@@ -406,7 +406,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 11.2,
+   "secs": 10.5,
    "new": 0,
    "closed": 0
   },
@@ -428,11 +428,11 @@
    "co": "Enel",
    "type": "avature",
    "ok": true,
-   "raw": 142,
+   "raw": 143,
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 51.8,
+   "secs": 47.1,
    "new": 0,
    "closed": 0
   },
@@ -445,7 +445,7 @@
    "matched": 5,
    "complete": false,
    "details": 0,
-   "secs": 8.3,
+   "secs": 8.0,
    "new": 0,
    "closed": 0
   },
@@ -457,9 +457,9 @@
    "raw": 196,
    "matched": 8,
    "complete": false,
-   "details": 1,
-   "secs": 25.1,
-   "new": 1,
+   "details": 0,
+   "secs": 25.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -471,7 +471,7 @@
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 10.9,
+   "secs": 9.5,
    "new": 0,
    "closed": 0
   },
@@ -483,7 +483,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.3
   },
   {
    "id": "essilorluxottica",
@@ -494,7 +494,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 12.5,
+   "secs": 11.2,
    "new": 0,
    "closed": 0
   },
@@ -506,9 +506,9 @@
    "raw": 116,
    "matched": 4,
    "complete": true,
-   "details": 1,
-   "secs": 1.7,
-   "new": 1,
+   "details": 0,
+   "secs": 1.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -520,7 +520,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -546,7 +546,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 9.0,
+   "secs": 8.2,
    "new": 0,
    "closed": 0
   },
@@ -559,9 +559,9 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "geaerospace",
@@ -572,7 +572,7 @@
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 12.4,
+   "secs": 12.0,
    "new": 0,
    "closed": 0
   },
@@ -585,7 +585,7 @@
    "matched": 1,
    "complete": false,
    "details": 1,
-   "secs": 17.9,
+   "secs": 18.0,
    "new": 0,
    "closed": 0
   },
@@ -611,7 +611,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -620,11 +620,11 @@
    "co": "Google",
    "type": "google",
    "ok": true,
-   "raw": 80,
+   "raw": 79,
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 2.2,
+   "secs": 2.1,
    "new": 0,
    "closed": 0
   },
@@ -637,8 +637,8 @@
    "matched": 10,
    "complete": false,
    "details": 0,
-   "secs": 2.4,
-   "new": 2,
+   "secs": 2.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -663,7 +663,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -676,7 +676,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -689,7 +689,7 @@
    "matched": 6,
    "complete": true,
    "details": 0,
-   "secs": 2.2,
+   "secs": 2.1,
    "new": 0,
    "closed": 0
   },
@@ -698,11 +698,11 @@
    "co": "Google",
    "type": "google",
    "ok": true,
-   "raw": 54,
+   "raw": 53,
    "matched": 11,
-   "complete": true,
+   "complete": false,
    "details": 0,
-   "secs": 1.8,
+   "secs": 1.7,
    "new": 0,
    "closed": 0
   },
@@ -728,7 +728,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -754,7 +754,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 21.4,
+   "secs": 19.4,
    "new": 0,
    "closed": 0
   },
@@ -780,7 +780,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.6,
+   "secs": 2.2,
    "new": 0,
    "closed": 0
   },
@@ -793,7 +793,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.4,
+   "secs": 2.4,
    "new": 0,
    "closed": 0
   },
@@ -806,7 +806,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -819,7 +819,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -832,7 +832,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -845,7 +845,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 3.8,
+   "secs": 2.2,
    "new": 0,
    "closed": 0
   },
@@ -857,7 +857,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.7
   },
   {
    "id": "inrim",
@@ -867,7 +867,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.2
   },
   {
    "id": "instadeep",
@@ -878,7 +878,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 2.1,
+   "secs": 1.6,
    "new": 0,
    "closed": 0
   },
@@ -891,7 +891,7 @@
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 10.8,
+   "secs": 10.4,
    "new": 0,
    "closed": 0
   },
@@ -904,9 +904,9 @@
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "jua",
@@ -929,9 +929,9 @@
    "raw": 39,
    "matched": 3,
    "complete": false,
-   "details": 1,
-   "secs": 19.9,
-   "new": 1,
+   "details": 0,
+   "secs": 19.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -943,7 +943,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -956,7 +956,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 9.2,
+   "secs": 8.4,
    "new": 0,
    "closed": 0
   },
@@ -992,7 +992,7 @@
    "matched": 13,
    "complete": false,
    "details": 0,
-   "secs": 27.7,
+   "secs": 26.2,
    "new": 0,
    "closed": 0
   },
@@ -1004,8 +1004,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6,
-   "new": 1
+   "secs": 1.4
   },
   {
    "id": "logitech",
@@ -1016,7 +1015,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 16.2,
+   "secs": 14.9,
    "new": 0,
    "closed": 0
   },
@@ -1029,7 +1028,7 @@
    "matched": 34,
    "complete": false,
    "details": 0,
-   "secs": 4.5,
+   "secs": 4.2,
    "new": 0,
    "closed": 0
   },
@@ -1038,12 +1037,12 @@
    "co": "Medtronic",
    "type": "workday",
    "ok": true,
-   "raw": 274,
-   "matched": 3,
+   "raw": 284,
+   "matched": 2,
    "complete": false,
-   "details": 1,
-   "secs": 40.6,
-   "new": 1,
+   "details": 0,
+   "secs": 39.3,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1051,11 +1050,11 @@
    "co": "Mercedes-Benz",
    "type": "sitemap",
    "ok": true,
-   "raw": 847,
+   "raw": 844,
    "matched": 1,
    "complete": true,
    "details": 13,
-   "secs": 10.1,
+   "secs": 9.3,
    "new": 0,
    "closed": 0
   },
@@ -1067,9 +1066,9 @@
    "raw": 166,
    "matched": 2,
    "complete": false,
-   "details": 2,
-   "secs": 14.0,
-   "new": 2,
+   "details": 0,
+   "secs": 12.9,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1081,7 +1080,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -1094,8 +1093,8 @@
    "matched": 26,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
-   "new": 2,
+   "secs": 0.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1107,7 +1106,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 23.9,
+   "secs": 24.8,
    "new": 0,
    "closed": 0
   },
@@ -1120,7 +1119,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 42.7,
+   "secs": 40.0,
    "new": 0,
    "closed": 0
   },
@@ -1133,8 +1132,8 @@
    "matched": 7,
    "complete": false,
    "details": 41,
-   "secs": 102.9,
-   "new": 1,
+   "secs": 107.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1173,7 +1172,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1185,7 +1184,7 @@
    "matched": 4,
    "complete": false,
    "details": 2,
-   "secs": 55.3,
+   "secs": 52.1,
    "new": 0,
    "closed": 0
   },
@@ -1224,7 +1223,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 10.8,
+   "secs": 10.1,
    "new": 0,
    "closed": 0
   },
@@ -1250,7 +1249,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1272,11 +1271,11 @@
    "co": "Qualcomm",
    "type": "eightfold",
    "ok": true,
-   "raw": 240,
+   "raw": 237,
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 27.4,
+   "secs": 25.4,
    "new": 0,
    "closed": 0
   },
@@ -1301,9 +1300,9 @@
    "raw": 365,
    "matched": 10,
    "complete": false,
-   "details": 1,
-   "secs": 33.4,
-   "new": 1,
+   "details": 0,
+   "secs": 33.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1315,7 +1314,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 30.4,
+   "secs": 30.2,
    "new": 0,
    "closed": 0
   },
@@ -1328,7 +1327,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 4.2,
+   "secs": 6.1,
    "new": 0,
    "closed": 0
   },
@@ -1353,18 +1352,18 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8
   },
   {
    "id": "siemens",
    "co": "Siemens",
    "type": "avature",
    "ok": true,
-   "raw": 499,
+   "raw": 501,
    "matched": 13,
    "complete": false,
    "details": 1,
-   "secs": 215.8,
+   "secs": 204.6,
    "new": 0,
    "closed": 0
   },
@@ -1373,11 +1372,11 @@
    "co": "Sonar",
    "type": "lever",
    "ok": true,
-   "raw": 122,
+   "raw": 123,
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 4.8,
    "new": 0,
    "closed": 0
   },
@@ -1390,7 +1389,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 10.6,
+   "secs": 9.6,
    "new": 0,
    "closed": 0
   },
@@ -1403,7 +1402,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 20.9,
+   "secs": 18.9,
    "new": 0,
    "closed": 0
   },
@@ -1416,7 +1415,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 1.3,
    "new": 0,
    "closed": 0
   },
@@ -1425,11 +1424,11 @@
    "co": "STMicroelectronics",
    "type": "eightfold",
    "ok": true,
-   "raw": 133,
+   "raw": 132,
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 27.6,
+   "secs": 26.8,
    "new": 0,
    "closed": 0
   },
@@ -1451,11 +1450,11 @@
    "co": "Swisscom",
    "type": "workday",
    "ok": true,
-   "raw": 23,
+   "raw": 24,
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 13.0,
+   "secs": 12.2,
    "new": 0,
    "closed": 0
   },
@@ -1468,7 +1467,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -1482,7 +1481,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1494,7 +1493,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 12.9,
+   "secs": 10.7,
    "new": 0,
    "closed": 0
   },
@@ -1507,7 +1506,7 @@
    "matched": 21,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -1520,7 +1519,7 @@
    "matched": 18,
    "complete": false,
    "details": 0,
-   "secs": 53.9,
+   "secs": 53.0,
    "new": 0,
    "closed": 0
   },
@@ -1533,8 +1532,8 @@
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
-   "new": 1,
+   "secs": 1.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1546,7 +1545,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 157.2,
+   "secs": 159.0,
    "new": 0,
    "closed": 0
   },
@@ -1572,7 +1571,7 @@
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1585,7 +1584,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1598,7 +1597,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 10.6,
+   "secs": 10.3,
    "new": 0,
    "closed": 0
   },
@@ -1611,7 +1610,7 @@
    "matched": 9,
    "complete": false,
    "details": 0,
-   "secs": 8.9,
+   "secs": 7.9,
    "new": 0,
    "closed": 0
   }

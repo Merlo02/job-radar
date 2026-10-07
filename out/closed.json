@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-07T10:12:29Z",
+ "generated": "2026-10-07T10:36:03Z",
  "days": 14,
- "count": 42,
+ "count": 43,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -707,6 +707,23 @@
    "baseline": true,
    "ats": "google",
    "closed_at": "2026-10-07T10:12:29Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "anybotics:7e305a48-4628-4a6a-b054-0367b6f6e586",
+   "co": "ANYbotics",
+   "target": "anybotics",
+   "big": false,
+   "title": "Software Engineering Internship - AI Platform",
+   "url": "https://jobs.lever.co/anybotics/7e305a48-4628-4a6a-b054-0367b6f6e586",
+   "loc": "Zurich, Switzerland (CH)",
+   "loc_status": "eu",
+   "posted": "2025-08-21",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-07T10:12:29Z",
+   "baseline": true,
+   "ats": "lever",
+   "closed_at": "2026-10-07T10:36:03Z",
    "reason": "not listed anymore"
   }
  ]
