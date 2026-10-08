@@ -1,12 +1,11 @@
 {
- "run_at": "2026-10-08T10:31:13Z",
- "duration_s": 320,
+ "run_at": "2026-10-08T10:57:24Z",
+ "duration_s": 322,
  "sources": 126,
  "failed": [
-  "centai",
-  "iit"
+  "centai"
  ],
- "new": 14,
+ "new": 1,
  "open": 606,
  "recent": 610,
  "details": [
@@ -19,7 +18,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -28,11 +27,11 @@
    "co": "ABB",
    "type": "workday",
    "ok": true,
-   "raw": 317,
+   "raw": 316,
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 35.3,
+   "secs": 34.0,
    "new": 0,
    "closed": 0
   },
@@ -44,18 +43,18 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.1
   },
   {
    "id": "airbus",
    "co": "Airbus",
    "type": "workday",
    "ok": true,
-   "raw": 428,
+   "raw": 430,
    "matched": 9,
    "complete": false,
    "details": 0,
-   "secs": 51.9,
+   "secs": 51.5,
    "new": 0,
    "closed": 0
   },
@@ -77,11 +76,11 @@
    "co": "AMD (Silo AI)",
    "type": "jibe",
    "ok": true,
-   "raw": 827,
+   "raw": 826,
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 21.8,
+   "secs": 22.1,
    "new": 0,
    "closed": 0
   },
@@ -96,7 +95,7 @@
    "details": 0,
    "secs": 0.6,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "anybotics",
@@ -107,7 +106,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.9,
    "new": 0,
    "closed": 0
   },
@@ -120,7 +119,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 14.7,
+   "secs": 15.2,
    "new": 0,
    "closed": 0
   },
@@ -133,7 +132,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -158,7 +157,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.4
   },
   {
    "id": "bfl",
@@ -182,7 +181,7 @@
    "matched": 18,
    "complete": false,
    "details": 0,
-   "secs": 10.7,
+   "secs": 11.2,
    "new": 0,
    "closed": 0
   },
@@ -191,11 +190,11 @@
    "co": "Booking.com",
    "type": "jibe",
    "ok": true,
-   "raw": 68,
+   "raw": 69,
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 9.6,
+   "secs": 9.2,
    "new": 0,
    "closed": 0
   },
@@ -208,7 +207,7 @@
    "matched": 30,
    "complete": false,
    "details": 0,
-   "secs": 35.1,
+   "secs": 36.4,
    "new": 0,
    "closed": 0
   },
@@ -219,7 +218,7 @@
    "ok": false,
    "error": "RuntimeError: GET https://centai.eu/careers failed: HTTP 522",
    "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 958, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 901, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 368, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://centai.eu/careers failed: HTTP 522\n",
-   "secs": 115.7
+   "secs": 115.5
   },
   {
    "id": "cern",
@@ -229,9 +228,9 @@
    "raw": 53,
    "matched": 2,
    "complete": true,
-   "details": 1,
-   "secs": 1.5,
-   "new": 1,
+   "details": 0,
+   "secs": 0.9,
+   "new": 0,
    "closed": 0
   },
   {
@@ -239,11 +238,11 @@
    "co": "Cohere",
    "type": "ashby",
    "ok": true,
-   "raw": 124,
+   "raw": 123,
    "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -266,7 +265,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
+   "secs": 2.0,
    "new": 0,
    "closed": 0
   },
@@ -305,8 +304,8 @@
    "matched": 14,
    "complete": true,
    "details": 0,
-   "secs": 2.6,
-   "new": 1,
+   "secs": 2.7,
+   "new": 0,
    "closed": 0
   },
   {
@@ -318,7 +317,7 @@
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 20.7,
+   "secs": 20.3,
    "new": 0,
    "closed": 0
   },
@@ -342,7 +341,7 @@
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 13.6,
+   "secs": 15.3,
    "new": 0,
    "closed": 0
   },
@@ -368,7 +367,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -381,7 +380,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 2.3,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -395,7 +394,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -407,7 +406,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
+   "secs": 10.8,
    "new": 0,
    "closed": 0
   },
@@ -420,7 +419,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -433,7 +432,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 49.5,
+   "secs": 49.6,
    "new": 0,
    "closed": 0
   },
@@ -446,7 +445,7 @@
    "matched": 5,
    "complete": false,
    "details": 0,
-   "secs": 7.5,
+   "secs": 7.9,
    "new": 0,
    "closed": 0
   },
@@ -458,9 +457,9 @@
    "raw": 194,
    "matched": 9,
    "complete": false,
-   "details": 1,
-   "secs": 28.1,
-   "new": 1,
+   "details": 0,
+   "secs": 31.0,
+   "new": 0,
    "closed": 0
   },
   {
@@ -472,7 +471,7 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 9.7,
+   "secs": 10.4,
    "new": 0,
    "closed": 0
   },
@@ -484,7 +483,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.8
   },
   {
    "id": "essilorluxottica",
@@ -495,7 +494,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 10.0,
+   "secs": 11.8,
    "new": 0,
    "closed": 0
   },
@@ -521,7 +520,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.6,
    "new": 0,
    "closed": 0
   },
@@ -547,7 +546,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 7.8,
+   "secs": 8.2,
    "new": 0,
    "closed": 0
   },
@@ -573,7 +572,7 @@
    "matched": 0,
    "complete": false,
    "details": 1,
-   "secs": 12.8,
+   "secs": 13.4,
    "new": 0,
    "closed": 0
   },
@@ -582,12 +581,12 @@
    "co": "GE HealthCare",
    "type": "workday",
    "ok": true,
-   "raw": 249,
+   "raw": 250,
    "matched": 2,
    "complete": false,
-   "details": 3,
-   "secs": 20.8,
-   "new": 1,
+   "details": 2,
+   "secs": 20.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -612,7 +611,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -625,7 +624,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 2.4,
+   "secs": 2.1,
    "new": 0,
    "closed": 0
   },
@@ -638,8 +637,8 @@
    "matched": 8,
    "complete": false,
    "details": 0,
-   "secs": 2.5,
-   "new": 1,
+   "secs": 2.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -664,7 +663,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -690,8 +689,8 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 2.2,
-   "new": 1,
+   "secs": 2.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -703,8 +702,8 @@
    "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
-   "new": 1,
+   "secs": 1.7,
+   "new": 0,
    "closed": 0
   },
   {
@@ -729,7 +728,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -738,7 +737,7 @@
    "co": "H Company",
    "type": "ashby",
    "ok": true,
-   "raw": 26,
+   "raw": 28,
    "matched": 5,
    "complete": true,
    "details": 0,
@@ -755,7 +754,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 19.8,
+   "secs": 18.7,
    "new": 0,
    "closed": 0
   },
@@ -770,7 +769,7 @@
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 3
+   "closed": 0
   },
   {
    "id": "huawei-de",
@@ -794,7 +793,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.5,
    "new": 0,
    "closed": 0
   },
@@ -807,7 +806,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -841,10 +840,14 @@
    "id": "iit",
    "co": "IIT – Istituto Italiano di Tecnologia",
    "type": "links",
-   "ok": false,
-   "error": "RuntimeError: GET https://iit.it/openings failed: ConnectTimeout: HTTPSConnectionPool(host='iit.it', port=443): Max retries exceeded with url: /openings (Caused by ConnectTimeoutError(<HTTPSConnection(host='iit.it', port=443) at 0x7f3f10ddf020>, 'Connection to iit.it timed out. (connect timeout=40)'))",
-   "trace": "^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 842, in links_list\n    html = http(\"GET\", u, expect=\"text\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 247, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://iit.it/openings failed: ConnectTimeout: HTTPSConnectionPool(host='iit.it', port=443): Max retries exceeded with url: /openings (Caused by ConnectTimeoutError(<HTTPSConnection(host='iit.it', port=443) at 0x7f3f10ddf020>, 'Connection to iit.it timed out. (connect timeout=40)'))\n",
-   "secs": 136.0
+   "ok": true,
+   "raw": 11,
+   "matched": 0,
+   "complete": true,
+   "details": 0,
+   "secs": 2.1,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "imec",
@@ -854,7 +857,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 5.5
   },
   {
    "id": "inrim",
@@ -864,7 +867,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.2
   },
   {
    "id": "instadeep",
@@ -875,7 +878,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 2.4,
    "new": 0,
    "closed": 0
   },
@@ -888,8 +891,8 @@
    "matched": 9,
    "complete": false,
    "details": 0,
-   "secs": 10.1,
-   "new": 2,
+   "secs": 11.1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -927,7 +930,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 20.4,
+   "secs": 19.4,
    "new": 0,
    "closed": 0
   },
@@ -940,7 +943,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -953,7 +956,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 8.3,
+   "secs": 9.2,
    "new": 0,
    "closed": 0
   },
@@ -989,7 +992,7 @@
    "matched": 12,
    "complete": false,
    "details": 0,
-   "secs": 22.0,
+   "secs": 21.9,
    "new": 0,
    "closed": 0
   },
@@ -1001,7 +1004,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.6
   },
   {
    "id": "logitech",
@@ -1012,7 +1015,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 13.7,
+   "secs": 15.5,
    "new": 0,
    "closed": 0
   },
@@ -1025,7 +1028,7 @@
    "matched": 34,
    "complete": false,
    "details": 0,
-   "secs": 4.0,
+   "secs": 4.5,
    "new": 0,
    "closed": 0
   },
@@ -1038,7 +1041,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 37.4,
+   "secs": 37.8,
    "new": 0,
    "closed": 0
   },
@@ -1047,11 +1050,11 @@
    "co": "Mercedes-Benz",
    "type": "sitemap",
    "ok": true,
-   "raw": 862,
+   "raw": 866,
    "matched": 1,
    "complete": true,
    "details": 13,
-   "secs": 9.0,
+   "secs": 9.5,
    "new": 0,
    "closed": 0
   },
@@ -1060,11 +1063,11 @@
    "co": "Microsoft",
    "type": "eightfold",
    "ok": true,
-   "raw": 153,
+   "raw": 160,
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 13.0,
+   "secs": 13.8,
    "new": 0,
    "closed": 0
   },
@@ -1077,7 +1080,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -1090,7 +1093,7 @@
    "matched": 26,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -1103,7 +1106,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 24.6,
+   "secs": 23.6,
    "new": 0,
    "closed": 0
   },
@@ -1116,7 +1119,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 45.4,
+   "secs": 45.3,
    "new": 0,
    "closed": 0
   },
@@ -1129,7 +1132,7 @@
    "matched": 7,
    "complete": false,
    "details": 41,
-   "secs": 106.2,
+   "secs": 100.4,
    "new": 0,
    "closed": 0
   },
@@ -1142,7 +1145,7 @@
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 0.9,
    "new": 0,
    "closed": 0
   },
@@ -1168,7 +1171,7 @@
    "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1177,11 +1180,11 @@
    "co": "Philips",
    "type": "workday",
    "ok": true,
-   "raw": 246,
+   "raw": 245,
    "matched": 3,
    "complete": false,
    "details": 2,
-   "secs": 55.8,
+   "secs": 52.8,
    "new": 0,
    "closed": 0
   },
@@ -1220,7 +1223,7 @@
    "matched": 2,
    "complete": false,
    "details": 0,
-   "secs": 9.5,
+   "secs": 10.1,
    "new": 0,
    "closed": 0
   },
@@ -1246,7 +1249,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1268,11 +1271,11 @@
    "co": "Qualcomm",
    "type": "eightfold",
    "ok": true,
-   "raw": 230,
+   "raw": 256,
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 23.6,
+   "secs": 26.8,
    "new": 0,
    "closed": 0
   },
@@ -1285,7 +1288,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 0.9,
    "new": 0,
    "closed": 0
   },
@@ -1294,11 +1297,11 @@
    "co": "Roche",
    "type": "workday",
    "ok": true,
-   "raw": 371,
+   "raw": 351,
    "matched": 10,
    "complete": false,
    "details": 0,
-   "secs": 33.0,
+   "secs": 30.8,
    "new": 0,
    "closed": 0
   },
@@ -1311,7 +1314,7 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 29.6,
+   "secs": 31.6,
    "new": 0,
    "closed": 0
   },
@@ -1323,9 +1326,9 @@
    "raw": 286,
    "matched": 4,
    "complete": false,
-   "details": 1,
-   "secs": 5.1,
-   "new": 1,
+   "details": 0,
+   "secs": 5.7,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1337,7 +1340,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1349,19 +1352,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.0
   },
   {
    "id": "siemens",
    "co": "Siemens",
    "type": "avature",
    "ok": true,
-   "raw": 499,
+   "raw": 506,
    "matched": 15,
    "complete": false,
-   "details": 2,
-   "secs": 208.5,
-   "new": 1,
+   "details": 1,
+   "secs": 207.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1373,7 +1376,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.4,
+   "secs": 1.6,
    "new": 0,
    "closed": 0
   },
@@ -1386,7 +1389,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 9.5,
+   "secs": 9.9,
    "new": 0,
    "closed": 0
   },
@@ -1399,7 +1402,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 23.6,
+   "secs": 25.8,
    "new": 0,
    "closed": 0
   },
@@ -1424,9 +1427,9 @@
    "raw": 118,
    "matched": 8,
    "complete": false,
-   "details": 1,
-   "secs": 26.2,
-   "new": 1,
+   "details": 0,
+   "secs": 25.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1451,7 +1454,7 @@
    "matched": 0,
    "complete": false,
    "details": 0,
-   "secs": 12.8,
+   "secs": 11.9,
    "new": 0,
    "closed": 0
   },
@@ -1464,7 +1467,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -1490,7 +1493,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
+   "secs": 13.3,
    "new": 0,
    "closed": 0
   },
@@ -1512,11 +1515,11 @@
    "co": "Thales / Thales Alenia Space",
    "type": "workday",
    "ok": true,
-   "raw": 399,
+   "raw": 400,
    "matched": 18,
    "complete": false,
    "details": 0,
-   "secs": 61.2,
+   "secs": 59.3,
    "new": 0,
    "closed": 0
   },
@@ -1525,11 +1528,11 @@
    "co": "TomTom",
    "type": "lever",
    "ok": true,
-   "raw": 21,
+   "raw": 22,
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -1542,7 +1545,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 163.0,
+   "secs": 160.7,
    "new": 0,
    "closed": 0
   },
@@ -1551,11 +1554,11 @@
    "co": "Valeo",
    "type": "workday",
    "ok": true,
-   "raw": 248,
+   "raw": 246,
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 29.0,
+   "secs": 30.0,
    "new": 0,
    "closed": 0
   },
@@ -1568,7 +1571,7 @@
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1590,11 +1593,11 @@
    "co": "Zalando",
    "type": "links",
    "ok": true,
-   "raw": 172,
+   "raw": 174,
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 9.8,
+   "secs": 9.7,
    "new": 0,
    "closed": 0
   },
@@ -1607,7 +1610,7 @@
    "matched": 9,
    "complete": false,
    "details": 0,
-   "secs": 7.8,
+   "secs": 8.1,
    "new": 0,
    "closed": 0
   }
