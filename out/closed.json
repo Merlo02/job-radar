@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-07T10:36:03Z",
+ "generated": "2026-10-08T10:31:13Z",
  "days": 14,
- "count": 43,
+ "count": 47,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -724,6 +724,73 @@
    "baseline": true,
    "ats": "lever",
    "closed_at": "2026-10-07T10:36:03Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "anthropic:5445760008",
+   "co": "Anthropic",
+   "target": "anthropic",
+   "big": true,
+   "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences - Clinical Trials/Drug Repurposing)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008",
+   "loc": "London, UK",
+   "loc_status": "eu",
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-07T10:12:29Z",
+   "last_seen": "2026-10-07T10:36:03Z",
+   "ats": "greenhouse",
+   "closed_at": "2026-10-08T10:31:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "helsing:4911999101",
+   "co": "Helsing",
+   "target": "helsing",
+   "big": true,
+   "title": "AI Research Engineer - 3D Computer Vision",
+   "url": "https://helsing.ai/jobs/4911999101?gh_jid=4911999101",
+   "loc": "Berlin; London; Munich; Paris",
+   "loc_status": "eu",
+   "posted": "2026-06-29",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-07T10:36:03Z",
+   "baseline": true,
+   "ats": "greenhouse",
+   "closed_at": "2026-10-08T10:31:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "helsing:4334849101",
+   "co": "Helsing",
+   "target": "helsing",
+   "big": true,
+   "title": "AI Research Engineer - AI Safety",
+   "url": "https://helsing.ai/jobs/4334849101?gh_jid=4334849101",
+   "loc": "Berlin; London; Munich",
+   "loc_status": "eu",
+   "posted": "2024-05-08",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-07T10:36:03Z",
+   "baseline": true,
+   "ats": "greenhouse",
+   "closed_at": "2026-10-08T10:31:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "helsing:4778869101",
+   "co": "Helsing",
+   "target": "helsing",
+   "big": true,
+   "title": "AI Research Engineer - ML Engineering",
+   "url": "https://helsing.ai/jobs/4778869101?gh_jid=4778869101",
+   "loc": "Berlin; London; Munich",
+   "loc_status": "eu",
+   "posted": "2026-02-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-07T10:36:03Z",
+   "baseline": true,
+   "ats": "greenhouse",
+   "closed_at": "2026-10-08T10:31:13Z",
    "reason": "not listed anymore"
   }
  ]
