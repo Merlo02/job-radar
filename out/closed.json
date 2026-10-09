@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-08T10:57:24Z",
+ "generated": "2026-10-09T10:29:24Z",
  "days": 14,
- "count": 47,
+ "count": 51,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -791,6 +791,71 @@
    "baseline": true,
    "ats": "greenhouse",
    "closed_at": "2026-10-08T10:31:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "huawei-zrc:7951020",
+   "co": "Huawei Zurich Research Center",
+   "target": "huawei-zrc",
+   "big": true,
+   "title": "Hardware Research Engineer(Fixed Term)",
+   "url": "https://careers.huaweirc.ch/jobs/7951020-hardware-research-engineer-fixed-term",
+   "loc": "Zürich, Switzerland",
+   "loc_status": "eu",
+   "posted": "2026-06-22",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-08T10:57:24Z",
+   "baseline": true,
+   "ats": "teamtailor",
+   "closed_at": "2026-10-09T10:29:24Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "zalando:2725763",
+   "co": "Zalando",
+   "target": "zalando",
+   "big": true,
+   "title": "Machine Learning / Data Engineer - Reco & Lifestyle Intelligence (All Genders)",
+   "url": "https://jobs.zalando.com/en/jobs/2725763-Machine-Learning-%2F-Data-Engineer---Reco-%26-Lifestyl",
+   "loc_status": "unknown",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-08T10:57:24Z",
+   "baseline": true,
+   "ats": "links",
+   "closed_at": "2026-10-09T10:29:24Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-muc:107146501406237382",
+   "co": "Google",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Scientist, AI",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/107146501406237382-research-scientist-ai",
+   "loc": "Munich, Germany (DE); Zürich, Switzerland (CH)",
+   "loc_status": "eu",
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-06T10:13:39Z",
+   "last_seen": "2026-10-08T10:57:24Z",
+   "ats": "google",
+   "closed_at": "2026-10-09T10:29:24Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "deepmind:116637011183313606",
+   "co": "Google DeepMind",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Engineer, Responsible Frontier AI Research, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116637011183313606-research-engineer-responsible-frontier-ai-research-deepmind",
+   "loc": "London, UK (GB)",
+   "loc_status": "eu",
+   "posted": "2026-09-21",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-08T10:57:24Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-09T10:29:24Z",
    "reason": "not listed anymore"
   }
  ]
