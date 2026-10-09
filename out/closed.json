@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-09T10:29:24Z",
+ "generated": "2026-10-09T10:56:00Z",
  "days": 14,
- "count": 51,
+ "count": 52,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -856,6 +856,23 @@
    "baseline": true,
    "ats": "google",
    "closed_at": "2026-10-09T10:29:24Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-zrh:142200254949663430",
+   "co": "Google",
+   "target": "deepmind",
+   "big": true,
+   "title": "Software Engineer, Search Ads in AI Experiences",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/142200254949663430-software-engineer-search-ads-in-ai-experiences",
+   "loc": "Zürich, Switzerland (CH)",
+   "loc_status": "eu",
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-09T10:29:24Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-09T10:56:00Z",
    "reason": "not listed anymore"
   }
  ]
