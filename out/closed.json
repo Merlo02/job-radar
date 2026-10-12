@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-11T10:20:29Z",
+ "generated": "2026-10-12T10:43:57Z",
  "days": 14,
- "count": 57,
+ "count": 58,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -956,6 +956,21 @@
    "last_seen": "2026-10-09T10:56:00Z",
    "ats": "google",
    "closed_at": "2026-10-10T09:46:59Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "physicsx:4644833101",
+   "co": "PhysicsX",
+   "big": false,
+   "title": "Data Scientist",
+   "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/4644833101",
+   "loc": "London, United Kingdom",
+   "loc_status": "eu",
+   "posted": "2025-08-12",
+   "first_seen": "2026-10-09T10:29:24Z",
+   "last_seen": "2026-10-11T10:20:29Z",
+   "ats": "greenhouse",
+   "closed_at": "2026-10-12T10:43:57Z",
    "reason": "not listed anymore"
   }
  ]
