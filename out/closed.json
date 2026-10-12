@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-12T10:43:57Z",
+ "generated": "2026-10-12T11:21:15Z",
  "days": 14,
- "count": 58,
+ "count": 61,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -971,6 +971,57 @@
    "last_seen": "2026-10-11T10:20:29Z",
    "ats": "greenhouse",
    "closed_at": "2026-10-12T10:43:57Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-zrh:75480114480980678",
+   "co": "Google",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Engineer, Gemini Omni, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/75480114480980678-research-engineer-gemini-omni-deepmind",
+   "loc": "London, UK (GB); Zürich, Switzerland (CH)",
+   "loc_status": "eu",
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-12T10:43:57Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-12T11:21:15Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "deepmind:75480114480980678",
+   "co": "Google DeepMind",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Engineer, Gemini Omni, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/75480114480980678-research-engineer-gemini-omni-deepmind",
+   "loc": "London, UK (GB); Zürich, Switzerland (CH)",
+   "loc_status": "eu",
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-12T10:43:57Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-12T11:21:15Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "deepmind:112514140005638854",
+   "co": "Google DeepMind",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Scientist, Robotics Pre-Training and Data Quality, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/112514140005638854-research-scientist-robotics-pre-training-and-data-quality-deepmind",
+   "loc": "London, UK (GB)",
+   "loc_status": "eu",
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-12T10:43:57Z",
+   "baseline": true,
+   "ats": "google",
+   "closed_at": "2026-10-12T11:21:15Z",
    "reason": "not listed anymore"
   }
  ]
