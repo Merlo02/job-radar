@@ -15,10 +15,16 @@ Gira ogni notte su GitHub Actions e salva i risultati in `out/`:
   dimezzate, annunci visti su LinkedIn/Indeed ma assenti dall'adapter dell'azienda) e il controllo di
   copertura (`coverage`)
 
-Gli annunci di LinkedIn e Indeed restano nello stato ma non entrano ancora in `recent.json` e
-`open.json` (vedi `BOARDS_IN_RECENT` in `scan.py`): sono centinaia al giorno e la routine che legge
-quei file li giudicherebbe tutti. Gli annunci che ripetono quello del sito dell'azienda contano una
-volta sola, con il link diretto.
+- `out/candidates.json` – tutti gli annunci aperti che passano il filtro largo (esclude solo funzioni
+  non tecniche, seniority impossibili, stage/tesi/postdoc e luoghi fuori Europa), ciascuno con una
+  scheda (~400 caratteri sul lavoro), anni di esperienza chiesti, parole chiave e un punteggio
+  indicativo che serve solo a ordinarli; la descrizione (fino a 5.000 caratteri) c'è per gli annunci
+  visti negli ultimi 3 giorni. In `closed` ci sono tutte le chiusure degli ultimi 14 giorni.
+
+`recent.json`, `open.json` e `closed.json` restano come prima: solo titoli ML (`title_ok` in
+`scan.py`) e niente LinkedIn/Indeed (`BOARDS_IN_RECENT`), perché la routine che li legge giudica
+ogni annuncio nuovo. Gli annunci che ripetono quello del sito dell'azienda contano una volta sola,
+con il link diretto.
 
 Con lo stesso giro lo scanner legge anche i dottorati (`phd_sources.json`: ETH, UZH, EPFL,
 AcademicTransfer per tutte le università olandesi, KU Leuven, Ghent) e scrive `out/phd_recent.json`,

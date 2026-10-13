@@ -53,6 +53,8 @@ STALE_DAYS = 10      # search-based sources: a posting unseen this long counts a
 MAX_DETAIL = 150     # detail requests per source per run
 DESC_HEAD = 600
 DESC_REQ = 1400
+DESC_MAX = 5000      # description in candidates.json, only for postings first seen in DESC_DAYS
+DESC_DAYS = 3
 WORKERS = 8
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -112,7 +114,7 @@ PHD_TOPIC = re.compile(
 
 def keep_title(src, r):
     if PROFILE != "phd":
-        return title_ok(r["title"])
+        return wide_ok(r["title"], r.get("dept"))
     t = r.get("title") or ""
     if PHD_EXCLUDE.search(t):
         return False
@@ -129,6 +131,105 @@ def title_ok(title):
     if INCLUDE.search(t):
         return True
     return bool(GRAD.search(t) and GRAD_TOPIC.search(t))
+
+
+# ------------------------------------------------- wide filter (plan, phase 2)
+# The script only drops what can never fit; everything else goes to candidates.json for Claude to
+# judge. The old INCLUDE/EXCLUDE pair (title_ok) still decides what reaches recent/open.json.
+NOT_TECH = re.compile(   # always out, whatever else the title says
+    r"\bsales\b|account (?:executive|manager|director)|business development|\bBDR\b|\bSDR\b|pre-?sales|"
+    r"recruit|talent acquisition|(?-i:\bHR\b)|human resources|people (?:partner|operations|business)|payroll|"
+    r"\blegal\b|counsel\b|paralegal|lawyer|attorney|solicitor|accountant|accounting|bookkeep|\btax\b|treasury|"
+    r"internal audit|\bauditor\b|financial controller|controlling\b|procurement|purchasing|\bbuyer\b|"
+    r"customer (?:support|success|service|care)|support (?:agent|representative|specialist|engineer|technician)|"
+    r"help ?desk|call cent|receptionist|office (?:manager|assistant|coordinator)|"
+    r"(?:administrative|executive|personal) assistant|\bretail\b|\bstore (?:manager|associate|assistant|staff)|"
+    r"cashier|warehouse|\bdriver\b|housekeep|cleaner|vertrieb|verkauf|buchhalt|personalreferent|"
+    r"rechtsanwalt|steuerberater|comptab|juridique|ressources humaines|vendite|contabil|risorse umane|"
+    r"addetto vendite|cameriere|camariera|cameriera|facchino", re.I)
+SOFT_NOT_TECH = re.compile(   # out unless the title also has a technical word ("Marketing Data Scientist")
+    r"marketing|\bbrand\b|public relations|communications?\b|\bfinance\b|financial (?:analyst|planning)|"
+    r"commercial(?:e)?\b|\bevent", re.I)
+# A technical word in the title keeps the posting even with a function word ("Marketing Data Scientist").
+TECH_ANCHOR = re.compile(
+    r"engineer|ingenieur|ingénieur|ingegner|scientist|wissenschaftl|chercheur|ricercat|research|"
+    r"\bdata\b|machine learning|deep learning|(?-i:\bML\b|\bAI\b|\bKI\b|\bIA\b|\bNLP\b|\bLLMs?\b)|"
+    r"developer|entwickler|développeur|sviluppat|software|algorithm|analytics|statistic|quant\b|"
+    r"computer vision|robotic|modell|simulation|signal|perception|technical staff", re.I)
+TOO_SENIOR = re.compile(
+    r"(?<![(/])\bsenior\b(?!\s*[/)])|\bsr\b\.?|\bstaff\b|principal|\blead\b|\bleader|manager|director|\bhead\b|"
+    r"\bVP\b|vice president|\bchief\b|\bexecutive\b|\bleiter|\bleitung\b|directeur|direttore|responsabile|"
+    r"(?-i:\bL[6-9]\b|\bIC[5-9]\b|\bE[6-9]\b|\bP[5-9]\b)", re.I)
+NOT_A_JOB = re.compile(
+    r"\bintern\b|\binterns\b|internship|praktik|\bstage\b|stagiaire|tirocin|stagista|werkstudent|"
+    r"working student|student assistant|student job|studentische|summer student|thesis|abschlussarbeit|"
+    r"masterarbeit|bachelorarbeit|\btesi\b|m[ée]moire|apprentice|ausbildung|azubi|lehrling|duales? stud|"
+    r"alternance|alternant|apprendist|postdoc|post-doc|postdoctoral|professor|lecturer|faculty position|"
+    r"\bdozent", re.I)
+
+
+def wide_ok(title, dept=""):
+    """Phase 2 filter: drop only non-technical functions, impossible seniority and non-jobs."""
+    t = re.sub(r"member of (?:the )?technical staff", "MTS", title or "", flags=re.I)
+    if TOO_SENIOR.search(t) or NOT_A_JOB.search(t):
+        return False
+    if NOT_TECH.search(t) or (NOT_TECH.search(dept or "") and not TECH_ANCHOR.search(t)):
+        return False
+    return not (SOFT_NOT_TECH.search(f"{t} | {dept or ''}") and not TECH_ANCHOR.search(t))
+
+
+# Indicative score, only to sort candidates.json (it never drops anything).
+SCORE = [
+    ("pretraining", 2, r"pre-?train"), ("self-supervised", 2, r"self-supervised|masked auto-?encoder|contrastive learning"),
+    ("distributed training", 2, r"distributed training|multi-node|multi-gpu|\bDDP\b|\bFSDP\b|deepspeed|megatron|\bSLURM\b"),
+    ("training", 1, r"\btrain(?:ing)? (?:large |foundation |deep |neural |ml )?(?:models?|networks?)|model training"),
+    ("pytorch", 1, r"pytorch"), ("publications", 1, r"publications?|\bpublish|neurips|\bicml\b|\biclr\b|\bcvpr\b|top-tier (?:venues|conferences)"),
+    ("foundation models", 1, r"foundation models?"), ("biosignals", 2, r"bio-?signals?|\bECG\b|\bEEG\b|\bEMG\b|physiological"),
+    ("wearable", 2, r"wearables?"), ("ultrasound", 2, r"ultrasound|ultrasonic"),
+    ("edge", 2, r"edge (?:ai|ml|devices?|inference|computing)|on-device|embedded (?:ml|ai|machine learning)|tinyml|microcontroller"),
+    ("quantization", 1, r"quantiz|model compression|pruning|distillation"), ("time series", 1, r"time[- ]series"),
+    ("research", 1, r"research (?:engineer|scientist)|applied research"),
+    ("langchain", -2, r"langchain|llamaindex|langgraph"), ("RAG", -2, r"\bRAG\b|retrieval[- ]augmented"),
+    ("prompt", -1, r"prompt engineering|prompting\b"), ("agents", -1, r"agentic|ai agents?\b|multi-agent workflows"),
+]
+SCORE = [(k, w, re.compile(p, re.I)) for k, w, p in SCORE]
+ROLE_HINT = re.compile(
+    r"what you(?:'ll| will) (?:do|be doing|work on)|your (?:role|mission|tasks|responsibilities|impact)|"
+    r"the role|about the role|about the job|role overview|responsibilities|in this role|you will\b|"
+    r"job description|ihre aufgaben|deine aufgaben|aufgaben|vos missions|votre mission|missions? :|"
+    r"cosa farai|mansioni|responsabilità", re.I)
+
+
+def years_needed(text):
+    """Largest minimum of years of experience asked for (e.g. "3+ years ... 5+ years" -> 5)."""
+    best = None
+    for m in re.finditer(r"\b(\d{1,2})\s*(?:\+|-\s*\d{1,2}|to \d{1,2}|or more)?\s*\+?\s*(?:years?|yrs|anni|jahre?n?|ans)\b",
+                         text or "", re.I):
+        n = int(m.group(1))
+        if 1 <= n <= 15:
+            best = max(best or 0, n)
+    return best
+
+
+def assess(e, text):
+    """Score, keywords, years and a ~400-character card for one posting."""
+    full = f"{e.get('title', '')}\n{text or ''}"
+    kw, score = [], 0
+    for k, w, p in SCORE:
+        if p.search(full):
+            kw.append(k if w > 0 else f"-{k}")
+            score += w
+    years = years_needed(text)
+    if years and years >= 5:
+        kw.append(f"-{years}+ years")
+        score -= 2
+    if title_ok(e.get("title")):
+        score += 2   # ML / research title
+    flat = re.sub(r"\s+", " ", text or "").strip()
+    m = ROLE_HINT.search(flat, 0)
+    start = m.start() if m and m.start() < len(flat) - 150 else 0
+    e["score"], e["kw"], e["years"] = score, kw, years
+    e["card"] = flat[start:start + 420].rsplit(" ", 1)[0] if len(flat) > start + 420 else flat[start:]
 
 
 # ------------------------------------------------------------- location filter
@@ -1623,7 +1724,9 @@ def run_source(src, known_keys, has_detail):
             if ls == "no" and not src.get("ignore_location"):
                 continue
             r["loc_status"] = "eu" if src.get("ignore_location") else ls
+            r["ml"] = PROFILE == "phd" or title_ok(r["title"])
             matched.append(r)
+        matched.sort(key=lambda r: not r["ml"])   # ML titles get the detail requests first
         n_detail, kept = 0, []
         for r in matched:
             need = detailer and (r["key"] not in known_keys or r["key"] not in has_detail) and \
@@ -1636,8 +1739,10 @@ def run_source(src, known_keys, has_detail):
                     continue
                 except Exception as e:
                     r["detail_error"] = str(e)[:160]
-                if r.get("_slug_title") and not keep_title(src, r):
-                    continue
+                if r.get("_slug_title"):
+                    if not keep_title(src, r):
+                        continue
+                    r["ml"] = PROFILE == "phd" or title_ok(r["title"])
                 ls = loc_status(r.get("loc"))
                 if ls == "no" and not src.get("ignore_location"):
                     continue
@@ -1653,6 +1758,26 @@ def run_source(src, known_keys, has_detail):
         st["trace"] = traceback.format_exc(limit=3)[-600:]
         st["secs"] = round(time.time() - t0, 1)
         return src, None, False, st
+
+
+def candidate(e, descs):
+    """One card of candidates.json: everything open past the wide filter, with an indicative score
+    (sorting only), the keywords behind it, the years of experience asked and ~400 characters on the
+    job; the description (up to DESC_MAX characters) only for postings first seen in DESC_DAYS."""
+    keys = ["key", "src", "co", "title", "loc", "loc_status", "posted", "first_seen", "url", "apply_url", "ats",
+            "target", "big", "baseline", "score", "years", "kw", "card", "level", "dept", "deadline", "salary",
+            "country"]
+    c = {k: e.get(k) for k in keys if e.get(k) not in (None, "", [])}
+    c["ml"] = e.get("ml", True)
+    if e.get("ats") == "watch":
+        desc = e.get("desc")
+    elif not e.get("baseline") and days_since(e.get("first_seen", "")) <= DESC_DAYS:
+        desc = descs.get(e["key"])
+    else:
+        desc = None
+    if desc:
+        c["desc"] = desc
+    return c
 
 
 def public(e, with_desc):
@@ -1712,7 +1837,9 @@ def check_boards(jobs, status):
             continue
         seen[k] = v["key"]
         listing = [s for s in srcs if s["type"] != "watch" and status.get(s["id"], {}).get("ok")]
-        if listing and v.get("last_seen") == NOW_ISO and not comp.direct_match(v, any_place=True):
+        # only ML titles count: the company sources search with ML keywords on purpose
+        if listing and v.get("ml", True) and v.get("last_seen") == NOW_ISO and \
+                not comp.direct_match(v, any_place=True):
             gaps.setdefault((listing[0]["id"], title_key(v["title"])), {
                 "src": listing[0]["id"], "co": v["co"], "title": v["title"], "loc": v.get("loc"),
                 "url": v["url"], "via": v["ats"]})
@@ -1746,6 +1873,15 @@ def main():
             s["_last"] = meta["searches"].get(s["id"], {})
     closed = [c for c in load(os.path.join(OUT, PREFIX + "closed.json"), {"items": []}).get("items", [])
               if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
+    # every closure, also of postings outside recent/open.json, for the readers of candidates.json;
+    # the long descriptions live only there (not in the state) and are carried over between runs
+    prev = load(os.path.join(OUT, "candidates.json"), {}) if PROFILE != "phd" else {}
+    closed_all = [c for c in prev.get("closed", []) if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
+    descs = {c["key"]: c["desc"] for c in prev.get("items", []) if c.get("desc") and c.get("ats") != "watch"}
+    # the run that switched to the wide filter: what it reveals is backlog, not news
+    widen = PROFILE != "phd" and "wide_since" not in meta
+    if widen:
+        meta["wide_since"] = NOW_ISO
 
     known = set(jobs)
     has_detail = {k for k, v in jobs.items() if v.get("det")}
@@ -1811,7 +1947,7 @@ def main():
                     e.update({x: r[x] for x in ("country", "dept", "deadline", "salary", "level", "apply_url",
                                                 "dup_of") if r.get(x)})
                     e["first_seen"] = NOW_ISO
-                    if baseline:
+                    if baseline or (widen and not board and not r.get("ml", True)):
                         e["baseline"] = True
                     n_new += 1
                     jobs[k] = e
@@ -1828,11 +1964,19 @@ def main():
                         e["posted"] = r["posted"]
                     e.update({x: r[x] for x in ("deadline", "salary") if r.get(x)})
                 e["last_seen"] = NOW_ISO
+                e["ml"] = r.get("ml", True)
                 if desc_full:
                     e["det"] = True
-                    if days_since(e["first_seen"]) <= RECENT_DAYS and not e.get("desc"):
+                    if days_since(e["first_seen"]) <= RECENT_DAYS and not e.get("desc") and e["ml"]:
                         e["desc"] = summarize(desc_full)
                         e["signals"] = signals(desc_full)
+                    if not e.get("baseline") and days_since(e["first_seen"]) <= DESC_DAYS:
+                        descs[k] = (desc_full[:DESC_MAX].rsplit(" ", 1)[0] + " …"
+                                    if len(desc_full) > DESC_MAX else desc_full)
+                    if not e.get("card"):
+                        assess(e, desc_full)
+                elif "score" not in e:
+                    assess(e, e.get("desc") or "")
             st["new"] = n_new
             new_total += n_new
             n_closed = 0
@@ -1850,7 +1994,9 @@ def main():
                     c = public(v, False)
                     c["closed_at"] = NOW_ISO
                     c["reason"] = "not listed anymore" if complete else f"not seen for {STALE_DAYS}+ days"
-                    closed.append(c)
+                    closed_all.append(c)
+                    if v.get("ml", True):
+                        closed.append(c)
                     del jobs[k]
                     n_closed += 1
             st["closed"] = n_closed
@@ -1861,6 +2007,7 @@ def main():
     # a posting dropped by one source but still listed by another (Google and DeepMind) is not closed
     open_urls = {v.get("url") for v in jobs.values()}
     closed = [c for c in closed if c.get("closed_at") != NOW_ISO or c.get("url") not in open_urls]
+    closed_all = [c for c in closed_all if c.get("closed_at") != NOW_ISO or c.get("url") not in open_urls]
 
     # forget descriptions of older postings to keep the state small
     for v in jobs.values():
@@ -1879,8 +2026,8 @@ def main():
             out.append(it)
         return out
 
-    def listed(v):
-        return not v.get("dup_of") and (BOARDS_IN_RECENT or v.get("ats") not in BOARDS)
+    def listed(v):   # what the current Radar routine reads: ML titles, no job boards yet
+        return not v.get("dup_of") and v.get("ml", True) and (BOARDS_IN_RECENT or v.get("ats") not in BOARDS)
 
     recent = [public(v, True) for v in jobs.values()
               if days_since(v.get("first_seen", "")) <= RECENT_DAYS and listed(v)]
@@ -1909,11 +2056,20 @@ def main():
     save(os.path.join(OUT, PREFIX + "open.json"), {"generated": NOW_ISO, "count": len(open_), "items": open_})
     save(os.path.join(OUT, PREFIX + "closed.json"), {"generated": NOW_ISO, "days": CLOSED_DAYS,
                                            "count": len(closed), "items": closed})
+    n_cand = None
+    if PROFILE != "phd":
+        cands = dedupe([candidate(v, descs) for v in jobs.values() if not v.get("dup_of")])
+        cands.sort(key=lambda c: c.get("first_seen") or "", reverse=True)
+        cands.sort(key=lambda c: c.get("score") or 0, reverse=True)
+        n_cand = len(cands)
+        save(os.path.join(OUT, "candidates.json"), {
+            "generated": NOW_ISO, "count": n_cand, "desc_days": DESC_DAYS, "closed_days": CLOSED_DAYS,
+            "items": cands, "closed": closed_all})
     save(os.path.join(OUT, PREFIX + "status.json"), {
         "run_at": NOW_ISO, "duration_s": round(time.time() - t0),
         "sources": len(statuses), "failed": failed, "new": new_total,
-        "open": len(open_), "recent": len(recent), "warnings": warnings, "coverage": coverage,
-        "details": statuses})
+        "open": len(open_), "recent": len(recent), "candidates": n_cand, "warnings": warnings,
+        "coverage": coverage, "details": statuses})
     print(f"done in {round(time.time() - t0)}s · sources {len(statuses)} · failed {len(failed)} "
           f"· new {new_total} · open {len(open_)}")
     for w in warnings:
