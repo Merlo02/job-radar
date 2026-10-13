@@ -1,11 +1,18 @@
 {
- "run_at": "2026-10-13T08:21:13Z",
- "duration_s": 225,
+ "run_at": "2026-10-13T11:26:12Z",
+ "duration_s": 267,
  "sources": 6,
  "failed": [],
- "new": 16,
- "open": 101,
- "recent": 101,
+ "new": 0,
+ "open": 99,
+ "recent": 99,
+ "warnings": [],
+ "coverage": {
+  "board_postings": 0,
+  "known_companies": 0,
+  "duplicates": 0,
+  "gaps": []
+ },
  "details": [
   {
    "id": "at-nl",
@@ -16,8 +23,8 @@
    "matched": 34,
    "complete": false,
    "details": 0,
-   "secs": 224.6,
-   "new": 10,
+   "secs": 267.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -29,7 +36,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.0,
+   "secs": 3.2,
    "new": 0,
    "closed": 0
   },
@@ -41,23 +48,23 @@
    "raw": 125,
    "matched": 20,
    "complete": true,
-   "details": 1,
-   "secs": 1.6,
-   "new": 1,
-   "closed": 2
+   "details": 0,
+   "secs": 1.0,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 33,
-   "matched": 12,
+   "raw": 31,
+   "matched": 10,
    "complete": true,
    "details": 0,
-   "secs": 2.9,
-   "new": 4,
-   "closed": 1
+   "secs": 3.2,
+   "new": 0,
+   "closed": 2
   },
   {
    "id": "ugent-phd",
@@ -67,10 +74,10 @@
    "raw": 9,
    "matched": 5,
    "complete": true,
-   "details": 1,
-   "secs": 2.1,
-   "new": 1,
-   "closed": 1
+   "details": 0,
+   "secs": 0.8,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "uzh-phd",
@@ -81,9 +88,9 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.9,
    "new": 0,
-   "closed": 1
+   "closed": 0
   }
  ]
 }

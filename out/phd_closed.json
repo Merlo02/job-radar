@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T08:21:13Z",
+ "generated": "2026-10-13T11:26:12Z",
  "days": 14,
- "count": 5,
+ "count": 7,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -91,6 +91,40 @@
    "dept": "Chemical & Biochemical Process Technology & Control (BioTec+), Ghent and Aalst Campuses",
    "deadline": "2026-10-12",
    "closed_at": "2026-10-13T08:21:13Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "kuleuven-phd:60768255",
+   "co": "KU Leuven",
+   "big": true,
+   "title": "Inclusive Digital Learning for Frontline Health and Agriculture Extension in Southern Ethiopia",
+   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60768255?lang=en",
+   "loc": "Leuven",
+   "loc_status": "eu",
+   "first_seen": "2026-10-13T08:21:13Z",
+   "last_seen": "2026-10-13T08:21:13Z",
+   "ats": "kuleuven",
+   "country": "be",
+   "dept": "Engineering Technology Education Research (ETHER), Group T Leuven Campus",
+   "deadline": "2026-11-16",
+   "closed_at": "2026-10-13T11:26:12Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "kuleuven-phd:60770661",
+   "co": "KU Leuven",
+   "big": true,
+   "title": "PhD position in AI and multimodal digital liver pathology",
+   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60770661?lang=en",
+   "loc": "Leuven",
+   "loc_status": "eu",
+   "first_seen": "2026-10-13T08:21:13Z",
+   "last_seen": "2026-10-13T08:21:13Z",
+   "ats": "kuleuven",
+   "country": "be",
+   "dept": "Translational Cell & Tissue Research",
+   "deadline": "2026-11-17",
+   "closed_at": "2026-10-13T11:26:12Z",
    "reason": "not listed anymore"
   }
  ]
