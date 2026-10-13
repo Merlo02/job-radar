@@ -10,5 +10,12 @@ Gira ogni notte su GitHub Actions e salva i risultati in `out/`:
 - `out/closed.json` – annunci spariti negli ultimi 14 giorni
 - `out/status.json` – esito di ogni fonte nell'ultimo giro
 
+Con lo stesso giro lo scanner legge anche i dottorati (`phd_sources.json`: ETH, UZH, EPFL,
+AcademicTransfer per tutte le università olandesi, KU Leuven, Ghent) e scrive `out/phd_recent.json`,
+`out/phd_open.json`, `out/phd_closed.json` e `out/phd_status.json`. Si lancia a mano con
+`SCAN_PROFILE=phd python scan.py`.
+
 Le fonti sono in `sources.json`, i filtri (titolo e località) in cima a `scan.py`.
 Per lanciarlo a mano: tab **Actions** → **Job scanner** → **Run workflow**.
+
+Per chi ci lavora con Claude Code: regole in `CLAUDE.md`, piano in corso in `docs/PLAN.md`.

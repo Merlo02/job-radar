@@ -7,7 +7,7 @@ on:
   workflow_dispatch:        # "Run workflow" button
   push:
     branches: [main]
-    paths: ["scan.py", "sources.json", ".github/workflows/scan.yml"]
+    paths: ["scan.py", "sources.json", "phd_sources.json", ".github/workflows/scan.yml"]
 
 permissions:
   contents: write
@@ -29,6 +29,8 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scan.py
+      - name: PhD positions (phd_sources.json -> out/phd_*.json)
+        run: SCAN_PROFILE=phd python scan.py || echo "PhD scan failed, job results are still saved"
       - name: Save results
         run: |
           git config user.name "job-scanner"

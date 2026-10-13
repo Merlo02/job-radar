@@ -1,0 +1,7 @@
+# Dati personali: mai su GitHub (la repo è pubblica)
+private/
+career-ops/
+.env
+
+__pycache__/
+*.pyc

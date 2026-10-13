@@ -1,0 +1,89 @@
+{
+ "run_at": "2026-10-06T10:39:03Z",
+ "duration_s": 225,
+ "sources": 6,
+ "failed": [],
+ "new": 9,
+ "open": 90,
+ "recent": 90,
+ "details": [
+  {
+   "id": "at-nl",
+   "co": "AcademicTransfer",
+   "type": "academictransfer",
+   "ok": true,
+   "raw": 48,
+   "matched": 28,
+   "complete": false,
+   "details": 0,
+   "secs": 224.6,
+   "new": 0,
+   "closed": 0
+  },
+  {
+   "id": "epfl-phd",
+   "co": "EPFL",
+   "type": "sf_rss",
+   "ok": true,
+   "raw": 30,
+   "matched": 6,
+   "complete": false,
+   "details": 0,
+   "secs": 4.0,
+   "new": 0,
+   "closed": 0
+  },
+  {
+   "id": "ethz-phd",
+   "co": "ETH Zurich",
+   "type": "ethz",
+   "ok": true,
+   "raw": 117,
+   "matched": 21,
+   "complete": true,
+   "details": 0,
+   "secs": 1.1,
+   "new": 0,
+   "closed": 0
+  },
+  {
+   "id": "kuleuven-phd",
+   "co": "KU Leuven",
+   "type": "kuleuven",
+   "ok": true,
+   "raw": 30,
+   "matched": 9,
+   "complete": true,
+   "details": 0,
+   "secs": 2.0,
+   "new": 9,
+   "closed": 0
+  },
+  {
+   "id": "ugent-phd",
+   "co": "Ghent University",
+   "type": "ugent",
+   "ok": true,
+   "raw": 8,
+   "matched": 5,
+   "complete": true,
+   "details": 0,
+   "secs": 1.4,
+   "new": 0,
+   "closed": 0
+  },
+  {
+   "id": "uzh-phd",
+   "co": "Università di Zurigo (UZH)",
+   "type": "prospective",
+   "ok": true,
+   "raw": 119,
+   "matched": 3,
+   "complete": true,
+   "details": 0,
+   "secs": 2.9,
+   "new": 0,
+   "closed": 0
+  }
+ ]
+}
