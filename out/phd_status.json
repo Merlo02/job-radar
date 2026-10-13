@@ -1,11 +1,11 @@
 {
- "run_at": "2026-10-13T11:26:12Z",
- "duration_s": 267,
+ "run_at": "2026-10-13T12:14:50Z",
+ "duration_s": 244,
  "sources": 6,
  "failed": [],
- "new": 0,
- "open": 99,
- "recent": 99,
+ "new": 3,
+ "open": 102,
+ "recent": 102,
  "warnings": [],
  "coverage": {
   "board_postings": 0,
@@ -23,7 +23,7 @@
    "matched": 34,
    "complete": false,
    "details": 0,
-   "secs": 267.2,
+   "secs": 243.8,
    "new": 0,
    "closed": 0
   },
@@ -36,7 +36,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.2,
+   "secs": 4.1,
    "new": 0,
    "closed": 0
   },
@@ -45,12 +45,12 @@
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 125,
-   "matched": 20,
+   "raw": 127,
+   "matched": 21,
    "complete": true,
-   "details": 0,
-   "secs": 1.0,
-   "new": 0,
+   "details": 1,
+   "secs": 1.6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -58,13 +58,13 @@
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 31,
-   "matched": 10,
+   "raw": 34,
+   "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 3.2,
-   "new": 0,
-   "closed": 2
+   "secs": 2.8,
+   "new": 2,
+   "closed": 0
   },
   {
    "id": "ugent-phd",
@@ -75,7 +75,7 @@
    "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 2.3,
    "new": 0,
    "closed": 0
   },
@@ -88,7 +88,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 2.0,
    "new": 0,
    "closed": 0
   }
