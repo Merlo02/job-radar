@@ -1,5 +1,60 @@
 [
  {
+  "id": "amazon",
+  "co": "Amazon",
+  "target": "amazon",
+  "big": true,
+  "type": "amazon",
+  "aliases": [
+   "AWS",
+   "Amazon Web Services"
+  ]
+ },
+ {
+  "id": "apple",
+  "co": "Apple",
+  "target": "apple",
+  "big": true,
+  "type": "apple"
+ },
+ {
+  "id": "meta",
+  "co": "Meta",
+  "target": "meta",
+  "big": true,
+  "type": "meta",
+  "doc_id": "27506805582236862",
+  "aliases": [
+   "Meta Platforms",
+   "Facebook"
+  ]
+ },
+ {
+  "id": "ibm",
+  "co": "IBM",
+  "target": "ibm",
+  "big": true,
+  "type": "ibm"
+ },
+ {
+  "id": "netflix",
+  "co": "Netflix",
+  "target": null,
+  "big": true,
+  "type": "eightfold",
+  "host": "explore.jobs.netflix.net",
+  "domain": "netflix.com",
+  "api": "v2"
+ },
+ {
+  "id": "stripe",
+  "co": "Stripe",
+  "target": null,
+  "big": true,
+  "type": "greenhouse",
+  "board": "stripe"
+ },
+ {
   "id": "roche",
   "co": "Roche",
   "target": "roche",
@@ -7,7 +62,12 @@
   "type": "workday",
   "host": "roche.wd3.myworkdayjobs.com",
   "tenant": "roche",
-  "site": "roche-ext"
+  "site": "roche-ext",
+  "aliases": [
+   "F. Hoffmann-La Roche",
+   "Hoffmann-La Roche",
+   "Genentech"
+  ]
  },
  {
   "id": "novartis",
@@ -197,7 +257,11 @@
   "type": "workday",
   "host": "disney.wd5.myworkdayjobs.com",
   "tenant": "disney",
-  "site": "disneycareer"
+  "site": "disneycareer",
+  "aliases": [
+   "The Walt Disney Company",
+   "Walt Disney"
+  ]
  },
  {
   "id": "healthineers",
@@ -529,6 +593,9 @@
    "computer vision",
    "PhD",
    "research engineer"
+  ],
+  "aliases": [
+   "Robert Bosch"
   ]
  },
  {
@@ -587,7 +654,10 @@
   "big": true,
   "type": "teamtailor",
   "host": "huaweitechnologiesitalia.teamtailor.com",
-  "loc_default": "Italy"
+  "loc_default": "Italy",
+  "aliases": [
+   "Huawei"
+  ]
  },
  {
   "id": "huawei-zrc",
@@ -596,7 +666,10 @@
   "big": true,
   "type": "teamtailor",
   "host": "careers.huaweirc.ch",
-  "loc_default": "Zurich, Switzerland"
+  "loc_default": "Zurich, Switzerland",
+  "aliases": [
+   "Huawei"
+  ]
  },
  {
   "id": "huawei-de",
@@ -605,7 +678,10 @@
   "big": true,
   "type": "teamtailor",
   "host": "huaweiresearchcentergermanyaustria.teamtailor.com",
-  "loc_default": "Germany"
+  "loc_default": "Germany",
+  "aliases": [
+   "Huawei"
+  ]
  },
  {
   "id": "kaiko",
@@ -634,14 +710,10 @@
   "host": "apply.careers.microsoft.com",
   "domain": "microsoft.com",
   "queries": [
-   "machine learning",
-   "research",
-   "artificial intelligence",
-   "applied scientist",
-   "data scientist",
-   "computer vision",
-   "deep learning"
-  ]
+   ""
+  ],
+  "locations": "europe",
+  "pages": 30
  },
  {
   "id": "ericsson",
@@ -961,7 +1033,7 @@
   ]
  },
  {
-  "id": "google-zrh",
+  "id": "google-eu",
   "co": "Google",
   "target": "deepmind",
   "big": true,
@@ -969,157 +1041,24 @@
   "params": [
    [
     "location",
-    "Zurich, Switzerland"
+    "Europe"
    ],
    [
     "sort_by",
     "date"
    ]
   ],
-  "pages": 6
- },
- {
-  "id": "google-muc",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Munich, Germany"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-ber",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Berlin, Germany"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-par",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Paris, France"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-mil",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Milan, Italy"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-ams",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Amsterdam, Netherlands"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-lon",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "London, UK"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-dub",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Dublin, Ireland"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
-  ]
- },
- {
-  "id": "google-war",
-  "co": "Google",
-  "target": "deepmind",
-  "big": true,
-  "type": "google",
-  "pages": 4,
-  "params": [
-   [
-    "location",
-    "Warsaw, Poland"
-   ],
-   [
-    "sort_by",
-    "date"
-   ]
+  "pages": 40,
+  "absorbs": [
+   "google-zrh",
+   "google-muc",
+   "google-ber",
+   "google-par",
+   "google-mil",
+   "google-ams",
+   "google-lon",
+   "google-dub",
+   "google-war"
   ]
  },
  {
@@ -1138,7 +1077,10 @@
     "date"
    ]
   ],
-  "pages": 8
+  "pages": 8,
+  "aliases": [
+   "DeepMind"
+  ]
  },
  {
   "id": "mckinsey",
@@ -1271,5 +1213,149 @@
   "type": "watch",
   "url": "https://studios.disneyresearch.com/",
   "loc_default": "Zurich, Switzerland"
+ },
+ {
+  "id": "nxp",
+  "co": "NXP Semiconductors",
+  "target": null,
+  "big": true,
+  "type": "workday",
+  "host": "nxp.wd3.myworkdayjobs.com",
+  "tenant": "nxp",
+  "site": "careers"
+ },
+ {
+  "id": "arm",
+  "co": "Arm",
+  "target": null,
+  "big": true,
+  "type": "radancy",
+  "host": "careers.arm.com"
+ },
+ {
+  "id": "continental",
+  "co": "Continental",
+  "target": null,
+  "big": true,
+  "type": "smartrecruiters",
+  "company": "continental"
+ },
+ {
+  "id": "adyen",
+  "co": "Adyen",
+  "target": null,
+  "big": true,
+  "type": "greenhouse",
+  "board": "adyen"
+ },
+ {
+  "id": "deepl",
+  "co": "DeepL",
+  "target": null,
+  "big": true,
+  "type": "ashby",
+  "board": "DeepL"
+ },
+ {
+  "id": "owkin",
+  "co": "Owkin",
+  "target": "owkin",
+  "big": false,
+  "type": "ashby",
+  "board": "owkin"
+ },
+ {
+  "id": "cradle",
+  "co": "Cradle",
+  "target": null,
+  "big": false,
+  "type": "ashby",
+  "board": "cradlebio"
+ },
+ {
+  "id": "aignostics",
+  "co": "Aignostics",
+  "target": null,
+  "big": false,
+  "type": "teamtailor",
+  "host": "aignostics.teamtailor.com",
+  "loc_default": "Berlin, Germany"
+ },
+ {
+  "id": "linkedin",
+  "co": "LinkedIn",
+  "type": "jobspy",
+  "site": "linkedin",
+  "locations": [
+   "Europe"
+  ],
+  "hours_first": 24,
+  "hours_min": 24,
+  "hours_max": 96,
+  "search_min": 45,
+  "budget_min": 70,
+  "max_detail": 400,
+  "keep_days": 30,
+  "queries": [
+   "\"research engineer\" OR \"research scientist\" OR \"AI researcher\" OR \"machine learning researcher\" OR \"member of technical staff\"",
+   "\"machine learning engineer\" OR \"ML engineer\" OR \"machine learning scientist\" OR \"ML scientist\" OR \"applied scientist\"",
+   "\"foundation model\" OR \"foundation models\" OR pretraining OR \"pre-training\" OR \"post-training\" OR \"LLM training\"",
+   "\"edge AI\" OR \"embedded machine learning\" OR tinyML OR \"on-device AI\" OR \"model compression\" OR \"neural network quantization\"",
+   "\"computer vision\" OR \"perception engineer\" OR \"signal processing\"",
+   "\"deep learning\"",
+   "(graduate OR \"new grad\" OR \"early career\" OR junior OR trainee) AND (\"machine learning\" OR \"deep learning\" OR \"artificial intelligence\" OR \"data science\")",
+   "\"data scientist\""
+  ]
+ },
+ {
+  "id": "indeed",
+  "co": "Indeed",
+  "type": "jobspy",
+  "site": "indeed",
+  "hours_first": 72,
+  "hours_min": 24,
+  "hours_max": 168,
+  "search_min": 25,
+  "budget_min": 30,
+  "keep_days": 30,
+  "countries": [
+   "austria",
+   "belgium",
+   "denmark",
+   "finland",
+   "france",
+   "germany",
+   "greece",
+   "ireland",
+   "italy",
+   "netherlands",
+   "norway",
+   "poland",
+   "portugal",
+   "romania",
+   "spain",
+   "sweden",
+   "switzerland",
+   "uk"
+  ],
+  "queries": [
+   "research engineer",
+   "research scientist",
+   "machine learning engineer",
+   "deep learning",
+   "machine learning scientist",
+   "applied scientist",
+   "data scientist",
+   "computer vision",
+   "foundation model",
+   "pretraining",
+   "LLM training",
+   "edge AI",
+   "embedded machine learning",
+   "perception engineer",
+   "signal processing machine learning",
+   "AI researcher",
+   "graduate machine learning"
+  ]
  }
 ]

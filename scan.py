@@ -9,13 +9,16 @@ and writes into out/:
   recent.json   postings first seen in the last RECENT_DAYS days, with a description excerpt
   open.json     every matching posting that is currently open (no descriptions)
   closed.json   matching postings that disappeared in the last CLOSED_DAYS days
-  status.json   health of every source in the last run
+  status.json   health of every source in the last run, warnings, coverage check
   state.json    internal memory between runs
 
 With SCAN_PROFILE=phd it reads phd_sources.json instead, keeps funded PhD positions
 (title filter below) and writes the same files with a phd_ prefix (phd_recent.json, ...).
 
-Only the standard library and `requests` are needed.
+The job boards (LinkedIn, Indeed) also need python-jobspy; their postings are matched against the
+company sources (duplicates dropped, postings a company source missed listed in status.json).
+
+Needs `requests`, plus `python-jobspy` for the job boards.
 """
 import concurrent.futures as cf
 import datetime as dt
@@ -24,13 +27,15 @@ import hashlib
 import html as htmlmod
 import json
 import os
+import random
 import re
 import sys
 import threading
 import time
 import traceback
+import unicodedata
 import xml.etree.ElementTree as ET
-from urllib.parse import quote, urljoin, urlsplit, urlunsplit
+from urllib.parse import quote, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 
@@ -61,13 +66,14 @@ QUERIES = [
 ]
 
 # ---------------------------------------------------------------- title filter
+# Acronyms are matched in capitals only: "ai" is an Italian word ("cameriera ai piani").
 INCLUDE = re.compile(
-    r"machine[- ]?learning|\bML\b|\bMLE\b|deep[- ]?learning|\bAI\b|\bA\.I\.|\bGenAI\b|\bgen ?ai\b|"
+    r"machine[- ]?learning|(?-i:\bML\b|\bMLE\b|\bAI\b|\bKI\b|\bIA\b)|deep[- ]?learning|\bA\.I\.|\bgen ?ai\b|"
     r"artificial intelligence|intelligenza artificiale|intelligence artificielle|"
-    r"k(?:ü|ue)nstliche intelligenz|\bKI\b|\bIA\b|"
+    r"k(?:ü|ue)nstliche intelligenz|"
     r"research (?:engineer|scientist|fellow|software engineer|associate)|"
     r"applied (?:scientist|research|ml)|data scien|computer vision|\bvision\b|perception|"
-    r"algorithm|signal processing|\bDSP\b|\bLLMs?\b|language model|\bNLP\b|natural language|"
+    r"algorithm|signal processing|(?-i:\bDSP\b|\bLLMs?\b|\bNLP\b)|language model|natural language|"
     r"generative|foundation model|reinforcement learning|neural|robot learning|"
     r"technical staff|machine vision|image processing|computational imaging|"
     r"autonomous|autonomy|speech|multimodal|multi-modal|agentic",
@@ -241,7 +247,7 @@ def extra_chain(host):
     return path
 
 
-def http(method, url, *, json_body=None, headers=None, expect="json", tries=3, delay=0.35):
+def http(method, url, *, json_body=None, data=None, headers=None, expect="json", tries=3, delay=0.35):
     last = None
     host = urlsplit(url).hostname
     verify = _CHAINS.get(host, True)
@@ -249,12 +255,13 @@ def http(method, url, *, json_body=None, headers=None, expect="json", tries=3, d
         try:
             time.sleep(delay)
             try:
-                r = session().request(method, url, json=json_body, headers=headers, timeout=40, verify=verify)
+                r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40, verify=verify)
             except requests.exceptions.SSLError:
                 if verify is not True:
                     raise
                 verify = extra_chain(host)
-                r = session().request(method, url, json=json_body, headers=headers, timeout=40, verify=verify)
+                r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40,
+                                      verify=verify)
             if r.status_code in (404, 410):
                 raise Gone(f"{r.status_code} {url}")
             if r.status_code == 429 or r.status_code >= 500:
@@ -339,6 +346,12 @@ def to_date(x):
         m = re.match(r"(\d{4}-\d{2}-\d{2})", s)
         if m:
             return m.group(1)
+        s = re.sub(r"\s+", " ", s)
+        for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %b %Y", "%d %B %Y"):
+            try:
+                return dt.datetime.strptime(s, fmt).date().isoformat()
+            except ValueError:
+                pass
         d = email.utils.parsedate_to_datetime(s)
         return d.date().isoformat()
     except Exception:
@@ -635,36 +648,45 @@ def sf_rss_list(src):
 
 
 def eightfold_list(src):
+    """Keyword searches, or with "locations" and an empty query every posting in those places
+    (then the listing is complete)."""
     host, domain = src["host"], src["domain"]
     out = {}
     mode = src.get("api", "pcsx")
-    for q in queries_for(src):
-        for page in range(src.get("pages", 5)):
-            start = page * 10
-            positions = None
-            if mode == "pcsx":
-                try:
-                    data = http("GET", f"https://{host}/api/pcsx/search?domain={domain}&query={quote(q)}"
-                                       f"&location=&start={start}&sort_by=timestamp")
-                    positions = (data.get("data") or {}).get("positions") or []
-                except (RuntimeError, Gone):
-                    mode = "v2"
-            if mode == "v2":
-                data = http("GET", f"https://{host}/api/apply/v2/jobs?domain={domain}&start={start}"
-                                   f"&num=10&query={quote(q)}&sort_by=timestamp")
-                positions = data.get("positions") or []
-            hits = 0
-            for p in positions:
-                locs = p.get("standardizedLocations") or p.get("locations") or [p.get("location", "")]
-                loc = "; ".join(dict.fromkeys(list(p.get("locations") or []) + list(locs)))
-                purl = p.get("positionUrl") or p.get("canonicalPositionUrl") or f"/careers/job/{p['id']}"
-                r = rec(src, p["id"], p.get("name"), urljoin(f"https://{host}", purl), loc,
-                        p.get("postedTs") or p.get("t_create") or p.get("creationTs"), _mode=mode)
-                out[r["key"]] = r
-                hits += title_ok(r["title"])
-            if len(positions) < 10 or (page >= 1 and hits == 0):
-                break
-    return list(out.values()), False
+    queries, locations = queries_for(src), src.get("locations") or [""]
+    if locations == "europe":
+        locations = EUROPE_COUNTRIES
+    capped = False
+    for q in queries:
+        for where in locations:
+            for page in range(src.get("pages", 5)):
+                start = page * 10
+                positions = None
+                if mode == "pcsx":
+                    try:
+                        data = http("GET", f"https://{host}/api/pcsx/search?domain={domain}&query={quote(q)}"
+                                           f"&location={quote(where)}&start={start}&sort_by=timestamp")
+                        positions = (data.get("data") or {}).get("positions") or []
+                    except (RuntimeError, Gone):
+                        mode = "v2"
+                if mode == "v2":
+                    data = http("GET", f"https://{host}/api/apply/v2/jobs?domain={domain}&start={start}"
+                                       f"&num=10&query={quote(q)}&location={quote(where)}&sort_by=timestamp")
+                    positions = data.get("positions") or []
+                hits = 0
+                for p in positions:
+                    locs = p.get("standardizedLocations") or p.get("locations") or [p.get("location", "")]
+                    loc = "; ".join(dict.fromkeys(list(p.get("locations") or []) + list(locs)))
+                    purl = p.get("positionUrl") or p.get("canonicalPositionUrl") or f"/careers/job/{p['id']}"
+                    r = rec(src, p["id"], p.get("name"), urljoin(f"https://{host}", purl), loc,
+                            p.get("postedTs") or p.get("t_create") or p.get("creationTs"), _mode=mode)
+                    out[r["key"]] = r
+                    hits += title_ok(r["title"])
+                if len(positions) < 10 or (q and page >= 1 and hits == 0):
+                    break
+            else:
+                capped = True
+    return list(out.values()), queries == [""] and src.get("locations") and not capped
 
 
 def eightfold_detail(src, r):
@@ -787,7 +809,9 @@ def radancy_list(src):
             href, inner = m.group(1), m.group(2)
             t = re.search(r"<h\d[^>]*>(.*?)</h\d>", inner, re.S)
             title = strip_html(t.group(1) if t else inner).split("\n")[0]
-            l = re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</span>', inner, re.S)
+            after = html[m.end():m.end() + 2000].split("<li", 1)[0]   # some sites put it next to the link
+            l = (re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</span>', inner, re.S) or
+                 re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</span>', after, re.S))
             loc = re.sub(r"^\s*location\s*:\s*", "", strip_html(l.group(1)), flags=re.I) if l else ""
             jid = href.rstrip("/").rsplit("/", 1)[-1]
             r = rec(src, jid, title, urljoin(f"https://{host}", href), loc)
@@ -817,7 +841,10 @@ def google_list(src):
                                  if isinstance(x, list) and len(x) > 1 and x[1])
                 posted = j[12][0] if len(j) > 12 and j[12] else None
                 url_j = f"https://www.google.com/about/careers/applications/jobs/results/{j[0]}-{slugify(j[1])}"
-                r = rec(src, j[0], j[1], url_j, loc, posted, desc=desc, company=j[7] if len(j) > 7 else None)
+                company = j[7] if len(j) > 7 else None
+                r = rec(src, j[0], j[1], url_j, loc, posted, desc=desc, company=company)
+                if company == "DeepMind":
+                    r["co"] = "Google DeepMind"
                 out[r["key"]] = r
             except Exception:
                 continue
@@ -861,6 +888,468 @@ def gem_list(src):
                        j.get("first_published_at") or j.get("created_at") or j.get("updated_at"),
                        desc=strip_html(j.get("content") or j.get("content_plain") or "")))
     return out, True
+
+
+AMAZON_EU = ("DEU GBR FRA ESP ITA NLD POL IRL LUX CHE SWE AUT BEL CZE ROU DNK FIN NOR PRT GRC HUN BGR SVK "
+             "EST LTU LVA HRV SVN ISL MLT CYP").split()
+
+
+def amazon_list(src):
+    """amazon.jobs: the public JSON search behind its search page, limited to European countries."""
+    cc = [("normalized_country_code[]", c) for c in src.get("countries") or AMAZON_EU]
+    out = {}
+    for q in queries_for(src):
+        for page in range(src.get("pages", 5)):
+            params = [("base_query", q), ("loc_query", ""), ("sort", "recent"), ("result_limit", "100"),
+                      ("offset", str(page * 100))] + cc
+            data = http("GET", "https://www.amazon.jobs/en/search.json?" + urlencode(params))
+            jobs = data.get("jobs") or []
+            for j in jobs:
+                locs = [j.get("normalized_location") or j.get("location") or ""]
+                for x in j.get("locations") or []:
+                    try:
+                        x = json.loads(x) if isinstance(x, str) else x
+                    except ValueError:
+                        continue
+                    name = x.get("normalizedLocation") or x.get("location")
+                    if name and name not in locs:
+                        locs.append(name)
+                desc = "\n".join(strip_html(j.get(k) or "") for k in
+                                 ("description", "basic_qualifications", "preferred_qualifications"))
+                r = rec(src, j.get("id_icims") or j.get("id"), j.get("title"),
+                        urljoin("https://www.amazon.jobs", j.get("job_path") or ""), "; ".join(x for x in locs if x),
+                        j.get("posted_date"), desc=desc, dept=j.get("job_category") or "")
+                out[r["key"]] = r
+            if len(jobs) < 100:
+                break
+    return list(out.values()), False
+
+
+EUROPE_COUNTRIES = ["Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Czechia", "Denmark", "Estonia",
+          "Finland", "France", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Latvia", "Lithuania",
+          "Luxembourg", "Malta", "Netherlands", "Norway", "Poland", "Portugal", "Romania", "Serbia", "Slovakia",
+          "Slovenia", "Spain", "Sweden", "Switzerland", "United Kingdom"]
+
+
+def ibm_list(src):
+    """IBM: the search API behind ibm.com/careers/search, every posting in a European country. Its job
+    pages sit behind a bot check, so the description is the short summary the API returns."""
+    countries = {"bool": {"should": [{"term": {"field_keyword_05": c}} for c in src.get("countries") or EUROPE_COUNTRIES]}}
+    out, total = {}, None
+    for start in range(0, 3000, 100):
+        body = {"appId": "careers", "scopes": ["careers2"], "query": {"bool": {"must": []}},
+                "post_filter": {"bool": {"must": [countries]}}, "size": 100, "from": start,
+                "sort": [{"dcdate": "desc"}, {"_score": "desc"}], "lang": "zz", "localeSelector": {},
+                "sm": {"query": "", "lang": "zz"},
+                "_source": ["title", "url", "description", "dcdate", "field_keyword_05", "field_keyword_08",
+                            "field_keyword_17", "field_keyword_19"]}
+        data = http("POST", "https://www-api.ibm.com/search/api/v2", json_body=body,
+                    headers={"Content-Type": "application/json", "Accept": "application/json"})
+        hits = (data.get("hits") or {}).get("hits")
+        if hits is None:
+            raise RuntimeError(f"IBM: unexpected answer {str(data)[:200]}")
+        total = ((data.get("hits") or {}).get("total") or {}).get("value")
+        for h in hits:
+            s = h.get("_source") or {}
+            m = re.search(r"jobId=(\d+)", s.get("url") or "")
+            loc = ", ".join(x for x in [s.get("field_keyword_19"), s.get("field_keyword_05")] if x)
+            if s.get("field_keyword_17"):
+                loc += f" · {s['field_keyword_17']}"
+            r = rec(src, m.group(1) if m else h.get("_id"), s.get("title"), s.get("url"), loc, s.get("dcdate"),
+                    desc=strip_html(s.get("description")), dept=s.get("field_keyword_08") or "")
+            out[r["key"]] = r
+        if len(hits) < 100:
+            break
+    return list(out.values()), bool(total) and len(out) >= total
+
+
+APPLE_EU = ["CHEC", "GBR", "DEU", "FRAC", "ITAC", "IRL", "ESPC", "NLD", "SWEC", "DNK", "FINC", "NORC", "POL",
+            "AUT", "BELC", "CZE", "PRTC", "HUNC", "ROMC", "GRCC", "LUXC"]
+
+
+def router_data(html):
+    """loaderData of a React Router page (window.__staticRouterHydrationData)."""
+    m = re.search(r'__staticRouterHydrationData\s*=\s*JSON\.parse\(("(?:[^"\\]|\\.)*")\)', html)
+    if not m:
+        raise RuntimeError("hydration data not found")
+    return json.loads(json.loads(m.group(1))).get("loaderData") or {}
+
+
+def apple_list(src):
+    """jobs.apple.com: the JSON search its search page calls, with the CSRF token the site hands out.
+    A search stops after 15 pages (300 roles), so there is one search per country."""
+    s = session()
+    s.get("https://jobs.apple.com/en-gb/search", timeout=40)
+    tok = s.get("https://jobs.apple.com/api/v1/CSRFToken", timeout=40).headers.get("x-apple-csrf-token")
+    if not tok:
+        raise RuntimeError("Apple: no CSRF token")
+    hdr = {"x-apple-csrf-token": tok, "Content-Type": "application/json", "Accept": "application/json"}
+    out, complete = {}, True
+    for code in src.get("countries") or APPLE_EU:
+        total = 0
+        for page in range(1, 16):
+            body = {"query": "", "filters": {"locations": [f"postLocation-{code}"]}, "page": page,
+                    "locale": "en-gb", "sort": "newest",
+                    "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}}
+            for attempt in range(4):   # now and then a search comes back empty for no reason: ask again
+                res = (http("POST", "https://jobs.apple.com/api/v1/search", json_body=body, headers=hdr)
+                       .get("res") or {})
+                jobs = res.get("searchResults") or []
+                if jobs or (page > 1 and (page - 1) * 20 >= total) or (page == 1 and attempt == 2):
+                    break
+                time.sleep(3 * (attempt + 1))
+            else:
+                complete = False
+            total = max(total, res.get("totalRecords") or 0)
+            for j in jobs:
+                locs = j.get("locations") or []
+                loc = "; ".join(dict.fromkeys(l.get("name") or "" for l in locs))
+                country = next((l.get("countryName") for l in locs if l.get("countryName")), "")
+                if country and country not in loc:
+                    loc += f" ({country})"
+                jid = j.get("positionId") or j.get("id")
+                url = f"https://jobs.apple.com/en-gb/details/{j.get('jobPositionId', jid).replace('PIPE-', '')}"
+                if j.get("transformedPostingTitle"):
+                    url += "/" + j["transformedPostingTitle"]
+                r = rec(src, jid, j.get("postingTitle"), url, loc, j.get("postDateInGMT"),
+                        dept=(j.get("team") or {}).get("teamName") or "")
+                out[r["key"]] = r
+            if len(jobs) < 20:
+                break
+            if page == 15:
+                complete = False
+    return list(out.values()), complete
+
+
+def apple_detail(src, r):
+    d = (router_data(http("GET", r["url"], expect="text")).get("jobDetails") or {}).get("jobsData") or {}
+    if not d.get("postingTitle"):
+        raise Gone(r["url"])
+    r["desc_full"] = "\n".join(strip_html(d.get(k) or "") for k in
+                               ("jobSummary", "description", "minimumQualifications", "preferredQualifications"))
+    if d.get("lowJobTitle") or d.get("highJobTitle"):
+        r["level"] = " – ".join(dict.fromkeys(x for x in (d.get("lowJobTitle"), d.get("highJobTitle")) if x))
+    if d.get("jobNumber"):
+        r["url"] = re.sub(r"/details/[^/]+", f"/details/{d['jobNumber']}", r["url"])
+
+
+BROWSER = {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+           "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none",
+           "Sec-Fetch-User": "?1", "Upgrade-Insecure-Requests": "1"}
+META_OP = "CareersJobSearchResultsDataQuery"
+
+
+def meta_find_doc(html):
+    """The id of META_OP, read from the page's scripts (Meta changes it when it redeploys)."""
+    pat = re.compile(META_OP + r'_candidate_portalRelayOperation",\[\],\(function\([^)]*\)\{a\.exports="(\d+)"')
+    urls = dict.fromkeys(u.replace("\\/", "/") for u in
+                         re.findall(r'https:\\?/\\?/static\.xx\.fbcdn\.net\\?/rsrc\.php\\?/[^"]+?\.js', html))
+    for u in urls:
+        m = pat.search(http("GET", u, expect="text", delay=0))
+        if m:
+            return m.group(1)
+    raise RuntimeError(f"Meta: {META_OP} not found in {len(urls)} scripts")
+
+
+def meta_list(src):
+    """metacareers.com: the GraphQL query its search page runs, which returns every open role at
+    once. It needs the page's LSD token and the query id (doc_id in sources.json)."""
+    html = http("GET", "https://www.metacareers.com/jobsearch/", headers=BROWSER, expect="text")
+    m = re.search(r'"LSD",\[\],\{"token":"([^"]+)"', html)
+    if not m:
+        raise RuntimeError("Meta: LSD token not found")
+    lsd = m.group(1)
+    search = {"q": "", "divisions": [], "offices": [], "roles": [], "leadership_levels": [], "saved_jobs": [],
+              "saved_searches": [], "sub_teams": [], "teams": [], "is_leadership": False,
+              "is_remote_only": False, "sort_by_new": False, "results_per_page": None}
+
+    def ask(doc):
+        form = {"lsd": lsd, "fb_api_caller_class": "RelayModern", "fb_api_req_friendly_name": META_OP,
+                "variables": json.dumps({"isLoggedIn": False, "search_input": search, "viewasUserID": None}),
+                "doc_id": doc, "server_timestamps": "true"}
+        text = http("POST", "https://www.metacareers.com/graphql", data=form, expect="text",
+                    headers={"x-fb-lsd": lsd, "Origin": "https://www.metacareers.com", "Accept": "*/*",
+                             "Referer": "https://www.metacareers.com/jobsearch/", "Sec-Fetch-Site": "same-origin",
+                             "Sec-Fetch-Mode": "cors", "Sec-Fetch-Dest": "empty"})
+        try:
+            d = json.loads(text.split("\n", 1)[0])
+            return d["data"]["job_search_with_featured_jobs"]["all_jobs"]
+        except (ValueError, KeyError, TypeError):
+            return None
+
+    jobs = ask(src["doc_id"]) if src.get("doc_id") else None
+    if jobs is None:
+        doc = meta_find_doc(html)
+        jobs = ask(doc)
+        NOTES[src["id"]] = {"note": f"doc_id is now {doc}: update sources.json"}
+        if jobs is None:
+            raise RuntimeError("Meta: the job search query gave no data")
+    out = []
+    for j in jobs:
+        out.append(rec(src, j["id"], j.get("title"), f"https://www.metacareers.com/jobs/{j['id']}/",
+                       "; ".join(j.get("locations") or []), dept=", ".join(j.get("teams") or [])))
+    return out, True
+
+
+def ld_detail(src, r):
+    """Description from the page's schema.org JobPosting (JSON-LD)."""
+    html = http("GET", r["url"], headers=BROWSER, expect="text")
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S):
+        try:
+            d = json.loads(block)
+        except ValueError:
+            continue
+        d = next((x for x in (d if isinstance(d, list) else [d]) if x.get("@type") == "JobPosting"), None)
+        if not d:
+            continue
+        r["desc_full"] = "\n".join(strip_html(htmlmod.unescape(str(d.get(k) or "")))
+                                   for k in ("description", "responsibilities", "qualifications"))
+        if d.get("datePosted"):
+            r["posted"] = to_date(d["datePosted"])
+        return
+    r["desc_full"] = strip_html(html)[:12000]
+
+
+# ------------------------------------------------------- job boards (JobSpy)
+# LinkedIn (public guest search, no login) and Indeed, through python-jobspy. It is only
+# imported by these two sources, so the rest of the scanner still runs without it.
+_JS, _JS_LOCK = {}, threading.Lock()
+NOTES = {}   # extra per-source facts for status.json, filled by the listers ("_" keys stay internal)
+BOARDS = ("linkedin", "indeed")
+# Postings from the job boards stay out of recent.json / open.json until the Radar routine reads
+# candidates.json (plan, phase 3): the routine reads every new item and they are hundreds a day.
+BOARDS_IN_RECENT = False
+
+
+def jobspy_scraper(site):
+    """One scraper per site, shared by search and detail calls. Its session retries the 429s
+    that LinkedIn hands out every few pages: JobSpy alone stops at the first one."""
+    with _JS_LOCK:
+        if site in _JS:
+            return _JS[site]
+        from jobspy.indeed import Indeed
+        from jobspy.linkedin import LinkedIn
+        from jobspy.util import set_logger_level
+        set_logger_level(1)   # warnings and errors only: no line per result page
+
+        class LinkedInByDate(LinkedIn):
+            delay, band_delay = 4, 4   # pause between result pages: 4-8 s
+
+            def _search_params(self):
+                return {**super()._search_params(), "sortBy": "DD"}
+
+        sc = {"linkedin": LinkedInByDate, "indeed": Indeed}[site]()
+        raw = sc.session.request
+        stats = {"retries": 0, "failed": 0, "cut": 0}
+
+        def request(method, url, **kw):
+            if sc.deadline and time.time() > sc.deadline:
+                stats["cut"] += 1   # JobSpy ends the search (or skips the detail) on this error
+                raise requests.ConnectionError("time budget used up")
+            kw.setdefault("timeout", 30)
+            r = None
+            for i in range(5):
+                try:
+                    r = raw(method, url, **kw)
+                except requests.RequestException:
+                    if i == 4:
+                        raise
+                    time.sleep(5 * (i + 1))
+                    continue
+                if r.status_code != 429 and r.status_code < 500:
+                    return r
+                stats["retries"] += 1
+                time.sleep(12 * (i + 1) + random.uniform(0, 6))
+            stats["failed"] += 1
+            return r
+
+        sc.session.request = request
+        sc.stats, sc.deadline = stats, None
+        _JS[site] = sc
+        return sc
+
+
+def jobspy_list(src):
+    """LinkedIn or Indeed searches. Each search looks back to when it last finished (between
+    hours_min and hours_max; hours_first the first time), so a search left out because the time
+    budget ran out, or a night without a run, is caught up later. Oldest searches go first."""
+    from jobspy.model import Country, DescriptionFormat, ScraperInput
+    site, sid = src["site"], src["id"]
+    sc = jobspy_scraper(site)
+    last = src.get("_last") or {}
+    if site == "linkedin":
+        plan = [(q, loc, None) for q in src["queries"] for loc in src.get("locations") or ["Europe"]]
+    else:
+        plan = [(q, None, c) for c in src["countries"] for q in src["queries"]]
+    names = [f"{q} @ {c or loc}" for q, loc, c in plan]
+    order = sorted(range(len(plan)), key=lambda i: (last.get(names[i], ""), i))
+    t0 = time.time()
+    src["_stop_at"] = t0 + 60 * src.get("budget_min", 60)       # details stop here
+    search_until = t0 + 60 * src.get("search_min", 40)
+    out, done, capped, blocked = {}, {}, [], False
+    sc.deadline = search_until
+    for i in order:
+        if time.time() > search_until:
+            break
+        q, loc, country = plan[i]
+        hours = src.get("hours_first", 24)
+        if names[i] in last:
+            hours = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(
+                last[names[i]].replace("Z", "+00:00"))).total_seconds() / 3600 + 3
+        hours = int(min(max(hours, src.get("hours_min", 24)), src.get("hours_max", 120)))
+        started = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        failed, cut = sc.stats["failed"], sc.stats["cut"]
+        jobs = sc.scrape(ScraperInput(
+            search_term=q, location=loc, hours_old=hours, results_wanted=1000,
+            country=Country.from_string(country) if country else Country.USA,
+            description_format=DescriptionFormat.PLAIN)).jobs
+        if sc.stats["failed"] > failed:
+            blocked = True   # still refused after the retries: the search is partial, stop here
+        elif sc.stats["cut"] == cut:
+            done[names[i]] = started   # a search cut by the time budget is redone next time
+        if len(jobs) >= 990:
+            capped.append(names[i])
+        for j in jobs:
+            jid = (j.id or "").split("-", 1)[-1] or hashlib.md5(j.job_url.encode()).hexdigest()[:12]
+            loc_s = j.location.display_location() if j.location else ""
+            if j.is_remote and "remote" not in loc_s.lower():
+                loc_s += " · remote"
+            r = rec(src, jid, j.title, j.job_url, loc_s, j.date_posted.isoformat() if j.date_posted else None,
+                    desc=j.description, co=(j.company_name or "").strip() or "?", ats=site,
+                    apply_url=j.job_url_direct)
+            out[r["key"]] = r
+        if blocked:
+            break
+    sc.deadline = src["_stop_at"]
+    note = {"searches": f"{len(done)}/{len(plan)}", "retries_429": sc.stats["retries"],
+            "search_min": round((time.time() - t0) / 60, 1), "_done": done}
+    if blocked:
+        note["note"] = f"{site} kept refusing (429): stopped after {len(done)} of {len(plan)} searches"
+    elif len(done) < len(plan):
+        note["note"] = f"time budget used up after {len(done)} of {len(plan)} searches (the rest go first next time)"
+    if capped:
+        note["capped"] = capped   # 1000 results: LinkedIn shows no more, split the search
+    NOTES[sid] = note
+    if not out and not done:
+        raise RuntimeError(f"{site}: no search finished ({sc.stats['retries']} refusals)")
+    return list(out.values()), False
+
+
+def jobspy_detail(src, r):
+    if src["site"] != "linkedin":
+        return
+    dup = COMPANIES.direct_match(r)
+    if dup:
+        r["dup_of"] = dup   # already listed by the company's own adapter: no need for the description
+        return
+    from jobspy.model import DescriptionFormat, ScraperInput
+    sc = jobspy_scraper("linkedin")
+    sc.scraper_input = ScraperInput(description_format=DescriptionFormat.PLAIN)
+    time.sleep(random.uniform(1.5, 3))
+    d = sc._fetch_details(r["id"])
+    if d.get("description"):
+        r["desc_full"] = d["description"]
+    if d.get("job_level"):
+        r["level"] = d["job_level"]
+
+
+# ------------------------------------------------- companies across sources
+CO_DROP = re.compile(r"\b(?:gmbh|ag|se|sa|sas|spa|srl|bv|nv|inc|llc|ltd|limited|plc|corp|corporation|co|kg|oy|ab|"
+                     r"as|group|holding|holdings|company|technologies|international|the)\b")
+GENDER = re.compile(r"\(\s*(?:[a-z]{1,3}\.?\s*[/|,*]\s*){1,3}[a-z]{1,4}\.?\s*\)|\b[mwfdh]\s*/\s*[mwfdhx](?:\s*/\s*[dxi])?\b|"
+                    r"\(?\ball genders?\)?|\(?alle geschlechter\)?|\(?\bany gender\)?")
+PLACE_SYN = {"munchen": "munich", "muenchen": "munich", "zuerich": "zurich", "koln": "cologne", "wien": "vienna",
+             "milano": "milan", "torino": "turin", "roma": "rome", "lisboa": "lisbon", "praha": "prague",
+             "warszawa": "warsaw", "kobenhavn": "copenhagen", "goteborg": "gothenburg", "bruxelles": "brussels",
+             "brussel": "brussels", "geneve": "geneva", "den haag": "the hague", "firenze": "florence",
+             "napoli": "naples", "nurnberg": "nuremberg", "krakow": "krakow", "athina": "athens"}
+
+
+COUNTRY_NAMES = {unicodedata.normalize("NFKD", c).encode("ascii", "ignore").decode().lower() for c in
+                 EUROPE_COUNTRIES + ["uk", "england", "scotland", "wales", "deutschland", "schweiz", "suisse",
+                                     "svizzera", "italia", "espana", "nederland", "the netherlands", "belgique",
+                                     "osterreich", "polska", "sverige", "norge", "danmark", "suomi", "europe",
+                                     "european union", "emea", "european economic area"]}
+
+
+def ascii_low(s):
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def co_key(name):
+    return " ".join(CO_DROP.sub(" ", re.sub(r"[^a-z0-9]+", " ", ascii_low(name))).split())
+
+
+def title_key(t):
+    return " ".join(re.findall(r"[a-z0-9+#]+", GENDER.sub(" ", ascii_low(t))))
+
+
+def same_title(a, b, loose=False):
+    """Same normalised title; loose also accepts one title inside the other ("AI Filmmaker" and
+    "AI Filmmaker (100% Remote Worldwide)"), which is fine to decide that a company lists a role,
+    not to merge two postings."""
+    if a == b:
+        return True
+    a, b = set(a.split()), set(b.split())
+    if loose and min(len(a), len(b)) >= 2 and (a <= b or b <= a):
+        return True
+    return len(a & b) / max(1, len(a | b)) >= 0.75
+
+
+def city(loc):
+    """First place named in a location string, normalised ("Greater London Area" -> "london")."""
+    c = ascii_low(re.split(r"[,;(·|]", loc or "")[0])
+    c = re.sub(r"\b(?:greater|metropolitan|area|region|city of|remote)\b", " ", c)
+    c = " ".join(c.split())
+    return PLACE_SYN.get(c, c)
+
+
+def same_place(board_loc, direct_loc):
+    c = city(board_loc)
+    if not c or loc_status(c) == "unknown" or c in COUNTRY_NAMES:
+        return True
+    d = ascii_low(direct_loc)
+    for k, v in PLACE_SYN.items():
+        d = d.replace(k, v)
+    return c in d or not city(direct_loc)
+
+
+class Companies:
+    """Maps company names seen on the job boards to the sources in sources.json."""
+
+    def __init__(self, sources=(), jobs=None):
+        self.keys = {}
+        for s in sources:
+            if s["type"] == "jobspy":
+                continue
+            parts = re.split(r"\s+/\s+|\s+[–-]\s+|[()]", s["co"]) + list(s.get("aliases") or [])
+            for k in {co_key(p) for p in parts}:
+                if len(k) >= 2:
+                    self.keys.setdefault(k, []).append(s)
+        self.listed = {}   # source id -> its postings, from the state
+        for v in (jobs or {}).values():
+            if v.get("ats") not in BOARDS and v.get("ats") != "watch":
+                self.listed.setdefault(v.get("src"), []).append(v)
+
+    def find(self, name):
+        n, best = co_key(name), ""
+        for k in self.keys:
+            if (n == k or n.startswith(k + " ")) and len(k) > len(best):
+                best = k
+        return self.keys.get(best, [])
+
+    def direct_match(self, r, any_place=False):
+        """Key of the company-site posting this board posting duplicates, if any."""
+        t = title_key(r["title"])
+        for s in self.find(r["co"]):
+            for v in self.listed.get(s["id"], []):
+                if same_title(t, title_key(v.get("title")), loose=any_place) and \
+                        (any_place or same_place(r.get("loc"), v.get("loc"))):
+                    return v["key"]
+        return None
+
+
+COMPANIES = Companies()
 
 
 def links_list(src):
@@ -1079,6 +1568,11 @@ ADAPTERS = {
     "academictransfer": (academictransfer_list, None),
     "ugent": (ugent_list, generic_detail),
     "kuleuven": (kuleuven_list, generic_detail),
+    "amazon": (amazon_list, None),
+    "ibm": (ibm_list, None),
+    "apple": (apple_list, apple_detail),
+    "meta": (meta_list, ld_detail),
+    "jobspy": (jobspy_list, jobspy_detail),
 }
 
 
@@ -1134,7 +1628,7 @@ def run_source(src, known_keys, has_detail):
         for r in matched:
             need = detailer and (r["key"] not in known_keys or r["key"] not in has_detail) and \
                 (not r.get("desc_full") or r["loc_status"] == "unknown" or r.get("_slug_title"))
-            if need and n_detail < src.get("max_detail", MAX_DETAIL):
+            if need and n_detail < src.get("max_detail", MAX_DETAIL) and time.time() < src.get("_stop_at", 1e12):
                 n_detail += 1
                 try:
                     detailer(src, r)
@@ -1151,8 +1645,10 @@ def run_source(src, known_keys, has_detail):
             kept.append(r)
         st.update(ok=True, matched=len(kept), complete=complete, details=n_detail,
                   secs=round(time.time() - t0, 1))
+        st.update({k: v for k, v in NOTES.get(src["id"], {}).items() if not k.startswith("_")})
         return src, kept, complete, st
     except Exception as e:
+        st.update({k: v for k, v in NOTES.get(src["id"], {}).items() if not k.startswith("_")})
         st["error"] = f"{type(e).__name__}: {str(e)[:300]}"
         st["trace"] = traceback.format_exc(limit=3)[-600:]
         st["secs"] = round(time.time() - t0, 1)
@@ -1161,23 +1657,93 @@ def run_source(src, known_keys, has_detail):
 
 def public(e, with_desc):
     keys = ["key", "co", "target", "big", "title", "url", "loc", "loc_status", "posted",
-            "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary"]
+            "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary",
+            "level", "apply_url"]
     if with_desc:
         keys += ["desc", "signals"]
     return {k: e.get(k) for k in keys if e.get(k) not in (None, "")}
 
 
+def migrate(sources, jobs, meta, prune):
+    """Postings of sources merged into another ("absorbs") move to it and keep their first_seen;
+    postings of sources no longer in the file are dropped."""
+    for s in sources:
+        for old in s.get("absorbs") or []:
+            for k in [k for k, v in jobs.items() if v.get("src") == old]:
+                v = jobs.pop(k)
+                nk = f"{s['id']}:{v['id']}"
+                if nk in jobs and jobs[nk].get("first_seen", "") <= v.get("first_seen", ""):
+                    continue
+                v.update(src=s["id"], key=nk)
+                jobs[nk] = v
+            if old in meta["sources_seen"]:
+                meta["sources_seen"].remove(old)
+                if s["id"] not in meta["sources_seen"]:
+                    meta["sources_seen"].append(s["id"])
+            meta["raw_counts"].pop(old, None)
+    if prune:
+        ids = {s["id"] for s in sources}
+        for k in [k for k, v in jobs.items() if v.get("src") not in ids]:
+            del jobs[k]
+
+
+def check_boards(jobs, status):
+    """Job-board postings against the company sources: give them the company's target, mark the
+    ones that repeat a company-site posting (or another board posting) as duplicates, and list
+    the ones a company source should have found but did not (coverage gaps)."""
+    comp = Companies(load(os.path.join(ROOT, PREFIX + "sources.json"), []), jobs)
+    boards = sorted((v for v in jobs.values() if v.get("ats") in BOARDS),
+                    key=lambda v: (v["ats"] != "linkedin", not v.get("det"), v.get("first_seen", "")))
+    seen, gaps, matched = {}, {}, 0
+    for v in boards:
+        v.pop("dup_of", None)
+        srcs = comp.find(v["co"])
+        if srcs:
+            matched += 1
+            v["target"] = next((s["target"] for s in srcs if s.get("target")), None)
+            v["big"] = any(s.get("big") for s in srcs)
+            dup = comp.direct_match(v)
+            if dup:
+                v["dup_of"] = dup
+                continue
+        k = (co_key(v["co"]), title_key(v["title"]), city(v.get("loc")))
+        if k in seen:
+            v["dup_of"] = seen[k]
+            continue
+        seen[k] = v["key"]
+        listing = [s for s in srcs if s["type"] != "watch" and status.get(s["id"], {}).get("ok")]
+        if listing and v.get("last_seen") == NOW_ISO and not comp.direct_match(v, any_place=True):
+            gaps.setdefault((listing[0]["id"], title_key(v["title"])), {
+                "src": listing[0]["id"], "co": v["co"], "title": v["title"], "loc": v.get("loc"),
+                "url": v["url"], "via": v["ats"]})
+    gaps = list(gaps.values())
+    by_src = {}
+    for g in gaps:
+        by_src[g["src"]] = by_src.get(g["src"], 0) + 1
+    for sid, n in by_src.items():
+        if sid in status:
+            status[sid]["coverage_gaps"] = n
+    return {"board_postings": len(boards), "known_companies": matched,
+            "duplicates": sum(1 for v in boards if v.get("dup_of")), "gaps": gaps[:150]}
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
-    sources = load(os.path.join(ROOT, PREFIX + "sources.json"), [])
+    global COMPANIES
+    all_sources = load(os.path.join(ROOT, PREFIX + "sources.json"), [])
     only = set(sys.argv[1:])
-    if only:
-        sources = [s for s in sources if s["id"] in only]
+    sources = [s for s in all_sources if s["id"] in only] if only else all_sources
     state = load(os.path.join(OUT, PREFIX + "state.json"), {"jobs": {}, "meta": {}})
     jobs, meta = state["jobs"], state["meta"]
     meta.setdefault("raw_counts", {})
     meta.setdefault("sources_seen", [])
     meta.setdefault("watch", {})
+    meta.setdefault("searches", {})
+    migrate(all_sources, jobs, meta, prune=not only)
+    COMPANIES = Companies(all_sources, jobs)
+    for s in sources:
+        if s["type"] == "jobspy":
+            s["_last"] = meta["searches"].get(s["id"], {})
     closed = [c for c in load(os.path.join(OUT, PREFIX + "closed.json"), {"items": []}).get("items", [])
               if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
 
@@ -1194,6 +1760,10 @@ def main():
             if recs is None:
                 continue
             baseline = sid not in meta["sources_seen"]
+            board = src["type"] == "jobspy"
+            if board:   # the boards only return recent postings: nothing to hold back as "baseline"
+                meta["searches"].setdefault(sid, {}).update(NOTES.get(sid, {}).get("_done", {}))
+                baseline = False
             if src["type"] == "watch":
                 text = recs[0]["_watch_text"]
                 lines = [l.strip() for l in text.split("\n") if len(l.strip()) > 3]
@@ -1222,9 +1792,11 @@ def main():
                 continue
 
             prev_raw = meta["raw_counts"].get(sid)
-            if complete and prev_raw and st.get("raw", 0) < 0.5 * prev_raw:
-                complete = False
-                st["note"] = f"listing shrank from {prev_raw} to {st.get('raw')}: closures skipped"
+            if prev_raw and not board and st.get("raw", 0) < 0.5 * prev_raw:
+                st["shrank_from"] = prev_raw
+                if complete:
+                    complete = False
+                    st["note"] = f"listing shrank from {prev_raw} to {st.get('raw')}: closures skipped"
             meta["raw_counts"][sid] = st.get("raw", 0)
 
             now_keys, n_new = set(), 0
@@ -1236,7 +1808,8 @@ def main():
                 if e is None:
                     e = {x: r.get(x) for x in ("key", "src", "co", "target", "big", "ats", "id", "title",
                                                "url", "loc", "loc_status", "posted")}
-                    e.update({x: r[x] for x in ("country", "dept", "deadline", "salary") if r.get(x)})
+                    e.update({x: r[x] for x in ("country", "dept", "deadline", "salary", "level", "apply_url",
+                                                "dup_of") if r.get(x)})
                     e["first_seen"] = NOW_ISO
                     if baseline:
                         e["baseline"] = True
@@ -1265,6 +1838,10 @@ def main():
             n_closed = 0
             for k in [k for k, v in jobs.items() if v.get("src") == sid and k not in now_keys]:
                 v = jobs[k]
+                if board:   # out of the search window, not necessarily closed: just forget it
+                    if days_since(v.get("last_seen", "")) > src.get("keep_days", 30):
+                        del jobs[k]
+                    continue
                 if v.get("ats") == "watch":
                     if days_since(v.get("first_seen", "")) > RECENT_DAYS:
                         del jobs[k]
@@ -1279,6 +1856,11 @@ def main():
             st["closed"] = n_closed
             if baseline:
                 meta["sources_seen"].append(sid)
+
+    coverage = check_boards(jobs, {s["id"]: s for s in statuses})
+    # a posting dropped by one source but still listed by another (Google and DeepMind) is not closed
+    open_urls = {v.get("url") for v in jobs.values()}
+    closed = [c for c in closed if c.get("closed_at") != NOW_ISO or c.get("url") not in open_urls]
 
     # forget descriptions of older postings to keep the state small
     for v in jobs.values():
@@ -1297,13 +1879,29 @@ def main():
             out.append(it)
         return out
 
-    recent = [public(v, True) for v in jobs.values() if days_since(v.get("first_seen", "")) <= RECENT_DAYS]
+    def listed(v):
+        return not v.get("dup_of") and (BOARDS_IN_RECENT or v.get("ats") not in BOARDS)
+
+    recent = [public(v, True) for v in jobs.values()
+              if days_since(v.get("first_seen", "")) <= RECENT_DAYS and listed(v)]
     recent.sort(key=lambda v: (v.get("first_seen", ""), v.get("posted") or ""), reverse=True)
     recent = dedupe(recent)
-    open_ = dedupe(sorted((public(v, False) for v in jobs.values() if v.get("ats") != "watch"),
+    open_ = dedupe(sorted((public(v, False) for v in jobs.values() if v.get("ats") != "watch" and listed(v)),
                           key=lambda v: (v.get("co", ""), v.get("title", ""))))
     statuses.sort(key=lambda s: s["id"])
     failed = [s["id"] for s in statuses if not s.get("ok")]
+    warnings = []
+    for s in statuses:
+        if not s.get("ok") or s["type"] == "watch":
+            continue
+        if s.get("raw") == 0:
+            warnings.append(f"{s['id']}: 0 postings")
+        if s.get("shrank_from"):
+            warnings.append(f"{s['id']}: {s['shrank_from']} -> {s['raw']} postings since the last run")
+        if s.get("coverage_gaps"):
+            warnings.append(f"{s['id']}: {s['coverage_gaps']} postings on LinkedIn/Indeed missing from its listing")
+        if s["type"] == "jobspy" and s.get("note"):
+            warnings.append(f"{s['id']}: {s['note']}")
 
     save(os.path.join(OUT, PREFIX + "state.json"), {"jobs": jobs, "meta": meta})
     save(os.path.join(OUT, PREFIX + "recent.json"), {"generated": NOW_ISO, "days": RECENT_DAYS,
@@ -1314,9 +1912,12 @@ def main():
     save(os.path.join(OUT, PREFIX + "status.json"), {
         "run_at": NOW_ISO, "duration_s": round(time.time() - t0),
         "sources": len(statuses), "failed": failed, "new": new_total,
-        "open": len(open_), "recent": len(recent), "details": statuses})
+        "open": len(open_), "recent": len(recent), "warnings": warnings, "coverage": coverage,
+        "details": statuses})
     print(f"done in {round(time.time() - t0)}s · sources {len(statuses)} · failed {len(failed)} "
           f"· new {new_total} · open {len(open_)}")
+    for w in warnings:
+        print("WARN", w)
     for s in statuses:
         flag = "OK " if s.get("ok") else "ERR"
         print(f"{flag} {s['id']:<24} raw={s.get('raw', '-'):<5} matched={s.get('matched', '-'):<4} "

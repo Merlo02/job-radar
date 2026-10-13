@@ -5,3 +5,4 @@ career-ops/
 
 __pycache__/
 *.pyc
+.venv/
