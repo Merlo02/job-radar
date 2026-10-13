@@ -30,16 +30,27 @@ Decisioni già prese (ottobre 2026):
      foundation model, pretraining, LLM training, edge AI, embedded machine learning, perception,
      signal processing ML, AI researcher, graduate ML/AI.
    - Annunci delle ultime 48-72 ore, con `fetch_description` sui risultati nuovi.
-2. **Big tech con portali difficili** (Apple, Meta, Amazon, Netflix, IBM, Microsoft, Stripe…):
-   ricerca LinkedIn per azienda (`linkedin_company_ids` di JobSpy), invece di un adapter ciascuna.
-3. **Più aziende in `sources.json`**, con adapter diretto dove l'ATS è già supportato:
+2. **Big tech lette direttamente dal loro sito**: sono le più importanti e vanno coperte alla fonte.
+   - Netflix gira su Eightfold e Stripe su Greenhouse: bastano gli adapter esistenti in `scan.py`,
+     si aggiunge solo la voce in `sources.json`.
+   - Amazon (amazon.jobs) e IBM hanno API di ricerca pubbliche: career-ops ha già i provider
+     (`amazon`, `ibm`), da portare in `scan.py`.
+   - Apple (jobs.apple.com) e Meta (metacareers.com) usano endpoint interni con token: servono
+     adapter nuovi, da verificare dal vivo. Per Meta, se l'endpoint resiste, si ripiega su LinkedIn
+     filtrato per azienda (`linkedin_company_ids`), ma solo dopo aver provato.
+   - Google e Microsoft sono già nella lista: controllare che coprano tutta Europa.
+3. **Audit di copertura (zero token).** LinkedIn fa da revisore degli adapter diretti: se un annuncio
+   rilevante di un'azienda già in `sources.json` compare su LinkedIn ma non nel suo adapter,
+   l'adapter è rotto o troppo stretto e va segnalato in `out/status.json`. Lo stesso vale se una
+   fonte restituisce 0 annunci o perde più di metà degli annunci rispetto al giro prima.
+4. **Più aziende in `sources.json`**, con adapter diretto dove l'ATS è già supportato:
    - automotive: VW/CARIAD, Porsche, Audi, Stellantis, Toyota Motor Europe, Continental, ZF;
    - laboratori e AI europea: DeepL, Pruna AI, Aignostics, Bioptimus, Owkin, Cradle, Adyen;
    - chip edge: NXP, Infineon, Arm;
    - poi ogni azienda nuova che compare dai risultati di LinkedIn con almeno un annuncio rilevante.
-4. **Aggregatori zero-token:** Hacker News "Who is hiring" (mensile), joinup.ch, The Hub,
+5. **Aggregatori zero-token:** Hacker News "Who is hiring" (mensile), joinup.ch, The Hub,
    Landing.jobs, Welcome to the Jungle. Si possono prendere dai provider di career-ops.
-5. **Deduplica:** lo stesso annuncio da LinkedIn e dal sito dell'azienda conta una volta sola
+6. **Deduplica:** lo stesso annuncio da LinkedIn e dal sito dell'azienda conta una volta sola
    (azienda + titolo normalizzato + città); vince il link diretto dell'azienda.
 
 **Rischio da verificare subito:** LinkedIn può bloccare gli IP di GitHub Actions (429). Se succede:
@@ -75,18 +86,15 @@ restituisce in JSON:
 Scarta solo AI-SWE, ruoli fuori profilo e ruoli troppo senior; tutto il resto va nel Radar,
 ordinato per prestigio × fit.
 
-Due modi per farlo (**da decidere**):
-- **(A) GitHub Actions + API Anthropic.** Serve una chiave API con credito prepagato, salvata come
-  secret della repo. Non tocca i limiti dell'abbonamento.
-  - Stima per ~300 annunci nuovi al giorno a ~1.500 token l'uno: con Claude Haiku 5.5 circa
-    2 $/mese, con Sonnet 5.5 circa 36 $/mese. La Batch API dimezza i costi.
-  - Il primo giro sull'arretrato (qualche migliaio di annunci) costa poco con Haiku.
-- **(B) Nella routine Radar.** Usa l'abbonamento, ma 300 descrizioni al giorno pesano molto sui
-  limiti settimanali.
+**Deciso: si fa nella routine Radar** (abbonamento, nessun costo extra). Per stare nei limiti:
+- lo script prepara per ogni annuncio una scheda compatta in `out/candidates.json`: titolo,
+  azienda, luogo, anni richiesti estratti, ~400 caratteri sul lavoro da fare, parole chiave
+  trovate;
+- la routine legge tutte le schede, senza tagli, e dà il giudizio;
+- la descrizione completa la apre solo per gli annunci con fit ≥ 3.
 
-**Consigliato: (A) a due stadi.** Un modello veloce legge tutto; un modello più forte, o la
-routine Radar, rilegge solo gli annunci con fit ≥ 3 per il giudizio finale. Il modello lo sceglie
-Gabriele.
+Prima settimana: misurare quanto consuma la routine. Se pesa troppo, si accorciano le schede.
+Il ripiego è GitHub Actions con una chiave API (Haiku 5.5, circa 2 $ al mese).
 
 ## Fase 4 — career-ops sul terminale
 - Clonare in `career-ops/`, `npm install`, poi `cv.md` dal CV vero e profilo da `private/NOTES.md`.
