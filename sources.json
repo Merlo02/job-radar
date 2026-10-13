@@ -1357,5 +1357,33 @@
    "AI researcher",
    "graduate machine learning"
   ]
+ },
+ {
+  "id": "thehub",
+  "co": "The Hub",
+  "type": "thehub",
+  "country_code": "EU",
+  "pages": 40
+ },
+ {
+  "id": "landingjobs",
+  "co": "Landing.jobs",
+  "type": "landingjobs"
+ },
+ {
+  "id": "joinup",
+  "co": "joinup.ch",
+  "type": "joinup"
+ },
+ {
+  "id": "wttj",
+  "co": "Welcome to the Jungle",
+  "type": "wttj",
+  "pages": 2
+ },
+ {
+  "id": "hn",
+  "co": "Hacker News: Who is hiring",
+  "type": "hn"
  }
 ]

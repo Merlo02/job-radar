@@ -1211,12 +1211,129 @@ def ld_detail(src, r):
     r["desc_full"] = strip_html(html)[:12000]
 
 
+# ----------------------------------------------------- aggregators (no token)
+# Feeds of many companies at once (from career-ops providers). Like the job boards, their postings
+# are matched to the company sources and stay out of recent/open.json until phase 3.
+def thehub_list(src):
+    """The Hub (Nordic and European startups): its JSON feed, every page for the given country code."""
+    out, page, pages = [], 1, 1
+    while page <= min(pages, src.get("pages", 40)):
+        data = http("GET", f"https://thehub.io/api/v2/jobsandfeatured?page={page}"
+                           f"&countryCode={src.get('country_code', 'EU')}")
+        jobs = (data.get("jobs") or {})
+        pages = jobs.get("pages") or 1
+        for j in jobs.get("docs") or []:
+            l = j.get("location") or {}
+            loc = l.get("address") or ", ".join(x for x in [l.get("locality"), l.get("country")] if x)
+            if j.get("isRemote"):
+                loc += " · remote"
+            out.append(rec(src, j["id"], j.get("title"), f"https://thehub.io/jobs/{j['id']}", loc,
+                           co=(j.get("company") or {}).get("name") or "?", ats="thehub"))
+        page += 1
+    return out, page > pages
+
+
+def landingjobs_list(src):
+    """Landing.jobs (Portugal and remote-Europe tech jobs): the public jobs API."""
+    out, offset = [], 0
+    while True:
+        data = http("GET", f"https://landing.jobs/api/v1/jobs?limit=50&offset={offset}")
+        for j in data:
+            locs = j.get("locations") or []
+            loc = "; ".join(", ".join(x for x in [l.get("city"), l.get("country_code")] if x) for l in locs)
+            if j.get("remote"):
+                loc += " · remote"
+            slug = re.search(r"/at/([^/]+)/", j.get("url") or "")
+            co = slug.group(1).replace("-", " ").title() if slug else "?"
+            desc = "\n".join(strip_html(j.get(k) or "") for k in ("role_description", "main_requirements", "nice_to_have"))
+            out.append(rec(src, j["id"], j.get("title"), j.get("url"), loc, j.get("published_at"), desc=desc,
+                           co=co, ats="landingjobs"))
+        offset += 50
+        if len(data) < 50 or offset > 2000:
+            break
+    return out, True
+
+
+def joinup_list(src):
+    """joinup.ch (Swiss startups): the job list embedded in its browse page."""
+    html = http("GET", "https://joinup.ch/browse/jobs", expect="text")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        raise RuntimeError("joinup: __NEXT_DATA__ not found")
+    res = ((((json.loads(m.group(1)).get("props") or {}).get("pageProps") or {}).get("serverState") or {})
+           .get("initialResults") or {}).get("jobs", {}).get("results") or [{}]
+    out = []
+    for h in res[0].get("hits") or []:
+        if not h.get("slug"):
+            continue
+        loc = h.get("location")
+        loc = loc if isinstance(loc, str) else ((loc or {}).get("name") or (loc or {}).get("city") or "")
+        out.append(rec(src, h["slug"], h.get("title") or h.get("headline"), f"https://joinup.ch/job/{h['slug']}",
+                       loc or "Switzerland", h.get("created"), co=h.get("startup") or "?", ats="joinup"))
+    return out, False
+
+
+def wttj_list(src):
+    """Welcome to the Jungle: the Algolia index behind its search, with the public key from /api/env."""
+    env = http("GET", "https://www.welcometothejungle.com/api/env", expect="text")
+    env = json.loads(env[env.index("{"):env.rindex("}") + 1])
+    app, key = env["PUBLIC_ALGOLIA_APPLICATION_ID"], env["PUBLIC_ALGOLIA_API_KEY_CLIENT"]
+    hdr = {"x-algolia-application-id": app, "x-algolia-api-key": key, "Content-Type": "application/json",
+           "Referer": "https://www.welcometothejungle.com/", "Origin": "https://www.welcometothejungle.com"}
+    out = {}
+    for q in queries_for(src):
+        for page in range(src.get("pages", 3)):
+            params = urlencode({"query": q, "hitsPerPage": 100, "page": page, "filters": src.get("filters", ""),
+                                "attributesToRetrieve": "name,slug,organization,offices,remote,published_at_timestamp,"
+                                                        "contract_type,experience_level_minimum"})
+            data = http("POST", f"https://{app}-dsn.algolia.net/1/indexes/wttj_jobs_production_en/query",
+                        json_body={"params": params}, headers=hdr)
+            hits = data.get("hits") or []
+            for h in hits:
+                org = h.get("organization") or {}
+                if not h.get("slug") or not org.get("slug"):
+                    continue
+                loc = "; ".join(", ".join(x for x in [o.get("city"), o.get("country")] if x)
+                                for o in h.get("offices") or [])
+                if h.get("remote") in ("full", "fulltime"):
+                    loc += " · remote"
+                r = rec(src, h.get("objectID") or h["slug"], h.get("name"),
+                        f"https://www.welcometothejungle.com/en/companies/{org['slug']}/jobs/{h['slug']}", loc,
+                        h.get("published_at_timestamp"), co=org.get("name") or "?", ats="wttj")
+                out[r["key"]] = r
+            if len(hits) < 100:
+                break
+    return list(out.values()), False
+
+
+def hn_list(src):
+    """Hacker News "Ask HN: Who is hiring?": the comments of the latest monthly thread."""
+    hits = http("GET", "https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&hitsPerPage=6")["hits"]
+    thread = next(h for h in hits if "who is hiring" in (h.get("title") or "").lower())
+    item = http("GET", f"https://hn.algolia.com/api/v1/items/{thread['objectID']}")
+    out = []
+    for c in item.get("children") or []:
+        text = strip_html((c.get("text") or "").replace("<p>", "\n"))
+        if not text:
+            continue
+        first = text.split("\n", 1)[0]
+        parts = [p.strip() for p in first.split("|") if p.strip()]
+        if len(parts) < 2:
+            continue
+        loc = "; ".join(p for p in parts[1:] if loc_status(p) != "no" or re.search(r"remote|onsite|hybrid", p, re.I))
+        title = next((p for p in parts[1:] if re.search(r"engineer|scientist|research|developer|machine|learning|"
+                                                         r"\bAI\b|\bML\b|data|founding", p, re.I)), first[:120])
+        out.append(rec(src, c["id"], title, f"https://news.ycombinator.com/item?id={c['id']}", loc or first[:150],
+                       c.get("created_at"), desc=text[:8000], co=parts[0][:80], ats="hn"))
+    return out, True
+
+
 # ------------------------------------------------------- job boards (JobSpy)
 # LinkedIn (public guest search, no login) and Indeed, through python-jobspy. It is only
 # imported by these two sources, so the rest of the scanner still runs without it.
 _JS, _JS_LOCK = {}, threading.Lock()
 NOTES = {}   # extra per-source facts for status.json, filled by the listers ("_" keys stay internal)
-BOARDS = ("linkedin", "indeed")
+BOARDS = ("linkedin", "indeed", "thehub", "landingjobs", "joinup", "wttj", "hn")   # postings of many companies
 # Postings from the job boards stay out of recent.json / open.json until the Radar routine reads
 # candidates.json (plan, phase 3): the routine reads every new item and they are hundreds a day.
 BOARDS_IN_RECENT = False
@@ -1421,7 +1538,7 @@ class Companies:
     def __init__(self, sources=(), jobs=None):
         self.keys = {}
         for s in sources:
-            if s["type"] == "jobspy":
+            if s["type"] in BOARD_TYPES:
                 continue
             parts = re.split(r"\s+/\s+|\s+[–-]\s+|[()]", s["co"]) + list(s.get("aliases") or [])
             for k in {co_key(p) for p in parts}:
@@ -1451,6 +1568,7 @@ class Companies:
 
 
 COMPANIES = Companies()
+BOARD_TYPES = ("jobspy", "thehub", "landingjobs", "joinup", "wttj", "hn")
 
 
 def links_list(src):
@@ -1674,6 +1792,11 @@ ADAPTERS = {
     "apple": (apple_list, apple_detail),
     "meta": (meta_list, ld_detail),
     "jobspy": (jobspy_list, jobspy_detail),
+    "thehub": (thehub_list, ld_detail),
+    "landingjobs": (landingjobs_list, None),
+    "joinup": (joinup_list, ld_detail),
+    "wttj": (wttj_list, ld_detail),
+    "hn": (hn_list, None),
 }
 
 
@@ -1844,6 +1967,11 @@ def check_boards(jobs, status):
                 "src": listing[0]["id"], "co": v["co"], "title": v["title"], "loc": v.get("loc"),
                 "url": v["url"], "via": v["ats"]})
     gaps = list(gaps.values())
+    others = {}
+    for v in boards:
+        if v.get("ml", True) and not v.get("dup_of") and not comp.find(v["co"]):
+            others.setdefault(v["co"], []).append(v["title"])
+    new_cos = sorted(others.items(), key=lambda x: -len(x[1]))[:40]
     by_src = {}
     for g in gaps:
         by_src[g["src"]] = by_src.get(g["src"], 0) + 1
@@ -1851,7 +1979,8 @@ def check_boards(jobs, status):
         if sid in status:
             status[sid]["coverage_gaps"] = n
     return {"board_postings": len(boards), "known_companies": matched,
-            "duplicates": sum(1 for v in boards if v.get("dup_of")), "gaps": gaps[:150]}
+            "duplicates": sum(1 for v in boards if v.get("dup_of")), "gaps": gaps[:150],
+            "new_companies": [{"co": co, "postings": len(t), "titles": t[:3]} for co, t in new_cos]}
 
 
 def main():
@@ -1995,7 +2124,7 @@ def main():
                     c["closed_at"] = NOW_ISO
                     c["reason"] = "not listed anymore" if complete else f"not seen for {STALE_DAYS}+ days"
                     closed_all.append(c)
-                    if v.get("ml", True):
+                    if v.get("ml", True) and (BOARDS_IN_RECENT or v.get("ats") not in BOARDS):
                         closed.append(c)
                     del jobs[k]
                     n_closed += 1
