@@ -57,6 +57,36 @@ Decisioni già prese (ottobre 2026):
 meno ricerche e pause più lunghe, poi Indeed e Google Jobs come ripiego. In ultima istanza JobSpy
 gira da una macchina di Gabriele e pusha l'output.
 
+## Fase 1-bis — Mappa PhD: Marie Curie, CIFRE, dottorati industriali (zero token)
+Obiettivo: il profilo PhD (`SCAN_PROFILE=phd`, `phd_sources.json`, `out/phd_*`) copre anche i
+dottorati finanziati fuori dai portali delle università. Ogni posizione riceve un campo `kind`:
+`academic`, `msca-dn`, `msca-cofund`, `cifre`, `industrial` o `fellowship`. Nessun campo esistente
+viene tolto o rinominato.
+1. **EURAXESS.** Il sito ignora i filtri: si leggono gli annunci pagina per pagina (in ordine di
+   data; al primo giro tutti, poi solo le pagine nuove) e si filtra nello script: restano quelli che
+   citano Marie Skłodowska-Curie, MSCA, Doctoral Network o «doctoral candidate» e passano
+   `PHD_TOPIC`.
+2. **Network MSCA da CORDIS.** Dal dataset aperto dei progetti Horizon Europe si estraggono i
+   Doctoral Networks dei bandi 2024 e 2025 su ML, AI, segnali, sensori, visione, robotica e salute
+   digitale, con sito e coordinatore; la pagina delle posizioni aperte di ciascuno diventa una fonte
+   `watch` in `phd_sources.json`.
+3. **CIFRE e dottorati in Francia.** Il portale ABG (abg.asso.fr) per le offerte di tesi, CIFRE
+   comprese, filtrate su ML e AI; più le pagine dei laboratori industriali che assumono dottorandi
+   CIFRE: Meta FAIR Parigi, valeo.ai, Naver Labs Europe, Criteo, Sony CSL Parigi, Huawei Parigi.
+4. **Dottorati industriali delle aziende.** Gli annunci delle fonti aziendali con PhD, doctoral,
+   Doktorand, Promotion, thèse o CIFRE nel titolo non si scartano più: lo scanner lavori li passa al
+   profilo PhD con `kind: industrial`.
+5. **Fellowship con scadenza annuale** in `phd_fellowships.json` (nome, link, scadenza tipica,
+   requisiti): FWO PhD fellowship, Swiss Government Excellence Scholarships, programmi MSCA COFUND
+   di dottorato in Svizzera, Paesi Bassi, Belgio e Germania, ELLIS PhD. Una volta a settimana lo
+   scanner controlla che le pagine rispondano e riporta le date trovate in
+   `out/phd_fellowships.json`.
+6. **Regola di mobilità MSCA.** Per le posizioni `msca-*`: `eligible: false` se il paese è l'Italia;
+   per la Svizzera vale solo se l'assunzione avviene entro 12 mesi dall'arrivo (marzo 2027).
+
+La pagina Mappa PhD e la sua routine le aggiorna dopo una sessione claude.ai, per mostrare i nuovi
+`kind` e le fellowship.
+
 ## Fase 2 — solo esclusioni sicure (zero token)
 In `scan.py` si sostituisce la lista obbligatoria `INCLUDE` sui titoli con sole esclusioni:
 - funzioni non tecniche: vendite, marketing, HR, legale, finanza, supporto clienti;
