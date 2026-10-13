@@ -22,6 +22,96 @@ Decisioni già prese (ottobre 2026):
 - **Routine claude.ai e pagine Radar e Mappa PhD:** restano. Le aggiorna una sessione claude.ai
   alla fine della fase 3 (il terminale potrebbe non avere gli strumenti per farlo).
 
+## Stato (13 ottobre 2026)
+
+**Fase 1 fatta**, con queste differenze dal piano:
+- LinkedIn: le 17 famiglie sono raggruppate con OR in 8 ricerche su `location=Europe`, perché
+  ogni pagina costa 5-20 secondi (429 frequenti) e una sola famiglia arriva a centinaia di risultati
+  al giorno. Ogni ricerca copre il tempo dall'ultima volta che è finita (24-96 ore) e il budget di
+  tempo (`search_min`, `budget_min` in `sources.json`) è controllato a ogni richiesta: quello che
+  resta fuori parte per primo al giro dopo. Le descrizioni si scaricano solo per gli annunci nuovi
+  che non ripetono quello del sito dell'azienda.
+  Primo giro su Actions (13/10): LinkedIn risponde ma rifiuta spesso (69 risposte 429): in 38 minuti
+  ha finito 2 ricerche su 8 (1055 risultati, 411 utili). Ora ha fino a 180 minuti di ricerche e 240
+  in tutto (`search_min`, `budget_min`). Se non bastano: far girare LinkedIn da una macchina di
+  Gabriele.
+- Indeed risponde solo in 18 paesi europei (gli altri danno 400 o niente).
+- Big tech: Amazon, IBM, Apple, Meta con adapter propri; Netflix (Eightfold v2) e Stripe
+  (Greenhouse) con quelli esistenti. Google ora legge `location=Europe` in un colpo solo (le ricerche
+  per città erano anche troncate: Londra 80 su 135), Microsoft legge ogni paese europeo (la ricerca
+  globale non arrivava mai all'Europa: 0 annunci).
+- Punto 4: aggiunte NXP, Arm, Continental, Adyen, DeepL, Owkin, Cradle, Aignostics. Restano fuori
+  (nessun ATS leggibile o API bloccata): Infineon (403), VW/CARIAD, Porsche, Audi, Stellantis,
+  Toyota Motor Europe, ZF, Pruna AI, Bioptimus. Le copre LinkedIn.
+- Aggregatori (punto 5): The Hub, Landing.jobs, joinup.ch, Welcome to the Jungle, HN «Who is
+  hiring», trattati come LinkedIn/Indeed (stessa deduplica e audit, solo in `candidates.json`).
+  `coverage.new_companies` in `status.json` elenca le aziende con annunci ML sui board che non sono
+  ancora in `sources.json`: è la lista da cui pescare quelle nuove.
+- Audit: `status.json` ha `warnings` (fonti a 0, dimezzate, lacune) e `coverage.gaps` (annunci di
+  aziende in `sources.json` visti su LinkedIn/Indeed ma assenti dal loro adapter).
+- Deduplica: azienda + titolo normalizzato + città; vince il sito dell'azienda (`dup_of`).
+
+**Fase 2 fatta.** Il filtro largo (`wide_ok`) decide cosa entra nello stato e in
+`out/candidates.json`; il vecchio filtro sui titoli ML (`title_ok`) resta come campo `ml` e decide
+ancora cosa va in `recent.json`, `open.json` e `closed.json`, così la routine Radar di oggi non si
+trova centinaia di annunci in più. Anche gli annunci di LinkedIn e Indeed stanno solo in
+`candidates.json` (`BOARDS_IN_RECENT = False`).
+
+`out/candidates.json`: `items` (annunci aperti, ordinati per `score`) con key, src, co, title, loc,
+posted, first_seen, url, apply_url, ats, target, big, baseline, ml, score, kw (parole chiave che
+hanno dato o tolto punti), years (anni di esperienza chiesti, il minimo più alto trovato), card
+(~400 caratteri sul lavoro da fare), level, dept, e `desc` (fino a 5.000 caratteri) solo per gli
+annunci visti negli ultimi 3 giorni; `closed` (tutte le chiusure degli ultimi 14 giorni). Al primo
+giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
+
+**Per la fase 3** (sessione claude.ai): la routine Radar passa da `recent.json` a
+`candidates.json` (solo gli annunci nuovi da ieri, saltando i `baseline`), chiude con
+`candidates.json` → `closed`, e i controlli del lunedì su Amazon, Apple e Meta si possono togliere
+perché ora sono nello scanner.
+
+**Fase 1-bis fatta.**
+- EURAXESS (`euraxess`): il filtro «PhD positions» funziona se messo nell'URL
+  (`f[0]=positions:php_positions`, ~100 pagine da 10). Il sito risponde 429 per minuti a chi va
+  veloce, quindi si legge una pagina ogni 20-30 secondi (il passo rallenta da solo a ogni rifiuto),
+  tutte le pagine ogni notte, con un tetto di 240 minuti. Filtro largo: `PHD_TOPIC` su titolo,
+  riassunto e campo di ricerca, oppure campo Computer science, Engineering, Mathematics o Technology.
+  MSCA è un'etichetta (`kind`), non un filtro. Le descrizioni complete arrivano 150 a notte; le
+  posizioni si chiudono alla scadenza.
+- Doctoral Networks: `tools/cordis_networks.py` estrae dal dataset CORDIS i network dei bandi 2024 e
+  2025 sul tema (107) e trova sito e pagina delle posizioni per 43; più EXPLORA a mano. Sono fonti
+  `watch` (`kind: msca-dn`) in `phd_sources.json`.
+- Francia: ABG (`abg`, tutte le offerte, tenute le tesi su temi vicini al profilo, `cifre` se
+  citato), Naver Labs Europe, valeo.ai, Criteo AI Lab, Sony CSL Parigi (pagine sorvegliate); Criteo
+  anche come fonte lavori (Workday). Meta FAIR Parigi arriva dai dottorati industriali («AI Research
+  Assistant (PhD)»). Huawei Parigi: nessuna pagina carriere leggibile trovata.
+- Dottorati industriali: lo scanner lavori passa a `out/phd_industrial.json` gli annunci delle fonti
+  aziendali con PhD, doctoral, Doktorand, Promotion, thèse o CIFRE nel titolo (fonti accademiche
+  escluse: `academic: true`), e il profilo PhD li legge (`industrial`; `cifre` se in Francia o se
+  citato). Escono dai file lavori senza risultare chiusi.
+- Fellowship: `phd_fellowships.json` (FWO, Swiss Government Excellence Scholarships, ELLIS, COFUND
+  GROW, trainLSE e Gen-Q, più ETH AI Center, CLS e RobotX); controllo settimanale in
+  `out/phd_fellowships.json`. Nessun COFUND di dottorato attivo coordinato in Svizzera o in Belgio.
+- Mobilità MSCA: `eligible: false` per l'Italia, nota per la Svizzera; sulle pagine dei network, che
+  hanno sedi in più paesi, solo la nota.
+- I Doctoral Networks senza pagina trovata (64 su 107) non si perdono: le loro posizioni devono
+  essere pubblicate su EURAXESS.
+
+**Filtri larghi anche qui (13/10).** Una località che lo script non riconosce (Gramat, Ilmenau,
+Twente…) ora è `unknown` e resta, invece di contare come fuori Europa; i nomi dei paesi ci sono
+anche in francese, tedesco, italiano, olandese e spagnolo, e la lista delle città extraeuropee è più
+lunga. `PHD_TOPIC` copre più temi tecnici e cinque lingue, e i titoli senza tema («PhD Position»)
+restano. I dottorati industriali non hanno filtro di tema.
+
+**Orari.** GitHub fa partire i giri programmati con ~7 ore di ritardo (il cron delle 03:17 UTC
+partiva alle 10:00-11:30 UTC, cioè dopo le 12 in Italia). Il cron ora è alle 15:00 UTC (più un
+secondo tentativo alle 17:00, saltato se il giro c'è già stato): si parte verso mezzanotte e si
+finisce entro la mattina. Lavori e PhD girano in due job paralleli, ciascuno con fino a 340 minuti;
+il profilo PhD legge i dottorati industriali del giro lavori precedente.
+
+**Per la sessione claude.ai della Mappa PhD:** al primo giro le posizioni già aperte di ogni fonte
+nuova (EURAXESS, ABG, dottorati industriali) sono marcate `baseline`, così `phd_recent.json` non si
+riempie di centinaia di voci; sono comunque in `phd_open.json` e vanno guardate una volta.
+
 ## Fase 1 — raccolta larga (zero token, GitHub Actions)
 1. **JobSpy** (`pip install python-jobspy`) come nuova fonte in `scan.py`: LinkedIn (ricerca
    pubblica, senza login) e Indeed, per tutti i paesi europei che Indeed supporta.
@@ -62,17 +152,20 @@ Obiettivo: il profilo PhD (`SCAN_PROFILE=phd`, `phd_sources.json`, `out/phd_*`) 
 dottorati finanziati fuori dai portali delle università. Ogni posizione riceve un campo `kind`:
 `academic`, `msca-dn`, `msca-cofund`, `cifre`, `industrial` o `fellowship`. Nessun campo esistente
 viene tolto o rinominato.
-1. **EURAXESS.** Il sito ignora i filtri: si leggono gli annunci pagina per pagina (in ordine di
-   data; al primo giro tutti, poi solo le pagine nuove) e si filtra nello script: restano quelli che
-   citano Marie Skłodowska-Curie, MSCA, Doctoral Network o «doctoral candidate» e passano
-   `PHD_TOPIC`.
+1. **EURAXESS.** Si leggono tutte le posizioni PhD (filtro «PhD positions» nell'URL), tutte le
+   pagine ogni notte, a passo lento perché il sito blocca chi va veloce. Restano quelle con un tema di
+   `PHD_TOPIC` nel titolo, nel riassunto o nel campo di ricerca, o con campo Computer science,
+   Engineering, Mathematics o Technology. MSCA non è un filtro ma un'etichetta: chi cita Marie
+   Skłodowska-Curie, MSCA o COFUND (anche solo nel programma di finanziamento) prende `kind:
+   msca-dn` o `msca-cofund`, le altre `academic`.
 2. **Network MSCA da CORDIS.** Dal dataset aperto dei progetti Horizon Europe si estraggono i
    Doctoral Networks dei bandi 2024 e 2025 su ML, AI, segnali, sensori, visione, robotica e salute
    digitale, con sito e coordinatore; la pagina delle posizioni aperte di ciascuno diventa una fonte
    `watch` in `phd_sources.json`.
 3. **CIFRE e dottorati in Francia.** Il portale ABG (abg.asso.fr) per le offerte di tesi, CIFRE
-   comprese, filtrate su ML e AI; più le pagine dei laboratori industriali che assumono dottorandi
-   CIFRE: Meta FAIR Parigi, valeo.ai, Naver Labs Europe, Criteo, Sony CSL Parigi, Huawei Parigi.
+   comprese, su tutti i temi vicini al profilo (non solo ML e AI); più le pagine dei laboratori
+   industriali che assumono dottorandi CIFRE: Meta FAIR Parigi, valeo.ai, Naver Labs Europe, Criteo,
+   Sony CSL Parigi, Huawei Parigi.
 4. **Dottorati industriali delle aziende.** Gli annunci delle fonti aziendali con PhD, doctoral,
    Doktorand, Promotion, thèse o CIFRE nel titolo non si scartano più: lo scanner lavori li passa al
    profilo PhD con `kind: industrial`.

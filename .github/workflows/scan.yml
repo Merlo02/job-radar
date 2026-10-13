@@ -2,8 +2,10 @@ name: Job scanner
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # every night, ~05:17 Italian time (04:17 in winter)
-    - cron: "52 3 * * *"   # second try in case GitHub skips the first one
+    # GitHub starts scheduled runs about 7 hours late on this repo (03:17 UTC ran at 10:00-11:30
+    # UTC), so 15:00 UTC means a start around midnight Italian time, done well before morning.
+    - cron: "0 15 * * *"
+    - cron: "0 17 * * *"    # second try in case GitHub skips the first one (skipped if it ran)
   workflow_dispatch:        # "Run workflow" button
   push:
     branches: [main]
@@ -16,31 +18,86 @@ concurrency:
   group: scan
   cancel-in-progress: false
 
+# Jobs and PhD positions run side by side, each with its own time limit (GitHub's maximum is 360
+# minutes). The PhD scan reads the industrial PhDs (out/phd_industrial.json) of the previous jobs scan.
 jobs:
-  scan:
+  jobs:
     runs-on: ubuntu-latest
-    timeout-minutes: 150   # LinkedIn alone can use ~70 min (sources.json: budget_min)
+    timeout-minutes: 340   # LinkedIn up to 240 minutes (sources.json: budget_min)
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main   # start from the latest results, not from the commit that triggered the run
+      - name: Skip if this night's scan already ran
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - out/status.json <<'EOF' >> "$GITHUB_OUTPUT"
+          import datetime as dt, json, sys
+          t = json.load(open(sys.argv[1])).get("run_at", "")
+          age = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(t.replace("Z", "+00:00"))).total_seconds()
+          print("skip=true" if age < 3 * 3600 else "skip=false")
+          EOF
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.12"
-      - run: pip install requests python-jobspy==1.3.0
-      - run: python scan.py
-      - name: PhD positions (phd_sources.json -> out/phd_*.json)
-        run: SCAN_PROFILE=phd python scan.py || echo "PhD scan failed, job results are still saved"
+      - if: steps.guard.outputs.skip != 'true'
+        run: pip install requests python-jobspy==1.3.0
+      - if: steps.guard.outputs.skip != 'true'
+        run: python scan.py
       - name: Save results
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "job-scanner"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add out
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "scan $(date -u +%Y-%m-%d)"
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5; do
             if git pull --rebase -X theirs origin main && git push; then exit 0; fi
             git rebase --abort 2>/dev/null || true
-            sleep 10
+            sleep 15
+          done
+          exit 1
+
+  phd:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340   # EURAXESS up to 240 minutes (phd_sources.json: budget_min)
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Skip if this night's scan already ran
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - out/phd_status.json <<'EOF' >> "$GITHUB_OUTPUT"
+          import datetime as dt, json, sys
+          t = json.load(open(sys.argv[1])).get("run_at", "")
+          age = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(t.replace("Z", "+00:00"))).total_seconds()
+          print("skip=true" if age < 3 * 3600 else "skip=false")
+          EOF
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+      - if: steps.guard.outputs.skip != 'true'
+        run: pip install requests
+      - name: PhD positions (phd_sources.json -> out/phd_*.json)
+        if: steps.guard.outputs.skip != 'true'
+        run: SCAN_PROFILE=phd python scan.py
+      - name: Save results
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "job-scanner"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "phd scan $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin main && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
           done
           exit 1

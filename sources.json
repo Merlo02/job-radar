@@ -217,7 +217,8 @@
   "type": "workday",
   "host": "embl.wd103.myworkdayjobs.com",
   "tenant": "embl",
-  "site": "EMBL"
+  "site": "EMBL",
+  "academic": true
  },
  {
   "id": "nvidia",
@@ -576,7 +577,8 @@
   "target": "cern",
   "big": true,
   "type": "smartrecruiters",
-  "company": "CERN"
+  "company": "CERN",
+  "academic": true
  },
  {
   "id": "bosch",
@@ -749,7 +751,8 @@
   "big": true,
   "type": "sf_rss",
   "host": "careers.epfl.ch",
-  "locale": "en_US"
+  "locale": "en_US",
+  "academic": true
  },
  {
   "id": "sonova",
@@ -794,7 +797,8 @@
   "big": true,
   "type": "sf_rss",
   "host": "jobs.esa.int",
-  "locale": "en_GB"
+  "locale": "en_GB",
+  "academic": true
  },
  {
   "id": "essilorluxottica",
@@ -850,7 +854,8 @@
   "url": "https://jobs.ethz.ch/?lang=en",
   "pattern": "/job/view/([A-Za-z0-9_]+)",
   "loc_default": "Zurich, Switzerland",
-  "exclude": "doctoral|\\bph\\.?d\\b|postdoc"
+  "exclude": "doctoral|\\bph\\.?d\\b|postdoc",
+  "academic": true
  },
  {
   "id": "ibm-zrl",
@@ -870,7 +875,8 @@
   "type": "links",
   "url": "https://www.csem.ch/en/jobs",
   "pattern": "/en/jobs/(\\d+)",
-  "loc_default": "Switzerland"
+  "loc_default": "Switzerland",
+  "academic": true
  },
  {
   "id": "eumetsat",
@@ -880,7 +886,8 @@
   "type": "links",
   "url": "https://eumetsat.onlyfy.jobs/en",
   "pattern": "/job/([a-z0-9]+)",
-  "loc_default": "Darmstadt, Germany"
+  "loc_default": "Darmstadt, Germany",
+  "academic": true
  },
  {
   "id": "ecmwf",
@@ -890,7 +897,8 @@
   "type": "links",
   "url": "https://jobs.ecmwf.int/Home/Job",
   "pattern": "JobDetail\\?JobId=(\\d+)",
-  "loc_default": "Bonn / Reading / Bologna (Europe)"
+  "loc_default": "Bonn / Reading / Bologna (Europe)",
+  "academic": true
  },
  {
   "id": "instadeep",
@@ -909,7 +917,8 @@
   "type": "links",
   "url": "https://iit.it/openings",
   "pattern": "jobposition/(\\d+)",
-  "loc_default": "Italy"
+  "loc_default": "Italy",
+  "academic": true
  },
  {
   "id": "zalando",
@@ -1122,7 +1131,8 @@
   "big": false,
   "type": "watch",
   "url": "https://www.datascience.ch/careers",
-  "loc_default": "Switzerland"
+  "loc_default": "Switzerland",
+  "academic": true
  },
  {
   "id": "ai4i",
@@ -1131,7 +1141,8 @@
   "big": false,
   "type": "watch",
   "url": "https://ai4i.it/work-with-us/",
-  "loc_default": "Torino, Italy"
+  "loc_default": "Torino, Italy",
+  "academic": true
  },
  {
   "id": "inrim",
@@ -1140,7 +1151,8 @@
   "big": false,
   "type": "watch",
   "url": "https://www.inrim.it/it/bandi-di-concorso/borse-di-ricerca",
-  "loc_default": "Torino, Italy"
+  "loc_default": "Torino, Italy",
+  "academic": true
  },
  {
   "id": "links",
@@ -1149,7 +1161,8 @@
   "big": false,
   "type": "watch",
   "url": "https://csp-st.intervieweb.it/en/career",
-  "loc_default": "Torino, Italy"
+  "loc_default": "Torino, Italy",
+  "academic": true
  },
  {
   "id": "centai",
@@ -1158,7 +1171,8 @@
   "big": false,
   "type": "watch",
   "url": "https://centai.eu/careers",
-  "loc_default": "Torino, Italy"
+  "loc_default": "Torino, Italy",
+  "academic": true
  },
  {
   "id": "cohere-labs",
@@ -1203,7 +1217,8 @@
   "big": false,
   "type": "watch",
   "url": "https://www.imec-int.com/en/work-at-imec/job-opportunities",
-  "loc_default": "Leuven, Belgium"
+  "loc_default": "Leuven, Belgium",
+  "academic": true
  },
  {
   "id": "disney-research",
@@ -1282,6 +1297,16 @@
   "loc_default": "Berlin, Germany"
  },
  {
+  "id": "criteo",
+  "co": "Criteo",
+  "target": null,
+  "big": true,
+  "type": "workday",
+  "host": "criteo.wd3.myworkdayjobs.com",
+  "tenant": "criteo",
+  "site": "Criteo_Career_Site"
+ },
+ {
   "id": "linkedin",
   "co": "LinkedIn",
   "type": "jobspy",
@@ -1292,8 +1317,8 @@
   "hours_first": 24,
   "hours_min": 24,
   "hours_max": 96,
-  "search_min": 45,
-  "budget_min": 70,
+  "search_min": 180,
+  "budget_min": 240,
   "max_detail": 400,
   "keep_days": 30,
   "queries": [

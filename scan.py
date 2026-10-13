@@ -100,16 +100,77 @@ EXCLUDE = re.compile(
     re.I)
 
 
-PHD_RE = re.compile(r"\bph\.?\s?d\b|doctoral|doctorate|doctoraat|promovend|doktorand|doctorant|dottorat", re.I)
-PHD_EXCLUDE = re.compile(r"post-?doc|postdoctoral|professor|lecturer|master'?s? (?:thesis|project)|"
-                         r"student assistant|internship|technician|\bmanager\b|pre-?doctoral", re.I)
+PHD_RE = re.compile(r"\bph\.?\s?d\b|doctoral|doctorate|doctoraat|promovend|doktorand|doctorant|dottorat|\bcifre\b|"
+                    r"th[èe]se\b", re.I)
+PHD_EXCLUDE = re.compile(r"post[- ]?doc|postdoctoral|professor|lecturer|master'?s? (?:thesis|project)|"
+                         r"student assistant|internship|technician|\bmanager\b|pre-?doctoral|praktik|"
+                         r"werkstudent|stagiaire|tirocin", re.I)
+# Subjects near the profile, wide on purpose (Claude judges the fit), in EN, FR, DE, IT, NL.
 PHD_TOPIC = re.compile(
-    r"machine learning|deep learning|\bAI\b|artificial intelligence|neural|learning\b|\bdata\b|signal|"
-    r"sensor|sensing|wearable|robot|vision|imaging|image|ultrasound|acoustic|biomedical|health|medical|"
-    r"computational|algorithm|autonom|embedded|edge|hardware|\bLLMs?\b|language model|foundation model|"
+    r"machine learning|deep learning|(?-i:\bAI\b|\bKI\b|\bIA\b)|artificial intelligence|neural|learning\b|\bdata\b|"
+    r"signal|sensor|sensing|wearable|robot|vision|imaging|image|ultrasound|acoustic|biomedical|health|medical|"
+    r"computational|algorithm|autonom|embedded|edge|hardware|\bLLMs?\b|\bVLMs?\b|language model|foundation model|"
     r"generative|time series|control|digital twin|statistic|computer|information technology|"
     r"electrical|electronic|informatics|intelligen|neuro|physiolog|biosignal|\bECG\b|\bEEG\b|\bEMG\b|"
-    r"gait|motion|movement|perception|radar|wireless|speech|audio", re.I)
+    r"gait|motion|movement|perception|radar|wireless|speech|audio|"
+    r"optimi[sz]|simulat|numerical|mathemat|software|security|cyber|network|communicat|(?-i:\b[56]G\b)|"
+    r"\bMEMS\b|semiconductor|\bchips?\b|\bASIC|\bFPGA|circuit|optic|photonic|quantum|mechatronic|automation|"
+    r"anomal|detection|recognition|agent|brain|cognit|biomechan|human performance|physical activity|"
+    r"rehabilit|prosthe|exoskelet|bioengineer|"
+    r"apprentissage|donn[ée]es|capteur|imagerie|informatique|[ée]lectroni|automatique|sant[ée]|m[ée]dic|"
+    r"g[ée]n[ée]rati|traitement|num[ée]rique|calcul|parole|r[ée]seau|"
+    r"maschinelles|lernen|daten|\bbild|informatik|elektr|regelung|steuerung|messtechnik|medizin|gesundheit|"
+    r"wahrnehmung|sprach|akusti|optimierung|"
+    r"apprendimento|\bdati\b|segnal|immagin|informatic|elettronic|controllo|salute|"
+    r"\bleren\b|gegevens|\bbeeld|elektro|gezondheid", re.I)
+# Titles that name no subject at all ("PhD Position", "R&D Engineer (PhD Student)") are kept.
+PHD_GENERIC = re.compile(
+    r"\b(?:ph\.?\s?d|doctoral|doctorate|doktorand\w*|doctorant\w*|dottorand\w*|dottorato|promovend\w*|"
+    r"positions?|students?|candidates?|researchers?|research|programm?e?|fellow(?:ship)?s?|openings?|"
+    r"vacanc(?:y|ies)|open|call|in|of|the|for|and|at|an?|[mfwdx]|div|all|genders?)\b", re.I)
+
+
+def generic_phd_title(t):
+    return len(re.findall(r"[A-Za-zÀ-ÿ]{3,}", PHD_GENERIC.sub(" ", t or ""))) <= 1
+
+
+# Doctoral positions advertised by companies: the job scan hands them to the PhD profile.
+INDUSTRIAL_PHD = re.compile(
+    r"\bph\.?\s?d\.?\s*(?:student|candidate|position|researcher|thesis|project|programme|program|fellow\w*|"
+    r"opportunit\w*|in\b|on\b|at\b|:|[–-])|^\s*ph\.?\s?d\b|doctoral (?:student|candidate|researcher|position|thesis)|"
+    r"industrial (?:ph\.?\s?d|doctora\w*)|doktorand|promotionsstelle|(?<!investment )(?<!sales )(?<!trade )\bpromotion\b(?! (?:manager|specialist|coordinator|finan))|"
+    r"th[èe]se|\bcifre\b|dottorat|doctorat|research assistant \(ph\.?d\)", re.I)   # the last one: Meta FAIR's PhD
+IT_RE = re.compile(r"\bital(?:y|ia|ie|ien)\b|(?-i:(?<![A-Za-z])IT(?![A-Za-z]))|\b(?:milan|milano|turin|torino|rome|roma|"
+                   r"bologna|pisa|genoa|genova|padova|padua|naples|napoli|trento|trieste|florence|firenze|bari|catania)\b", re.I)
+CH_RE = re.compile(r"switzerland|schweiz|suisse|svizzera|(?-i:(?<![A-Za-z])CH(?![A-Za-z]))|\b(?:zurich|zürich|geneva|genève|"
+                   r"lausanne|basel|bern|lugano|zug|winterthur|st\. gallen)\b", re.I)
+# MSCA mobility rule (no more than 12 months in the host country in the 3 years before recruitment)
+MSCA_NOT_ELIGIBLE = "it"
+MSCA_CH_NOTE = "MSCA: in Svizzera solo con assunzione entro marzo 2027 (regola di mobilità)"
+
+
+def country_of(e):
+    c = (e.get("country") or "").lower()
+    if c in ("it", "ch"):
+        return c
+    loc = e.get("loc") or ""
+    return "it" if IT_RE.search(loc) else "ch" if CH_RE.search(loc) else c
+
+
+def msca_eligibility(e):
+    """eligible / eligibility_note for MSCA positions (kind msca-*)."""
+    if not str(e.get("kind", "")).startswith("msca"):
+        return
+    if e.get("ats") == "watch":   # a network page: its positions sit in several countries
+        e["eligibility_note"] = ("MSCA: vale la sede di ciascuna posizione (non in Italia; in Svizzera solo con "
+                                 "assunzione entro marzo 2027)")
+        return
+    c = country_of(e)
+    e["eligible"] = c != MSCA_NOT_ELIGIBLE
+    if c == "ch":
+        e["eligibility_note"] = MSCA_CH_NOTE
+    else:
+        e.pop("eligibility_note", None)
 
 
 def keep_title(src, r):
@@ -120,7 +181,8 @@ def keep_title(src, r):
         return False
     if not (r.get("_is_phd") or src.get("all_phd") or PHD_RE.search(t)):
         return False
-    return src.get("topic") is False or bool(PHD_TOPIC.search(t + " " + (r.get("dept") or "")))
+    return src.get("topic") is False or bool(PHD_TOPIC.search(t + " " + (r.get("dept") or ""))) or \
+        generic_phd_title(t)
 
 
 def title_ok(title):
@@ -241,7 +303,23 @@ EU_WORDS = [
     "czechia", "slovakia", "hungary", "romania", "bulgaria", "greece", "croatia", "slovenia",
     "estonia", "latvia", "lithuania", "united kingdom", "england", "scotland", "wales",
     "great britain", "iceland", "malta", "cyprus", "liechtenstein", "monaco", "europe", "emea",
-    "european union",
+    "european union", "serbia", "bosnia", "montenegro", "albania", "north macedonia", "moldova",
+    "ukraine", "kosovo",
+    # country names in other languages (ABG, EURAXESS and national job sites write them so)
+    "italie", "allemagne", "pays-bas", "espagne", "autriche", "royaume-uni", "irlande", "danemark",
+    "suède", "norvège", "finlande", "pologne", "tchéquie", "république tchèque", "slovaquie",
+    "hongrie", "roumanie", "bulgarie", "grèce", "croatie", "slovénie", "estonie", "lettonie",
+    "lituanie", "islande", "chypre", "italien", "frankreich", "niederlande", "belgien", "spanien",
+    "schweden", "dänemark", "norwegen", "finnland", "polen", "tschechien", "slowakei", "ungarn",
+    "rumänien", "griechenland", "kroatien", "slowenien", "irland", "vereinigtes königreich",
+    "großbritannien", "grossbritannien", "luxemburg", "europa", "germania", "francia",
+    "paesi bassi", "belgio", "spagna", "svezia", "danimarca", "norvegia", "finlandia", "polonia",
+    "grecia", "irlanda", "regno unito", "lussemburgo", "alemania", "países bajos", "bélgica",
+    "suiza", "reino unido", "suecia", "dinamarca", "noruega", "duitsland", "frankrijk", "italië",
+    "spanje", "zwitserland", "oostenrijk", "zweden", "denemarken", "noorwegen", "verenigd koninkrijk",
+    "ierland", "griekenland", "alemanha", "frança", "espanha", "itália", "suíça", "países baixos",
+    "česko", "česká republika", "magyarország", "românia", "hrvatska", "slovenija", "eesti",
+    "latvija", "lietuva", "éire",
     # cities
     "zurich", "zürich", "zuerich", "basel", "geneva", "genève", "geneve", "lausanne", "bern",
     "zug", "baden", "dättwil", "rüschlikon", "ruschlikon", "kaiseraugst", "rotkreuz", "schlieren",
@@ -269,7 +347,7 @@ EU_RE = re.compile(r"(?<![a-zà-ÿ])(?:" + "|".join(re.escape(w) for w in EU_WOR
 EU_CODES = re.compile(
     r"(?<![A-Za-z])(?:CH|IT|DE|FR|NL|BE|LU|AT|ES|PT|IE|DK|SE|NO|FI|PL|CZ|SK|HU|RO|BG|GR|HR|SI|"
     r"EE|LV|LT|GB|UK|IS|MT|CY|LI|CHE|ITA|DEU|FRA|NLD|BEL|LUX|AUT|ESP|PRT|IRL|DNK|SWE|NOR|FIN|"
-    r"POL|CZE|GBR)(?![A-Za-z])")
+    r"POL|CZE|GBR|RS|BA|MK|UA|XK|SRB|ROU|BGR|GRC|HRV|SVN|SVK|HUN|EST|LVA|LTU|ISL|MLT|CYP|UKR)(?![A-Za-z])")
 VAGUE = re.compile(r"^\s*$|remote|anywhere|worldwide|global|multiple|\d+\s+locations|various|"
                    r"flexible|hybrid|home ?office|to be defined|tbd|several", re.I)
 NON_EU_WORDS = re.compile(
@@ -278,14 +356,42 @@ NON_EU_WORDS = re.compile(
     r"Indonesia|United Arab Emirates|Dubai|Saudi|Qatar|Egypt|South Africa|Argentina|Chile|"
     r"Colombia|Turkey|Türkiye|New Zealand|Kenya|Nigeria|Pakistan|Morocco|Tunisia|Costa Rica|"
     r"San Francisco|New York|Seattle|Boston|Toronto|Bangalore|Bengaluru|Hyderabad|Tokyo|Seoul|"
-    r"Shanghai|Beijing|Shenzhen|Sydney|Tel Aviv)(?![A-Za-z])", re.I)
+    r"Shanghai|Beijing|Shenzhen|Sydney|Tel Aviv|"
+    r"Santa Clara|San Jose|Sunnyvale|Mountain View|Palo Alto|Menlo Park|Redmond|Bellevue|Kirkland|"
+    r"Cupertino|Austin|Los Angeles|San Diego|Chicago|Atlanta|Pittsburgh|Denver|Boulder|Raleigh|"
+    r"Portland|Irvine|Houston|Dallas|Philadelphia|Ann Arbor|Washington|Miami|Phoenix|Salt Lake|"
+    r"Minneapolis|Detroit|Hillsboro|Folsom|Beaverton|Montr[ée]al|Vancouver|Ottawa|Qu[ée]bec|"
+    r"Calgary|Edmonton|Sherbrooke|Pune|Chennai|Gurgaon|Gurugram|Noida|Mumbai|Delhi|Kolkata|"
+    r"Ahmedabad|Hsinchu|Taipei|Osaka|Kyoto|Hangzhou|Guangzhou|Wuhan|Nanjing|Suzhou|Chengdu|"
+    r"Kuala Lumpur|Penang|Manila|Bangkok|Jakarta|Ho Chi Minh|Hanoi|Melbourne|Brisbane|Perth|"
+    r"Auckland|S[ãa]o Paulo|Buenos Aires|Bogot[áa]|Haifa|Herzliya|Jerusalem|Abu Dhabi|Riyadh|Doha|"
+    r"Istanbul|Ankara|Cairo|Lagos|Nairobi|Cape Town|Johannesburg|Casablanca|Russia|Moscow|Belarus|"
+    r"[ÉE]tats-Unis|Chine|Japon|Inde|Cor[ée]e|Br[ée]sil|Mexique|Australie|Isra[ëe]l|Maroc|Tunisie|"
+    r"Alg[ée]rie|Algeria|S[ée]n[ée]gal|Senegal|Liban|Lebanon|Russie|Russland|Vereinigte Staaten|"
+    r"Indien|Kanada|Brasilien|Australien|T[üu]rkei|Puerto Rico|Dominican Republic|Sri Lanka|"
+    r"Kazakhstan|Uruguay|Peru|Ecuador|Bangladesh|Nepal|Ghana|Ethiopia|Uganda|Rwanda|Bahrain|Kuwait|"
+    r"Oman|Mississauga|Ontario|British Columbia|Alberta|Nova Scotia|Manitoba|Alabama|Alaska|Arizona|"
+    r"Arkansas|California|Colorado|Connecticut|Delaware|Florida|Hawaii|Idaho|Illinois|Indiana|Iowa|"
+    r"Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|"
+    r"Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|North Carolina|North Dakota|Ohio|Oklahoma|"
+    r"Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|"
+    r"Virginia|Wisconsin|Wyoming|Bay Area|Redwood City|Bethesda|Canberra|Benin|Cotonou|Aguascalientes|"
+    r"S[ãa]o Jos[ée])(?![A-Za-z])", re.I)
 NON_EU_CODES = re.compile(
-    r"(?<![A-Za-z])(?:US|USA|U\.S\.|UAE|IND|CHN|JPN|KOR|SGP|CAN|ISR|BRA|MEX)(?![A-Za-z])|"
+    r"(?<![A-Za-z])(?:US|USA|U\.S\.|UAE|IND|CHN|JPN|KOR|SGP|CAN|ISR|BRA|MEX|SF)(?![A-Za-z])|"
     r",\s*(?:AL|AK|AZ|AR|CA|CO|CT|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|"
-    r"NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)(?=,|\s|\)|$)")
+    r"NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)(?=,|\s|\)|$)|"
+    # ISO codes of other countries, as the last part of a place ("Wuxi, Jiangsu, CN", "Bursa, TR")
+    r"(?:^|,\s*|\(\s*)(?:CN|MY|TH|VN|TR|MX|JP|BR|PH|KR|TW|ID|AU|NZ|ZA|AR|CL|CO|PE|EG|MA|TN|SA|AE|QA|IL|"
+    r"HK|SG|IN|KZ|LK|DO|PR|CR|PK|BD|NG|KE|UY|EC)(?=\s*(?:,|;|\)|$))|"
+    r"(?<![A-Za-z])(?:TUR|THA|VNM|MYS|PHL|IDN|AUS|NZL|ZAF|ARG|CHL|COL|EGY|MAR|TUN|SAU|ARE|QAT|HKG|TWN|"
+    r"KAZ|LKA|PAK|BGD|NGA|KEN|URY|PER|CRI|DOM|PRI)(?![A-Za-z])")
 
 
-def loc_status(loc):
+def loc_status(loc, default="unknown"):
+    """eu / no / unknown. A place it does not recognise is "unknown" and kept: a town missing from
+    the lists must not drop a posting (Claude judges it). Pass default="no" where only clear places
+    should count."""
     loc = loc or ""
     if EU_RE.search(loc) or EU_CODES.search(loc):
         return "eu"
@@ -293,7 +399,7 @@ def loc_status(loc):
         return "no"
     if VAGUE.search(loc):
         return "unknown"
-    return "no"
+    return default
 
 
 # ------------------------------------------------------------------- helpers
@@ -1320,7 +1426,8 @@ def hn_list(src):
         parts = [p.strip() for p in first.split("|") if p.strip()]
         if len(parts) < 2:
             continue
-        loc = "; ".join(p for p in parts[1:] if loc_status(p) != "no" or re.search(r"remote|onsite|hybrid", p, re.I))
+        loc = "; ".join(p for p in parts[1:] if loc_status(p, default="no") != "no" or
+                        re.search(r"remote|onsite|hybrid", p, re.I))
         title = next((p for p in parts[1:] if re.search(r"engineer|scientist|research|developer|machine|learning|"
                                                          r"\bAI\b|\bML\b|data|founding", p, re.I)), first[:120])
         out.append(rec(src, c["id"], title, f"https://news.ycombinator.com/item?id={c['id']}", loc or first[:150],
@@ -1333,6 +1440,7 @@ def hn_list(src):
 # imported by these two sources, so the rest of the scanner still runs without it.
 _JS, _JS_LOCK = {}, threading.Lock()
 NOTES = {}   # extra per-source facts for status.json, filled by the listers ("_" keys stay internal)
+INDUSTRIAL, MOVED, PHD_DONE = [], set(), set()   # doctoral positions the job scan hands to the PhD profile
 BOARDS = ("linkedin", "indeed", "thehub", "landingjobs", "joinup", "wttj", "hn")   # postings of many companies
 # Postings from the job boards stay out of recent.json / open.json until the Radar routine reads
 # candidates.json (plan, phase 3): the routine reads every new item and they are hundreds a day.
@@ -1524,7 +1632,7 @@ def city(loc):
 
 def same_place(board_loc, direct_loc):
     c = city(board_loc)
-    if not c or loc_status(c) == "unknown" or c in COUNTRY_NAMES:
+    if not c or loc_status(c, default="no") == "unknown" or c in COUNTRY_NAMES:
         return True
     d = ascii_low(direct_loc)
     for k, v in PLACE_SYN.items():
@@ -1755,6 +1863,160 @@ def kuleuven_list(src):
     return list(out.values()), True
 
 
+MSCA_RE = re.compile(r"marie[\s-]+(?:sk[lł]odowska|curie)|sk[lł]odowska|\bMSCA\b|doctoral networks?|\bCOFUND\b", re.I)
+# EURAXESS research fields kept whatever the title says (wide on purpose: Claude judges the fit).
+EURAXESS_FIELDS = re.compile(r"computer science|engineering|mathematics|technology", re.I)
+
+
+def msca_kind(text):
+    if re.search(r"\bcofund\b", text or "", re.I):
+        return "msca-cofund"
+    if MSCA_RE.search(text or ""):
+        return "msca-dn"
+    return "academic"
+
+
+def euraxess_get(url):
+    """EURAXESS answers 429 after a burst of requests and keeps refusing for a few minutes: read at
+    a slow pace that slows down further on each refusal, and stop once the time budget is spent."""
+    for attempt in range(5):
+        if time.time() > EURAXESS["stop"]:
+            raise RuntimeError("EURAXESS time budget spent")
+        try:
+            html = http("GET", url, expect="text", delay=EURAXESS["pace"], tries=1)
+            EURAXESS["ok"] += 1
+            return html
+        except RuntimeError:
+            EURAXESS["refused"] += 1
+            EURAXESS["pace"] = min(EURAXESS["pace"] + 10, 120)
+            if attempt == 4:
+                raise
+            time.sleep(120)
+
+
+EURAXESS = {"stop": 1e12, "pace": 20, "ok": 0, "refused": 0}
+
+
+def euraxess_list(src):
+    """EURAXESS: every PhD position (the positions filter in the URL, f[0]=positions:php_positions),
+    all pages every night, newest first. Kept: subjects matching PHD_TOPIC in title, summary or
+    research field, or a research field in EURAXESS_FIELDS. kind: msca-dn / msca-cofund when the
+    funding programme or the text cites MSCA, otherwise academic (refined on the full offer)."""
+    EURAXESS.update(stop=time.time() + 60 * src.get("budget_min", 240), pace=src.get("pace_s", 20))
+    q = "&".join(f"f%5B{i}%5D={quote(f)}" for i, f in enumerate(src.get("filters", ["positions:php_positions"])))
+    out, complete, page = {}, False, 0
+    while page < src.get("pages", 250):
+        try:
+            html = euraxess_get(f"https://euraxess.ec.europa.eu/jobs/search?{q}&page={page}")
+        except RuntimeError as e:   # refused or out of time: keep what was read (closures go by deadline)
+            NOTES.setdefault(src["id"], {})["note"] = f"stopped at page {page}: {str(e)[-40:]}"
+            break
+        blocks = html.split('<div id="job-teaser-content">')[1:]
+        if not blocks:
+            complete = True
+            break
+        for b in blocks:
+            m = re.search(r'href="/jobs/(\d+)"', b)
+            if not m:
+                continue
+            jid = int(m.group(1))
+            f = {k: strip_html(v) for k, v in
+                 re.findall(r'class="id-([A-Za-z-]+)[^"]*".*?</span></div><div[^>]*>(.*?)</div>', b, re.S)}
+            t = re.search(r'<h3[^>]*>.*?<span>(.*?)</span>', b, re.S)
+            title = strip_html(t.group(1)) if t else ""
+            org = re.search(r'primary-meta-item"><a[^>]*>(.*?)</a>', b, re.S)
+            posted = re.search(r"Posted on:\s*([^<]+)<", b)
+            snippet = re.search(r'ecl-content-block__description">(.*?)</div>', b, re.S)
+            snippet = strip_html(snippet.group(1)) if snippet else ""
+            field, funding = f.get("Research-Field", ""), f.get("Funding-Programme", "")
+            if jid in out or PHD_EXCLUDE.search(title) or not (
+                    PHD_TOPIC.search(" ".join([title, snippet, field])) or EURAXESS_FIELDS.search(field)):
+                continue
+            loc = re.sub(r"^Number of offers:\s*\d+,\s*", "", f.get("Work-Locations", ""))
+            dl = re.match(r"\s*(\d{1,2} \w{3} \d{4})", f.get("Application-Deadline", ""))
+            out[jid] = rec(src, jid, title, f"https://euraxess.ec.europa.eu/jobs/{jid}", loc,
+                           posted.group(1).strip() if posted else None,
+                           co=strip_html(org.group(1)) if org else "?", dept=field,
+                           deadline=to_date(dl.group(1)) if dl else None, funding=funding,
+                           kind=msca_kind(" ".join([title, snippet, funding])), _is_phd=True)
+        page += 1
+    NOTES.setdefault(src["id"], {}).update(pages=page, requests_ok=EURAXESS["ok"], refused=EURAXESS["refused"],
+                                           pace_s=EURAXESS["pace"])
+    return list(out.values()), False   # never "complete": closures go by deadline (close_by_deadline)
+
+
+def euraxess_detail(src, r):
+    html = euraxess_get(r["url"]).split('<div id="job-teaser-content">')[0]   # drop the related offers below
+    html = re.sub(r"(?is)<(select|form)\b.*?</\1>", " ", html)   # the search form lists "MSCA", "COFUND"
+    text = strip_html(html)
+    i = text.find(r["title"][:40]) if r["title"] else -1
+    text = text[i:] if i > 0 else text
+    if r.get("kind") == "academic":
+        r["kind"] = msca_kind(text + " " + (r.get("funding") or ""))
+    r["desc_full"] = text[:12000]
+
+
+ML_AI = re.compile(r"machine learning|apprentissage|deep learning|intelligence artificielle|artificial intelligence|"
+                   r"(?-i:\bIA\b|\bAI\b|\bLLMs?\b)|neural|neurone|vision par ordinateur|computer vision|"
+                   r"traitement (?:du signal|d'images)|signal processing|data science|science des données", re.I)
+# ABG theses are kept on any subject near the profile, in French or English (wide on purpose).
+ABG_TOPIC = re.compile(r"donn[ée]es|capteur|imagerie|sant[ée]|m[ée]dic|informatique|[ée]lectroni|automatique|"
+                       r"commande|contr[ôo]le|intelligen|neuro|calcul|num[ée]rique|algorithm|statisti|optimi[sz]ation|"
+                       r"mod[ée]lisation|ing[ée]ni|math[ée]mati|physiolog|t[ée]l[ée]com|r[ée]seaux|embarqu|syst[èe]mes",
+                       re.I)
+
+
+def abg_list(src):
+    """ABG (abg.asso.fr): French thesis offers, CIFRE included. Its search ignores the criteria, so
+    every page is read and theses near the profile are kept here (ML_AI, PHD_TOPIC, ABG_TOPIC)."""
+    session().get("https://www.abg.asso.fr/fr/candidatOffres", timeout=40)
+    hdr = {"X-Requested-With": "XMLHttpRequest", "Accept": "text/html, */*"}
+    out, last, page = [], 1, 1
+    while page <= min(last, src.get("pages", 80)):
+        html = http("POST", "https://www.abg.asso.fr/fr/candidatOffres/recherche", expect="text", headers=hdr,
+                    data={"page": str(page), "orderBy": "updated_at_desc", "autoload": "1"})
+        last = max([last] + [int(x) for x in re.findall(r"/recherche/page/(\d+)", html)])
+        for b in html.split('class="item itLien it_offre')[1:]:
+            m = re.search(r'<h2><a href="([^"]*id_offre/(\d+)[^"]*)">(.*?)</a>', b, re.S)
+            if not m:
+                continue
+            g = {k: strip_html(v) for k, v in re.findall(r'<div class="(societe|adresse|text|expertises|mots|l_date|type)">'
+                                                           r'(.*?)</div>', b, re.S)}
+            if not re.search(r"th[èe]se", g.get("type", ""), re.I):   # "Sujet de Thèse"
+                continue
+            title = strip_html(m.group(3))
+            text = " ".join([title, g.get("text", ""), g.get("expertises", ""), g.get("mots", "")])
+            if not (ML_AI.search(text) or PHD_TOPIC.search(text) or ABG_TOPIC.search(text)):
+                continue
+            d = re.match(r"(\d{2})/(\d{2})/(\d{4})", g.get("l_date", ""))
+            org = re.sub(r"\s*Th[èe]se\s*$", "", g.get("societe", "")).strip()
+            out.append(rec(src, m.group(2), title, urljoin("https://www.abg.asso.fr", m.group(1)),
+                           g.get("adresse", "").replace(" ,", ","), f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None,
+                           co=org or "?", dept=g.get("expertises", ""), _is_phd=True,
+                           kind="cifre" if re.search(r"\bcifre\b", text, re.I) else "academic"))
+        page += 1
+    return out, page > last
+
+
+def abg_detail(src, r):
+    generic_detail(src, r)
+    if re.search(r"\bcifre\b", r.get("desc_full") or "", re.I):
+        r["kind"] = "cifre"
+
+
+def industrial_list(src):
+    """Doctoral positions found by the job scan in company sources (out/phd_industrial.json)."""
+    data = load(os.path.join(OUT, "phd_industrial.json"), None)
+    if not data or days_since(data.get("generated", "")) > 2:
+        raise RuntimeError("out/phd_industrial.json missing or older than 2 days: run the job scan first")
+    out = []
+    for it in data.get("items", []):
+        out.append(rec(src, it["key"], it["title"], it["url"], it.get("loc", ""), it.get("posted"),
+                       desc=it.get("desc"), co=it["co"], kind=it.get("kind", "industrial"), dept=it.get("dept", ""),
+                       _is_phd=True))
+    return out, True
+
+
 def watch_list(src):
     """Pages without a job list: report when their text changes."""
     text = page_text(src["url"])
@@ -1787,6 +2049,9 @@ ADAPTERS = {
     "academictransfer": (academictransfer_list, None),
     "ugent": (ugent_list, generic_detail),
     "kuleuven": (kuleuven_list, generic_detail),
+    "euraxess": (euraxess_list, euraxess_detail),
+    "abg": (abg_list, abg_detail),
+    "industrial": (industrial_list, None),
     "amazon": (amazon_list, None),
     "ibm": (ibm_list, None),
     "apple": (apple_list, apple_detail),
@@ -1834,14 +2099,19 @@ def run_source(src, known_keys, has_detail):
             st.update(ok=True, raw=1, matched=0, complete=True, secs=round(time.time() - t0, 1))
             return src, recs, True, st
         st["raw"] = len(recs)
-        matched, seen = [], set()
+        matched, seen, phd = [], set(), []
         for r in recs:
             if r["key"] in seen:
                 continue
             seen.add(r["key"])
-            if not keep_title(src, r):
+            if src.get("exclude") and re.search(src["exclude"], r["title"] or "", re.I):
                 continue
-            if src.get("exclude") and re.search(src["exclude"], r["title"], re.I):
+            if PROFILE != "phd" and src["type"] not in BOARD_TYPES and not src.get("academic") and \
+                    INDUSTRIAL_PHD.search(r["title"] or "") and not PHD_EXCLUDE.search(r["title"]):
+                if loc_status(r.get("loc")) != "no":
+                    phd.append(r)   # a doctoral position: it goes to the PhD profile (out/phd_industrial.json)
+                continue
+            if not keep_title(src, r):
                 continue
             ls = loc_status(r.get("loc"))
             if ls == "no" and not src.get("ignore_location"):
@@ -1871,8 +2141,27 @@ def run_source(src, known_keys, has_detail):
                     continue
                 r["loc_status"] = "eu" if src.get("ignore_location") else ls
             kept.append(r)
+        for r in phd[:src.get("max_phd", 25)]:
+            if detailer and not r.get("desc_full") and r["key"] not in PHD_DONE:
+                try:
+                    detailer(src, r)
+                except Gone:
+                    continue
+                except Exception:
+                    pass
+            if loc_status(r.get("loc")) == "no":
+                continue
+            desc = r.get("desc_full") or ""
+            france = re.search(r"france|paris|grenoble|lyon|toulouse|saclay|sophia|rennes|nice|lille", r.get("loc") or "", re.I)
+            INDUSTRIAL.append({"key": r["key"], "src": src["id"], "co": r.get("co") or src["co"], "title": r["title"],
+                               "url": r["url"], "loc": r.get("loc", ""), "posted": r.get("posted"), "dept": r.get("dept", ""),
+                               "kind": "cifre" if france or re.search(r"\bcifre\b", r["title"] + desc, re.I) else "industrial",
+                               "desc": desc[:12000] or None})
+            MOVED.add(r["key"])
         st.update(ok=True, matched=len(kept), complete=complete, details=n_detail,
                   secs=round(time.time() - t0, 1))
+        if phd:
+            st["phd"] = len(phd)
         st.update({k: v for k, v in NOTES.get(src["id"], {}).items() if not k.startswith("_")})
         return src, kept, complete, st
     except Exception as e:
@@ -1906,10 +2195,62 @@ def candidate(e, descs):
 def public(e, with_desc):
     keys = ["key", "co", "target", "big", "title", "url", "loc", "loc_status", "posted",
             "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary",
-            "level", "apply_url"]
+            "level", "apply_url", "kind", "eligible", "eligibility_note", "funding"]
     if with_desc:
         keys += ["desc", "signals"]
     return {k: e.get(k) for k in keys if e.get(k) not in (None, "")}
+
+
+MONTHS = ("january february march april may june july august september october november december "
+          "jan feb mar apr may jun jul aug sep oct nov dec").split()
+DATE_RE = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?\.? (" + "|".join(MONTHS) + r")\.?,? (\d{4})\b|\b(" + "|".join(MONTHS) +
+                     r")\.? (\d{1,2})(?:st|nd|rd|th)?,? (\d{4})\b|\b(\d{4})-(\d{2})-(\d{2})\b|\b(\d{1,2})[./](\d{1,2})[./](\d{4})\b",
+                     re.I)
+DEADLINE_WORDS = re.compile(r"deadline|apply|application|closing|submission|call|scadenza|date limite|bewerbung|frist", re.I)
+
+
+def dates_near_deadlines(text):
+    """Dates (ISO) written near deadline words, with a bit of context; past ones older than a month dropped."""
+    out = {}
+    for m in DATE_RE.finditer(text):
+        g = m.groups()
+        try:
+            if g[0]:
+                d = dt.date(int(g[2]), MONTHS.index(g[1].lower()) % 12 + 1, int(g[0]))
+            elif g[3]:
+                d = dt.date(int(g[5]), MONTHS.index(g[3].lower()) % 12 + 1, int(g[4]))
+            elif g[6]:
+                d = dt.date(int(g[6]), int(g[7]), int(g[8]))
+            else:
+                d = dt.date(int(g[11]), int(g[10]), int(g[9]))
+        except ValueError:
+            continue
+        ctx = re.sub(r"\s+", " ", text[max(0, m.start() - 120):m.end() + 40]).strip()
+        if (d - TODAY).days >= -30 and DEADLINE_WORDS.search(ctx) and d.isoformat() not in out:
+            out[d.isoformat()] = ctx[-200:]
+    return [{"date": k, "context": v} for k, v in sorted(out.items())][:8]
+
+
+def check_fellowships(meta):
+    """Once a week: is every page in phd_fellowships.json reachable, and which dates does it show?"""
+    path = os.path.join(OUT, "phd_fellowships.json")
+    if days_since(meta.get("fellowships_checked", "")) < 7 and os.path.exists(path):
+        return
+    items = []
+    for f in load(os.path.join(ROOT, "phd_fellowships.json"), {}).get("items", []):
+        it = dict(f, kind="fellowship")
+        if f.get("msca"):
+            it["kind"] = "msca-cofund"
+            msca_eligibility(it)
+            it["kind"] = "fellowship"
+        try:
+            text = page_text(f["url"])
+            it.update(reachable=True, dates_found=dates_near_deadlines(text))
+        except Exception as e:
+            it.update(reachable=False, error=str(e)[:160])
+        items.append(it)
+    meta["fellowships_checked"] = NOW_ISO
+    save(path, {"generated": NOW_ISO, "count": len(items), "items": items})
 
 
 def migrate(sources, jobs, meta, prune):
@@ -1997,9 +2338,15 @@ def main():
     meta.setdefault("searches", {})
     migrate(all_sources, jobs, meta, prune=not only)
     COMPANIES = Companies(all_sources, jobs)
+    meta.setdefault("hwm", {})
     for s in sources:
         if s["type"] == "jobspy":
             s["_last"] = meta["searches"].get(s["id"], {})
+        if s["type"] == "euraxess":
+            s["_hwm"] = meta["hwm"].get(s["id"])
+    if PROFILE != "phd":   # industrial PhDs already described in the PhD state need no new detail request
+        PHD_DONE.update(k.split(":", 1)[1] for k, v in load(os.path.join(OUT, "phd_state.json"), {"jobs": {}})["jobs"].items()
+                        if k.startswith("industrial:") and v.get("det"))
     closed = [c for c in load(os.path.join(OUT, PREFIX + "closed.json"), {"items": []}).get("items", [])
               if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
     # every closure, also of postings outside recent/open.json, for the readers of candidates.json;
@@ -2026,6 +2373,8 @@ def main():
                 continue
             baseline = sid not in meta["sources_seen"]
             board = src["type"] == "jobspy"
+            if NOTES.get(sid, {}).get("_hwm") is not None:
+                meta["hwm"][sid] = NOTES[sid]["_hwm"]
             if board:   # the boards only return recent postings: nothing to hold back as "baseline"
                 meta["searches"].setdefault(sid, {}).update(NOTES.get(sid, {}).get("_done", {}))
                 baseline = False
@@ -2044,7 +2393,8 @@ def main():
                     if added:
                         k = f"{sid}:{TODAY.isoformat()}"
                         jobs[k] = {"key": k, "src": sid, "co": src["co"], "target": src.get("target"),
-                                   "big": bool(src.get("big")), "ats": "watch",
+                                   "big": bool(src.get("big")), "ats": "watch", "kind": src.get("kind"),
+                                   "country": src.get("country"),
                                    "title": f"Pagina aggiornata: {src['co']}", "url": src["url"],
                                    "loc": src.get("loc_default", ""), "loc_status": "eu",
                                    "first_seen": NOW_ISO, "last_seen": NOW_ISO, "det": True,
@@ -2074,7 +2424,7 @@ def main():
                     e = {x: r.get(x) for x in ("key", "src", "co", "target", "big", "ats", "id", "title",
                                                "url", "loc", "loc_status", "posted")}
                     e.update({x: r[x] for x in ("country", "dept", "deadline", "salary", "level", "apply_url",
-                                                "dup_of") if r.get(x)})
+                                                "dup_of", "kind", "funding") if r.get(x)})
                     e["first_seen"] = NOW_ISO
                     if baseline or (widen and not board and not r.get("ml", True)):
                         e["baseline"] = True
@@ -2091,7 +2441,7 @@ def main():
                         e["loc"], e["loc_status"] = r["loc"], r.get("loc_status")
                     if r.get("posted") and not e.get("posted"):
                         e["posted"] = r["posted"]
-                    e.update({x: r[x] for x in ("deadline", "salary") if r.get(x)})
+                    e.update({x: r[x] for x in ("deadline", "salary", "kind", "funding") if r.get(x)})
                 e["last_seen"] = NOW_ISO
                 e["ml"] = r.get("ml", True)
                 if desc_full:
@@ -2111,6 +2461,9 @@ def main():
             n_closed = 0
             for k in [k for k, v in jobs.items() if v.get("src") == sid and k not in now_keys]:
                 v = jobs[k]
+                if k in MOVED:   # handed to the PhD profile: not a closure
+                    del jobs[k]
+                    continue
                 if board:   # out of the search window, not necessarily closed: just forget it
                     if days_since(v.get("last_seen", "")) > src.get("keep_days", 30):
                         del jobs[k]
@@ -2119,6 +2472,11 @@ def main():
                     if days_since(v.get("first_seen", "")) > RECENT_DAYS:
                         del jobs[k]
                     continue
+                if src.get("close_by_deadline"):   # read only in part each run: open until the deadline
+                    dl = v.get("deadline")
+                    if not ((dl and dl < TODAY.isoformat()) or
+                            (not dl and days_since(v.get("first_seen", "")) > src.get("keep_days", 60))):
+                        continue
                 if complete or days_since(v.get("last_seen", "")) >= STALE_DAYS:
                     c = public(v, False)
                     c["closed_at"] = NOW_ISO
@@ -2133,6 +2491,16 @@ def main():
                 meta["sources_seen"].append(sid)
 
     coverage = check_boards(jobs, {s["id"]: s for s in statuses})
+    if PROFILE == "phd" and not only:
+        check_fellowships(meta)
+    if PROFILE == "phd":   # every position gets a kind; MSCA ones the mobility check
+        kinds = {s["id"]: s.get("kind") for s in all_sources}
+        for v in jobs.values():
+            v["kind"] = v.get("kind") or kinds.get(v.get("src")) or "academic"
+            msca_eligibility(v)
+    elif not only:
+        save(os.path.join(OUT, "phd_industrial.json"), {"generated": NOW_ISO, "count": len(INDUSTRIAL),
+                                                        "items": INDUSTRIAL})
     # a posting dropped by one source but still listed by another (Google and DeepMind) is not closed
     open_urls = {v.get("url") for v in jobs.values()}
     closed = [c for c in closed if c.get("closed_at") != NOW_ISO or c.get("url") not in open_urls]

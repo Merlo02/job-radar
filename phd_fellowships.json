@@ -1,0 +1,95 @@
+{
+ "note": "Fellowship e programmi di dottorato con scadenza annuale. Lo scanner (SCAN_PROFILE=phd) controlla ogni settimana che le pagine rispondano e riporta le date trovate in out/phd_fellowships.json. MSCA COFUND: su CORDIS non risultano programmi di dottorato attivi coordinati in Svizzera o in Belgio (dati di agosto 2026). Altri COFUND di dottorato attivi in Germania e Paesi Bassi, fuori tema e quindi non elencati: TALENTS (microbioma), KSETA Europe (fisica delle particelle), EVOLVE (origine della vita), Maxima Butterfly (oncologia pediatrica).",
+ "items": [
+  {
+   "id": "fwo-fr",
+   "name": "FWO PhD Fellowship fundamental research",
+   "url": "https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-fundamental-research",
+   "country": "be",
+   "msca": false,
+   "typical_deadline": "1 marzo (bando 2027: apertura 3 dicembre 2026, chiusura 1 marzo 2027 alle 17 CET, risultati 7 ottobre 2027)",
+   "requirements": "Host in un'università della Comunità fiamminga (o in uno degli istituti associati); progetto di ricerca fondamentale proprio; 3 o 4 anni (solo 3 se il master è di oltre 12 mesi prima della scadenza e ci sono più di 6 mesi di ricerca dottorale retribuita); la lettera di raccomandazione entra nella valutazione."
+  },
+  {
+   "id": "fwo-sb",
+   "name": "FWO PhD Fellowship strategic basic research",
+   "url": "https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-strategic-basic-research",
+   "country": "be",
+   "msca": false,
+   "typical_deadline": "1 marzo (bando 2027: apertura 3 dicembre 2026, chiusura 1 marzo 2027 alle 17 CET)",
+   "requirements": "Come la fellowship fondamentale (host in un'università fiamminga, 3 o 4 anni), per ricerca di base strategica orientata alle applicazioni."
+  },
+  {
+   "id": "sges",
+   "name": "Swiss Government Excellence Scholarships",
+   "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Varia per paese d'origine: la data è sulla pagina del paese",
+   "requirements": "Master entro il 31 luglio 2027 (ETH: 30 giugno 2027); nati dopo il 31 dicembre 1991; lettera di supporto di un supervisor in Svizzera autorizzato a seguire dottorati; borsa di ricerca di 6-12 mesi o borsa di dottorato, inizio 1 settembre 2027, CHF 2.450 al mese; precedenza a chi non ha già studiato o fatto ricerca in Svizzera; chi vi risiede già deve esserci entrato non prima del 1 agosto 2026."
+  },
+  {
+   "id": "ellis-phd",
+   "name": "ELLIS PhD Program",
+   "url": "https://ellis.eu/research/phd-postdoc",
+   "country": "eu",
+   "msca": false,
+   "typical_deadline": "Fine ottobre (programma 2027: 31 ottobre 2026)",
+   "requirements": "Candidatura unica sul portale ELLIS: dettagli sulla pagina."
+  },
+  {
+   "id": "grow-tudelft",
+   "name": "GROW – Graduate Research On Worldwide challenges (MSCA COFUND, TU Delft)",
+   "url": "https://cordis.europa.eu/project/id/101126487",
+   "country": "nl",
+   "msca": true,
+   "typical_deadline": "Non nota: bandi del programma 2024-2029",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi nei Paesi Bassi nei 3 anni prima dell'assunzione); nessun dottorato già conseguito."
+  },
+  {
+   "id": "trainlse",
+   "name": "trainLSE – doctoral training in Life Science Engineering at TU Darmstadt (MSCA COFUND)",
+   "url": "https://cordis.europa.eu/project/id/101126497",
+   "country": "de",
+   "msca": true,
+   "typical_deadline": "Non nota: bandi del programma 2024-2029",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi in Germania nei 3 anni prima dell'assunzione); nessun dottorato già conseguito."
+  },
+  {
+   "id": "gen-q",
+   "name": "Gen-Q – doctoral programme in quantum science and technology, EUCOR (MSCA COFUND)",
+   "url": "https://cordis.europa.eu/project/id/101217386",
+   "country": "de",
+   "msca": true,
+   "typical_deadline": "Non nota: 51 posti nel programma 2025-2030",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi nel paese ospite nei 3 anni prima dell'assunzione); nessun dottorato già conseguito."
+  },
+  {
+   "id": "eth-ai-center",
+   "name": "ETH AI Center Doctoral Fellowship",
+   "url": "https://jobs.ethz.ch/job/view/12136",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Fine ottobre (2027: 27 ottobre 2026 alle 16:00 CET; inizio di solito a settembre 2027)",
+   "requirements": "Candidatura sul portale ETH; dettagli nell'annuncio."
+  },
+  {
+   "id": "cls",
+   "name": "Max Planck ETH Center for Learning Systems (CLS)",
+   "url": "https://learning-systems.org/",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Inizio novembre (2026: 2 novembre alle 23:59 CET, tutte le parti della candidatura)",
+   "requirements": "Dottorato congiunto ETH Zürich / Max Planck: dettagli sulla pagina."
+  },
+  {
+   "id": "robotx",
+   "name": "ETH RobotX PhD Fellowship",
+   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Fine novembre (2027: 27 novembre 2026)",
+   "requirements": "Una candidatura valutata da più gruppi RobotX dell'ETH; inizio da concordare nel 2027."
+  }
+ ]
+}

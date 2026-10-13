@@ -27,9 +27,16 @@ ogni annuncio nuovo. Gli annunci che ripetono quello del sito dell'azienda conta
 con il link diretto.
 
 Con lo stesso giro lo scanner legge anche i dottorati (`phd_sources.json`: ETH, UZH, EPFL,
-AcademicTransfer per tutte le università olandesi, KU Leuven, Ghent) e scrive `out/phd_recent.json`,
+AcademicTransfer per tutte le università olandesi, KU Leuven, Ghent, EURAXESS, ABG per le tesi in
+Francia, le pagine dei Doctoral Networks MSCA e dei laboratori CIFRE) e scrive `out/phd_recent.json`,
 `out/phd_open.json`, `out/phd_closed.json` e `out/phd_status.json`. Si lancia a mano con
-`SCAN_PROFILE=phd python scan.py`.
+`SCAN_PROFILE=phd python scan.py`. Ogni posizione ha un `kind` (`academic`, `msca-dn`, `msca-cofund`,
+`cifre`, `industrial`); quelle MSCA anche `eligible` / `eligibility_note` (regola di mobilità).
+I dottorati pubblicati dalle aziende (PhD, Doktorand, Promotion, thèse, CIFRE nel titolo) li trova lo
+scanner lavori e li passa al profilo PhD tramite `out/phd_industrial.json`. Le fellowship con scadenza
+annuale sono in `phd_fellowships.json`: una volta a settimana lo scanner controlla le pagine e riporta
+le date trovate in `out/phd_fellowships.json`. I Doctoral Networks si rigenerano dal dataset CORDIS con
+`python tools/cordis_networks.py`.
 
 Le fonti sono in `sources.json`, i filtri (titolo e località) in cima a `scan.py`.
 Per lanciarlo a mano: tab **Actions** → **Job scanner** → **Run workflow**. In locale serve
