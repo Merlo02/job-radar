@@ -1,0 +1,215 @@
+{
+ "generated": "2026-10-13T21:45:23Z",
+ "count": 10,
+ "items": [
+  {
+   "id": "fwo-fr",
+   "name": "FWO PhD Fellowship fundamental research",
+   "url": "https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-fundamental-research",
+   "country": "be",
+   "msca": false,
+   "typical_deadline": "1 marzo (bando 2027: apertura 3 dicembre 2026, chiusura 1 marzo 2027 alle 17 CET, risultati 7 ottobre 2027)",
+   "requirements": "Host in un'università della Comunità fiamminga (o in uno degli istituti associati); progetto di ricerca fondamentale proprio; 3 o 4 anni (solo 3 se il master è di oltre 12 mesi prima della scadenza e ci sono più di 6 mesi di ricerca dottorale retribuita); la lettera di raccomandazione entra nella valutazione.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-12-03",
+     "context": "onsideration. More information about the application procedures and eligibility conditions is available here . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CE"
+    },
+    {
+     "date": "2026-12-04",
+     "context": "es of the info session for the PhD fellowship call 2027: Date University 3/12/2026 VUB 3/12/2026 UHasselt 4/12/2026 KU Leuven 8/12/2026 UGent 9/12/"
+    },
+    {
+     "date": "2026-12-08",
+     "context": "or the PhD fellowship call 2027: Date University 3/12/2026 VUB 3/12/2026 UHasselt 4/12/2026 KU Leuven 8/12/2026 UGent 9/12/2026 UAntwerpen Pres"
+    },
+    {
+     "date": "2026-12-09",
+     "context": "p call 2027: Date University 3/12/2026 VUB 3/12/2026 UHasselt 4/12/2026 KU Leuven 8/12/2026 UGent 9/12/2026 UAntwerpen Presentation info sessio"
+    },
+    {
+     "date": "2027-03-01",
+     "context": "out the application procedures and eligibility conditions is available here . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CET : closing call (last applica"
+    },
+    {
+     "date": "2027-06-25",
+     "context": "here . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CET : closing call (last application date) 7 – 25 June 2027 : (online) preselection meetings 29 Ju"
+    },
+    {
+     "date": "2027-06-29",
+     "context": "l 01 March 2027 at 5pm CET : closing call (last application date) 7 – 25 June 2027 : (online) preselection meetings 29 June 2027 : sending out invitations for interview"
+    },
+    {
+     "date": "2027-11-17",
+     "context": "tember 2027 : (physical) interviews 07 October 2027 : announcement of results 01 November 2027 : start of fellowship 17 November 2027 : deadline for sending feedback Chara"
+    }
+   ]
+  },
+  {
+   "id": "fwo-sb",
+   "name": "FWO PhD Fellowship strategic basic research",
+   "url": "https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-strategic-basic-research",
+   "country": "be",
+   "msca": false,
+   "typical_deadline": "1 marzo (bando 2027: apertura 3 dicembre 2026, chiusura 1 marzo 2027 alle 17 CET)",
+   "requirements": "Come la fellowship fondamentale (host in un'università fiamminga, 3 o 4 anni), per ricerca di base strategica orientata alle applicazioni.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-12-03",
+     "context": "consideration. More information about the application procedures and eligibility conditions is available here . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CE"
+    },
+    {
+     "date": "2026-12-04",
+     "context": "ession for the PhD fellowship call 2027: Date University Date University 3/12/2026 VUB 3/12/2026 UHasselt 4/12/2026 KU Leuven 8/12/2026 UGent 9/12/"
+    },
+    {
+     "date": "2026-12-08",
+     "context": "wship call 2027: Date University Date University 3/12/2026 VUB 3/12/2026 UHasselt 4/12/2026 KU Leuven 8/12/2026 UGent 9/12/2026 UAntwerpen Pres"
+    },
+    {
+     "date": "2027-03-01",
+     "context": "bout the application procedures and eligibility conditions is available here . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CET : closing call (last applica"
+    },
+    {
+     "date": "2027-06-04",
+     "context": "e . Dates 03 December 2026 : opening call 01 March 2027 at 5pm CET : closing call (last application date) 18 May – 4 June 2027 : (online) preselection meetings 8 Ju"
+    },
+    {
+     "date": "2027-06-08",
+     "context": "March 2027 at 5pm CET : closing call (last application date) 18 May – 4 June 2027 : (online) preselection meetings 8 June 2027 : sending out invitations for interview"
+    },
+    {
+     "date": "2027-11-17",
+     "context": "tember 2027 : (physical) interviews 07 October 2027 : announcement of results 01 November 2027 : start of fellowship 17 November 2027 : deadline for sending feedback Chara"
+    }
+   ]
+  },
+  {
+   "id": "sges",
+   "name": "Swiss Government Excellence Scholarships",
+   "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Varia per paese d'origine: la data è sulla pagina del paese",
+   "requirements": "Master entro il 31 luglio 2027 (ETH: 30 giugno 2027); nati dopo il 31 dicembre 1991; lettera di supporto di un supervisor in Svizzera autorizzato a seguire dottorati; borsa di ricerca di 6-12 mesi o borsa di dottorato, inizio 1 settembre 2027, CHF 2.450 al mese; precedenza a chi non ha già studiato o fatto ricerca in Svizzera; chi vi risiede già deve esserci entrato non prima del 1 agosto 2026.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": []
+  },
+  {
+   "id": "ellis-phd",
+   "name": "ELLIS PhD Program",
+   "url": "https://ellis.eu/research/phd-postdoc",
+   "country": "eu",
+   "msca": false,
+   "typical_deadline": "Fine ottobre (programma 2027: 31 ottobre 2026)",
+   "requirements": "Candidatura unica sul portale ELLIS: dettagli sulla pagina.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-10-31",
+     "context": "ingen and the Max Planck Institute for... Read More 10/09/26 ELLIS PhD Program: Call for Applications 2026 Apply by 31 October 2026 to join the ELLIS PhD Program in 2027"
+    }
+   ]
+  },
+  {
+   "id": "grow-tudelft",
+   "name": "GROW – Graduate Research On Worldwide challenges (MSCA COFUND, TU Delft)",
+   "url": "https://cordis.europa.eu/project/id/101126487",
+   "country": "nl",
+   "msca": true,
+   "typical_deadline": "Non nota: bandi del programma 2024-2029",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi nei Paesi Bassi nei 3 anni prima dell'assunzione); nessun dottorato già conseguito.",
+   "kind": "fellowship",
+   "eligible": true,
+   "reachable": true,
+   "dates_found": []
+  },
+  {
+   "id": "trainlse",
+   "name": "trainLSE – doctoral training in Life Science Engineering at TU Darmstadt (MSCA COFUND)",
+   "url": "https://cordis.europa.eu/project/id/101126497",
+   "country": "de",
+   "msca": true,
+   "typical_deadline": "Non nota: bandi del programma 2024-2029",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi in Germania nei 3 anni prima dell'assunzione); nessun dottorato già conseguito.",
+   "kind": "fellowship",
+   "eligible": true,
+   "reachable": true,
+   "dates_found": []
+  },
+  {
+   "id": "gen-q",
+   "name": "Gen-Q – doctoral programme in quantum science and technology, EUCOR (MSCA COFUND)",
+   "url": "https://cordis.europa.eu/project/id/101217386",
+   "country": "de",
+   "msca": true,
+   "typical_deadline": "Non nota: 51 posti nel programma 2025-2030",
+   "requirements": "Regola di mobilità MSCA (non più di 12 mesi nel paese ospite nei 3 anni prima dell'assunzione); nessun dottorato già conseguito.",
+   "kind": "fellowship",
+   "eligible": true,
+   "reachable": true,
+   "dates_found": []
+  },
+  {
+   "id": "eth-ai-center",
+   "name": "ETH AI Center Doctoral Fellowship",
+   "url": "https://jobs.ethz.ch/job/view/12136",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Fine ottobre (2027: 27 ottobre 2026 alle 16:00 CET; inizio di solito a settembre 2027)",
+   "requirements": "Candidatura sul portale ETH; dettagli nell'annuncio.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-10-27",
+     "context": "ully our guidelines: ETH AI Center Doctoral Fellowship Guidelines and visit our FAQs . The deadline for applications is October 27, 2026 (16:00 CET). Please note that we exclus"
+    }
+   ]
+  },
+  {
+   "id": "cls",
+   "name": "Max Planck ETH Center for Learning Systems (CLS)",
+   "url": "https://learning-systems.org/",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Inizio novembre (2026: 2 novembre alle 23:59 CET, tutte le parti della candidatura)",
+   "requirements": "Dottorato congiunto ETH Zürich / Max Planck: dettagli sulla pagina.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-11-02",
+     "context": "The application phase to join in 2027 is now open. Deadline for all parts of the application: midnight (11:59pm) CET on November 02, 2026. At the heart of CLS is its doctoral t"
+    }
+   ]
+  },
+  {
+   "id": "robotx",
+   "name": "ETH RobotX PhD Fellowship",
+   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
+   "country": "ch",
+   "msca": false,
+   "typical_deadline": "Fine novembre (2027: 27 novembre 2026)",
+   "requirements": "Una candidatura valutata da più gruppi RobotX dell'ETH; inizio da concordare nel 2027.",
+   "kind": "fellowship",
+   "reachable": true,
+   "dates_found": [
+    {
+     "date": "2026-11-27",
+     "context": "You choose up to three professors you would like to work with, and they review your application. Application deadline: 27 November 2026. Job description The research groups"
+    },
+    {
+     "date": "2026-12-01",
+     "context": "ing Name the PDF with the application date (YYMMDD) and your last and first name. For example, Jane Miller applying on 1 December 2026 names her file 261201_MillerJane_applic"
+    }
+   ]
+  }
+ ]
+}

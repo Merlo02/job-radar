@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T12:14:50Z",
+ "generated": "2026-10-13T21:45:23Z",
  "days": 14,
- "count": 7,
+ "count": 8,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -125,6 +125,23 @@
    "dept": "Translational Cell & Tissue Research",
    "deadline": "2026-11-17",
    "closed_at": "2026-10-13T11:26:12Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "kuleuven-phd:60768297",
+   "co": "KU Leuven",
+   "big": true,
+   "title": "PhD position in Operations Research - Decision Diagrams for Combinatorial Optimization",
+   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60768297?lang=en",
+   "loc": "Leuven",
+   "loc_status": "eu",
+   "first_seen": "2026-10-13T08:21:13Z",
+   "last_seen": "2026-10-13T12:14:50Z",
+   "ats": "kuleuven",
+   "country": "be",
+   "dept": "Operations Research and Statistics Research Group (ORSTAT) (main work address Leuven)",
+   "deadline": "2026-10-21",
+   "closed_at": "2026-10-13T21:45:23Z",
    "reason": "not listed anymore"
   }
  ]
