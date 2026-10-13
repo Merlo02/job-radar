@@ -17,3 +17,5 @@ AcademicTransfer per tutte le università olandesi, KU Leuven, Ghent) e scrive `
 
 Le fonti sono in `sources.json`, i filtri (titolo e località) in cima a `scan.py`.
 Per lanciarlo a mano: tab **Actions** → **Job scanner** → **Run workflow**.
+
+Per chi ci lavora con Claude Code: regole in `CLAUDE.md`, piano in corso in `docs/PLAN.md`.
