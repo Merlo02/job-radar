@@ -356,7 +356,7 @@ def cmd_docs():
             did = f"{base[:50]}-{hashlib.md5(c['key'].encode()).hexdigest()[:5]}"
         taken.add(did)
         save(f"write/{did}.json", doc)
-        writes.append({"op": "set", "collection": "jobs", "doc_id": did, "file_path": f"write/{did}.json"})
+        writes.append({"op": "set", "collection": "jobs", "doc_id": did, "file_path": os.path.abspath(f"write/{did}.json")})
         added.append((doc, j))
     # closures: postings gone from the company sites, deadlines passed
     nc = load("new_cards.json", {})
@@ -373,7 +373,7 @@ def cmd_docs():
            "lines": "\n".join(lines)}   # key|co|title|tipo|fit|prestigio|anni|motivo, read back by judged_keys
     save("write/radar-run.json", run)
     writes.append({"op": "set", "collection": "radarRuns", "doc_id": NOW.strftime("%Y-%m-%dT%H%M%SZ"),
-                   "file_path": "write/radar-run.json"})
+                   "file_path": os.path.abspath("write/radar-run.json")})
     chunks = [writes[i:i + 50] for i in range(0, len(writes), 50)]
     for i, ch in enumerate(chunks, 1):
         save(f"write/batch-{i}.json", ch)
@@ -502,7 +502,7 @@ def cmd_phd_done():
     items = load("phd_cards.json", [])
     save("write/phd-run.json", {"date": TODAY, "count": len(items), "keys": [it["key"] for it in items]})
     did = NOW.strftime("%Y-%m-%dT%H%M%SZ")
-    print(json.dumps({"op": "set", "collection": "phdRuns", "doc_id": did, "file_path": "write/phd-run.json"}))
+    print(json.dumps({"op": "set", "collection": "phdRuns", "doc_id": did, "file_path": os.path.abspath("write/phd-run.json")}))
 
 
 if __name__ == "__main__":
