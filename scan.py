@@ -102,12 +102,13 @@ EXCLUDE = re.compile(
 
 PHD_RE = re.compile(r"\bph\.?\s?d\b|doctoral|doctorate|doctoraat|promovend|doktorand|doctorant|dottorat|\bcifre\b|"
                     r"th[èe]se\b", re.I)
-PHD_EXCLUDE = re.compile(r"post[- ]?doc|postdoctoral|professor|lecturer|master'?s? (?:thesis|project)|"
+PHD_EXCLUDE = re.compile(r"post[- ]?do[ck]|professor|lecturer|master'?s? (?:thesis|project)|"
                          r"student assistant|internship|technician|\bmanager\b|pre-?doctoral|praktik|"
                          r"werkstudent|stagiaire|tirocin", re.I)
 # Subjects near the profile, wide on purpose (Claude judges the fit), in EN, FR, DE, IT, NL.
 PHD_TOPIC = re.compile(
-    r"machine learning|deep learning|(?-i:\bAI\b|\bKI\b|\bIA\b)|artificial intelligence|neural|learning\b|\bdata\b|"
+    r"machine learning|deep learning|(?-i:\bAI\b|\bKI\b|\bIA\b|\bML\b)|artificial intelligence|neural|learning\b|\bdata\b|"
+    r"model(?:l)?ing|cardi|heart|"
     r"signal|sensor|sensing|wearable|robot|vision|imaging|image|ultrasound|acoustic|biomedical|health|medical|"
     r"computational|algorithm|autonom|embedded|edge|hardware|\bLLMs?\b|\bVLMs?\b|language model|foundation model|"
     r"generative|time series|control|digital twin|statistic|computer|information technology|"
@@ -134,12 +135,24 @@ def generic_phd_title(t):
     return len(re.findall(r"[A-Za-zÀ-ÿ]{3,}", PHD_GENERIC.sub(" ", t or ""))) <= 1
 
 
-# Doctoral positions advertised by companies: the job scan hands them to the PhD profile.
+# Doctoral positions advertised by companies and on the job boards: the job scan hands them to the
+# PhD profile (out/phd_industrial.json).
 INDUSTRIAL_PHD = re.compile(
-    r"\bph\.?\s?d\.?\s*(?:student|candidate|position|researcher|thesis|project|programme|program|fellow\w*|"
-    r"opportunit\w*|in\b|on\b|at\b|:|[–-])|^\s*ph\.?\s?d\b|doctoral (?:student|candidate|researcher|position|thesis)|"
-    r"industrial (?:ph\.?\s?d|doctora\w*)|doktorand|promotionsstelle|(?<!investment )(?<!sales )(?<!trade )\bpromotion\b(?! (?:manager|specialist|coordinator|finan))|"
-    r"th[èe]se|\bcifre\b|dottorat|doctorat|research assistant \(ph\.?d\)", re.I)   # the last one: Meta FAIR's PhD
+    r"\bph\.?\s?d\.?\s*(?:student\w*|candidate|position|researcher|thesis|project|programme|program|fellow\w*|"
+    r"scholarship|"
+    r"opportunit\w*|in\b|on\b|at\b|:|[–-])|^\s*ph\.?\s?d\b(?!\.?\s*(?:graduate|holder|level))|doctoral (?:student|candidate|researcher|position|thesis)|"
+    r"industrial (?:ph\.?\s?d|doctora\w*)|doktorand|promotionsstelle|(?:^\s*|\b(?:für|zur|der) )promotion\b(?! (?:manager|specialist|coordinator|finan|des\b|de\b|du\b))|"
+    r"th[èe]se|\bcifre\b|dottorat|doctorat|promovend|\bdoktorant|\bdoctorand|"
+    r"research assistant \(ph\.?d\)", re.I)   # the last one: Meta FAIR's PhD
+# Employers on the job boards that make a doctoral position academic rather than industrial.
+ACADEMIC_CO = re.compile(
+    r"universit|hochschule|\bTU\b|\bETH\b|EPFL|[ée]cole|\bcollege\b|school|institut|\bDTU\b|\bKTH\b|\bUMC\b|"
+    r"\bMC\b|hospital|klinik|ziekenhuis|fraunhofer|max planck|helmholtz|leibniz|\bCNRS\b|\bINRIA\b|\bCEA\b|"
+    r"\bINSERM\b|\bINRAE\b|\bIIT\b|\bEMBL\b|\bCERN\b|\bTNO\b|\bimec\b|academ|polytechn|politecnic|\bUCL\b|"
+    r"leuven|research cent|centre de recherche|forschungszentrum|\bDLR\b|\bSISSA\b|\bISTA\b|\bIST\b|centrum|"
+    r"wageningen|\bWUR\b|laborator|forschung|recherche|ricerca|onderzoek|\bXFEL\b|electron laser", re.I)
+FRANCE_RE = re.compile(r"france|paris|grenoble|lyon|toulouse|saclay|sophia|rennes|nice|lille", re.I)
+BOARD_PHD_DAYS = 30   # a doctoral position seen on a job board stays on the PhD map this long
 IT_RE = re.compile(r"\bital(?:y|ia|ie|ien)\b|(?-i:(?<![A-Za-z])IT(?![A-Za-z]))|\b(?:milan|milano|turin|torino|rome|roma|"
                    r"bologna|pisa|genoa|genova|padova|padua|naples|napoli|trento|trieste|florence|firenze|bari|catania)\b", re.I)
 CH_RE = re.compile(r"switzerland|schweiz|suisse|svizzera|(?-i:(?<![A-Za-z])CH(?![A-Za-z]))|\b(?:zurich|zürich|geneva|genève|"
@@ -208,33 +221,52 @@ NOT_TECH = re.compile(   # always out, whatever else the title says
     r"(?:administrative|executive|personal) assistant|\bretail\b|\bstore (?:manager|associate|assistant|staff)|"
     r"cashier|warehouse|\bdriver\b|housekeep|cleaner|vertrieb|verkauf|buchhalt|personalreferent|"
     r"rechtsanwalt|steuerberater|comptab|juridique|ressources humaines|vendite|contabil|risorse umane|"
-    r"addetto vendite|cameriere|camariera|cameriera|facchino", re.I)
+    r"addetto vendite|cameriere|camariera|cameriera|facchino|data entry", re.I)
+GIG = re.compile(   # data labelling and AI-training gigs, out even with an ML title
+    r"data annotat|annotator|annotation (?:specialist|quality|analyst|expert)|\bAI (?:trainer|tutor)s?\b|"
+    r"\(AI training\)|[-–] AI training|AI training (?:contributor|specialist)|transcriptionist|\brater\b|"
+    r"content moderat", re.I)
 SOFT_NOT_TECH = re.compile(   # out unless the title also has a technical word ("Marketing Data Scientist")
     r"marketing|\bbrand\b|public relations|communications?\b|\bfinance\b|financial (?:analyst|planning)|"
-    r"commercial(?:e)?\b|\bevent", re.I)
+    r"commercial(?:e)?\b|\bevent|"
+    r"\bnurse|nursing|psycholog|therapist|physiotherap|midwi|pharmacist|care (?:worker|assistant|coordinator|home)|"
+    r"support worker|healthcare assistant|\bcarer\b|dental|dentist|veterinar|radiographer|phlebotom|paramedic|"
+    r"psychiatr|surgeon|physician|sonographer|counsell?or\b|social worker|pflege|infirmi|infermier|"
+    r"actuar|underwrit|market risk|credit risk|deal advisory|transaction services|investment bank|equity research|"
+    r"\bwealth\b|claims (?:handler|adjuster)|\bloans?\b|mortgage|\bbanker\b|private equity|\bM&A\b|\bAML\b|\bKYC\b|"
+    r"demand generation|growth hack|\bSEO\b|copywrit|content (?:writer|creator|manager|strateg|editor|specialist)|"
+    r"social media|community manager|journalist|\beditor\b|translator|interpreter|"
+    r"facilit(?:y|ies)|electrician|plumber|\bmechanic\b|welder|\bcook\b|waiter|barista|security guard|janitor|"
+    r"logistics|supply chain|teacher|\btutor\b|lehrer|enseignant|insegnant|secretary|\bclerk\b", re.I)
 # A technical word in the title keeps the posting even with a function word ("Marketing Data Scientist").
 TECH_ANCHOR = re.compile(
     r"engineer|ingenieur|ingénieur|ingegner|scientist|wissenschaftl|chercheur|ricercat|research|"
     r"\bdata\b|machine learning|deep learning|(?-i:\bML\b|\bAI\b|\bKI\b|\bIA\b|\bNLP\b|\bLLMs?\b)|"
     r"developer|entwickler|développeur|sviluppat|software|algorithm|analytics|statistic|quant\b|"
-    r"computer vision|robotic|modell|simulation|signal|perception|technical staff", re.I)
+    r"computer vision|robotic|modell|modeling|\bmodels?\b|simulation|signal|perception|technical staff|"
+    r"architect|\beng\b|informati", re.I)
+ML_ROLE = re.compile(r"scientist|engineer|ingenieur|ingénieur|developer|entwickler|researcher|\bdata\b|analytics|"
+                     r"machine learning", re.I)
 TOO_SENIOR = re.compile(
     r"(?<![(/])\bsenior\b(?!\s*[/)])|\bsr\b\.?|\bstaff\b|principal|\blead\b|\bleader|manager|director|\bhead\b|"
+    r"principle (?:engineer|scientist|researcher|software|data|ml|ai)|"   # a frequent misspelling of principal
     r"\bVP\b|vice president|\bchief\b|\bexecutive\b|\bleiter|\bleitung\b|directeur|direttore|responsabile|"
     r"(?-i:\bL[6-9]\b|\bIC[5-9]\b|\bE[6-9]\b|\bP[5-9]\b)", re.I)
 NOT_A_JOB = re.compile(
     r"\bintern\b|\binterns\b|internship|praktik|\bstage\b|stagiaire|tirocin|stagista|werkstudent|"
     r"working student|student assistant|student job|studentische|summer student|thesis|abschlussarbeit|"
     r"masterarbeit|bachelorarbeit|\btesi\b|m[ée]moire|apprentice|ausbildung|azubi|lehrling|duales? stud|"
-    r"alternance|alternant|apprendist|postdoc|post-doc|postdoctoral|professor|lecturer|faculty position|"
+    r"alternance|alternant|apprendist|\bpost[- ]?do[ck]|professor|lecturer|faculty position|"
     r"\bdozent", re.I)
 
 
 def wide_ok(title, dept=""):
     """Phase 2 filter: drop only non-technical functions, impossible seniority and non-jobs."""
     t = re.sub(r"member of (?:the )?technical staff", "MTS", title or "", flags=re.I)
-    if TOO_SENIOR.search(t) or NOT_A_JOB.search(t):
+    if TOO_SENIOR.search(t) or NOT_A_JOB.search(t) or GIG.search(t):
         return False
+    if title_ok(t) and ML_ROLE.search(t):   # an ML role stays whatever function it names ("Applied Scientist, Procurement")
+        return True
     if NOT_TECH.search(t) or (NOT_TECH.search(dept or "") and not TECH_ANCHOR.search(t)):
         return False
     return not (SOFT_NOT_TECH.search(f"{t} | {dept or ''}") and not TECH_ANCHOR.search(t))
@@ -2004,16 +2036,39 @@ def abg_detail(src, r):
         r["kind"] = "cifre"
 
 
-def industrial_list(src):
-    """Doctoral positions found by the job scan in company sources (out/phd_industrial.json)."""
+def handoff():
     data = load(os.path.join(OUT, "phd_industrial.json"), None)
     if not data or days_since(data.get("generated", "")) > 2:
         raise RuntimeError("out/phd_industrial.json missing or older than 2 days: run the job scan first")
+    return data.get("items", [])
+
+
+def industrial_list(src):
+    """Doctoral positions found by the job scan in company sources (out/phd_industrial.json)."""
     out = []
-    for it in data.get("items", []):
+    for it in handoff():
+        if it.get("board"):
+            continue
         out.append(rec(src, it["key"], it["title"], it["url"], it.get("loc", ""), it.get("posted"),
                        desc=it.get("desc"), co=it["co"], kind=it.get("kind", "industrial"), dept=it.get("dept", ""),
                        _is_phd=True))
+    return out, True
+
+
+def board_phd_list(src):
+    """Doctoral positions found on LinkedIn, Indeed and the other job boards (out/phd_industrial.json,
+    "board": true). The same position on two boards, or already listed by its university's own
+    source, appears once."""
+    out, seen = [], {}   # title -> employers already listed ("Erasmus MC" and "Erasmus MC-Klinische Chemie")
+    for it in sorted(handoff(), key=lambda it: it.get("via") != "linkedin"):
+        co, t = co_key(it["co"]), title_key(it["title"])
+        if not it.get("board") or any(co.startswith(c) or c.startswith(co) for c in seen.get(t, ())) or \
+                COMPANIES.direct_match(it, any_place=True):
+            continue
+        seen.setdefault(t, []).append(co)
+        out.append(rec(src, it["key"], it["title"], it["url"], it.get("loc", ""), it.get("posted"),
+                       desc=it.get("desc"), co=it["co"], kind=it.get("kind", "academic"), dept=it.get("dept", ""),
+                       via=it.get("via"), _is_phd=True))
     return out, True
 
 
@@ -2044,6 +2099,7 @@ ADAPTERS = {
     "links": (links_list, generic_detail),
     "sitemap": (sitemap_list, sitemap_detail),
     "watch": (watch_list, None),
+    "board_phd": (board_phd_list, None),
     "ethz": (ethz_list, generic_detail),
     "prospective": (prospective_list, None),
     "academictransfer": (academictransfer_list, None),
@@ -2063,6 +2119,21 @@ ADAPTERS = {
     "wttj": (wttj_list, ld_detail),
     "hn": (hn_list, None),
 }
+
+
+def phd_item(r, src_id, board=False):
+    """A doctoral position found by the job scan, as handed to the PhD profile."""
+    desc = r.get("desc_full") or r.get("desc") or ""
+    co = r.get("co") or "?"
+    academic = board and ACADEMIC_CO.search(co)
+    cifre = re.search(r"\bcifre\b", r["title"] + " " + desc, re.I)
+    kind = "cifre" if cifre or (FRANCE_RE.search(r.get("loc") or "") and not academic) else \
+        "academic" if academic else "industrial"
+    it = {"key": r["key"], "src": src_id, "co": co, "title": r["title"], "url": r["url"], "loc": r.get("loc", ""),
+          "posted": r.get("posted"), "dept": r.get("dept", ""), "kind": kind, "desc": desc[:12000] or None}
+    if board:   # seen once by a search over the last days: the job scan keeps handing it over for a while
+        it.update(board=True, via=r.get("ats"), seen=(r.get("last_seen") or NOW_ISO)[:10])
+    return it
 
 
 # ----------------------------------------------------------------- run logic
@@ -2106,7 +2177,7 @@ def run_source(src, known_keys, has_detail):
             seen.add(r["key"])
             if src.get("exclude") and re.search(src["exclude"], r["title"] or "", re.I):
                 continue
-            if PROFILE != "phd" and src["type"] not in BOARD_TYPES and not src.get("academic") and \
+            if PROFILE != "phd" and not src.get("academic") and \
                     INDUSTRIAL_PHD.search(r["title"] or "") and not PHD_EXCLUDE.search(r["title"]):
                 if loc_status(r.get("loc")) != "no":
                     phd.append(r)   # a doctoral position: it goes to the PhD profile (out/phd_industrial.json)
@@ -2141,8 +2212,9 @@ def run_source(src, known_keys, has_detail):
                     continue
                 r["loc_status"] = "eu" if src.get("ignore_location") else ls
             kept.append(r)
-        for r in phd[:src.get("max_phd", 25)]:
-            if detailer and not r.get("desc_full") and r["key"] not in PHD_DONE:
+        for i, r in enumerate(phd):
+            if i < src.get("max_phd", 25) and detailer and not r.get("desc_full") and r["key"] not in PHD_DONE \
+                    and time.time() < src.get("_stop_at", 1e12):
                 try:
                     detailer(src, r)
                 except Gone:
@@ -2151,12 +2223,7 @@ def run_source(src, known_keys, has_detail):
                     pass
             if loc_status(r.get("loc")) == "no":
                 continue
-            desc = r.get("desc_full") or ""
-            france = re.search(r"france|paris|grenoble|lyon|toulouse|saclay|sophia|rennes|nice|lille", r.get("loc") or "", re.I)
-            INDUSTRIAL.append({"key": r["key"], "src": src["id"], "co": r.get("co") or src["co"], "title": r["title"],
-                               "url": r["url"], "loc": r.get("loc", ""), "posted": r.get("posted"), "dept": r.get("dept", ""),
-                               "kind": "cifre" if france or re.search(r"\bcifre\b", r["title"] + desc, re.I) else "industrial",
-                               "desc": desc[:12000] or None})
+            INDUSTRIAL.append(phd_item(r, src["id"], board=src["type"] in BOARD_TYPES))
             MOVED.add(r["key"])
         st.update(ok=True, matched=len(kept), complete=complete, details=n_detail,
                   secs=round(time.time() - t0, 1))
@@ -2195,7 +2262,7 @@ def candidate(e, descs):
 def public(e, with_desc):
     keys = ["key", "co", "target", "big", "title", "url", "loc", "loc_status", "posted",
             "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary",
-            "level", "apply_url", "kind", "eligible", "eligibility_note", "funding"]
+            "level", "apply_url", "kind", "eligible", "eligibility_note", "funding", "via"]
     if with_desc:
         keys += ["desc", "signals"]
     return {k: e.get(k) for k in keys if e.get(k) not in (None, "")}
@@ -2346,7 +2413,7 @@ def main():
             s["_hwm"] = meta["hwm"].get(s["id"])
     if PROFILE != "phd":   # industrial PhDs already described in the PhD state need no new detail request
         PHD_DONE.update(k.split(":", 1)[1] for k, v in load(os.path.join(OUT, "phd_state.json"), {"jobs": {}})["jobs"].items()
-                        if k.startswith("industrial:") and v.get("det"))
+                        if k.startswith(("industrial:", "boards-phd:")) and v.get("det"))
     closed = [c for c in load(os.path.join(OUT, PREFIX + "closed.json"), {"items": []}).get("items", [])
               if days_since(c.get("closed_at", "")) <= CLOSED_DAYS]
     # every closure, also of postings outside recent/open.json, for the readers of candidates.json;
@@ -2372,11 +2439,12 @@ def main():
             if recs is None:
                 continue
             baseline = sid not in meta["sources_seen"]
-            board = src["type"] == "jobspy"
+            board = src["type"] in ("jobspy", "board_phd")
             if NOTES.get(sid, {}).get("_hwm") is not None:
                 meta["hwm"][sid] = NOTES[sid]["_hwm"]
             if board:   # the boards only return recent postings: nothing to hold back as "baseline"
-                meta["searches"].setdefault(sid, {}).update(NOTES.get(sid, {}).get("_done", {}))
+                if src["type"] == "jobspy":
+                    meta["searches"].setdefault(sid, {}).update(NOTES.get(sid, {}).get("_done", {}))
                 baseline = False
             if src["type"] == "watch":
                 text = recs[0]["_watch_text"]
@@ -2424,7 +2492,7 @@ def main():
                     e = {x: r.get(x) for x in ("key", "src", "co", "target", "big", "ats", "id", "title",
                                                "url", "loc", "loc_status", "posted")}
                     e.update({x: r[x] for x in ("country", "dept", "deadline", "salary", "level", "apply_url",
-                                                "dup_of", "kind", "funding") if r.get(x)})
+                                                "dup_of", "kind", "funding", "via") if r.get(x)})
                     e["first_seen"] = NOW_ISO
                     if baseline or (widen and not board and not r.get("ml", True)):
                         e["baseline"] = True
@@ -2464,6 +2532,9 @@ def main():
                 if k in MOVED:   # handed to the PhD profile: not a closure
                     del jobs[k]
                     continue
+                if PROFILE != "phd" and not wide_ok(v.get("title"), v.get("dept")):   # out of a narrower filter
+                    del jobs[k]
+                    continue
                 if board:   # out of the search window, not necessarily closed: just forget it
                     if days_since(v.get("last_seen", "")) > src.get("keep_days", 30):
                         del jobs[k]
@@ -2490,6 +2561,11 @@ def main():
             if baseline:
                 meta["sources_seen"].append(sid)
 
+    if PROFILE != "phd" and not only:
+        # doctoral positions recorded from the job boards before they went to the PhD profile
+        for k in [k for k, v in jobs.items() if v.get("ats") in BOARDS and INDUSTRIAL_PHD.search(v.get("title") or "")
+                  and not PHD_EXCLUDE.search(v["title"]) and loc_status(v.get("loc")) != "no"]:
+            INDUSTRIAL.append(phd_item(jobs.pop(k), k.split(":")[0], board=True))
     coverage = check_boards(jobs, {s["id"]: s for s in statuses})
     if PROFILE == "phd" and not only:
         check_fellowships(meta)
@@ -2499,8 +2575,14 @@ def main():
             v["kind"] = v.get("kind") or kinds.get(v.get("src")) or "academic"
             msca_eligibility(v)
     elif not only:
-        save(os.path.join(OUT, "phd_industrial.json"), {"generated": NOW_ISO, "count": len(INDUSTRIAL),
-                                                        "items": INDUSTRIAL})
+        held = meta.setdefault("board_phd", {})   # job-board doctoral positions, handed over for BOARD_PHD_DAYS
+        for it in INDUSTRIAL:
+            if it.get("board"):
+                held[it["key"]] = {**held.get(it["key"], {}), **{x: y for x, y in it.items() if y}}
+        for k in [k for k, v in held.items() if days_since(v.get("seen", "")) > BOARD_PHD_DAYS]:
+            del held[k]
+        items = [it for it in INDUSTRIAL if not it.get("board")] + list(held.values())
+        save(os.path.join(OUT, "phd_industrial.json"), {"generated": NOW_ISO, "count": len(items), "items": items})
     # a posting dropped by one source but still listed by another (Google and DeepMind) is not closed
     open_urls = {v.get("url") for v in jobs.values()}
     closed = [c for c in closed if c.get("closed_at") != NOW_ISO or c.get("url") not in open_urls]

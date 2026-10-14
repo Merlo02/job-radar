@@ -57,6 +57,24 @@ ancora cosa va in `recent.json`, `open.json` e `closed.json`, così la routine R
 trova centinaia di annunci in più. Anche gli annunci di LinkedIn e Indeed stanno solo in
 `candidates.json` (`BOARDS_IN_RECENT = False`).
 
+Verifica sui dati veri del 14/10 (7806 annunci aperti, 604 nuovi in una notte):
+- Esclusioni sicure aggiunte, controllate titolo per titolo (271 annunci in meno):
+  - sanità e cura (infermieri, psicologi, terapisti);
+  - finanza non tecnica (attuari, underwriting, credit risk, wealth);
+  - contenuti e SEO;
+  - logistica e facility;
+  - insegnanti;
+  - postdoc scritti in altri modi («Post Doctoral», «Postdoktorand»);
+  - «Principle Engineer».
+
+  Escono anche, pur con un titolo ML, i lavori di annotazione dati e di «AI training» (`GIG`).
+- Un titolo ML con un ruolo tecnico resta anche se nomina una funzione esclusa («Applied
+  Scientist, Procurement», «Auditor Data Scientist»): prima si perdeva.
+- Le posizioni PhD trovate su LinkedIn, Indeed e gli altri portali (~80 aperte) non stanno più tra
+  i lavori: vanno alla Mappa PhD (vedi fase 1-bis, `boards-phd`).
+- `candidates.json` pesa ~12 MB: per la fase 3 la routine non può leggerlo intero, serve un file
+  compatto con le sole schede nuove (da decidere con la routine).
+
 `out/candidates.json`: `items` (annunci aperti, ordinati per `score`) con key, src, co, title, loc,
 posted, first_seen, url, apply_url, ats, target, big, baseline, ml, score, kw (parole chiave che
 hanno dato o tolto punti), years (anni di esperienza chiesti, il minimo più alto trovato), card
@@ -70,7 +88,11 @@ giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 perché ora sono nello scanner.
 
 **Fase 1-bis fatta.**
-- EURAXESS (`euraxess`): il filtro «PhD positions» funziona se messo nell'URL
+- EURAXESS (`euraxess`) **è spenta dal 14/10** (`disabled` in `phd_sources.json`): su GitHub
+  Actions ha letto 250 pagine senza rifiuti ma sempre le stesse 6 posizioni, quindi la paginazione
+  va rivista prima di riaccenderla. Quando torna, il job PhD (che ora parte dopo quello lavori)
+  non può più avere 240 minuti: va riletta in più notti o in un job a parte.
+  Com'era fatta: il filtro «PhD positions» funziona se messo nell'URL
   (`f[0]=positions:php_positions`, ~100 pagine da 10). Il sito risponde 429 per minuti a chi va
   veloce, quindi si legge una pagina ogni 20-30 secondi (il passo rallenta da solo a ogni rifiuto),
   tutte le pagine ogni notte, con un tetto di 240 minuti. Filtro largo: `PHD_TOPIC` su titolo,
@@ -88,6 +110,13 @@ perché ora sono nello scanner.
   aziendali con PhD, doctoral, Doktorand, Promotion, thèse o CIFRE nel titolo (fonti accademiche
   escluse: `academic: true`), e il profilo PhD li legge (`industrial`; `cifre` se in Francia o se
   citato). Escono dai file lavori senza risultare chiusi.
+- Dottorati dai portali (`boards-phd`, dal 14/10): lo stesso passaggio vale per LinkedIn, Indeed e
+  gli altri portali, con in più Promovendus, doktorant, PhD scholarship/studentship. Il `kind` dipende
+  dal datore di lavoro: `academic` per università e istituti (`ACADEMIC_CO`), altrimenti
+  `industrial`, `cifre` se citato o in Francia fuori dall'università; `via` dice il portale.
+  I portali mostrano un annuncio una volta sola, quindi lo scanner lavori lo ripassa per 30 giorni
+  (`BOARD_PHD_DAYS`, in `meta.board_phd` dello stato). Nessuna chiusura: dopo 30 giorni sparisce
+  dalla mappa. Doppioni tra portali e con le fonti delle università tolti.
 - Fellowship: `phd_fellowships.json` (FWO, Swiss Government Excellence Scholarships, ELLIS, COFUND
   GROW, trainLSE e Gen-Q, più ETH AI Center, CLS e RobotX); controllo settimanale in
   `out/phd_fellowships.json`. Nessun COFUND di dottorato attivo coordinato in Svizzera o in Belgio.
@@ -100,13 +129,16 @@ perché ora sono nello scanner.
 Twente…) ora è `unknown` e resta, invece di contare come fuori Europa; i nomi dei paesi ci sono
 anche in francese, tedesco, italiano, olandese e spagnolo, e la lista delle città extraeuropee è più
 lunga. `PHD_TOPIC` copre più temi tecnici e cinque lingue, e i titoli senza tema («PhD Position»)
-restano. I dottorati industriali non hanno filtro di tema.
+restano. I dottorati industriali non hanno filtro di tema. Il 14/10 `PHD_TOPIC` ha preso anche
+«ML» (es. «focus on ML-methods»), modeling e i temi cardiaci; quelli dai portali passano dallo
+stesso filtro di tema delle università.
 
 **Orari.** GitHub fa partire i giri programmati con ~7 ore di ritardo (il cron delle 03:17 UTC
 partiva alle 10:00-11:30 UTC, cioè dopo le 12 in Italia). Il cron ora è alle 15:00 UTC (più un
 secondo tentativo alle 17:00, saltato se il giro c'è già stato): si parte verso mezzanotte e si
-finisce entro la mattina. Lavori e PhD girano in due job paralleli, ciascuno con fino a 340 minuti;
-il profilo PhD legge i dottorati industriali del giro lavori precedente.
+finisce entro la mattina. Il job PhD parte dopo quello lavori (fino a 340 minuti) e legge i
+dottorati che questo ha trovato la notte stessa. Notte del 13/10: partenza alle 23:45, lavori finiti alle
+3:50 (LinkedIn usa tutto il budget), PhD in pochi minuti.
 
 **Per la sessione claude.ai della Mappa PhD:** al primo giro le posizioni già aperte di ogni fonte
 nuova (EURAXESS, ABG, dottorati industriali) sono marcate `baseline`, così `phd_recent.json` non si

@@ -18,8 +18,8 @@ concurrency:
   group: scan
   cancel-in-progress: false
 
-# Jobs and PhD positions run side by side, each with its own time limit (GitHub's maximum is 360
-# minutes). The PhD scan reads the industrial PhDs (out/phd_industrial.json) of the previous jobs scan.
+# The PhD scan runs after the jobs scan (each job has its own limit, GitHub's maximum is 360 minutes),
+# so it reads the doctoral positions that the jobs scan found the same night (out/phd_industrial.json).
 jobs:
   jobs:
     runs-on: ubuntu-latest
@@ -62,8 +62,10 @@ jobs:
           exit 1
 
   phd:
+    needs: jobs
+    if: ${{ !cancelled() }}   # also when the jobs scan failed: the handoff file of the night before serves
     runs-on: ubuntu-latest
-    timeout-minutes: 340   # EURAXESS up to 240 minutes (phd_sources.json: budget_min)
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:

@@ -88,7 +88,9 @@
   "max_detail": 150,
   "keep_days": 60,
   "budget_min": 240,
-  "pace_s": 20
+  "pace_s": 20,
+  "disabled": true,
+  "note": "spenta il 14/10/2026: su GitHub Actions 250 pagine lette ma sempre le stesse 6 posizioni (paginazione da rivedere)"
  },
  {
   "id": "abg",
@@ -105,6 +107,14 @@
   "kind": "industrial",
   "big": true,
   "topic": false
+ },
+ {
+  "id": "boards-phd",
+  "co": "Dottorati da LinkedIn, Indeed e altri portali",
+  "type": "board_phd",
+  "kind": "academic",
+  "keep_days": 2,
+  "note": "posizioni PhD trovate dallo scanner lavori sui portali; kind: academic (università e istituti), industrial o cifre; via: il portale"
  },
  {
   "id": "naver-labs",
