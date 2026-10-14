@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T21:45:23Z",
+ "generated": "2026-10-14T10:27:27Z",
  "days": 14,
- "count": 8,
+ "count": 10,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -142,6 +142,41 @@
    "dept": "Operations Research and Statistics Research Group (ORSTAT) (main work address Leuven)",
    "deadline": "2026-10-21",
    "closed_at": "2026-10-13T21:45:23Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:siemens:524811",
+   "co": "Siemens",
+   "big": true,
+   "title": "PhD Thesis: Optimization of LLM / FM Inference in Industrial Edge Networks",
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524811",
+   "loc": "Garching - - Germany",
+   "loc_status": "eu",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-13T21:45:23Z",
+   "baseline": true,
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-14T10:27:27Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "kuleuven-phd:60759584",
+   "co": "KU Leuven",
+   "big": true,
+   "title": "PhD Position in Cognitive Digital Twins, Knowledge Graphs, Edge Computing and Artificial Intelligence",
+   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60759584?lang=en",
+   "loc": "Kortrijk",
+   "loc_status": "eu",
+   "first_seen": "2026-10-06T10:39:03Z",
+   "last_seen": "2026-10-13T21:45:23Z",
+   "baseline": true,
+   "ats": "kuleuven",
+   "country": "be",
+   "dept": "Computer Science, Kulak Kortrijk Campus",
+   "deadline": "2026-10-30",
+   "kind": "academic",
+   "closed_at": "2026-10-14T10:27:27Z",
    "reason": "not listed anymore"
   }
  ]
