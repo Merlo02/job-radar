@@ -153,6 +153,8 @@ ACADEMIC_CO = re.compile(
     r"wageningen|\bWUR\b|laborator|forschung|recherche|ricerca|onderzoek|\bXFEL\b|electron laser", re.I)
 FRANCE_RE = re.compile(r"france|paris|grenoble|lyon|toulouse|saclay|sophia|rennes|nice|lille", re.I)
 BOARD_PHD_DAYS = 30   # a doctoral position seen on a job board stays on the PhD map this long
+# words of an employer name that tell nothing apart (matched at the start of each word)
+PHD_CO_GENERIC = re.compile(r"univ|tech|inst|hochsch|college|school|research|cent|medi|klinik|hospital|faculty|depart|labor")
 IT_RE = re.compile(r"\bital(?:y|ia|ie|ien)\b|(?-i:(?<![A-Za-z])IT(?![A-Za-z]))|\b(?:milan|milano|turin|torino|rome|roma|"
                    r"bologna|pisa|genoa|genova|padova|padua|naples|napoli|trento|trieste|florence|firenze|bari|catania)\b", re.I)
 CH_RE = re.compile(r"switzerland|schweiz|suisse|svizzera|(?-i:(?<![A-Za-z])CH(?![A-Za-z]))|\b(?:zurich|zürich|geneva|genève|"
@@ -2059,13 +2061,16 @@ def board_phd_list(src):
     """Doctoral positions found on LinkedIn, Indeed and the other job boards (out/phd_industrial.json,
     "board": true). The same position on two boards, or already listed by its university's own
     source, appears once."""
+    def names(co):   # distinctive words of an employer: "Friedrich-Schiller-Universität Jena" -> friedrich schiller jena
+        return {PLACE_SYN.get(w, w) for w in co.split() if len(w) > 3 and not PHD_CO_GENERIC.match(w)}
+
     out, seen = [], {}   # title -> employers already listed ("Erasmus MC" and "Erasmus MC-Klinische Chemie")
     for it in sorted(handoff(), key=lambda it: it.get("via") != "linkedin"):
-        co, t = co_key(it["co"]), title_key(it["title"])
-        if not it.get("board") or any(co.startswith(c) or c.startswith(co) for c in seen.get(t, ())) or \
-                COMPANIES.direct_match(it, any_place=True):
+        co, t, c = co_key(it["co"]), title_key(it["title"]), city(it.get("loc"))
+        if not it.get("board") or COMPANIES.direct_match(it, any_place=True) or \
+                any(co.startswith(o) or o.startswith(co) or (c == oc and names(co) & names(o)) for o, oc in seen.get(t, ())):
             continue
-        seen.setdefault(t, []).append(co)
+        seen.setdefault(t, []).append((co, c))
         out.append(rec(src, it["key"], it["title"], it["url"], it.get("loc", ""), it.get("posted"),
                        desc=it.get("desc"), co=it["co"], kind=it.get("kind", "academic"), dept=it.get("dept", ""),
                        via=it.get("via"), _is_phd=True))

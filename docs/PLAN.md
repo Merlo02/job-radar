@@ -116,7 +116,12 @@ perché ora sono nello scanner.
   `industrial`, `cifre` se citato o in Francia fuori dall'università; `via` dice il portale.
   I portali mostrano un annuncio una volta sola, quindi lo scanner lavori lo ripassa per 30 giorni
   (`BOARD_PHD_DAYS`, in `meta.board_phd` dello stato). Nessuna chiusura: dopo 30 giorni sparisce
-  dalla mappa. Doppioni tra portali e con le fonti delle università tolti.
+  dalla mappa. Doppioni tra portali e con le fonti delle università tolti: stesso titolo e nome del
+  datore che inizia allo stesso modo, o stessa città e una parola distintiva in comune nel nome
+  ("Friedrich-Schiller-Universität Jena" e "Friedrich Schiller University Jena").
+  Primo giro vero (14/10, run partito da push di giorno): 76 dottorati dai portali, 56 nuovi sulla
+  mappa dopo il filtro di tema; LinkedIn di giorno ha rifiutato quasi tutto (429) dopo il giro
+  della notte, la ricerca interrotta riparte per prima la notte dopo.
 - Fellowship: `phd_fellowships.json` (FWO, Swiss Government Excellence Scholarships, ELLIS, COFUND
   GROW, trainLSE e Gen-Q, più ETH AI Center, CLS e RobotX); controllo settimanale in
   `out/phd_fellowships.json`. Nessun COFUND di dottorato attivo coordinato in Svizzera o in Belgio.
