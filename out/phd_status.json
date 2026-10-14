@@ -1,11 +1,11 @@
 {
- "run_at": "2026-10-14T13:30:34Z",
- "duration_s": 267,
+ "run_at": "2026-10-14T20:48:37Z",
+ "duration_s": 178,
  "sources": 55,
  "failed": [],
- "new": 7,
- "open": 331,
- "recent": 247,
+ "new": 16,
+ "open": 346,
+ "recent": 263,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -21,12 +21,12 @@
    "co": "ABG (tesi in Francia)",
    "type": "abg",
    "ok": true,
-   "raw": 130,
-   "matched": 96,
+   "raw": 131,
+   "matched": 97,
    "complete": true,
-   "details": 0,
-   "secs": 39.0,
-   "new": 0,
+   "details": 1,
+   "secs": 32.0,
+   "new": 1,
    "closed": 0
   },
   {
@@ -38,7 +38,7 @@
    "matched": 42,
    "complete": false,
    "details": 0,
-   "secs": 266.8,
+   "secs": 177.9,
    "new": 0,
    "closed": 0
   },
@@ -47,12 +47,12 @@
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 86,
-   "matched": 59,
+   "raw": 101,
+   "matched": 71,
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 6,
+   "new": 13,
    "closed": 0
   },
   {
@@ -63,7 +63,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-aegis",
@@ -73,7 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-biohybrite",
@@ -83,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 2.1
   },
   {
    "id": "dn-bridge-ai",
@@ -93,7 +93,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.2
   },
   {
    "id": "dn-bug-id",
@@ -103,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.4
   },
   {
    "id": "dn-cafe-bio",
@@ -113,7 +113,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-capture",
@@ -123,7 +123,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.5
   },
   {
    "id": "dn-cavecore",
@@ -133,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.7
   },
   {
    "id": "dn-cdtnet",
@@ -143,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.7
   },
   {
    "id": "dn-combine",
@@ -153,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.3
+   "secs": 5.0
   },
   {
    "id": "dn-diamond",
@@ -163,7 +163,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-elegance",
@@ -173,7 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.1
   },
   {
    "id": "dn-elevate",
@@ -183,7 +183,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 2.3
   },
   {
    "id": "dn-emanaire",
@@ -193,7 +193,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-endure",
@@ -213,7 +213,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.4
+   "secs": 4.6
   },
   {
    "id": "dn-fados",
@@ -223,7 +223,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 1.1
   },
   {
    "id": "dn-framebio",
@@ -233,7 +233,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 1.5
   },
   {
    "id": "dn-genaide",
@@ -253,7 +253,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.0
   },
   {
    "id": "dn-heal-4ward",
@@ -263,7 +263,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.9
   },
   {
    "id": "dn-her-care",
@@ -273,7 +273,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.2
   },
   {
    "id": "dn-intros",
@@ -283,7 +283,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.3
   },
   {
    "id": "dn-istride",
@@ -293,7 +293,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.8
+   "secs": 4.1
   },
   {
    "id": "dn-justhealth",
@@ -303,7 +303,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.4
   },
   {
    "id": "dn-lowdataml",
@@ -313,7 +313,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.9
   },
   {
    "id": "dn-mediculous-remedy",
@@ -333,7 +333,8 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8,
+   "new": 1
   },
   {
    "id": "dn-mindnet",
@@ -353,7 +354,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 3.8
   },
   {
    "id": "dn-mlcare",
@@ -363,7 +364,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 2.0
   },
   {
    "id": "dn-orfeus",
@@ -383,7 +384,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.1
+   "secs": 3.6
   },
   {
    "id": "dn-realise",
@@ -393,7 +394,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.0
   },
   {
    "id": "dn-reffracteur",
@@ -403,7 +404,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.2
   },
   {
    "id": "dn-specx",
@@ -413,7 +414,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 2.9
   },
   {
    "id": "dn-spring",
@@ -433,7 +434,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 2.3
   },
   {
    "id": "dn-trackaf",
@@ -443,7 +444,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-train-fast",
@@ -453,7 +454,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.2
   },
   {
    "id": "dn-unchange",
@@ -463,7 +464,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.8
   },
   {
    "id": "dn-variabiliti",
@@ -473,7 +474,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.5
   },
   {
    "id": "dn-wildbotics",
@@ -483,7 +484,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.3
   },
   {
    "id": "epfl-phd",
@@ -494,7 +495,7 @@
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 3.7,
+   "secs": 3.1,
    "new": 0,
    "closed": 0
   },
@@ -503,7 +504,7 @@
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 124,
+   "raw": 125,
    "matched": 25,
    "complete": true,
    "details": 0,
@@ -521,7 +522,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -529,13 +530,13 @@
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 31,
-   "matched": 17,
+   "raw": 32,
+   "matched": 18,
    "complete": true,
    "details": 0,
-   "secs": 3.6,
-   "new": 0,
-   "closed": 1
+   "secs": 3.3,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "naver-labs",
@@ -546,7 +547,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -558,7 +559,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.4
   },
   {
    "id": "ugent-phd",
@@ -569,7 +570,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 4.8,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -582,7 +583,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 2.1,
+   "secs": 1.7,
    "new": 0,
    "closed": 0
   },
@@ -594,7 +595,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.4
   }
  ]
 }
