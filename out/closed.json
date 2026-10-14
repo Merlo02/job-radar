@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-14T10:35:52Z",
+ "generated": "2026-10-14T19:00:54Z",
  "days": 14,
- "count": 121,
+ "count": 124,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -2008,6 +2008,56 @@
    "last_seen": "2026-10-14T08:29:49Z",
    "ats": "ashby",
    "closed_at": "2026-10-14T10:35:52Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "apple:200663534",
+   "co": "Apple",
+   "target": "apple",
+   "big": true,
+   "title": "E-Commerce & AI Specialist Germany, Switzerland & Austria",
+   "url": "https://jobs.apple.com/en-gb/details/REQ-200663534/e-commerce-ai-specialist-germany-switzerland-austria",
+   "loc": "Munich (Germany)",
+   "loc_status": "eu",
+   "posted": "2026-05-19",
+   "first_seen": "2026-10-13T10:12:22Z",
+   "last_seen": "2026-10-14T10:35:52Z",
+   "baseline": true,
+   "ats": "apple",
+   "dept": "Sales and Business Development",
+   "level": "Strategic Business Development IC4",
+   "closed_at": "2026-10-14T19:00:54Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "cohere:3fe03041-347a-479f-8361-6b1f5f81338e",
+   "co": "Cohere",
+   "target": "cohere",
+   "big": true,
+   "title": "Applied AI Engineer, Agents & Automations",
+   "url": "https://jobs.ashbyhq.com/cohere/3fe03041-347a-479f-8361-6b1f5f81338e",
+   "loc": "Toronto; Canada; New York; United Kingdom; Ottawa; Montreal (Canada) · remote",
+   "loc_status": "eu",
+   "posted": "2026-08-07",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-14T10:35:52Z",
+   "ats": "ashby",
+   "closed_at": "2026-10-14T19:00:54Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "tether:2760411",
+   "co": "Tether",
+   "big": false,
+   "title": "AI Harness Engineer (100% Remote, Worldwide)",
+   "url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+   "loc": "Remote job, Denmark · remote",
+   "loc_status": "eu",
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-14T10:35:52Z",
+   "ats": "recruitee",
+   "closed_at": "2026-10-14T19:00:54Z",
    "reason": "not listed anymore"
   }
  ]
