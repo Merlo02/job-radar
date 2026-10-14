@@ -113,8 +113,12 @@ giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
   incollare in una sessione claude.ai che sostituisce i prompt e sposta gli orari: Radar ogni
   giorno alle 8:00, Mappa PhD lunedì e giovedì alle 8:30 (prima erano alle 13:10 e alle 5:46).
   Dal terminale `RemoteTrigger update` esiste, ma il prompt sta dentro `job_config` (~85 KB con
-  il prompt di sistema) e non è documentato se l'aggiornamento sostituisce o unisce: meglio non
-  rischiare di rompere le routine.
+  il prompt di sistema) e non è documentato se l'aggiornamento sostituisce o unisce. Il 14/10 la
+  prova da Claude Code è stata bloccata: 403 sulla routine LinkedIn, legata al PC di Gabriele, e il
+  classificatore di sicurezza sulla Mappa PhD. Le routine si cambiano da una chat claude.ai.
+- Liste lunghe: `cards`, `more` e `phd` scrivono le voci in pagine da ~24.000 caratteri
+  (`cards-1.txt`…, quanto entra in un output di uno strumento) e dicono quali leggere. Se un file di
+  `out/` manca, lo script si ferma con una riga `STOP` da riportare nel messaggio finale.
 - La routine Radar non legge più `recent.json` (resta per compatibilità). I controlli del lunedì su
   Amazon, Apple e Meta sono tolti; restano una ricerca per Bain, Reply, Generali, Comau e Stellantis
   e il controllo dei link LinkedIn.

@@ -17,6 +17,9 @@ Mappa PhD, Monday and Thursday:
     python3 radar.py phd --db db           # PhD positions not judged yet and not on the map, positions to close
     python3 radar.py phd-done              # the document that records them as judged (collection phdRuns)
 
+Long lists (cards, more, phd) go to page files of about 24,000 characters (cards-1.txt, ...),
+which fit in one tool output: the script names them and the routine reads them all.
+
 --db is the folder where the routine saved the page's collections with ArtifactData (out_dir):
 db/jobs/*.json and db/radarRuns/*.json for the Radar, db/positions/*.json and db/phdRuns/*.json
 for the PhD map.
@@ -32,6 +35,8 @@ import unicodedata
 import urllib.request
 
 RAW = "https://raw.githubusercontent.com/Merlo02/job-radar/main/out/"
+MSG_LINES = 30       # postings listed one by one in the final message (the rest are counted)
+PAGE_CHARS = 24000   # longer lists go to page files: one tool output shows about 30,000 characters
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
 BOARD_NAME = {"linkedin": "LinkedIn", "indeed": "Indeed", "wttj": "Welcome to the Jungle", "thehub": "The Hub",
@@ -71,9 +76,38 @@ ACADEMIC = re.compile(r"universit|hochschule|institut|\beth\b|epfl|cnrs|inria|ma
 def get(name, dest=None):
     dest = dest or name
     req = urllib.request.Request(RAW + name, headers={"User-Agent": "job-radar-routine"})
-    with urllib.request.urlopen(req, timeout=120) as r, open(dest, "wb") as f:
-        f.write(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = r.read()
+    except OSError as e:
+        sys.exit(f"STOP: non riesco a scaricare out/{name} dal repo ({e}). Chiudi il giro con una riga "
+                 f"nel messaggio finale: \"Scanner: out/{name} non disponibile, giro saltato.\"")
+    with open(dest, "wb") as f:
+        f.write(data)
     return dest
+
+
+def emit(blocks, name):
+    """Print the numbered blocks, or write them to name-1.txt, name-2.txt… when they would not fit in
+    one tool output, and say which pages to read."""
+    for old in glob.glob(f"{name}-*.txt"):
+        os.remove(old)
+    if sum(len(b) + 1 for b in blocks) <= PAGE_CHARS:
+        print("\n".join(blocks))
+        return
+    pages, cur, size = [], [], 0
+    for b in blocks:
+        if cur and size + len(b) + 1 > PAGE_CHARS:
+            pages.append(cur)
+            cur, size = [], 0
+        cur.append(b)
+        size += len(b) + 1
+    pages.append(cur)
+    for i, page in enumerate(pages, 1):
+        with open(f"{name}-{i}.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(page) + "\n")
+    print(f"Sono {len(blocks)} voci, troppe per un solo output: le ho scritte in {len(pages)} pagine. "
+          f"Leggile tutte, una alla volta, nell'ordine: " + ", ".join(f"{name}-{i}.txt" for i in range(1, len(pages) + 1)))
 
 
 def load(path, default=None):
@@ -223,6 +257,7 @@ def cmd_cards():
     print(f"Da giudicare: {len(cards)} schede ({n_fresh} delle ultime 36 ore, {len(cards) - n_fresh} più vecchie)"
           f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} già nel Radar.")
     print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda\n")
+    blocks = []
     for c in cards:
         bits = [f"anni {c['years']}" if c.get("years") else "",
                 short(c.get("level"), 50) if c.get("level") else "",
@@ -231,9 +266,10 @@ def cmd_cards():
                 "scade " + c["deadline"] if c.get("deadline") else "", c.get("salary") or ""]
         head = " · ".join(x for x in [c.get("co"), c.get("title"), c.get("loc"), BOARD_NAME.get(c.get("via"), ""),
                                       c.get("posted") or ""] if x)
-        print(f"{c['n']}. {head}")
         meta = " | ".join(b for b in bits if b)
-        print(f"   {meta + ' | ' if meta else ''}{short(c.get('card'), 420) or '(nessuna descrizione: giudica dal titolo)'}")
+        blocks.append(f"{c['n']}. {head}\n   {meta + ' | ' if meta else ''}"
+                      f"{short(c.get('card'), 420) or '(nessuna descrizione: giudica dal titolo)'}")
+    emit(blocks, "cards")
 
 
 def read_judgments():
@@ -270,10 +306,10 @@ def cmd_more():
     sel = sorted((n for n, j in js.items() if kept(j) and j["fit"] >= 3 and n in cards),
                  key=lambda n: (-js[n]["fit"], -js[n]["prest"]))
     print(f"{len(sel)} schede con fit >= 3: requisiti per scrivere why e req\n")
-    for n in sel:
-        c = cards[n]
-        print(f"{n}. {c.get('co')} · {c.get('title')} · {c.get('loc')} (fit {js[n]['fit']}, prestigio {js[n]['prest']})")
-        print(f"   {short(c.get('req'), 700) or '(requisiti non trovati: guarda la scheda o usa desc)'}")
+    emit([f"{n}. {cards[n].get('co')} · {cards[n].get('title')} · {cards[n].get('loc')} "
+          f"(fit {js[n]['fit']}, prestigio {js[n]['prest']})\n"
+          f"   {short(cards[n].get('req'), 700) or '(requisiti non trovati: guarda la scheda o usa desc)'}"
+          for n in sel], "more")
 
 
 def cmd_desc():
@@ -394,15 +430,18 @@ def cmd_docs():
     # final message
     st = load("status.json", {})
     good = sorted((x for x in added if x[0]["fit"] != "basso"),
-                  key=lambda x: ({"zurigo": 0, "svizzera": 1, "italia": 2}.get(x[0]["area"], 3), x[0]["prio"]))
+                  key=lambda x: (x[0]["fit"] != "alto", {"zurigo": 0, "svizzera": 1, "italia": 2}.get(x[0]["area"], 3),
+                                 x[0]["prio"]))
     low = sum(1 for x in added if x[0]["fit"] == "basso")
     soon = sorted((d["deadline"], d.get("co"), d.get("title")) for d in jobs.values()
                   if not d.get("closed") and d.get("deadline") and TODAY <= d["deadline"] <=
                   (dt.date.fromisoformat(TODAY) + dt.timedelta(days=7)).isoformat())
     print("\nMESSAGGIO FINALE (bozza):")
     print(f"Nuovi da ieri: {len(added)} (giudicate {len(lines)} schede dello scanner)")
-    for d, j in good:
+    for d, j in good[:MSG_LINES]:
         print(f"- {d['co']} · {d['title']} · {d['loc']} · fit {d['fit']}")
+    if len(good) > MSG_LINES:
+        print(f"- e altri {len(good) - MSG_LINES} con fit alto o medio: sono nel Radar")
     if low:
         print(f"- più {low} con fit basso")
     print(f"Chiusi: {len(close)}")
@@ -475,6 +514,7 @@ def cmd_phd():
           f"{' · fonti fallite: ' + ', '.join(st.get('failed', [])) if st.get('failed') else ''}")
     print(f"Posizioni da giudicare (non ancora giudicate né sulla mappa): {len(items)}")
     print("Formato: n. ente · titolo · luogo · tipo (via portale) · scadenza · stipendio · MSCA | descrizione\n")
+    blocks = []
     for i, it in enumerate(items, 1):
         bits = [it.get("co"), it.get("title"), it.get("loc"),
                 it.get("kind", "academic") + (f" via {BOARD_NAME.get(it['via'], it['via'])}" if it.get("via") else ""),
@@ -482,9 +522,10 @@ def cmd_phd():
                 "MSCA non idoneo (Italia)" if it.get("eligible") is False else it.get("eligible_note") or ""]
         sig = it.get("signals") or {}
         flags = [k for k in ("german", "french") if sig.get(k)]
-        print(f"{i}. " + " · ".join(b for b in bits if b))
-        print(f"   {'lingua: ' + ','.join(flags) + ' | ' if flags else ''}{short(it.get('desc'), 450) or '(nessuna descrizione)'}"
-              f"\n   {it.get('url')} · key {it['key']}")
+        blocks.append(f"{i}. " + " · ".join(b for b in bits if b) +
+                      f"\n   {'lingua: ' + ','.join(flags) + ' | ' if flags else ''}{short(it.get('desc'), 450) or '(nessuna descrizione)'}"
+                      f"\n   {it.get('url')} · key {it['key']}")
+    emit(blocks, "phd")
     save("phd_cards.json", items)
     gone = {norm_url(c.get("url")) for c in load("phd_closed.json", {}).get("items", [])} | \
            {c.get("key") for c in load("phd_closed.json", {}).get("items", [])}
