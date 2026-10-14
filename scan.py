@@ -55,6 +55,9 @@ DESC_HEAD = 600
 DESC_REQ = 1400
 DESC_MAX = 5000      # description in candidates.json, only for postings first seen in DESC_DAYS
 DESC_DAYS = 3
+NEW_DAYS = 10        # new_cards.json: postings first seen in the last days (the Radar routine reads it;
+                     # it keeps track of what it judged, so a backlog or a missed morning is caught up)
+NEW_REQ = 700        # characters of the requirements part in new_cards.json
 WORKERS = 8
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -2264,6 +2267,24 @@ def candidate(e, descs):
     return c
 
 
+def new_card(c, desc):
+    """A card of new_cards.json, the file the Radar routine judges every morning: a card of
+    candidates.json without the description, plus the requirements part of it and its signals."""
+    n = {k: v for k, v in c.items() if k not in ("desc", "src", "ats")}
+    n["via"] = c.get("ats")
+    if n.get("level"):
+        n["level"] = n["level"][:60]
+    if desc and c.get("ats") != "watch":
+        m = REQ_HINT.search(desc, min(len(desc) // 3, 300))
+        if m:
+            n["req"] = desc[m.start():m.start() + NEW_REQ].rsplit(" ", 1)[0]
+        sig = signals(desc)
+        n["sig"] = [k for k in ("phd", "german", "french", "visa") if sig[k]]
+    elif desc:
+        n["card"] = desc[:NEW_REQ]   # a watched page: what changed on it
+    return n
+
+
 def public(e, with_desc):
     keys = ["key", "co", "target", "big", "title", "url", "loc", "loc_status", "posted",
             "first_seen", "last_seen", "baseline", "ats", "country", "dept", "deadline", "salary",
@@ -2649,6 +2670,16 @@ def main():
         save(os.path.join(OUT, "candidates.json"), {
             "generated": NOW_ISO, "count": n_cand, "desc_days": DESC_DAYS, "closed_days": CLOSED_DAYS,
             "items": cands, "closed": closed_all})
+        # descriptions last DESC_DAYS: older cards keep the requirements they had in the previous file
+        kept = {c["key"]: c for c in load(os.path.join(OUT, "new_cards.json"), {}).get("items", [])}
+        new = [{**{k: kept.get(c["key"], {}).get(k) for k in ("req", "sig") if kept.get(c["key"], {}).get(k)},
+                **new_card(c, descs.get(c["key"]) or c.get("desc"))} for c in cands
+               if not c.get("baseline") and days_since(c.get("first_seen", "")) <= NEW_DAYS]
+        new.sort(key=lambda c: (c["first_seen"], c.get("score") or 0), reverse=True)
+        save(os.path.join(OUT, "new_cards.json"), {
+            "generated": NOW_ISO, "days": NEW_DAYS, "count": len(new), "items": new,
+            "closed": [{k: c.get(k) for k in ("key", "co", "title", "url", "closed_at")} for c in closed_all
+                       if days_since(c.get("closed_at", "")) <= NEW_DAYS]})
     save(os.path.join(OUT, PREFIX + "status.json"), {
         "run_at": NOW_ISO, "duration_s": round(time.time() - t0),
         "sources": len(statuses), "failed": failed, "new": new_total,

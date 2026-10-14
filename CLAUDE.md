@@ -12,6 +12,9 @@ Il piano di lavoro in corso è in `docs/PLAN.md`: leggilo prima di toccare scann
 - A valle, due routine su claude.ai leggono `out/*.json` e aggiornano due pagine (Radar ruoli di
   ricerca, Mappa PhD). Non rinominare né togliere campi da `out/*.json` senza aggiornarle:
   aggiungere campi va bene.
+- `tools/radar.py` fa il lavoro meccanico delle due routine, che lo scaricano da `main` a ogni
+  giro: se cambi `out/new_cards.json`, `out/phd_recent.json` o i campi delle pagine, aggiornalo.
+  I prompt delle routine sono in `private/routines/`.
 - Test rapido di un adapter: `python scan.py` con una `sources.json` ridotta, oppure
   "Run workflow" dalla tab Actions.
 

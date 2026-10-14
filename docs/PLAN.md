@@ -82,10 +82,48 @@ hanno dato o tolto punti), years (anni di esperienza chiesti, il minimo più alt
 annunci visti negli ultimi 3 giorni; `closed` (tutte le chiusure degli ultimi 14 giorni). Al primo
 giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 
-**Per la fase 3** (sessione claude.ai): la routine Radar passa da `recent.json` a
-`candidates.json` (solo gli annunci nuovi da ieri, saltando i `baseline`), chiude con
-`candidates.json` → `closed`, e i controlli del lunedì su Amazon, Apple e Meta si possono togliere
-perché ora sono nello scanner.
+**Fase 3 fatta (14/10), manca solo l'aggiornamento delle due routine.**
+- `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
+  prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza
+  descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
+  visa) e `via` (la fonte); più `closed`, le chiusure degli stessi giorni. ~3,5 MB.
+- `tools/radar.py` (solo libreria standard: la routine lo scarica e lo esegue) fa tutto il lavoro
+  meccanico. Claude scrive solo `giudizi.txt` (una riga per scheda:
+  `n|tipo|fit|prestigio|anni|motivo`) e, per le schede con fit ≥ 3, `schede.jsonl` (why, req e
+  correzioni).
+  - `cards` stampa le schede non ancora giudicate e non già nel Radar: prima tutte quelle delle
+    ultime 36 ore, poi le più vecchie (ML e punteggio alto prima), fino a `--max 900`. Le schede
+    già giudicate le ricava dai documenti `radarRuns` del Radar: ogni giro ne scrive uno con tutti
+    i giudizi (`key|azienda|ruolo|tipo|fit|prestigio|anni|motivo`). Così un giro saltato o
+    l'arretrato si recuperano nei giorni dopo, e i giudizi restano per la fase 5.
+  - `more` stampa i requisiti delle schede con fit ≥ 3; `desc` stampa le descrizioni da
+    `candidates.json`.
+  - `docs` costruisce i documenti di `jobs` (fit 5–4 alto, 3 medio, 2 basso, 1 e AI-SWE
+    scartati). Calcola `prio` da fit, prestigio e luogo (Zurigo, Svizzera, Italia, remoto,
+    Europa) dentro le fasce di sempre. Ricava area, remote, kind, pub e pubNote. Aggiunge i campi
+    `tipo`, `fitScore`, `prestigio`, `anni`, `scanKey` e `applyUrl`. Prepara i batch da 50, le
+    chiusure (annunci spariti, scadenze passate) e la bozza del messaggio finale.
+  - `check` (il lunedì): annunci LinkedIn aperti che non accettano più candidature.
+  - `phd` e `phd-done` fanno lo stesso per la Mappa PhD, con i documenti `phdRuns`.
+- Arretrato: al 14/10 ~3300 schede mai giudicate (i primi giri di LinkedIn e Indeed del 13/10 non
+  andavano in `recent.json`). Con 900 schede al giorno e ~550 nuove a notte si smaltisce in circa
+  una settimana, dentro i 10 giorni del file.
+- Prompt nuovi delle routine: `private/routines/radar.md` e `mappa-phd.md` (contengono il
+  profilo: non vanno nella repo). `private/routines/AGGIORNA-ROUTINE.md` è il messaggio da
+  incollare in una sessione claude.ai che sostituisce i prompt e sposta gli orari: Radar ogni
+  giorno alle 8:00, Mappa PhD lunedì e giovedì alle 8:30 (prima erano alle 13:10 e alle 5:46).
+  Dal terminale `RemoteTrigger update` esiste, ma il prompt sta dentro `job_config` (~85 KB con
+  il prompt di sistema) e non è documentato se l'aggiornamento sostituisce o unisce: meglio non
+  rischiare di rompere le routine.
+- La routine Radar non legge più `recent.json` (resta per compatibilità). I controlli del lunedì su
+  Amazon, Apple e Meta sono tolti; restano una ricerca per Bain, Reply, Generali, Comau e Stellantis
+  e il controllo dei link LinkedIn.
+- Mappa PhD: la pagina mostra ora ogni paese europeo («Altri paesi»), il tipo di dottorato
+  (`phdKind`: Marie Curie, CIFRE, PhD industriale, fellowship) e «MSCA: non idoneo», con i filtri
+  «Industriali e CIFRE» e «Marie Curie». La routine copre tutta l'Europa, con Svizzera, Paesi Bassi
+  e Belgio davanti: prima scartava tutto il resto, cioè quasi tutti i dottorati dai portali.
+- Prima settimana: misurare quanto consuma la routine Radar (~100 token per scheda in lettura).
+  Se pesa troppo, abbassare `--max` o accorciare le schede.
 
 **Fase 1-bis fatta.**
 - EURAXESS (`euraxess`) **è spenta dal 14/10** (`disabled` in `phd_sources.json`): su GitHub
