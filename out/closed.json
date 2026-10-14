@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-14T08:29:49Z",
+ "generated": "2026-10-14T10:35:52Z",
  "days": 14,
- "count": 120,
+ "count": 121,
  "items": [
   {
    "key": "anthropic:5390791008",
@@ -1992,6 +1992,22 @@
    "last_seen": "2026-10-13T11:31:01Z",
    "ats": "google",
    "closed_at": "2026-10-13T21:45:29Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "elevenlabs:b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
+   "co": "ElevenLabs",
+   "target": "elevenlabs",
+   "big": true,
+   "title": "Applied AI Engineer",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
+   "loc": "Remote",
+   "loc_status": "unknown",
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-13T16:44:58Z",
+   "last_seen": "2026-10-14T08:29:49Z",
+   "ats": "ashby",
+   "closed_at": "2026-10-14T10:35:52Z",
    "reason": "not listed anymore"
   }
  ]
