@@ -82,7 +82,7 @@ hanno dato o tolto punti), years (anni di esperienza chiesti, il minimo più alt
 annunci visti negli ultimi 3 giorni; `closed` (tutte le chiusure degli ultimi 14 giorni). Al primo
 giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 
-**Fase 3 fatta (14/10), manca solo l'aggiornamento delle due routine.**
+**Fase 3 fatta (14/10), routine aggiornate da Gabriele il 14/10: primo giro giovedì 15/10 (Radar 8:00, Mappa PhD 8:30).**
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
