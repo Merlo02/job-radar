@@ -124,6 +124,9 @@ giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
   e Belgio davanti: prima scartava tutto il resto, cioè quasi tutti i dottorati dai portali.
 - Prima settimana: misurare quanto consuma la routine Radar (~100 token per scheda in lettura).
   Se pesa troppo, abbassare `--max` o accorciare le schede.
+- Decisioni di Gabriele (14/10): si resta larghi, anche i fit basso (2) entrano nel Radar, ma si
+  tiene d'occhio quanto consuma. La routine "Radar LinkedIn" (browser sul suo PC, lun/mer/ven)
+  è spenta: LinkedIn lo legge lo scanner ogni notte.
 
 **Fase 1-bis fatta.**
 - EURAXESS (`euraxess`) **è spenta dal 14/10** (`disabled` in `phd_sources.json`): su GitHub
