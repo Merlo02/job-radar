@@ -89,7 +89,9 @@ giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 Il Radar si è fermato al passo 1 (due volte); la Mappa PhD ha letto lo script e se ne è scritta
 una copia ridotta da sola (15 posizioni aggiunte, `phdRuns` scritto). Correzione in corso: collegare
 il repo alle due routine come repository e copiare `tools/radar.py` dalla checkout invece di
-scaricarlo (`private/routines/SISTEMA-ROUTINE.md`). Se il repo non si può collegare, il piano B è
+scaricarlo (`private/routines/SISTEMA-ROUTINE.md`). I passi delle routine passano in
+`tools/routines.md`: i prompt tengono solo profilo, pagine e collezioni, così le modifiche future ai
+passi si fanno con un push, senza toccare le routine. Se il repo non si può collegare, il piano B è
 spostare il lavoro dello script in GitHub Actions e lasciare alla routine solo dati da leggere.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza

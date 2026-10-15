@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 The mechanical part of the claude.ai routines (Radar and Mappa PhD), so that Claude only judges.
-Standard library only: the routine downloads this file and runs it in its working directory.
+Standard library only. The routines copy this file from their checkout of the repo (attached to the
+routine: their permission check blocks code downloaded at run time) and follow tools/routines.md.
 
 Radar, every morning:
     python3 radar.py fetch                 # status.json and new_cards.json from the repo

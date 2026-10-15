@@ -1,0 +1,111 @@
+# Steps of the two claude.ai routines
+
+The routines' prompts hold the candidate's profile, the page links and the collections. The steps
+are here, so that they can change with a push. Each routine copies `tools/radar.py` from its
+checkout of this repo into its working directory before starting (`radar.py` below), and never
+downloads code from the internet. Shell commands run in the working directory. Everything
+user-facing is in Italian.
+
+## Radar
+
+1. `python3 radar.py fetch` downloads the scanner's data. If it prints STOP, end the run with the
+   one line it gives you.
+2. ArtifactData on the tracker: query "jobs" with where [["closed","==",false]], limit 1000,
+   out_dir "db"; list "radarRuns" with limit 1000, out_dir "db". Keep the versions shown for "jobs":
+   closures need them.
+3. `python3 radar.py cards --db db --max 900` prints numbered cards (company · role · place ·
+   source · date | years, level, keywords, signals | ~400 characters on the job). When they are
+   many it writes them to page files (cards-1.txt, cards-2.txt…) and names them: read every page
+   with the Read tool, in order, and append the lines for that page to giudizi.txt before reading
+   the next one. Judge EVERY card, one line per card: `n|tipo|fit|prestigio|anni|motivo`
+   - tipo: ricerca, training, edge, data science, AI-SWE, altro.
+   - fit 1–5 with his CV. 5: research, training or edge role close to his work (foundation models,
+     self-supervised learning, signals and sensors, on-device ML), open to a junior. 4: good ML or
+     research role open to a junior, other domain. 3: applied ML or data science with real
+     modelling, or a strong role with one obstacle (PhD preferred, 3 years asked, very selective).
+     2: adjacent technical role with a real ML part, or a good role with serious obstacles (a
+     language he does not speak, UK without visa sponsorship). 1: out of profile.
+   - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
+     agents, copilots, prompt engineering); roles without ML; 4+ years asked or
+     senior/staff/lead/principal/manager/director titles; internships only for enrolled students;
+     strict PhD requirement; data-labelling and AI-tutor gigs (Alignerr, Outlier, Mercor and
+     similar); pure data engineering, MLOps, BI or reporting; staffing agencies and consulting
+     body-shops (the AI units of top consulting firms such as QuantumBlack, BCG X and Bain are
+     fine); sales, pre-sales or forward-deployed roles for experienced hires; academic PhD
+     positions (they go to the PhD map).
+   - Data science and consulting AI units: fit 3 at most.
+   - prestigio 1–5: 5 top AI labs and big-tech research (DeepMind, Anthropic, OpenAI, Meta FAIR,
+     Apple MLR, Mistral…) and top institutes (ETH, EPFL, Max Planck, CERN); 4 large well-known
+     companies and strong AI labs or startups; 3 solid companies; 2 small or little-known firms;
+     1 agencies and unknown employers.
+   - anni: the years of experience asked (a number, or -). motivo: at most 12 Italian words.
+
+   Do not skip cards: a card without a line comes back tomorrow. Judge from the card; most cards
+   are clearly out of profile and need only a few words.
+4. `python3 radar.py more` prints the requirements of the cards with fit 3 or more (in pages
+   more-1.txt… when they are many: read them all). For each of them write one line in
+   schede.jsonl: `{"n": 12, "why": "1–2 Italian sentences tying the role to his experience,
+   addressing him as tu, with the honest caveat", "req": "short Italian summary of the
+   requirements"}` and, only when needed, "flag" (short label such as "Difesa", "In tedesco",
+   "PhD preferito", "Data science", "Programma graduate 2027"), "salary", "kind" ("internship",
+   "academic" or "industrial-phd"), "deadline" (YYYY-MM-DD), or "loc", "area", "remote" when the
+   script got them wrong. Run `python3 radar.py desc <n> …` only for a promising card that is
+   really unclear.
+5. `python3 radar.py docs --db db` writes the documents and prints the batches, the closures and a
+   draft of the final message. For each write/batch-N.json call ArtifactData batch with writes =
+   the JSON array in that file (new documents: no if_version). Then close every job listed under
+   CHIUSURE with one batch of "update" entries on "jobs": if_version from step 2, data
+   `{"closed": true, "closedNote": the reason printed, "checked": today}`.
+
+On Mondays only:
+- `python3 radar.py check --db db` finds open jobs whose LinkedIn posting no longer accepts
+  applications: close them the same way. For the ones it could not check, use WebFetch only on
+  those with fit alto or medio.
+- One WebSearch for AI and data roles at Bain, Reply, Generali, Comau and Stellantis in Italy or
+  Zurich (no readable job system): add fitting ones by hand with all the fields of the documents
+  the script writes (source "sito aziendale").
+- Update "targets": for each target with scanner postings set checked = today and found = one
+  short Italian sentence like "Scanner: 3 annunci aperti in linea con il profilo" (count its items
+  in https://raw.githubusercontent.com/Merlo02/job-radar/main/out/open.json by the "target"
+  field); one or two batches, if_version from your read.
+
+Final message (Italian, short: he reads it at breakfast). Start from the draft printed by
+`radar.py docs`: "Nuovi da ieri: N", one line per new posting with fit alto or medio (azienda ·
+ruolo · città · fit), Zurich ones first, how many with fit basso, closures, deadlines in the next
+7 days, scanner problems (stale run or failed sources), and how many cards are left for the next
+mornings if the script says so. If nothing is new, say so in one line.
+
+## Mappa PhD
+
+1. ArtifactData on the map: list "positions" (limit 1000, out_dir "db") and "phdRuns" (limit 1000,
+   out_dir "db"); list "events" and "discarded" to know the next free ids. Keep the versions shown
+   for "positions": closures need them.
+2. `python3 radar.py phd --db db` prints the numbered positions not judged yet and not on the map
+   (entity · title · place · kind and job board · deadline · salary · MSCA note | start of the
+   description, url, key) and the positions to close; when they are many it writes them to page
+   files (phd-1.txt…) and names them: read every page with the Read tool. If it prints STOP, end
+   the run with the one line it gives you. Judge each one: add the fitting ones to "positions"
+   with all the fields (added = today, checked = today, closed = false, phdKind, scanKey, country
+   and city always set) and an "events" entry for each deadline (ev = false). Open the url with
+   WebFetch only for a promising position whose description is unclear or missing.
+3. `python3 radar.py phd-done` prints one batch entry: add it to your last batch, so these
+   positions are not shown again.
+4. Close the positions listed under DA CHIUDERE (closed = true, closedNote = the reason printed,
+   checked = today; if_version from step 1).
+5. On Mondays only: download
+   https://raw.githubusercontent.com/Merlo02/job-radar/main/out/phd_fellowships.json (weekly check
+   of the fellowship pages, with the dates found) and update the "programma" positions and events
+   whose deadlines changed or are new; re-check the url of open "annuncio" positions that the
+   scanner does not cover (for example lab pages) and close the ones that are gone; run 2
+   WebSearch queries such as "funded PhD position machine learning wearable sensing 2027" and
+   "PhD self-supervised learning time series 2027 Europe". The "contatto" lab pages only on the
+   first Monday of the month.
+
+Writes: use the "batch" action (≤50 writes per call, file_path entries pointing to JSON files you
+write in the working directory) and always pass if_version from your read when updating an
+existing document. Never delete documents; close them instead.
+
+Final message (Italian, short): "PhD · nuove dall'ultimo giro: N" then one line per new position
+(laboratorio o azienda · tema · città e paese · fit · scadenza), alto first; then closures (count
+and names), deadlines in the next 14 days, and any scanner problem (stale run or failed sources).
+If nothing is new, say so in one line.
