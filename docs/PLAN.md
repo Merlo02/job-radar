@@ -87,12 +87,21 @@ giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 15/10, primo giro: il controllo dei permessi delle routine (modalità auto) blocca con
 [Code from External] l'esecuzione di `radar.py` scaricato con curl, anche in un comando separato.
 Il Radar si è fermato al passo 1 (due volte); la Mappa PhD ha letto lo script e se ne è scritta
-una copia ridotta da sola (15 posizioni aggiunte, `phdRuns` scritto). Correzione in corso: collegare
-il repo alle due routine come repository e copiare `tools/radar.py` dalla checkout invece di
-scaricarlo (`private/routines/SISTEMA-ROUTINE.md`). I passi delle routine passano in
-`tools/routines.md`: i prompt tengono solo profilo, pagine e collezioni, così le modifiche future ai
-passi si fanno con un push, senza toccare le routine. Se il repo non si può collegare, il piano B è
-spostare il lavoro dello script in GitHub Actions e lasciare alla routine solo dati da leggere.
+una copia ridotta da sola (15 posizioni aggiunte, `phdRuns` scritto). Risolto il 15/10:
+Gabriele ha creato due routine Claude Code con il repo collegato («Radar ruoli ML», ogni giorno alle
+8:00, modello predefinito Sonnet; «Radar phd», lunedì e giovedì alle 8:30, Opus) e spento le due
+routine Cowork. Copiano `tools/radar.py` dalla checkout e seguono `tools/routines.md`: i prompt
+tengono solo profilo, pagine e collezioni, i passi si cambiano con un push. Giro di prova del Radar:
+900 schede giudicate in 6 minuti, 104 annunci scritti.
+
+Correzioni dopo il giro di prova (15/10): `norm_url` toglieva `?jk=` agli URL di Indeed, quindi tutti
+gli annunci Indeed di un paese sembravano «già nel Radar» (~800 schede saltate); Baden-Württemberg
+finiva nella zona Zurigo; lo stesso ruolo in più città diventava più annunci (ora una scheda con tutte
+le sedi, le altre chiavi in `keys` del documento `radarRuns`); le agenzie di selezione entrano solo con
+fit 4–5 e il bollino «Agenzia»; le schede in lingue che Gabriele non legge mostrano solo l'inizio
+del testo. Corretti a mano nel Radar 3 zone, 6 agenzie e 11 doppioni (chiusi con una nota).
+`NEW_DAYS` passa a 21: con ~3300 schede in arretrato e 900 al giorno, a 10 giorni le più vecchie
+sarebbero uscite dal file prima di essere giudicate.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

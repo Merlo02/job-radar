@@ -41,7 +41,11 @@ user-facing is in Italian.
    - anni: the years of experience asked (a number, or -). motivo: at most 12 Italian words.
 
    Do not skip cards: a card without a line comes back tomorrow. Judge from the card; most cards
-   are clearly out of profile and need only a few words.
+   are clearly out of profile and need only a few words. Signals added by the script: "agenzia" is
+   a staffing agency posting for an unnamed client (fit 1 unless the role itself is strong: only fit
+   4–5 agency postings go into the Radar); "testo non in inglese né in italiano" means the posting
+   is written in a language he does not read, so the job almost surely needs it (the card shows only
+   its start). A card listing several places is the same role posted more than once: judge it once.
 4. `python3 radar.py more` prints the requirements of the cards with fit 3 or more (in pages
    more-1.txt… when they are many: read them all). For each of them write one line in
    schede.jsonl: `{"n": 12, "why": "1–2 Italian sentences tying the role to his experience,

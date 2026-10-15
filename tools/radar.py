@@ -53,6 +53,17 @@ SWISS = re.compile(r"switzerland|schweiz|suisse|svizzera|gen[eè]v|lausanne|base
 ITALY = re.compile(r"\bital(?:y|ia)\b|milan|turin|torino|\brom[ae]\b|bologna|\bpisa\b|genoa|genova|padova|padua|"
                    r"naples|napoli|trento|trieste|florence|firenze|\bbari\b|catania|agrate|ispra|pozzuoli|modena|"
                    r"(?-i:,\s*IT\b)", re.I)
+# German places whose names also exist around Zurich (Baden, Cham, Baar…): never the Zurich area
+NOT_SWISS = re.compile(r"germany|deutschland|w[uü]e?rttemberg|bavaria|bayern|baden-baden|(?-i:\bDE\b)", re.I)
+# staffing agencies and recruiters posting for unnamed clients (the rubric gives them fit 1)
+AGENCY = re.compile(r"recruit|staffing|headhunt|personnel|personalvermittlung|manpower|randstad|adecco|\bhays\b|"
+                    r"michael page|robert half|robert walters|harnham|\bgi group|jefferson frank|xcede|oliver bernard|"
+                    r"talent (?:partners|solutions|acquisition)|\bpeople$|jobgether|deeprec|executive search|"
+                    r"search partners|\bresourcing\b|hunters?$", re.I)
+EN_WORDS = set("the and to of with you we our in for is are will on as be your this an at or by from have team".split())
+IT_WORDS = set("il di che la per con una del nel della delle sono lavoro esperienza azienda".split())
+CO_GENERIC = re.compile(r"\b(?:gmbh|ag|se|sa|sas|spa|srl|bv|nv|inc|llc|ltd|limited|plc|corp|corporation|co|kg|oy|ab|"
+                        r"as|group|holding|holdings|company|technologies|international|the|ai|labs?|io)\b")
 CITY_IT = {"zurich": "Zurigo", "zürich": "Zurigo", "geneva": "Ginevra", "genève": "Ginevra", "lausanne": "Losanna",
            "basel": "Basilea", "bern": "Berna", "lucerne": "Lucerna", "luzern": "Lucerna", "munich": "Monaco di Baviera",
            "münchen": "Monaco di Baviera", "paris": "Parigi", "london": "Londra", "cologne": "Colonia", "köln": "Colonia",
@@ -141,8 +152,33 @@ def norm(s):
     return " ".join(re.findall(r"[a-z0-9]+", ascii_low(s)))
 
 
+def co_key(co):
+    """Company name without legal suffixes: "Mistral AI" and "Mistral", "CuspAI Ltd" and "CuspAI"."""
+    return " ".join(CO_GENERIC.sub(" ", norm(co)).split())
+
+
+def title_key(t):
+    t = re.sub(r"\((?:[^)]{0,12}[/|][^)]{0,12}|all genders?|alle geschlechter)\)|\b[mwfdh]\s*/\s*[mwfdhx](?:\s*/\s*[dxi])?\b",
+               " ", ascii_low(t))
+    return norm(t)
+
+
+def foreign(text):
+    """True when a description is neither English nor Italian (the candidate reads only those)."""
+    w = re.findall(r"[a-zà-ÿ']+", (text or "").lower())
+    if len(w) < 15:
+        return False
+    return sum(x in EN_WORDS for x in w) / len(w) < 0.06 and sum(x in IT_WORDS for x in w) / len(w) < 0.04
+
+
+ID_PARAM = re.compile(r"[?&]((?:jk|id|jobid|job_id|gh_jid|currentjobid|vjk|pid|reqid|requisitionid)=[^&#]+)", re.I)
+
+
 def norm_url(u):
-    return re.sub(r"[?#].*$", "", (u or "").strip().lower()).rstrip("/")
+    """URL without tracking parameters, keeping the one that names the posting (Indeed's viewjob?jk=…)."""
+    u = (u or "").strip().lower()
+    m = ID_PARAM.search(u)
+    return re.sub(r"[?#].*$", "", u).rstrip("/") + (f"?{m.group(1)}" if m else "") if u else ""
 
 
 def parse_ts(s):
@@ -181,7 +217,8 @@ def where(loc):
             "remote-worldwide" if re.search(r"worldwide|anywhere|global", low) else "remote-country"
     elif "hybrid" in low or "ibrido" in low:
         remote = "hybrid"
-    area = "zurigo" if ZURICH.search(loc) else "svizzera" if SWISS.search(loc) else \
+    swiss = not NOT_SWISS.search(loc)
+    area = "zurigo" if swiss and ZURICH.search(loc) else "svizzera" if swiss and SWISS.search(loc) else \
         "italia" if ITALY.search(loc) else "remoto" if remote.startswith("remote") else "europa"
     city = re.split(r"[,;(·|]", loc)[0].strip()
     city = CITY_IT.get(city.lower(), city) or loc
@@ -210,7 +247,7 @@ def radar_known(db):
         for u in (d.get("url"), d.get("applyUrl")):
             if u:
                 urls.add(norm_url(u))
-        names.add((norm(d.get("co")), norm(d.get("title"))))
+        names.add((co_key(d.get("co")), title_key(d.get("title"))))
         if d.get("scanKey"):
             keys.add(d["scanKey"])
     return jobs, urls, names, keys
@@ -237,9 +274,23 @@ def cmd_cards():
         if c["key"] in judged:
             continue
         if c["key"] in keys or norm_url(c.get("url")) in urls or norm_url(c.get("apply_url")) in urls or \
-                (norm(c.get("co")), norm(c.get("title"))) in names:
+                (co_key(c.get("co")), title_key(c.get("title"))) in names:
             skipped += 1
             continue
+        todo.append(c)
+    # the same role posted several times (other cities, LinkedIn and Indeed): one card, all places, all keys
+    groups = {}
+    for c in sorted(todo, key=lambda c: (c.get("ml") is not True, -(c.get("score") or 0))):
+        groups.setdefault((co_key(c.get("co")), title_key(c.get("title"))), []).append(c)
+    todo = []
+    for same in groups.values():
+        c = dict(same[0])
+        if len(same) > 1:
+            locs = list(dict.fromkeys(x.get("loc") for x in same if x.get("loc")))
+            c["loc"] = " / ".join(locs[:4]) + (f" e altre {len(locs) - 4}" if len(locs) > 4 else "")
+            c["dups"] = [x["key"] for x in same[1:]]
+            c["first_seen"] = max(x.get("first_seen") or "" for x in same)
+        c["agency"] = bool(AGENCY.search(c.get("co") or ""))
         todo.append(c)
     fresh_cut = (NOW - dt.timedelta(hours=36)).strftime("%Y-%m-%dT%H:%M:%SZ")
     rank = lambda c: (c.get("ml") is not True, -(c.get("score") or 0))
@@ -260,16 +311,21 @@ def cmd_cards():
     print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda\n")
     blocks = []
     for c in cards:
+        sig = list(c.get("sig") or []) + (["agenzia"] if c.get("agency") else [])
+        text = c.get("card") or ""
+        if foreign(text):
+            sig.append("testo non in inglese né in italiano")
+            text = text[:100]
         bits = [f"anni {c['years']}" if c.get("years") else "",
                 short(c.get("level"), 50) if c.get("level") else "",
                 "kw " + ",".join(c["kw"]) if c.get("kw") else "",
-                "segnali " + ",".join(c["sig"]) if c.get("sig") else "",
+                "segnali " + ",".join(sig) if sig else "",
                 "scade " + c["deadline"] if c.get("deadline") else "", c.get("salary") or ""]
         head = " · ".join(x for x in [c.get("co"), c.get("title"), c.get("loc"), BOARD_NAME.get(c.get("via"), ""),
                                       c.get("posted") or ""] if x)
         meta = " | ".join(b for b in bits if b)
         blocks.append(f"{c['n']}. {head}\n   {meta + ' | ' if meta else ''}"
-                      f"{short(c.get('card'), 420) or '(nessuna descrizione: giudica dal titolo)'}")
+                      f"{short(text, 420) or '(nessuna descrizione: giudica dal titolo)'}")
     emit(blocks, "cards")
 
 
@@ -294,8 +350,9 @@ def read_judgments():
     return out
 
 
-def kept(j):
-    return j["fit"] >= 2 and j["tipo"] != "ai-swe"
+def kept(j, c=None):
+    """Judgements that go into the Radar: agencies only for a strong role (fit 4-5)."""
+    return j["fit"] >= 2 and j["tipo"] != "ai-swe" and not ((c or {}).get("agency") and j["fit"] < 4)
 
 
 def cmd_more():
@@ -304,7 +361,7 @@ def cmd_more():
     missing = [n for n in cards if n not in js]
     if missing:
         print(f"ATTENZIONE: {len(missing)} schede senza giudizio: {missing[:40]}")
-    sel = sorted((n for n, j in js.items() if kept(j) and j["fit"] >= 3 and n in cards),
+    sel = sorted((n for n, j in js.items() if n in cards and kept(j, cards[n]) and j["fit"] >= 3),
                  key=lambda n: (-js[n]["fit"], -js[n]["prest"]))
     print(f"{len(sel)} schede con fit >= 3: requisiti per scrivere why e req\n")
     emit([f"{n}. {cards[n].get('co')} · {cards[n].get('title')} · {cards[n].get('loc')} "
@@ -353,17 +410,21 @@ def cmd_docs():
     os.makedirs("write", exist_ok=True)
     for f in glob.glob("write/*.json"):
         os.remove(f)
-    writes, added, lines, no_why = [], [], [], []
+    writes, added, lines, no_why, dup_keys = [], [], [], [], []
     for n, c in sorted(cards.items()):
         j = js.get(n)
         if not j:
             continue
         lines.append("|".join(str(x) for x in (c["key"], c.get("co"), c.get("title"), j["tipo"], j["fit"], j["prest"],
                                                 j["anni"] if j["anni"] is not None else "-", j["motivo"])))
-        if not kept(j):
+        dup_keys += c.get("dups") or []
+        if not kept(j, c):
             continue
         x = extra.get(n, {})
-        area, remote, city = where(c.get("loc"))
+        places = [where(p) for p in (c.get("loc") or "").split(" / ")]   # several places when the role was merged
+        rank = {"zurigo": 0, "svizzera": 1, "italia": 2, "remoto": 3}
+        area, remote, _ = min(places, key=lambda w: rank.get(w[0], 4))
+        city = " / ".join(dict.fromkeys(w[2] for w in places if len(w[2]) > 3 or w[2].istitle()))
         area, remote = x.get("area") or area, x.get("remote") or remote
         pub = c.get("posted") or (c.get("first_seen") or "")[:10]
         via = c.get("via")
@@ -379,7 +440,7 @@ def cmd_docs():
                         "Data di LinkedIn (può essere una ripubblicazione)" if via == "linkedin" else
                         f"Data di {BOARD_NAME[via]}" if via in BOARD_NAME else "Data dal sito dell'azienda"),
             "recent": pub >= "2026-01-01", "deadline": x.get("deadline") or c.get("deadline"),
-            "req": x.get("req") or None, "salary": x.get("salary") or c.get("salary"), "flag": x.get("flag") or None,
+            "req": x.get("req") or None, "salary": x.get("salary") or c.get("salary"), "flag": x.get("flag") or ("Agenzia" if c.get("agency") else None),
             "why": x.get("why") or j["motivo"], "source": BOARD_NAME.get(via, "sito aziendale"),
             "big": bool(c.get("big")) or j["prest"] >= 4, "added": TODAY, "checked": TODAY, "closed": False,
             # phase 3 fields (the page ignores them): Claude's judgement and the scanner key
@@ -407,7 +468,8 @@ def cmd_docs():
         elif d.get("deadline") and d["deadline"] < TODAY:
             close.append((did, "La scadenza è passata."))
     run = {"scan": state.get("scan"), "date": TODAY, "judged": len(lines), "added": len(added),
-           "lines": "\n".join(lines)}   # key|co|title|tipo|fit|prestigio|anni|motivo, read back by judged_keys
+           "lines": "\n".join(lines),   # key|co|title|tipo|fit|prestigio|anni|motivo, read back by judged_keys
+           "keys": dup_keys}             # the same postings seen again under other keys (other cities, other boards)
     save("write/radar-run.json", run)
     writes.append({"op": "set", "collection": "radarRuns", "doc_id": NOW.strftime("%Y-%m-%dT%H%M%SZ"),
                    "file_path": os.path.abspath("write/radar-run.json")})

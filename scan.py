@@ -55,8 +55,9 @@ DESC_HEAD = 600
 DESC_REQ = 1400
 DESC_MAX = 5000      # description in candidates.json, only for postings first seen in DESC_DAYS
 DESC_DAYS = 3
-NEW_DAYS = 10        # new_cards.json: postings first seen in the last days (the Radar routine reads it;
-                     # it keeps track of what it judged, so a backlog or a missed morning is caught up)
+NEW_DAYS = 21        # new_cards.json: postings first seen in the last days (the Radar routine reads it;
+                     # it keeps track of what it judged, so a backlog or a missed morning is caught up
+                     # before the postings leave the file)
 NEW_REQ = 700        # characters of the requirements part in new_cards.json
 WORKERS = 8
 
