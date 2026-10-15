@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-14T20:48:37Z",
+ "generated": "2026-10-15T21:13:53Z",
  "days": 14,
- "count": 11,
+ "count": 14,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -195,6 +195,58 @@
    "deadline": "2026-10-21",
    "kind": "academic",
    "closed_at": "2026-10-14T13:30:34Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:bmw:1440047933",
+   "co": "BMW Group",
+   "big": true,
+   "title": "PhD Explainable VLMs for Anomaly Detection in Crashworthiness Analyses (f/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/Munich-PhD-Explainable-VLMs-for-Anomaly-Detection-in-Crashworthiness-Analyses-%28fmx%29-BY-80809/1440047933/",
+   "loc": "Munich, BY, DE, 80809",
+   "loc_status": "eu",
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-14T20:48:37Z",
+   "baseline": true,
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-15T21:13:53Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:bmw:1436989633",
+   "co": "BMW Group",
+   "big": true,
+   "title": "Doktorand In-Situ Charakterisierung und Modellierung transienter Polyurethanschaumsysteme (w/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/M%C3%BCnchen-Doktorand-In-Situ-Charakterisierung-und-Modellierung-transienter-Polyurethanschaumsysteme-%28wmx%29-BY-80809/1436989633/",
+   "loc": "München, BY, DE, 80809",
+   "loc_status": "eu",
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-14T13:30:34Z",
+   "last_seen": "2026-10-14T20:48:37Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-15T21:13:53Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "abg:140390",
+   "co": "CEREA (Ecole des Ponts / EDF R&D)",
+   "big": false,
+   "title": "Modélisation multi-échelle des particules ultrafines et de l’exposition en milieu urbain",
+   "url": "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/140390/job/modelisation-multi-echelle-des-particules-ultrafines-et-de-l-exposition-en-milieu-urbain",
+   "loc": "Champs sur Marne, Ile-de-France, France",
+   "loc_status": "eu",
+   "posted": "2026-10-03",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-14T20:48:37Z",
+   "baseline": true,
+   "ats": "abg",
+   "country": "fr",
+   "dept": "Expertises scientifiques : \n Ecologie, environnement - Numérique",
+   "kind": "academic",
+   "closed_at": "2026-10-15T21:13:53Z",
    "reason": "not listed anymore"
   }
  ]
