@@ -83,6 +83,14 @@ annunci visti negli ultimi 3 giorni; `closed` (tutte le chiusure degli ultimi 14
 giro col filtro largo gli annunci non-ML già aperti sono marcati `baseline`.
 
 **Fase 3 fatta (14/10), routine aggiornate da Gabriele il 14/10: primo giro giovedì 15/10 (Radar 8:00, Mappa PhD 8:30).**
+
+15/10, primo giro: il controllo dei permessi delle routine (modalità auto) blocca con
+[Code from External] l'esecuzione di `radar.py` scaricato con curl, anche in un comando separato.
+Il Radar si è fermato al passo 1 (due volte); la Mappa PhD ha letto lo script e se ne è scritta
+una copia ridotta da sola (15 posizioni aggiunte, `phdRuns` scritto). Correzione in corso: collegare
+il repo alle due routine come repository e copiare `tools/radar.py` dalla checkout invece di
+scaricarlo (`private/routines/SISTEMA-ROUTINE.md`). Se il repo non si può collegare, il piano B è
+spostare il lavoro dello script in GitHub Actions e lasciare alla routine solo dati da leggere.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
