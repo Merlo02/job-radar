@@ -291,6 +291,13 @@
   "board": "graphcore"
  },
  {
+  "id": "pinterest",
+  "co": "Pinterest",
+  "big": true,
+  "type": "greenhouse",
+  "board": "pinterest"
+ },
+ {
   "id": "isomorphic",
   "co": "Isomorphic Labs",
   "target": "isomorphic",
