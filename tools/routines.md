@@ -13,18 +13,21 @@ user-facing is in Italian.
 2. ArtifactData on the tracker: query "jobs" with where [["closed","==",false]], limit 1000,
    out_dir "db"; list "radarRuns" with limit 1000, out_dir "db". Keep the versions shown for "jobs":
    closures need them.
-3. `python3 radar.py cards --db db --max 900` prints numbered cards (company · role · place ·
-   source · date | years, level, keywords, signals | ~400 characters on the job). When they are
-   many it writes them to page files (cards-1.txt, cards-2.txt…) and names them: read every page
-   with the Read tool, in order, and append the lines for that page to giudizi.txt before reading
-   the next one. Judge EVERY card, one line per card: `n|tipo|fit|prestigio|anni|motivo`
+3. `python3 radar.py cards --db db` prints numbered cards (company · role · place · source · date |
+   years, level, keywords, signals | ~400 characters on the job), as many as one morning can read,
+   in page files (cards-1.txt, cards-2.txt…) that it names: read every page with the Read tool, in
+   order, and append the lines for that page to giudizi.txt before reading the next one. ML titles
+   come first with the full text; then shorter cards (ML words only in the text, or only negative
+   keywords); last, cards on one line (no ML, data or AI word in the text: judge from the title).
+   Judge EVERY card, one line per card: `n|tipo|fit|prestigio|anni|motivo`
    - tipo: ricerca, training, edge, data science, AI-SWE, altro.
    - fit 1–5 with his CV. 5: research, training or edge role close to his work (foundation models,
      self-supervised learning, signals and sensors, on-device ML), open to a junior. 4: good ML or
      research role open to a junior, other domain. 3: applied ML or data science with real
      modelling, or a strong role with one obstacle (PhD preferred, 3 years asked, very selective).
      2: adjacent technical role with a real ML part, or a good role with serious obstacles (a
-     language he does not speak, UK without visa sponsorship). 1: out of profile.
+     language he does not speak, UK without visa sponsorship: 2, not 1, when the role itself fits).
+     1: out of profile.
    - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
      agents, copilots, prompt engineering); roles without ML; 4+ years asked or
      senior/staff/lead/principal/manager/director titles; internships only for enrolled students;

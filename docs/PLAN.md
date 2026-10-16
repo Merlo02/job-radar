@@ -102,8 +102,22 @@ fit 4–5 e il bollino «Agenzia»; le schede in lingue che Gabriele non legge m
 del testo. Corretti a mano nel Radar 3 zone, 6 agenzie e 11 doppioni (chiusi con una nota).
 `NEW_DAYS` passa a 21: con ~3300 schede in arretrato e 900 al giorno, a 10 giorni le più vecchie
 sarebbero uscite dal file prima di essere giudicate.
+
+16/10, primo giro del mattino: 900 schede in 5 minuti, 55 annunci nel Radar (8 fit medio), 6 chiusure.
+Ma lo scanner porta ~2000 schede a notte (LinkedIn ~1400, Indeed ~700), più delle 900 lette: le 900
+erano tutte della notte, quindi l'arretrato del 13/10 (~1000 titoli ML) non sarebbe mai arrivato. Resa
+dei giudizi già dati, per tipo di scheda: titolo ML 10-17% con fit ≥ 2, parole ML solo nel testo 1-4%,
+nessuna parola ML 0-1% (e quelle poche giudicate dal titolo). Quindi `cards` ora mette prima i titoli
+ML (prima i nuovi, poi l'arretrato), poi le schede corte (parole ML solo nel testo, o solo parole chiave
+negative: testo a 150 caratteri), poi quelle su una riga (nessuna parola ML, dati o AI: solo il titolo);
+il limite è in pagine (`CARD_PAGES` = 20, ~450.000 caratteri, prima 16) e non in schede: ~2000 schede a
+mattina. Lo script giudica da solo, con una riga nel documento del giro, le ripubblicazioni di ruoli
+già scartati (stessa azienda e titolo) e i gig di annotazione dati (Alignerr, Outlier, TELUS…, fit 1
+per la rubrica). Il Radar mette nel luogo la sede migliore per lui ("Mountain View; Zürich" → Zurigo).
+Lo scanner non scambia più Florence SC o Rome GA per Firenze e Roma. `.gitignore` copre i file di
+lavoro delle routine (che lavorano nella radice della checkout: un hook chiedeva di committarli).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
-  prima volta negli ultimi `NEW_DAYS` (10) giorni, senza doppioni e senza `baseline`, senza
+  prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
   visa) e `via` (la fonte); più `closed`, le chiusure degli stessi giorni. ~3,5 MB.
 - `tools/radar.py` (solo libreria standard: la routine lo scarica e lo esegue) fa tutto il lavoro
@@ -124,9 +138,8 @@ sarebbero uscite dal file prima di essere giudicate.
     chiusure (annunci spariti, scadenze passate) e la bozza del messaggio finale.
   - `check` (il lunedì): annunci LinkedIn aperti che non accettano più candidature.
   - `phd` e `phd-done` fanno lo stesso per la Mappa PhD, con i documenti `phdRuns`.
-- Arretrato: al 14/10 ~3300 schede mai giudicate (i primi giri di LinkedIn e Indeed del 13/10 non
-  andavano in `recent.json`). Con 900 schede al giorno e ~550 nuove a notte si smaltisce in circa
-  una settimana, dentro i 10 giorni del file.
+- Arretrato: al 16/10 ~4200 schede mai giudicate (i primi giri di LinkedIn e Indeed del 13/10 non
+  andavano in `recent.json`). Le nuove sono ~2000 a notte, non ~550: vedi sopra (16/10).
 - Prompt nuovi delle routine: `private/routines/radar.md` e `mappa-phd.md` (contengono il
   profilo: non vanno nella repo). `private/routines/AGGIORNA-ROUTINE.md` è il messaggio da
   incollare in una sessione claude.ai che sostituisce i prompt e sposta gli orari: Radar ogni

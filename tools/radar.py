@@ -6,7 +6,8 @@ routine: their permission check blocks code downloaded at run time) and follow t
 
 Radar, every morning:
     python3 radar.py fetch                 # status.json and new_cards.json from the repo
-    python3 radar.py cards --db db         # numbered cards to judge: not judged by an earlier run, not in the Radar
+    python3 radar.py cards --db db         # numbered cards to judge: not judged by an earlier run, not in the Radar,
+                                           # ML titles first, as many as one morning reads (CARD_PAGES)
     (Claude writes giudizi.txt: one line per card, n|tipo|fit|prestigio|anni|motivo)
     python3 radar.py more                  # requirements of the cards with fit >= 3, to write why and req
     python3 radar.py desc 12 40            # full description of some cards, only when the card is unclear
@@ -38,6 +39,7 @@ import urllib.request
 RAW = "https://raw.githubusercontent.com/Merlo02/job-radar/main/out/"
 MSG_LINES = 30       # postings listed one by one in the final message (the rest are counted)
 PAGE_CHARS = 24000   # longer lists go to page files: one tool output shows about 30,000 characters
+CARD_PAGES = 20      # pages of cards in one morning (~450,000 characters, what one run can read): the rest waits
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
 BOARD_NAME = {"linkedin": "LinkedIn", "indeed": "Indeed", "wttj": "Welcome to the Jungle", "thehub": "The Hub",
@@ -55,11 +57,27 @@ ITALY = re.compile(r"\bital(?:y|ia)\b|milan|turin|torino|\brom[ae]\b|bologna|\bp
                    r"(?-i:,\s*IT\b)", re.I)
 # German places whose names also exist around Zurich (Baden, Cham, Baar…): never the Zurich area
 NOT_SWISS = re.compile(r"germany|deutschland|w[uü]e?rttemberg|bavaria|bayern|baden-baden|(?-i:\bDE\b)", re.I)
+FAR = re.compile(r"(?-i:\bUSA?\b)|united states|\(US\)|canada|singapore|india|china|japan|korea|taiwan|israel|"
+                 r"australia|brazil|mexico|toronto|montr[eé]al|san francisco|new york|seattle|mountain view|"
+                 r"palo alto|sunnyvale|boston|austin|los angeles|san diego|tokyo", re.I)
 # staffing agencies and recruiters posting for unnamed clients (the rubric gives them fit 1)
 AGENCY = re.compile(r"recruit|staffing|headhunt|personnel|personalvermittlung|manpower|randstad|adecco|\bhays\b|"
                     r"michael page|robert half|robert walters|harnham|\bgi group|jefferson frank|xcede|oliver bernard|"
                     r"talent (?:partners|solutions|acquisition)|\bpeople$|jobgether|deeprec|executive search|"
                     r"search partners|\bresourcing\b|hunters?$", re.I)
+# any word of machine learning, data or AI, in the languages of the postings: a card without one is
+# shown on one line (Claude judges it from the title, as it did anyway)
+ML_TEXT = re.compile(r"machine.?learning|deep.?learning|\bml\b|\bai\b|\bk\.?i\.?\b|\bia\b|artificial|artificiel|"
+                     r"künstlich|kunstig|intelligenza|inteligencia|neural|neuronal|data.?scien|data.?analy|analytics|"
+                     r"datenanaly|computer.?vision|machine.?vision|bildverarbeitung|\bllms?\b|\bnlp\b|natural.?language|"
+                     r"reinforcement|pytorch|tensorflow|\bjax\b|transformer|foundation.?model|genai|generative|"
+                     r"statisti|predictive|forecast|signal|perception|algorithm|apprentissage|aprendizaje|"
+                     r"apprendimento|modell|model|robot|autonom|sensor|optimi[sz]|research|recherche|forschung|"
+                     r"ricerca|investigaci|scientist|wissenschaft|quantitative|\bquant\b|embedded|\bedge\b|"
+                     r"\bgpu|\bcuda\b|inference|training data|annotation", re.I)
+# data-labelling and AI-tutor gigs: fit 1 by the rubric, so the script judges them
+GIG = re.compile(r"alignerr|\boutlier\b|mercor|dataannotation|remotasks|toloka|telus digital|\bappen\b|micro1|"
+                 r"invisible technologies|human frontier collective", re.I)
 EN_WORDS = set("the and to of with you we our in for is are will on as be your this an at or by from have team".split())
 IT_WORDS = set("il di che la per con una del nel della delle sono lavoro esperienza azienda".split())
 CO_GENERIC = re.compile(r"\b(?:gmbh|ag|se|sa|sas|spa|srl|bv|nv|inc|llc|ltd|limited|plc|corp|corporation|co|kg|oy|ab|"
@@ -217,10 +235,21 @@ def where(loc):
             "remote-worldwide" if re.search(r"worldwide|anywhere|global", low) else "remote-country"
     elif "hybrid" in low or "ibrido" in low:
         remote = "hybrid"
-    swiss = not NOT_SWISS.search(loc)
-    area = "zurigo" if swiss and ZURICH.search(loc) else "svizzera" if swiss and SWISS.search(loc) else \
-        "italia" if ITALY.search(loc) else "remoto" if remote.startswith("remote") else "europa"
-    city = re.split(r"[,;(·|]", loc)[0].strip()
+    # several offices ("Mountain View, CA, USA; Zürich, Switzerland"): the best one for him names the place
+    parts = [p for p in loc.split(";") if p.strip()] or [loc]
+    found = []
+    for p in parts:
+        swiss = not NOT_SWISS.search(p)
+        a = "zurigo" if swiss and ZURICH.search(p) else "svizzera" if swiss and SWISS.search(p) else \
+            "italia" if ITALY.search(p) else None
+        if a:
+            found.append(({"zurigo": 0, "svizzera": 1, "italia": 2}[a], a, p))
+    if found:
+        _, area, seg = min(found)
+    else:
+        area = "remoto" if remote.startswith("remote") else "europa"
+        seg = next((p for p in parts if not FAR.search(p)), parts[0])
+    city = re.split(r"[,(·|]", seg)[0].strip()
     city = CITY_IT.get(city.lower(), city) or loc
     if remote == "hybrid":
         city += " (ibrido)"
@@ -238,6 +267,25 @@ def judged_keys(db, coll="radarRuns"):
             keys.add(line.split("|", 1)[0])
         keys.update(r.get("keys") or [])
     return keys
+
+
+def judged_out(db):
+    """Roles (company, title) that an earlier run judged out of the Radar: when they are posted again
+    under a new key (LinkedIn reposts, another board) the script gives the same judgement."""
+    out = {}
+    for _, r in sorted(docs(os.path.join(db, "radarRuns")).items()):
+        for line in (r.get("lines") or "").splitlines():
+            p = line.split("|")
+            if len(p) < 8 or not p[4].isdigit():
+                continue
+            j = {"tipo": p[3], "fit": int(p[4]), "prest": int(p[5]) if p[5].isdigit() else 1,
+                 "anni": int(p[6]) if p[6].isdigit() else None, "motivo": "|".join(p[7:])}
+            role = (co_key(p[1]), title_key(p[2]))
+            if kept(j, {"agency": bool(AGENCY.search(p[1]))}):
+                out.pop(role, None)
+            else:
+                out[role] = j
+    return out
 
 
 def radar_known(db):
@@ -262,25 +310,36 @@ def cmd_fetch():
 
 
 def cmd_cards():
-    """Cards not judged yet: everything first seen in the last 36 hours, then the older ones (most
-    promising first) up to --max cards in all; what is left goes first in the next runs."""
+    """Cards not judged yet, most promising first: ML titles (the newest first, then the older ones),
+    then the cards with ML words only in the text, then those without any, shown on one line. One
+    morning reads up to CARD_PAGES pages; what is left goes first in the next runs."""
     db = arg("--db", "db")
-    cap = int(arg("--max", "900"))
+    cap = int(arg("--max", "100000"))
     st, nc = load("status.json", {}), load("new_cards.json", {})
     judged = judged_keys(db)
+    out_before = judged_out(db)
     _, urls, names, keys = radar_known(db)
-    todo, skipped = [], 0
+    todo, auto, skipped = [], [], 0
     for c in nc.get("items", []):
         if c["key"] in judged:
             continue
-        if c["key"] in keys or norm_url(c.get("url")) in urls or norm_url(c.get("apply_url")) in urls or \
-                (co_key(c.get("co")), title_key(c.get("title"))) in names:
+        role = (co_key(c.get("co")), title_key(c.get("title")))
+        if c["key"] in keys or norm_url(c.get("url")) in urls or norm_url(c.get("apply_url")) in urls or role in names:
             skipped += 1
             continue
-        todo.append(c)
+        # judged by the script: reposts of roles already judged out, data-labelling gigs (fit 1 by the rubric)
+        if role in out_before:
+            j = out_before[role]
+            auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), **j))
+        elif GIG.search(f"{c.get('co')} {c.get('title')}"):
+            auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), tipo="altro", fit=1, prest=1,
+                             anni=None, motivo="Gig di annotazione o valutazione dati"))
+        else:
+            todo.append(c)
     # the same role posted several times (other cities, LinkedIn and Indeed): one card, all places, all keys
+    rank = lambda c: (c.get("ml") is not True, -(c.get("score") or 0))
     groups = {}
-    for c in sorted(todo, key=lambda c: (c.get("ml") is not True, -(c.get("score") or 0))):
+    for c in sorted(todo, key=rank):
         groups.setdefault((co_key(c.get("co")), title_key(c.get("title"))), []).append(c)
     todo = []
     for same in groups.values():
@@ -291,42 +350,59 @@ def cmd_cards():
             c["dups"] = [x["key"] for x in same[1:]]
             c["first_seen"] = max(x.get("first_seen") or "" for x in same)
         c["agency"] = bool(AGENCY.search(c.get("co") or ""))
+        words = " ".join([c.get("title") or "", c.get("card") or "", c.get("req") or ""] +
+                         [k for k in c.get("kw") or [] if not k.startswith("-")])
+        ai_swe = c.get("kw") and all(k.startswith("-") for k in c["kw"])   # only LangChain, RAG, agents, 5+ years…
+        c["form"] = "full" if c.get("ml") is True and not ai_swe else "short" if ML_TEXT.search(words) else "line"
         todo.append(c)
     fresh_cut = (NOW - dt.timedelta(hours=36)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    rank = lambda c: (c.get("ml") is not True, -(c.get("score") or 0))
-    fresh = sorted((c for c in todo if (c.get("first_seen") or "") >= fresh_cut), key=rank)
-    older = sorted((c for c in todo if (c.get("first_seen") or "") < fresh_cut), key=rank)
-    cards = (fresh + older)[:cap]   # the most recent first; a long backlog is spread over several mornings
+    order = {"full": 0, "short": 1, "line": 2}
+    todo.sort(key=lambda c: (order[c["form"]], (c.get("first_seen") or "") < fresh_cut) + rank(c))
+    budget, used, cards = CARD_PAGES * PAGE_CHARS * 0.95, 0, []   # pages are never filled to the last character
+    for c in todo:
+        size = len(card_block(0, c)) + 1
+        if len(cards) >= cap or used + size > budget:
+            break
+        cards.append(c)
+        used += size
     left = len(todo) - len(cards)
     for i, c in enumerate(cards, 1):
         c["n"] = i
-    save("cards.json", {"scan": st.get("run_at"), "cards": cards})
+    save("cards.json", {"scan": st.get("run_at"), "cards": cards, "auto": auto, "left": left})
     run = parse_ts(st.get("run_at"))
     age = (NOW - run).total_seconds() / 3600 if run else 999
     print(f"Scanner: giro del {st.get('run_at')} ({age:.0f} ore fa){' · VECCHIO: lo scanner non ha girato stanotte' if age > 30 else ''}"
           f"{' · fonti fallite: ' + ', '.join(st.get('failed', [])) if st.get('failed') else ''}")
-    n_fresh = min(len(fresh), len(cards))
-    print(f"Da giudicare: {len(cards)} schede ({n_fresh} delle ultime 36 ore, {len(cards) - n_fresh} più vecchie)"
-          f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} già nel Radar.")
-    print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda\n")
-    blocks = []
-    for c in cards:
-        sig = list(c.get("sig") or []) + (["agenzia"] if c.get("agency") else [])
-        text = c.get("card") or ""
-        if foreign(text):
-            sig.append("testo non in inglese né in italiano")
-            text = text[:100]
-        bits = [f"anni {c['years']}" if c.get("years") else "",
-                short(c.get("level"), 50) if c.get("level") else "",
-                "kw " + ",".join(c["kw"]) if c.get("kw") else "",
-                "segnali " + ",".join(sig) if sig else "",
-                "scade " + c["deadline"] if c.get("deadline") else "", c.get("salary") or ""]
-        head = " · ".join(x for x in [c.get("co"), c.get("title"), c.get("loc"), BOARD_NAME.get(c.get("via"), ""),
-                                      c.get("posted") or ""] if x)
-        meta = " | ".join(b for b in bits if b)
-        blocks.append(f"{c['n']}. {head}\n   {meta + ' | ' if meta else ''}"
-                      f"{short(text, 420) or '(nessuna descrizione: giudica dal titolo)'}")
-    emit(blocks, "cards")
+    n = {f: sum(1 for c in cards if c["form"] == f) for f in order}
+    print(f"Da giudicare: {len(cards)} schede ({n['full']} intere, {n['short']} corte, {n['line']} su una riga)"
+          f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} già nel Radar"
+          f"{f'; {len(auto)} giudicate dallo script (ripubblicazioni di ruoli già scartati, gig di annotazione dati)' if auto else ''}.")
+    print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda. "
+          "Schede intere: titolo da ML. Corte (testo accorciato): parole di ML o dati solo nel testo, o solo "
+          "parole chiave negative (LangChain, RAG, agenti, anni). "
+          "Su una riga: nessuna parola di ML, dati o AI nel testo, giudica dal titolo.\n")
+    emit([card_block(c["n"], c) for c in cards], "cards")
+
+
+def card_block(n, c):
+    sig = list(c.get("sig") or []) + (["agenzia"] if c.get("agency") else [])
+    text = c.get("card") or ""
+    if foreign(text):
+        sig.append("testo non in inglese né in italiano")
+        text = text[:100]
+    bits = [f"anni {c['years']}" if c.get("years") else "",
+            short(c.get("level"), 50) if c.get("level") else "",
+            "kw " + ",".join(c["kw"]) if c.get("kw") else "",
+            "segnali " + ",".join(sig) if sig else "",
+            "scade " + c["deadline"] if c.get("deadline") else "", c.get("salary") or ""]
+    line = c.get("form") == "line"
+    head = " · ".join(x for x in [c.get("co"), c.get("title"), c.get("loc")] +
+                      ([] if line else [BOARD_NAME.get(c.get("via"), ""), c.get("posted") or ""]) if x)
+    meta = " | ".join(b for b in bits if b)
+    if line or not text.strip():
+        return f"{n}. {head}{' | ' + meta if meta else ''}{'' if line else ' | senza descrizione'}"
+    text = short(text, 420 if c.get("form") == "full" else 150)
+    return f"{n}. {head}\n   {meta + ' | ' if meta else ''}{text}"
 
 
 def read_judgments():
@@ -390,6 +466,13 @@ def prio(fit, prest, area):
     return round(52 + (5 - prest) * 7 + geo * 2, 2)
 
 
+def run_line(c, j):
+    """key|co|title|tipo|fit|prestigio|anni|motivo, the format judged_keys and judged_out read back."""
+    clean = lambda s: re.sub(r"[|\n]+", " / ", str(s or ""))
+    return "|".join([c["key"], clean(c.get("co")), clean(c.get("title")), j["tipo"], str(j["fit"]), str(j["prest"]),
+                     str(j["anni"]) if j.get("anni") is not None else "-", clean(j["motivo"])])
+
+
 def cmd_docs():
     db = arg("--db", "db")
     state = load("cards.json", {})
@@ -415,8 +498,7 @@ def cmd_docs():
         j = js.get(n)
         if not j:
             continue
-        lines.append("|".join(str(x) for x in (c["key"], c.get("co"), c.get("title"), j["tipo"], j["fit"], j["prest"],
-                                                j["anni"] if j["anni"] is not None else "-", j["motivo"])))
+        lines.append(run_line(c, j))
         dup_keys += c.get("dups") or []
         if not kept(j, c):
             continue
@@ -456,6 +538,7 @@ def cmd_docs():
         save(f"write/{did}.json", doc)
         writes.append({"op": "set", "collection": "jobs", "doc_id": did, "file_path": os.path.abspath(f"write/{did}.json")})
         added.append((doc, j))
+    lines += [run_line(a, a) for a in state.get("auto", [])]
     # closures: postings gone from the company sites, deadlines passed
     nc = load("new_cards.json", {})
     gone = {c["key"] for c in nc.get("closed", [])} | {norm_url(c.get("url")) for c in nc.get("closed", [])}
@@ -479,8 +562,9 @@ def cmd_docs():
     if no_why:
         print(f"ATTENZIONE: {len(no_why)} schede con fit >= 3 senza why in schede.jsonl (uso il motivo): {no_why[:40]}")
     unjudged = [n for n in cards if n not in js]
-    print(f"Giudicate {len(lines)} schede su {len(cards)}{' · SENZA GIUDIZIO: ' + str(unjudged[:40]) if unjudged else ''}; "
-          f"da aggiungere al Radar: {len(added)}.")
+    n_auto = len(state.get("auto", []))
+    print(f"Giudicate {len(lines) - n_auto} schede su {len(cards)}{' · SENZA GIUDIZIO: ' + str(unjudged[:40]) if unjudged else ''}"
+          f"{f' (più {n_auto} giudicate dallo script)' if n_auto else ''}; da aggiungere al Radar: {len(added)}.")
     print(f"\nSCRITTURE: {len(chunks)} batch. Per ciascuno chiama ArtifactData batch con writes = il contenuto di "
           f"write/batch-N.json (nuovi documenti, nessun if_version):")
     for i in range(1, len(chunks) + 1):
@@ -515,6 +599,9 @@ def cmd_docs():
         print("Lo scanner non ha girato stanotte.")
     if st.get("failed"):
         print("Fonti con errori: " + ", ".join(st["failed"]))
+    if state.get("left"):
+        print(f"Restano {state['left']} schede da giudicare nei prossimi giri.")
+
 
 def cmd_check():
     """Open jobs with a LinkedIn link: the public job page says when a posting stopped taking

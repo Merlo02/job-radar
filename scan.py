@@ -425,6 +425,8 @@ NON_EU_CODES = re.compile(
     r"(?<![A-Za-z])(?:TUR|THA|VNM|MYS|PHL|IDN|AUS|NZL|ZAF|ARG|CHL|COL|EGY|MAR|TUN|SAU|ARE|QAT|HKG|TWN|"
     r"KAZ|LKA|PAK|BGD|NGA|KEN|URY|PER|CRI|DOM|PRI)(?![A-Za-z])")
 
+US_PLACE = re.compile(r"(?-i:\bUSA\b)|\bU\.S\.(?:A\.)?|united states", re.I)
+
 
 def loc_status(loc, default="unknown"):
     """eu / no / unknown. A place it does not recognise is "unknown" and kept: a town missing from
@@ -432,6 +434,11 @@ def loc_status(loc, default="unknown"):
     should count."""
     loc = loc or ""
     if EU_RE.search(loc) or EU_CODES.search(loc):
+        # a European city name in an American place ("Florence SC USA", "USA, GA, Rome") does not count;
+        # the country an ATS appends in brackets is ignored ("Freiburg (Germany) (United States)")
+        if not any((EU_RE.search(p) or EU_CODES.search(p)) and not US_PLACE.search(re.sub(r"\([^)]*\)", " ", p))
+                   for p in loc.split(";")):
+            return "no"
         return "eu"
     if NON_EU_WORDS.search(loc) or NON_EU_CODES.search(loc):
         return "no"

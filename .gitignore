@@ -6,3 +6,16 @@ career-ops/
 __pycache__/
 *.pyc
 .venv/
+
+# File di lavoro delle routine claude.ai, che lavorano nella radice della loro checkout (schede, giudizi,
+# copia del database delle pagine): mai su GitHub
+/*.json
+!/sources.json
+!/phd_sources.json
+!/phd_fellowships.json
+/*.jsonl
+/*.txt
+/*.py
+!/scan.py
+/db/
+/write/
