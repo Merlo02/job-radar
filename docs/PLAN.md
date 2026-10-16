@@ -116,6 +116,11 @@ già scartati (stessa azienda e titolo) e i gig di annotazione dati (Alignerr, O
 per la rubrica). Il Radar mette nel luogo la sede migliore per lui ("Mountain View; Zürich" → Zurigo).
 Lo scanner non scambia più Florence SC o Rome GA per Firenze e Roma. `.gitignore` copre i file di
 lavoro delle routine (che lavorano nella radice della checkout: un hook chiedeva di committarli).
+IIT: lo scanner leggeva solo la prima pagina delle offerte (10 su 43) e prendeva come titolo la
+categoria del link ("Postdoc", "Fellow", "Technician"); ora legge `?cur=1…10` e prende il titolo
+dall'URL (`title_slug`). joinup.ch e Landing.jobs rispondono 403 solo da GitHub Actions dal 13/10
+(`ci_blocked`: riprovati ogni notte, in `status.json` sotto `blocked` e non più tra le fonti fallite);
+CENTAI dà 522 anche da fuori (sito giù).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

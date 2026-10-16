@@ -915,8 +915,21 @@
   "target": "iit",
   "big": true,
   "type": "links",
-  "url": "https://iit.it/openings",
+  "url": "https://www.iit.it/openings",
+  "urls": [
+   "https://www.iit.it/openings?cur=1",
+   "https://www.iit.it/openings?cur=2",
+   "https://www.iit.it/openings?cur=3",
+   "https://www.iit.it/openings?cur=4",
+   "https://www.iit.it/openings?cur=5",
+   "https://www.iit.it/openings?cur=6",
+   "https://www.iit.it/openings?cur=7",
+   "https://www.iit.it/openings?cur=8",
+   "https://www.iit.it/openings?cur=9",
+   "https://www.iit.it/openings?cur=10"
+  ],
   "pattern": "jobposition/(\\d+)",
+  "title_slug": 2,
   "loc_default": "Italy",
   "academic": true
  },
@@ -1393,12 +1406,14 @@
  {
   "id": "landingjobs",
   "co": "Landing.jobs",
-  "type": "landingjobs"
+  "type": "landingjobs",
+  "ci_blocked": "403 da GitHub Actions dal 13/10 (blocca gli IP dei datacenter; da un PC risponde)"
  },
  {
   "id": "joinup",
   "co": "joinup.ch",
-  "type": "joinup"
+  "type": "joinup",
+  "ci_blocked": "403 da GitHub Actions dal 13/10 (blocca gli IP dei datacenter; da un PC risponde)"
  },
  {
   "id": "wttj",

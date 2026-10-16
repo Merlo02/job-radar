@@ -1743,7 +1743,10 @@ def links_list(src):
             jid = pm.group(1) if pm.groups() else hashlib.md5(full.encode()).hexdigest()[:10]
             generic = (len(text) < 4 or text.lower() in
                        ("apply", "more", "details", "learn more", "read more", "view", "apply now", "scopri di più"))
-            if generic:
+            if src.get("title_slug"):   # the link says only the category ("Postdoc", "Fellow"): the title is in the URL
+                seg = urlsplit(full).path.rstrip("/").split("/")[-src["title_slug"]]
+                text = re.sub(r"-(?:it|en)$", "", slugify(seg)).replace("-", " ").capitalize()
+            elif generic:
                 text = slugify(urlsplit(full).path.rstrip("/").rsplit("/", 1)[-1]).replace("-", " ")
             r = rec(src, jid, text, full)
             old = out.get(r["key"])
@@ -2649,7 +2652,11 @@ def main():
     open_ = dedupe(sorted((public(v, False) for v in jobs.values() if v.get("ats") != "watch" and listed(v)),
                           key=lambda v: (v.get("co", ""), v.get("title", ""))))
     statuses.sort(key=lambda s: s["id"])
-    failed = [s["id"] for s in statuses if not s.get("ok")]
+    # sources that refuse GitHub's servers (403) are retried every night but not reported as failures
+    ci_blocked = {s["id"] for s in all_sources if s.get("ci_blocked")}
+    failed = [s["id"] for s in statuses if not s.get("ok")
+              and not (s["id"] in ci_blocked and "403" in (s.get("error") or ""))]
+    blocked = [s["id"] for s in statuses if not s.get("ok") and s["id"] not in failed]
     warnings = []
     for s in statuses:
         if not s.get("ok") or s["type"] == "watch":
@@ -2690,7 +2697,7 @@ def main():
                        if days_since(c.get("closed_at", "")) <= NEW_DAYS]})
     save(os.path.join(OUT, PREFIX + "status.json"), {
         "run_at": NOW_ISO, "duration_s": round(time.time() - t0),
-        "sources": len(statuses), "failed": failed, "new": new_total,
+        "sources": len(statuses), "failed": failed, "blocked": blocked, "new": new_total,
         "open": len(open_), "recent": len(recent), "candidates": n_cand, "warnings": warnings,
         "coverage": coverage, "details": statuses})
     print(f"done in {round(time.time() - t0)}s · sources {len(statuses)} · failed {len(failed)} "
