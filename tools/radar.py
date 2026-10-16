@@ -78,6 +78,16 @@ ML_TEXT = re.compile(r"machine.?learning|deep.?learning|\bml\b|\bai\b|\bk\.?i\.?
 # data-labelling and AI-tutor gigs: fit 1 by the rubric, so the script judges them
 GIG = re.compile(r"alignerr|\boutlier\b|mercor|dataannotation|remotasks|toloka|telus digital|\bappen\b|micro1|"
                  r"invisible technologies|human frontier collective", re.I)
+# same as scan.py: a role whose text says it is senior, though the title does not ("This is a senior hands-on role",
+# "we are looking for a Senior ML Engineer", "The AI Engineer Level 6", "mentor junior engineers")
+SENIOR_TEXT = re.compile(
+    r"\b(?:is|as|for|seeking|hiring|be|looking for)\s+(?:a|an)\s+(?:highly\s+|very\s+)?(?:experienced\s+|seasoned\s+)?"
+    r"senior\b(?![- ](?:manager|management|leader|leadership|stakeholder|executive|colleague|team member|member of|"
+    r"engineers? (?:who|to)|scientists? (?:who|to)|partner))"
+    r"|\bthis senior (?:role|position)\b|\bsenior[- ]level (?:role|position)\b"
+    r"|(?<!eqf )(?<!nqf )(?:engineer|scientist|developer|analyst|specialist|role|position|grade|band|job level)\s+level\s+[6-9]\b"
+    r"|\b(?:mentor|coach)(?:ing|s|es)?\s+(?:other|junior|less[- ]experienced|more junior)\s+"
+    r"(?:engineers|scientists|developers|team members|colleagues|data scientists|researchers)", re.I)
 EN_WORDS = set("the and to of with you we our in for is are will on as be your this an at or by from have team".split())
 IT_WORDS = set("il di che la per con una del nel della delle sono lavoro esperienza azienda".split())
 CO_GENERIC = re.compile(r"\b(?:gmbh|ag|se|sa|sas|spa|srl|bv|nv|inc|llc|ltd|limited|plc|corp|corporation|co|kg|oy|ab|"
@@ -334,6 +344,11 @@ def cmd_cards():
         elif GIG.search(f"{c.get('co')} {c.get('title')}"):
             auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), tipo="altro", fit=1, prest=1,
                              anni=None, motivo="Gig di annotazione o valutazione dati"))
+        elif c.get("senior") or SENIOR_TEXT.search(f"{c.get('card') or ''} {c.get('req') or ''}"):
+            # senior by the text, not by the title (the scanner drops senior titles): fit 1 by the rubric
+            said = c.get("senior") or SENIOR_TEXT.search(f"{c.get('card') or ''} {c.get('req') or ''}").group(0)
+            auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), tipo="altro", fit=1, prest=1,
+                             anni=c.get("years"), motivo=f"Ruolo senior: «{short(' '.join(said.split()), 50)}»"))
         else:
             todo.append(c)
     # the same role posted several times (other cities, LinkedIn and Indeed): one card, all places, all keys
@@ -376,7 +391,7 @@ def cmd_cards():
     n = {f: sum(1 for c in cards if c["form"] == f) for f in order}
     print(f"Da giudicare: {len(cards)} schede ({n['full']} intere, {n['short']} corte, {n['line']} su una riga)"
           f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} già nel Radar"
-          f"{f'; {len(auto)} giudicate dallo script (ripubblicazioni di ruoli già scartati, gig di annotazione dati)' if auto else ''}.")
+          f"{f'; {len(auto)} giudicate dallo script (ripubblicazioni di ruoli già scartati, gig di annotazione dati, ruoli senior dal testo)' if auto else ''}.")
     print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda. "
           "Schede intere: titolo da ML. Corte (testo accorciato): parole di ML o dati solo nel testo, o solo "
           "parole chiave negative (LangChain, RAG, agenti, anni). "

@@ -121,6 +121,15 @@ categoria del link ("Postdoc", "Fellow", "Technician"); ora legge `?cur=1…10` 
 dall'URL (`title_slug`). joinup.ch e Landing.jobs rispondono 403 solo da GitHub Actions dal 13/10
 (`ci_blocked`: riprovati ogni notte, in `status.json` sotto `blocked` e non più tra le fonti fallite);
 CENTAI dà 522 anche da fuori (sito giù).
+Ruoli senior dal testo (16/10): il filtro sui titoli lasciava passare annunci come «AI Engineer» di Roche,
+che nel testo dice «The AI Engineer Level 6 is a senior hands-on technical contributor», e la routine lo
+aveva messo nel Radar con fit medio. Ora lo scanner cerca nella descrizione le frasi che dicono che il
+ruolo è senior (`SENIOR_TEXT`: «is a senior…», «we are looking for a Senior…», «Engineer Level 6»,
+«mentor junior engineers») e le salva nel campo `senior` di `candidates.json` e `new_cards.json`, con la
+parola chiave `-senior`. `radar.py cards` le giudica da solo con fit 1, anche dal testo della scheda, e la
+rubrica dice di dare fit 1 ai ruoli senior anche quando lo dice solo il testo. Prova su candidates.json:
+107 annunci su 11.563, quasi tutti senior davvero. Nel Radar chiusi con una nota 4 annunci già
+dentro (Roche AI Engineer, LiveEO, BAE Systems, Samba).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

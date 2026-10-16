@@ -258,6 +258,16 @@ TOO_SENIOR = re.compile(
     r"principle (?:engineer|scientist|researcher|software|data|ml|ai)|"   # a frequent misspelling of principal
     r"\bVP\b|vice president|\bchief\b|\bexecutive\b|\bleiter|\bleitung\b|directeur|direttore|responsabile|"
     r"(?-i:\bL[6-9]\b|\bIC[5-9]\b|\bE[6-9]\b|\bP[5-9]\b)", re.I)
+# a role whose text says it is senior, though the title does not ("This is a senior hands-on role",
+# "we are looking for a Senior ML Engineer", "The AI Engineer Level 6", "mentor junior engineers")
+SENIOR_TEXT = re.compile(
+    r"\b(?:is|as|for|seeking|hiring|be|looking for)\s+(?:a|an)\s+(?:highly\s+|very\s+)?(?:experienced\s+|seasoned\s+)?"
+    r"senior\b(?![- ](?:manager|management|leader|leadership|stakeholder|executive|colleague|team member|member of|"
+    r"engineers? (?:who|to)|scientists? (?:who|to)|partner))"
+    r"|\bthis senior (?:role|position)\b|\bsenior[- ]level (?:role|position)\b"
+    r"|(?<!eqf )(?<!nqf )(?:engineer|scientist|developer|analyst|specialist|role|position|grade|band|job level)\s+level\s+[6-9]\b"
+    r"|\b(?:mentor|coach)(?:ing|s|es)?\s+(?:other|junior|less[- ]experienced|more junior)\s+"
+    r"(?:engineers|scientists|developers|team members|colleagues|data scientists|researchers)", re.I)
 NOT_A_JOB = re.compile(
     r"\bintern\b|\binterns\b|internship|praktik|\bstage\b|stagiaire|tirocin|stagista|werkstudent|"
     r"working student|student assistant|student job|studentische|summer student|thesis|abschlussarbeit|"
@@ -311,6 +321,21 @@ def years_needed(text):
     return best
 
 
+def senior_text(text):
+    """The words saying the role is senior, or None."""
+    m = SENIOR_TEXT.search(text or "")
+    return re.sub(r"\s+", " ", m.group(0)).strip() if m else None
+
+
+def mark_senior(e, text):
+    """Senior in the text: a negative keyword and the words that say it (the Radar routine drops these)."""
+    s = senior_text(text)
+    if s and not e.get("senior"):
+        e["senior"] = s
+        e["kw"] = (e.get("kw") or []) + ["-senior"]
+        e["score"] = (e.get("score") or 0) - 3
+
+
 def assess(e, text):
     """Score, keywords, years and a ~400-character card for one posting."""
     full = f"{e.get('title', '')}\n{text or ''}"
@@ -330,6 +355,7 @@ def assess(e, text):
     start = m.start() if m and m.start() < len(flat) - 150 else 0
     e["score"], e["kw"], e["years"] = score, kw, years
     e["card"] = flat[start:start + 420].rsplit(" ", 1)[0] if len(flat) > start + 420 else flat[start:]
+    mark_senior(e, full)
 
 
 # ------------------------------------------------------------- location filter
@@ -2264,7 +2290,7 @@ def candidate(e, descs):
     job; the description (up to DESC_MAX characters) only for postings first seen in DESC_DAYS."""
     keys = ["key", "src", "co", "title", "loc", "loc_status", "posted", "first_seen", "url", "apply_url", "ats",
             "target", "big", "baseline", "score", "years", "kw", "card", "level", "dept", "deadline", "salary",
-            "country"]
+            "country", "senior"]
     c = {k: e.get(k) for k in keys if e.get(k) not in (None, "", [])}
     c["ml"] = e.get("ml", True)
     if e.get("ats") == "watch":
@@ -2559,6 +2585,8 @@ def main():
                                     if len(desc_full) > DESC_MAX else desc_full)
                     if not e.get("card"):
                         assess(e, desc_full)
+                    else:
+                        mark_senior(e, desc_full)
                 elif "score" not in e:
                     assess(e, e.get("desc") or "")
             st["new"] = n_new

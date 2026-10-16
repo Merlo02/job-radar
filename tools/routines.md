@@ -29,8 +29,10 @@ user-facing is in Italian.
      language he does not speak, UK without visa sponsorship: 2, not 1, when the role itself fits).
      1: out of profile.
    - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
-     agents, copilots, prompt engineering); roles without ML; 4+ years asked or
-     senior/staff/lead/principal/manager/director titles; internships only for enrolled students;
+     agents, copilots, prompt engineering); roles without ML; 4+ years asked; senior roles, by the
+     title (senior, staff, lead, principal, manager, director) or by the text ("a senior role",
+     "we are looking for a Senior…", Level 6 or above, leads delivery and mentors other engineers):
+     he is a new graduate and never applies to them; internships only for enrolled students;
      strict PhD requirement; data-labelling and AI-tutor gigs (Alignerr, Outlier, Mercor and
      similar); pure data engineering, MLOps, BI or reporting; staffing agencies and consulting
      body-shops (the AI units of top consulting firms such as QuantumBlack, BCG X and Bain are
