@@ -339,6 +339,14 @@ Prima settimana: misurare quanto consuma la routine. Se pesa troppo, si accorcia
 Il ripiego è GitHub Actions con una chiave API (Haiku 5.5, circa 2 $ al mese).
 
 ## Fase 4 — career-ops sul terminale
+**Avviata il 16/10.** Node installato con Homebrew, `npm install` (con Chromium per i PDF) fatto. File
+utente compilati (tutti ignorati da git): `cv.md` dal .tex ufficiale, `config/profile.yml`,
+`modes/_profile.md` (archetipi ML, framing, regole delle lettere ricavate dalle lettere già scritte e
+dai feedback, che prevalgono sul formato a elenchi di `modes/cover.md`), `modes/_custom.md` (il
+tracker resta il Radar: niente `data/applications.md`; mai inviare nulla), `modes/_brief.md`,
+`article-digest.md` (fatti oltre il CV, ognuno con la fonte). `portals.yml` è il modello: la ricerca
+la fa lo scanner di job-radar. Primo uso: valutazione, lettera e risposte del modulo per una
+candidatura. Manca un compilatore LaTeX locale per i CV su misura (`tectonic` da Homebrew, se serve).
 - Clonare in `career-ops/`, `npm install`, poi `cv.md` dal CV vero e profilo da `private/NOTES.md`.
 - Archetipi riscritti per i ruoli sopra al posto di LLMOps, PM e FDE.
 - `portals.yml` con le aziende di `sources.json` e i provider europei.
