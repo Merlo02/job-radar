@@ -121,6 +121,15 @@ categoria del link ("Postdoc", "Fellow", "Technician"); ora legge `?cur=1…10` 
 dall'URL (`title_slug`). joinup.ch e Landing.jobs rispondono 403 solo da GitHub Actions dal 13/10
 (`ci_blocked`: riprovati ogni notte, in `status.json` sotto `blocked` e non più tra le fonti fallite);
 CENTAI dà 522 anche da fuori (sito giù).
+Rilevanza e ruoli junior (17/10, chiesto da Gabriele dopo i primi rifiuti): accanto al fit ogni annuncio ha una
+«rilevanza» da 1 a 5 calcolata da `radar.py` (`rilevanza()`), senza token in più per la routine: azienda 45% (il
+prestigio della routine, con la rubrica riscritta: big tech, laboratori di frontiera e scale-up deep tech famose a 5;
+`PREST5` lo forza per i nomi noti), ricerca 35% (dal tipo: ricerca e training 5, edge 4, data science e AI-SWE 2,
+altro 1), stipendio 20% (dal paese, +1 per le aziende a 5). `is_junior()` riconosce ruoli junior, graduate, entry
+level e new grad da titolo, requisiti e motivo (anche in italiano: «aperta a neolaureati»). Il `prio` ora somma fit,
+rilevanza e una spinta forte ai junior. Nella pagina: scheda «Junior e graduate» (la prima), etichette rilevanza e
+junior, ordine «consigliato» (prio) e «per rilevanza». Ricalcolati i 613 annunci aperti del 17/10 (211 senza
+prestigio e tipo, giudicati a mano).
 Ruoli senior dal testo (16/10): il filtro sui titoli lasciava passare annunci come «AI Engineer» di Roche,
 che nel testo dice «The AI Engineer Level 6 is a senior hands-on technical contributor», e la routine lo
 aveva messo nel Radar con fit medio. Ora lo scanner cerca nella descrizione le frasi che dicono che il
