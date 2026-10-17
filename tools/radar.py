@@ -472,13 +472,62 @@ def cmd_desc():
             print(f"{a}. {c.get('co')} · {c.get('title')} · {c.get('url')}\n{descs.get(c['key']) or '(nessuna descrizione: apri il link)'}\n")
 
 
-def prio(fit, prest, area):
-    geo = {"zurigo": 0, "svizzera": 1, "italia": 2, "remoto": 2.5}.get(area, 3)
-    if fit >= 4:
-        return round(1 + (5 - fit) * 2.5 + (5 - prest) * 1.2 + geo * 0.4, 2)
-    if fit == 3:
-        return round(11 + (5 - prest) * 8 + geo * 2, 2)
-    return round(52 + (5 - prest) * 7 + geo * 2, 2)
+# "Rilevanza" (Gabriele, 17/10), next to the fit with his CV, each part 1-5: how good and well known the company is
+# (prestigio, 45%), how close the role is to the frontier AI research he wants (35%), the pay (20%). Very junior roles
+# and graduate programmes get a strong push in the order. All from the routine's judgement: no extra tokens.
+PREST5 = re.compile(r"\b(?:google|alphabet|deepmind|apple|meta|facebook|amazon|aws|microsoft|nvidia|tesla|netflix|"
+                    r"spotify|pinterest|uber|airbnb|linkedin|snap|adobe|bloomberg|jane street|citadel|hudson river|"
+                    r"bytedance|tiktok|openai|anthropic|mistral(?: ai)?|cohere|hugging ?face|elevenlabs|"
+                    r"perplexity|black forest labs|stability ai|isomorphic|wayve|helsing|synthesia|deepl|"
+                    r"aleph alpha|poolside|xai)\b", re.I)
+JUNIOR_TITLE = re.compile(r"\bjunior\b|\bjr\b\.?|\bgraduate|\buniversity grad|new[- ]?grad|entry[- ]level|"
+                          r"early[- ]career|\btrainee\b|neo-?laureat|"
+                          r"\b(?:engineer|scientist|developer|analyst)\s+(?:i|1)\b|"
+                          r"\bassociate (?:ml|machine learning|ai|data|research|software|applied)", re.I)
+JUNIOR_TEXT = re.compile(r"graduate (?:programme|program|scheme|talent|track)|new[- ]grads?\b|recent(?:ly)? graduat|"
+                         r"entry[- ]level|early[- ]career|no (?:prior |professional )?(?:work )?experience (?:is )?"
+                         r"(?:required|needed)|\b0\s*[-–]\s*[12]\s*years|junior (?:role|position|level|profile|"
+                         r"candidates?)|starting (?:your|their) career|first job|(?:ruolo|profilo|posizione|livello|figura) junior|"
+                         r"(?:apert[oaie]|adatt[oa]|pensat[oa]|rivolt[oa]|cerca(?:no)?) (?:anche )?(?:a |ai |agli |a un |ad un |un )?"
+                         r"neo-?laureat|appena laureat|programma (?:graduate|per (?:neo-?)?laureati)|nessuna esperienza "
+                         r"(?:richiesta|necessaria)", re.I)
+RICERCA = {"ricerca": 5, "training": 5, "edge": 4, "data science": 2, "ai-swe": 2, "altro": 1}
+FRONTIER = re.compile(r"pre-?train|post-?train|foundation model|self-supervised|\bllms?\b|large language|multimodal|"
+                      r"reinforcement learning|research (?:engineer|scientist)", re.I)
+PAY = [(4, re.compile(r"london|cambridge|oxford|united kingdom|\buk\b|england|scotland|munich|münchen|berlin|"
+                      r"hamburg|frankfurt|stuttgart|germany|deutschland|amsterdam|eindhoven|netherlands|copenhagen|"
+                      r"denmark|stockholm|sweden|oslo|norway|dublin|ireland|luxembourg", re.I)),
+       (3, re.compile(r"paris|france|vienna|wien|austria|brussels|belgium|leuven|helsinki|finland", re.I)),
+       (2, re.compile(r"spain|madrid|barcelona|portugal|lisbon|braga|porto|poland|warsaw|krak|gda|czech|prague|"
+                      r"romania|bucharest|cluj|greece|athens|hungary|budapest|bulgaria|croatia|serbia", re.I))]
+
+
+def is_junior(kind, title, *texts):
+    """An explicitly junior role or a graduate programme (internships are a kind of their own)."""
+    return kind == "job" and bool(JUNIOR_TITLE.search(title or "") or JUNIOR_TEXT.search(" ".join(t or "" for t in texts)))
+
+
+def rilevanza(co, prest, tipo, title, area, loc):
+    """(rilevanza 1-5 with one decimal, its three parts)."""
+    az = 5 if PREST5.search(co or "") else max(1, min(5, int(prest or 1)))
+    ri = RICERCA.get((tipo or "").lower(), 2)
+    if (tipo or "").lower() != "ai-swe" and FRONTIER.search(title or ""):
+        ri = max(ri, 4)
+    if area in ("zurigo", "svizzera"):
+        st = 5
+    elif area == "italia":
+        st = 2
+    else:
+        st = next((v for v, rx in PAY if rx.search(loc or "")), 3)
+    if az >= 5:
+        st = min(5, st + 1)   # big tech and frontier labs pay above the local market
+    return round(0.45 * az + 0.35 * ri + 0.20 * st, 1), {"azienda": az, "ricerca": ri, "stipendio": st}
+
+
+def prio(fit, rel, junior, area):
+    """Order of the page (lower first): fit, rilevanza, a strong push to junior roles, then the place."""
+    geo = {"zurigo": 0, "svizzera": 0.5, "italia": 1, "remoto": 1.5}.get(area, 2)
+    return round(20 - fit * 1.2 - rel - (2 if junior else 0) + geo * 0.3, 2)
 
 
 def run_line(c, j):
@@ -529,8 +578,12 @@ def cmd_docs():
         kind = x.get("kind") or ("internship" if re.search(r"intern|stage|stagiai|praktik|tirocin|werkstudent|working student",
                                                           title, re.I) else
                                  "academic" if ACADEMIC.search(c.get("co") or "") else "job")
+        rel, parts = rilevanza(c.get("co"), j["prest"], j["tipo"], title, area,
+                               " ".join(filter(None, [x.get("loc"), city, c.get("loc")])))
+        junior = is_junior(kind, title, c.get("level"), c.get("card"), c.get("req"), x.get("req"), x.get("why"))
         doc = {
-            "prio": prio(j["fit"], j["prest"], area), "co": c.get("co"), "title": title, "loc": x.get("loc") or city,
+            "prio": prio(j["fit"], rel, junior, area), "rel": rel, "relParts": parts, "junior": junior,
+            "co": c.get("co"), "title": title, "loc": x.get("loc") or city,
             "remote": remote, "kind": kind, "fit": "alto" if j["fit"] >= 4 else "medio" if j["fit"] == 3 else "basso",
             "area": area, "url": c.get("url"), "pub": pub, "posted": pub,
             "pubNote": ("Data in cui lo scanner l'ha visto per la prima volta" if not c.get("posted") else
@@ -539,7 +592,7 @@ def cmd_docs():
             "recent": pub >= "2026-01-01", "deadline": x.get("deadline") or c.get("deadline"),
             "req": x.get("req") or None, "salary": x.get("salary") or c.get("salary"), "flag": x.get("flag") or ("Agenzia" if c.get("agency") else None),
             "why": x.get("why") or j["motivo"], "source": BOARD_NAME.get(via, "sito aziendale"),
-            "big": bool(c.get("big")) or j["prest"] >= 4, "added": TODAY, "checked": TODAY, "closed": False,
+            "big": bool(c.get("big")) or parts["azienda"] >= 4, "added": TODAY, "checked": TODAY, "closed": False,
             # phase 3 fields (the page ignores them): Claude's judgement and the scanner key
             "tipo": j["tipo"], "fitScore": j["fit"], "prestigio": j["prest"], "anni": j["anni"], "scanKey": c["key"]}
         if c.get("apply_url") and norm_url(c["apply_url"]) != norm_url(c.get("url")):
@@ -591,9 +644,7 @@ def cmd_docs():
             print(f"  {did} · {why}")
     # final message
     st = load("status.json", {})
-    good = sorted((x for x in added if x[0]["fit"] != "basso"),
-                  key=lambda x: (x[0]["fit"] != "alto", {"zurigo": 0, "svizzera": 1, "italia": 2}.get(x[0]["area"], 3),
-                                 x[0]["prio"]))
+    good = sorted((x for x in added if x[0]["fit"] != "basso"), key=lambda x: x[0]["prio"])
     low = sum(1 for x in added if x[0]["fit"] == "basso")
     soon = sorted((d["deadline"], d.get("co"), d.get("title")) for d in jobs.values()
                   if not d.get("closed") and d.get("deadline") and TODAY <= d["deadline"] <=
@@ -601,7 +652,8 @@ def cmd_docs():
     print("\nMESSAGGIO FINALE (bozza):")
     print(f"Nuovi da ieri: {len(added)} (giudicate {len(lines)} schede dello scanner)")
     for d, j in good[:MSG_LINES]:
-        print(f"- {d['co']} · {d['title']} · {d['loc']} · fit {d['fit']}")
+        print(f"- {d['co']} · {d['title']} · {d['loc']} · fit {d['fit']} · rilevanza {d['rel']}"
+              f"{' · junior' if d['junior'] else ''}")
     if len(good) > MSG_LINES:
         print(f"- e altri {len(good) - MSG_LINES} con fit alto o medio: sono nel Radar")
     if low:

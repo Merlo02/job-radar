@@ -39,10 +39,15 @@ user-facing is in Italian.
      fine); sales, pre-sales or forward-deployed roles for experienced hires; academic PhD
      positions (they go to the PhD map).
    - Data science and consulting AI units: fit 3 at most.
-   - prestigio 1–5: 5 top AI labs and big-tech research (DeepMind, Anthropic, OpenAI, Meta FAIR,
-     Apple MLR, Mistral…) and top institutes (ETH, EPFL, Max Planck, CERN); 4 large well-known
-     companies and strong AI labs or startups; 3 solid companies; 2 small or little-known firms;
-     1 agencies and unknown employers.
+   - prestigio 1–5, how good and well known the company is (a name that makes a CV stand out):
+     5 big tech (Google, Apple, Meta, Amazon, Microsoft, NVIDIA…, any team), frontier AI labs
+     (DeepMind, OpenAI, Anthropic, Mistral, Cohere…), deep-tech scale-ups and startups everyone in AI
+     knows (Hugging Face, ElevenLabs, Helsing, Isomorphic, Wayve…) and top institutes (ETH, EPFL, Max
+     Planck, CERN); 4 large well-known tech or industrial companies and strong AI startups that build
+     their own models (e.g. Domyn); 3 solid companies; 2 small or little-known firms; 1 agencies and
+     unknown employers. The script turns prestigio, tipo and place into a "rilevanza" (company 45%,
+     closeness to frontier AI research 35%, pay 20%) and pushes junior roles and graduate programmes
+     up the page: judge prestigio and tipo with care.
    - anni: the years of experience asked (a number, or -). motivo: at most 12 Italian words.
 
    Do not skip cards: a card without a line comes back tomorrow. Judge from the card; most cards
