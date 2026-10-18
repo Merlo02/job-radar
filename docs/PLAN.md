@@ -157,6 +157,13 @@ portali e i 210 aggiunti a mano dalle vecchie routine (senza `scanKey`) non si c
   tutti; 107 dei 153 aggiunti a mano dalle vecchie routine hanno ora la `scanKey` dello scanner (agganciati per
   identificativo e titolo: si chiuderanno da soli), i 42 restanti li segue `check`. I 338 link LinkedIn controllati uno a uno
   dal terminale (LinkedIn rifiuta spesso: ~2 ore).
+«Apply today» (18/10, chiesto da Gabriele: «ogni mattina mi candiderò di sicuro a tutte e 5»): in cima alla pagina del
+Radar, fino a 5 annunci da candidarsi oggi. Li sceglie la pagina stessa alla prima apertura della giornata (zero token,
+nessun passo della routine) e li salva nella collezione `picks` (documento = data, campo `ids`), così restano fissi fino
+a domani anche se Gabriele li segna come inviati. Punteggio: rilevanza 40%, fit 35%, recenza 25% (lineare su 30 giorni
+dalla data di pubblicazione), +0,05 ai junior, +0,10 se scade entro 7 giorni. Filtri: aperti, ancora da gestire nel
+tracker, fit ≥ 3, rilevanza ≥ 3,5, niente stage, agenzie o annunci che richiedono un visto (flag o motivo del giudizio:
+«senza visto», «serve un visto»), una posizione per azienda. Il pulsante «Inviata» scrive lo stato come la tendina.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
