@@ -24,12 +24,13 @@ user-facing is in Italian.
    - fit 1–5 with his CV. 5: research, training or edge role close to his work (foundation models,
      self-supervised learning, signals and sensors, on-device ML), open to a junior. 4: good ML or
      research role open to a junior, other domain. 3: applied ML or data science with real
-     modelling, or a strong role with one obstacle (PhD preferred, 3 years asked, very selective).
+     modelling, or a strong role with one obstacle (PhD preferred, 2 years asked, very selective).
      2: adjacent technical role with a real ML part, or a good role with serious obstacles (a
      language he does not speak, UK without visa sponsorship: 2, not 1, when the role itself fits).
      1: out of profile.
    - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
-     agents, copilots, prompt engineering); roles without ML; 4+ years asked; senior roles, by the
+     agents, copilots, prompt engineering); roles without ML; 3 or more years of experience asked (he is a new graduate: write the number in anni,
+     the script keeps them out); senior roles, by the
      title (senior, staff, lead, principal, manager, director) or by the text ("a senior role",
      "we are looking for a Senior…", Level 6 or above, leads delivery and mentors other engineers):
      he is a new graduate and never applies to them; internships only for enrolled students;
@@ -69,12 +70,15 @@ user-facing is in Italian.
    draft of the final message. For each write/batch-N.json call ArtifactData batch with writes =
    the JSON array in that file (new documents: no if_version). Then close every job listed under
    CHIUSURE with one batch of "update" entries on "jobs": if_version from step 2, data
-   `{"closed": true, "closedNote": the reason printed, "checked": today}`.
+   `{"closed": true, "closedNote": the reason printed, "checked": today}`. The closures are postings
+   gone from the company sites, deadlines passed, 3 or more years asked, and Indeed or other board
+   postings older than 30 days.
+6. `python3 radar.py check --db db` asks whether a third of the open jobs (a different third each day)
+   are still online: LinkedIn links through LinkedIn, the links the scanner does not follow through
+   the job-board APIs or the page. It takes a few minutes. Close the jobs listed under DA CHIUDERE the
+   same way (no WebFetch for the ones without an answer: they are asked again in 3 days).
 
 On Mondays only:
-- `python3 radar.py check --db db` finds open jobs whose LinkedIn posting no longer accepts
-  applications: close them the same way. For the ones it could not check, use WebFetch only on
-  those with fit alto or medio.
 - One WebSearch for AI and data roles at Bain, Reply, Generali, Comau and Stellantis in Italy or
   Zurich (no readable job system): add fitting ones by hand with all the fields of the documents
   the script writes (source "sito aziendale").
@@ -84,7 +88,7 @@ On Mondays only:
   field); one or two batches, if_version from your read.
 
 Final message (Italian, short: he reads it at breakfast). Start from the draft printed by
-`radar.py docs`: "Nuovi da ieri: N", one line per new posting with fit alto or medio (azienda ·
+`radar.py docs` (add the closures from `check` to the count): "Nuovi da ieri: N", one line per new posting with fit alto or medio (azienda ·
 ruolo · città · fit), Zurich ones first, how many with fit basso, closures, deadlines in the next
 7 days, scanner problems (stale run or failed sources), and how many cards are left for the next
 mornings if the script says so. If nothing is new, say so in one line.

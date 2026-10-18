@@ -139,6 +139,19 @@ parola chiave `-senior`. `radar.py cards` le giudica da solo con fit 1, anche da
 rubrica dice di dare fit 1 ai ruoli senior anche quando lo dice solo il testo. Prova su candidates.json:
 107 annunci su 11.563, quasi tutti senior davvero. Nel Radar chiusi con una nota 4 annunci già
 dentro (Roche AI Engineer, LiveEO, BAE Systems, Samba).
+Pulizia del Radar (18/10, chiesto da Gabriele: molti annunci vecchi non accettavano più candidature, e alcuni,
+come Snap «Software Engineer, CV» a Vienna, chiedevano requisiti fuori portata). Prima le chiusure arrivavano solo dai
+siti delle aziende (`new_cards.json` → `closed`) e, il lunedì, dai link LinkedIn: gli annunci di Indeed e degli altri
+portali e i 210 aggiunti a mano dalle vecchie routine (senza `scanKey`) non si chiudevano mai. Ora:
+- `radar.py docs` chiude anche gli annunci che chiedono 3 o più anni (`MAX_YEARS`, dal campo `anni` del giudizio) e
+  quelli di Indeed e degli altri portali più vecchi di 30 giorni (`BOARD_DAYS`): quei portali non si rileggono e i loro
+  annunci scadono in poche settimane. `kept()` non fa più entrare i ruoli con 3 o più anni.
+- `radar.py check` gira ogni giorno su un terzo degli annunci aperti, a turno (`CHECK_TURNS`): LinkedIn dalla pagina
+  pubblica dell'annuncio, gli altri link che lo scanner non segue dalle API di Greenhouse, Lever, Ashby e
+  SmartRecruiters o dalla pagina (404, 410, frasi di chiusura). Quelli dei siti aziendali si chiudono già in `docs`.
+- `prio` mette il fit prima di tutto: ogni fit è una fascia (10 punti), dentro la fascia contano rilevanza, junior
+  (2 punti) e luogo. Prima un fit basso di una big tech (rilevanza 4,8) finiva alla pari di un fit medio.
+- Rubrica: 3 anni chiesti → fit 1 (prima era fit 3 «con un ostacolo»), 2 anni restano un ostacolo.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

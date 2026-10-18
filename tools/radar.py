@@ -13,7 +13,8 @@ Radar, every morning:
     python3 radar.py desc 12 40            # full description of some cards, only when the card is unclear
     (Claude writes schede.jsonl for the cards with fit >= 3: {"n", "why", "req", optional overrides})
     python3 radar.py docs --db db          # documents to write, batch entries, closures, final message
-    python3 radar.py check --db db         # Mondays: open LinkedIn postings that are no longer online
+    python3 radar.py check --db db         # every day, a third of the open postings in turn: LinkedIn links and
+                                           # links the scanner does not follow, checked for being still online
 
 Mappa PhD, Monday and Thursday:
     python3 radar.py phd --db db           # PhD positions not judged yet and not on the map, positions to close
@@ -40,6 +41,9 @@ RAW = "https://raw.githubusercontent.com/Merlo02/job-radar/main/out/"
 MSG_LINES = 30       # postings listed one by one in the final message (the rest are counted)
 PAGE_CHARS = 24000   # longer lists go to page files: one tool output shows about 30,000 characters
 CARD_PAGES = 20      # pages of cards in one morning (~450,000 characters, what one run can read): the rest waits
+MAX_YEARS = 3        # a new graduate: postings asking this many years of experience or more stay out (Gabriele, 18/10)
+BOARD_DAYS = 30      # Indeed and the other boards (not LinkedIn, which `check` asks): older postings count as expired
+CHECK_TURNS = 3      # `check` asks a third of the open postings each day, so each one is checked every 3 days
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
 BOARD_NAME = {"linkedin": "LinkedIn", "indeed": "Indeed", "wttj": "Welcome to the Jungle", "thehub": "The Hub",
@@ -442,8 +446,10 @@ def read_judgments():
 
 
 def kept(j, c=None):
-    """Judgements that go into the Radar: agencies only for a strong role (fit 4-5)."""
-    return j["fit"] >= 2 and j["tipo"] != "ai-swe" and not ((c or {}).get("agency") and j["fit"] < 4)
+    """Judgements that go into the Radar: not AI-SWE, not MAX_YEARS or more years of experience asked,
+    agencies only for a strong role (fit 4-5)."""
+    return (j["fit"] >= 2 and j["tipo"] != "ai-swe" and (j.get("anni") or 0) < MAX_YEARS
+            and not ((c or {}).get("agency") and j["fit"] < 4))
 
 
 def cmd_more():
@@ -525,9 +531,11 @@ def rilevanza(co, prest, tipo, title, area, loc):
 
 
 def prio(fit, rel, junior, area):
-    """Order of the page (lower first): fit, rilevanza, a strong push to junior roles, then the place."""
+    """Order of the page (lower first): the fit first, then, within the same fit, the rilevanza, a strong
+    push to junior roles (2 points of rilevanza) and the place. Each fit is a band of its own, so a fit
+    basso at a famous company never comes before a fit medio (Gabriele, 18/10)."""
     geo = {"zurigo": 0, "svizzera": 0.5, "italia": 1, "remoto": 1.5}.get(area, 2)
-    return round(20 - fit * 1.2 - rel - (2 if junior else 0) + geo * 0.3, 2)
+    return round((5 - fit) * 10 + (5 - rel) - (2 if junior else 0) + geo * 0.3, 2)
 
 
 def run_line(c, j):
@@ -607,17 +615,11 @@ def cmd_docs():
         writes.append({"op": "set", "collection": "jobs", "doc_id": did, "file_path": os.path.abspath(f"write/{did}.json")})
         added.append((doc, j))
     lines += [run_line(a, a) for a in state.get("auto", [])]
-    # closures: postings gone from the company sites, deadlines passed
+    # closures: postings gone from the company sites, deadlines passed, too many years asked, old board postings
     nc = load("new_cards.json", {})
     gone = {c["key"] for c in nc.get("closed", [])} | {norm_url(c.get("url")) for c in nc.get("closed", [])}
-    close = []
-    for did, d in sorted(jobs.items()):
-        if d.get("closed"):
-            continue
-        if d.get("scanKey") in gone or norm_url(d.get("url")) in gone:
-            close.append((did, "L'annuncio non è più online."))
-        elif d.get("deadline") and d["deadline"] < TODAY:
-            close.append((did, "La scadenza è passata."))
+    close = [(did, why) for did, d in sorted(jobs.items()) if not d.get("closed")
+             for why in [closing_reason(d, gone)] if why]
     run = {"scan": state.get("scan"), "date": TODAY, "judged": len(lines), "added": len(added),
            "lines": "\n".join(lines),   # key|co|title|tipo|fit|prestigio|anni|motivo, read back by judged_keys
            "keys": dup_keys}             # the same postings seen again under other keys (other cities, other boards)
@@ -670,46 +672,121 @@ def cmd_docs():
         print(f"Restano {state['left']} schede da giudicare nei prossimi giri.")
 
 
-def cmd_check():
-    """Open jobs with a LinkedIn link: the public job page says when a posting stopped taking
-    applications (job-board postings never reach the scanner's closures)."""
-    import time
+def closing_reason(d, gone):
+    """Why an open job should close now, or None. The scanner's closures (company sites), deadlines,
+    MAX_YEARS or more years asked (by the judgement stored in the document), and postings from Indeed
+    and the other boards older than BOARD_DAYS: those boards are never re-read, and their postings
+    expire within weeks. LinkedIn postings are asked one by one by `check`."""
+    if d.get("scanKey") in gone or norm_url(d.get("url")) in gone:
+        return "L'annuncio non è più online."
+    if d.get("deadline") and d["deadline"] < TODAY:
+        return "La scadenza è passata."
+    if isinstance(d.get("anni"), int) and d["anni"] >= MAX_YEARS:
+        return f"Chiede {d['anni']} anni di esperienza: troppi per un neolaureato."
+    src = d.get("source") or ""
+    pub = d.get("pub") or d.get("added") or ""
+    if src in BOARD_NAME.values() and src != "LinkedIn" and pub and \
+            pub < (dt.date.fromisoformat(TODAY) - dt.timedelta(days=BOARD_DAYS)).isoformat():
+        return f"Annuncio di {src} di oltre {BOARD_DAYS} giorni: quasi certamente scaduto."
+    return None
+
+
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/128.0 Safari/537.36"}
+CLOSED_TEXT = re.compile(r"no longer accepting applications|no longer (?:available|open|active)|position has been filled|"
+                         r"job (?:posting )?(?:has )?(?:expired|closed)|this job is closed|"
+                         r"(?:posting|vacancy|position|job) (?:is|has been) closed|nicht mehr verf[uü]gbar|"
+                         r"n'est plus disponible|non (?:è|e') più disponibile", re.I)
+
+
+def fetch_status(url, timeout=30):
+    """(HTTP status, text) of a page; status 0 when the site does not answer."""
     import urllib.error
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+            return r.status, r.read(400_000).decode("utf-8", "ignore")
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except (OSError, ValueError):
+        return 0, ""
+
+
+def still_online(url):
+    """True, False, or None when it cannot tell. Public job-board APIs where there is one (they answer
+    404 for a closed posting), otherwise the page itself: 404 or 410, or a sentence saying it closed."""
+    u = url or ""
+    m = re.search(r"greenhouse\.io/(?:embed/job_app\?for=)?([\w-]+)/jobs/(\d+)", u)
+    if m:
+        code, _ = fetch_status(f"https://boards-api.greenhouse.io/v1/boards/{m.group(1)}/jobs/{m.group(2)}")
+        return True if code == 200 else False if code == 404 else None
+    m = re.search(r"jobs\.lever\.co/([\w.-]+)/([0-9a-f-]{36})", u)
+    if m:
+        code, _ = fetch_status(f"https://api.lever.co/v0/postings/{m.group(1)}/{m.group(2)}")
+        return True if code == 200 else False if code == 404 else None
+    m = re.search(r"jobs\.smartrecruiters\.com/([\w-]+)/(\d+)", u)
+    if m:
+        code, _ = fetch_status(f"https://api.smartrecruiters.com/v1/companies/{m.group(1)}/postings/{m.group(2)}")
+        return True if code == 200 else False if code == 404 else None
+    m = re.search(r"jobs\.ashbyhq\.com/([^/?#]+)/([0-9a-f-]{36})", u)
+    if m:
+        code, text = fetch_status(f"https://api.ashbyhq.com/posting-api/job-board/{m.group(1)}")
+        if code == 200 and '"jobs"' in text:
+            return m.group(2) in text
+        return None
+    code, text = fetch_status(u)
+    if code in (404, 410):
+        return False
+    if code == 200:
+        return False if CLOSED_TEXT.search(text) else True
+    return None
+
+
+def cmd_check():
+    """Every day a third of the open jobs, in turn (CHECK_TURNS): the LinkedIn ones through LinkedIn's
+    public job page, which says when a posting stopped taking applications, and the ones whose link the
+    scanner does not follow (added by hand, or from boards) through the job-board APIs or the page.
+    Postings the scanner reads from company sites close by themselves in `docs`."""
+    import time
     jobs = docs(os.path.join(arg("--db", "db"), "jobs"))
-    todo = [(did, m.group(1)) for did, d in sorted(jobs.items()) if not d.get("closed")
-            for m in [re.search(r"linkedin\.com/jobs/view/(?:[^/?]*-)?(\d{6,})", d.get("url") or "")] if m]
-    gone, unknown, refused = [], [], 0
-    for did, jid in todo:
-        if refused >= 3:
-            unknown.append(did)
-            continue
-        req = urllib.request.Request(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{jid}",
-                                     headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                                              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"})
-        try:
-            with urllib.request.urlopen(req, timeout=30) as r:
-                html = r.read().decode("utf-8", "ignore")
-            if re.search(r"no longer accepting applications", html, re.I):
-                gone.append(did)
-        except urllib.error.HTTPError as e:
-            if e.code in (404, 410):
-                gone.append(did)
-            else:
-                if e.code == 429:
+    turn = dt.date.fromisoformat(TODAY).toordinal() % CHECK_TURNS
+    mine = lambda did: int(hashlib.md5(did.encode()).hexdigest(), 16) % CHECK_TURNS == turn
+    company = lambda d: d.get("scanKey") and d["scanKey"].split(":")[0] not in BOARD_NAME
+    todo = [(did, d) for did, d in sorted(jobs.items()) if not d.get("closed") and mine(did) and not company(d)]
+    gone, unknown, refused, n_li = [], [], 0, 0
+    for did, d in todo:
+        m = re.search(r"linkedin\.com/jobs/view/(?:[^/?]*-)?(\d{6,})", d.get("url") or "")
+        if m:
+            n_li += 1
+            if refused >= 3:
+                unknown.append(did)
+                continue
+            code, html = fetch_status(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}")
+            if code in (404, 410) or (code == 200 and re.search(r"no longer accepting applications", html, re.I)):
+                gone.append((did, "Su LinkedIn non accetta più candidature."))
+            elif code != 200:
+                unknown.append(did)
+                if code == 429:
                     refused += 1
                     time.sleep(30)   # LinkedIn slows down whoever asks too fast
-                unknown.append(did)
-        except OSError:
+            time.sleep(3)
+            continue
+        if d.get("source") in BOARD_NAME.values():
+            continue   # Indeed and the other boards: closed by age in `docs`
+        ok = still_online(d.get("url"))
+        if ok is False:
+            gone.append((did, "L'annuncio non è più online."))
+        elif ok is None:
             unknown.append(did)
-        time.sleep(4)
-    print(f"Annunci LinkedIn aperti controllati: {len(todo) - len(unknown)} su {len(todo)}")
+        time.sleep(1)
+    print(f"Controllati oggi {len(todo)} annunci aperti (un terzo, a turno; {n_li} su LinkedIn): "
+          f"{len(gone)} da chiudere, {len(unknown)} senza risposta.")
     if gone:
-        print(f"DA CHIUDERE ({len(gone)}), closedNote \"Su LinkedIn non accetta più candidature.\":")
-        for did in gone:
-            print(f"  {did}")
+        print(f"DA CHIUDERE ({len(gone)}): update con if_version dalla lista di 'jobs', "
+              f"data {{\"closed\": true, \"closedNote\": ..., \"checked\": \"{TODAY}\"}}:")
+        for did, why in gone:
+            print(f"  {did} · {why}")
     if unknown:
-        print(f"Non controllati (LinkedIn ha rifiutato o non risponde): {len(unknown)}; con WebFetch solo quelli con fit alto o medio:")
-        print("  " + ", ".join(unknown[:60]))
+        print(f"Senza risposta (si riprovano fra {CHECK_TURNS} giorni): " + ", ".join(unknown[:40]))
 
 
 # ------------------------------------------------------------------ PhD map
