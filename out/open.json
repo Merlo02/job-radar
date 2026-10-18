@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-17T17:35:21Z",
- "count": 720,
+ "generated": "2026-10-18T17:38:23Z",
+ "count": 727,
  "items": [
   {
    "key": "abb:AI-Transformation-Trainee-Program_JR00046734-1",
@@ -13,7 +13,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -41,7 +41,7 @@
    "loc_status": "eu",
    "posted": "2026-09-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -55,7 +55,7 @@
    "loc_status": "eu",
    "posted": "2026-07-27",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -69,7 +69,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -97,7 +97,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -181,7 +181,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -209,7 +209,7 @@
    "loc_status": "eu",
    "posted": "2026-06-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -237,7 +237,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -251,7 +251,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -321,7 +321,7 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -349,7 +349,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -377,7 +377,7 @@
    "loc_status": "eu",
    "posted": "2026-05-18",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -393,7 +393,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -409,7 +409,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -425,7 +425,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -441,7 +441,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -457,7 +457,7 @@
    "loc_status": "eu",
    "posted": "2026-05-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -473,7 +473,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -489,7 +489,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -505,7 +505,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -521,7 +521,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -537,7 +537,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
@@ -553,7 +553,7 @@
    "loc_status": "eu",
    "posted": "2026-05-18",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Administrative Support"
@@ -569,7 +569,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -585,7 +585,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -601,7 +601,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -632,7 +632,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -648,7 +648,7 @@
    "loc_status": "eu",
    "posted": "2026-07-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -664,7 +664,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -680,7 +680,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -696,7 +696,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -728,7 +728,7 @@
    "loc_status": "eu",
    "posted": "2026-07-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -744,7 +744,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -760,7 +760,7 @@
    "loc_status": "eu",
    "posted": "2026-05-08",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -776,7 +776,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -792,7 +792,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -808,7 +808,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -824,7 +824,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -839,7 +839,7 @@
    "loc_status": "eu",
    "posted": "2026-08-03",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -855,7 +855,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -871,7 +871,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -887,7 +887,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -903,7 +903,7 @@
    "loc_status": "eu",
    "posted": "2026-06-26",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Applied Science"
@@ -919,7 +919,7 @@
    "loc_status": "eu",
    "posted": "2026-06-17",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Data Science"
@@ -935,7 +935,7 @@
    "loc_status": "eu",
    "posted": "2026-09-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Data Science"
@@ -951,7 +951,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Data Science"
@@ -967,7 +967,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Leadership Development & Training"
@@ -1014,7 +1014,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "amazon",
    "dept": "Sales, Advertising, & Account Management"
   },
@@ -1029,7 +1029,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Software Development"
@@ -1045,7 +1045,7 @@
    "loc_status": "eu",
    "posted": "2026-08-20",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "amazon",
    "dept": "Software Development"
@@ -1109,7 +1109,7 @@
    "loc_status": "eu",
    "posted": "2026-04-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1123,7 +1123,7 @@
    "loc_status": "eu",
    "posted": "2026-04-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1137,7 +1137,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1151,7 +1151,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1165,7 +1165,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1179,7 +1179,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1193,7 +1193,7 @@
    "loc_status": "eu",
    "posted": "2026-08-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1207,7 +1207,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1221,7 +1221,7 @@
    "loc_status": "eu",
    "posted": "2026-09-07",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1235,7 +1235,7 @@
    "loc_status": "eu",
    "posted": "2026-04-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1249,7 +1249,7 @@
    "loc_status": "eu",
    "posted": "2026-02-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1263,7 +1263,7 @@
    "loc_status": "eu",
    "posted": "2026-02-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1277,7 +1277,7 @@
    "loc_status": "eu",
    "posted": "2025-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1291,7 +1291,7 @@
    "loc_status": "eu",
    "posted": "2026-02-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1305,7 +1305,7 @@
    "loc_status": "eu",
    "posted": "2026-06-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1319,7 +1319,7 @@
    "loc_status": "eu",
    "posted": "2025-03-31",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -1333,7 +1333,7 @@
    "loc_status": "eu",
    "posted": "2026-04-10",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Marketing",
@@ -1350,7 +1350,7 @@
    "loc_status": "eu",
    "posted": "2026-05-03",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware"
@@ -1366,7 +1366,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1383,7 +1383,7 @@
    "loc_status": "eu",
    "posted": "2025-09-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1400,7 +1400,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT5"
@@ -1416,7 +1416,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1433,7 +1433,7 @@
    "loc_status": "eu",
    "posted": "2026-08-26",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1450,7 +1450,7 @@
    "loc_status": "eu",
    "posted": "2026-08-27",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1467,7 +1467,7 @@
    "loc_status": "eu",
    "posted": "2026-06-12",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4"
@@ -1483,7 +1483,7 @@
    "loc_status": "eu",
    "posted": "2026-05-21",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1500,7 +1500,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1517,7 +1517,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1534,7 +1534,7 @@
    "loc_status": "eu",
    "posted": "2026-05-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1551,7 +1551,7 @@
    "loc_status": "eu",
    "posted": "2026-05-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1568,7 +1568,7 @@
    "loc_status": "eu",
    "posted": "2025-11-26",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1585,7 +1585,7 @@
    "loc_status": "eu",
    "posted": "2026-07-27",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1602,7 +1602,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Data Scientist ICT3"
@@ -1618,7 +1618,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1635,7 +1635,7 @@
    "loc_status": "eu",
    "posted": "2026-07-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1652,7 +1652,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1669,7 +1669,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1686,7 +1686,7 @@
    "loc_status": "eu",
    "posted": "2026-04-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1703,7 +1703,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1720,7 +1720,7 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1737,7 +1737,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT3"
@@ -1753,7 +1753,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware",
@@ -1770,7 +1770,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1787,7 +1787,7 @@
    "loc_status": "eu",
    "posted": "2026-04-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1804,7 +1804,7 @@
    "loc_status": "eu",
    "posted": "2026-07-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1821,7 +1821,7 @@
    "loc_status": "eu",
    "posted": "2026-07-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1838,7 +1838,7 @@
    "loc_status": "eu",
    "posted": "2026-05-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1855,7 +1855,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Hardware"
@@ -1871,7 +1871,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Design Verification ICT2 – Design Verification ICT3"
@@ -1887,7 +1887,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1904,7 +1904,7 @@
    "loc_status": "eu",
    "posted": "2026-07-17",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1921,7 +1921,7 @@
    "loc_status": "eu",
    "posted": "2025-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Machine Learning and AI",
@@ -1938,7 +1938,7 @@
    "loc_status": "eu",
    "posted": "2025-09-25",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "apple",
    "dept": "Software and Services",
@@ -1953,7 +1953,7 @@
    "loc": "Multiple locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -1965,7 +1965,7 @@
    "loc": "Multiple locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -1977,7 +1977,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -1990,7 +1990,7 @@
    "loc": "Cambridge, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2016,7 +2016,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2029,7 +2029,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T11:31:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -2041,7 +2041,7 @@
    "loc": "Trondheim, Norway",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2067,7 +2067,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2080,7 +2080,7 @@
    "loc": "Cambridge, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2093,7 +2093,7 @@
    "loc": "Cambridge, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2106,7 +2106,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2119,7 +2119,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2132,7 +2132,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2145,7 +2145,7 @@
    "loc": "Multiple locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -2157,7 +2157,7 @@
    "loc": "Manchester, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2170,7 +2170,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "radancy"
   },
@@ -2185,7 +2185,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -2199,7 +2199,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -2213,7 +2213,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -2227,7 +2227,7 @@
    "loc_status": "unknown",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -2241,7 +2241,7 @@
    "loc_status": "eu",
    "posted": "2026-08-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -2255,7 +2255,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2269,7 +2269,7 @@
    "loc_status": "eu",
    "posted": "2024-09-17",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2283,7 +2283,7 @@
    "loc_status": "eu",
    "posted": "2026-04-20",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2297,7 +2297,7 @@
    "loc_status": "eu",
    "posted": "2026-04-20",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2311,7 +2311,7 @@
    "loc_status": "eu",
    "posted": "2026-06-29",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2325,7 +2325,7 @@
    "loc_status": "eu",
    "posted": "2026-04-20",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2339,7 +2339,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -2353,7 +2353,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -2367,7 +2367,7 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -2381,7 +2381,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -2423,7 +2423,7 @@
    "loc_status": "eu",
    "posted": "2026-08-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "jibe"
   },
   {
@@ -2437,7 +2437,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2451,7 +2451,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2465,7 +2465,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2479,7 +2479,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2493,7 +2493,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2507,7 +2507,7 @@
    "loc_status": "eu",
    "posted": "2026-08-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2521,7 +2521,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2535,7 +2535,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2549,7 +2549,7 @@
    "loc_status": "eu",
    "posted": "2025-04-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2577,7 +2577,7 @@
    "loc_status": "eu",
    "posted": "2026-08-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2591,7 +2591,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2619,7 +2619,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2633,7 +2633,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2675,7 +2675,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2703,7 +2703,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2731,7 +2731,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2745,7 +2745,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-06T07:48:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2773,7 +2773,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2787,7 +2787,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2801,7 +2801,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2815,7 +2815,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -2829,7 +2829,7 @@
    "loc_status": "eu",
    "posted": "2026-05-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2843,7 +2843,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2857,7 +2857,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:35:52Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2871,7 +2871,7 @@
    "loc_status": "eu",
    "posted": "2026-08-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2885,7 +2885,7 @@
    "loc_status": "eu",
    "posted": "2025-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2899,7 +2899,7 @@
    "loc_status": "eu",
    "posted": "2026-08-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2913,7 +2913,7 @@
    "loc_status": "eu",
    "posted": "2025-12-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2927,7 +2927,7 @@
    "loc_status": "eu",
    "posted": "2025-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2941,7 +2941,7 @@
    "loc_status": "eu",
    "posted": "2024-11-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2955,7 +2955,7 @@
    "loc_status": "eu",
    "posted": "2026-08-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2969,7 +2969,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2983,7 +2983,7 @@
    "loc_status": "eu",
    "posted": "2025-06-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -2997,7 +2997,7 @@
    "loc_status": "eu",
    "posted": "2025-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3011,7 +3011,7 @@
    "loc_status": "eu",
    "posted": "2025-02-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3025,7 +3025,7 @@
    "loc_status": "eu",
    "posted": "2025-02-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3038,7 +3038,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "smartrecruiters"
   },
@@ -3052,7 +3052,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T21:45:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3065,7 +3065,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "smartrecruiters"
   },
@@ -3197,7 +3197,7 @@
    "loc_status": "eu",
    "posted": "2025-08-27",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -3211,7 +3211,7 @@
    "loc_status": "eu",
    "posted": "2025-04-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -3225,7 +3225,7 @@
    "loc_status": "eu",
    "posted": "2025-11-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3239,7 +3239,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3253,7 +3253,7 @@
    "loc_status": "eu",
    "posted": "2024-01-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -3267,7 +3267,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -3281,7 +3281,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -3309,7 +3309,7 @@
    "loc_status": "eu",
    "posted": "2026-09-27",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3337,7 +3337,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3351,7 +3351,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3364,7 +3364,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -3377,7 +3377,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -3390,7 +3390,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -3403,7 +3403,7 @@
    "loc": "Darmstadt, Germany",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -3417,7 +3417,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T07:48:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3431,7 +3431,7 @@
    "loc_status": "eu",
    "posted": "2026-10-11",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3445,7 +3445,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3459,7 +3459,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3571,7 +3571,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:35:52Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -3599,7 +3599,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3613,7 +3613,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3627,7 +3627,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3641,21 +3641,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "sf_rss"
-  },
-  {
-   "key": "esa:1437920333",
-   "co": "European Space Agency",
-   "target": "esa",
-   "big": true,
-   "title": "Internal Research Fellow in Safety Assurance of AI-Enabled Autonomous Systems for Human Spaceflight",
-   "url": "https://jobs.esa.int/job/Noordwijk-Internal-Research-Fellow-in-Safety-Assurance-of-AI-Enabled-Autonomous-Systems-for-Human-Spaceflight/1437920333/",
-   "loc": "Noordwijk, NL",
-   "loc_status": "eu",
-   "posted": "2026-09-17",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3669,7 +3655,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3683,7 +3669,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3697,7 +3683,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -3711,7 +3697,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3725,7 +3711,7 @@
    "loc_status": "eu",
    "posted": "2026-02-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3739,7 +3725,7 @@
    "loc_status": "eu",
    "posted": "2026-06-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3753,7 +3739,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3767,7 +3753,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3781,7 +3767,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3795,7 +3781,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3809,7 +3795,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -3822,7 +3808,7 @@
    "loc_status": "eu",
    "posted": "2026-04-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workable"
   },
   {
@@ -3835,7 +3821,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workable"
   },
   {
@@ -3848,7 +3834,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workable"
   },
   {
@@ -3862,7 +3848,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -3876,7 +3862,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -3904,7 +3890,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -3918,7 +3904,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -3932,7 +3918,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -3946,7 +3932,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -3960,7 +3946,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -3974,7 +3960,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -3988,7 +3974,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4002,7 +3988,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4016,7 +4002,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4030,7 +4016,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4044,7 +4030,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4058,7 +4044,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4072,7 +4058,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4086,7 +4072,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4100,7 +4086,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4114,7 +4100,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4128,7 +4114,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4142,7 +4128,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4156,7 +4142,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4170,7 +4156,7 @@
    "loc_status": "eu",
    "posted": "2026-06-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4184,7 +4170,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4198,7 +4184,7 @@
    "loc_status": "eu",
    "posted": "2026-08-07",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4212,7 +4198,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4226,7 +4212,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4240,7 +4226,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4254,7 +4240,7 @@
    "loc_status": "eu",
    "posted": "2025-03-26",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4268,7 +4254,7 @@
    "loc_status": "eu",
    "posted": "2025-06-05",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4282,7 +4268,7 @@
    "loc_status": "eu",
    "posted": "2025-06-26",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4296,7 +4282,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4310,7 +4296,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4324,7 +4310,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4338,7 +4324,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4352,7 +4338,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4366,7 +4352,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4380,7 +4366,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4394,7 +4380,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4408,7 +4394,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4422,7 +4408,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4436,7 +4422,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4450,7 +4436,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4464,7 +4450,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4478,7 +4464,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "google"
   },
   {
@@ -4492,7 +4478,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4506,7 +4492,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4520,7 +4506,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4534,7 +4520,7 @@
    "loc_status": "eu",
    "posted": "2026-04-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -4548,7 +4534,7 @@
    "loc_status": "eu",
    "posted": "2025-11-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -4562,7 +4548,7 @@
    "loc_status": "eu",
    "posted": "2026-04-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -4576,7 +4562,7 @@
    "loc_status": "eu",
    "posted": "2026-04-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -4590,7 +4576,7 @@
    "loc_status": "eu",
    "posted": "2024-05-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4604,7 +4590,7 @@
    "loc_status": "eu",
    "posted": "2026-08-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4618,7 +4604,7 @@
    "loc_status": "eu",
    "posted": "2024-07-31",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4632,7 +4618,7 @@
    "loc_status": "eu",
    "posted": "2025-09-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4646,7 +4632,7 @@
    "loc_status": "eu",
    "posted": "2024-10-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4660,7 +4646,7 @@
    "loc_status": "eu",
    "posted": "2025-01-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4674,7 +4660,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4688,7 +4674,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4702,7 +4688,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4716,7 +4702,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4730,7 +4716,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -4744,7 +4730,7 @@
    "loc_status": "eu",
    "posted": "2026-06-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4758,7 +4744,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4772,7 +4758,7 @@
    "loc_status": "eu",
    "posted": "2026-06-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4785,7 +4771,7 @@
    "loc_status": "eu",
    "posted": "2026-04-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4798,7 +4784,7 @@
    "loc_status": "eu",
    "posted": "2026-06-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4812,7 +4798,7 @@
    "loc_status": "eu",
    "posted": "2026-01-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4826,7 +4812,7 @@
    "loc_status": "eu",
    "posted": "2026-07-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4840,7 +4826,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "teamtailor"
   },
   {
@@ -4854,7 +4840,7 @@
    "loc_status": "eu",
    "posted": "2026-05-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workable"
   },
   {
@@ -4868,7 +4854,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ibm",
    "dept": "Data & Analytics"
@@ -4884,7 +4870,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ibm",
    "dept": "Data & Analytics"
@@ -4900,7 +4886,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ibm",
    "dept": "Data & Analytics"
@@ -4916,7 +4902,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ibm",
    "dept": "Infrastructure & Technology"
@@ -4932,7 +4918,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ibm",
    "dept": "Data & Analytics"
@@ -4947,7 +4933,7 @@
    "loc": "Rüschlikon, Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -4960,7 +4946,33 @@
    "loc": "Rüschlikon, Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "links"
+  },
+  {
+   "key": "iit:814829",
+   "co": "IIT – Istituto Italiano di Tecnologia",
+   "target": "iit",
+   "big": true,
+   "title": "Research fellow in 3d microphysiological systems and cellular response analysis",
+   "url": "https://app.ncoreplat.com/jobposition/814829/research-fellow-in-3d-microphysiological-systems-and-cellular-response-analysis-it/istituto-italiano-di-tecnologia",
+   "loc": "Italy",
+   "loc_status": "eu",
+   "first_seen": "2026-10-14T08:29:49Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "links"
+  },
+  {
+   "key": "iit:814827",
+   "co": "IIT – Istituto Italiano di Tecnologia",
+   "target": "iit",
+   "big": true,
+   "title": "Research fellow in peripheral innervation and barrier tissue models",
+   "url": "https://app.ncoreplat.com/jobposition/814827/research-fellow-in-peripheral-innervation-and-barrier-tissue-models-it/istituto-italiano-di-tecnologia",
+   "loc": "Italy",
+   "loc_status": "eu",
+   "first_seen": "2026-10-14T08:29:49Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -4974,7 +4986,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -4988,7 +5000,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5002,7 +5014,7 @@
    "loc_status": "eu",
    "posted": "2026-10-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5044,7 +5056,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5058,7 +5070,7 @@
    "loc_status": "eu",
    "posted": "2026-10-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5072,7 +5084,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5086,7 +5098,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5100,7 +5112,7 @@
    "loc_status": "eu",
    "posted": "2025-07-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -5114,7 +5126,7 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -5128,7 +5140,7 @@
    "loc_status": "eu",
    "posted": "2025-11-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -5142,7 +5154,7 @@
    "loc_status": "eu",
    "posted": "2024-07-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -5156,7 +5168,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -5170,7 +5182,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -5209,7 +5221,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5222,7 +5234,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -5236,7 +5248,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5250,7 +5262,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5278,7 +5290,21 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:35:52Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Digital-Solutions-Graduate_R0033480",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Digital Solutions Graduate",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Digital-Solutions-Graduate_R0033480",
+   "loc": "GB - Edinburgh; GB - Yeovil - Lysander Rd; GB - Luton - Cap. Green 300 (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5306,7 +5332,105 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Electronics-Engineer_R0034208-1",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Electronics Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Southampton/Graduate-Electronics-Engineer_R0034208-1",
+   "loc": "GB - Southampton (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Electronics-Engineer_R0034140",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Electronics Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Graduate-Electronics-Engineer_R0034140",
+   "loc": "GB - Basildon (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Engineer---Stress-and-Thermal-Analyst_R0034236",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Engineer - Stress and Thermal Analyst",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Graduate-Engineer---Stress-and-Thermal-Analyst_R0034236",
+   "loc": "GB - Basildon (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Firmware-Engineer_R0032900",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Firmware Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Luton---Cap-Green-300/Graduate-Firmware-Engineer_R0032900",
+   "loc": "GB - Luton - Cap. Green 300 (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Hardware-Engineer_R0032902",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Hardware Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Luton---Cap-Green-300/Graduate-Hardware-Engineer_R0032902",
+   "loc": "GB - Luton - Cap. Green 300 (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Mechanical-Engineer_R0033788",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Mechanical Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Mechanical-Engineer_R0033788",
+   "loc": "GB - Edinburgh; GB - Newcastle (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Mechanical-Engineer_R0034234",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Mechanical Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Graduate-Mechanical-Engineer_R0034234",
+   "loc": "GB - Basildon (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5320,7 +5444,21 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-13T10:12:22Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Optical-Engineer_R0033836",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Optical Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Optical-Engineer_R0033836",
+   "loc": "GB - Edinburgh (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5334,7 +5472,35 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-15T18:45:16Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Software-Engineer_R0033861",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Software Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Software-Engineer_R0033861",
+   "loc": "GB - Edinburgh (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Software-Engineer_R0033863",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Software Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Graduate-Software-Engineer_R0033863",
+   "loc": "GB - Newcastle (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5344,11 +5510,53 @@
    "big": true,
    "title": "Graduate Systems Engineer",
    "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Luton---Cap-Green-300/Graduate-Systems-Engineer_R0033978",
-   "loc": "GB - Luton - Cap. Green 300 (United Kingdom)",
+   "loc": "GB - Luton - Cap. Green 300",
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-15T18:45:16Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Systems-Engineer_R0033544",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Systems Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Systems-Engineer_R0033544",
+   "loc": "GB - Edinburgh (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Test-Software-Engineer_R0034203-1",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Test Software Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Test-Software-Engineer_R0034203-1",
+   "loc": "GB - Edinburgh; GB - Newcastle (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
+   "ats": "workday"
+  },
+  {
+   "key": "leonardo:Graduate-Test-Systems-Engineer_R0033992",
+   "co": "Leonardo",
+   "target": "leonardo",
+   "big": true,
+   "title": "Graduate Test Systems Engineer",
+   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Graduate-Test-Systems-Engineer_R0033992",
+   "loc": "GB - Edinburgh; GB - Newcastle (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-18T17:38:23Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5362,7 +5570,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5376,7 +5584,7 @@
    "loc_status": "eu",
    "posted": "2026-07-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5390,7 +5598,7 @@
    "loc_status": "eu",
    "posted": "2026-07-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5404,7 +5612,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5418,21 +5626,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "workday"
-  },
-  {
-   "key": "leonardo:VEL---Modelling-and-Simulation-AI-specialist_R0030528",
-   "co": "Leonardo",
-   "target": "leonardo",
-   "big": true,
-   "title": "VEL - Modelling and Simulation AI specialist",
-   "url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Venegono-Superiore/VEL---Modelling-and-Simulation-AI-specialist_R0030528",
-   "loc": "IT - Venegono Superiore",
-   "loc_status": "eu",
-   "posted": "2026-06-12",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5446,7 +5640,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5460,7 +5654,7 @@
    "loc_status": "eu",
    "posted": "2026-09-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5474,7 +5668,7 @@
    "loc_status": "eu",
    "posted": "2026-07-08",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5487,7 +5681,7 @@
    "loc": "Lisbon, Madrid (Portugal, Spain)",
    "loc_status": "eu",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5501,7 +5695,7 @@
    "loc_status": "eu",
    "posted": "2026-04-15",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5515,7 +5709,7 @@
    "loc_status": "eu",
    "posted": "2026-06-26",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5529,7 +5723,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5543,7 +5737,7 @@
    "loc_status": "eu",
    "posted": "2025-05-26",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5557,7 +5751,7 @@
    "loc_status": "eu",
    "posted": "2025-04-29",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5571,7 +5765,7 @@
    "loc_status": "eu",
    "posted": "2025-07-23",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5585,7 +5779,7 @@
    "loc_status": "eu",
    "posted": "2025-10-21",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5599,7 +5793,7 @@
    "loc_status": "eu",
    "posted": "2025-07-01",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5613,7 +5807,7 @@
    "loc_status": "eu",
    "posted": "2026-06-03",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5627,7 +5821,7 @@
    "loc_status": "eu",
    "posted": "2025-05-29",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5641,7 +5835,7 @@
    "loc_status": "eu",
    "posted": "2026-05-22",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5655,7 +5849,7 @@
    "loc_status": "eu",
    "posted": "2025-05-26",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5668,7 +5862,7 @@
    "loc": "Lisbon, Madrid (Portugal, Spain)",
    "loc_status": "eu",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5682,7 +5876,7 @@
    "loc_status": "eu",
    "posted": "2025-04-29",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5696,7 +5890,7 @@
    "loc_status": "eu",
    "posted": "2025-06-23",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5710,7 +5904,7 @@
    "loc_status": "eu",
    "posted": "2026-03-04",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5724,7 +5918,7 @@
    "loc_status": "eu",
    "posted": "2025-07-23",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5738,7 +5932,7 @@
    "loc_status": "eu",
    "posted": "2025-10-21",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5752,7 +5946,7 @@
    "loc_status": "unknown",
    "posted": "2026-07-13",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5766,7 +5960,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5780,7 +5974,7 @@
    "loc_status": "eu",
    "posted": "2026-01-12",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5794,7 +5988,7 @@
    "loc_status": "eu",
    "posted": "2026-02-04",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5808,7 +6002,7 @@
    "loc_status": "eu",
    "posted": "2026-02-04",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5822,7 +6016,7 @@
    "loc_status": "eu",
    "posted": "2026-02-04",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5836,7 +6030,7 @@
    "loc_status": "eu",
    "posted": "2026-05-28",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5850,7 +6044,7 @@
    "loc_status": "eu",
    "posted": "2026-08-18",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5864,7 +6058,7 @@
    "loc_status": "eu",
    "posted": "2026-06-30",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5878,7 +6072,7 @@
    "loc_status": "eu",
    "posted": "2026-07-01",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5892,7 +6086,7 @@
    "loc_status": "eu",
    "posted": "2026-02-04",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5906,7 +6100,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "mckinsey"
   },
   {
@@ -5919,7 +6113,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -5946,7 +6140,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Artificial Intelligence"
@@ -5962,7 +6156,7 @@
    "loc_status": "eu",
    "posted": "2026-08-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Software Engineering"
@@ -5978,7 +6172,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Artificial Intelligence, Advertising Technology, AI Infrastructure, AI Research, Software Engineering"
@@ -5994,7 +6188,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "meta",
    "dept": "Artificial Intelligence, Enterprise Engineering, Facebook, Generative AI"
   },
@@ -6009,7 +6203,7 @@
    "loc_status": "eu",
    "posted": "2026-04-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AI Research, Artificial Intelligence"
@@ -6025,7 +6219,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AI Research"
@@ -6041,7 +6235,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AR/VR, AI Research, Artificial Intelligence, Facebook Reality Labs, Research, Software Engineering"
@@ -6057,7 +6251,7 @@
    "loc_status": "eu",
    "posted": "2026-04-27",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AI Research"
@@ -6073,7 +6267,7 @@
    "loc_status": "eu",
    "posted": "2026-01-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AI Research"
@@ -6089,7 +6283,7 @@
    "loc_status": "eu",
    "posted": "2026-07-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "AI Research"
@@ -6105,7 +6299,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Artificial Intelligence, AI Infrastructure, Security"
@@ -6121,7 +6315,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Advertising Technology, Artificial Intelligence, Facebook, Generative AI, Sales & Marketing, Security, Software Engineering, Technical Program Management"
@@ -6137,7 +6331,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "meta",
    "dept": "Software Engineering"
@@ -6153,7 +6347,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6167,7 +6361,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6181,7 +6375,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6195,7 +6389,7 @@
    "loc_status": "eu",
    "posted": "2026-09-10",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6209,7 +6403,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6223,7 +6417,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6237,7 +6431,7 @@
    "loc_status": "eu",
    "posted": "2026-08-12",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6251,7 +6445,7 @@
    "loc_status": "eu",
    "posted": "2026-08-13",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6265,7 +6459,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T21:45:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6279,7 +6473,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -6293,7 +6487,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6307,7 +6501,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6321,7 +6515,7 @@
    "loc_status": "eu",
    "posted": "2026-06-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6335,7 +6529,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6349,7 +6543,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6363,7 +6557,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6377,7 +6571,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6391,7 +6585,7 @@
    "loc_status": "eu",
    "posted": "2026-07-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6405,7 +6599,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6419,7 +6613,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6433,7 +6627,7 @@
    "loc_status": "eu",
    "posted": "2026-08-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6447,7 +6641,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6461,7 +6655,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6475,7 +6669,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6489,7 +6683,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6503,7 +6697,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6517,7 +6711,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6531,7 +6725,7 @@
    "loc_status": "eu",
    "posted": "2026-07-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6545,7 +6739,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6559,7 +6753,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6573,7 +6767,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6587,7 +6781,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6601,7 +6795,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6615,7 +6809,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6629,7 +6823,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6643,7 +6837,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6657,7 +6851,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6671,7 +6865,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6685,7 +6879,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6699,7 +6893,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -6713,21 +6907,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "workday"
-  },
-  {
-   "key": "nvidia:C---Software-Engineer---AI-Developer-Tools_JR2026661",
-   "co": "NVIDIA",
-   "target": "nvidia",
-   "big": true,
-   "title": "C++ Software Engineer – AI Developer Tools",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/C---Software-Engineer---AI-Developer-Tools_JR2026661",
-   "loc": "UK, Remote; Switzerland, Remote (United Kingdom)",
-   "loc_status": "eu",
-   "posted": "2026-10-05",
-   "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6741,7 +6921,7 @@
    "loc_status": "eu",
    "posted": "2026-08-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6755,7 +6935,7 @@
    "loc_status": "eu",
    "posted": "2026-02-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6769,7 +6949,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6783,7 +6963,7 @@
    "loc_status": "eu",
    "posted": "2026-08-26",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6796,7 +6976,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6809,7 +6989,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6823,7 +7003,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6837,7 +7017,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6851,7 +7031,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6865,7 +7045,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6893,7 +7073,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6907,7 +7087,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6921,7 +7101,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "workday"
   },
@@ -6964,7 +7144,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "oracle"
   },
   {
@@ -6978,7 +7158,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -6992,7 +7172,7 @@
    "loc_status": "eu",
    "posted": "2026-07-07",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7006,7 +7186,7 @@
    "loc_status": "eu",
    "posted": "2026-09-01",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7020,7 +7200,7 @@
    "loc_status": "eu",
    "posted": "2026-01-12",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7034,7 +7214,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7048,7 +7228,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7062,7 +7242,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7076,7 +7256,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7090,7 +7270,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7104,7 +7284,7 @@
    "loc_status": "eu",
    "posted": "2026-03-26",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7118,7 +7298,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T21:45:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7132,7 +7312,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7146,7 +7326,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7160,7 +7340,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7174,7 +7354,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7188,7 +7368,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7202,7 +7382,7 @@
    "loc_status": "eu",
    "posted": "2026-07-15",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "ashby"
   },
@@ -7217,7 +7397,7 @@
    "loc_status": "eu",
    "posted": "2026-04-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7231,7 +7411,7 @@
    "loc_status": "eu",
    "posted": "2026-08-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7245,7 +7425,7 @@
    "loc_status": "eu",
    "posted": "2025-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7259,7 +7439,7 @@
    "loc_status": "eu",
    "posted": "2026-09-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7273,7 +7453,7 @@
    "loc_status": "eu",
    "posted": "2026-08-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7287,7 +7467,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7301,7 +7481,7 @@
    "loc_status": "eu",
    "posted": "2025-03-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7315,7 +7495,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7329,7 +7509,7 @@
    "loc_status": "eu",
    "posted": "2026-04-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7343,7 +7523,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7357,7 +7537,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7371,7 +7551,7 @@
    "loc_status": "eu",
    "posted": "2025-03-31",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7385,7 +7565,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7399,7 +7579,7 @@
    "loc_status": "eu",
    "posted": "2026-06-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7413,7 +7593,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T17:35:21Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7427,7 +7607,7 @@
    "loc_status": "eu",
    "posted": "2025-12-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7440,7 +7620,7 @@
    "loc_status": "eu",
    "posted": "2026-08-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7453,7 +7633,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -7466,7 +7646,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -7481,7 +7661,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -7495,7 +7675,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7509,7 +7689,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7523,7 +7703,7 @@
    "loc_status": "eu",
    "posted": "2025-09-26",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7537,7 +7717,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7551,7 +7731,7 @@
    "loc_status": "eu",
    "posted": "2026-08-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7565,7 +7745,7 @@
    "loc_status": "eu",
    "posted": "2025-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7579,7 +7759,7 @@
    "loc_status": "eu",
    "posted": "2025-01-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7593,7 +7773,7 @@
    "loc_status": "eu",
    "posted": "2026-07-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -7607,7 +7787,7 @@
    "loc_status": "eu",
    "posted": "2026-07-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -7621,7 +7801,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -7635,7 +7815,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -7649,7 +7829,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7663,7 +7843,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7677,7 +7857,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7691,21 +7871,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "workday"
-  },
-  {
-   "key": "roche:D2P-Data---Analytics-Data-Scientist---RDT-ERP_202606-116393-1",
-   "co": "Roche",
-   "target": "roche",
-   "big": true,
-   "title": "D2P Data & Analytics Data Scientist - RDT ERP",
-   "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/D2P-Data---Analytics-Data-Scientist---RDT-ERP_202606-116393-1",
-   "loc": "Warsaw",
-   "loc_status": "eu",
-   "posted": "2026-09-29",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7719,7 +7885,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7733,7 +7899,7 @@
    "loc_status": "eu",
    "posted": "2026-09-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7747,7 +7913,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7775,7 +7941,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7803,7 +7969,7 @@
    "loc_status": "eu",
    "posted": "2026-06-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7817,7 +7983,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7831,7 +7997,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7845,7 +8011,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7873,7 +8039,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -7929,7 +8095,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "eightfold"
   },
   {
@@ -7943,7 +8109,7 @@
    "loc_status": "eu",
    "posted": "2026-07-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -7956,7 +8122,7 @@
    "loc": "Barcelona, Spain",
    "loc_status": "eu",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -7969,7 +8135,7 @@
    "loc": "Paris, France",
    "loc_status": "eu",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -7982,20 +8148,7 @@
    "loc": "Lyon, France",
    "loc_status": "eu",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "radancy"
-  },
-  {
-   "key": "sanofi:43989962688",
-   "co": "Sanofi",
-   "target": "sanofi",
-   "big": true,
-   "title": "Data and AI Engineer",
-   "url": "https://jobs.sanofi.com/en/job/lyon/data-and-ai-engineer/2649/43989962688",
-   "loc": "Lyon, France",
-   "loc_status": "eu",
-   "first_seen": "2026-10-05T15:12:24Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -8008,7 +8161,7 @@
    "loc": "Barcelona, Spain",
    "loc_status": "eu",
    "first_seen": "2026-10-06T10:13:39Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -8021,7 +8174,7 @@
    "loc": "Barcelona, Spain",
    "loc_status": "eu",
    "first_seen": "2026-10-05T15:12:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "radancy"
   },
   {
@@ -8034,20 +8187,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "avature"
-  },
-  {
-   "key": "siemens:517085",
-   "co": "Siemens",
-   "target": "siemens",
-   "big": true,
-   "title": "AI Change & Efficiency Coach (w/m/d) R&D Hardware",
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/517085",
-   "loc": "Frankfurt am Main",
-   "loc_status": "eu",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8060,7 +8200,7 @@
    "loc": "Alfragide - Lisboa - Portugal",
    "loc_status": "eu",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8099,7 +8239,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8112,20 +8252,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "avature"
-  },
-  {
-   "key": "siemens:508148",
-   "co": "Siemens",
-   "target": "siemens",
-   "big": true,
-   "title": "Audit Associate (f/m/d) - AI Focus",
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/508148",
-   "loc": "Munich",
-   "loc_status": "eu",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8138,7 +8265,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8151,7 +8278,7 @@
    "loc": "Ostrava - Moravskoslezsky kraj - Czechia",
    "loc_status": "eu",
    "first_seen": "2026-10-13T08:13:49Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8164,7 +8291,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8177,7 +8304,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8190,7 +8317,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8203,7 +8330,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8229,7 +8356,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8242,7 +8369,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8255,7 +8382,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8268,7 +8395,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8281,7 +8408,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8294,7 +8421,7 @@
    "loc": "Berkeley",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8307,7 +8434,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8320,7 +8447,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8333,7 +8460,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8346,7 +8473,7 @@
    "loc": "Erlangen",
    "loc_status": "eu",
    "first_seen": "2026-10-05T16:28:40Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8359,7 +8486,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-16T18:29:58Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8372,7 +8499,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8385,7 +8512,7 @@
    "loc": "Cambridge",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8398,7 +8525,7 @@
    "loc": "Troy",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8424,7 +8551,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "avature"
   },
   {
@@ -8438,7 +8565,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -8452,7 +8579,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -8466,7 +8593,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -8479,7 +8606,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8492,7 +8619,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8505,7 +8632,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8518,7 +8645,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8531,7 +8658,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8544,7 +8671,7 @@
    "loc_status": "eu",
    "posted": "2026-08-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8557,7 +8684,7 @@
    "loc_status": "eu",
    "posted": "2025-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8570,7 +8697,7 @@
    "loc_status": "eu",
    "posted": "2025-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8584,7 +8711,7 @@
    "loc_status": "eu",
    "posted": "2026-09-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8598,7 +8725,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8626,7 +8753,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8640,7 +8767,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -8653,7 +8780,7 @@
    "loc_status": "unknown",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "greenhouse"
   },
   {
@@ -8666,7 +8793,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -8680,7 +8807,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -8694,7 +8821,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -8708,7 +8835,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -8722,7 +8849,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "baseline": true,
    "ats": "greenhouse"
   },
@@ -8737,7 +8864,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -8751,7 +8878,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -8765,7 +8892,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8779,7 +8906,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8807,7 +8934,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8821,7 +8948,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -8834,7 +8961,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8847,7 +8974,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8860,7 +8987,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8873,7 +9000,7 @@
    "loc_status": "unknown",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8886,7 +9013,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8899,7 +9026,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8912,7 +9039,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8925,7 +9052,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8938,7 +9065,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8951,7 +9078,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8964,7 +9091,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8977,7 +9104,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -8990,7 +9117,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9003,7 +9130,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9016,7 +9143,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9029,7 +9156,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9042,7 +9169,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9055,7 +9182,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9068,7 +9195,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9081,7 +9208,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9094,7 +9221,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9107,7 +9234,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9120,7 +9247,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9133,7 +9260,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9146,7 +9273,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9159,7 +9286,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9172,7 +9299,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9185,7 +9312,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9198,7 +9325,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9211,7 +9338,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "recruitee"
   },
   {
@@ -9225,7 +9352,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9239,7 +9366,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9253,7 +9380,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9267,7 +9394,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9281,7 +9408,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9295,7 +9422,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9309,7 +9436,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9323,7 +9450,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9337,7 +9464,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9351,7 +9478,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9365,7 +9492,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9379,7 +9506,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9393,7 +9520,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9407,7 +9534,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9421,7 +9548,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9435,7 +9562,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9449,7 +9576,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9463,7 +9590,7 @@
    "loc_status": "eu",
    "posted": "2026-08-26",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9477,7 +9604,7 @@
    "loc_status": "eu",
    "posted": "2026-06-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9491,7 +9618,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9505,7 +9632,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9519,7 +9646,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9533,7 +9660,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9575,7 +9702,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9589,7 +9716,7 @@
    "loc_status": "eu",
    "posted": "2026-06-29",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9603,7 +9730,7 @@
    "loc_status": "eu",
    "posted": "2026-08-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9617,7 +9744,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9631,7 +9758,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9645,7 +9772,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9673,7 +9800,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9687,7 +9814,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9701,7 +9828,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9715,7 +9842,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9729,7 +9856,7 @@
    "loc_status": "eu",
    "posted": "2026-08-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9743,7 +9870,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9757,7 +9884,7 @@
    "loc_status": "eu",
    "posted": "2026-07-07",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9771,7 +9898,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9799,7 +9926,7 @@
    "loc_status": "eu",
    "posted": "2026-08-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9813,7 +9940,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9827,7 +9954,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9841,7 +9968,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9854,7 +9981,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "lever"
   },
   {
@@ -9868,7 +9995,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9896,7 +10023,7 @@
    "loc_status": "eu",
    "posted": "2026-08-03",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9910,7 +10037,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9924,7 +10051,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "workday"
   },
   {
@@ -9938,7 +10065,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -9952,7 +10079,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -9966,7 +10093,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -9980,7 +10107,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T15:12:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -9992,7 +10119,7 @@
    "url": "https://jobs.zalando.com/en/jobs/2726009-Junior-Applied-Scientist-(all-genders)",
    "loc_status": "unknown",
    "first_seen": "2026-10-13T11:31:01Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "links"
   },
   {
@@ -10006,7 +10133,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10020,7 +10147,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10034,7 +10161,7 @@
    "loc_status": "eu",
    "posted": "2026-09-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10062,7 +10189,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10076,35 +10203,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
-   "ats": "sf_rss"
-  },
-  {
-   "key": "zurich-ins:1373189157",
-   "co": "Zurich Insurance",
-   "target": "zurich-ins",
-   "big": true,
-   "title": "Technology Engineering Graduate Programme 2027",
-   "url": "https://www.careers.zurich.com/job/Swindon-Technology-Engineering-Graduate-Programme-2027-GB-W/1373189157/",
-   "loc": "Swindon, GB-WIL, GB",
-   "loc_status": "eu",
-   "posted": "2026-09-25",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
-   "ats": "sf_rss"
-  },
-  {
-   "key": "zurich-ins:1373189257",
-   "co": "Zurich Insurance",
-   "target": "zurich-ins",
-   "big": true,
-   "title": "Technology Engineering Graduate Programme 2027 (London)",
-   "url": "https://www.careers.zurich.com/job/Swindon-Technology-Engineering-Graduate-Programme-2027-%28London%29-GB-W/1373189257/",
-   "loc": "Swindon, GB-WIL, GB",
-   "loc_status": "eu",
-   "posted": "2026-09-25",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-08T10:57:24Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10118,7 +10217,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "sf_rss"
   },
   {
@@ -10131,7 +10230,7 @@
    "loc_status": "unknown",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "ashby"
   },
   {
@@ -10144,7 +10243,7 @@
    "loc_status": "eu",
    "posted": "2025-07-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "gem"
   },
   {
@@ -10157,7 +10256,7 @@
    "loc_status": "eu",
    "posted": "2025-05-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "gem"
   },
   {
@@ -10170,7 +10269,7 @@
    "loc_status": "eu",
    "posted": "2026-06-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-10-17T17:35:21Z",
+   "last_seen": "2026-10-18T17:38:23Z",
    "ats": "gem"
   }
  ]
