@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-17T19:12:44Z",
+ "generated": "2026-10-18T18:48:35Z",
  "days": 14,
- "count": 43,
+ "count": 45,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -788,6 +788,44 @@
    "dept": "Expertises scientifiques : \n Chimie - Matériaux",
    "kind": "academic",
    "closed_at": "2026-10-17T19:12:44Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "abg:140043",
+   "co": "PARIS SCIENCES ET LETTRES (PSL)",
+   "big": false,
+   "title": "MICADO - Microdroplet catalysis of CO2-amine C-N bond formation, from machine learning-based simulations to predictive control",
+   "url": "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/140043/job/micado-microdroplet-catalysis-of-co2-amine-c-n-bond-formation-from-machine-learning-based-simulations-to-predictive-control",
+   "loc": "Paris, Ile-de-France, France",
+   "loc_status": "eu",
+   "posted": "2026-08-18",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-17T19:12:44Z",
+   "baseline": true,
+   "ats": "abg",
+   "country": "fr",
+   "dept": "Expertises scientifiques : \n Chimie",
+   "kind": "academic",
+   "closed_at": "2026-10-18T18:48:35Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "abg:140045",
+   "co": "PARIS SCIENCES ET LETTRES (PSL)",
+   "big": false,
+   "title": "SOFTMAT4MET - Functional Soft Matter for Sustainable and Selective Extraction of Critical Metals",
+   "url": "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/140045/job/softmat4met-functional-soft-matter-for-sustainable-and-selective-extraction-of-critical-metals",
+   "loc": "Paris, Ile-de-France, France",
+   "loc_status": "eu",
+   "posted": "2026-08-18",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-17T19:12:44Z",
+   "baseline": true,
+   "ats": "abg",
+   "country": "fr",
+   "dept": "Expertises scientifiques : \n Chimie",
+   "kind": "academic",
+   "closed_at": "2026-10-18T18:48:35Z",
    "reason": "not listed anymore"
   }
  ]
