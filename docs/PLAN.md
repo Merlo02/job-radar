@@ -152,6 +152,11 @@ portali e i 210 aggiunti a mano dalle vecchie routine (senza `scanKey`) non si c
 - `prio` mette il fit prima di tutto: ogni fit è una fascia (10 punti), dentro la fascia contano rilevanza, junior
   (2 punti) e luogo. Prima un fit basso di una big tech (rilevanza 4,8) finiva alla pari di un fit medio.
 - Rubrica: 3 anni chiesti → fit 1 (prima era fit 3 «con un ostacolo»), 2 anni restano un ostacolo.
+- Pulizia una tantum (18/10, dal terminale): 651 annunci aperti. Chiusi 33 che chiedevano 3 anni e 7 non più online
+  (Ericsson ×2, GE Healthcare, Helsing, DNV, Microsoft, EPFL Apertus: tutti verificati sul sito); `prio` ricalcolato su
+  tutti; 107 dei 153 aggiunti a mano dalle vecchie routine hanno ora la `scanKey` dello scanner (agganciati per
+  identificativo e titolo: si chiuderanno da soli), i 42 restanti li segue `check`. I 338 link LinkedIn controllati uno a uno
+  dal terminale (LinkedIn rifiuta spesso: ~2 ore).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
