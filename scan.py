@@ -310,12 +310,31 @@ ROLE_HINT = re.compile(
     r"cosa farai|mansioni|responsabilità", re.I)
 
 
+YEARS = re.compile(r"\b(\d{1,2})\s*(?:\+|-\s*\d{1,2}|to \d{1,2}|or more)?\s*\+?\s*(?:years?|yrs|anni|jahre?n?|ans)\b", re.I)
+# "N years" that is not experience: how long the contract or the funding lasts ("employment for 1 year, with
+# possible extension to 2 years", "a 3 years fixed-term contract", "in the 3 years before recruitment")
+NOT_EXPERIENCE_BEFORE = re.compile(
+    r"(?:\bemploy\w*|contra(?:ct|tto|t)\w*|vertrag\w*|befrist\w*|laufzeit|extension|extend\w*|prolong\w*|renew\w*|"
+    r"duration|durée|durata|fixed[- ]term|appointment|position|period|funded|funding|initially|up to|within)"
+    r"\W+(?:\w+\W+){0,2}$|\b(?:in|over|during|for) the\W+$|\b(?:last|past|next|first)\W+$", re.I)
+NOT_EXPERIENCE_AFTER = re.compile(r"^\W*(?:\w+\W+)?(?:contract|appointment|fixed[- ]term|funding|grant|position\b|"
+                                  r"post(?![-\w])|contratto|vertrag|befristet)", re.I)
+
+
+def experience_years(text):
+    """The "N years" in the text that ask for experience, as (match, N)."""
+    t = text or ""
+    for m in YEARS.finditer(t):
+        before = re.split(r"[.;:!?\n•·|]", t[max(0, m.start() - 60):m.start()])[-1]
+        if NOT_EXPERIENCE_BEFORE.search(before) or NOT_EXPERIENCE_AFTER.search(t[m.end():m.end() + 40]):
+            continue
+        yield m, int(m.group(1))
+
+
 def years_needed(text):
     """Largest minimum of years of experience asked for (e.g. "3+ years ... 5+ years" -> 5)."""
     best = None
-    for m in re.finditer(r"\b(\d{1,2})\s*(?:\+|-\s*\d{1,2}|to \d{1,2}|or more)?\s*\+?\s*(?:years?|yrs|anni|jahre?n?|ans)\b",
-                         text or "", re.I):
-        n = int(m.group(1))
+    for _, n in experience_years(text):
         if 1 <= n <= 15:
             best = max(best or 0, n)
     return best
@@ -596,8 +615,7 @@ def summarize(text):
 
 def signals(text):
     t = text or ""
-    years = sorted(set(m.group(0).strip() for m in re.finditer(
-        r"\b\d{1,2}\s*(?:\+|-\s*\d{1,2})?\s*(?:\+\s*)?(?:years?|yrs|anni|jahre|ans)\b", t, re.I)))[:6]
+    years = sorted(set(m.group(0).strip() for m, _ in experience_years(t)))[:6]
     return {
         "years": years,
         "phd": bool(re.search(r"\bph\.?\s?d\b|doctorate|doctoral degree", t, re.I)),
