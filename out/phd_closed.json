@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-19T22:58:22Z",
+ "generated": "2026-10-20T11:55:40Z",
  "days": 14,
- "count": 55,
+ "count": 58,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -1010,6 +1010,56 @@
    "dept": "Expertises scientifiques : \n Génie des procédés",
    "kind": "academic",
    "closed_at": "2026-10-19T22:58:22Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:thales:Thse-CIFRE-Dtection-spatio-temporelle-d-objets-faiblement-rsolues-par-une-camra-en-mouvement---F-H_R0340961-1",
+   "co": "Thales / Thales Alenia Space",
+   "big": true,
+   "title": "Thèse CIFRE Détection spatio-temporelle d’objets faiblement résolues par une caméra en mouvement - F/H",
+   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Thse-CIFRE-Dtection-spatio-temporelle-d-objets-faiblement-rsolues-par-une-camra-en-mouvement---F-H_R0340961-1",
+   "loc": "Elancourt (France)",
+   "loc_status": "eu",
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-19T22:58:22Z",
+   "baseline": true,
+   "ats": "industrial",
+   "kind": "cifre",
+   "closed_at": "2026-10-20T11:55:40Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:siemens:524811",
+   "co": "Siemens",
+   "big": true,
+   "title": "PhD Thesis: Optimization of LLM / FM Inference in Industrial Edge Networks",
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524811",
+   "loc": "Garching - - Germany",
+   "loc_status": "eu",
+   "first_seen": "2026-10-19T22:58:22Z",
+   "last_seen": "2026-10-19T22:58:22Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-20T11:55:40Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "kuleuven-phd:60771008",
+   "co": "KU Leuven",
+   "big": true,
+   "title": "PhD position in numerical analysis for high-dimensional function approximation",
+   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60771008?lang=en",
+   "loc": "Leuven",
+   "loc_status": "eu",
+   "first_seen": "2026-10-18T18:48:35Z",
+   "last_seen": "2026-10-19T22:58:22Z",
+   "ats": "kuleuven",
+   "country": "be",
+   "dept": "Numerical Analysis and Applied Mathematics (NUMA), Leuven (Arenberg)",
+   "deadline": "2026-12-31",
+   "kind": "academic",
+   "closed_at": "2026-10-20T11:55:40Z",
    "reason": "not listed anymore"
   }
  ]
