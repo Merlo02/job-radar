@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-20T09:39:52Z",
+ "generated": "2026-10-20T18:48:51Z",
  "days": 14,
- "count": 184,
+ "count": 186,
  "items": [
   {
    "key": "openai:7ad26793-3f0d-4336-91e8-1aaf800cfdae",
@@ -2960,6 +2960,40 @@
    "last_seen": "2026-10-19T20:17:15Z",
    "ats": "links",
    "closed_at": "2026-10-20T09:39:52Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "meta:4047129245422755",
+   "co": "Meta",
+   "target": "meta",
+   "big": true,
+   "title": "Research Scientist – World Models, Robotics & Embodied AI",
+   "url": "https://www.metacareers.com/jobs/4047129245422755/",
+   "loc": "London, UK",
+   "loc_status": "eu",
+   "posted": "2026-04-27",
+   "first_seen": "2026-10-13T10:12:22Z",
+   "last_seen": "2026-10-20T09:39:52Z",
+   "baseline": true,
+   "ats": "meta",
+   "dept": "AI Research",
+   "closed_at": "2026-10-20T18:48:51Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "synthesia:34a24bda-4dfb-4387-9f17-8ac212b5c170",
+   "co": "Synthesia",
+   "target": "synthesia",
+   "big": false,
+   "title": "Research Scientist - Interactive Avatars",
+   "url": "https://jobs.ashbyhq.com/synthesia/34a24bda-4dfb-4387-9f17-8ac212b5c170",
+   "loc": "Europe; London; Munich; Zurich (United Kingdom) · remote",
+   "loc_status": "eu",
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-07T10:12:29Z",
+   "last_seen": "2026-10-20T09:39:52Z",
+   "ats": "ashby",
+   "closed_at": "2026-10-20T18:48:51Z",
    "reason": "not listed anymore"
   }
  ]
