@@ -1,12 +1,15 @@
 {
- "run_at": "2026-10-20T11:55:40Z",
- "duration_s": 212,
+ "run_at": "2026-10-20T20:29:27Z",
+ "duration_s": 203,
  "sources": 55,
- "failed": [],
+ "failed": [
+  "dn-genaide",
+  "dn-mlcare"
+ ],
  "blocked": [],
  "new": 16,
- "open": 425,
- "recent": 365,
+ "open": 440,
+ "recent": 380,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -22,12 +25,12 @@
    "co": "ABG (tesi in Francia)",
    "type": "abg",
    "ok": true,
-   "raw": 124,
-   "matched": 91,
+   "raw": 125,
+   "matched": 93,
    "complete": true,
-   "details": 3,
-   "secs": 40.7,
-   "new": 3,
+   "details": 2,
+   "secs": 37.8,
+   "new": 2,
    "closed": 0
   },
   {
@@ -39,8 +42,8 @@
    "matched": 46,
    "complete": false,
    "details": 0,
-   "secs": 199.6,
-   "new": 3,
+   "secs": 203.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -48,8 +51,8 @@
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 250,
-   "matched": 166,
+   "raw": 266,
+   "matched": 176,
    "complete": true,
    "details": 0,
    "secs": 0.1,
@@ -84,7 +87,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.2
   },
   {
    "id": "dn-bridge-ai",
@@ -104,7 +107,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.3
   },
   {
    "id": "dn-cafe-bio",
@@ -114,7 +117,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.1
   },
   {
    "id": "dn-capture",
@@ -124,7 +127,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.5
   },
   {
    "id": "dn-cavecore",
@@ -134,7 +137,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-cdtnet",
@@ -144,7 +147,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "id": "dn-combine",
@@ -154,7 +157,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.3
+   "secs": 5.8
   },
   {
    "id": "dn-diamond",
@@ -174,7 +177,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.5
   },
   {
    "id": "dn-elevate",
@@ -184,7 +187,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 2.8
   },
   {
    "id": "dn-emanaire",
@@ -204,7 +207,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 1.4
   },
   {
    "id": "dn-evomg-dn",
@@ -214,7 +217,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.3
+   "secs": 5.2
   },
   {
    "id": "dn-fados",
@@ -224,7 +227,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.8
   },
   {
    "id": "dn-framebio",
@@ -234,17 +237,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 1.2
   },
   {
    "id": "dn-genaide",
    "co": "GenAIDE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.0
+   "ok": false,
+   "error": "RuntimeError: GET https://www.genaide.eu/ failed: ReadTimeout: HTTPSConnectionPool(host='www.genaide.eu', port=443): Read timed out. (read timeout=40)",
+   "trace": "ar/job-radar/scan.py\", line 2231, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.genaide.eu/ failed: ReadTimeout: HTTPSConnectionPool(host='www.genaide.eu', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 134.2
   },
   {
    "id": "dn-genome",
@@ -254,7 +256,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.1
   },
   {
    "id": "dn-heal-4ward",
@@ -264,7 +266,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-her-care",
@@ -274,7 +276,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.2
   },
   {
    "id": "dn-intros",
@@ -284,7 +286,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.8
   },
   {
    "id": "dn-istride",
@@ -294,7 +296,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.4
+   "secs": 2.7
   },
   {
    "id": "dn-justhealth",
@@ -304,7 +306,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.9
   },
   {
    "id": "dn-lowdataml",
@@ -314,7 +316,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-mediculous-remedy",
@@ -324,7 +326,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 0.7
   },
   {
    "id": "dn-met2adapt",
@@ -344,7 +346,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.3
   },
   {
    "id": "dn-miningbrines",
@@ -354,17 +356,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 3.0
   },
   {
    "id": "dn-mlcare",
    "co": "MLCARE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 2.9
+   "ok": false,
+   "error": "RuntimeError: GET https://mlcare.webs.tsc.uc3m.es/ failed: ReadTimeout: HTTPSConnectionPool(host='mlcare.webs.tsc.uc3m.es', port=443): Read timed out. (read timeout=40)",
+   "trace": "py\", line 2231, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://mlcare.webs.tsc.uc3m.es/ failed: ReadTimeout: HTTPSConnectionPool(host='mlcare.webs.tsc.uc3m.es', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 133.8
   },
   {
    "id": "dn-orfeus",
@@ -374,7 +375,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.6
   },
   {
    "id": "dn-protaiomics",
@@ -384,7 +385,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.3
+   "secs": 4.1
   },
   {
    "id": "dn-realise",
@@ -394,7 +395,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 0.9
   },
   {
    "id": "dn-reffracteur",
@@ -404,7 +405,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 2.1
   },
   {
    "id": "dn-specx",
@@ -414,7 +415,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 2.9
   },
   {
    "id": "dn-spring",
@@ -424,7 +425,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-surerob",
@@ -434,7 +435,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 2.2
   },
   {
    "id": "dn-trackaf",
@@ -444,7 +445,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.1
   },
   {
    "id": "dn-train-fast",
@@ -454,7 +455,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-unchange",
@@ -464,7 +465,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.9
+   "secs": 2.8
   },
   {
    "id": "dn-variabiliti",
@@ -474,7 +475,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "dn-wildbotics",
@@ -484,7 +485,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "epfl-phd",
@@ -495,7 +496,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.4,
+   "secs": 3.0,
    "new": 0,
    "closed": 0
   },
@@ -504,12 +505,12 @@
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 127,
-   "matched": 24,
+   "raw": 128,
+   "matched": 25,
    "complete": true,
-   "details": 0,
-   "secs": 1.1,
-   "new": 0,
+   "details": 1,
+   "secs": 1.6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -522,21 +523,21 @@
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 0,
-   "closed": 2
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 30,
-   "matched": 15,
+   "raw": 31,
+   "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 3.0,
-   "new": 0,
-   "closed": 1
+   "secs": 2.6,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "naver-labs",
@@ -547,7 +548,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.3,
    "new": 0,
    "closed": 0
   },
@@ -559,19 +560,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.1
   },
   {
    "id": "ugent-phd",
    "co": "Ghent University",
    "type": "ugent",
    "ok": true,
-   "raw": 10,
-   "matched": 10,
+   "raw": 11,
+   "matched": 11,
    "complete": true,
-   "details": 0,
-   "secs": 2.4,
-   "new": 0,
+   "details": 1,
+   "secs": 1.3,
+   "new": 1,
    "closed": 0
   },
   {
@@ -583,7 +584,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.8,
    "new": 0,
    "closed": 0
   },

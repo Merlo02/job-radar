@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-20T11:55:40Z",
+ "generated": "2026-10-20T20:29:27Z",
  "days": 14,
- "count": 58,
+ "count": 59,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -1060,6 +1060,22 @@
    "deadline": "2026-12-31",
    "kind": "academic",
    "closed_at": "2026-10-20T11:55:40Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:bmw:1418619233",
+   "co": "BMW Group",
+   "big": true,
+   "title": "Doktorand Direkte Flussregelung für Synchronmotoren (w/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/M%C3%BCnchen-Doktorand-Direkte-Flussregelung-f%C3%BCr-Synchronmotoren-%28wmx%29-BY-80809/1418619233/",
+   "loc": "München, BY, DE, 80809",
+   "loc_status": "eu",
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-19T22:58:22Z",
+   "last_seen": "2026-10-20T11:55:40Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-20T20:29:27Z",
    "reason": "not listed anymore"
   }
  ]
