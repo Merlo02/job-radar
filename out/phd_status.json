@@ -1,16 +1,15 @@
 {
- "run_at": "2026-10-21T20:34:45Z",
- "duration_s": 194,
+ "run_at": "2026-10-22T20:41:32Z",
+ "duration_s": 198,
  "sources": 55,
  "failed": [
   "dn-reffracteur",
-  "dn-surerob",
-  "ugent-phd"
+  "dn-surerob"
  ],
  "blocked": [],
- "new": 24,
- "open": 460,
- "recent": 249,
+ "new": 49,
+ "open": 502,
+ "recent": 217,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -26,24 +25,24 @@
    "co": "ABG (tesi in Francia)",
    "type": "abg",
    "ok": true,
-   "raw": 131,
-   "matched": 95,
+   "raw": 135,
+   "matched": 99,
    "complete": true,
-   "details": 4,
-   "secs": 47.9,
-   "new": 4,
-   "closed": 2
+   "details": 5,
+   "secs": 41.1,
+   "new": 5,
+   "closed": 1
   },
   {
    "id": "at-nl",
    "co": "AcademicTransfer",
    "type": "academictransfer",
    "ok": true,
-   "raw": 58,
-   "matched": 47,
+   "raw": 57,
+   "matched": 46,
    "complete": false,
    "details": 0,
-   "secs": 193.6,
+   "secs": 197.8,
    "new": 1,
    "closed": 0
   },
@@ -52,12 +51,12 @@
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 292,
-   "matched": 191,
+   "raw": 345,
+   "matched": 226,
    "complete": true,
    "details": 0,
    "secs": 0.1,
-   "new": 16,
+   "new": 37,
    "closed": 0
   },
   {
@@ -68,7 +67,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-aegis",
@@ -78,7 +77,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "id": "dn-biohybrite",
@@ -88,7 +87,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 1.8
   },
   {
    "id": "dn-bridge-ai",
@@ -108,7 +107,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.9
   },
   {
    "id": "dn-cafe-bio",
@@ -118,7 +117,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.9
   },
   {
    "id": "dn-capture",
@@ -128,7 +127,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.6
   },
   {
    "id": "dn-cavecore",
@@ -138,7 +137,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.4
+   "secs": 0.7
   },
   {
    "id": "dn-cdtnet",
@@ -148,7 +147,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-combine",
@@ -158,7 +157,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.5
+   "secs": 5.3
   },
   {
    "id": "dn-diamond",
@@ -168,7 +167,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.5
   },
   {
    "id": "dn-elegance",
@@ -178,7 +177,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 5.2
   },
   {
    "id": "dn-elevate",
@@ -188,7 +187,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 2.3
   },
   {
    "id": "dn-emanaire",
@@ -218,7 +217,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.2
+   "secs": 4.4
   },
   {
    "id": "dn-fados",
@@ -228,7 +227,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 1.9
   },
   {
    "id": "dn-framebio",
@@ -238,7 +237,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.8
   },
   {
    "id": "dn-genaide",
@@ -248,7 +247,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-genome",
@@ -258,7 +257,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.0
   },
   {
    "id": "dn-heal-4ward",
@@ -268,7 +267,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.6
   },
   {
    "id": "dn-her-care",
@@ -278,7 +277,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-intros",
@@ -288,7 +287,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.2
   },
   {
    "id": "dn-istride",
@@ -308,7 +307,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 1.4
   },
   {
    "id": "dn-lowdataml",
@@ -318,7 +317,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.0
   },
   {
    "id": "dn-mediculous-remedy",
@@ -328,7 +327,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 0.8
   },
   {
    "id": "dn-met2adapt",
@@ -338,7 +337,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "id": "dn-mindnet",
@@ -348,7 +347,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.9
   },
   {
    "id": "dn-miningbrines",
@@ -358,7 +357,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 2.5
   },
   {
    "id": "dn-mlcare",
@@ -378,7 +377,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.0
   },
   {
    "id": "dn-protaiomics",
@@ -388,7 +387,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.4
+   "secs": 3.3
   },
   {
    "id": "dn-realise",
@@ -398,15 +397,15 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-reffracteur",
    "co": "REFFRACTEUR (MSCA Doctoral Network)",
    "type": "watch",
    "ok": false,
-   "error": "RuntimeError: GET https://www.reffracteur.eu/phd-positions/ failed: ConnectTimeout: HTTPSConnectionPool(host='www.reffracteur.eu', port=443): Max retries exceeded with url: /phd-positions/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reffracteur.eu', port=443) at 0x7f1a88133ec0>, 'Connection to www.r",
-   "trace": "ext(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.reffracteur.eu/phd-positions/ failed: ConnectTimeout: HTTPSConnectionPool(host='www.reffracteur.eu', port=443): Max retries exceeded with url: /phd-positions/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reffracteur.eu', port=443) at 0x7f1a88133ec0>, 'Connection to www.reffracteur.eu timed out. (connect timeout=40)'))\n",
+   "error": "RuntimeError: GET https://www.reffracteur.eu/phd-positions/ failed: ConnectTimeout: HTTPSConnectionPool(host='www.reffracteur.eu', port=443): Max retries exceeded with url: /phd-positions/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reffracteur.eu', port=443) at 0x7fcd4c134620>, 'Connection to www.r",
+   "trace": "ext(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.reffracteur.eu/phd-positions/ failed: ConnectTimeout: HTTPSConnectionPool(host='www.reffracteur.eu', port=443): Max retries exceeded with url: /phd-positions/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reffracteur.eu', port=443) at 0x7fcd4c134620>, 'Connection to www.reffracteur.eu timed out. (connect timeout=40)'))\n",
    "secs": 134.1
   },
   {
@@ -417,7 +416,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 2.7
   },
   {
    "id": "dn-spring",
@@ -427,7 +426,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.5
   },
   {
    "id": "dn-surerob",
@@ -436,7 +435,7 @@
    "ok": false,
    "error": "RuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "trace": "scan.py\", line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
-   "secs": 134.5
+   "secs": 133.8
   },
   {
    "id": "dn-trackaf",
@@ -446,7 +445,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.0
   },
   {
    "id": "dn-train-fast",
@@ -456,7 +455,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.0
   },
   {
    "id": "dn-unchange",
@@ -466,7 +465,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.6
+   "secs": 2.2
   },
   {
    "id": "dn-variabiliti",
@@ -476,7 +475,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 5.5
   },
   {
    "id": "dn-wildbotics",
@@ -497,7 +496,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.4,
+   "secs": 2.9,
    "new": 0,
    "closed": 0
   },
@@ -510,34 +509,34 @@
    "matched": 26,
    "complete": true,
    "details": 1,
-   "secs": 1.7,
+   "secs": 1.5,
    "new": 1,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "industrial",
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 35,
-   "matched": 35,
+   "raw": 36,
+   "matched": 36,
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 1,
-   "closed": 2
+   "new": 2,
+   "closed": 1
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 34,
-   "matched": 17,
+   "raw": 36,
+   "matched": 19,
    "complete": true,
    "details": 0,
    "secs": 2.5,
-   "new": 1,
+   "new": 2,
    "closed": 0
   },
   {
@@ -549,7 +548,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -561,27 +560,31 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.3
   },
   {
    "id": "ugent-phd",
    "co": "Ghent University",
    "type": "ugent",
-   "ok": false,
-   "error": "RuntimeError: GET https://www.ugent.be/en/work/scientific failed: ConnectTimeout: HTTPSConnectionPool(host='www.ugent.be', port=443): Max retries exceeded with url: /en/work/scientific (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ugent.be', port=443) at 0x7f1a8814ea20>, 'Connection to www.ugent.be ti",
-   "trace": "e 1920, in ugent_list\n    html = http(\"GET\", src[\"url\"], expect=\"text\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 579, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://www.ugent.be/en/work/scientific failed: ConnectTimeout: HTTPSConnectionPool(host='www.ugent.be', port=443): Max retries exceeded with url: /en/work/scientific (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ugent.be', port=443) at 0x7f1a8814ea20>, 'Connection to www.ugent.be timed out. (connect timeout=40)'))\n",
-   "secs": 133.7
+   "ok": true,
+   "raw": 9,
+   "matched": 9,
+   "complete": true,
+   "details": 1,
+   "secs": 1.9,
+   "new": 1,
+   "closed": 3
   },
   {
    "id": "uzh-phd",
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 109,
+   "raw": 110,
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.7,
    "new": 0,
    "closed": 0
   },
