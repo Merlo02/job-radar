@@ -496,7 +496,8 @@ JUNIOR_TEXT = re.compile(r"graduate (?:programme|program|scheme|talent|track)|ne
                          r"candidates?)|starting (?:your|their) career|first job|(?:ruolo|profilo|posizione|livello|figura) junior|"
                          r"(?:apert[oaie]|adatt[oa]|pensat[oa]|rivolt[oa]|cerca(?:no)?) (?:anche )?(?:a |ai |agli |a un |ad un |un )?"
                          r"neo-?laureat|appena laureat|programma (?:graduate|per (?:neo-?)?laureati)|nessuna esperienza "
-                         r"(?:richiesta|necessaria)", re.I)
+                         r"(?:richiesta|necessaria)|livello (?:entry|d'ingresso|iniziale)|giovan[ei] (?:diplomat|laureat)|"
+                         r"jeunes? dipl[oô]m|d[ée]butant", re.I)
 RICERCA = {"ricerca": 5, "training": 5, "edge": 4, "data science": 2, "ai-swe": 2, "altro": 1}
 FRONTIER = re.compile(r"pre-?train|post-?train|foundation model|self-supervised|\bllms?\b|large language|multimodal|"
                       r"reinforcement learning|research (?:engineer|scientist)", re.I)

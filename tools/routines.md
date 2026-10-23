@@ -24,10 +24,16 @@ user-facing is in Italian.
    - fit 1–5 with his CV. 5: research, training or edge role close to his work (foundation models,
      self-supervised learning, signals and sensors, on-device ML), open to a junior. 4: good ML or
      research role open to a junior, other domain. 3: applied ML or data science with real
-     modelling, or a strong role with one obstacle (PhD preferred, 2 years asked, very selective).
-     2: adjacent technical role with a real ML part, or a good role with serious obstacles (a
+     modelling open to a new graduate, or a strong role with one obstacle (PhD preferred, 2 years
+     asked). 2: adjacent technical role with a real ML part, or a good role with serious obstacles (a
      language he does not speak, UK without visa sponsorship: 2, not 1, when the role itself fits).
      1: out of profile.
+   - fit 2 at most (he has had only quick rejections from these, 23/10): a PhD among the minimum
+     qualifications, even with "or equivalent practical experience"; Research Scientist roles at big
+     tech and frontier labs that do not say they take a master's degree or new graduates; roles whose
+     core is hands-on experience he does not have (training LLMs at scale, RL or post-training of
+     LLMs, VLA and robot learning, audio DSP) or that ask for an expert or a track record; very
+     selective frontier-lab roles with no sign that they hire new graduates.
    - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
      agents, copilots, prompt engineering); roles without ML; 3 or more years of experience asked (he is a new graduate: write the number in anni,
      the script keeps them out); senior roles, by the
@@ -62,7 +68,8 @@ user-facing is in Italian.
    schede.jsonl: `{"n": 12, "why": "1–2 Italian sentences tying the role to his experience,
    addressing him as tu, with the honest caveat", "req": "short Italian summary of the
    requirements"}` and, only when needed, "flag" (short label such as "Difesa", "In tedesco",
-   "PhD preferito", "Data science", "Programma graduate 2027"), "salary", "kind" ("internship",
+   "PhD preferito", "Data science", "Programma graduate 2027"; "PhD richiesto", "Esperienza richiesta",
+   "Cercano esperto", "Molto selettivo" and "UK senza visto" keep a role out of Apply today), "salary", "kind" ("internship",
    "academic" or "industrial-phd"), "deadline" (YYYY-MM-DD), or "loc", "area", "remote" when the
    script got them wrong. Run `python3 radar.py desc <n> …` only for a promising card that is
    really unclear.

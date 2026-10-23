@@ -164,6 +164,20 @@ a domani anche se Gabriele li segna come inviati. Punteggio: rilevanza 40%, fit 
 dalla data di pubblicazione), +0,05 ai junior, +0,10 se scade entro 7 giorni. Filtri: aperti, ancora da gestire nel
 tracker, fit ≥ 3, rilevanza ≥ 3,5, niente stage, agenzie o annunci che richiedono un visto (flag o motivo del giudizio:
 «senza visto», «serve un visto»), una posizione per azienda. Il pulsante «Inviata» scrive lo stato come la tendina.
+Apply today solo entry level (23/10, chiesto da Gabriele: «ci stiamo candidando alle posizioni sbagliate… spingere su ruoli
+entry level», dopo un Research Scientist di DeepMind con PhD tra i requisiti minimi in cima alla lista e i rifiuti rapidi di
+H Company e Medal). Dal 18/10 al 23/10 quasi tutti gli Apply today erano fit medio con rilevanza ≥ 4,3 e bollini come
+«Molto selettivo», «PhD richiesto», «Cercano esperto»: la rilevanza (40%) batteva il fit. Ora `pickToday()` nella pagina
+prende solo ruoli junior o graduate con fit ≥ 3 e gli altri con fit ≥ 4, rilevanza ≥ 2,5, e scarta: 2 o più anni, bollini
+da esperto o PhD richiesto (o agenzia e visto), requisiti che iniziano con il PhD senza alternativa alla magistrale,
+«esperto di…», «track record», i Research Scientist che non accettano la magistrale, il Regno Unito senza sponsor del visto.
+Ordine: fit 40%, +0,25 ai junior, rilevanza 20%, recenza 15%, scadenze. Se ne trova meno di 5 ne mostra meno. Sui dati
+del 23/10: 25 annunci candidabili, 16 junior. Rubrica della routine: fit 2 al massimo per PhD tra i requisiti minimi (anche
+con «or equivalent practical experience»), Research Scientist di big tech e laboratori che non dicono di accettare la
+magistrale, ruoli che chiedono esperienza pratica che non ha (training di LLM su larga scala, RL o post-training di LLM,
+VLA, DSP audio) o un esperto, ruoli molto selettivi senza segni di assunzioni di neolaureati. `is_junior()` riconosce anche
+«livello entry», «giovane diplomato», «jeune diplômé», «débutant». Una tantum dal terminale: 19 annunci aperti abbassati a
+fit basso con la rubrica nuova (campi `fitPrima` e `fitNota`), 3 segnati junior, Apply today del 23/10 rifatti.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
