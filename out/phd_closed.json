@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-22T20:41:32Z",
+ "generated": "2026-10-23T21:19:44Z",
  "days": 14,
- "count": 69,
+ "count": 71,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -1252,6 +1252,43 @@
    "kind": "academic",
    "closed_at": "2026-10-22T20:41:32Z",
    "reason": "not listed anymore"
+  },
+  {
+   "key": "ugent-phd:141",
+   "co": "Ghent University",
+   "big": true,
+   "title": "Doctoral fellow",
+   "url": "https://www.ugent.be/en/work/scientific/doctoral-fellow-141",
+   "loc": "Gent, Belgium",
+   "loc_status": "eu",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-22T20:41:32Z",
+   "ats": "ugent",
+   "country": "be",
+   "dept": "Department of Biochemistry and Microbiology",
+   "deadline": "2026-10-22",
+   "kind": "academic",
+   "closed_at": "2026-10-23T21:19:44Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "at-nl:364380",
+   "co": "Open Universiteit",
+   "big": true,
+   "title": "Promovendus voor het project MAGIC – More than a tool: the relational meaning of embodied AGents In long-term Care",
+   "url": "https://www.academictransfer.com/en/jobs/364380/promovendus-voor-het-project-magic-more-than-a-tool-the-relational-meaning-of-embodied-agents-in-long-term-care/",
+   "loc": "Heerlen",
+   "loc_status": "eu",
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-06T10:19:13Z",
+   "last_seen": "2026-10-13T21:45:23Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-10-26",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic",
+   "closed_at": "2026-10-23T21:19:44Z",
+   "reason": "not seen for 10+ days"
   }
  ]
 }
