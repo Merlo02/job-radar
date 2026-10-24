@@ -71,8 +71,10 @@ user-facing is in Italian.
    "PhD preferito", "Data science", "Programma graduate 2027"; "PhD richiesto", "Esperienza richiesta",
    "Cercano esperto", "Molto selettivo" and "UK senza visto" keep a role out of Apply today), "salary", "kind" ("internship",
    "academic" or "industrial-phd"), "deadline" (YYYY-MM-DD), or "loc", "area", "remote" when the
-   script got them wrong. Run `python3 radar.py desc <n> …` only for a promising card that is
-   really unclear.
+   script got them wrong. A card titled "Pagina aggiornata: X" is a watched careers page with new
+   lines: when it holds a role he fits, also write "title" (the role's real title, as on the page,
+   so he can find it in the Radar) and "url" when the new lines give the role's own page. Run
+   `python3 radar.py desc <n> …` only for a promising card that is really unclear.
 5. `python3 radar.py docs --db db` writes the documents and prints the batches, the closures and a
    draft of the final message. For each write/batch-N.json call ArtifactData batch with writes =
    the JSON array in that file (new documents: no if_version). Then close every job listed under

@@ -583,7 +583,7 @@ def cmd_docs():
         area, remote = x.get("area") or area, x.get("remote") or remote
         pub = c.get("posted") or (c.get("first_seen") or "")[:10]
         via = c.get("via")
-        title = c.get("title") or ""
+        title = x.get("title") or c.get("title") or ""   # the routine names "Pagina aggiornata: X" cards after the real role
         kind = x.get("kind") or ("internship" if re.search(r"intern|stage|stagiai|praktik|tirocin|werkstudent|working student",
                                                           title, re.I) else
                                  "academic" if ACADEMIC.search(c.get("co") or "") else "job")
@@ -594,7 +594,7 @@ def cmd_docs():
             "prio": prio(j["fit"], rel, junior, area), "rel": rel, "relParts": parts, "junior": junior,
             "co": c.get("co"), "title": title, "loc": x.get("loc") or city,
             "remote": remote, "kind": kind, "fit": "alto" if j["fit"] >= 4 else "medio" if j["fit"] == 3 else "basso",
-            "area": area, "url": c.get("url"), "pub": pub, "posted": pub,
+            "area": area, "url": x.get("url") or c.get("url"), "pub": pub, "posted": pub,
             "pubNote": ("Data in cui lo scanner l'ha visto per la prima volta" if not c.get("posted") else
                         "Data di LinkedIn (può essere una ripubblicazione)" if via == "linkedin" else
                         f"Data di {BOARD_NAME[via]}" if via in BOARD_NAME else "Data dal sito dell'azienda"),

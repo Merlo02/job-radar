@@ -178,6 +178,15 @@ magistrale, ruoli che chiedono esperienza pratica che non ha (training di LLM su
 VLA, DSP audio) o un esperto, ruoli molto selettivi senza segni di assunzioni di neolaureati. `is_junior()` riconosce anche
 «livello entry», «giovane diplomato», «jeune diplômé», «débutant». Una tantum dal terminale: 19 annunci aperti abbassati a
 fit basso con la rubrica nuova (campi `fitPrima` e `fitNota`), 3 segnati junior, Apply today del 23/10 rifatti.
+24/10 (Gabriele: AI4I con fit alto non era negli Apply today e non lo trovava nel Radar). Tre cause: la pagina era stata
+aperta poco dopo mezzanotte e aveva fissato la lista del giorno prima che la routine aggiungesse gli annunci nuovi; il
+bonus junior (+0,25) faceva passare un fit medio junior davanti a un fit 5; la regola sugli anni scattava su «1-3 anni
+oppure neolaureati». La scheda si chiamava «Pagina aggiornata: AI4I (Torino)» (le pagine `watch` dello scanner) e stava
+nella scheda Recentissime. Ora: la lista si salva solo dopo il giro del mattino (un annuncio con `added` o `checked` di
+oggi) o dopo mezzogiorno, prima è provvisoria; bonus junior +0,15 (vale circa un punto di fit); gli anni dai requisiti
+contano solo se non sono un intervallo che parte da 0 o 1 e il ruolo non è junior; la routine può scrivere `title` e
+`url` in schede.jsonl per le schede «Pagina aggiornata» e `radar.py docs` li usa. Snap Machine Learning Engineer (Parigi,
+team BCI) chiuso: 3+ anni nei requisiti minimi.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
