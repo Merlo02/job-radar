@@ -1,15 +1,14 @@
 {
- "run_at": "2026-10-24T19:12:42Z",
- "duration_s": 225,
+ "run_at": "2026-10-25T19:11:49Z",
+ "duration_s": 207,
  "sources": 55,
  "failed": [
-  "dn-elevate",
   "dn-surerob"
  ],
  "blocked": [],
- "new": 12,
- "open": 545,
- "recent": 204,
+ "new": 2,
+ "open": 544,
+ "recent": 193,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -28,9 +27,9 @@
    "raw": 148,
    "matched": 112,
    "complete": true,
-   "details": 7,
-   "secs": 59.4,
-   "new": 7,
+   "details": 0,
+   "secs": 45.4,
+   "new": 0,
    "closed": 0
   },
   {
@@ -38,25 +37,25 @@
    "co": "AcademicTransfer",
    "type": "academictransfer",
    "ok": true,
-   "raw": 59,
-   "matched": 49,
+   "raw": 57,
+   "matched": 47,
    "complete": false,
    "details": 0,
-   "secs": 224.6,
+   "secs": 206.7,
    "new": 0,
-   "closed": 4
+   "closed": 2
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 400,
-   "matched": 262,
+   "raw": 405,
+   "matched": 264,
    "complete": true,
    "details": 0,
    "secs": 0.1,
-   "new": 5,
+   "new": 2,
    "closed": 0
   },
   {
@@ -67,7 +66,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 0.9
   },
   {
    "id": "dn-aegis",
@@ -87,7 +86,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 1.9
   },
   {
    "id": "dn-bridge-ai",
@@ -97,7 +96,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-bug-id",
@@ -117,7 +116,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.3
   },
   {
    "id": "dn-capture",
@@ -137,7 +136,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "dn-cdtnet",
@@ -147,7 +146,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.5
   },
   {
    "id": "dn-combine",
@@ -157,7 +156,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.2
+   "secs": 5.9
   },
   {
    "id": "dn-diamond",
@@ -167,7 +166,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "id": "dn-elegance",
@@ -183,10 +182,11 @@
    "id": "dn-elevate",
    "co": "ELEVATE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: GET https://www.elevate-dn.eu/ failed: HTTP 500",
-   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2231, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.elevate-dn.eu/ failed: HTTP 500\n",
-   "secs": 58.7
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 2.2
   },
   {
    "id": "dn-emanaire",
@@ -196,7 +196,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "id": "dn-endure",
@@ -206,7 +206,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 2.1
   },
   {
    "id": "dn-evomg-dn",
@@ -216,7 +216,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.6
+   "secs": 5.4
   },
   {
    "id": "dn-fados",
@@ -226,7 +226,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.9
   },
   {
    "id": "dn-framebio",
@@ -236,7 +236,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.8
   },
   {
    "id": "dn-genaide",
@@ -256,7 +256,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.5
   },
   {
    "id": "dn-heal-4ward",
@@ -266,7 +266,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.8
   },
   {
    "id": "dn-her-care",
@@ -276,7 +276,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.4
   },
   {
    "id": "dn-intros",
@@ -286,7 +286,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.4
   },
   {
    "id": "dn-istride",
@@ -296,7 +296,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.7
+   "secs": 2.5
   },
   {
    "id": "dn-justhealth",
@@ -306,7 +306,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.8
   },
   {
    "id": "dn-lowdataml",
@@ -316,7 +316,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.3
   },
   {
    "id": "dn-mediculous-remedy",
@@ -326,7 +326,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 1.6
   },
   {
    "id": "dn-met2adapt",
@@ -346,7 +346,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.6
   },
   {
    "id": "dn-miningbrines",
@@ -356,7 +356,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 2.7
   },
   {
    "id": "dn-mlcare",
@@ -366,7 +366,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 3.7
   },
   {
    "id": "dn-orfeus",
@@ -386,7 +386,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 2.9
   },
   {
    "id": "dn-realise",
@@ -406,7 +406,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 1.7
   },
   {
    "id": "dn-specx",
@@ -435,7 +435,7 @@
    "ok": false,
    "error": "RuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "trace": "scan.py\", line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
-   "secs": 133.9
+   "secs": 134.1
   },
   {
    "id": "dn-trackaf",
@@ -445,7 +445,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.3
   },
   {
    "id": "dn-train-fast",
@@ -455,7 +455,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.3
   },
   {
    "id": "dn-unchange",
@@ -465,7 +465,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.1
+   "secs": 3.2
   },
   {
    "id": "dn-variabiliti",
@@ -475,7 +475,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.7
   },
   {
    "id": "dn-wildbotics",
@@ -496,7 +496,7 @@
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.4,
+   "secs": 3.5,
    "new": 0,
    "closed": 0
   },
@@ -509,7 +509,7 @@
    "matched": 26,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -524,7 +524,7 @@
    "details": 0,
    "secs": 0.0,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "kuleuven-phd",
@@ -535,9 +535,9 @@
    "matched": 17,
    "complete": true,
    "details": 0,
-   "secs": 2.8,
+   "secs": 2.5,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "naver-labs",
@@ -548,7 +548,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -571,7 +571,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 2.6,
+   "secs": 2.2,
    "new": 0,
    "closed": 0
   },
@@ -580,11 +580,11 @@
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 111,
+   "raw": 110,
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 2.1,
    "new": 0,
    "closed": 0
   },

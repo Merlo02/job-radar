@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-24T19:12:42Z",
+ "generated": "2026-10-25T19:11:49Z",
  "days": 14,
- "count": 78,
+ "count": 80,
  "items": [
   {
    "key": "ethz-phd:JOPG_ethz_Ih97fhUFUHgau6p6vS",
@@ -1416,6 +1416,44 @@
    "salary": "€3706–5760 lordi/mese",
    "kind": "academic",
    "closed_at": "2026-10-24T19:12:42Z",
+   "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "at-nl:363827",
+   "co": "TU Delft",
+   "big": true,
+   "title": "PhD Position Amplitude & Phase Control in Optical Metrology",
+   "url": "https://www.academictransfer.com/en/jobs/363827/phd-position-amplitude-phase-control-in-optical-metrology/",
+   "loc": "Delft",
+   "loc_status": "eu",
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-06T10:19:13Z",
+   "last_seen": "2026-10-15T21:13:53Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-10-15",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic",
+   "closed_at": "2026-10-25T19:11:49Z",
+   "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "at-nl:364266",
+   "co": "TU Delft",
+   "big": true,
+   "title": "PhD Position Numerical Analysis",
+   "url": "https://www.academictransfer.com/en/jobs/364266/phd-position-numerical-analysis/",
+   "loc": "Delft",
+   "loc_status": "eu",
+   "posted": "2026-09-28",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-15T21:13:53Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-12-20",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic",
+   "closed_at": "2026-10-25T19:11:49Z",
    "reason": "not seen for 10+ days"
   }
  ]
