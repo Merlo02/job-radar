@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-27T12:33:38Z",
+ "generated": "2026-10-27T19:43:59Z",
  "days": 14,
- "count": 257,
+ "count": 261,
  "items": [
   {
    "key": "helsing:4972043101",
@@ -4094,6 +4094,70 @@
    "dept": "Research Science",
    "closed_at": "2026-10-27T12:33:38Z",
    "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "ibm:137224",
+   "co": "IBM",
+   "target": "ibm",
+   "big": true,
+   "title": "Data Scientist (AI) | National Security - eSC/eDV Required",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=137224",
+   "loc": "Multiple Cities, United Kingdom · Hybrid",
+   "loc_status": "eu",
+   "posted": "2026-10-23",
+   "first_seen": "2026-10-23T18:47:14Z",
+   "last_seen": "2026-10-27T12:33:38Z",
+   "ats": "ibm",
+   "dept": "Data & Analytics",
+   "closed_at": "2026-10-27T19:43:59Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "pinterest:8267930",
+   "co": "Pinterest",
+   "big": true,
+   "title": "University Grad Machine Learning Engineer 2027 (Zurich)",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8267930",
+   "loc": "Zurich, CH",
+   "loc_status": "eu",
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-16T18:29:58Z",
+   "last_seen": "2026-10-27T12:33:38Z",
+   "ats": "greenhouse",
+   "closed_at": "2026-10-27T19:43:59Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "deepmind:114850654828012230",
+   "co": "Google DeepMind",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Scientist, Frontier Computation, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/114850654828012230-research-scientist-frontier-computation-deepmind",
+   "loc": "London, UK (GB)",
+   "loc_status": "eu",
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21T19:01:32Z",
+   "last_seen": "2026-10-27T12:33:38Z",
+   "ats": "google",
+   "closed_at": "2026-10-27T19:43:59Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "google-eu:114850654828012230",
+   "co": "Google DeepMind",
+   "target": "deepmind",
+   "big": true,
+   "title": "Research Scientist, Frontier Computation, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/114850654828012230-research-scientist-frontier-computation-deepmind",
+   "loc": "London, UK (GB)",
+   "loc_status": "eu",
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21T19:01:32Z",
+   "last_seen": "2026-10-27T12:33:38Z",
+   "ats": "google",
+   "closed_at": "2026-10-27T19:43:59Z",
+   "reason": "not listed anymore"
   }
  ]
 }
