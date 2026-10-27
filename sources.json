@@ -1327,6 +1327,17 @@
   "site": "Criteo_Career_Site"
  },
  {
+  "id": "hp",
+  "co": "HP",
+  "target": null,
+  "big": true,
+  "type": "workday",
+  "host": "hp.wd5.myworkdayjobs.com",
+  "tenant": "hp",
+  "site": "ExternalCareerSite",
+  "aliases": ["HP Inc", "HP Inc."]
+ },
+ {
   "id": "linkedin",
   "co": "LinkedIn",
   "type": "jobspy",
