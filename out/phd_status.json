@@ -1,15 +1,16 @@
 {
- "run_at": "2026-10-26T22:24:38Z",
- "duration_s": 183,
+ "run_at": "2026-10-27T15:13:13Z",
+ "duration_s": 276,
  "sources": 55,
  "failed": [
   "abg",
-  "dn-unchange"
+  "criteo-ai-lab",
+  "dn-variabiliti"
  ],
  "blocked": [],
- "new": 28,
- "open": 568,
- "recent": 213,
+ "new": 20,
+ "open": 584,
+ "recent": 204,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -27,7 +28,7 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2231, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2068, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 563, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 3.1
+   "secs": 2.5
   },
   {
    "id": "at-nl",
@@ -38,8 +39,8 @@
    "matched": 44,
    "complete": false,
    "details": 0,
-   "secs": 182.4,
-   "new": 2,
+   "secs": 205.6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -47,23 +48,22 @@
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 436,
-   "matched": 283,
+   "raw": 461,
+   "matched": 297,
    "complete": true,
    "details": 0,
    "secs": 0.1,
-   "new": 19,
+   "new": 14,
    "closed": 0
   },
   {
    "id": "criteo-ai-lab",
    "co": "Criteo AI Lab",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 0.9
+   "ok": false,
+   "error": "RuntimeError: GET https://ailab.criteo.com/careers/ failed: ConnectTimeout: HTTPSConnectionPool(host='ailab.criteo.com', port=443): Max retries exceeded with url: /careers/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ailab.criteo.com', port=443) at 0x7f2aa48686e0>, 'Connection to ailab.criteo.com timed ",
+   "trace": "st\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://ailab.criteo.com/careers/ failed: ConnectTimeout: HTTPSConnectionPool(host='ailab.criteo.com', port=443): Max retries exceeded with url: /careers/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ailab.criteo.com', port=443) at 0x7f2aa48686e0>, 'Connection to ailab.criteo.com timed out. (connect timeout=40)'))\n",
+   "secs": 133.5
   },
   {
    "id": "dn-aegis",
@@ -73,8 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9,
-   "new": 1
+   "secs": 1.0
   },
   {
    "id": "dn-biohybrite",
@@ -84,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 1.7
   },
   {
    "id": "dn-bridge-ai",
@@ -94,7 +93,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-bug-id",
@@ -104,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 1.5
   },
   {
    "id": "dn-cafe-bio",
@@ -124,7 +123,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.4
   },
   {
    "id": "dn-cavecore",
@@ -134,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "id": "dn-cdtnet",
@@ -144,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.5
   },
   {
    "id": "dn-combine",
@@ -154,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.4
+   "secs": 4.2
   },
   {
    "id": "dn-diamond",
@@ -164,7 +163,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.2
   },
   {
    "id": "dn-elegance",
@@ -174,7 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.2
   },
   {
    "id": "dn-elevate",
@@ -184,7 +183,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 1.6
   },
   {
    "id": "dn-emanaire",
@@ -194,7 +193,8 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.7,
+   "new": 1
   },
   {
    "id": "dn-endure",
@@ -204,7 +204,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.7
   },
   {
    "id": "dn-evomg-dn",
@@ -214,7 +214,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.6
+   "secs": 3.6
   },
   {
    "id": "dn-fados",
@@ -224,7 +224,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.1
   },
   {
    "id": "dn-framebio",
@@ -234,7 +234,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.4
   },
   {
    "id": "dn-genaide",
@@ -244,7 +244,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-genome",
@@ -254,7 +254,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.4
   },
   {
    "id": "dn-heal-4ward",
@@ -264,7 +264,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-her-care",
@@ -274,7 +274,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.0
   },
   {
    "id": "dn-intros",
@@ -294,7 +294,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.2
+   "secs": 4.0
   },
   {
    "id": "dn-justhealth",
@@ -304,7 +304,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-lowdataml",
@@ -314,7 +314,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-mediculous-remedy",
@@ -324,7 +324,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 0.8
   },
   {
    "id": "dn-met2adapt",
@@ -334,7 +334,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-mindnet",
@@ -344,7 +344,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.7
   },
   {
    "id": "dn-miningbrines",
@@ -354,7 +354,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 1.8
   },
   {
    "id": "dn-mlcare",
@@ -364,7 +364,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 2.4
   },
   {
    "id": "dn-orfeus",
@@ -374,7 +374,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.0
   },
   {
    "id": "dn-protaiomics",
@@ -384,7 +384,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.9
+   "secs": 2.4
   },
   {
    "id": "dn-realise",
@@ -394,7 +394,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.0
   },
   {
    "id": "dn-reffracteur",
@@ -404,7 +404,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 1.5
   },
   {
    "id": "dn-specx",
@@ -414,7 +414,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.1
+   "secs": 2.8
   },
   {
    "id": "dn-spring",
@@ -424,7 +424,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.5
   },
   {
    "id": "dn-surerob",
@@ -434,7 +434,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 2.1
   },
   {
    "id": "dn-trackaf",
@@ -444,7 +444,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.0
   },
   {
    "id": "dn-train-fast",
@@ -454,26 +454,26 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-unchange",
    "co": "UNCHANGE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: GET https://unchange-dn.eu/index.php/vacant-positions/ failed: ConnectionError: HTTPSConnectionPool(host='unchange-dn.eu', port=443): Max retries exceeded with url: /index.php/vacant-positions/ (Caused by NewConnectionError(\"HTTPSConnection(host='unchange-dn.eu', port=443): Failed to establish a new",
-   "trace": "t(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://unchange-dn.eu/index.php/vacant-positions/ failed: ConnectionError: HTTPSConnectionPool(host='unchange-dn.eu', port=443): Max retries exceeded with url: /index.php/vacant-positions/ (Caused by NewConnectionError(\"HTTPSConnection(host='unchange-dn.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
-   "secs": 133.4
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 2.5
   },
   {
    "id": "dn-variabiliti",
    "co": "VARIABILITI (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.0
+   "ok": false,
+   "error": "RuntimeError: GET https://variabiliti-dn.eu/ failed: ConnectionError: HTTPSConnectionPool(host='variabiliti-dn.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='variabiliti-dn.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachab",
+   "trace": " line 2140, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 707, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://variabiliti-dn.eu/ failed: ConnectionError: HTTPSConnectionPool(host='variabiliti-dn.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='variabiliti-dn.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
+   "secs": 253.8
   },
   {
    "id": "dn-wildbotics",
@@ -494,8 +494,8 @@
    "matched": 5,
    "complete": false,
    "details": 0,
-   "secs": 3.6,
-   "new": 2,
+   "secs": 2.8,
+   "new": 0,
    "closed": 0
   },
   {
@@ -503,12 +503,12 @@
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 130,
-   "matched": 26,
+   "raw": 134,
+   "matched": 29,
    "complete": true,
-   "details": 0,
-   "secs": 1.3,
-   "new": 0,
+   "details": 3,
+   "secs": 2.5,
+   "new": 3,
    "closed": 0
   },
   {
@@ -516,25 +516,25 @@
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 37,
-   "matched": 37,
+   "raw": 36,
+   "matched": 36,
    "complete": true,
    "details": 0,
    "secs": 0.0,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 26,
+   "raw": 27,
    "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 2.5,
-   "new": 0,
+   "secs": 2.4,
+   "new": 1,
    "closed": 1
   },
   {
@@ -558,7 +558,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.6
   },
   {
    "id": "ugent-phd",
@@ -569,22 +569,22 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 2.6,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "uzh-phd",
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 115,
-   "matched": 13,
+   "raw": 116,
+   "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 2.1,
-   "new": 4,
-   "closed": 0
+   "secs": 1.8,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "valeo-ai",
@@ -594,7 +594,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.4
   }
  ]
 }
