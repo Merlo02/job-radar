@@ -1,14 +1,14 @@
 {
- "run_at": "2026-10-28T10:54:08Z",
- "duration_s": 235,
+ "run_at": "2026-10-28T21:46:04Z",
+ "duration_s": 175,
  "sources": 55,
  "failed": [
   "abg"
  ],
  "blocked": [],
- "new": 3,
- "open": 595,
- "recent": 189,
+ "new": 31,
+ "open": 617,
+ "recent": 220,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -26,7 +26,7 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2286, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2123, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 2.6
+   "secs": 3.2
   },
   {
    "id": "at-nl",
@@ -37,21 +37,21 @@
    "matched": 44,
    "complete": false,
    "details": 0,
-   "secs": 234.8,
+   "secs": 175.1,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 490,
-   "matched": 309,
+   "raw": 516,
+   "matched": 328,
    "complete": true,
    "details": 0,
    "secs": 0.1,
-   "new": 3,
+   "new": 19,
    "closed": 0
   },
   {
@@ -62,7 +62,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "id": "dn-aegis",
@@ -72,7 +72,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-biohybrite",
@@ -92,7 +92,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-bug-id",
@@ -102,7 +102,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.3
   },
   {
    "id": "dn-cafe-bio",
@@ -112,7 +112,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-capture",
@@ -122,7 +122,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.6
   },
   {
    "id": "dn-cavecore",
@@ -132,7 +132,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.9
   },
   {
    "id": "dn-cdtnet",
@@ -142,7 +142,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.7
   },
   {
    "id": "dn-combine",
@@ -152,7 +152,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.9
+   "secs": 5.5
   },
   {
    "id": "dn-diamond",
@@ -172,7 +172,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.4
   },
   {
    "id": "dn-elevate",
@@ -182,7 +182,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.6
+   "secs": 3.0
   },
   {
    "id": "dn-emanaire",
@@ -202,7 +202,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.6
   },
   {
    "id": "dn-evomg-dn",
@@ -212,7 +212,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.3
+   "secs": 5.0
   },
   {
    "id": "dn-fados",
@@ -222,7 +222,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.9
   },
   {
    "id": "dn-framebio",
@@ -232,7 +232,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 1.2
   },
   {
    "id": "dn-genaide",
@@ -242,7 +242,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.2
   },
   {
    "id": "dn-genome",
@@ -262,7 +262,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.1
   },
   {
    "id": "dn-her-care",
@@ -272,7 +272,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.4
   },
   {
    "id": "dn-intros",
@@ -282,7 +282,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.3
   },
   {
    "id": "dn-istride",
@@ -292,7 +292,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 2.2
   },
   {
    "id": "dn-justhealth",
@@ -302,7 +302,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 1.1
   },
   {
    "id": "dn-lowdataml",
@@ -322,7 +322,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-met2adapt",
@@ -342,7 +342,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 1.3
   },
   {
    "id": "dn-miningbrines",
@@ -352,7 +352,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.8
   },
   {
    "id": "dn-mlcare",
@@ -362,7 +362,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.3
+   "secs": 2.4
   },
   {
    "id": "dn-orfeus",
@@ -372,7 +372,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-protaiomics",
@@ -382,7 +382,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 3.2
   },
   {
    "id": "dn-realise",
@@ -392,7 +392,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.0
   },
   {
    "id": "dn-reffracteur",
@@ -412,7 +412,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.7
   },
   {
    "id": "dn-spring",
@@ -422,7 +422,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "id": "dn-surerob",
@@ -432,7 +432,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 2.5
   },
   {
    "id": "dn-trackaf",
@@ -452,7 +452,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.3
   },
   {
    "id": "dn-unchange",
@@ -462,7 +462,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.8
+   "secs": 4.1
   },
   {
    "id": "dn-variabiliti",
@@ -472,7 +472,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 1.0
   },
   {
    "id": "dn-wildbotics",
@@ -495,7 +495,7 @@
    "details": 0,
    "secs": 3.2,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "ethz-phd",
@@ -506,34 +506,34 @@
    "matched": 28,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.0,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "industrial",
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 38,
-   "matched": 38,
+   "raw": 39,
+   "matched": 39,
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 0,
-   "closed": 1
+   "new": 10,
+   "closed": 9
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 27,
-   "matched": 16,
+   "raw": 29,
+   "matched": 18,
    "complete": true,
    "details": 0,
-   "secs": 2.9,
-   "new": 0,
+   "secs": 1.7,
+   "new": 2,
    "closed": 0
   },
   {
@@ -557,7 +557,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.3
   },
   {
    "id": "ugent-phd",
@@ -568,7 +568,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
+   "secs": 0.9,
    "new": 0,
    "closed": 0
   },
@@ -577,11 +577,11 @@
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 118,
+   "raw": 119,
    "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
+   "secs": 1.9,
    "new": 0,
    "closed": 0
   },
