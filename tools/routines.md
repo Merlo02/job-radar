@@ -39,13 +39,25 @@ user-facing is in Italian.
      the script keeps them out); senior roles, by the
      title (senior, staff, lead, principal, manager, director) or by the text ("a senior role",
      "we are looking for a Senior…", Level 6 or above, leads delivery and mentors other engineers):
-     he is a new graduate and never applies to them; internships only for enrolled students;
+     he is a new graduate and never applies to them; internships for enrolled students only (curricular,
+     end-of-studies, thesis, "currently enrolled", "returning to university", French stage with a convention);
      strict PhD requirement; data-labelling and AI-tutor gigs (Alignerr, Outlier, Mercor and
-     similar); pure data engineering, MLOps, BI or reporting; staffing agencies and consulting
+     similar); pure data engineering, BI or reporting (MLOps only as below); staffing agencies and consulting
      body-shops (the AI units of top consulting firms such as QuantumBlack, BCG X and Bain are
      fine); sales, pre-sales or forward-deployed roles for experienced hires; academic PhD
      positions (they go to the PhD map).
    - Data science and consulting AI units: fit 3 at most.
+   - Software engineering on ML teams (28/10, Gabriele: a SWE role at a top company is a way in, then move
+     to a research team): "Software Engineer, Machine Learning", ML infrastructure or platform, inference,
+     MLOps, deep learning libraries, open to new graduates: fit 3 at big tech, frontier labs and strong AI
+     companies (4 if the team trains or serves its own models), fit 2 elsewhere. AI-SWE stays fit 1.
+   - Internships, graduate programmes and residencies: he graduates in December 2026 and can still do an
+     internship afterwards (through the Politecnico, up to 6 months within 12 months of the degree; in Italy a
+     tirocinio extracurriculare). An ML internship that does not ask for enrolment is judged like a junior role
+     in the same field; with fit 3 or more write kind "internship" and the flag "Stage per neolaureati" when
+     the text welcomes graduates, otherwise "Stage: verifica se accetta laureati". The script already gives
+     fit 1 to the internships whose text asks for enrolment. Graduate trainee programmes (ESA, Prosus AI Talent
+     Lab…) and AI residencies are junior roles: flag "Programma graduate 2027".
    - prestigio 1–5, how good and well known the company is (a name that makes a CV stand out):
      5 big tech (Google, Apple, Meta, Amazon, Microsoft, NVIDIA…, any team), frontier AI labs
      (DeepMind, OpenAI, Anthropic, Mistral, Cohere…), deep-tech scale-ups and startups everyone in AI

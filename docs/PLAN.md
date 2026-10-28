@@ -187,6 +187,24 @@ oggi) o dopo mezzogiorno, prima è provvisoria; bonus junior +0,15 (vale circa u
 contano solo se non sono un intervallo che parte da 0 o 1 e il ruolo non è junior; la routine può scrivere `title` e
 `url` in schede.jsonl per le schede «Pagina aggiornata» e `radar.py docs` li usa. Snap Machine Learning Engineer (Parigi,
 team BCI) chiuso: 3+ anni nei requisiti minimi.
+28/10 (Gabriele, dopo la chiusura del ruolo Pinterest: «dobbiamo anche puntare ai tirocini», e i ruoli da ML Engineer per
+neolaureati in Europa sono rarissimi, quindi anche SWE nei team ML delle aziende top). Stage: lo scanner scartava tutti gli
+stage (`NOT_A_JOB`); ora passano quelli con un titolo ML (`ml_internship`), perché Gabriele si laurea a dicembre 2026 e può
+farne uno dopo la laurea (post-lauream del Politecnico: entro 12 mesi dal titolo, al massimo 6 mesi, anche all'estero).
+Restano fuori tesi, working student, apprendistati, stage curricolari, di fine studi e per dottorandi (`STUDENT_ONLY`).
+Se il testo chiede l'iscrizione (`ENROLLED_TEXT`: «currently enrolled», «working towards a Master's», «returning to
+university», «immatrikuliert», «convention de stage») e non accoglie i laureati (`GRADS_TEXT`), lo scanner scrive la frase
+nel campo `students_only` di `candidates.json` e `new_cards.json` e `radar.py cards` lo giudica da solo con fit 1. Rubrica:
+stage aperti ai laureati come un ruolo junior (bollino «Stage per neolaureati» o «Stage: verifica se accetta laureati»);
+SWE nei team ML (Software Engineer ML, infrastruttura e piattaforma ML, inference, MLOps) fit 3 nelle aziende top, 4 se il
+team allena o serve modelli propri, 2 altrove; programmi graduate e residency sono ruoli junior. Fonti nuove: Analog Devices,
+Silicon Labs, Cadence (Workday), Synopsys (Radancy), Prosus (AI Talent Lab), Plumerai, Innatera (Ashby), Prophesee
+(Teamtailor), e `apple-residency`: la ricerca Apple negli Stati Uniti tenuta solo per i titoli «Resident» (opzione
+`title_only`, con `ignore_location`), per vedere quando apre la AIML Residency (la tornata 2026 chiudeva il 15/12/2025).
+LinkedIn: la ricerca graduate prende anche «new college grad», traineeship e residency; due ricerche nuove, SWE nei team
+ML e stage ML. Indeed: «software engineer machine learning» e «machine learning internship». L'ESA Graduate Trainee
+(circa 100 posti ogni febbraio, per chi si è laureato da meno di un anno) arriva già dalla fonte `esa`. Nella pagina, Apply
+today scarta ancora gli stage: si cambia da una sessione claude.ai se Gabriele li vuole lì.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

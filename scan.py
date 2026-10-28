@@ -193,6 +193,8 @@ def msca_eligibility(e):
 
 
 def keep_title(src, r):
+    if src.get("title_only") and not re.search(src["title_only"], r.get("title") or "", re.I):
+        return False   # a source kept for one programme only (e.g. Apple's AIML Residency in the US)
     if PROFILE != "phd":
         return wide_ok(r["title"], r.get("dept"))
     t = r.get("title") or ""
@@ -276,11 +278,53 @@ NOT_A_JOB = re.compile(
     r"\bdozent", re.I)
 
 
+# Internships with an ML title stay (28/10): Gabriele graduates in December 2026 and can still do one afterwards
+# (post-lauream through the Politecnico, up to 6 months within 12 months of the degree). Thesis, working-student,
+# apprenticeship, curricular and PhD internships stay out: by their name they are for enrolled students only.
+INTERN = re.compile(r"\bintern\b|\binterns\b|internship|praktik\w*|\bstage\b|stagiaire|tirocin\w*|stagista|"
+                    r"summer student", re.I)
+STUDENT_ONLY = re.compile(r"pflicht|mandatory|(?<!extra)(?<!extra-)curricular|fin d'[ée]tudes|end[- ]of[- ]studies|\bph\.?\s?d\b|doctoral|"
+                          r"undergrad|bachelor|placement|co-?op\b", re.I)
+# the posting asks to be enrolled (Radar routine: fit 1 by the script), unless it also welcomes graduates
+ENROLLED_TEXT = re.compile(
+    r"(?:currently|must be|be|are|still|actively)\s+(?:enrolled|registered|matriculated)\b"
+    r"|enrolled (?:full[- ]time )?(?:in|at) (?:a|an|your)\b|(?:currently|actively) (?:pursuing|studying)\b"
+    r"|working towards? (?:a|an|your) (?:\w+ ){0,2}(?:degree|bachelor|master|ph\.?d)"
+    r"|returning to (?:school|university|your (?:studies|degree|university|program))|return to (?:school|university|your studies)"
+    r"|(?:remaining|left) (?:in|of) your (?:studies|degree|program)|student status|proof of enrou?l?ment|enrolment certificate"
+    r"|immatrikuliert|eingeschrieben|immatrikulation|pflichtpraktikum|convention de stage|stage de fin d'[ée]tudes"
+    r"|[ée]tudiant(?:e)?s? en (?:derni[èe]re ann[ée]e|master|[ée]cole)|iscritt[oaie] (?:a|al|ad|presso)\b|studente universitario",
+    re.I)
+GRADS_TEXT = re.compile(
+    r"recent(?:ly)? graduat|graduated (?:with)?in the (?:last|past)|within (?:\w+ )?(?:\d+ )?(?:months?|years?) of graduat"
+    r"|(?:students|student) or (?:recent )?graduates|graduates are (?:also )?(?:welcome|eligible)|after (?:your )?graduation"
+    r"|neolaureat|post[- ]?lauream|tirocinio extracurricular|jeunes? dipl[ôo]m|absolvent|hochschulabsolvent", re.I)
+
+
+def ml_internship(title):
+    """An internship with an ML title that is not, by its name, only for enrolled students."""
+    t = title or ""
+    if not INTERN.search(t) or STUDENT_ONLY.search(t):
+        return False
+    rest = re.sub(r"extra-?curricular\w*", " ", INTERN.sub(" ", t), flags=re.I)   # Italian post-degree internships
+    return not NOT_A_JOB.search(rest) and title_ok(rest)
+
+
+def students_only(text):
+    """The words saying an internship is for enrolled students only, or None (not when graduates are welcome)."""
+    m = ENROLLED_TEXT.search(text or "")
+    if not m or GRADS_TEXT.search(text or ""):
+        return None
+    return re.sub(r"\s+", " ", m.group(0)).strip()
+
+
 def wide_ok(title, dept=""):
     """Phase 2 filter: drop only non-technical functions, impossible seniority and non-jobs."""
     t = re.sub(r"member of (?:the )?technical staff", "MTS", title or "", flags=re.I)
-    if TOO_SENIOR.search(t) or NOT_A_JOB.search(t) or GIG.search(t):
+    if TOO_SENIOR.search(t) or GIG.search(t):
         return False
+    if NOT_A_JOB.search(t):
+        return ml_internship(t)
     if title_ok(t) and ML_ROLE.search(t):   # an ML role stays whatever function it names ("Applied Scientist, Procurement")
         return True
     if NOT_TECH.search(t) or (NOT_TECH.search(dept or "") and not TECH_ANCHOR.search(t)):
@@ -355,6 +399,16 @@ def mark_senior(e, text):
         e["score"] = (e.get("score") or 0) - 3
 
 
+def mark_students_only(e, text):
+    """An internship whose text asks for current enrolment: the words that say it (the Radar routine drops these)."""
+    if not INTERN.search(e.get("title") or ""):
+        return
+    s = students_only(text)
+    if s and not e.get("students_only"):
+        e["students_only"] = s
+        e["kw"] = (e.get("kw") or []) + ["-studenti"]
+
+
 def assess(e, text):
     """Score, keywords, years and a ~400-character card for one posting."""
     full = f"{e.get('title', '')}\n{text or ''}"
@@ -375,6 +429,7 @@ def assess(e, text):
     e["score"], e["kw"], e["years"] = score, kw, years
     e["card"] = flat[start:start + 420].rsplit(" ", 1)[0] if len(flat) > start + 420 else flat[start:]
     mark_senior(e, full)
+    mark_students_only(e, full)
 
 
 # ------------------------------------------------------------- location filter
@@ -1284,7 +1339,7 @@ def apple_list(src):
     for code in src.get("countries") or APPLE_EU:
         total = 0
         for page in range(1, 16):
-            body = {"query": "", "filters": {"locations": [f"postLocation-{code}"]}, "page": page,
+            body = {"query": src.get("query", ""), "filters": {"locations": [f"postLocation-{code}"]}, "page": page,
                     "locale": "en-gb", "sort": "newest",
                     "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}}
             for attempt in range(4):   # now and then a search comes back empty for no reason: ask again
@@ -2251,7 +2306,7 @@ def run_source(src, known_keys, has_detail):
             if ls == "no" and not src.get("ignore_location"):
                 continue
             r["loc_status"] = "eu" if src.get("ignore_location") else ls
-            r["ml"] = PROFILE == "phd" or title_ok(r["title"])
+            r["ml"] = PROFILE == "phd" or title_ok(r["title"]) or ml_internship(r["title"])
             matched.append(r)
         matched.sort(key=lambda r: not r["ml"])   # ML titles get the detail requests first
         n_detail, kept = 0, []
@@ -2269,7 +2324,7 @@ def run_source(src, known_keys, has_detail):
                 if r.get("_slug_title"):
                     if not keep_title(src, r):
                         continue
-                    r["ml"] = PROFILE == "phd" or title_ok(r["title"])
+                    r["ml"] = PROFILE == "phd" or title_ok(r["title"]) or ml_internship(r["title"])
                 ls = loc_status(r.get("loc"))
                 if ls == "no" and not src.get("ignore_location"):
                     continue
@@ -2308,7 +2363,7 @@ def candidate(e, descs):
     job; the description (up to DESC_MAX characters) only for postings first seen in DESC_DAYS."""
     keys = ["key", "src", "co", "title", "loc", "loc_status", "posted", "first_seen", "url", "apply_url", "ats",
             "target", "big", "baseline", "score", "years", "kw", "card", "level", "dept", "deadline", "salary",
-            "country", "senior"]
+            "country", "senior", "students_only"]
     c = {k: e.get(k) for k in keys if e.get(k) not in (None, "", [])}
     c["ml"] = e.get("ml", True)
     if e.get("ats") == "watch":
@@ -2605,6 +2660,7 @@ def main():
                         assess(e, desc_full)
                     else:
                         mark_senior(e, desc_full)
+                        mark_students_only(e, desc_full)
                 elif "score" not in e:
                     assess(e, e.get("desc") or "")
             st["new"] = n_new

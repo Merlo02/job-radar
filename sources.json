@@ -1335,7 +1335,105 @@
   "host": "hp.wd5.myworkdayjobs.com",
   "tenant": "hp",
   "site": "ExternalCareerSite",
-  "aliases": ["HP Inc", "HP Inc."]
+  "aliases": [
+   "HP Inc",
+   "HP Inc."
+  ]
+ },
+ {
+  "id": "adi",
+  "co": "Analog Devices",
+  "target": null,
+  "big": true,
+  "type": "workday",
+  "host": "analogdevices.wd1.myworkdayjobs.com",
+  "tenant": "analogdevices",
+  "site": "External",
+  "aliases": [
+   "ADI"
+  ]
+ },
+ {
+  "id": "silabs",
+  "co": "Silicon Labs",
+  "target": null,
+  "big": false,
+  "type": "workday",
+  "host": "silabs.wd1.myworkdayjobs.com",
+  "tenant": "silabs",
+  "site": "SiliconlabsCareers",
+  "aliases": [
+   "Silicon Laboratories"
+  ]
+ },
+ {
+  "id": "cadence",
+  "co": "Cadence",
+  "target": null,
+  "big": true,
+  "type": "workday",
+  "host": "cadence.wd1.myworkdayjobs.com",
+  "tenant": "cadence",
+  "site": "External_Careers",
+  "aliases": [
+   "Cadence Design Systems"
+  ]
+ },
+ {
+  "id": "synopsys",
+  "co": "Synopsys",
+  "target": null,
+  "big": true,
+  "type": "radancy",
+  "host": "careers.synopsys.com"
+ },
+ {
+  "id": "prosus",
+  "co": "Prosus",
+  "target": null,
+  "big": true,
+  "type": "ashby",
+  "board": "prosus"
+ },
+ {
+  "id": "plumerai",
+  "co": "Plumerai",
+  "target": null,
+  "big": false,
+  "type": "ashby",
+  "board": "plumerai"
+ },
+ {
+  "id": "innatera",
+  "co": "Innatera",
+  "target": null,
+  "big": false,
+  "type": "ashby",
+  "board": "innatera",
+  "aliases": [
+   "Innatera Nanosystems"
+  ]
+ },
+ {
+  "id": "prophesee",
+  "co": "Prophesee",
+  "target": null,
+  "big": false,
+  "type": "teamtailor",
+  "host": "careers.prophesee.ai"
+ },
+ {
+  "id": "apple-residency",
+  "co": "Apple",
+  "target": "apple",
+  "big": true,
+  "type": "apple",
+  "query": "AIML Resident",
+  "countries": [
+   "USA"
+  ],
+  "title_only": "\\bresiden",
+  "ignore_location": true
  },
  {
   "id": "linkedin",
@@ -1359,8 +1457,10 @@
    "\"edge AI\" OR \"embedded machine learning\" OR tinyML OR \"on-device AI\" OR \"model compression\" OR \"neural network quantization\"",
    "\"computer vision\" OR \"perception engineer\" OR \"signal processing\"",
    "\"deep learning\"",
-   "(graduate OR \"new grad\" OR \"early career\" OR junior OR trainee) AND (\"machine learning\" OR \"deep learning\" OR \"artificial intelligence\" OR \"data science\")",
-   "\"data scientist\""
+   "(graduate OR \"new grad\" OR \"new college grad\" OR \"early career\" OR junior OR trainee OR traineeship OR residency) AND (\"machine learning\" OR \"deep learning\" OR \"artificial intelligence\" OR \"data science\")",
+   "\"data scientist\"",
+   "\"software engineer, machine learning\" OR \"machine learning software engineer\" OR \"software engineer - machine learning\" OR \"deep learning software engineer\" OR \"ML infrastructure\" OR \"machine learning infrastructure\" OR \"ML platform engineer\"",
+   "(intern OR internship OR tirocinio OR stage OR praktikum) AND (\"machine learning\" OR \"deep learning\" OR \"computer vision\" OR \"artificial intelligence\")"
   ]
  },
  {
@@ -1411,7 +1511,9 @@
    "perception engineer",
    "signal processing machine learning",
    "AI researcher",
-   "graduate machine learning"
+   "graduate machine learning",
+   "software engineer machine learning",
+   "machine learning internship"
   ]
  },
  {
