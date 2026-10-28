@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-28T09:12:08Z",
+ "generated": "2026-10-28T19:57:43Z",
  "days": 14,
- "count": 216,
+ "count": 221,
  "items": [
   {
    "key": "elevenlabs:b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
@@ -3414,6 +3414,86 @@
    "ats": "avature",
    "closed_at": "2026-10-28T09:12:08Z",
    "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "apple:200687930",
+   "co": "Apple",
+   "target": "apple",
+   "big": true,
+   "title": "HID Algorithms Software Engineer",
+   "url": "https://jobs.apple.com/en-gb/details/200687930/hid-algorithms-software-engineer",
+   "loc": "Zurich (Switzerland)",
+   "loc_status": "eu",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-13T10:12:22Z",
+   "last_seen": "2026-10-28T09:12:08Z",
+   "ats": "apple",
+   "dept": "Hardware",
+   "level": "Machine Learning ICT3",
+   "closed_at": "2026-10-28T19:57:43Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "stability:4924873101",
+   "co": "Stability AI",
+   "big": false,
+   "title": "Research Scientist, Professional Creative Workflows",
+   "url": "http://stability.ai/careers?gh_jid=4924873101",
+   "loc": "Remote",
+   "loc_status": "unknown",
+   "posted": "2026-07-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-28T09:12:08Z",
+   "ats": "greenhouse",
+   "closed_at": "2026-10-28T19:57:43Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "mistral:d1887bfd-8d44-46d6-b253-cadc1b1aeb11",
+   "co": "Mistral AI",
+   "target": "mistral",
+   "big": true,
+   "title": "Applied AI Engineer, Fullstack Software Engineer - EMEA",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/d1887bfd-8d44-46d6-b253-cadc1b1aeb11",
+   "loc": "Paris (France)",
+   "loc_status": "eu",
+   "posted": "2026-07-10",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-10-28T09:12:08Z",
+   "ats": "ashby",
+   "closed_at": "2026-10-28T19:57:43Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "faculty:0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2",
+   "co": "Faculty",
+   "target": "faculty",
+   "big": false,
+   "title": "Data Scientist",
+   "url": "https://jobs.ashbyhq.com/faculty/0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2",
+   "loc": "London (United Kingdom) · remote",
+   "loc_status": "eu",
+   "posted": "2026-10-22",
+   "first_seen": "2026-10-23T18:47:14Z",
+   "last_seen": "2026-10-28T09:12:08Z",
+   "ats": "ashby",
+   "closed_at": "2026-10-28T19:57:43Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "huawei-de:7242911",
+   "co": "Huawei Research Germany/Austria",
+   "big": true,
+   "title": "Intern - AI Systems Research",
+   "url": "https://huaweiresearchcentergermanyaustria.teamtailor.com/jobs/7242911-intern-ai-systems-research",
+   "loc": "Huawei Hilbert Research Center (Dresden), Dresden, Germany, Huawei Heisenberg Research Center (Munich), München",
+   "loc_status": "eu",
+   "posted": "2026-02-17",
+   "first_seen": "2026-10-28T09:12:08Z",
+   "last_seen": "2026-10-28T09:12:08Z",
+   "ats": "teamtailor",
+   "closed_at": "2026-10-28T19:57:43Z",
+   "reason": "not listed anymore"
   }
  ]
 }
