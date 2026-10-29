@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-29T12:59:05Z",
+ "generated": "2026-10-29T21:50:12Z",
  "days": 14,
- "count": 94,
+ "count": 98,
  "items": [
   {
    "key": "industrial:bmw:1440047933",
@@ -1687,6 +1687,70 @@
    "kind": "academic",
    "closed_at": "2026-10-29T12:59:05Z",
    "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "industrial:huawei-de:8343055",
+   "co": "Huawei Research Germany/Austria",
+   "big": true,
+   "title": "PhD Student - System Security/OS Security",
+   "url": "https://huaweiresearchcentergermanyaustria.teamtailor.com/jobs/8343055-phd-student-system-security-os-security",
+   "loc": "Huawei Heisenberg Research Center (Munich), München, Germany",
+   "loc_status": "eu",
+   "posted": "2026-09-08",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-29T12:59:05Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-29T21:50:12Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:huawei-de:7655799",
+   "co": "Huawei Research Germany/Austria",
+   "big": true,
+   "title": "PhD Student - Privacy Enhancing Technologies for LLMs and AI Agents",
+   "url": "https://huaweiresearchcentergermanyaustria.teamtailor.com/jobs/7655799-phd-student-privacy-enhancing-technologies-for-llms-and-ai-agents",
+   "loc": "Huawei Heisenberg Research Center (Munich), München, Germany",
+   "loc_status": "eu",
+   "posted": "2026-04-29",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-29T12:59:05Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-29T21:50:12Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:nxp:PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
+   "co": "NXP Semiconductors",
+   "big": true,
+   "title": "PhD Position (f/m/d) - Memory-Centric NPU Architectures and Emerging Memory Technologies for Edge AI",
+   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
+   "loc": "Hamburg",
+   "loc_status": "eu",
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-13T21:45:23Z",
+   "last_seen": "2026-10-29T12:59:05Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-29T21:50:12Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "industrial:airbus:PHD-Thesis--Quantum-Sensing-for-Navigation--d-f-m-_JR10416564",
+   "co": "Airbus",
+   "big": true,
+   "title": "PHD Thesis: Quantum Sensing for Navigation (d/f/m)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/PHD-Thesis--Quantum-Sensing-for-Navigation--d-f-m-_JR10416564",
+   "loc": "München Area",
+   "loc_status": "eu",
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-28T21:46:04Z",
+   "last_seen": "2026-10-29T12:59:05Z",
+   "ats": "industrial",
+   "kind": "industrial",
+   "closed_at": "2026-10-29T21:50:12Z",
+   "reason": "not listed anymore"
   }
  ]
 }

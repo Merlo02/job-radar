@@ -1,15 +1,15 @@
 {
- "run_at": "2026-10-29T12:59:05Z",
- "duration_s": 177,
+ "run_at": "2026-10-29T21:50:12Z",
+ "duration_s": 157,
  "sources": 55,
  "failed": [
   "abg",
-  "dn-specx"
+  "dn-unchange"
  ],
  "blocked": [],
- "new": 16,
- "open": 626,
- "recent": 214,
+ "new": 18,
+ "open": 640,
+ "recent": 231,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -27,7 +27,7 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 3.0
+   "secs": 2.6
   },
   {
    "id": "at-nl",
@@ -38,21 +38,21 @@
    "matched": 42,
    "complete": false,
    "details": 0,
-   "secs": 177.1,
+   "secs": 157.0,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 541,
-   "matched": 341,
+   "raw": 564,
+   "matched": 357,
    "complete": true,
    "details": 0,
    "secs": 0.2,
-   "new": 13,
+   "new": 16,
    "closed": 0
   },
   {
@@ -63,7 +63,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "dn-aegis",
@@ -73,7 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "id": "dn-biohybrite",
@@ -83,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 1.9
   },
   {
    "id": "dn-bridge-ai",
@@ -103,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.8
   },
   {
    "id": "dn-cafe-bio",
@@ -133,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "id": "dn-cdtnet",
@@ -143,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-combine",
@@ -153,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.3
+   "secs": 4.7
   },
   {
    "id": "dn-diamond",
@@ -173,7 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.6
   },
   {
    "id": "dn-elevate",
@@ -193,7 +193,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-endure",
@@ -203,7 +203,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.9
   },
   {
    "id": "dn-evomg-dn",
@@ -213,7 +213,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.2
+   "secs": 4.3
   },
   {
    "id": "dn-fados",
@@ -223,7 +223,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.7
   },
   {
    "id": "dn-framebio",
@@ -233,7 +233,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-genaide",
@@ -243,7 +243,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.0
   },
   {
    "id": "dn-genome",
@@ -253,7 +253,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8
   },
   {
    "id": "dn-heal-4ward",
@@ -263,7 +263,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 1.0
   },
   {
    "id": "dn-her-care",
@@ -273,7 +273,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-intros",
@@ -283,7 +283,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-istride",
@@ -293,7 +293,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.9
+   "secs": 4.1
   },
   {
    "id": "dn-justhealth",
@@ -313,7 +313,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.9
   },
   {
    "id": "dn-mediculous-remedy",
@@ -323,7 +323,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 1.0
   },
   {
    "id": "dn-met2adapt",
@@ -333,8 +333,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7,
-   "new": 1
+   "secs": 0.9
   },
   {
    "id": "dn-mindnet",
@@ -354,7 +353,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 2.4
   },
   {
    "id": "dn-mlcare",
@@ -364,7 +363,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 2.4
   },
   {
    "id": "dn-orfeus",
@@ -374,7 +373,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-protaiomics",
@@ -384,7 +383,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 3.9
   },
   {
    "id": "dn-realise",
@@ -394,7 +393,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "dn-reffracteur",
@@ -404,16 +403,17 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.6
   },
   {
    "id": "dn-specx",
    "co": "SpecX (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/",
-   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/\n",
-   "secs": 1.0
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 2.7
   },
   {
    "id": "dn-spring",
@@ -423,7 +423,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-surerob",
@@ -433,7 +433,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 2.1
   },
   {
    "id": "dn-trackaf",
@@ -443,7 +443,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.4
   },
   {
    "id": "dn-train-fast",
@@ -453,17 +453,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.2
   },
   {
    "id": "dn-unchange",
    "co": "UNCHANGE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 3.0
+   "ok": false,
+   "error": "RuntimeError: GET https://unchange-dn.eu/index.php/vacant-positions/ failed: ConnectionError: HTTPSConnectionPool(host='unchange-dn.eu', port=443): Max retries exceeded with url: /index.php/vacant-positions/ (Caused by NewConnectionError(\"HTTPSConnection(host='unchange-dn.eu', port=443): Failed to establish a new",
+   "trace": "t(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://unchange-dn.eu/index.php/vacant-positions/ failed: ConnectionError: HTTPSConnectionPool(host='unchange-dn.eu', port=443): Max retries exceeded with url: /index.php/vacant-positions/ (Caused by NewConnectionError(\"HTTPSConnection(host='unchange-dn.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
+   "secs": 133.3
   },
   {
    "id": "dn-variabiliti",
@@ -483,31 +482,31 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "id": "epfl-phd",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 41,
-   "matched": 6,
+   "raw": 40,
+   "matched": 5,
    "complete": false,
    "details": 0,
-   "secs": 3.4,
-   "new": 1,
-   "closed": 2
+   "secs": 3.0,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "ethz-phd",
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 131,
+   "raw": 132,
    "matched": 28,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -516,26 +515,26 @@
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 39,
-   "matched": 39,
+   "raw": 35,
+   "matched": 35,
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 1,
-   "closed": 1
+   "new": 0,
+   "closed": 4
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 28,
-   "matched": 17,
+   "raw": 29,
+   "matched": 18,
    "complete": true,
    "details": 0,
-   "secs": 2.6,
-   "new": 0,
-   "closed": 1
+   "secs": 1.6,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "naver-labs",
@@ -558,19 +557,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.5
   },
   {
    "id": "ugent-phd",
    "co": "Ghent University",
    "type": "ugent",
    "ok": true,
-   "raw": 7,
-   "matched": 7,
+   "raw": 8,
+   "matched": 8,
    "complete": true,
-   "details": 0,
-   "secs": 1.0,
-   "new": 0,
+   "details": 1,
+   "secs": 3.2,
+   "new": 1,
    "closed": 0
   },
   {
@@ -582,7 +581,7 @@
    "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.7,
    "new": 0,
    "closed": 0
   },
@@ -594,7 +593,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.4
   }
  ]
 }
