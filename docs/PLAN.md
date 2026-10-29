@@ -212,7 +212,9 @@ già comparsi in 5 liste dei giorni prima (la collezione `picks`) senza uno stat
 lista si fissava sul primo snapshot di `jobs`, che arriva dalla cache e può avere solo una parte degli annunci (oggi un
 solo annuncio salvato); ora `jobs`, `tracker` e `picks` contano come caricati solo con `metadata.fromCache` falso. Lista
 del 29/10 rifatta (cancellato il documento in `picks`, la pagina l'ha ricalcolata): 5 annunci, uguale alla simulazione
-del codice della pagina sui dati del database.
+del codice della pagina sui dati del database. Poi (Gabriele: «sono stufo di vedere posizioni in cui devo competere coi
+phd») fuori anche i ruoli con il PhD preferito o «un plus» (`PHD_PREF` sui requisiti, o bollino «PhD preferito»), salvo
+i programmi graduate: 40 annunci aperti su ~1000. Lista del 29/10 scesa a 3 (Arm graduate, FUTRUE, Mitsui).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
