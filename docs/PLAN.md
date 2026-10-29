@@ -205,6 +205,14 @@ LinkedIn: la ricerca graduate prende anche «new college grad», traineeship e r
 ML e stage ML. Indeed: «software engineer machine learning» e «machine learning internship». L'ESA Graduate Trainee
 (circa 100 posti ogni febbraio, per chi si è laureato da meno di un anno) arriva già dalla fonte `esa`. Nella pagina, Apply
 today scarta ancora gli stage: si cambia da una sessione claude.ai se Gabriele li vuole lì.
+29/10 (Gabriele: «gli apply today sono gli stessi da un po'», quattro ruoli a rilevanza bassa che non avrebbe mai inviato,
+in lista dal 23/10). La pagina si aggiorna anche dal terminale (Artifact con l'URL della pagina: è sua). `pickToday()`:
+rilevanza almeno 3,5 (prima 2,5); fuori i ruoli pubblicati da più di 14 giorni, salvo scadenza ancora aperta; fuori quelli
+già comparsi in 5 liste dei giorni prima (la collezione `picks`) senza uno stato nel tracker. Bug trovato nel farlo: la
+lista si fissava sul primo snapshot di `jobs`, che arriva dalla cache e può avere solo una parte degli annunci (oggi un
+solo annuncio salvato); ora `jobs`, `tracker` e `picks` contano come caricati solo con `metadata.fromCache` falso. Lista
+del 29/10 rifatta (cancellato il documento in `picks`, la pagina l'ha ricalcolata): 5 annunci, uguale alla simulazione
+del codice della pagina sui dati del database.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
