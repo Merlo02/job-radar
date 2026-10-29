@@ -1,14 +1,15 @@
 {
- "run_at": "2026-10-28T21:46:04Z",
- "duration_s": 175,
+ "run_at": "2026-10-29T12:59:05Z",
+ "duration_s": 177,
  "sources": 55,
  "failed": [
-  "abg"
+  "abg",
+  "dn-specx"
  ],
  "blocked": [],
- "new": 31,
- "open": 617,
- "recent": 220,
+ "new": 16,
+ "open": 626,
+ "recent": 214,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -25,8 +26,8 @@
    "type": "abg",
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
-   "trace": "ner/work/job-radar/job-radar/scan.py\", line 2286, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2123, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 3.2
+   "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
+   "secs": 3.0
   },
   {
    "id": "at-nl",
@@ -34,24 +35,24 @@
    "type": "academictransfer",
    "ok": true,
    "raw": 56,
-   "matched": 44,
+   "matched": 42,
    "complete": false,
    "details": 0,
-   "secs": 175.1,
+   "secs": 177.1,
    "new": 0,
-   "closed": 0
+   "closed": 2
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 516,
-   "matched": 328,
+   "raw": 541,
+   "matched": 341,
    "complete": true,
    "details": 0,
-   "secs": 0.1,
-   "new": 19,
+   "secs": 0.2,
+   "new": 13,
    "closed": 0
   },
   {
@@ -72,7 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-biohybrite",
@@ -82,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 2.2
   },
   {
    "id": "dn-bridge-ai",
@@ -102,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.4
   },
   {
    "id": "dn-cafe-bio",
@@ -132,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.6
   },
   {
    "id": "dn-cdtnet",
@@ -142,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "id": "dn-combine",
@@ -152,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.5
+   "secs": 5.3
   },
   {
    "id": "dn-diamond",
@@ -172,7 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.7
   },
   {
    "id": "dn-elevate",
@@ -182,7 +183,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 1.9
   },
   {
    "id": "dn-emanaire",
@@ -202,7 +203,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.4
   },
   {
    "id": "dn-evomg-dn",
@@ -212,7 +213,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.0
+   "secs": 4.2
   },
   {
    "id": "dn-fados",
@@ -232,7 +233,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-genaide",
@@ -242,7 +243,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.9
   },
   {
    "id": "dn-genome",
@@ -252,7 +253,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-heal-4ward",
@@ -262,7 +263,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 2.6
   },
   {
    "id": "dn-her-care",
@@ -272,7 +273,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-intros",
@@ -292,7 +293,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 3.9
   },
   {
    "id": "dn-justhealth",
@@ -302,7 +303,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-lowdataml",
@@ -312,7 +313,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-mediculous-remedy",
@@ -322,7 +323,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.7
   },
   {
    "id": "dn-met2adapt",
@@ -332,7 +333,8 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.7,
+   "new": 1
   },
   {
    "id": "dn-mindnet",
@@ -342,7 +344,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.6
   },
   {
    "id": "dn-miningbrines",
@@ -352,7 +354,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.8
+   "secs": 2.3
   },
   {
    "id": "dn-mlcare",
@@ -362,7 +364,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.6
   },
   {
    "id": "dn-orfeus",
@@ -372,7 +374,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-protaiomics",
@@ -382,7 +384,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 2.5
   },
   {
    "id": "dn-realise",
@@ -392,7 +394,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.9
   },
   {
    "id": "dn-reffracteur",
@@ -402,17 +404,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.7
   },
   {
    "id": "dn-specx",
    "co": "SpecX (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.7
+   "ok": false,
+   "error": "RuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/\n",
+   "secs": 1.0
   },
   {
    "id": "dn-spring",
@@ -452,7 +453,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.5
   },
   {
    "id": "dn-unchange",
@@ -462,7 +463,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.1
+   "secs": 3.0
   },
   {
    "id": "dn-variabiliti",
@@ -472,7 +473,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-wildbotics",
@@ -482,7 +483,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "id": "epfl-phd",
@@ -490,12 +491,12 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 41,
-   "matched": 5,
+   "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 3.2,
-   "new": 0,
-   "closed": 0
+   "secs": 3.4,
+   "new": 1,
+   "closed": 2
   },
   {
    "id": "ethz-phd",
@@ -520,21 +521,21 @@
    "complete": true,
    "details": 0,
    "secs": 0.0,
-   "new": 10,
-   "closed": 9
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 29,
-   "matched": 18,
+   "raw": 28,
+   "matched": 17,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
-   "new": 2,
-   "closed": 0
+   "secs": 2.6,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "naver-labs",
@@ -557,7 +558,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.4
   },
   {
    "id": "ugent-phd",
@@ -568,7 +569,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 1.0,
    "new": 0,
    "closed": 0
   },
