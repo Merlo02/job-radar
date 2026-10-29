@@ -1556,6 +1556,25 @@ def wttj_list(src):
     return list(out.values()), False
 
 
+def startupmap_list(src):
+    """startupmap.one (4,000+ European startups): the jobs feed its /jobs page loads, named from its startups feed."""
+    names = {s.get("startup_id"): s.get("name") for s in http("GET", "https://startupmap.one/api/startups")}
+    countries = set(src.get("countries") or [])
+    out = []
+    for j in http("GET", "https://startupmap.one/api/jobs"):
+        cs = [c for c in (j.get("job_countries") or [j.get("job_country")]) if c]
+        if not j.get("visible", True) or not j.get("apply_url") or (countries and not countries.intersection(cs)):
+            continue
+        place = j.get("location_display") or ""
+        loc = ", ".join([place] + [c for c in cs[:1] if c.lower() not in place.lower()]) if place else ", ".join(cs)
+        if j.get("is_remote"):
+            loc += " · remote"
+        out.append(rec(src, j["jobs_id"], j.get("job_title"), j["apply_url"], loc,
+                       j.get("posted_at") or j.get("first_seen_at") or j.get("created_at"),
+                       co=names.get(j.get("startup_id")) or "?", ats="startupmap"))
+    return out, True
+
+
 def hn_list(src):
     """Hacker News "Ask HN: Who is hiring?": the comments of the latest monthly thread."""
     hits = http("GET", "https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&hitsPerPage=6")["hits"]
@@ -1585,7 +1604,7 @@ def hn_list(src):
 _JS, _JS_LOCK = {}, threading.Lock()
 NOTES = {}   # extra per-source facts for status.json, filled by the listers ("_" keys stay internal)
 INDUSTRIAL, MOVED, PHD_DONE = [], set(), set()   # doctoral positions the job scan hands to the PhD profile
-BOARDS = ("linkedin", "indeed", "thehub", "landingjobs", "joinup", "wttj", "hn")   # postings of many companies
+BOARDS = ("linkedin", "indeed", "thehub", "landingjobs", "joinup", "wttj", "hn", "startupmap")   # postings of many companies
 # Postings from the job boards stay out of recent.json / open.json until the Radar routine reads
 # candidates.json (plan, phase 3): the routine reads every new item and they are hundreds a day.
 BOARDS_IN_RECENT = False
@@ -1820,7 +1839,7 @@ class Companies:
 
 
 COMPANIES = Companies()
-BOARD_TYPES = ("jobspy", "thehub", "landingjobs", "joinup", "wttj", "hn")
+BOARD_TYPES = ("jobspy", "thehub", "landingjobs", "joinup", "wttj", "hn", "startupmap")
 
 
 def links_list(src):
@@ -2236,6 +2255,7 @@ ADAPTERS = {
     "joinup": (joinup_list, ld_detail),
     "wttj": (wttj_list, ld_detail),
     "hn": (hn_list, None),
+    "startupmap": (startupmap_list, generic_detail),
 }
 
 

@@ -1545,5 +1545,10 @@
   "id": "hn",
   "co": "Hacker News: Who is hiring",
   "type": "hn"
+ },
+ {
+  "id": "startupmap",
+  "co": "startupmap.one",
+  "type": "startupmap"
  }
 ]

@@ -215,6 +215,12 @@ del 29/10 rifatta (cancellato il documento in `picks`, la pagina l'ha ricalcolat
 del codice della pagina sui dati del database. Poi (Gabriele: «sono stufo di vedere posizioni in cui devo competere coi
 phd») fuori anche i ruoli con il PhD preferito o «un plus» (`PHD_PREF` sui requisiti, o bollino «PhD preferito»), salvo
 i programmi graduate: 40 annunci aperti su ~1000. Lista del 29/10 scesa a 3 (Arm graduate, FUTRUE, Mitsui).
+29/10, fonte `startupmap` (Gabriele: «andrebbe esplorato il panorama startup a Zurigo», startupmap.one/jobs): il sito
+carica due JSON pubblici, `/api/jobs` (~16.000 annunci) e `/api/startups` (~4.300 startup europee, 183 svizzere, 107 a
+Zurigo). Adapter `startupmap_list` come le altre bacheche (in `BOARDS` e `BOARD_TYPES`: doppioni con i siti diretti
+agganciati, link all'annuncio sull'ATS della startup, descrizione con `generic_detail`). Prova in locale: 16.025 letti,
+4.629 tenuti dai filtri, 626 doppioni; al primo giro tutto `baseline`, quindi nessuna scheda in più per la routine.
+Da controllare il consumo della routine nei giorni dopo (schede nuove da startupmap).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
