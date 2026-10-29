@@ -221,6 +221,18 @@ Zurigo). Adapter `startupmap_list` come le altre bacheche (in `BOARDS` e `BOARD_
 agganciati, link all'annuncio sull'ATS della startup, descrizione con `generic_detail`). Prova in locale: 16.025 letti,
 4.629 tenuti dai filtri, 626 doppioni; al primo giro tutto `baseline`, quindi nessuna scheda in più per la routine.
 Da controllare il consumo della routine nei giorni dopo (schede nuove da startupmap).
+29/10, verifica sul testo completo (Gabriele: «mi proponi annunci basandoti su keyword… ho paura di candidarmi a
+posizioni che richiedono più esperienza… perché a volte non hai guardato il testo»). Il fit nasce da 700 caratteri di
+requisiti (`NEW_REQ`) più il riassunto della scheda, e senza descrizione (annunci solo LinkedIn) dal titolo: FUTRUE era
+negli Apply today con il bollino «Descrizione mancante». Ora i documenti di `jobs` hanno `verified` (data), `verdict`
+(ok, no, dubbio) e `checks` (anni, PhD, lingue, requisiti obbligatori mancanti, tipo di lavoro), e `pickToday()` prende
+solo verdict ok degli ultimi 30 giorni; la pagina mostra la verifica sotto ogni annuncio e un bollino nelle schede.
+`radar.py verify --db db` (passo 7 della routine) sceglie con le stesse regole della pagina fino a 6 candidati non
+verificati e ne stampa il testo completo: API di Greenhouse, Lever, Ashby, pagina pubblica di LinkedIn (una richiesta
+ogni 8 secondi: risponde 429 a chi va veloce), dati JobPosting della pagina; Indeed no (controllo Cloudflare).
+`--write` prepara il batch. Quello che non si legge resta «dubbio» e lo verifica Claude Code con Chrome. Prima verifica
+(29/10, a mano su 7 annunci): ok Arm Graduate MLE, Arm Graduate ML SWE, ARRK/Mitsui Madrid; no Airbus UpNext (chiuso),
+FUTRUE (business development, non ML), TechWolf (agenti, residenza in Belgio); dubbio Maisa (post-training di LLM).
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,

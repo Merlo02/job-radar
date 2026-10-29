@@ -15,6 +15,9 @@ Radar, every morning:
     python3 radar.py docs --db db          # documents to write, batch entries, closures, final message
     python3 radar.py check --db db         # every day, a third of the open postings in turn: LinkedIn links and
                                            # links the scanner does not follow, checked for being still online
+    python3 radar.py verify --db db        # full text of the jobs that could go into Apply today, not verified yet
+    (Claude writes verifiche.jsonl: {"id", "verdict": ok|no|dubbio, "checks"})
+    python3 radar.py verify --db db --write  # the batch that stores the verdicts (Apply today shows only "ok")
 
 Mappa PhD, Monday and Thursday:
     python3 radar.py phd --db db           # PhD positions not judged yet and not on the map, positions to close
@@ -813,6 +816,168 @@ def cmd_check():
         print(f"Senza risposta (si riprovano fra {CHECK_TURNS} giorni): " + ", ".join(unknown[:40]))
 
 
+# ------------------------------------------------------------------ verification
+# 29/10 (Gabriele: «ho paura di candidarmi a posizioni che richiedono più esperienza… perché a volte non hai guardato
+# il testo»): a job goes into Apply today only after someone read its full posting. `verify` prints the full text of
+# the jobs that could go there and were not verified yet; Claude writes verifiche.jsonl; `verify --write` stores it.
+VERIFY_MAX = 6       # postings read in full each morning (about 1,500 tokens each)
+VERIFY_DAYS = 30     # a verdict older than this is asked again
+HANDLED = {"inviata", "colloquio", "offerta", "no", "scartata"}
+REQ_START = re.compile(r"(?:requirements|qualifications|what you(?:'ll)? bring|who you are|you have|your profile|"
+                       r"we(?:'re| are) looking for|about you|profil|anforderungen|requisiti|must have)", re.I)
+
+
+def plain(html_text):
+    t = re.sub(r"<(script|style)\b.*?</\1>", " ", html_text or "", flags=re.S | re.I)
+    t = re.sub(r"<br\s*/?>|</(?:p|li|div|h\d)>", "\n", t, flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    import html as htmlmod
+    t = htmlmod.unescape(t)
+    return re.sub(r"[ \t\r\f\v]+", " ", re.sub(r"\n\s*\n+", "\n", t)).strip()
+
+
+def full_text(url):
+    """(text, where) of a posting: the job-board APIs where there is one, LinkedIn's public job page,
+    the JobPosting data of the page, or the page text. ("", why) when it cannot be read."""
+    u = url or ""
+    m = re.search(r"linkedin\.com/jobs/view/(?:[^/?]*-)?(\d{6,})", u)
+    if m:
+        code, h = fetch_status(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}")
+        if code != 200:
+            return "", f"LinkedIn ha risposto {code}"
+        if re.search(r"no longer accepting applications", h, re.I):
+            return "", "chiuso: su LinkedIn non accetta più candidature"
+        d = re.search(r"show-more-less-html__markup[^>]*>(.*?)</div>", h, re.S)
+        return (plain(d.group(1)), "LinkedIn") if d else ("", "LinkedIn senza descrizione")
+    m = re.search(r"greenhouse\.io/(?:embed/job_app\?for=)?([\w-]+)/jobs/(\d+)", u)
+    if m:
+        code, t = fetch_status(f"https://boards-api.greenhouse.io/v1/boards/{m.group(1)}/jobs/{m.group(2)}")
+        return (plain(json.loads(t).get("content", "")), "Greenhouse") if code == 200 else ("", f"Greenhouse {code}")
+    m = re.search(r"jobs\.lever\.co/([\w.-]+)/([0-9a-f-]{36})", u)
+    if m:
+        code, t = fetch_status(f"https://api.lever.co/v0/postings/{m.group(1)}/{m.group(2)}")
+        if code != 200:
+            return "", f"Lever {code}"
+        p = json.loads(t)
+        parts = [p.get("descriptionPlain") or ""] + [f"{l.get('text')}:\n{plain(l.get('content'))}" for l in p.get("lists") or []]
+        return "\n".join(parts), "Lever"
+    m = re.search(r"jobs\.ashbyhq\.com/([^/?#]+)/([0-9a-f-]{36})", u)
+    if m:
+        code, t = fetch_status(f"https://api.ashbyhq.com/posting-api/job-board/{m.group(1)}")
+        if code == 200:
+            for j in json.loads(t).get("jobs") or []:
+                if j.get("id") == m.group(2):
+                    return plain(j.get("descriptionHtml")), "Ashby"
+            return "", "chiuso: non più nella bacheca Ashby"
+        return "", f"Ashby {code}"
+    if re.search(r"indeed\.", u):
+        return "", "Indeed non si legge da qui"
+    code, h = fetch_status(u)
+    if code in (404, 410):
+        return "", "chiuso: la pagina non c'è più"
+    if code != 200:
+        return "", f"il sito ha risposto {code}"
+    for blob in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', h, re.S):
+        try:
+            data = json.loads(blob.strip())
+        except ValueError:
+            continue
+        for x in data if isinstance(data, list) else [data]:
+            if isinstance(x, dict) and x.get("@type") == "JobPosting" and x.get("description"):
+                return plain(x["description"]), "pagina (JobPosting)"
+    if CLOSED_TEXT.search(h):
+        return "", "chiuso: la pagina dice che non è più aperto"
+    return plain(h)[:12000], "pagina"
+
+
+def apply_candidates(jobs, status):
+    """The jobs that could go into Apply today, in the page's order (pickToday in the Radar page: same rules,
+    without the verification itself)."""
+    phd_pref = re.compile(r"phd[^.;,]{0,25}(?:preferit|un plus|è un plus|gradit|is a plus|preferred|a plus|desirable|"
+                          r"ideal)|(?:preferibilmente|preferably|ideally|idealmente)[^.;]{0,15}(?:phd|dottorato)|"
+                          r"phd\s*/\s*(?:msc|master)|phd (?:richiesto|obbligatorio|required)", re.I)
+    hard = re.compile(r"phd (?:richiesto|obbligatorio|required|necessario|preferit)|molto selettiv|cercano (?:un )?espert|"
+                      r"esperienza richiesta|\bsenior\b|\b[2-9]\+? anni|agenzia|visto|visa\b|descrizione mancante", re.I)
+    today = dt.date.fromisoformat(TODAY)
+    out = []
+    for did, d in jobs.items():
+        if d.get("closed") or status.get(did) in HANDLED or d.get("kind") in ("internship", "industrial-phd"):
+            continue
+        fit = d.get("fitScore") if isinstance(d.get("fitScore"), (int, float)) else {"alto": 4, "medio": 3}.get(d.get("fit"), 2)
+        rel = d.get("rel") if isinstance(d.get("rel"), (int, float)) else 0
+        junior = d.get("junior") is True
+        dead = d.get("deadline")
+        open_dead = bool(dead) and dead >= TODAY
+        if dead and not open_dead:
+            continue
+        if fit < (3 if junior else 4) or rel < 3.5 or (isinstance(d.get("anni"), (int, float)) and d["anni"] >= 2):
+            continue
+        if hard.search(d.get("flag") or "") or (phd_pref.search(d.get("req") or "") and
+                                                 not re.search(r"programma graduate", d.get("flag") or "", re.I)):
+            continue
+        day = (d.get("pub") or d.get("added") or "")[:10]
+        age = (today - dt.date.fromisoformat(day)).days if re.match(r"\d{4}-\d\d-\d\d$", day) else 60
+        if age > 14 and not open_dead:
+            continue
+        score = 0.40 * (fit - 1) / 4 + 0.20 * (rel - 1) / 4 + 0.15 * max(0, 1 - age / 30) + (0.15 if junior else 0)
+        out.append((score, did, d))
+    return [(did, d) for _, did, d in sorted(out, key=lambda x: -x[0])]
+
+
+def cmd_verify():
+    """Full text of up to VERIFY_MAX jobs that could go into Apply today and have no recent verdict; with
+    --write, the batch entries that store the verdicts of verifiche.jsonl."""
+    import time
+    db = arg("--db", "db")
+    jobs = docs(os.path.join(db, "jobs"))
+    status = {did: (t.get("status") or "") for did, t in docs(os.path.join(db, "tracker")).items()}
+    if "--write" in sys.argv:
+        rows = [json.loads(l) for l in open("verifiche.jsonl", encoding="utf-8") if l.strip()]
+        os.makedirs("write", exist_ok=True)
+        writes = []
+        for r in rows:
+            d = jobs.get(r.get("id"))
+            if not d or r.get("verdict") not in ("ok", "no", "dubbio"):
+                print(f"Saltata: {r}")
+                continue
+            data = {"verified": TODAY, "verdict": r["verdict"], "checks": short(r.get("checks"), 400)}
+            if r.get("closed"):
+                data.update(closed=True, closedNote=short(r.get("checks"), 200), checked=TODAY)
+            writes.append({"op": "update", "collection": "jobs", "doc_id": r["id"], "data": data})
+        save("write/verify.json", writes)
+        print(f"{len(writes)} verdetti in write/verify.json: un solo ArtifactData batch con queste writes, aggiungendo a "
+              f"ognuna if_version dalla lista di 'jobs' del passo 2: " + ", ".join(w["doc_id"] for w in writes))
+        return
+    todo = []
+    for did, d in apply_candidates(jobs, status):
+        v = d.get("verified") or ""
+        if v and (dt.date.fromisoformat(TODAY) - dt.date.fromisoformat(v[:10])).days <= VERIFY_DAYS:
+            continue
+        todo.append((did, d))
+        if len(todo) >= VERIFY_MAX:
+            break
+    if not todo:
+        print("Nessun annuncio da verificare oggi.")
+        return
+    print(f"{len(todo)} annunci da verificare sul testo completo (candidati agli Apply today). Per ognuno scrivi una "
+          f"riga in verifiche.jsonl: {{\"id\": ..., \"verdict\": \"ok\"|\"no\"|\"dubbio\", \"checks\": \"...\"}}, più "
+          f"\"closed\": true se il testo dice che è chiuso.\nchecks: italiano, al massimo 30 parole: anni chiesti, PhD, "
+          f"lingue, cosa gli manca tra i requisiti obbligatori, che lavoro è davvero. verdict no se chiede 2 o più anni "
+          f"(anche «or equivalent»), il PhD (anche solo preferito, salvo i programmi graduate), una lingua che non parla "
+          f"(tedesco, francese…), un requisito obbligatorio che non ha per niente, o se il lavoro non è ML/AI (vendite, "
+          f"business development, hardware puro, integrazione di API). dubbio se il testo non basta per decidere.\n")
+    blocks = []
+    for did, d in todo:
+        text, where_ = full_text(d.get("url"))
+        if re.search(r"linkedin\.com", d.get("url") or ""):
+            time.sleep(8)   # LinkedIn answers 429 to whoever asks fast
+        i = REQ_START.search(text)
+        body = text[max(0, i.start() - 1500):] if i else text
+        blocks.append(f"[{did}] {d.get('co')} · {d.get('title')} · {d.get('loc')} · fonte: {where_}\n"
+                      f"   {short(body, 4500) or '(testo non letto: verdict dubbio, lo verifica Claude Code col browser)'}")
+    emit(blocks, "verify")
+
+
 # ------------------------------------------------------------------ PhD map
 def cmd_phd():
     db = arg("--db", "db")
@@ -867,4 +1032,4 @@ def cmd_phd_done():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     {"fetch": cmd_fetch, "cards": cmd_cards, "more": cmd_more, "desc": cmd_desc, "docs": cmd_docs, "check": cmd_check,
-     "phd": cmd_phd, "phd-done": cmd_phd_done}.get(cmd, lambda: sys.exit(__doc__))()
+     "verify": cmd_verify, "phd": cmd_phd, "phd-done": cmd_phd_done}.get(cmd, lambda: sys.exit(__doc__))()

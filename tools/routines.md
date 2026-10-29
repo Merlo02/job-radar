@@ -11,8 +11,9 @@ user-facing is in Italian.
 1. `python3 radar.py fetch` downloads the scanner's data. If it prints STOP, end the run with the
    one line it gives you.
 2. ArtifactData on the tracker: query "jobs" with where [["closed","==",false]], limit 1000,
-   out_dir "db"; list "radarRuns" with limit 1000, out_dir "db". Keep the versions shown for "jobs":
-   closures need them.
+   out_dir "db"; list "radarRuns" with limit 1000, out_dir "db"; list "tracker" with limit 1000,
+   out_dir "db" (read only: never write to it). Keep the versions shown for "jobs": closures and
+   verdicts need them.
 3. `python3 radar.py cards --db db` prints numbered cards (company · role · place · source · date |
    years, level, keywords, signals | ~400 characters on the job), as many as one morning can read,
    in page files (cards-1.txt, cards-2.txt…) that it names: read every page with the Read tool, in
@@ -98,6 +99,14 @@ user-facing is in Italian.
    are still online: LinkedIn links through LinkedIn, the links the scanner does not follow through
    the job-board APIs or the page. It takes a few minutes. Close the jobs listed under DA CHIUDERE the
    same way (no WebFetch for the ones without an answer: they are asked again in 3 days).
+7. `python3 radar.py verify --db db` prints the full text of up to 6 jobs that could go into Apply
+   today and were not verified in the last 30 days (Apply today shows only verdict "ok"). Read each
+   one in full and write one line per job in verifiche.jsonl, following the rules the script prints:
+   no when it asks 2+ years, a PhD (even preferred, except graduate programmes), a language he does
+   not speak, a mandatory requirement he lacks entirely, or when the job is not ML/AI. When the text
+   could not be read write "dubbio" with "testo non letto": Claude Code verifies those with his
+   browser. Then `python3 radar.py verify --db db --write` and one ArtifactData batch with the writes
+   of write/verify.json, adding if_version from step 2.
 
 On Mondays only:
 - One WebSearch for AI and data roles at Bain, Reply, Generali, Comau and Stellantis in Italy or
@@ -148,3 +157,11 @@ Final message (Italian, short): "PhD · nuove dall'ultimo giro: N" then one line
 (laboratorio o azienda · tema · città e paese · fit · scadenza), alto first; then closures (count
 and names), deadlines in the next 14 days, and any scanner problem (stale run or failed sources).
 If nothing is new, say so in one line.
+
+## Verifica col browser (Claude Code, quando Gabriele apre una sessione)
+
+The jobs with verdict "dubbio" and checks starting "testo non letto" (LinkedIn refused, Indeed, pages
+built in JavaScript) wait for Claude Code: read the posting with Claude in Chrome (Gabriele is logged
+in to LinkedIn; never solve a CAPTCHA or a security check: use the company's own careers page or ATS
+instead), apply the same rules and write verified, verdict and checks with ArtifactData. Before
+proposing any posting to Gabriele outside the Radar, read its full text the same way.
