@@ -898,11 +898,17 @@ def apply_candidates(jobs, status):
                           r"phd\s*/\s*(?:msc|master)|phd (?:richiesto|obbligatorio|required)", re.I)
     hard = re.compile(r"phd (?:richiesto|obbligatorio|required|necessario|preferit)|molto selettiv|cercano (?:un )?espert|"
                       r"esperienza richiesta|\bsenior\b|\b[2-9]\+? anni|agenzia|visto|visa\b|descrizione mancante", re.I)
+    uk = re.compile(r"\b(?:london|united kingdom|uk|england|scotland|wales|glasgow|manchester|bristol|cambridge|oxford|"
+                    r"edinburgh|birmingham|leeds|belfast|londra|regno unito)\b", re.I)
+    sponsor = re.compile(r"(?:offr\w*|garantisc\w*|fornisc\w*|con|sponsorizza\w*) (?:lo |il |la )?(?:sponsor|visto)|"
+                         r"visa sponsorship (?:available|offered|provided)|sponsor(?:izza|izzano) il visto", re.I)
     today = dt.date.fromisoformat(TODAY)
     out = []
     for did, d in jobs.items():
         if d.get("closed") or status.get(did) in HANDLED or d.get("kind") in ("internship", "industrial-phd"):
             continue
+        if uk.search(d.get("loc") or "") and not sponsor.search(f"{d.get('why') or ''} {d.get('req') or ''}"):
+            continue   # the page keeps the UK out unless the posting sponsors the visa
         fit = d.get("fitScore") if isinstance(d.get("fitScore"), (int, float)) else {"alto": 4, "medio": 3}.get(d.get("fit"), 2)
         rel = d.get("rel") if isinstance(d.get("rel"), (int, float)) else 0
         junior = d.get("junior") is True
@@ -930,6 +936,15 @@ def cmd_verify():
     import time
     db = arg("--db", "db")
     jobs = docs(os.path.join(db, "jobs"))
+    # the jobs `docs` wrote this morning are not in db/ (read at step 2): take them from write/, version 1
+    new = set()
+    for bf in glob.glob("write/batch-*.json"):
+        for w in load(bf, []) or []:
+            if w.get("collection") == "jobs" and w.get("op") == "set" and w.get("doc_id") not in jobs:
+                d = load(w.get("file_path") or "", None)
+                if isinstance(d, dict):
+                    jobs[w["doc_id"]] = d
+                    new.add(w["doc_id"])
     status = {did: (t.get("status") or "") for did, t in docs(os.path.join(db, "tracker")).items()}
     if "--write" in sys.argv:
         rows = [json.loads(l) for l in open("verifiche.jsonl", encoding="utf-8") if l.strip()]
@@ -946,7 +961,8 @@ def cmd_verify():
             writes.append({"op": "update", "collection": "jobs", "doc_id": r["id"], "data": data})
         save("write/verify.json", writes)
         print(f"{len(writes)} verdetti in write/verify.json: un solo ArtifactData batch con queste writes, aggiungendo a "
-              f"ognuna if_version dalla lista di 'jobs' del passo 2: " + ", ".join(w["doc_id"] for w in writes))
+              f"ognuna if_version dalla lista di 'jobs' del passo 2 (1 per quelle create stamattina): " +
+              ", ".join(w["doc_id"] + (" (nuova: 1)" if w["doc_id"] in new else "") for w in writes))
         return
     todo = []
     for did, d in apply_candidates(jobs, status):

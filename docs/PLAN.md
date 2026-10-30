@@ -233,6 +233,11 @@ ogni 8 secondi: risponde 429 a chi va veloce), dati JobPosting della pagina; Ind
 `--write` prepara il batch. Quello che non si legge resta «dubbio» e lo verifica Claude Code con Chrome. Prima verifica
 (29/10, a mano su 7 annunci): ok Arm Graduate MLE, Arm Graduate ML SWE, ARRK/Mitsui Madrid; no Airbus UpNext (chiuso),
 FUTRUE (business development, non ML), TechWolf (agenti, residenza in Belgio); dubbio Maisa (post-training di LLM).
+30/10, primo giro della routine con la verifica: ha verificato solo Xapien, perché `verify` leggeva `db/` del passo 2 e
+gli annunci scritti da `docs` nello stesso giro (tra cui Inria, fit alto) restavano fuori fino al giorno dopo. Ora
+`verify` aggiunge i documenti nuovi da `write/batch-*.json` (versione 1) e, come la pagina, salta il Regno Unito senza
+sponsor del visto. Verificati a mano: Inria WILLOW (Cordelia Schmid), research engineer per neolaureati, 6 mesi da
+gennaio, scadenza 30/11, ok; Xapien (Londra, niente visto), no.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
