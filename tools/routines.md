@@ -29,6 +29,11 @@ new document is refused because it already exists, drop that op and resend the o
    the next mornings) and write state.json with its fields as they are plus its version:
    `{"scan": "...", "left": [...], "version": 3}`. If the document does not exist, end the run with one
    line: "Radar: stato del giro non trovato nel database, giro saltato."
+   Then check that this run can write, before judging anything: one db_write with
+   `[{"op": "update", "path": "radarState/main", "ifVersion": <its version>, "data": {"probe": "<today>"}}]`
+   and add 1 to the version in state.json. If it is refused because a person must approve it, end the run
+   with one line: "Radar: la routine non può scrivere nel database (serve l'approvazione di una persona),
+   giro saltato: lo fa Claude Code." (judging cards that cannot be saved wastes the run).
 3. `python3 radar.py cards` prints numbered cards (company · role · place · source · date |
    years, level, keywords, signals | ~400 characters on the job), as many as one morning can read,
    in page files (cards-1.txt, cards-2.txt…) that it names: read every page with the Read tool, in
@@ -145,8 +150,10 @@ mornings if the script says so. If nothing is new, say so in one line.
 
 1. db_get "phdState/main" (the PhD scanner run judged last) and write state.json with its fields as they
    are plus its version: `{"scan": "...", "version": 2}`. If the document does not exist, end the run
-   with one line: "Mappa PhD: stato del giro non trovato nel database, giro saltato." db_list "events"
-   and "discarded" to know the next free ids.
+   with one line: "Mappa PhD: stato del giro non trovato nel database, giro saltato." Then the same write
+   check as the Radar (an update of phdState/main with {"probe": today}, version + 1 in state.json); if it
+   is refused, end the run with one line: "Mappa PhD: la routine non può scrivere nel database, giro
+   saltato: lo fa Claude Code." db_list "events" and "discarded" to know the next free ids.
 2. `python3 radar.py phd` prints the numbered positions the PhD scanner saw after the last run (entity
    · title · place · kind and job board · deadline · salary · MSCA note | start of the description,
    url, key) and the closure queries; when they are many it writes them to page files (phd-1.txt…) and
