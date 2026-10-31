@@ -6,6 +6,13 @@ checkout of this repo into its working directory before starting (`radar.py` bel
 downloads code from the internet. Shell commands run in the working directory. Everything
 user-facing is in Italian.
 
+The database tool is ArtifactData: load it first with ToolSearch, query exactly
+"select:ArtifactData", even when other database tools are listed (for example
+mcp__claude-artifacts__db_query or db_list). Those return the documents inside the conversation and
+cannot save them to files, which the script needs: never use them. Only if "select:ArtifactData"
+returns nothing, end the run with one line: "Radar: in questa sessione manca ArtifactData, giro
+saltato." (on the map: "Mappa PhD: …").
+
 ## Radar
 
 1. `python3 radar.py fetch` downloads the scanner's data. If it prints STOP, end the run with the
