@@ -8,7 +8,9 @@ user-facing is in Italian.
 
 Database. The tools are mcp__claude-artifacts__db_get, db_query, db_list and db_write: load them with
 one ToolSearch, query "select:mcp__claude-artifacts__db_get,mcp__claude-artifacts__db_query,
-mcp__claude-artifacts__db_list,mcp__claude-artifacts__db_write"; slug = the page link in the prompt.
+mcp__claude-artifacts__db_list,mcp__claude-artifacts__db_write,mcp__claude-artifacts__get_artifact".
+slug: call get_artifact once with slug = the page link in the prompt and use the "slug" it returns (a
+uuid) in every db call (the id at the end of the link is refused).
 (A session that has ArtifactData instead uses it the same way: get, query, list, batch.) They return the
 documents inside the conversation: read only what the steps say (one state document, the results of
 targeted queries), never a whole collection of jobs or positions. Writes: db_write with ops = a JSON
