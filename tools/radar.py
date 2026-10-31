@@ -6,28 +6,30 @@ routine: their permission check blocks code downloaded at run time) and follow t
 
 Radar, every morning:
     python3 radar.py fetch                 # status.json and new_cards.json from the repo
-    (Claude copies the document radarState/main of the page into state.json, with its version)
+    (Claude copies the newest "radar-state …" document of the Drive folder "job-radar inbox" into state.json)
     python3 radar.py cards                 # numbered cards to judge: seen by the scanner after the last run, or left
                                            # by it; ML titles first, as many as one morning reads (CARD_PAGES)
     (Claude writes giudizi.txt: one line per card, n|tipo|fit|prestigio|anni|motivo)
     python3 radar.py more                  # requirements of the cards with fit >= 3, to write why and req
     python3 radar.py desc 12 40            # full description of some cards, only when the card is unclear
     (Claude writes schede.jsonl for the cards with fit >= 3: {"n", "why", "req", optional overrides})
-    python3 radar.py docs                  # db_write files (ops-1.json…), the queries for the closures, final message
-    python3 radar.py close gone id:2 …     # the db_write operations that close the jobs those queries found
+    python3 radar.py docs                  # the new documents, the queries for the closures, the final message
+    python3 radar.py close gone id …       # closures of the jobs those queries returned
     python3 radar.py verify --list verify.txt          # full text of the Apply today candidates (id|version|url|pub|deadline)
     (Claude writes verifiche.jsonl: {"id", "verdict": ok|no|dubbio, "checks"})
-    python3 radar.py verify --list verify.txt --write  # the db_write file that stores the verdicts
+    python3 radar.py verify --list verify.txt --write  # the verdicts
+    python3 radar.py pack radar            # everything in files for Drive, and the new state
 
 Mappa PhD, Monday and Thursday:
-    (Claude copies the document phdState/main of the map into state.json)
+    (Claude copies the newest "phd-state …" document into state.json)
     python3 radar.py phd                   # PhD positions seen after the last run, queries for the closures
-    python3 radar.py phd-done              # the db_write file that moves the map's state forward
+    (Claude writes ops-phd.json: the positions and events to add)
+    python3 radar.py phd-done; python3 radar.py pack phd
 
-Since 31/10 the routines' database tools return the documents inside the conversation and write only
-what Claude sends them (no out_dir, no file_path): so the script reads nothing from the database. What
-it needs is a small state document (the scanner run judged last, the cards left), the documents that
-targeted queries return, and short id:version lists that Claude passes on the command line.
+Since 31/10 the routines can read the pages' databases only inside the conversation, and claude.ai asks a person
+to approve every database write of a run nobody watches. So the script reads nothing from the databases (a small
+state document, targeted queries, short id lists on the command line), and the routine writes nothing to them: it
+leaves the run in the Drive folder "job-radar inbox", and the page applies it when Gabriele opens it.
 
 Long lists (cards, more, phd) go to page files of about 24,000 characters (cards-1.txt, ...),
 which fit in one tool output: the script names them and the routine reads them all.
@@ -54,9 +56,10 @@ BOARD_DAYS = 30      # Indeed and the other boards (not LinkedIn: graduate progr
                      # Claude Code asks LinkedIn with `check`): older postings count as expired
 OPS_CHARS = 18000    # one db_write call per ops file, small enough to read and send back whole
 QUERY_IN = 30        # values in one "in" condition of a query
-STATE = "state.json" # the routine copies here the state document it read (radarState/main or phdState/main)
+STATE = "state.json" # the routine copies here the state it read (the newest "radar-state …" or "phd-state …" on Drive)
 CHECK_TURNS = 3      # `check` asks a third of the open postings each day, so each one is checked every 3 days
 NOW = dt.datetime.now(dt.timezone.utc)
+RUN = NOW.strftime("%Y-%m-%dT%H%M%SZ")
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
 BOARD_NAME = {"linkedin": "LinkedIn", "indeed": "Indeed", "wttj": "Welcome to the Jungle", "thehub": "The Hub",
               "hn": "Hacker News", "landingjobs": "Landing.jobs", "joinup": "joinup.ch"}
@@ -268,13 +271,17 @@ def short(s, n):
 
 
 def read_state():
-    """The state document the routine copied into state.json: {"scan": the scanner run judged last,
-    "left": keys of the cards left for the next mornings, "version": its version in the database}."""
-    st = load(STATE, None)
+    """The state the routine copied into state.json from the newest state document on Drive: {"scan": the
+    scanner run judged last, "left": keys of the cards left for the next mornings}. Drive gives a Google Doc
+    back as markdown (\\[ for [): the escapes are dropped."""
+    try:
+        st = json.loads(re.sub(r"\\([\[\]_*`#~])", r"\1", open(STATE, encoding="utf-8").read()))
+    except (OSError, ValueError):
+        st = None
     if not isinstance(st, dict) or not st.get("scan"):
-        sys.exit(f"STOP: {STATE} manca o non ha \"scan\": copiaci il documento di stato letto dal database "
-                 f"(i suoi campi e \"version\"). Se il documento non esiste, chiudi il giro con una riga: "
-                 f"\"Stato del giro non trovato nel database, giro saltato.\"")
+        sys.exit(f"STOP: {STATE} manca o non ha \"scan\": copiaci il testo del documento di stato più recente "
+                 f"della cartella Drive \"job-radar inbox\". Se non c'è, chiudi il giro con una riga: "
+                 f"\"Stato del giro non trovato su Drive, giro saltato.\"")
     return st
 
 
@@ -285,8 +292,11 @@ def op_set(path, data, version=None):
     return o
 
 
-def op_update(path, data, version):
-    return {"op": "update", "path": path, "ifVersion": version, "data": data}
+def op_update(path, data, version=None):
+    o = {"op": "update", "path": path, "data": data}
+    if version:
+        o["ifVersion"] = version
+    return o
 
 
 def emit_ops(ops, name):
@@ -623,7 +633,10 @@ def cmd_docs():
                     extra[int(x["n"])] = x
                 except (ValueError, KeyError, TypeError):
                     print("riga di schede.jsonl non valida:", line[:80])
-    ops, added, no_why, taken, judged = [], [], [], set(), 0
+    for old in glob.glob("ops-*.json") + glob.glob("inbox-*.json") + ["verify-new.txt"]:
+        if os.path.exists(old):
+            os.remove(old)
+    ops, added, no_why, taken, judged, vq = [], [], [], set(), 0, []
     for n, c in sorted(cards.items()):
         j = js.get(n)
         if not j:
@@ -663,25 +676,30 @@ def cmd_docs():
         if c.get("apply_url") and norm_url(c["apply_url"]) != norm_url(c.get("url")):
             doc["applyUrl"] = c["apply_url"]
         if candidate(doc):
-            doc["vq"] = True   # waits for the full-text verification of step 7 (`verify`), which sets it false
+            doc["vq"] = True   # waits for the full-text verification (`verify`), which sets it false
         if j["fit"] >= 3 and not x.get("why"):
             no_why.append(n)
-        ops.append(op_set(f"jobs/{job_id(c, title, taken)}", doc))
+        did = job_id(c, title, taken)
+        ops.append(op_set(f"jobs/{did}", doc))
+        if doc.get("vq"):
+            vq.append(f"{did}|0|{doc['url'] or ''}|{doc['pub'] or ''}|{doc['deadline'] or ''}")
         added.append((doc, j))
     auto = cs.get("auto", [])
     ops.append(op_set(f"radarRuns/{NOW.strftime('%Y-%m-%dT%H%M%SZ')}",
                       {"scan": cs.get("scan"), "date": TODAY, "judged": judged + len(auto), "added": len(added)}))
-    # last: the state moves forward only once the documents are written
-    ops.append(op_set("radarState/main", {"scan": cs.get("scan") or state["scan"], "left": cs.get("left_keys") or [],
-                                          "date": TODAY}, state.get("version")))
-    files = emit_ops(ops, "ops")
+    new_state = {"scan": cs.get("scan") or state["scan"], "left": cs.get("left_keys") or [], "date": TODAY}
+    ops.append(op_set("radarState/main", new_state))   # a copy in the database, for Claude Code
+    save("state-new.json", new_state)
+    emit_ops(ops, "ops-1docs")
+    with open("verify-new.txt", "w", encoding="utf-8") as f:
+        f.write("".join(l + "\n" for l in vq))
     if no_why:
         print(f"ATTENZIONE: {len(no_why)} schede con fit >= 3 senza why in schede.jsonl (uso il motivo): {no_why[:40]}")
     unjudged = [n for n in cards if n not in js]
     print(f"Giudicate {judged} schede su {len(cards)}{' · SENZA GIUDIZIO: ' + str(unjudged[:40]) if unjudged else ''}"
           f"{f' (più {len(auto)} giudicate dallo script)' if auto else ''}; da aggiungere al Radar: {len(added)}.")
-    print(f"\nSCRITTURE: {len(files)} chiamate db_write, nell'ordine, ciascuna con ops = l'array JSON del file "
-          f"(leggilo con Read): " + ", ".join(files) + ". L'ultima sposta avanti lo stato del giro (radarState/main).")
+    print(f"\nDOCUMENTI: {len(ops)} operazioni salvate per Drive (le impacchetta `radar.py pack radar` alla fine). "
+          f"Candidati agli Apply today da verificare stamattina: {len(vq)} (verify-new.txt).")
     # closures: queries that return only the open jobs to close
     nc = load("new_cards.json", {})
     gone = sorted({c["key"] for c in nc.get("closed", []) if (c.get("closed_at") or "") > state["scan"]})
@@ -691,7 +709,7 @@ def cmd_docs():
            ("board", query("jobs", ("closed", "==", False), ("source", "in", sorted(v for v in BOARD_NAME.values() if v != "LinkedIn")), ("pub", "<", cutoff))),
            ("anni", query("jobs", ("closed", "==", False), ("anni", ">=", MAX_YEARS)))]
     print(f"\nCHIUSURE: {len(qs)} db_query (una per riga, dopo il motivo). Per gli annunci che restituiscono: "
-          f"`python3 radar.py close <motivo> id:version id:version …` e una chiamata db_write con le ops che stampa.")
+          f"`python3 radar.py close <motivo> id id …` (le chiusure vanno nel pacchetto per Drive).")
     for why, q in qs:
         print(f"  {why} · {q}")
     soon = (dt.date.fromisoformat(TODAY) + dt.timedelta(days=7)).isoformat()
@@ -719,21 +737,63 @@ def cmd_docs():
         print(f"Restano {cs['left']} schede da giudicare nei prossimi giri.")
 
 
+def cmd_pack():
+    """The run's operations in files for the Drive folder "job-radar inbox", in the order the page applies them:
+    the documents (ops-1docs-*.json, ops-phd.json), the closures (ops-close.json), the verdicts (ops-verify-*.json),
+    the run's record (ops-9done.json). Each file is {"kind", "run", "part", "of", "ops"}; the page applies the
+    files it has not applied yet, sorted by title. Then the new state, as a separate document."""
+    kind = sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] in ("radar", "phd") else "radar"
+    for old in glob.glob("inbox-*.json"):
+        os.remove(old)
+    ops = []
+    for f in sorted(glob.glob("ops-1docs-*.json")) + ["ops-phd.json", "ops-close.json"] + \
+            sorted(glob.glob("ops-verify-*.json")) + ["ops-9done.json"]:
+        x = load(f, None)
+        if isinstance(x, list):
+            ops += [o for o in x if isinstance(o, dict) and o.get("op") in ("set", "update") and "/" in str(o.get("path"))]
+    parts, cur, size = [], [], 0
+    for o in ops:
+        n = len(json.dumps(o, ensure_ascii=False)) + 1
+        if cur and size + n > OPS_CHARS:
+            parts.append(cur)
+            cur, size = [], 0
+        cur.append(o)
+        size += n
+    if cur:
+        parts.append(cur)
+    print(f"{len(ops)} operazioni in {len(parts)} file. Per ognuno una chiamata create_file di Google Drive con "
+          f"parentId = la cartella \"job-radar inbox\", contentMimeType \"application/json\", "
+          f"disableConversionToGoogleType true, textContent = il testo del file (leggilo con Read), title come sotto:")
+    for i, ch in enumerate(parts, 1):
+        name = f"inbox-{i}.json"
+        with open(name, "w", encoding="utf-8") as f:
+            json.dump({"kind": kind, "run": RUN, "part": i, "of": len(parts), "ops": ch}, f, ensure_ascii=False,
+                      separators=(",", ":"))
+        print(f"  {name} → title \"{kind}-ops {RUN} {i:02d} of {len(parts):02d}.json\"")
+    st = load("state-new.json", None)
+    if st:
+        print(f"\nPoi lo stato: create_file con lo stesso parentId, title \"{kind}-state {RUN}\", contentMimeType "
+              f"\"text/plain\" (diventa un documento Google), textContent = questa riga:\n{json.dumps(st, ensure_ascii=False)}")
+
+
 def cmd_close():
-    """db_write operations that close documents: radar.py close <motivo> id:version … [--collection positions]."""
+    """Closures for the Drive package: radar.py close <motivo> id … [--collection positions] (ids as the query
+    returned them; a :version after the id is accepted and ignored: the page applies the closure as it finds it)."""
     why = sys.argv[2] if len(sys.argv) > 2 else ""
     if why not in CLOSE_NOTE:
         sys.exit("motivo sconosciuto: " + why + " (uno di " + ", ".join(CLOSE_NOTE) + ")")
     coll = arg("--collection", "jobs")
-    ops = []
+    ops = load("ops-close.json", []) or []
+    n = 0
     for a in sys.argv[3:]:
-        m = re.match(r"([\w.-]+):(\d+)$", a)
-        if m:
-            ops.append(op_update(f"{coll}/{m.group(1)}", {"closed": True, "closedNote": CLOSE_NOTE[why], "checked": TODAY},
-                                 int(m.group(2))))
-        elif a != coll and a != "--collection":
+        m = re.match(r"([\w.-]+)(?::(\d+))?$", a)
+        if m and a not in (coll, "--collection"):
+            ops.append(op_update(f"{coll}/{m.group(1)}", {"closed": True, "closedNote": CLOSE_NOTE[why], "checked": TODAY}))
+            n += 1
+        elif a not in (coll, "--collection"):
             print("ignorato:", a)
-    print(json.dumps(ops, ensure_ascii=False))
+    save("ops-close.json", ops)
+    print(f"{n} chiusure aggiunte al pacchetto per Drive ({len(ops)} in tutto).")
 
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -973,8 +1033,10 @@ def cmd_verify():
                 if x.get("closed"):
                     data.update(closed=True, closedNote=short(x.get("checks"), 200), checked=TODAY)
                 ops.append(op_update(f"jobs/{r['id']}", data, r["v"]))
-        files = emit_ops(ops, "ops-verify")
-        print(f"{len(ops)} aggiornamenti: una chiamata db_write per file, con ops = il suo array JSON: " + ", ".join(files))
+        for old in glob.glob("ops-verify-*.json"):
+            os.remove(old)
+        emit_ops(ops, "ops-verify")
+        print(f"{len(ops)} verdetti aggiunti al pacchetto per Drive.")
         return
     todo = [r for r in rows if not out(r)][:VERIFY_MAX]
     gone = len(rows) - len([r for r in rows if not out(r)])
@@ -1046,15 +1108,19 @@ def cmd_phd():
 
 
 def cmd_phd_done():
-    """The db_write operations that record the run: a phdRuns document and the map's state moved forward."""
+    """The operations that record the run (a phdRuns document) and the map's new state, for `pack phd`."""
     state = read_state()
     pc = load("phd_cards.json", {})
-    ops = [op_set(f"phdRuns/{NOW.strftime('%Y-%m-%dT%H%M%SZ')}", {"date": TODAY, "scan": pc.get("scan"), "count": pc.get("count")}),
-           op_set("phdState/main", {"scan": pc.get("scan") or state["scan"], "date": TODAY}, state.get("version"))]
-    print(json.dumps(ops, ensure_ascii=False))
+    new_state = {"scan": pc.get("scan") or state["scan"], "date": TODAY}
+    ops = [op_set(f"phdRuns/{RUN}", {"date": TODAY, "scan": pc.get("scan"), "count": pc.get("count")}),
+           op_set("phdState/main", new_state)]
+    save("ops-9done.json", ops)
+    save("state-new.json", new_state)
+    print("Fatto: il giro e il nuovo stato sono nel pacchetto. Ora `python3 radar.py pack phd`.")
 
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     {"fetch": cmd_fetch, "cards": cmd_cards, "more": cmd_more, "desc": cmd_desc, "docs": cmd_docs, "close": cmd_close,
-     "check": cmd_check, "verify": cmd_verify, "phd": cmd_phd, "phd-done": cmd_phd_done}.get(cmd, lambda: sys.exit(__doc__))()
+     "pack": cmd_pack, "check": cmd_check, "verify": cmd_verify, "phd": cmd_phd, "phd-done": cmd_phd_done}.get(
+        cmd, lambda: sys.exit(__doc__))()
