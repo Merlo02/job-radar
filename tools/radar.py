@@ -6,29 +6,34 @@ routine: their permission check blocks code downloaded at run time) and follow t
 
 Radar, every morning:
     python3 radar.py fetch                 # status.json and new_cards.json from the repo
-    python3 radar.py cards --db db         # numbered cards to judge: not judged by an earlier run, not in the Radar,
-                                           # ML titles first, as many as one morning reads (CARD_PAGES)
+    (Claude copies the document radarState/main of the page into state.json, with its version)
+    python3 radar.py cards                 # numbered cards to judge: seen by the scanner after the last run, or left
+                                           # by it; ML titles first, as many as one morning reads (CARD_PAGES)
     (Claude writes giudizi.txt: one line per card, n|tipo|fit|prestigio|anni|motivo)
     python3 radar.py more                  # requirements of the cards with fit >= 3, to write why and req
     python3 radar.py desc 12 40            # full description of some cards, only when the card is unclear
     (Claude writes schede.jsonl for the cards with fit >= 3: {"n", "why", "req", optional overrides})
-    python3 radar.py docs --db db          # documents to write, batch entries, closures, final message
-    python3 radar.py check --db db         # every day, a third of the open postings in turn: LinkedIn links and
-                                           # links the scanner does not follow, checked for being still online
-    python3 radar.py verify --db db        # full text of the jobs that could go into Apply today, not verified yet
+    python3 radar.py docs                  # db_write files (ops-1.json…), the queries for the closures, final message
+    python3 radar.py close gone id:2 …     # the db_write operations that close the jobs those queries found
+    python3 radar.py verify --list verify.txt          # full text of the Apply today candidates (id|version|url|pub|deadline)
     (Claude writes verifiche.jsonl: {"id", "verdict": ok|no|dubbio, "checks"})
-    python3 radar.py verify --db db --write  # the batch that stores the verdicts (Apply today shows only "ok")
+    python3 radar.py verify --list verify.txt --write  # the db_write file that stores the verdicts
 
 Mappa PhD, Monday and Thursday:
-    python3 radar.py phd --db db           # PhD positions not judged yet and not on the map, positions to close
-    python3 radar.py phd-done              # the document that records them as judged (collection phdRuns)
+    (Claude copies the document phdState/main of the map into state.json)
+    python3 radar.py phd                   # PhD positions seen after the last run, queries for the closures
+    python3 radar.py phd-done              # the db_write file that moves the map's state forward
+
+Since 31/10 the routines' database tools return the documents inside the conversation and write only
+what Claude sends them (no out_dir, no file_path): so the script reads nothing from the database. What
+it needs is a small state document (the scanner run judged last, the cards left), the documents that
+targeted queries return, and short id:version lists that Claude passes on the command line.
 
 Long lists (cards, more, phd) go to page files of about 24,000 characters (cards-1.txt, ...),
 which fit in one tool output: the script names them and the routine reads them all.
 
---db is the folder where the routine saved the page's collections with ArtifactData (out_dir):
-db/jobs/*.json and db/radarRuns/*.json for the Radar, db/positions/*.json and db/phdRuns/*.json
-for the PhD map.
+Claude Code, with ArtifactData and out_dir, can still pass --db with the saved collections to `check`
+(the online check of the open jobs: LinkedIn and some job boards do not answer from the routines' sandbox).
 """
 import datetime as dt
 import glob
@@ -45,7 +50,11 @@ MSG_LINES = 30       # postings listed one by one in the final message (the rest
 PAGE_CHARS = 24000   # longer lists go to page files: one tool output shows about 30,000 characters
 CARD_PAGES = 20      # pages of cards in one morning (~450,000 characters, what one run can read): the rest waits
 MAX_YEARS = 3        # a new graduate: postings asking this many years of experience or more stay out (Gabriele, 18/10)
-BOARD_DAYS = 30      # Indeed and the other boards (not LinkedIn, which `check` asks): older postings count as expired
+BOARD_DAYS = 30      # Indeed and the other boards (not LinkedIn: graduate programmes stay open for months there, and
+                     # Claude Code asks LinkedIn with `check`): older postings count as expired
+OPS_CHARS = 18000    # one db_write call per ops file, small enough to read and send back whole
+QUERY_IN = 30        # values in one "in" condition of a query
+STATE = "state.json" # the routine copies here the state document it read (radarState/main or phdState/main)
 CHECK_TURNS = 3      # `check` asks a third of the open postings each day, so each one is checked every 3 days
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
@@ -258,6 +267,63 @@ def short(s, n):
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
 
 
+def read_state():
+    """The state document the routine copied into state.json: {"scan": the scanner run judged last,
+    "left": keys of the cards left for the next mornings, "version": its version in the database}."""
+    st = load(STATE, None)
+    if not isinstance(st, dict) or not st.get("scan"):
+        sys.exit(f"STOP: {STATE} manca o non ha \"scan\": copiaci il documento di stato letto dal database "
+                 f"(i suoi campi e \"version\"). Se il documento non esiste, chiudi il giro con una riga: "
+                 f"\"Stato del giro non trovato nel database, giro saltato.\"")
+    return st
+
+
+def op_set(path, data, version=None):
+    o = {"op": "set", "path": path, "data": data}
+    if version:
+        o["ifVersion"] = version
+    return o
+
+
+def op_update(path, data, version):
+    return {"op": "update", "path": path, "ifVersion": version, "data": data}
+
+
+def emit_ops(ops, name):
+    """db_write operations in files of at most OPS_CHARS characters (name-1.json…): one db_write call each,
+    with ops = the file's JSON array, in the order of the files."""
+    for old in glob.glob(f"{name}-*.json"):
+        os.remove(old)
+    files, cur, size = [], [], 2
+    for o in ops:
+        n = len(json.dumps(o, ensure_ascii=False)) + 1
+        if cur and size + n > OPS_CHARS:
+            files.append(cur)
+            cur, size = [], 2
+        cur.append(o)
+        size += n
+    if cur:
+        files.append(cur)
+    names = []
+    for i, ch in enumerate(files, 1):
+        with open(f"{name}-{i}.json", "w", encoding="utf-8") as f:
+            json.dump(ch, f, ensure_ascii=False, separators=(",", ":"))
+        names.append(f"{name}-{i}.json")
+    return names
+
+
+def query(collection, *conds, limit=200, order=None):
+    """A db_query call, as JSON: where = [{"field", "op", "value"}…]."""
+    out = {"collection": collection, "where": [{"field": f, "op": o, "value": v} for f, o, v in conds], "limit": limit}
+    if order:
+        out["orderBy"] = {"field": order[0], "direction": order[1]}
+    return json.dumps(out, ensure_ascii=False)
+
+
+def chunks(xs, n=QUERY_IN):
+    return [xs[i:i + n] for i in range(0, len(xs), n)]
+
+
 def where(loc):
     """area, remote and an Italian place name from a location string."""
     loc = loc or ""
@@ -292,48 +358,6 @@ def where(loc):
 
 
 # ------------------------------------------------------------------ radar
-def judged_keys(db, coll="radarRuns"):
-    """Scanner keys already judged by an earlier run (each run stores its judgements in one document)."""
-    keys = set()
-    for r in docs(os.path.join(db, coll)).values():
-        for line in (r.get("lines") or "").splitlines():
-            keys.add(line.split("|", 1)[0])
-        keys.update(r.get("keys") or [])
-    return keys
-
-
-def judged_out(db):
-    """Roles (company, title) that an earlier run judged out of the Radar: when they are posted again
-    under a new key (LinkedIn reposts, another board) the script gives the same judgement."""
-    out = {}
-    for _, r in sorted(docs(os.path.join(db, "radarRuns")).items()):
-        for line in (r.get("lines") or "").splitlines():
-            p = line.split("|")
-            if len(p) < 8 or not p[4].isdigit():
-                continue
-            j = {"tipo": p[3], "fit": int(p[4]), "prest": int(p[5]) if p[5].isdigit() else 1,
-                 "anni": int(p[6]) if p[6].isdigit() else None, "motivo": "|".join(p[7:])}
-            role = (co_key(p[1]), title_key(p[2]))
-            if kept(j, {"agency": bool(AGENCY.search(p[1]))}):
-                out.pop(role, None)
-            else:
-                out[role] = j
-    return out
-
-
-def radar_known(db):
-    jobs = docs(os.path.join(db, "jobs"))
-    urls, names, keys = set(), set(), set()
-    for d in jobs.values():
-        for u in (d.get("url"), d.get("applyUrl")):
-            if u:
-                urls.add(norm_url(u))
-        names.add((co_key(d.get("co")), title_key(d.get("title"))))
-        if d.get("scanKey"):
-            keys.add(d["scanKey"])
-    return jobs, urls, names, keys
-
-
 def cmd_fetch():
     for name in ("status.json", "new_cards.json"):
         get(name)
@@ -345,26 +369,27 @@ def cmd_fetch():
 def cmd_cards():
     """Cards not judged yet, most promising first: ML titles (the newest first, then the older ones),
     then the cards with ML words only in the text, then those without any, shown on one line. One
-    morning reads up to CARD_PAGES pages; what is left goes first in the next runs."""
-    db = arg("--db", "db")
+    morning reads up to CARD_PAGES pages; what is left goes first in the next runs.
+    Not judged yet: first seen by the scanner after the run judged last (state.json), or left by it.
+    A role seen in an earlier run (a LinkedIn repost, the same role on another board or in another city)
+    was judged then, and is in the Radar or out of it already: skipped."""
     cap = int(arg("--max", "100000"))
     st, nc = load("status.json", {}), load("new_cards.json", {})
-    judged = judged_keys(db)
-    out_before = judged_out(db)
-    _, urls, names, keys = radar_known(db)
+    state = read_state()
+    cursor, left = state["scan"], set(state.get("left") or [])
+    items = nc.get("items", [])
+    old = lambda c: (c.get("first_seen") or "") <= cursor and c["key"] not in left
+    seen = {(co_key(c.get("co")), title_key(c.get("title"))) for c in items if old(c)}
     todo, auto, skipped = [], [], 0
-    for c in nc.get("items", []):
-        if c["key"] in judged:
+    for c in items:
+        if old(c):
             continue
         role = (co_key(c.get("co")), title_key(c.get("title")))
-        if c["key"] in keys or norm_url(c.get("url")) in urls or norm_url(c.get("apply_url")) in urls or role in names:
+        if role in seen:
             skipped += 1
             continue
-        # judged by the script: reposts of roles already judged out, data-labelling gigs (fit 1 by the rubric)
-        if role in out_before:
-            j = out_before[role]
-            auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), **j))
-        elif GIG.search(f"{c.get('co')} {c.get('title')}"):
+        # judged by the script: data-labelling gigs, senior roles by the text, internships for enrolled students
+        if GIG.search(f"{c.get('co')} {c.get('title')}"):
             auto.append(dict(key=c["key"], co=c.get("co"), title=c.get("title"), tipo="altro", fit=1, prest=1,
                              anni=None, motivo="Gig di annotazione o valutazione dati"))
         elif c.get("senior") or SENIOR_TEXT.search(f"{c.get('card') or ''} {c.get('req') or ''}"):
@@ -411,17 +436,19 @@ def cmd_cards():
         cards.append(c)
         used += size
     left = len(todo) - len(cards)
+    left_keys = [k for c in todo[len(cards):] for k in [c["key"]] + (c.get("dups") or [])]
     for i, c in enumerate(cards, 1):
         c["n"] = i
-    save("cards.json", {"scan": st.get("run_at"), "cards": cards, "auto": auto, "left": left})
+    save("cards.json", {"scan": nc.get("generated") or st.get("run_at"), "cards": cards, "auto": auto, "left": left,
+                        "left_keys": left_keys})
     run = parse_ts(st.get("run_at"))
     age = (NOW - run).total_seconds() / 3600 if run else 999
     print(f"Scanner: giro del {st.get('run_at')} ({age:.0f} ore fa){' · VECCHIO: lo scanner non ha girato stanotte' if age > 30 else ''}"
           f"{' · fonti fallite: ' + ', '.join(st.get('failed', [])) if st.get('failed') else ''}")
     n = {f: sum(1 for c in cards if c["form"] == f) for f in order}
     print(f"Da giudicare: {len(cards)} schede ({n['full']} intere, {n['short']} corte, {n['line']} su una riga)"
-          f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} già nel Radar"
-          f"{f'; {len(auto)} giudicate dallo script (ripubblicazioni di ruoli già scartati, gig di annotazione dati, ruoli senior dal testo, stage solo per iscritti)' if auto else ''}.")
+          f"{f'; ne restano {left} per i prossimi giri' if left else ''}; {skipped} ripubblicazioni di ruoli già visti"
+          f"{f'; {len(auto)} giudicate dallo script (gig di annotazione dati, ruoli senior dal testo, stage solo per iscritti)' if auto else ''}.")
     print("Formato: n. azienda · ruolo · luogo · fonte · data | anni, livello, parole chiave, segnali | scheda. "
           "Schede intere: titolo da ML. Corte (testo accorciato): parole di ML o dati solo nel testo, o solo "
           "parole chiave negative (LangChain, RAG, agenti, anni). "
@@ -565,17 +592,26 @@ def prio(fit, rel, junior, area):
     return round((5 - fit) * 10 + (5 - rel) - (2 if junior else 0) + geo * 0.3, 2)
 
 
-def run_line(c, j):
-    """key|co|title|tipo|fit|prestigio|anni|motivo, the format judged_keys and judged_out read back."""
-    clean = lambda s: re.sub(r"[|\n]+", " / ", str(s or ""))
-    return "|".join([c["key"], clean(c.get("co")), clean(c.get("title")), j["tipo"], str(j["fit"]), str(j["prest"]),
-                     str(j["anni"]) if j.get("anni") is not None else "-", clean(j["motivo"])])
+CLOSE_NOTE = {"gone": "L'annuncio non è più online.", "deadline": "La scadenza è passata.",
+              "board": f"Annuncio di un sito di annunci (Indeed e simili) di oltre {BOARD_DAYS} giorni: quasi certamente scaduto.",
+              "anni": f"Chiede {MAX_YEARS} o più anni di esperienza: troppi per un neolaureato.",
+              "linkedin": "Su LinkedIn non accetta più candidature."}
+
+
+def job_id(c, title, taken):
+    """Document id of a new job: company and title, plus 4 characters of the scanner key, so that it never
+    collides with a document written before (the script cannot list them)."""
+    did = f"{slug(c.get('co'), title)[:50] or 'annuncio'}-{hashlib.md5(c['key'].encode()).hexdigest()[:4]}"
+    while did in taken:
+        did = did[:-1] + "x"
+    taken.add(did)
+    return did
 
 
 def cmd_docs():
-    db = arg("--db", "db")
-    state = load("cards.json", {})
-    cards = {c["n"]: c for c in state.get("cards", [])}
+    state = read_state()
+    cs = load("cards.json", {})
+    cards = {c["n"]: c for c in cs.get("cards", [])}
     js = read_judgments()
     extra = {}
     if os.path.exists("schede.jsonl"):
@@ -587,18 +623,12 @@ def cmd_docs():
                     extra[int(x["n"])] = x
                 except (ValueError, KeyError, TypeError):
                     print("riga di schede.jsonl non valida:", line[:80])
-    jobs, *_ = radar_known(db)
-    taken = set(jobs)
-    os.makedirs("write", exist_ok=True)
-    for f in glob.glob("write/*.json"):
-        os.remove(f)
-    writes, added, lines, no_why, dup_keys = [], [], [], [], []
+    ops, added, no_why, taken, judged = [], [], [], set(), 0
     for n, c in sorted(cards.items()):
         j = js.get(n)
         if not j:
             continue
-        lines.append(run_line(c, j))
-        dup_keys += c.get("dups") or []
+        judged += 1
         if not kept(j, c):
             continue
         x = extra.get(n, {})
@@ -632,54 +662,47 @@ def cmd_docs():
             "tipo": j["tipo"], "fitScore": j["fit"], "prestigio": j["prest"], "anni": j["anni"], "scanKey": c["key"]}
         if c.get("apply_url") and norm_url(c["apply_url"]) != norm_url(c.get("url")):
             doc["applyUrl"] = c["apply_url"]
+        if candidate(doc):
+            doc["vq"] = True   # waits for the full-text verification of step 7 (`verify`), which sets it false
         if j["fit"] >= 3 and not x.get("why"):
             no_why.append(n)
-        did = base = slug(c.get("co"), title) or "annuncio"
-        if did in taken:
-            did = f"{base[:50]}-{hashlib.md5(c['key'].encode()).hexdigest()[:5]}"
-        taken.add(did)
-        save(f"write/{did}.json", doc)
-        writes.append({"op": "set", "collection": "jobs", "doc_id": did, "file_path": os.path.abspath(f"write/{did}.json")})
+        ops.append(op_set(f"jobs/{job_id(c, title, taken)}", doc))
         added.append((doc, j))
-    lines += [run_line(a, a) for a in state.get("auto", [])]
-    # closures: postings gone from the company sites, deadlines passed, too many years asked, old board postings
-    nc = load("new_cards.json", {})
-    gone = {c["key"] for c in nc.get("closed", [])} | {norm_url(c.get("url")) for c in nc.get("closed", [])}
-    close = [(did, why) for did, d in sorted(jobs.items()) if not d.get("closed")
-             for why in [closing_reason(d, gone)] if why]
-    run = {"scan": state.get("scan"), "date": TODAY, "judged": len(lines), "added": len(added),
-           "lines": "\n".join(lines),   # key|co|title|tipo|fit|prestigio|anni|motivo, read back by judged_keys
-           "keys": dup_keys}             # the same postings seen again under other keys (other cities, other boards)
-    save("write/radar-run.json", run)
-    writes.append({"op": "set", "collection": "radarRuns", "doc_id": NOW.strftime("%Y-%m-%dT%H%M%SZ"),
-                   "file_path": os.path.abspath("write/radar-run.json")})
-    chunks = [writes[i:i + 50] for i in range(0, len(writes), 50)]
-    for i, ch in enumerate(chunks, 1):
-        save(f"write/batch-{i}.json", ch)
+    auto = cs.get("auto", [])
+    ops.append(op_set(f"radarRuns/{NOW.strftime('%Y-%m-%dT%H%M%SZ')}",
+                      {"scan": cs.get("scan"), "date": TODAY, "judged": judged + len(auto), "added": len(added)}))
+    # last: the state moves forward only once the documents are written
+    ops.append(op_set("radarState/main", {"scan": cs.get("scan") or state["scan"], "left": cs.get("left_keys") or [],
+                                          "date": TODAY}, state.get("version")))
+    files = emit_ops(ops, "ops")
     if no_why:
         print(f"ATTENZIONE: {len(no_why)} schede con fit >= 3 senza why in schede.jsonl (uso il motivo): {no_why[:40]}")
     unjudged = [n for n in cards if n not in js]
-    n_auto = len(state.get("auto", []))
-    print(f"Giudicate {len(lines) - n_auto} schede su {len(cards)}{' · SENZA GIUDIZIO: ' + str(unjudged[:40]) if unjudged else ''}"
-          f"{f' (più {n_auto} giudicate dallo script)' if n_auto else ''}; da aggiungere al Radar: {len(added)}.")
-    print(f"\nSCRITTURE: {len(chunks)} batch. Per ciascuno chiama ArtifactData batch con writes = il contenuto di "
-          f"write/batch-N.json (nuovi documenti, nessun if_version):")
-    for i in range(1, len(chunks) + 1):
-        print(f"  write/batch-{i}.json ({len(chunks[i - 1])} scritture)")
-    if close:
-        print(f"\nCHIUSURE ({len(close)}): update con if_version dalla lista di 'jobs', "
-              f"data {{\"closed\": true, \"closedNote\": ..., \"checked\": \"{TODAY}\"}}:")
-        for did, why in close:
-            print(f"  {did} · {why}")
+    print(f"Giudicate {judged} schede su {len(cards)}{' · SENZA GIUDIZIO: ' + str(unjudged[:40]) if unjudged else ''}"
+          f"{f' (più {len(auto)} giudicate dallo script)' if auto else ''}; da aggiungere al Radar: {len(added)}.")
+    print(f"\nSCRITTURE: {len(files)} chiamate db_write, nell'ordine, ciascuna con ops = l'array JSON del file "
+          f"(leggilo con Read): " + ", ".join(files) + ". L'ultima sposta avanti lo stato del giro (radarState/main).")
+    # closures: queries that return only the open jobs to close
+    nc = load("new_cards.json", {})
+    gone = sorted({c["key"] for c in nc.get("closed", []) if (c.get("closed_at") or "") > state["scan"]})
+    cutoff = (dt.date.fromisoformat(TODAY) - dt.timedelta(days=BOARD_DAYS)).isoformat()
+    qs = [("gone", query("jobs", ("scanKey", "in", ch), ("closed", "==", False))) for ch in chunks(gone)]
+    qs += [("deadline", query("jobs", ("closed", "==", False), ("deadline", "<", TODAY))),
+           ("board", query("jobs", ("closed", "==", False), ("source", "in", sorted(v for v in BOARD_NAME.values() if v != "LinkedIn")), ("pub", "<", cutoff))),
+           ("anni", query("jobs", ("closed", "==", False), ("anni", ">=", MAX_YEARS)))]
+    print(f"\nCHIUSURE: {len(qs)} db_query (una per riga, dopo il motivo). Per gli annunci che restituiscono: "
+          f"`python3 radar.py close <motivo> id:version id:version …` e una chiamata db_write con le ops che stampa.")
+    for why, q in qs:
+        print(f"  {why} · {q}")
+    soon = (dt.date.fromisoformat(TODAY) + dt.timedelta(days=7)).isoformat()
+    print(f"\nSCADENZE dei prossimi 7 giorni, per il messaggio finale: "
+          f"{query('jobs', ('closed', '==', False), ('deadline', '>=', TODAY), ('deadline', '<=', soon))}")
     # final message
     st = load("status.json", {})
     good = sorted((x for x in added if x[0]["fit"] != "basso"), key=lambda x: x[0]["prio"])
     low = sum(1 for x in added if x[0]["fit"] == "basso")
-    soon = sorted((d["deadline"], d.get("co"), d.get("title")) for d in jobs.values()
-                  if not d.get("closed") and d.get("deadline") and TODAY <= d["deadline"] <=
-                  (dt.date.fromisoformat(TODAY) + dt.timedelta(days=7)).isoformat())
-    print("\nMESSAGGIO FINALE (bozza):")
-    print(f"Nuovi da ieri: {len(added)} (giudicate {len(lines)} schede dello scanner)")
+    print("\nMESSAGGIO FINALE (bozza, aggiungi chiusure e scadenze):")
+    print(f"Nuovi da ieri: {len(added)} (giudicate {judged + len(auto)} schede dello scanner)")
     for d, j in good[:MSG_LINES]:
         print(f"- {d['co']} · {d['title']} · {d['loc']} · fit {d['fit']} · rilevanza {d['rel']}"
               f"{' · junior' if d['junior'] else ''}")
@@ -687,35 +710,30 @@ def cmd_docs():
         print(f"- e altri {len(good) - MSG_LINES} con fit alto o medio: sono nel Radar")
     if low:
         print(f"- più {low} con fit basso")
-    print(f"Chiusi: {len(close)}")
-    for dl, co, t in soon:
-        print(f"Scade il {dl}: {co} · {t}")
     run_at = parse_ts(st.get("run_at"))
     if not run_at or (NOW - run_at).total_seconds() > 30 * 3600:
         print("Lo scanner non ha girato stanotte.")
     if st.get("failed"):
         print("Fonti con errori: " + ", ".join(st["failed"]))
-    if state.get("left"):
-        print(f"Restano {state['left']} schede da giudicare nei prossimi giri.")
+    if cs.get("left"):
+        print(f"Restano {cs['left']} schede da giudicare nei prossimi giri.")
 
 
-def closing_reason(d, gone):
-    """Why an open job should close now, or None. The scanner's closures (company sites), deadlines,
-    MAX_YEARS or more years asked (by the judgement stored in the document), and postings from Indeed
-    and the other boards older than BOARD_DAYS: those boards are never re-read, and their postings
-    expire within weeks. LinkedIn postings are asked one by one by `check`."""
-    if d.get("scanKey") in gone or norm_url(d.get("url")) in gone:
-        return "L'annuncio non è più online."
-    if d.get("deadline") and d["deadline"] < TODAY:
-        return "La scadenza è passata."
-    if isinstance(d.get("anni"), int) and d["anni"] >= MAX_YEARS:
-        return f"Chiede {d['anni']} anni di esperienza: troppi per un neolaureato."
-    src = d.get("source") or ""
-    pub = d.get("pub") or d.get("added") or ""
-    if src in BOARD_NAME.values() and src != "LinkedIn" and pub and \
-            pub < (dt.date.fromisoformat(TODAY) - dt.timedelta(days=BOARD_DAYS)).isoformat():
-        return f"Annuncio di {src} di oltre {BOARD_DAYS} giorni: quasi certamente scaduto."
-    return None
+def cmd_close():
+    """db_write operations that close documents: radar.py close <motivo> id:version … [--collection positions]."""
+    why = sys.argv[2] if len(sys.argv) > 2 else ""
+    if why not in CLOSE_NOTE:
+        sys.exit("motivo sconosciuto: " + why + " (uno di " + ", ".join(CLOSE_NOTE) + ")")
+    coll = arg("--collection", "jobs")
+    ops = []
+    for a in sys.argv[3:]:
+        m = re.match(r"([\w.-]+):(\d+)$", a)
+        if m:
+            ops.append(op_update(f"{coll}/{m.group(1)}", {"closed": True, "closedNote": CLOSE_NOTE[why], "checked": TODAY},
+                                 int(m.group(2))))
+        elif a != coll and a != "--collection":
+            print("ignorato:", a)
+    print(json.dumps(ops, ensure_ascii=False))
 
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -818,11 +836,10 @@ def cmd_check():
 
 # ------------------------------------------------------------------ verification
 # 29/10 (Gabriele: «ho paura di candidarmi a posizioni che richiedono più esperienza… perché a volte non hai guardato
-# il testo»): a job goes into Apply today only after someone read its full posting. `verify` prints the full text of
-# the jobs that could go there and were not verified yet; Claude writes verifiche.jsonl; `verify --write` stores it.
+# il testo»): a job goes into Apply today only after someone read its full posting. `docs` puts the candidates in a
+# queue (vq = true), `verify` prints the full text of the ones Claude lists from it, Claude writes verifiche.jsonl,
+# `verify --write` stores the verdicts and takes them out of the queue.
 VERIFY_MAX = 6       # postings read in full each morning (about 1,500 tokens each)
-VERIFY_DAYS = 30     # a verdict older than this is asked again
-HANDLED = {"inviata", "colloquio", "offerta", "no", "scartata"}
 REQ_START = re.compile(r"(?:requirements|qualifications|what you(?:'ll)? bring|who you are|you have|your profile|"
                        r"we(?:'re| are) looking for|about you|profil|anforderungen|requisiti|must have)", re.I)
 
@@ -890,88 +907,80 @@ def full_text(url):
     return plain(h)[:12000], "pagina"
 
 
-def apply_candidates(jobs, status):
-    """The jobs that could go into Apply today, in the page's order (pickToday in the Radar page: same rules,
-    without the verification itself)."""
-    phd_pref = re.compile(r"phd[^.;,]{0,25}(?:preferit|un plus|è un plus|gradit|is a plus|preferred|a plus|desirable|"
-                          r"ideal)|(?:preferibilmente|preferably|ideally|idealmente)[^.;]{0,15}(?:phd|dottorato)|"
-                          r"phd\s*/\s*(?:msc|master)|phd (?:richiesto|obbligatorio|required)", re.I)
-    hard = re.compile(r"phd (?:richiesto|obbligatorio|required|necessario|preferit)|molto selettiv|cercano (?:un )?espert|"
-                      r"esperienza richiesta|\bsenior\b|\b[2-9]\+? anni|agenzia|visto|visa\b|descrizione mancante", re.I)
-    uk = re.compile(r"\b(?:london|united kingdom|uk|england|scotland|wales|glasgow|manchester|bristol|cambridge|oxford|"
-                    r"edinburgh|birmingham|leeds|belfast|londra|regno unito)\b", re.I)
-    sponsor = re.compile(r"(?:offr\w*|garantisc\w*|fornisc\w*|con|sponsorizza\w*) (?:lo |il |la )?(?:sponsor|visto)|"
-                         r"visa sponsorship (?:available|offered|provided)|sponsor(?:izza|izzano) il visto", re.I)
-    today = dt.date.fromisoformat(TODAY)
-    out = []
-    for did, d in jobs.items():
-        if d.get("closed") or status.get(did) in HANDLED or d.get("kind") in ("internship", "industrial-phd"):
-            continue
-        if uk.search(d.get("loc") or "") and not sponsor.search(f"{d.get('why') or ''} {d.get('req') or ''}"):
-            continue   # the page keeps the UK out unless the posting sponsors the visa
-        fit = d.get("fitScore") if isinstance(d.get("fitScore"), (int, float)) else {"alto": 4, "medio": 3}.get(d.get("fit"), 2)
-        rel = d.get("rel") if isinstance(d.get("rel"), (int, float)) else 0
-        junior = d.get("junior") is True
-        dead = d.get("deadline")
-        open_dead = bool(dead) and dead >= TODAY
-        if dead and not open_dead:
-            continue
-        if fit < (3 if junior else 4) or rel < 3.5 or (isinstance(d.get("anni"), (int, float)) and d["anni"] >= 2):
-            continue
-        if hard.search(d.get("flag") or "") or (phd_pref.search(d.get("req") or "") and
-                                                 not re.search(r"programma graduate", d.get("flag") or "", re.I)):
-            continue
-        day = (d.get("pub") or d.get("added") or "")[:10]
-        age = (today - dt.date.fromisoformat(day)).days if re.match(r"\d{4}-\d\d-\d\d$", day) else 60
-        if age > 14 and not open_dead:
-            continue
-        score = 0.40 * (fit - 1) / 4 + 0.20 * (rel - 1) / 4 + 0.15 * max(0, 1 - age / 30) + (0.15 if junior else 0)
-        out.append((score, did, d))
-    return [(did, d) for _, did, d in sorted(out, key=lambda x: -x[0])]
+PHD_PREF = re.compile(r"phd[^.;,]{0,25}(?:preferit|un plus|è un plus|gradit|is a plus|preferred|a plus|desirable|"
+                      r"ideal)|(?:preferibilmente|preferably|ideally|idealmente)[^.;]{0,15}(?:phd|dottorato)|"
+                      r"phd\s*/\s*(?:msc|master)|phd (?:richiesto|obbligatorio|required)", re.I)
+HARD = re.compile(r"phd (?:richiesto|obbligatorio|required|necessario|preferit)|molto selettiv|cercano (?:un )?espert|"
+                  r"esperienza richiesta|\bsenior\b|\b[2-9]\+? anni|agenzia|visto|visa\b|descrizione mancante", re.I)
+UK = re.compile(r"\b(?:london|united kingdom|uk|england|scotland|wales|glasgow|manchester|bristol|cambridge|oxford|"
+                r"edinburgh|birmingham|leeds|belfast|londra|regno unito)\b", re.I)
+SPONSOR = re.compile(r"(?:offr\w*|garantisc\w*|fornisc\w*|con|sponsorizza\w*) (?:lo |il |la )?(?:sponsor|visto)|"
+                     r"visa sponsorship (?:available|offered|provided)|sponsor(?:izza|izzano) il visto", re.I)
+
+
+def candidate(d):
+    """Could go into Apply today, by what the document says: pickToday in the Radar page, the same rules
+    without the age, the tracker and the verification itself."""
+    if d.get("closed") or d.get("kind") in ("internship", "industrial-phd"):
+        return False
+    if UK.search(d.get("loc") or "") and not SPONSOR.search(f"{d.get('why') or ''} {d.get('req') or ''}"):
+        return False   # the page keeps the UK out unless the posting sponsors the visa
+    fit = d.get("fitScore") if isinstance(d.get("fitScore"), (int, float)) else {"alto": 4, "medio": 3}.get(d.get("fit"), 2)
+    rel = d.get("rel") if isinstance(d.get("rel"), (int, float)) else 0
+    if fit < (3 if d.get("junior") is True else 4) or rel < 3.5 or (isinstance(d.get("anni"), (int, float)) and d["anni"] >= 2):
+        return False
+    return not (HARD.search(d.get("flag") or "") or (PHD_PREF.search(d.get("req") or "") and
+                                                     not re.search(r"programma graduate", d.get("flag") or "", re.I)))
+
+
+def too_old(pub, deadline):
+    """Apply today takes postings of the last 14 days, older ones only while their deadline is open."""
+    if deadline and deadline >= TODAY:
+        return False
+    day = (pub or "")[:10]
+    age = (dt.date.fromisoformat(TODAY) - dt.date.fromisoformat(day)).days if re.match(r"\d{4}-\d\d-\d\d$", day) else 60
+    return age > 14
 
 
 def cmd_verify():
-    """Full text of up to VERIFY_MAX jobs that could go into Apply today and have no recent verdict; with
-    --write, the batch entries that store the verdicts of verifiche.jsonl."""
+    """Full text of the jobs of the verification queue (vq = true, Apply today candidates), from the list
+    Claude wrote with the query of step 7: one line id|version|url|pub|deadline per job, "|gestito" at the end
+    for the jobs he already handled in the tracker. With --write, the db_write operations that store the
+    verdicts of verifiche.jsonl and take the jobs out of the queue (also the handled and the old ones)."""
     import time
-    db = arg("--db", "db")
-    jobs = docs(os.path.join(db, "jobs"))
-    # the jobs `docs` wrote this morning are not in db/ (read at step 2): take them from write/, version 1
-    new = set()
-    for bf in glob.glob("write/batch-*.json"):
-        for w in load(bf, []) or []:
-            if w.get("collection") == "jobs" and w.get("op") == "set" and w.get("doc_id") not in jobs:
-                d = load(w.get("file_path") or "", None)
-                if isinstance(d, dict):
-                    jobs[w["doc_id"]] = d
-                    new.add(w["doc_id"])
-    status = {did: (t.get("status") or "") for did, t in docs(os.path.join(db, "tracker")).items()}
+    rows = []
+    for line in open(arg("--list", "verify.txt"), encoding="utf-8"):
+        p = [x.strip() for x in line.split("|")]
+        if len(p) >= 3 and p[1].isdigit():
+            rows.append({"id": p[0], "v": int(p[1]), "url": p[2], "pub": p[3] if len(p) > 3 else "",
+                         "deadline": p[4] if len(p) > 4 and re.match(r"\d{4}-", p[4]) else "",
+                         "handled": "gestito" in p[3:]})
+    out = lambda r: r["handled"] or too_old(r["pub"], r["deadline"])
     if "--write" in sys.argv:
-        rows = [json.loads(l) for l in open("verifiche.jsonl", encoding="utf-8") if l.strip()]
-        os.makedirs("write", exist_ok=True)
-        writes = []
+        verdicts = {}
+        if os.path.exists("verifiche.jsonl"):
+            for l in open("verifiche.jsonl", encoding="utf-8"):
+                if l.strip():
+                    x = json.loads(l)
+                    verdicts[x.get("id")] = x
+        ops = []
         for r in rows:
-            d = jobs.get(r.get("id"))
-            if not d or r.get("verdict") not in ("ok", "no", "dubbio"):
-                print(f"Saltata: {r}")
-                continue
-            data = {"verified": TODAY, "verdict": r["verdict"], "checks": short(r.get("checks"), 400)}
-            if r.get("closed"):
-                data.update(closed=True, closedNote=short(r.get("checks"), 200), checked=TODAY)
-            writes.append({"op": "update", "collection": "jobs", "doc_id": r["id"], "data": data})
-        save("write/verify.json", writes)
-        print(f"{len(writes)} verdetti in write/verify.json: un solo ArtifactData batch con queste writes, aggiungendo a "
-              f"ognuna if_version dalla lista di 'jobs' del passo 2 (1 per quelle create stamattina): " +
-              ", ".join(w["doc_id"] + (" (nuova: 1)" if w["doc_id"] in new else "") for w in writes))
+            x = verdicts.get(r["id"])
+            if out(r):
+                ops.append(op_update(f"jobs/{r['id']}", {"vq": False}, r["v"]))
+            elif x and x.get("verdict") in ("ok", "no", "dubbio"):
+                data = {"verified": TODAY, "verdict": x["verdict"], "checks": short(x.get("checks"), 400), "vq": False}
+                if x.get("closed"):
+                    data.update(closed=True, closedNote=short(x.get("checks"), 200), checked=TODAY)
+                ops.append(op_update(f"jobs/{r['id']}", data, r["v"]))
+        files = emit_ops(ops, "ops-verify")
+        print(f"{len(ops)} aggiornamenti: una chiamata db_write per file, con ops = il suo array JSON: " + ", ".join(files))
         return
-    todo = []
-    for did, d in apply_candidates(jobs, status):
-        v = d.get("verified") or ""
-        if v and (dt.date.fromisoformat(TODAY) - dt.date.fromisoformat(v[:10])).days <= VERIFY_DAYS:
-            continue
-        todo.append((did, d))
-        if len(todo) >= VERIFY_MAX:
-            break
+    todo = [r for r in rows if not out(r)][:VERIFY_MAX]
+    gone = len(rows) - len([r for r in rows if not out(r)])
+    if gone:
+        print(f"{gone} annunci escono dalla coda senza verifica (già gestiti o più vecchi di 14 giorni): "
+              f"`verify --write` li toglie.")
     if not todo:
         print("Nessun annuncio da verificare oggi.")
         return
@@ -983,35 +992,32 @@ def cmd_verify():
           f"(tedesco, francese…), un requisito obbligatorio che non ha per niente, o se il lavoro non è ML/AI (vendite, "
           f"business development, hardware puro, integrazione di API). dubbio se il testo non basta per decidere.\n")
     blocks = []
-    for did, d in todo:
-        text, where_ = full_text(d.get("url"))
-        if re.search(r"linkedin\.com", d.get("url") or ""):
+    for r in todo:
+        text, where_ = full_text(r["url"])
+        if re.search(r"linkedin\.com", r["url"]):
             time.sleep(8)   # LinkedIn answers 429 to whoever asks fast
         i = REQ_START.search(text)
         body = text[max(0, i.start() - 1500):] if i else text
-        blocks.append(f"[{did}] {d.get('co')} · {d.get('title')} · {d.get('loc')} · fonte: {where_}\n"
+        blocks.append(f"[{r['id']}] {r['url']} · fonte: {where_}\n"
                       f"   {short(body, 4500) or '(testo non letto: verdict dubbio, lo verifica Claude Code col browser)'}")
     emit(blocks, "verify")
 
 
 # ------------------------------------------------------------------ PhD map
 def cmd_phd():
-    db = arg("--db", "db")
+    """PhD positions first seen by the PhD scanner after the run judged last (state.json, copied from the
+    map's phdState/main), and the queries that find the positions to close."""
     for name in ("phd_status.json", "phd_recent.json", "phd_closed.json"):
         get(name)
-    st = load("phd_status.json", {})
-    pos = docs(os.path.join(db, "positions"))
-    judged = judged_keys(db, "phdRuns")
-    urls = {norm_url(p.get("url")) for p in pos.values()} | {norm_url(p.get("alt")) for p in pos.values() if p.get("alt")}
-    keys = {p.get("scanKey") for p in pos.values() if p.get("scanKey")}
-    items = [it for it in load("phd_recent.json", {}).get("items", []) if it["key"] not in judged
-             and not it.get("baseline") and it["key"] not in keys and norm_url(it.get("url")) not in urls]
+    state = read_state()
+    st, recent = load("phd_status.json", {}), load("phd_recent.json", {})
+    items = [it for it in recent.get("items", []) if (it.get("first_seen") or "") > state["scan"] and not it.get("baseline")]
     items.sort(key=lambda it: (it.get("kind") == "academic", it.get("co") or "", it.get("title") or ""))
     run = parse_ts(st.get("run_at"))
     age = (NOW - run).total_seconds() / 3600 if run else 999
     print(f"Scanner PhD: giro del {st.get('run_at')} ({age:.0f} ore fa){' · VECCHIO' if age > 30 else ''}"
           f"{' · fonti fallite: ' + ', '.join(st.get('failed', [])) if st.get('failed') else ''}")
-    print(f"Posizioni da giudicare (non ancora giudicate né sulla mappa): {len(items)}")
+    print(f"Posizioni nuove dall'ultimo giro: {len(items)}")
     print("Formato: n. ente · titolo · luogo · tipo (via portale) · scadenza · stipendio · MSCA | descrizione\n")
     blocks = []
     for i, it in enumerate(items, 1):
@@ -1025,27 +1031,30 @@ def cmd_phd():
                       f"\n   {'lingua: ' + ','.join(flags) + ' | ' if flags else ''}{short(it.get('desc'), 450) or '(nessuna descrizione)'}"
                       f"\n   {it.get('url')} · key {it['key']}")
     emit(blocks, "phd")
-    save("phd_cards.json", items)
-    gone = {norm_url(c.get("url")) for c in load("phd_closed.json", {}).get("items", [])} | \
-           {c.get("key") for c in load("phd_closed.json", {}).get("items", [])}
-    close = [(pid, "L'annuncio non è più online.") for pid, p in sorted(pos.items()) if not p.get("closed")
-             and p.get("kind") == "annuncio" and (norm_url(p.get("url")) in gone or p.get("scanKey") in gone)]
-    close += [(pid, "La scadenza è passata.") for pid, p in sorted(pos.items()) if not p.get("closed")
-              and p.get("deadline") and p["deadline"] < TODAY and pid not in dict(close)]
-    if close:
-        print(f"\nDA CHIUDERE ({len(close)}): update con if_version dalla lista di 'positions':")
-        for pid, why in close:
-            print(f"  {pid} · {why}")
+    save("phd_cards.json", {"scan": recent.get("generated") or st.get("run_at"), "count": len(items)})
+    gone = [c for c in load("phd_closed.json", {}).get("items", []) if (c.get("closed_at") or "") > state["scan"]]
+    keys = sorted({c["key"] for c in gone if c.get("key")})
+    urls = sorted({c["url"] for c in gone if c.get("url")})
+    qs = [("gone", query("positions", ("scanKey", "in", ch), ("closed", "==", False))) for ch in chunks(keys)]
+    qs += [("gone", query("positions", ("url", "in", ch), ("closed", "==", False))) for ch in chunks(urls)]
+    qs.append(("deadline", query("positions", ("closed", "==", False), ("kind", "==", "annuncio"), ("deadline", "<", TODAY))))
+    print(f"\nCHIUSURE: {len(qs)} db_query (una per riga, dopo il motivo). Per le posizioni che restituiscono: "
+          f"`python3 radar.py close <motivo> id:version … --collection positions` e una chiamata db_write con le ops "
+          f"che stampa.")
+    for why, q in qs:
+        print(f"  {why} · {q}")
 
 
 def cmd_phd_done():
-    items = load("phd_cards.json", [])
-    save("write/phd-run.json", {"date": TODAY, "count": len(items), "keys": [it["key"] for it in items]})
-    did = NOW.strftime("%Y-%m-%dT%H%M%SZ")
-    print(json.dumps({"op": "set", "collection": "phdRuns", "doc_id": did, "file_path": os.path.abspath("write/phd-run.json")}))
+    """The db_write operations that record the run: a phdRuns document and the map's state moved forward."""
+    state = read_state()
+    pc = load("phd_cards.json", {})
+    ops = [op_set(f"phdRuns/{NOW.strftime('%Y-%m-%dT%H%M%SZ')}", {"date": TODAY, "scan": pc.get("scan"), "count": pc.get("count")}),
+           op_set("phdState/main", {"scan": pc.get("scan") or state["scan"], "date": TODAY}, state.get("version"))]
+    print(json.dumps(ops, ensure_ascii=False))
 
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    {"fetch": cmd_fetch, "cards": cmd_cards, "more": cmd_more, "desc": cmd_desc, "docs": cmd_docs, "check": cmd_check,
-     "verify": cmd_verify, "phd": cmd_phd, "phd-done": cmd_phd_done}.get(cmd, lambda: sys.exit(__doc__))()
+    {"fetch": cmd_fetch, "cards": cmd_cards, "more": cmd_more, "desc": cmd_desc, "docs": cmd_docs, "close": cmd_close,
+     "check": cmd_check, "verify": cmd_verify, "phd": cmd_phd, "phd-done": cmd_phd_done}.get(cmd, lambda: sys.exit(__doc__))()

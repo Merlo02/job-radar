@@ -6,22 +6,28 @@ checkout of this repo into its working directory before starting (`radar.py` bel
 downloads code from the internet. Shell commands run in the working directory. Everything
 user-facing is in Italian.
 
-The database tool is ArtifactData: load it first with ToolSearch, query exactly
-"select:ArtifactData", even when other database tools are listed (for example
-mcp__claude-artifacts__db_query or db_list). Those return the documents inside the conversation and
-cannot save them to files, which the script needs: never use them. Only if "select:ArtifactData"
-returns nothing, end the run with one line: "Radar: in questa sessione manca ArtifactData, giro
-saltato." (on the map: "Mappa PhD: …").
+Database. The tools are mcp__claude-artifacts__db_get, db_query, db_list and db_write: load them with
+one ToolSearch, query "select:mcp__claude-artifacts__db_get,mcp__claude-artifacts__db_query,
+mcp__claude-artifacts__db_list,mcp__claude-artifacts__db_write"; slug = the page link in the prompt.
+(A session that has ArtifactData instead uses it the same way: get, query, list, batch.) They return the
+documents inside the conversation: read only what the steps say (one state document, the results of
+targeted queries), never a whole collection of jobs or positions. Writes: db_write with ops = a JSON
+array of {"op": "set" | "update", "path": "collection/id", "data": {...}, "ifVersion": n}; the script
+prints them ready (files ops-N.json, or a JSON array on the screen): send each array as it is, in the
+order given. ifVersion is the version shown when you read the document. If a write is refused because
+the version changed, read that document again with db_get and resend that op with the new version; if a
+new document is refused because it already exists, drop that op and resend the others. Never write to
+"tracker" or "targetChecks", never delete documents (close them instead).
 
 ## Radar
 
 1. `python3 radar.py fetch` downloads the scanner's data. If it prints STOP, end the run with the
    one line it gives you.
-2. ArtifactData on the tracker: query "jobs" with where [["closed","==",false]], limit 1000,
-   out_dir "db"; list "radarRuns" with limit 1000, out_dir "db"; list "tracker" with limit 1000,
-   out_dir "db" (read only: never write to it). Keep the versions shown for "jobs": closures and
-   verdicts need them.
-3. `python3 radar.py cards --db db` prints numbered cards (company · role · place · source · date |
+2. db_get "radarState/main" (the state of the Radar: the scanner run judged last, the cards left for
+   the next mornings) and write state.json with its fields as they are plus its version:
+   `{"scan": "...", "left": [...], "version": 3}`. If the document does not exist, end the run with one
+   line: "Radar: stato del giro non trovato nel database, giro saltato."
+3. `python3 radar.py cards` prints numbered cards (company · role · place · source · date |
    years, level, keywords, signals | ~400 characters on the job), as many as one morning can read,
    in page files (cards-1.txt, cards-2.txt…) that it names: read every page with the Read tool, in
    order, and append the lines for that page to giudizi.txt before reading the next one. ML titles
@@ -95,25 +101,28 @@ saltato." (on the map: "Mappa PhD: …").
    lines: when it holds a role he fits, also write "title" (the role's real title, as on the page,
    so he can find it in the Radar) and "url" when the new lines give the role's own page. Run
    `python3 radar.py desc <n> …` only for a promising card that is really unclear.
-5. `python3 radar.py docs --db db` writes the documents and prints the batches, the closures and a
-   draft of the final message. For each write/batch-N.json call ArtifactData batch with writes =
-   the JSON array in that file (new documents: no if_version). Then close every job listed under
-   CHIUSURE with one batch of "update" entries on "jobs": if_version from step 2, data
-   `{"closed": true, "closedNote": the reason printed, "checked": today}`. The closures are postings
-   gone from the company sites, deadlines passed, 3 or more years asked, and Indeed or other board
-   postings older than 30 days.
-6. `python3 radar.py check --db db` asks whether a third of the open jobs (a different third each day)
-   are still online: LinkedIn links through LinkedIn, the links the scanner does not follow through
-   the job-board APIs or the page. It takes a few minutes. Close the jobs listed under DA CHIUDERE the
-   same way (no WebFetch for the ones without an answer: they are asked again in 3 days).
-7. `python3 radar.py verify --db db` prints the full text of up to 6 jobs that could go into Apply
-   today and were not verified in the last 30 days (Apply today shows only verdict "ok"). Read each
-   one in full and write one line per job in verifiche.jsonl, following the rules the script prints:
-   no when it asks 2+ years, a PhD (even preferred, except graduate programmes), a language he does
-   not speak, a mandatory requirement he lacks entirely, or when the job is not ML/AI. When the text
-   could not be read write "dubbio" with "testo non letto": Claude Code verifies those with his
-   browser. Then `python3 radar.py verify --db db --write` and one ArtifactData batch with the writes
-   of write/verify.json, adding if_version from step 2.
+5. `python3 radar.py docs` writes the new documents as db_write files and prints them, the closure
+   queries and a draft of the final message. Send each ops-N.json (read it with Read) with one db_write,
+   in order: the last op moves radarState/main forward, so tomorrow's run starts after today's cards.
+   Then run each db_query printed under CHIUSURE (the JSON is the call: collection, where, limit) and,
+   for the jobs each returns, `python3 radar.py close <motivo> id:version …` (motivo = the word before the
+   query: gone, deadline, board, anni) and one db_write with the array it prints. The closures are
+   postings gone from the company sites, deadlines passed, 3 or more years asked, and Indeed or other
+   board postings older than 30 days (LinkedIn postings close when Claude Code checks them). If a query
+   is refused for its form, split it (one value of "in" per query). Run the SCADENZE query for the final
+   message.
+6. Verification of the Apply today candidates (Apply today shows only verdict "ok"). db_query
+   `{"collection": "jobs", "where": [{"field": "vq", "op": "==", "value": true}, {"field": "closed",
+   "op": "==", "value": false}], "orderBy": {"field": "prio", "direction": "asc"}, "limit": 10}` and
+   db_list "tracker" (read only). Write verify.txt, one line per job returned:
+   `id|version|url|pub|deadline` (empty fields stay empty), with `|gestito` at the end when the tracker
+   has that id with status inviata, colloquio, offerta, no or scartata. `python3 radar.py verify --list
+   verify.txt` prints the full text of up to 6 of them: read each one in full and write one line per
+   job in verifiche.jsonl, following the rules the script prints: no when it asks 2+ years, a PhD (even
+   preferred, except graduate programmes), a language he does not speak, a mandatory requirement he
+   lacks entirely, or when the job is not ML/AI. When the text could not be read write "dubbio" with
+   "testo non letto": Claude Code verifies those with his browser (LinkedIn does not answer from this
+   sandbox). Then `python3 radar.py verify --list verify.txt --write` and one db_write per file it names.
 
 On Mondays only:
 - One WebSearch for AI and data roles at Bain, Reply, Generali, Comau and Stellantis in Italy or
@@ -122,43 +131,42 @@ On Mondays only:
 - Update "targets": for each target with scanner postings set checked = today and found = one
   short Italian sentence like "Scanner: 3 annunci aperti in linea con il profilo" (count its items
   in https://raw.githubusercontent.com/Merlo02/job-radar/main/out/open.json by the "target"
-  field); one or two batches, if_version from your read.
+  field; read "targets" with db_list); one or two db_write calls, ifVersion from your read.
 
 Final message (Italian, short: he reads it at breakfast). Start from the draft printed by
-`radar.py docs` (add the closures from `check` to the count): "Nuovi da ieri: N", one line per new posting with fit alto or medio (azienda ·
+`radar.py docs` (add the closures and the deadlines of the SCADENZE query): "Nuovi da ieri: N", one line per new posting with fit alto or medio (azienda ·
 ruolo · città · fit), Zurich ones first, how many with fit basso, closures, deadlines in the next
 7 days, scanner problems (stale run or failed sources), and how many cards are left for the next
 mornings if the script says so. If nothing is new, say so in one line.
 
 ## Mappa PhD
 
-1. ArtifactData on the map: list "positions" (limit 1000, out_dir "db") and "phdRuns" (limit 1000,
-   out_dir "db"); list "events" and "discarded" to know the next free ids. Keep the versions shown
-   for "positions": closures need them.
-2. `python3 radar.py phd --db db` prints the numbered positions not judged yet and not on the map
-   (entity · title · place · kind and job board · deadline · salary · MSCA note | start of the
-   description, url, key) and the positions to close; when they are many it writes them to page
-   files (phd-1.txt…) and names them: read every page with the Read tool. If it prints STOP, end
-   the run with the one line it gives you. Judge each one: add the fitting ones to "positions"
-   with all the fields (added = today, checked = today, closed = false, phdKind, scanKey, country
-   and city always set) and an "events" entry for each deadline (ev = false). Open the url with
-   WebFetch only for a promising position whose description is unclear or missing.
-3. `python3 radar.py phd-done` prints one batch entry: add it to your last batch, so these
-   positions are not shown again.
-4. Close the positions listed under DA CHIUDERE (closed = true, closedNote = the reason printed,
-   checked = today; if_version from step 1).
+1. db_get "phdState/main" (the PhD scanner run judged last) and write state.json with its fields as they
+   are plus its version: `{"scan": "...", "version": 2}`. If the document does not exist, end the run
+   with one line: "Mappa PhD: stato del giro non trovato nel database, giro saltato." db_list "events"
+   and "discarded" to know the next free ids.
+2. `python3 radar.py phd` prints the numbered positions the PhD scanner saw after the last run (entity
+   · title · place · kind and job board · deadline · salary · MSCA note | start of the description,
+   url, key) and the closure queries; when they are many it writes them to page files (phd-1.txt…) and
+   names them: read every page with the Read tool. If it prints STOP, end the run with the one line it
+   gives you. Judge each one: add the fitting ones to "positions" with all the fields (added = today,
+   checked = today, closed = false, phdKind, scanKey, country and city always set) and an "events" entry
+   for each deadline (ev = false), with db_write set ops (path "positions/<new id>", "events/<new id>").
+   Open the url with WebFetch only for a promising position whose description is unclear or missing.
+3. Run each db_query printed under CHIUSURE and, for the positions each returns,
+   `python3 radar.py close <motivo> id:version … --collection positions` and one db_write with the
+   array it prints.
+4. `python3 radar.py phd-done` prints a JSON array: send it with one db_write, last (it moves
+   phdState/main forward, so these positions are not shown again).
 5. On Mondays only: download
    https://raw.githubusercontent.com/Merlo02/job-radar/main/out/phd_fellowships.json (weekly check
    of the fellowship pages, with the dates found) and update the "programma" positions and events
-   whose deadlines changed or are new; re-check the url of open "annuncio" positions that the
-   scanner does not cover (for example lab pages) and close the ones that are gone; run 2
-   WebSearch queries such as "funded PhD position machine learning wearable sensing 2027" and
+   whose deadlines changed or are new (db_query "positions" where kind == "programma", and the events
+   you need); re-check the url of open "annuncio" positions that the scanner does not cover (for
+   example lab pages: db_query kind == "annuncio" and closed == false) and close the ones that are gone;
+   run 2 WebSearch queries such as "funded PhD position machine learning wearable sensing 2027" and
    "PhD self-supervised learning time series 2027 Europe". The "contatto" lab pages only on the
    first Monday of the month.
-
-Writes: use the "batch" action (≤50 writes per call, file_path entries pointing to JSON files you
-write in the working directory) and always pass if_version from your read when updating an
-existing document. Never delete documents; close them instead.
 
 Final message (Italian, short): "PhD · nuove dall'ultimo giro: N" then one line per new position
 (laboratorio o azienda · tema · città e paese · fit · scadenza), alto first; then closures (count
@@ -170,5 +178,7 @@ If nothing is new, say so in one line.
 The jobs with verdict "dubbio" and checks starting "testo non letto" (LinkedIn refused, Indeed, pages
 built in JavaScript) wait for Claude Code: read the posting with Claude in Chrome (Gabriele is logged
 in to LinkedIn; never solve a CAPTCHA or a security check: use the company's own careers page or ATS
-instead), apply the same rules and write verified, verdict and checks with ArtifactData. Before
+instead), apply the same rules and write verified, verdict, checks and vq = false with ArtifactData. From
+time to time Claude Code also runs `radar.py check --db db` on the open jobs saved with ArtifactData
+(out_dir): it asks LinkedIn which postings stopped taking applications, which the routine cannot do. Before
 proposing any posting to Gabriele outside the Radar, read its full text the same way.

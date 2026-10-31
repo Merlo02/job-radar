@@ -238,6 +238,16 @@ gli annunci scritti da `docs` nello stesso giro (tra cui Inria, fit alto) restav
 `verify` aggiunge i documenti nuovi da `write/batch-*.json` (versione 1) e, come la pagina, salta il Regno Unito senza
 sponsor del visto. Verificati a mano: Inria WILLOW (Cordelia Schmid), research engineer per neolaureati, 6 mesi da
 gennaio, scadenza 30/11, ok; Xapien (Londra, niente visto), no.
+31/10, le routine non hanno più ArtifactData: hanno gli strumenti mcp__claude-artifacts__db_* (get, list, query,
+write), che restituiscono i documenti nella conversazione e scrivono solo quello che Claude manda, senza out_dir né
+file_path. Il giro del 31 si è fermato dopo un minuto (rilanciato: stesso esito) e l'ho fatto da Claude Code. Riscritto
+`radar.py` perché non legga più il database: lo stato del Radar è un documento piccolo, radarState/main (l'ultimo giro
+dello scanner lavorato e le schede rimaste), e sono nuove le schede viste dopo quel giro; le ripubblicazioni sono i ruoli
+già visti in un giro precedente; gli id dei nuovi annunci hanno 4 caratteri dalla chiave dello scanner, così non
+collidono mai; radarRuns tiene solo i conteggi. Chiusure e verifica passano da query mirate che restituiscono pochi
+documenti (`close` stampa le ops), e i candidati agli Apply today hanno vq = true finché `verify` non li legge.
+LinkedIn e Ashby non rispondono dalla sandbox delle routine: gli annunci LinkedIn li chiude Claude Code con `check`
+(il 31: 43 chiusi). Stessa cosa per la Mappa PhD con phdState/main.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
