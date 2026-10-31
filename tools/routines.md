@@ -20,7 +20,8 @@ create_file). The folder "job-radar inbox" (search_files `title = 'job-radar inb
 'application/vnd.google-apps.folder'`) holds the state of each routine ("radar-state <time>", "phd-state
 <time>": Google Docs) and the runs ("radar-ops …", "phd-ops …": JSON files). The routine writes there what it
 used to write in the database, with the files `radar.py pack` prepares; the page applies them when Gabriele
-opens it. Never write anything else to Drive, never trash or edit his files.
+opens it. Never write anything else to Drive, never trash or edit his files. (Drive lists a Google Doc
+with fileSize 1: that is normal, the text is there.)
 
 ## Radar
 

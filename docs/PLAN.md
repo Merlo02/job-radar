@@ -248,6 +248,14 @@ collidono mai; radarRuns tiene solo i conteggi. Chiusure e verifica passano da q
 documenti (`close` stampa le ops), e i candidati agli Apply today hanno vq = true finché `verify` non li legge.
 LinkedIn e Ashby non rispondono dalla sandbox delle routine: gli annunci LinkedIn li chiude Claude Code con `check`
 (il 31: 43 chiusi). Stessa cosa per la Mappa PhD con phdState/main.
+31/10, pomeriggio: anche con db_write tra gli strumenti consentiti, il server rifiuta ogni scrittura nel database di un
+giro che nessuno guarda («This call needs a person to approve it»): è una regola di sicurezza di claude.ai, non un
+permesso da concedere. Le routine ora leggono il database (query mirate) ma scrivono il giro nella cartella Drive
+«job-radar inbox» (`radar.py pack`: file "radar-ops …"/"phd-ops …" in JSON, poi un documento "radar-state …"/
+"phd-state …" con il nuovo stato, che la routine successiva legge). Le due pagine hanno la capacità mcp su Google
+Drive (solo search_files e download_file_content): all'apertura applicano i file non ancora applicati, li segnano in
+radarInbox/phdInbox, e il Radar fissa gli Apply today solo dopo l'import. Gabriele ha ricollegato Google Drive con il
+permesso di scrittura (prima era solo lettura). Provato: la routine scrive su Drive da sola.
 - `out/new_cards.json` (lo scrive lo scanner lavori): le schede di `candidates.json` viste per la
   prima volta negli ultimi `NEW_DAYS` (21) giorni, senza doppioni e senza `baseline`, senza
   descrizione ma con `req` (700 caratteri dalla parte dei requisiti), `sig` (phd, german, french,
