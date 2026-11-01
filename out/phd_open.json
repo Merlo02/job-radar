@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T21:00:55Z",
- "count": 659,
+ "generated": "2026-11-01T23:27:49Z",
+ "count": 666,
  "items": [
   {
    "key": "boards-phd:linkedin:4482873296",
@@ -12,7 +12,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -27,7 +27,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -42,7 +42,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -57,7 +57,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2027-02-24",
@@ -91,7 +91,7 @@
    "loc_status": "eu",
    "posted": "2026-06-01",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-28",
@@ -115,6 +115,23 @@
    "kind": "academic"
   },
   {
+   "key": "at-nl:363551",
+   "co": "ARCNL",
+   "big": true,
+   "title": "PhD: Physics-Informed Machine Learning for Semiconductor Metrology",
+   "url": "https://www.academictransfer.com/en/jobs/363551/phd-physics-informed-machine-learning-for-semiconductor-metrology/",
+   "loc": "Amsterdam",
+   "loc_status": "eu",
+   "posted": "2026-08-28",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2027-02-24",
+   "salary": "€3115–3115 lordi/mese",
+   "kind": "academic"
+  },
+  {
    "key": "boards-phd:linkedin:4480539796",
    "co": "Aalborg University",
    "big": false,
@@ -124,7 +141,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -139,7 +156,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -154,7 +171,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -169,7 +186,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -184,7 +201,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -199,7 +216,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -214,7 +231,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -229,7 +246,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -244,7 +261,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -259,7 +276,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -274,7 +291,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -289,7 +306,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -304,7 +321,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -319,7 +336,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -334,7 +351,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -366,7 +383,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -398,7 +415,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-24T19:12:42Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -413,7 +430,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -428,7 +445,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -459,7 +476,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -474,7 +491,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -489,7 +506,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -504,7 +521,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -518,7 +535,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -533,10 +550,24 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
+  },
+  {
+   "key": "industrial:bmw:1412850533",
+   "co": "BMW Group",
+   "big": true,
+   "title": "Doktorand Physical AI in der Wertschöpfungskette: Entwicklung eines AI-Entscheidungsmodells (w/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/M%C3%BCnchen-Doktorand-Physical-AI-in-der-Wertsch%C3%B6pfungskette-Entwicklung-eines-AI-Entscheidungsmodells-%28wmx%29-BY-80809/1412850533/",
+   "loc": "München, BY, DE, 80809",
+   "loc_status": "eu",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "industrial",
+   "kind": "industrial"
   },
   {
    "key": "boards-phd:linkedin:4485670171",
@@ -548,7 +579,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -563,7 +594,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -594,7 +625,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -609,7 +640,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -623,7 +654,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -638,7 +669,7 @@
    "loc_status": "eu",
    "posted": "2026-07-24",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -652,7 +683,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -666,7 +697,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -681,7 +712,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -695,7 +726,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -710,7 +741,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -724,7 +755,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -739,7 +770,7 @@
    "loc_status": "eu",
    "posted": "2026-07-07",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -753,7 +784,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -767,7 +798,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -781,7 +812,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -796,7 +827,7 @@
    "loc_status": "eu",
    "posted": "2026-06-23",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -810,7 +841,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -824,7 +855,7 @@
    "loc_status": "eu",
    "posted": "2026-07-24",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -838,7 +869,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -852,7 +883,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -867,7 +898,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -881,7 +912,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -896,7 +927,7 @@
    "loc_status": "eu",
    "posted": "2026-07-07",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -910,7 +941,7 @@
    "loc_status": "eu",
    "posted": "2026-06-23",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -924,7 +955,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -938,7 +969,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -953,7 +984,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -967,7 +998,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -982,7 +1013,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -997,7 +1028,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1012,7 +1043,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1027,7 +1058,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1042,7 +1073,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -1056,7 +1087,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1071,7 +1102,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -1085,7 +1116,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1100,7 +1131,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1115,7 +1146,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1130,7 +1161,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1145,7 +1176,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1160,7 +1191,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1191,7 +1222,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1206,7 +1237,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1781,7 +1812,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -1812,7 +1843,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -1827,7 +1858,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1842,7 +1873,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1857,7 +1888,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1872,7 +1903,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1887,7 +1918,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-24T19:12:42Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -1918,7 +1949,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -1933,7 +1964,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -1964,7 +1995,7 @@
    "loc_status": "eu",
    "posted": "2026-10-17",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -2011,7 +2042,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -2026,7 +2057,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -2041,7 +2072,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -2056,7 +2087,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -2071,7 +2102,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2086,7 +2117,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2101,7 +2132,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2116,7 +2147,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2131,7 +2162,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2146,7 +2177,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -2161,7 +2192,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -2176,7 +2207,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -2191,7 +2222,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -2206,7 +2237,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2221,7 +2252,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2236,7 +2267,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2251,7 +2282,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2266,7 +2297,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2281,7 +2312,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2296,7 +2327,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -2311,7 +2342,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -2326,7 +2357,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -2341,7 +2372,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2356,7 +2387,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2371,7 +2402,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2386,7 +2417,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2401,7 +2432,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2416,7 +2447,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2431,7 +2462,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2446,7 +2477,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2461,7 +2492,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2476,7 +2507,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2491,7 +2522,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2506,7 +2537,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2521,7 +2552,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2536,7 +2567,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2551,7 +2582,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2566,7 +2597,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2581,7 +2612,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2596,7 +2627,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -2611,7 +2642,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2626,7 +2657,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2641,7 +2672,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -2656,7 +2687,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -2686,7 +2717,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "sf_rss",
    "country": "ch",
    "kind": "academic"
@@ -2701,7 +2732,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "sf_rss",
    "country": "ch",
    "kind": "academic"
@@ -2731,7 +2762,7 @@
    "loc_status": "eu",
    "posted": "2026-10-03",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-25T19:11:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "sf_rss",
    "country": "ch",
    "kind": "academic"
@@ -2761,7 +2792,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "sf_rss",
    "country": "ch",
    "kind": "academic"
@@ -2776,7 +2807,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "sf_rss",
    "country": "ch",
    "kind": "academic"
@@ -2806,7 +2837,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -2821,7 +2852,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Biosystems Science and Engineering (D-BSSE)",
@@ -2837,7 +2868,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Engineering Design and Computing Laboratory",
@@ -2853,7 +2884,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Earth and Planetary Sciences (D-EAPS)",
@@ -2869,7 +2900,7 @@
    "loc_status": "eu",
    "posted": "2026-08-25",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Institute for Quantum Electronics, D-PHYS",
@@ -2885,7 +2916,7 @@
    "loc_status": "eu",
    "posted": "2026-08-27",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Laboratory for High Power Electronic Systems (HPE) / Departement Informationstechnologie und Elektrotechnik (D-ITET)",
@@ -2901,7 +2932,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "PSI Center for Photon Science - Paul Scherrer Institute and Professorship for X-ray imaging, Institute for Biomedical Engineering",
@@ -2917,7 +2948,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Biosystems Science and Engineering (D-BSSE)",
@@ -2933,7 +2964,7 @@
    "loc_status": "eu",
    "posted": "2026-08-25",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Soft Robotics Lab, Institute for Robotics and Intelligent Systems (IRIS), Department of Mechanical and Process Engineering (D-MAVT)",
@@ -2949,7 +2980,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Management, Technology and Economics (D-MTEC)",
@@ -2965,7 +2996,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Institute of Environmental Engineering (IfU)",
@@ -2981,7 +3012,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Computer Science (D-INFK)",
@@ -2997,7 +3028,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Information Technology and Electrical Engineering (D-ITET)",
@@ -3013,7 +3044,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Sensing, Interaction & Perception Lab | Institute of Intelligent Interactive Systems | Department of Computer Science",
@@ -3029,7 +3060,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Management, Technology and Economics (D-MTEC)",
@@ -3045,7 +3076,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T08:21:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Physics (D-PHYS), Institute for Quantum Electronics",
@@ -3061,7 +3092,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Physics (D-PHYS)",
@@ -3077,26 +3108,10 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Health Sciences and Technology (D-HEST), Consumer Behavior Group",
-   "kind": "academic"
-  },
-  {
-   "key": "ethz-phd:JOPG_ethz_zqMdn6OeN8wS7ZDRfz",
-   "co": "ETH Zurich",
-   "big": true,
-   "title": "Doctoral position in experimental characterization of semiconductor nanocrystals",
-   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zqMdn6OeN8wS7ZDRfz",
-   "loc": "100%, Zurich, fixed-term",
-   "loc_status": "eu",
-   "posted": "2026-08-12",
-   "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
-   "ats": "ethz",
-   "country": "ch",
-   "dept": "Department of Mechanical and Process Engineering (D-MAVT)",
    "kind": "academic"
   },
   {
@@ -3109,7 +3124,7 @@
    "loc_status": "eu",
    "posted": "2026-08-11",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Mechanical and Process Engineering (D-MAVT)",
@@ -3125,7 +3140,7 @@
    "loc_status": "eu",
    "posted": "2026-02-02",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Health Science and Technology",
@@ -3141,7 +3156,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Institut für Umweltentscheidungen, Professur für Konsumverhalten",
@@ -3157,7 +3172,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Biosystems Science and Engineering (D-BSSE), Computational Biology Group",
@@ -3173,7 +3188,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Health Sciences and Technology (D-HEST), Exercise Physiology Lab",
@@ -3189,7 +3204,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Department of Biosystems Science and Engineering (D-BSSE) Computational Biology Group",
@@ -3205,7 +3220,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Partnerinserat | CLS",
@@ -3221,7 +3236,7 @@
    "loc_status": "eu",
    "posted": "2026-07-06",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Institute for Mechanical Systems",
@@ -3237,7 +3252,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ethz",
    "country": "ch",
    "dept": "Center for Robotics",
@@ -3253,7 +3268,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3268,7 +3283,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3283,7 +3298,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3298,7 +3313,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -3345,7 +3360,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -3360,7 +3375,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3375,7 +3390,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -3390,7 +3405,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3405,7 +3420,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3420,7 +3435,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3435,7 +3450,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3450,7 +3465,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3465,7 +3480,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3480,7 +3495,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -3511,7 +3526,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3526,7 +3541,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3541,7 +3556,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3556,7 +3571,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3571,7 +3586,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3586,7 +3601,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3601,7 +3616,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3616,7 +3631,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3631,7 +3646,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3646,7 +3661,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -3661,7 +3676,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3676,7 +3691,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3691,7 +3706,7 @@
    "loc_status": "eu",
    "posted": "2026-10-17",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3706,7 +3721,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3721,7 +3736,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3736,7 +3751,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3751,7 +3766,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -3766,7 +3781,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3781,7 +3796,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3796,7 +3811,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -3811,7 +3826,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-28T10:54:08Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3826,7 +3841,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3841,7 +3856,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3856,7 +3871,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -3870,7 +3885,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Information Technology",
@@ -3886,7 +3901,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Materials, Textiles and Chemical Engineering",
@@ -3902,7 +3917,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Civil Engineering",
@@ -3918,7 +3933,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Environment",
@@ -3934,7 +3949,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Marketing, Innovation and Organisation",
@@ -3950,7 +3965,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Environment",
@@ -3966,7 +3981,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Telecommunications and Information Processing",
@@ -3982,7 +3997,7 @@
    "loc": "Gent, Belgium",
    "loc_status": "eu",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "ugent",
    "country": "be",
    "dept": "Department of Electronics and Information Systems",
@@ -4015,7 +4030,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4030,7 +4045,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4045,7 +4060,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4060,7 +4075,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4075,7 +4090,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -4090,7 +4105,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4105,7 +4120,7 @@
    "loc_status": "eu",
    "posted": "2026-10-25",
    "first_seen": "2026-10-25T19:11:49Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4120,7 +4135,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -4134,7 +4149,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -4148,7 +4163,7 @@
    "loc_status": "eu",
    "posted": "2026-08-07",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -4162,7 +4177,7 @@
    "loc_status": "eu",
    "posted": "2026-09-10",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -4176,7 +4191,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -4208,7 +4223,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -4223,7 +4238,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -4237,7 +4252,7 @@
    "loc": "Rüschlikon, Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -4251,7 +4266,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4266,7 +4281,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4281,7 +4296,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4312,7 +4327,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-24T19:12:42Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -4343,7 +4358,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -4358,7 +4373,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4421,7 +4436,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -4436,7 +4451,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4451,7 +4466,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4466,7 +4481,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4481,7 +4496,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4496,7 +4511,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4511,7 +4526,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -4526,7 +4541,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -4541,7 +4556,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -4556,7 +4571,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -4636,7 +4651,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4651,7 +4666,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4666,7 +4681,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4699,7 +4714,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4714,7 +4729,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -4729,10 +4744,25 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
+  },
+  {
+   "key": "boards-phd:linkedin:4485945545",
+   "co": "Johannes Gutenberg University Mainz",
+   "big": false,
+   "title": "Doctoral Student",
+   "url": "https://www.linkedin.com/jobs/view/4485945545",
+   "loc": "Mainz, Rhineland-Palatinate, Germany",
+   "loc_status": "eu",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "academic",
+   "via": "linkedin"
   },
   {
    "key": "boards-phd:linkedin:4477396417",
@@ -4744,7 +4774,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4758,7 +4788,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Engineering Technology Education Research (ETHER), Group T Leuven Campus",
@@ -4766,20 +4796,19 @@
    "kind": "academic"
   },
   {
-   "key": "kuleuven-phd:60751769",
+   "key": "boards-phd:linkedin:4482715601",
    "co": "KU Leuven",
-   "big": true,
-   "title": "PhD Position on Energy Systems Modeling",
-   "url": "https://www.kuleuven.be/personeel/jobsite/jobs/60751769?lang=en",
-   "loc": "Leuven",
+   "big": false,
+   "title": "PhD Position in Virtual Knowledge Graphs, Edge Computing and Artificial Intelligence",
+   "url": "https://www.linkedin.com/jobs/view/4482715601",
+   "loc": "Kortrijk, Flemish Region, Belgium",
    "loc_status": "eu",
-   "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
-   "ats": "kuleuven",
-   "country": "be",
-   "dept": "Applied Mechanics and Energy conversion (TME), Leuven (Arenberg)",
-   "deadline": "2026-10-31",
-   "kind": "academic"
+   "posted": "2026-10-22",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "academic",
+   "via": "linkedin"
   },
   {
    "key": "kuleuven-phd:60775270",
@@ -4790,7 +4819,7 @@
    "loc": "Geel",
    "loc_status": "eu",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Animal and Human Health Engineering (A2H), Geel Campus",
@@ -4806,7 +4835,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Leuven Biostatistics Centre",
@@ -4822,7 +4851,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "ADVANTAGE: Advanced Disease Modelling, Targeted Drug Discovery and Gene Therapy",
@@ -4838,7 +4867,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-13T12:14:50Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Translational Cell & Tissue Research",
@@ -4854,7 +4883,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Numerical Analysis and Applied Mathematics (NUMA), Leuven (Arenberg)",
@@ -4870,7 +4899,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Waves: Core Research and Engineering (WaveCore), Leuven (Arenberg)",
@@ -4886,7 +4915,7 @@
    "loc": "Brugge",
    "loc_status": "eu",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "kuleuven",
    "country": "be",
    "dept": "Declarative Languages and Artificial Intelligence (DTAI), Bruges Campus",
@@ -4903,7 +4932,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4918,7 +4947,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4949,7 +4978,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4964,7 +4993,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4979,7 +5008,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -4994,7 +5023,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5009,7 +5038,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -5024,7 +5053,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -5039,7 +5068,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -5054,7 +5083,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -5165,7 +5194,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5196,7 +5225,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5211,7 +5240,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5226,7 +5255,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5241,7 +5270,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5256,7 +5285,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5271,7 +5300,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5286,7 +5315,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5301,7 +5330,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5316,7 +5345,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5331,7 +5360,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5346,7 +5375,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5361,7 +5390,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5376,7 +5405,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5391,7 +5420,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -5406,7 +5435,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5421,7 +5450,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -5436,7 +5465,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-18",
@@ -5453,25 +5482,10 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
-  },
-  {
-   "key": "boards-phd:indeed:8469fc90a13a1c07",
-   "co": "Malmö universitet",
-   "big": false,
-   "title": "Doktorand i Datavetenskap",
-   "url": "https://se.indeed.com/viewjob?jk=8469fc90a13a1c07",
-   "loc": "Malmö, M, Sweden",
-   "loc_status": "eu",
-   "posted": "2026-10-29",
-   "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-29T21:50:12Z",
-   "ats": "board_phd",
-   "kind": "academic",
-   "via": "indeed"
   },
   {
    "key": "boards-phd:linkedin:4482478648",
@@ -5483,7 +5497,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5514,7 +5528,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-24T19:12:42Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5529,7 +5543,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5544,7 +5558,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T10:54:08Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5559,7 +5573,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5573,7 +5587,7 @@
    "loc": "Mercedes-Benz Group AG Headquarters, Stuttgart",
    "loc_status": "eu",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -5586,7 +5600,7 @@
    "loc": "Mercedes-Benz Plant Untertürkheim, Stuttgart",
    "loc_status": "eu",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -5600,7 +5614,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5615,7 +5629,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5630,7 +5644,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "dept": "AI Research, Artificial Intelligence, Research, University Grad - Engineering, Tech & Design",
    "kind": "cifre"
@@ -5645,7 +5659,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -5660,7 +5674,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5675,7 +5689,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5770,7 +5784,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5785,7 +5799,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -5818,7 +5832,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5833,7 +5847,22 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "industrial",
+   "via": "linkedin"
+  },
+  {
+   "key": "boards-phd:linkedin:4448786413",
+   "co": "NLR - Netherlands Aerospace Centre",
+   "big": false,
+   "title": "PhD urban sound modelling",
+   "url": "https://www.linkedin.com/jobs/view/4448786413",
+   "loc": "Amsterdam, North Holland, Netherlands",
+   "loc_status": "eu",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5848,7 +5877,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -5862,7 +5891,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5877,7 +5906,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -5891,7 +5920,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5906,7 +5935,7 @@
    "loc_status": "eu",
    "posted": "2026-08-07",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -5920,7 +5949,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -5935,7 +5964,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -5950,7 +5979,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5965,7 +5994,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5980,7 +6009,7 @@
    "loc_status": "eu",
    "posted": "2026-10-17",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -5995,7 +6024,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6010,7 +6039,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6025,7 +6054,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6040,7 +6069,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6055,7 +6084,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6070,7 +6099,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6085,7 +6114,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6100,7 +6129,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6115,7 +6144,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6130,7 +6159,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6145,7 +6174,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6160,7 +6189,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6175,7 +6204,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6190,7 +6219,37 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "academic",
+   "via": "linkedin"
+  },
+  {
+   "key": "boards-phd:linkedin:4485169791",
+   "co": "Norwegian University of Science and Technology (NTNU)",
+   "big": false,
+   "title": "PhD Candidate in molecular medical microbiology at IKOM",
+   "url": "https://www.linkedin.com/jobs/view/4485169791",
+   "loc": "Trondheim Region",
+   "loc_status": "eu",
+   "posted": "2026-10-31",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "academic",
+   "via": "linkedin"
+  },
+  {
+   "key": "boards-phd:linkedin:4485159935",
+   "co": "Norwegian University of Science and Technology (NTNU)",
+   "big": false,
+   "title": "PhD position in Sociology: Security culture, trust and society in in the age of digital identity",
+   "url": "https://www.linkedin.com/jobs/view/4485159935",
+   "loc": "Trondheim Region",
+   "loc_status": "eu",
+   "posted": "2026-10-31",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6223,7 +6282,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6238,7 +6297,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -6253,7 +6312,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -6268,7 +6327,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -6283,7 +6342,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6346,7 +6405,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -6361,7 +6420,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6376,7 +6435,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6391,7 +6450,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6406,7 +6465,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6421,7 +6480,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6436,7 +6495,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6468,7 +6527,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-09",
@@ -6485,7 +6544,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6500,7 +6559,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -6533,7 +6592,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -6566,7 +6625,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -6581,7 +6640,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6596,7 +6655,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -6611,7 +6670,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6626,7 +6685,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6641,7 +6700,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -6656,7 +6715,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6671,7 +6730,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -6686,7 +6745,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6701,7 +6760,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6716,7 +6775,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6731,7 +6790,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "indeed"
@@ -6746,7 +6805,7 @@
    "loc_status": "eu",
    "posted": "2026-02-23",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "cifre"
   },
@@ -6760,7 +6819,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -6775,7 +6834,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -6790,7 +6849,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6805,7 +6864,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "wttj"
@@ -6819,7 +6878,7 @@
    "loc": "Aramon, France",
    "loc_status": "eu",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "cifre"
   },
@@ -6833,7 +6892,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6848,7 +6907,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -6863,7 +6922,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6878,7 +6937,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6893,7 +6952,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6908,7 +6967,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6922,7 +6981,7 @@
    "loc": "Leuven",
    "loc_status": "eu",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -6936,7 +6995,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6951,7 +7010,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6966,7 +7025,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6981,7 +7040,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -6996,7 +7055,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -7011,7 +7070,7 @@
    "loc_status": "eu",
    "posted": "2026-10-17",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -7058,7 +7117,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7073,7 +7132,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -7088,7 +7147,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7103,7 +7162,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7118,7 +7177,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7133,7 +7192,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7148,7 +7207,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7163,7 +7222,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7178,7 +7237,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7193,7 +7252,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7208,7 +7267,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7223,7 +7282,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7238,7 +7297,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7253,7 +7312,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -7268,7 +7327,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -7283,7 +7342,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7357,6 +7416,23 @@
    "kind": "academic"
   },
   {
+   "key": "at-nl:365163",
+   "co": "TU Delft",
+   "big": true,
+   "title": "PhD Position in AI for Software Reuse and Agentic Development",
+   "url": "https://www.academictransfer.com/en/jobs/365163/phd-position-in-ai-for-software-reuse-and-agentic-development/",
+   "loc": "Delft",
+   "loc_status": "eu",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-12-01",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic"
+  },
+  {
    "key": "at-nl:364394",
    "co": "TU Delft",
    "big": true,
@@ -7366,7 +7442,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-15",
@@ -7382,7 +7458,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7397,7 +7473,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-17",
@@ -7414,7 +7490,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T08:21:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-08",
@@ -7431,7 +7507,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-15",
@@ -7448,7 +7524,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -7514,10 +7590,27 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-15",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic"
+  },
+  {
+   "key": "at-nl:364651",
+   "co": "TU/e",
+   "big": true,
+   "title": "PhD in Advanced Epitaxial Growth for InP-Based Photonic Integrated Circuits",
+   "url": "https://www.academictransfer.com/en/jobs/364651/phd-in-advanced-epitaxial-growth-for-inp-based-photonic-integrated-circuits/",
+   "loc": "Eindhoven",
+   "loc_status": "eu",
+   "posted": "2026-10-11",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-11-10",
    "salary": "€3204–4051 lordi/mese",
    "kind": "academic"
   },
@@ -7531,7 +7624,7 @@
    "loc_status": "eu",
    "posted": "2026-10-31",
    "first_seen": "2026-10-31T21:00:55Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-30",
@@ -7548,7 +7641,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-22",
@@ -7565,7 +7658,7 @@
    "loc_status": "eu",
    "posted": "2026-09-12",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-06",
@@ -7599,7 +7692,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-15",
@@ -7616,7 +7709,7 @@
    "loc_status": "eu",
    "posted": "2026-09-10",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-10",
@@ -7633,7 +7726,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-19",
@@ -7650,7 +7743,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-14",
@@ -7675,6 +7768,23 @@
    "kind": "academic"
   },
   {
+   "key": "at-nl:364956",
+   "co": "TU/e",
+   "big": true,
+   "title": "PhD in Photonic Sensors for Light-Starved Applications",
+   "url": "https://www.academictransfer.com/en/jobs/364956/phd-in-photonic-sensors-for-light-starved-applications/",
+   "loc": "Eindhoven",
+   "loc_status": "eu",
+   "posted": "2026-10-22",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-12-15",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic"
+  },
+  {
    "key": "at-nl:364936",
    "co": "TU/e",
    "big": true,
@@ -7684,7 +7794,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-21",
@@ -7701,7 +7811,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-10",
@@ -7735,7 +7845,7 @@
    "loc_status": "eu",
    "posted": "2026-10-17",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7750,7 +7860,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7765,7 +7875,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7780,7 +7890,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7795,7 +7905,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7810,7 +7920,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7825,7 +7935,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T13:30:34Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7840,7 +7950,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-24T19:12:42Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7855,7 +7965,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7870,7 +7980,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7885,7 +7995,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7900,7 +8010,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7915,7 +8025,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -7930,7 +8040,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -7945,7 +8055,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -7960,7 +8070,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -7975,7 +8085,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -7990,7 +8100,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "industrial",
    "kind": "industrial"
   },
@@ -8004,7 +8114,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8069,7 +8179,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8084,7 +8194,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -8099,7 +8209,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "linkedin"
@@ -8114,7 +8224,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -8129,7 +8239,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T21:31:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8159,7 +8269,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "cifre",
    "via": "indeed"
@@ -8174,7 +8284,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8205,7 +8315,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "indeed"
@@ -8220,7 +8330,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -8235,7 +8345,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T15:13:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -8250,7 +8360,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8281,7 +8391,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8296,7 +8406,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8311,7 +8421,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-12",
@@ -8328,7 +8438,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8343,7 +8453,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8358,7 +8468,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-30",
@@ -8375,7 +8485,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-06",
@@ -8443,7 +8553,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8458,7 +8568,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8473,7 +8583,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8488,7 +8598,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8503,7 +8613,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8518,7 +8628,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8533,7 +8643,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T10:54:08Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8565,7 +8675,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8580,7 +8690,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8595,7 +8705,7 @@
    "loc_status": "eu",
    "posted": "2026-10-25",
    "first_seen": "2026-10-25T19:11:49Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8610,7 +8720,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8625,7 +8735,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8658,7 +8768,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-17T19:12:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "dept": "Faculty of Science and Engineering",
@@ -8676,7 +8786,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8691,7 +8801,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8706,7 +8816,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8737,7 +8847,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8752,7 +8862,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -8767,7 +8877,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8782,7 +8892,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8797,7 +8907,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -8860,7 +8970,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Epidemiology, Biostatistics and Prevention Institute",
@@ -8876,7 +8986,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Department of Evolutionary Biology and Environmental Studies",
@@ -8892,7 +9002,7 @@
    "loc_status": "unknown",
    "posted": "2026-10-25",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Department of Mathematical Modeling and Machine Learning",
@@ -8908,7 +9018,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Jacobs Center for Productive Youth Development",
@@ -8924,7 +9034,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Jacobs Center for Productive Youth Development",
@@ -8940,7 +9050,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Department of Business Administration",
@@ -8956,7 +9066,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Epidemiology, Biostatistics & Prevention Institute",
@@ -8972,7 +9082,7 @@
    "loc_status": "eu",
    "posted": "2026-10-25",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Digital Society Initiative",
@@ -8988,26 +9098,10 @@
    "loc_status": "unknown",
    "posted": "2025-08-26",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Neurodiversity and Cognition Group, University Hospital of Psychiatry, Department of Child and Adolescent Psychiatry and Psychotherapy, University of Zurich",
-   "kind": "academic"
-  },
-  {
-   "key": "uzh-phd:10211104",
-   "co": "Università di Zurigo (UZH)",
-   "big": true,
-   "title": "PhD-Position in Social Anthropology in the research project “Bildung: Ethnographies of Boundaries and Experiential Epistemologies in Philosophical Practice”",
-   "url": "https://jobs.uzh.ch/job-vacancies/phd-position-in-social-anthropology-in-the-research-project-bildung-ethnographies-of-boundaries-and-experiential-epistemologies-in-philosophical-practice/d9453f18-2281-400f-ae6c-e84a827b3cdc",
-   "loc": "Zürich",
-   "loc_status": "eu",
-   "posted": "2026-10-01",
-   "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
-   "ats": "prospective",
-   "country": "ch",
-   "dept": "Department of Social Anthropology and Cultural Studies (ISEK)",
    "kind": "academic"
   },
   {
@@ -9020,7 +9114,7 @@
    "loc_status": "eu",
    "posted": "2026-09-27",
    "first_seen": "2026-10-13T21:45:23Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Institut für Tierernährung und Diätetik",
@@ -9036,7 +9130,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "prospective",
    "country": "ch",
    "dept": "Department of Astrophysics",
@@ -9052,7 +9146,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T21:50:12Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9067,7 +9161,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T12:59:05Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9082,7 +9176,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9097,7 +9191,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-15T21:13:53Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9112,7 +9206,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T11:55:40Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9127,7 +9221,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9142,7 +9236,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9157,7 +9251,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9172,7 +9266,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9187,7 +9281,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9202,7 +9296,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9217,7 +9311,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T21:36:21Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9232,7 +9326,22 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "board_phd",
+   "kind": "academic",
+   "via": "linkedin"
+  },
+  {
+   "key": "boards-phd:linkedin:4483995186",
+   "co": "Universitätsklinikum Münster",
+   "big": false,
+   "title": "PhD Student (gn*) Neurophysiology - Collaborative Research Center (SFB/Transregio)",
+   "url": "https://www.linkedin.com/jobs/view/4483995186",
+   "loc": "Münster, North Rhine-Westphalia, Germany",
+   "loc_status": "eu",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9247,7 +9356,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9262,7 +9371,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9277,7 +9386,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T21:19:44Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9292,7 +9401,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9307,7 +9416,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T20:29:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9354,7 +9463,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9574,7 +9683,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9796,7 +9905,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9811,7 +9920,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -9826,7 +9935,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-14T10:27:27Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -9858,7 +9967,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-02",
@@ -9892,7 +10001,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-15",
@@ -9909,7 +10018,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-16T20:09:11Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-30",
@@ -9926,10 +10035,27 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T20:48:37Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
+  },
+  {
+   "key": "at-nl:365035",
+   "co": "Vrije Universiteit Amsterdam",
+   "big": true,
+   "title": "PhD Position in Neuroimaging, LLM, Genetics and Cross-species comparison",
+   "url": "https://www.academictransfer.com/en/jobs/365035/phd-position-in-neuroimaging-llm-genetics-and-cross-species-comparison/",
+   "loc": "Amsterdam",
+   "loc_status": "eu",
+   "posted": "2026-10-26",
+   "first_seen": "2026-11-01T23:27:49Z",
+   "last_seen": "2026-11-01T23:27:49Z",
+   "ats": "academictransfer",
+   "country": "nl",
+   "deadline": "2026-12-15",
+   "salary": "€3204–4051 lordi/mese",
+   "kind": "academic"
   },
   {
    "key": "at-nl:364560",
@@ -9941,7 +10067,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-13T08:21:13Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-27",
@@ -9958,27 +10084,10 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-18T18:48:35Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
-  },
-  {
-   "key": "at-nl:364429",
-   "co": "Vrije Universiteit Amsterdam",
-   "big": true,
-   "title": "PhD position in Communication Science: Explaining Susceptibility to Health Hacks",
-   "url": "https://www.academictransfer.com/en/jobs/364429/phd-position-in-communication-science-explaining-susceptibility-to-health-hacks/",
-   "loc": "Amsterdam",
-   "loc_status": "eu",
-   "posted": "2026-10-02",
-   "first_seen": "2026-10-06T10:19:13Z",
-   "last_seen": "2026-10-22T20:41:32Z",
-   "ats": "academictransfer",
-   "country": "nl",
-   "deadline": "2026-10-26",
-   "salary": "€3204–4051 lordi/mese",
-   "kind": "academic"
   },
   {
    "key": "boards-phd:indeed:1a9a220b002259d9",
@@ -9990,7 +10099,7 @@
    "loc_status": "eu",
    "posted": "2026-10-18",
    "first_seen": "2026-10-19T22:58:22Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "indeed"
@@ -10005,7 +10114,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -10054,7 +10163,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T20:41:32Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
@@ -10069,7 +10178,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-26T22:24:38Z",
-   "last_seen": "2026-10-26T22:24:38Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "academictransfer",
    "country": "nl",
    "deadline": "2026-11-17",
@@ -10103,7 +10212,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T20:34:45Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "industrial",
    "via": "linkedin"
@@ -10134,7 +10243,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T21:46:04Z",
-   "last_seen": "2026-10-31T21:00:55Z",
+   "last_seen": "2026-11-01T23:27:49Z",
    "ats": "board_phd",
    "kind": "academic",
    "via": "linkedin"
