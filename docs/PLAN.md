@@ -496,3 +496,11 @@ candidatura. Manca un compilatore LaTeX locale per i CV su misura (`tectonic` da
 - Una volta a settimana si confrontano gli scartati e gli inviati del Radar con i giudizi di Claude
   e si corregge il prompt di valutazione.
 - Le aziende nuove che compaiono spesso nei risultati LinkedIn entrano in `sources.json`.
+
+2/11: Gabriele sposta il grosso delle candidature sul software engineering nei team ML (risposte quasi nulle dai ruoli
+di ricerca nei laboratori di frontiera, il primo filtro dei programmi per neolaureati delle grandi aziende è un test).
+Nuovo tipo ML-SWE (infrastruttura e piattaforme ML, sistemi di training e inferenza, MLOps, librerie di deep learning,
+prodotti sui modelli del team): in `radar.py` pesa come edge nella rilevanza (4 su 5); nel giudizio fit 4 alle grandi
+aziende, ai laboratori di frontiera e alle aziende AI forti (5 se vicino al suo lavoro), 3 alle aziende solide con un
+prodotto ML e ai programmi SWE per neolaureati delle big tech con team ML, 2 altrove. L'AI-SWE (integrazione di modelli
+pronti) resta fuori. «N anni, o M con un titolo avanzato» conta M.

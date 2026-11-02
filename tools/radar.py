@@ -63,7 +63,7 @@ RUN = NOW.strftime("%Y-%m-%dT%H%M%SZ")
 TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()   # Rome (summer time is close enough)
 BOARD_NAME = {"linkedin": "LinkedIn", "indeed": "Indeed", "wttj": "Welcome to the Jungle", "thehub": "The Hub",
               "hn": "Hacker News", "landingjobs": "Landing.jobs", "joinup": "joinup.ch"}
-TIPI = ("ricerca", "training", "edge", "data science", "ai-swe", "altro")
+TIPI = ("ricerca", "training", "edge", "ml-swe", "data science", "ai-swe", "altro")
 
 ZURICH = re.compile(r"z[uü]e?rich|\bzug\b|\bbaar\b|\bcham\b|rotkreuz|\bbaden\b|r[uü]schlikon|winterthur|d[uü]bendorf|"
                     r"schlieren|wallisellen|kloten|opfikon|glattbrugg|thalwil|horgen|\buster\b|dietikon|regensdorf|"
@@ -561,7 +561,8 @@ JUNIOR_TEXT = re.compile(r"graduate (?:programme|program|scheme|talent|track)|ne
                          r"neo-?laureat|appena laureat|programma (?:graduate|per (?:neo-?)?laureati)|nessuna esperienza "
                          r"(?:richiesta|necessaria)|livello (?:entry|d'ingresso|iniziale)|giovan[ei] (?:diplomat|laureat)|"
                          r"jeunes? dipl[oô]m|d[ée]butant", re.I)
-RICERCA = {"ricerca": 5, "training": 5, "edge": 4, "data science": 2, "ai-swe": 2, "altro": 1}
+# ml-swe (2/11, Gabriele: «dai un peso decente al software ML»): software engineering on ML teams counts like edge
+RICERCA = {"ricerca": 5, "training": 5, "edge": 4, "ml-swe": 4, "data science": 2, "ai-swe": 2, "altro": 1}
 FRONTIER = re.compile(r"pre-?train|post-?train|foundation model|self-supervised|\bllms?\b|large language|multimodal|"
                       r"reinforcement learning|research (?:engineer|scientist)", re.I)
 PAY = [(4, re.compile(r"london|cambridge|oxford|united kingdom|\buk\b|england|scotland|munich|münchen|berlin|"

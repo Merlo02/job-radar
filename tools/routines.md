@@ -39,7 +39,9 @@ with fileSize 1: that is normal, the text is there.)
    come first with the full text; then shorter cards (ML words only in the text, or only negative
    keywords); last, cards on one line (no ML, data or AI word in the text: judge from the title).
    Judge EVERY card, one line per card: `n|tipo|fit|prestigio|anni|motivo`
-   - tipo: ricerca, training, edge, data science, AI-SWE, altro.
+   - tipo: ricerca, training, edge, ML-SWE, data science, AI-SWE, altro. ML-SWE is software engineering on ML
+     teams (ML infrastructure and platforms, training and inference systems, MLOps, deep learning libraries,
+     products built on the team's own models); AI-SWE is integrating ready-made models (below).
    - fit 1–5 with his CV. 5: research, training or edge role close to his work (foundation models,
      self-supervised learning, signals and sensors, on-device ML), open to a junior. 4: good ML or
      research role open to a junior, other domain. 3: applied ML or data science with real
@@ -66,10 +68,15 @@ with fileSize 1: that is normal, the text is there.)
      fine); sales, pre-sales or forward-deployed roles for experienced hires; academic PhD
      positions (they go to the PhD map).
    - Data science and consulting AI units: fit 3 at most.
-   - Software engineering on ML teams (28/10, Gabriele: a SWE role at a top company is a way in, then move
-     to a research team): "Software Engineer, Machine Learning", ML infrastructure or platform, inference,
-     MLOps, deep learning libraries, open to new graduates: fit 3 at big tech, frontier labs and strong AI
-     companies (4 if the team trains or serves its own models), fit 2 elsewhere. AI-SWE stays fit 1.
+   - Software engineering on ML teams, tipo ML-SWE (28/10 and 2/11, Gabriele: a SWE role at a top company is a
+     way in, «dai un peso decente al software ML»): "Software Engineer, Machine Learning", ML infrastructure or
+     platform, training or inference systems, MLOps, deep learning libraries, open to new graduates. Fit 4 at big
+     tech, frontier labs and strong AI companies (5 when it is close to his work: distributed training,
+     efficient or on-device inference, sensor data); fit 3 at solid companies whose product is ML, and for
+     new-graduate software engineering programmes at big tech whose team matching includes ML teams; fit 2
+     elsewhere. AI-SWE stays fit 1.
+   - Years of experience: "N years, or M with an advanced degree" counts M for him (he has an MSc), and
+     "BS/MS with 0-2 years" counts 0.
    - Internships, graduate programmes and residencies: he graduates in December 2026 and can still do an
      internship afterwards (through the Politecnico, up to 6 months within 12 months of the degree; in Italy a
      tirocinio extracurriculare). An ML internship that does not ask for enrolment is judged like a junior role
