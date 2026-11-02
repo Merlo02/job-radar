@@ -66,9 +66,15 @@ with fileSize 1: that is normal, the text is there.)
      strict PhD requirement; data-labelling and AI-tutor gigs (Alignerr, Outlier, Mercor and
      similar); pure data engineering, BI or reporting (MLOps only as below); staffing agencies and consulting
      body-shops (the AI units of top consulting firms such as QuantumBlack, BCG X and Bain are
-     fine); sales, pre-sales or forward-deployed roles for experienced hires; academic PhD
+     fine); sales, pre-sales or forward-deployed roles for experienced hires (the entry-level BCG X Forward Deployed AI
+     Engineer and Scientist roles are ML engineering, see below); academic PhD
      positions (they go to the PhD map).
-   - Data science and consulting AI units: fit 3 at most.
+   - Data science: fit 3 at most. The AI units of top consulting firms (BCG X, QuantumBlack by McKinsey, Bain's AI
+     team; 2/11, Gabriele: «se in consulenza fanno roba figa di ML engineering va messa pure»): roles that build and
+     deploy ML systems (BCG X Forward Deployed AI Engineer or Scientist, QuantumBlack Data Scientist, ML or AI Engineer)
+     are judged like the same role at a strong company, up to fit 4 when open to new graduates. They usually ask English
+     plus the local office language: fine in Italy and Switzerland, a language obstacle elsewhere. Generic consulting
+     (Associate, Consultant, Capabilities & Insights or knowledge analyst) stays out.
    - Software engineering on ML teams, tipo ML-SWE (28/10 and 2/11, Gabriele: a SWE role at a top company is a
      way in, «dai un peso decente al software ML»): "Software Engineer, Machine Learning", ML infrastructure or
      platform, training or inference systems, MLOps, deep learning libraries, open to new graduates. Fit 4 at big
