@@ -504,3 +504,10 @@ prodotti sui modelli del team): in `radar.py` pesa come edge nella rilevanza (4 
 aziende, ai laboratori di frontiera e alle aziende AI forti (5 se vicino al suo lavoro), 3 alle aziende solide con un
 prodotto ML e ai programmi SWE per neolaureati delle big tech con team ML, 2 altrove. L'AI-SWE (integrazione di modelli
 pronti) resta fuori. «N anni, o M con un titolo avanzato» conta M.
+
+2/11, dopo: le big tech restano ma senza peso in più (Gabriele: «mettiamole allo stesso livello di altre»). Nella
+rilevanza l'azienda pesa il 35% ed è limitata a 4 per tutti (prima PREST5 forzava 5 e alzava lo stipendio); ricerca 30%,
+stipendio 15% e una parte nuova, «chance» (20%): 5 per edge AI, semiconduttori e istituti di ricerca o agenzie (dove
+contano il nome dell'IIS e i suoi ex), 4 per l'Italia, 3 altrove. Esempi: Sonova 4,3, Arm 4,2, EUMETSAT 4,3, Google
+Zurigo 3,9, Mistral Parigi 3,9, Leonardo 3,9, Intesa 3,7. Vale per gli annunci nuovi da stanotte.
+

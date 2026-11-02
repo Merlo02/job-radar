@@ -578,9 +578,22 @@ def is_junior(kind, title, *texts):
     return kind == "job" and bool(JUNIOR_TITLE.search(title or "") or JUNIOR_TEXT.search(" ".join(t or "" for t in texts)))
 
 
+# 2/11 (Gabriele: «big tech lasciale ma mettiamole allo stesso livello di altre»): no company counts more than 4 and
+# big names no longer raise the pay; a fourth part, "chance", rewards where his profile has real odds: edge AI and
+# semiconductors (where the IIS name and its alumni are), research institutes and agencies, then Italy (every answer so
+# far came from people or from Italy). Weights: company 35%, closeness to research 30%, pay 15%, chance 20%.
+EDGE_CO = re.compile(r"\b(?:arm|nxp|stmicro\w*|st microelectronics|infineon|qualcomm|sonova|bosch|axelera|csem|"
+                     r"ams[- ]osram|u-?blox|melexis|nordic semi\w*|analog devices|silicon labs|cadence|synopsys|imec|"
+                     r"renesas|texas instruments|microchip|hailo|greenwaves|innatera|prophesee|plumerai|syntiant|"
+                     r"huawei|mediatek|samsung|sony semiconductor|esa|thales alenia|leonardo)\b", re.I)
+INSTITUTE = re.compile(r"\b(?:cern|esa|eumetsat|ecmwf|esrin|estec|fraunhofer|inria|cnrs|cea|idsia|iit|fbk|cineca|"
+                       r"ai4i|tno|dlr|cnr|infn|inrim|max[- ]planck|helmholtz|eth\b|epfl|empa|psi|"
+                       r"universit\w*|polytechnic|politecnico|technische universit\w*|institute of technology)\b", re.I)
+
+
 def rilevanza(co, prest, tipo, title, area, loc):
-    """(rilevanza 1-5 with one decimal, its three parts)."""
-    az = 5 if PREST5.search(co or "") else max(1, min(5, int(prest or 1)))
+    """(rilevanza 1-5 with one decimal, its four parts)."""
+    az = max(1, min(4, int(prest or 1)))
     ri = RICERCA.get((tipo or "").lower(), 2)
     if (tipo or "").lower() != "ai-swe" and FRONTIER.search(title or ""):
         ri = max(ri, 4)
@@ -590,9 +603,14 @@ def rilevanza(co, prest, tipo, title, area, loc):
         st = 2
     else:
         st = next((v for v, rx in PAY if rx.search(loc or "")), 3)
-    if az >= 5:
-        st = min(5, st + 1)   # big tech and frontier labs pay above the local market
-    return round(0.45 * az + 0.35 * ri + 0.20 * st, 1), {"azienda": az, "ricerca": ri, "stipendio": st}
+    if (tipo or "").lower() == "edge" or EDGE_CO.search(co or "") or INSTITUTE.search(co or ""):
+        ch = 5
+    elif area == "italia":
+        ch = 4
+    else:
+        ch = 3
+    return (round(0.35 * az + 0.30 * ri + 0.15 * st + 0.20 * ch, 1),
+            {"azienda": az, "ricerca": ri, "stipendio": st, "chance": ch})
 
 
 def prio(fit, rel, junior, area):

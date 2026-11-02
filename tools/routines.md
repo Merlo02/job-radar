@@ -90,9 +90,10 @@ with fileSize 1: that is normal, the text is there.)
      knows (Hugging Face, ElevenLabs, Helsing, Isomorphic, Wayve…) and top institutes (ETH, EPFL, Max
      Planck, CERN); 4 large well-known tech or industrial companies and strong AI startups that build
      their own models (e.g. Domyn); 3 solid companies; 2 small or little-known firms; 1 agencies and
-     unknown employers. The script turns prestigio, tipo and place into a "rilevanza" (company 45%,
-     closeness to frontier AI research 35%, pay 20%) and pushes junior roles and graduate programmes
-     up the page: judge prestigio and tipo with care.
+     unknown employers. The script turns prestigio, tipo and place into a "rilevanza" (company 35%,
+     capped at 4 so big tech and frontier labs weigh like any strong company, 2/11; closeness to research 30%; pay
+     15%; chance 20%, highest for edge AI, semiconductors and research institutes, then Italy) and pushes junior
+     roles and graduate programmes up the page: judge prestigio and tipo with care.
    - anni: the years of experience asked (a number, or -). motivo: at most 12 Italian words.
 
    Do not skip cards: a card without a line comes back tomorrow. Judge from the card; most cards
