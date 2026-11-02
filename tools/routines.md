@@ -53,7 +53,8 @@ with fileSize 1: that is normal, the text is there.)
      qualifications, even with "or equivalent practical experience"; Research Scientist roles at big
      tech and frontier labs that do not say they take a master's degree or new graduates; roles whose
      core is hands-on experience he does not have (training LLMs at scale, RL or post-training of
-     LLMs, VLA and robot learning, audio DSP) or that ask for an expert or a track record; very
+     LLMs, VLA and robot learning, audio DSP; embedded firmware in C/C++, embedded compilers, micro-NPUs or
+     CUDA kernels: his edge side is optimising and deploying models with quantisation, pruning and ONNX, 2/11) or that ask for an expert or a track record; very
      selective frontier-lab roles with no sign that they hire new graduates.
    - fit 1 always for: AI-SWE roles (integrating ready-made models: LLM APIs, RAG, LangChain,
      agents, copilots, prompt engineering); roles without ML; 3 or more years of experience asked (he is a new graduate: write the number in anni,
