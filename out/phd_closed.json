@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-03T01:25:31Z",
+ "generated": "2026-11-03T22:39:57Z",
  "days": 14,
- "count": 79,
+ "count": 80,
  "items": [
   {
    "key": "industrial:thales:Thse-CIFRE-Dtection-spatio-temporelle-d-objets-faiblement-rsolues-par-une-camra-en-mouvement---F-H_R0340961-1",
@@ -1387,6 +1387,22 @@
    "kind": "academic",
    "closed_at": "2026-11-03T01:25:31Z",
    "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "industrial:st:563637172143969",
+   "co": "STMicroelectronics",
+   "big": true,
+   "title": "CIFRE - Développement de DHBT GaInP/GaAsSb et InP/GaAsSb DHBTs sur GaAs (F/H)",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637172143969",
+   "loc": "Crolles, France",
+   "loc_status": "eu",
+   "posted": "2026-03-10",
+   "first_seen": "2026-11-03T01:25:31Z",
+   "last_seen": "2026-11-03T01:25:31Z",
+   "ats": "industrial",
+   "kind": "cifre",
+   "closed_at": "2026-11-03T22:39:57Z",
+   "reason": "not listed anymore"
   }
  ]
 }
