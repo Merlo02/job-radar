@@ -1,53 +1,121 @@
 {
- "run_at": "2026-11-02T22:56:08Z",
- "duration_s": 8915,
+ "run_at": "2026-11-03T20:41:41Z",
+ "duration_s": 7039,
  "sources": 152,
  "failed": [
   "centai",
   "doctolib",
+  "iit",
   "startupmap"
  ],
  "blocked": [
   "joinup",
   "landingjobs"
  ],
- "new": 2322,
- "open": 1127,
- "recent": 482,
- "candidates": 38389,
+ "new": 2339,
+ "open": 1155,
+ "recent": 488,
+ "candidates": 40082,
  "warnings": [
+  "abb: 1 postings on LinkedIn/Indeed missing from its listing",
   "anthropic: 1 postings on LinkedIn/Indeed missing from its listing",
+  "bmw: 1 postings on LinkedIn/Indeed missing from its listing",
+  "csem: 2 postings on LinkedIn/Indeed missing from its listing",
   "ecmwf: 0 postings",
   "essilorluxottica: 1 postings on LinkedIn/Indeed missing from its listing",
   "faculty: 1 postings on LinkedIn/Indeed missing from its listing",
-  "hn: 234 -> 104 postings since the last run",
+  "flexion: 1 postings on LinkedIn/Indeed missing from its listing",
   "lakera: 0 postings",
-  "mckinsey: 1 postings on LinkedIn/Indeed missing from its listing",
-  "mercedes: 3 postings on LinkedIn/Indeed missing from its listing",
-  "perplexity: 2 postings on LinkedIn/Indeed missing from its listing",
+  "mercedes: 2 postings on LinkedIn/Indeed missing from its listing",
+  "nxp: 1 postings on LinkedIn/Indeed missing from its listing",
+  "perplexity: 1 postings on LinkedIn/Indeed missing from its listing",
+  "rivr: 3 postings on LinkedIn/Indeed missing from its listing",
   "siemens: 1 postings on LinkedIn/Indeed missing from its listing",
-  "stability: 3 -> 1 postings since the last run",
-  "thales: 1 postings on LinkedIn/Indeed missing from its listing"
+  "thales: 2 postings on LinkedIn/Indeed missing from its listing"
  ],
  "coverage": {
-  "board_postings": 39579,
-  "known_companies": 3205,
-  "duplicates": 6349,
+  "board_postings": 41589,
+  "known_companies": 3369,
+  "duplicates": 6793,
   "gaps": [
+   {
+    "src": "rivr",
+    "co": "RIVR",
+    "title": "Applied Scientist Intern",
+    "loc": "Zurich, Zurich, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4487037266",
+    "via": "linkedin"
+   },
    {
     "src": "siemens",
     "co": "Siemens",
-    "title": "Data Analyst Trainee (m/f/d)",
-    "loc": "Alfragide, Lisbon, Portugal",
-    "url": "https://www.linkedin.com/jobs/view/4485750509",
+    "title": "Digital Operations Graduate",
+    "loc": "Goole, England, UK",
+    "url": "https://www.linkedin.com/jobs/view/4486063881",
+    "via": "linkedin"
+   },
+   {
+    "src": "csem",
+    "co": "CSEM",
+    "title": "Internship in Machine Learning for Semiconductor Packaging (F/M/D)",
+    "loc": "Alpnach, Obwalden, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4470404369",
+    "via": "linkedin"
+   },
+   {
+    "src": "nxp",
+    "co": "NXP Semiconductors",
+    "title": "AI-Driven Strategic Capacity Planning: From Data and Semantic Readiness to Intelligent Decision Support",
+    "loc": "Nijmegen, Gelderland, Netherlands",
+    "url": "https://www.linkedin.com/jobs/view/4486836908",
+    "via": "linkedin"
+   },
+   {
+    "src": "csem",
+    "co": "CSEM",
+    "title": "Internship in Agentic AI (F/M/D)",
+    "loc": "Alpnach, Obwalden, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4470405410",
+    "via": "linkedin"
+   },
+   {
+    "src": "rivr",
+    "co": "RIVR",
+    "title": "SLAM / Computer Vision Intern, RIVR",
+    "loc": "Zurich, Zurich, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4487022831",
     "via": "linkedin"
    },
    {
     "src": "mercedes",
     "co": "Mercedes-Benz AG",
-    "title": "Praktikant*in Systems Engineering mit Fokus Künstliche Intelligenz",
+    "title": "Praktikant*in Data Analytics & AI | Mercedes-Benz Operating System (MB.OS)",
     "loc": "Sindelfingen, Baden-Württemberg, Germany",
-    "url": "https://www.linkedin.com/jobs/view/4484333515",
+    "url": "https://www.linkedin.com/jobs/view/4484671091",
+    "via": "linkedin"
+   },
+   {
+    "src": "abb",
+    "co": "ABB",
+    "title": "Stage - Ingénieur – Intégration de l'Intelligence Artificielle dans la gestion de projet Nucléaire (H/F)",
+    "loc": "Beynost, Auvergne-Rhône-Alpes, France",
+    "url": "https://www.linkedin.com/jobs/view/4486889251",
+    "via": "linkedin"
+   },
+   {
+    "src": "thales",
+    "co": "Thales",
+    "title": "STAGE - Introduction de l’IA dans les outils d'ingénierie - F/H",
+    "loc": "Rungis, Île-de-France, France",
+    "url": "https://www.linkedin.com/jobs/view/4478799415",
+    "via": "linkedin"
+   },
+   {
+    "src": "rivr",
+    "co": "RIVR",
+    "title": "AI Engineer - RL Manipulation, RIVR",
+    "loc": "Zurich, Zurich, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4487029486",
     "via": "linkedin"
    },
    {
@@ -59,19 +127,11 @@
     "via": "linkedin"
    },
    {
-    "src": "mckinsey",
-    "co": "McKinsey & Company",
-    "title": "Business Analyst Intern - Tech & AI",
-    "loc": "Madrid, Community of Madrid, Spain",
-    "url": "https://www.linkedin.com/jobs/view/4460376345",
-    "via": "linkedin"
-   },
-   {
-    "src": "mercedes",
-    "co": "Mercedes-Benz AG",
-    "title": "Praktikant*in Infotainment: Testing und KI-basierte Automatisierung",
-    "loc": "Sindelfingen, Baden-Württemberg, Germany",
-    "url": "https://www.linkedin.com/jobs/view/4484349015",
+    "src": "bmw",
+    "co": "BMW Group",
+    "title": "Praktikant Full-Stack Webentwicklung mit KI (w/m/x)",
+    "loc": "Munich, Bavaria, Germany",
+    "url": "https://www.linkedin.com/jobs/view/4457712249",
     "via": "linkedin"
    },
    {
@@ -81,6 +141,14 @@
     "loc": "Ashington, United Kingdom; New York, United States; New York, United States",
     "url": "https://www.welcometothejungle.com/en/companies/anthropic/jobs/data-scientist-policy_new-york_ivzxedtn",
     "via": "wttj"
+   },
+   {
+    "src": "flexion",
+    "co": "Flexion Robotics",
+    "title": "VLA/WAM Research Engineer",
+    "loc": "Zürich, ZH, Switzerland",
+    "url": "https://ch.indeed.com/viewjob?jk=1e44edada2240e34",
+    "via": "indeed"
    },
    {
     "src": "faculty",
@@ -113,20 +181,12 @@
     "loc": "Cholet, France",
     "url": "https://www.welcometothejungle.com/en/companies/thales/jobs/stage-ingenieur-etude-de-performances-d-algorithmes-cryptographiques-sur-microcontroleur-stm32-f-h_cholet",
     "via": "wttj"
-   },
-   {
-    "src": "perplexity",
-    "co": "Perplexity AI",
-    "title": "Member of Technical Staff (Software Engineer, Enterprise Agent Evals & Efficiency)",
-    "loc": "New York, United States; Ashington, United Kingdom; San Francisco, United States",
-    "url": "https://www.welcometothejungle.com/en/companies/perplexity-ai/jobs/member-of-technical-staff-software-engineer-enterprise-agent-evals-efficiency_san-francisco_uaqywwpy",
-    "via": "wttj"
    }
   ],
   "new_companies": [
    {
     "co": "Alignerr",
-    "postings": 146,
+    "postings": 147,
     "titles": [
      "Robotics ML Expert — MuJoCo & RL Training",
      "Robotics ML Expert — MuJoCo Simulation Environments",
@@ -135,7 +195,7 @@
    },
    {
     "co": "Jobgether",
-    "postings": 124,
+    "postings": 131,
     "titles": [
      "AI Enablement and Learning Specialist",
      "AI Enablement and Learning Specialist",
@@ -144,7 +204,7 @@
    },
    {
     "co": "adesso SE",
-    "postings": 113,
+    "postings": 120,
     "titles": [
      "Azure AI Engineer - Agentic Systems (all genders)",
      "Azure AI Engineer - Agentic Systems (all genders)",
@@ -182,18 +242,27 @@
     "co": "EY",
     "postings": 57,
     "titles": [
-     "AI Engineer_Senior",
-     "AI Engineer_Senior",
-     "AI Agents & Business Automation (w/m/d)"
+     "Data scientist - Machine Learning",
+     "Data scientist - Machine Learning",
+     "Data Scientist - Data Analyst"
     ]
    },
    {
     "co": "Dassault Systèmes",
-    "postings": 48,
+    "postings": 53,
     "titles": [
      "Ingénieur Qualité IA – Ingénierie Mécanique (H/F)",
      "Ingénieur Qualité IA (H/F)",
      "Ingénieur développement AI Physique (H/F)"
+    ]
+   },
+   {
+    "co": "NTT DATA Europe & Latam",
+    "postings": 52,
+    "titles": [
+     "Data Scientist",
+     "Data Scientist",
+     "Data Scientist"
     ]
    },
    {
@@ -215,17 +284,8 @@
     ]
    },
    {
-    "co": "NTT DATA Europe & Latam",
-    "postings": 45,
-    "titles": [
-     "Data Scientist",
-     "Data Scientist",
-     "Data Scientist"
-    ]
-   },
-   {
     "co": "CEA",
-    "postings": 41,
+    "postings": 42,
     "titles": [
      "Intelligence Artificielle pour l'Estimation Rapide de Termes Sources H/F",
      "Ingénieur - Chercheur en communications sémantiques 6G et IA - CDD 3 ans H/F",
@@ -234,7 +294,7 @@
    },
    {
     "co": "NEURA Robotics",
-    "postings": 38,
+    "postings": 40,
     "titles": [
      "AI Engineer – Human-to-Robot Learning (human)",
      "Agentic AI Engineer (Mensch)",
@@ -260,6 +320,24 @@
     ]
    },
    {
+    "co": "wherewework Jobs",
+    "postings": 36,
+    "titles": [
+     "Μηχανικός AI, Multimodal Models (Vision + Language)",
+     "Μηχανικός AI, Conversational AI & Chatbot Development",
+     "Μηχανικός Μηχανικής Μάθησης, NLP & Large Language Models"
+    ]
+   },
+   {
+    "co": "targetjobs UK",
+    "postings": 35,
+    "titles": [
+     "Data - Graduate - Poland",
+     "Graduate Software Engineering Programme 2027",
+     "Financial Crime Tech - Full Time Graduate - London"
+    ]
+   },
+   {
     "co": "MWDN",
     "postings": 35,
     "titles": [
@@ -269,17 +347,8 @@
     ]
    },
    {
-    "co": "targetjobs UK",
-    "postings": 34,
-    "titles": [
-     "Data - Graduate - Poland",
-     "Graduate Software Engineering Programme 2027",
-     "Financial Crime Tech - Full Time Graduate - London"
-    ]
-   },
-   {
     "co": "Revolut",
-    "postings": 31,
+    "postings": 34,
     "titles": [
      "Data Scientist (NLP Deep Learning Engineer)",
      "Data Scientist (NLP Deep Learning Engineer)",
@@ -288,7 +357,7 @@
    },
    {
     "co": "ALTEN",
-    "postings": 31,
+    "postings": 33,
     "titles": [
      "Spécialiste IA (expérimenté, CDI)",
      "Generative AI Engineer (all gender)",
@@ -297,20 +366,11 @@
    },
    {
     "co": "Groupe Talents Handicap",
-    "postings": 31,
+    "postings": 32,
     "titles": [
      "Développeur Fullstack Java/Angular - IA Générative",
      "Ingénieur/Ingénieure de recherche en Robotique Mécatronique et IA F/H",
      "Ingénieur/Ingénieure Finops Plateforme Data & IA Groupe"
-    ]
-   },
-   {
-    "co": "wherewework Jobs",
-    "postings": 30,
-    "titles": [
-     "Μηχανικός AI, Multimodal Models (Vision + Language)",
-     "Μηχανικός AI, Conversational AI & Chatbot Development",
-     "Μηχανικός Μηχανικής Μάθησης, NLP & Large Language Models"
     ]
    },
    {
@@ -329,6 +389,15 @@
      "AI Model Evaluation Specialist",
      "AI Training Python Coding Specialist",
      "AI Training Python Coding Specialist"
+    ]
+   },
+   {
+    "co": "Capgemini",
+    "postings": 28,
+    "titles": [
+     "Junior Data Scientist",
+     "Young professional Track AI Engineer Zuid - NL",
+     "Agentic AI Developer"
     ]
    },
    {
@@ -377,6 +446,15 @@
     ]
    },
    {
+    "co": "Capgemini Engineering",
+    "postings": 25,
+    "titles": [
+     "Data Scientist (Generative AI)",
+     "AI Engineer",
+     "Agentic AI / LLM Developer"
+    ]
+   },
+   {
     "co": "Imperial College London",
     "postings": 25,
     "titles": [
@@ -395,21 +473,12 @@
     ]
    },
    {
-    "co": "Capgemini Engineering",
+    "co": "Groupe SII",
     "postings": 24,
     "titles": [
-     "Data Scientist (Generative AI)",
-     "AI Engineer",
-     "Agentic AI / LLM Developer"
-    ]
-   },
-   {
-    "co": "Capgemini",
-    "postings": 24,
-    "titles": [
-     "Junior Data Scientist",
-     "Young professional Track AI Engineer Zuid - NL",
-     "Agentic AI Developer"
+     "Ingénieur R&D Gestion IA génératives (F/H)",
+     "Ingénieur R&D Détection d'anomalie par IA (F/H)",
+     "Ingénieur R&D Data science pour les traînées de condensation (F/H)"
     ]
    },
    {
@@ -419,6 +488,15 @@
      "Forward Deployed AI Engineer",
      "AI Native SW Engineer",
      "AI/ML Computational Scientist"
+    ]
+   },
+   {
+    "co": "Orange",
+    "postings": 24,
+    "titles": [
+     "AI Product Engineer",
+     "Data Scientist (m/ž)",
+     "Data Scientist (m/ž)"
     ]
    },
    {
@@ -437,15 +515,6 @@
      "Computer Vision Engineer - Tracker",
      "Computer Vision Engineer (VIO)",
      "Computer Vision Engineer (VIO)"
-    ]
-   },
-   {
-    "co": "Groupe SII",
-    "postings": 22,
-    "titles": [
-     "Ingénieur R&D Gestion IA génératives (F/H)",
-     "Ingénieur R&D Détection d'anomalie par IA (F/H)",
-     "Ingénieur R&D Data science pour les traînées de condensation (F/H)"
     ]
    },
    {
@@ -474,15 +543,6 @@
      "Data Analytics Specialist (Data Analist / Data Scientist)",
      "Data Analytics Specialist (Data Analist / Data Scientist)"
     ]
-   },
-   {
-    "co": "Inria",
-    "postings": 22,
-    "titles": [
-     "Research engineer on estimating environmental impacts of large-scale distributed platforms",
-     "R&D Engineer – Automated Scientific Paper Analysis and Experimental Design Recommendation using LLMs",
-     "Machine Learning Engineer"
-    ]
    }
   ]
  },
@@ -496,7 +556,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -505,13 +565,14 @@
    "co": "ABB",
    "type": "workday",
    "ok": true,
-   "raw": 290,
-   "matched": 41,
+   "raw": 296,
+   "matched": 49,
    "complete": false,
-   "details": 12,
-   "secs": 41.9,
-   "new": 2,
-   "closed": 0
+   "details": 15,
+   "secs": 62.9,
+   "new": 6,
+   "closed": 0,
+   "coverage_gaps": 1
   },
   {
    "id": "adi",
@@ -521,9 +582,9 @@
    "raw": 272,
    "matched": 23,
    "complete": false,
-   "details": 17,
-   "secs": 47.3,
-   "new": 2,
+   "details": 15,
+   "secs": 40.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -531,13 +592,13 @@
    "co": "Adyen",
    "type": "greenhouse",
    "ok": true,
-   "raw": 243,
-   "matched": 10,
+   "raw": 241,
+   "matched": 9,
    "complete": true,
    "details": 1,
    "secs": 0.9,
    "new": 1,
-   "closed": 0
+   "closed": 2
   },
   {
    "id": "ai4i",
@@ -547,7 +608,8 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.9,
+   "new": 1
   },
   {
    "id": "aignostics",
@@ -558,7 +620,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -567,13 +629,13 @@
    "co": "Airbus",
    "type": "workday",
    "ok": true,
-   "raw": 499,
-   "matched": 145,
+   "raw": 504,
+   "matched": 137,
    "complete": false,
-   "details": 27,
-   "secs": 83.7,
-   "new": 21,
-   "closed": 0
+   "details": 25,
+   "secs": 78.9,
+   "new": 17,
+   "closed": 11
   },
   {
    "id": "aleph",
@@ -585,7 +647,7 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 1,
+   "new": 0,
    "closed": 0
   },
   {
@@ -593,24 +655,24 @@
    "co": "Amazon",
    "type": "amazon",
    "ok": true,
-   "raw": 528,
+   "raw": 526,
    "matched": 97,
    "complete": false,
    "details": 0,
-   "secs": 14.3,
-   "new": 2,
-   "closed": 0
+   "secs": 13.6,
+   "new": 5,
+   "closed": 1
   },
   {
    "id": "amd",
    "co": "AMD (Silo AI)",
    "type": "jibe",
    "ok": true,
-   "raw": 823,
-   "matched": 22,
+   "raw": 827,
+   "matched": 21,
    "complete": false,
    "details": 0,
-   "secs": 29.2,
+   "secs": 30.9,
    "new": 0,
    "closed": 0
   },
@@ -619,13 +681,13 @@
    "co": "Anthropic",
    "type": "greenhouse",
    "ok": true,
-   "raw": 677,
+   "raw": 676,
    "matched": 32,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 0.5,
    "new": 0,
-   "closed": 2,
+   "closed": 0,
    "coverage_gaps": 1
   },
   {
@@ -637,7 +699,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 4.9,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -646,12 +708,12 @@
    "co": "Apple",
    "type": "apple",
    "ok": true,
-   "raw": 403,
-   "matched": 193,
+   "raw": 396,
+   "matched": 190,
    "complete": true,
-   "details": 3,
-   "secs": 66.6,
-   "new": 3,
+   "details": 4,
+   "secs": 72.7,
+   "new": 4,
    "closed": 7
   },
   {
@@ -663,7 +725,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 6.1,
+   "secs": 5.6,
    "new": 0,
    "closed": 0
   },
@@ -672,12 +734,12 @@
    "co": "Arm",
    "type": "radancy",
    "ok": true,
-   "raw": 336,
+   "raw": 333,
    "matched": 38,
    "complete": false,
-   "details": 0,
-   "secs": 9.8,
-   "new": 0,
+   "details": 1,
+   "secs": 8.1,
+   "new": 1,
    "closed": 0
   },
   {
@@ -685,12 +747,12 @@
    "co": "ASML",
    "type": "workday",
    "ok": true,
-   "raw": 202,
-   "matched": 13,
+   "raw": 227,
+   "matched": 16,
    "complete": false,
-   "details": 1,
-   "secs": 18.7,
-   "new": 1,
+   "details": 2,
+   "secs": 19.3,
+   "new": 2,
    "closed": 0
   },
   {
@@ -698,20 +760,20 @@
    "co": "Axelera AI",
    "type": "ashby",
    "ok": true,
-   "raw": 11,
-   "matched": 1,
+   "raw": 10,
+   "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "beacon",
    "co": "Beacon Biosignals",
    "type": "greenhouse",
    "ok": true,
-   "raw": 26,
+   "raw": 24,
    "matched": 3,
    "complete": true,
    "details": 0,
@@ -738,7 +800,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -747,25 +809,26 @@
    "co": "BMW Group",
    "type": "sf_rss",
    "ok": true,
-   "raw": 81,
-   "matched": 24,
+   "raw": 80,
+   "matched": 22,
    "complete": false,
    "details": 0,
-   "secs": 11.5,
+   "secs": 10.0,
    "phd": 2,
-   "new": 1,
-   "closed": 1
+   "new": 0,
+   "closed": 4,
+   "coverage_gaps": 1
   },
   {
    "id": "booking",
    "co": "Booking.com",
    "type": "jibe",
    "ok": true,
-   "raw": 68,
+   "raw": 65,
    "matched": 20,
    "complete": false,
    "details": 0,
-   "secs": 10.1,
+   "secs": 9.1,
    "new": 1,
    "closed": 0
   },
@@ -774,13 +837,13 @@
    "co": "Bosch",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 2389,
-   "matched": 298,
+   "raw": 2386,
+   "matched": 293,
    "complete": false,
-   "details": 7,
-   "secs": 42.7,
+   "details": 5,
+   "secs": 39.4,
    "phd": 19,
-   "new": 7,
+   "new": 5,
    "closed": 0
   },
   {
@@ -788,11 +851,11 @@
    "co": "Cadence",
    "type": "workday",
    "ok": true,
-   "raw": 243,
+   "raw": 242,
    "matched": 8,
    "complete": false,
    "details": 20,
-   "secs": 42.2,
+   "secs": 37.9,
    "new": 0,
    "closed": 0
   },
@@ -803,27 +866,27 @@
    "ok": false,
    "error": "RuntimeError: GET https://centai.eu/careers failed: HTTP 522",
    "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://centai.eu/careers failed: HTTP 522\n",
-   "secs": 116.0
+   "secs": 116.2
   },
   {
    "id": "cern",
    "co": "CERN",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 34,
+   "raw": 35,
    "matched": 28,
    "complete": true,
    "details": 2,
-   "secs": 2.6,
+   "secs": 2.4,
    "new": 2,
-   "closed": 3
+   "closed": 2
   },
   {
    "id": "cohere",
    "co": "Cohere",
    "type": "ashby",
    "ok": true,
-   "raw": 120,
+   "raw": 118,
    "matched": 18,
    "complete": true,
    "details": 0,
@@ -839,20 +902,20 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.5
   },
   {
    "id": "continental",
    "co": "Continental",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 565,
-   "matched": 144,
+   "raw": 564,
+   "matched": 143,
    "complete": true,
-   "details": 3,
-   "secs": 7.7,
-   "new": 3,
-   "closed": 2
+   "details": 4,
+   "secs": 8.0,
+   "new": 4,
+   "closed": 5
   },
   {
    "id": "cradle",
@@ -872,11 +935,11 @@
    "co": "Criteo",
    "type": "workday",
    "ok": true,
-   "raw": 55,
+   "raw": 56,
    "matched": 10,
    "complete": false,
    "details": 0,
-   "secs": 16.3,
+   "secs": 15.3,
    "new": 0,
    "closed": 0
   },
@@ -889,20 +952,21 @@
    "matched": 15,
    "complete": true,
    "details": 0,
-   "secs": 2.5,
+   "secs": 1.8,
    "new": 0,
-   "closed": 0
+   "closed": 0,
+   "coverage_gaps": 2
   },
   {
    "id": "datadog",
    "co": "Datadog",
    "type": "greenhouse",
    "ok": true,
-   "raw": 405,
+   "raw": 397,
    "matched": 6,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -915,7 +979,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -928,7 +992,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -937,24 +1001,24 @@
    "co": "Google DeepMind",
    "type": "google",
    "ok": true,
-   "raw": 141,
-   "matched": 25,
+   "raw": 138,
+   "matched": 24,
    "complete": true,
    "details": 0,
-   "secs": 4.7,
+   "secs": 4.3,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "disney",
    "co": "Disney (Disney Research)",
    "type": "workday",
    "ok": true,
-   "raw": 111,
-   "matched": 4,
+   "raw": 107,
+   "matched": 2,
    "complete": false,
    "details": 3,
-   "secs": 19.8,
+   "secs": 18.4,
    "new": 0,
    "closed": 0
   },
@@ -966,7 +1030,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3,
+   "secs": 1.1,
    "new": 1
   },
   {
@@ -975,11 +1039,11 @@
    "type": "oracle",
    "ok": true,
    "raw": 59,
-   "matched": 6,
+   "matched": 7,
    "complete": false,
-   "details": 0,
-   "secs": 13.1,
-   "new": 0,
+   "details": 1,
+   "secs": 12.9,
+   "new": 1,
    "closed": 0
   },
   {
@@ -1000,7 +1064,7 @@
    "matched": 3,
    "complete": true,
    "details": 11,
-   "secs": 8.4,
+   "secs": 8.3,
    "new": 0,
    "closed": 0
   },
@@ -1013,7 +1077,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.5,
    "new": 0,
    "closed": 0
   },
@@ -1022,13 +1086,13 @@
    "co": "ElevenLabs",
    "type": "ashby",
    "ok": true,
-   "raw": 147,
-   "matched": 44,
+   "raw": 148,
+   "matched": 46,
    "complete": true,
    "details": 0,
    "secs": 0.5,
-   "new": 4,
-   "closed": 2
+   "new": 2,
+   "closed": 0
   },
   {
    "id": "embl",
@@ -1039,7 +1103,7 @@
    "matched": 11,
    "complete": false,
    "details": 0,
-   "secs": 10.1,
+   "secs": 9.1,
    "new": 0,
    "closed": 0
   },
@@ -1052,7 +1116,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1061,50 +1125,50 @@
    "co": "Enel",
    "type": "avature",
    "ok": true,
-   "raw": 88,
+   "raw": 85,
    "matched": 19,
    "complete": true,
-   "details": 0,
-   "secs": 31.2,
-   "new": 0,
-   "closed": 0
+   "details": 1,
+   "secs": 31.5,
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "epfl",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 38,
-   "matched": 18,
+   "raw": 40,
+   "matched": 20,
    "complete": false,
    "details": 0,
-   "secs": 8.2,
-   "new": 0,
-   "closed": 2
+   "secs": 7.3,
+   "new": 4,
+   "closed": 0
   },
   {
    "id": "ericsson",
    "co": "Ericsson",
    "type": "eightfold",
    "ok": true,
-   "raw": 169,
-   "matched": 27,
+   "raw": 185,
+   "matched": 25,
    "complete": false,
-   "details": 11,
-   "secs": 37.3,
-   "new": 4,
-   "closed": 5
+   "details": 9,
+   "secs": 31.8,
+   "new": 2,
+   "closed": 0
   },
   {
    "id": "esa",
    "co": "European Space Agency",
    "type": "sf_rss",
    "ok": true,
-   "raw": 76,
-   "matched": 13,
+   "raw": 77,
+   "matched": 12,
    "complete": false,
    "details": 0,
-   "secs": 12.4,
+   "secs": 10.3,
    "new": 0,
    "closed": 0
   },
@@ -1116,19 +1180,19 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "essilorluxottica",
    "co": "EssilorLuxottica",
    "type": "sf_rss",
    "ok": true,
-   "raw": 64,
-   "matched": 13,
+   "raw": 61,
+   "matched": 12,
    "complete": false,
    "details": 0,
-   "secs": 12.3,
-   "new": 3,
+   "secs": 10.4,
+   "new": 2,
    "closed": 0,
    "coverage_gaps": 1
   },
@@ -1137,12 +1201,12 @@
    "co": "ETH Zurich",
    "type": "links",
    "ok": true,
-   "raw": 113,
-   "matched": 35,
+   "raw": 117,
+   "matched": 37,
    "complete": true,
-   "details": 4,
-   "secs": 3.2,
-   "new": 4,
+   "details": 2,
+   "secs": 1.8,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1154,7 +1218,7 @@
    "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.6,
    "new": 0,
    "closed": 0
   },
@@ -1163,13 +1227,13 @@
    "co": "Faculty",
    "type": "ashby",
    "ok": true,
-   "raw": 86,
-   "matched": 21,
+   "raw": 87,
+   "matched": 22,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 1,
-   "closed": 1,
+   "closed": 0,
    "coverage_gaps": 1
   },
   {
@@ -1181,7 +1245,7 @@
    "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 8.7,
+   "secs": 7.7,
    "new": 0,
    "closed": 0
   },
@@ -1190,13 +1254,14 @@
    "co": "Flexion Robotics",
    "type": "workable",
    "ok": true,
-   "raw": 13,
+   "raw": 15,
    "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
-   "closed": 0
+   "closed": 0,
+   "coverage_gaps": 1
   },
   {
    "id": "geaerospace",
@@ -1206,8 +1271,8 @@
    "raw": 176,
    "matched": 7,
    "complete": false,
-   "details": 51,
-   "secs": 49.3,
+   "details": 52,
+   "secs": 48.4,
    "new": 0,
    "closed": 0
   },
@@ -1216,12 +1281,12 @@
    "co": "GE HealthCare",
    "type": "workday",
    "ok": true,
-   "raw": 264,
-   "matched": 29,
+   "raw": 278,
+   "matched": 30,
    "complete": false,
-   "details": 42,
-   "secs": 50.2,
-   "new": 3,
+   "details": 40,
+   "secs": 60.2,
+   "new": 0,
    "closed": 0
   },
   {
@@ -1229,13 +1294,13 @@
    "co": "Google",
    "type": "google",
    "ok": true,
-   "raw": 534,
-   "matched": 159,
+   "raw": 535,
+   "matched": 158,
    "complete": true,
    "details": 0,
-   "secs": 16.4,
-   "new": 8,
-   "closed": 21
+   "secs": 16.3,
+   "new": 2,
+   "closed": 3
   },
   {
    "id": "graphcore",
@@ -1248,7 +1313,7 @@
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "gravis",
@@ -1259,7 +1324,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 0.9,
    "new": 0,
    "closed": 0
   },
@@ -1268,7 +1333,7 @@
    "co": "H Company",
    "type": "ashby",
    "ok": true,
-   "raw": 35,
+   "raw": 34,
    "matched": 14,
    "complete": true,
    "details": 0,
@@ -1281,12 +1346,12 @@
    "co": "Siemens Healthineers",
    "type": "workday",
    "ok": true,
-   "raw": 177,
-   "matched": 28,
+   "raw": 181,
+   "matched": 32,
    "complete": false,
-   "details": 66,
-   "secs": 76.9,
-   "new": 2,
+   "details": 73,
+   "secs": 74.0,
+   "new": 5,
    "closed": 0
   },
   {
@@ -1294,41 +1359,39 @@
    "co": "Helsing",
    "type": "greenhouse",
    "ok": true,
-   "raw": 157,
-   "matched": 71,
+   "raw": 161,
+   "matched": 74,
    "complete": true,
-   "details": 0,
-   "secs": 0.4,
-   "new": 0,
-   "closed": 2
+   "details": 3,
+   "secs": 1.6,
+   "new": 3,
+   "closed": 0
   },
   {
    "id": "hn",
    "co": "Hacker News: Who is hiring",
    "type": "hn",
    "ok": true,
-   "raw": 104,
-   "matched": 43,
+   "raw": 159,
+   "matched": 65,
    "complete": true,
    "details": 0,
-   "secs": 3.8,
+   "secs": 1.5,
    "phd": 1,
-   "shrank_from": 234,
-   "note": "listing shrank from 234 to 104: closures skipped",
-   "new": 43,
-   "closed": 0
+   "new": 22,
+   "closed": 84
   },
   {
    "id": "hp",
    "co": "HP",
    "type": "workday",
    "ok": true,
-   "raw": 365,
-   "matched": 22,
+   "raw": 363,
+   "matched": 24,
    "complete": false,
-   "details": 19,
-   "secs": 72.5,
-   "new": 1,
+   "details": 20,
+   "secs": 67.9,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1336,25 +1399,25 @@
    "co": "Huawei Research Germany/Austria",
    "type": "teamtailor",
    "ok": true,
-   "raw": 85,
-   "matched": 33,
+   "raw": 82,
+   "matched": 31,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 0.9,
    "phd": 4,
    "new": 0,
-   "closed": 0
+   "closed": 2
   },
   {
    "id": "huawei-it",
    "co": "Huawei Italia",
    "type": "teamtailor",
    "ok": true,
-   "raw": 19,
+   "raw": 18,
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -1367,7 +1430,7 @@
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
+   "secs": 0.7,
    "new": 0,
    "closed": 0
   },
@@ -1380,7 +1443,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1389,13 +1452,13 @@
    "co": "IBM",
    "type": "ibm",
    "ok": true,
-   "raw": 181,
-   "matched": 99,
+   "raw": 189,
+   "matched": 107,
    "complete": true,
    "details": 0,
-   "secs": 2.7,
-   "new": 8,
-   "closed": 4
+   "secs": 1.6,
+   "new": 13,
+   "closed": 5
   },
   {
    "id": "ibm-zrl",
@@ -1403,26 +1466,22 @@
    "type": "links",
    "ok": true,
    "raw": 26,
-   "matched": 8,
+   "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.4,
+   "secs": 1.0,
    "phd": 1,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "iit",
    "co": "IIT – Istituto Italiano di Tecnologia",
    "type": "links",
-   "ok": true,
-   "raw": 40,
-   "matched": 14,
-   "complete": true,
-   "details": 2,
-   "secs": 10.5,
-   "new": 2,
-   "closed": 0
+   "ok": false,
+   "error": "RuntimeError: GET https://www.iit.it/openings?cur=1 failed: ConnectTimeout: HTTPSConnectionPool(host='www.iit.it', port=443): Max retries exceeded with url: /openings?cur=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.iit.it', port=443) at 0x7f96739f0a40>, 'Connection to www.iit.it timed out. (connec",
+   "trace": "/job-radar/job-radar/scan.py\", line 1851, in links_list\n    html = http(\"GET\", u, expect=\"text\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: GET https://www.iit.it/openings?cur=1 failed: ConnectTimeout: HTTPSConnectionPool(host='www.iit.it', port=443): Max retries exceeded with url: /openings?cur=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.iit.it', port=443) at 0x7f96739f0a40>, 'Connection to www.iit.it timed out. (connect timeout=40)'))\n",
+   "secs": 133.7
   },
   {
    "id": "imec",
@@ -1432,23 +1491,23 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "indeed",
    "co": "Indeed",
    "type": "jobspy",
    "ok": true,
-   "raw": 1307,
-   "matched": 579,
+   "raw": 1419,
+   "matched": 598,
    "complete": false,
    "details": 0,
-   "secs": 65.3,
-   "phd": 15,
+   "secs": 56.3,
+   "phd": 12,
    "searches": "342/342",
    "retries_429": 0,
-   "search_min": 1.1,
-   "new": 575,
+   "search_min": 0.9,
+   "new": 553,
    "closed": 0
   },
   {
@@ -1472,7 +1531,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.2
   },
   {
    "id": "instadeep",
@@ -1483,7 +1542,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.6,
+   "secs": 1.9,
    "new": 0,
    "closed": 0
   },
@@ -1492,20 +1551,20 @@
    "co": "Intesa Sanpaolo",
    "type": "sf_rss",
    "ok": true,
-   "raw": 51,
+   "raw": 54,
    "matched": 27,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
-   "new": 9,
-   "closed": 7
+   "secs": 39.1,
+   "new": 5,
+   "closed": 1
   },
   {
    "id": "isomorphic",
    "co": "Isomorphic Labs",
    "type": "greenhouse",
    "ok": true,
-   "raw": 32,
+   "raw": 33,
    "matched": 7,
    "complete": true,
    "details": 0,
@@ -1527,7 +1586,7 @@
    "co": "Jua",
    "type": "ashby",
    "ok": true,
-   "raw": 7,
+   "raw": 8,
    "matched": 2,
    "complete": true,
    "details": 0,
@@ -1540,11 +1599,11 @@
    "co": "Julius Baer",
    "type": "workday",
    "ok": true,
-   "raw": 43,
+   "raw": 44,
    "matched": 12,
    "complete": false,
    "details": 0,
-   "secs": 19.2,
+   "secs": 18.7,
    "new": 0,
    "closed": 0
   },
@@ -1566,13 +1625,13 @@
    "co": "KUKA",
    "type": "sf_rss",
    "ok": true,
-   "raw": 27,
-   "matched": 10,
+   "raw": 26,
+   "matched": 9,
    "complete": false,
    "details": 0,
-   "secs": 9.6,
+   "secs": 8.4,
    "new": 2,
-   "closed": 4
+   "closed": 0
   },
   {
    "id": "kyutai",
@@ -1582,7 +1641,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8
   },
   {
    "id": "lakera",
@@ -1604,44 +1663,45 @@
    "ok": false,
    "error": "RuntimeError: HTTP 403 for https://landing.jobs/api/v1/jobs?limit=50&offset=0",
    "trace": "runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 1490, in landingjobs_list\n    data = http(\"GET\", f\"https://landing.jobs/api/v1/jobs?limit=50&offset={offset}\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 624, in http\n    raise RuntimeError(f\"HTTP {r.status_code} for {url}\")\nRuntimeError: HTTP 403 for https://landing.jobs/api/v1/jobs?limit=50&offset=0\n",
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "id": "leonardo",
    "co": "Leonardo",
    "type": "workday",
    "ok": true,
-   "raw": 294,
-   "matched": 181,
+   "raw": 292,
+   "matched": 177,
    "complete": false,
-   "details": 6,
-   "secs": 34.8,
-   "new": 6,
-   "closed": 0
+   "details": 2,
+   "secs": 30.5,
+   "new": 2,
+   "closed": 1
   },
   {
    "id": "linkedin",
    "co": "LinkedIn",
    "type": "jobspy",
    "ok": true,
-   "raw": 3096,
-   "matched": 1660,
+   "raw": 3238,
+   "matched": 1911,
    "complete": false,
    "details": 400,
-   "secs": 8594.5,
-   "phd": 45,
+   "secs": 6699.7,
+   "phd": 48,
    "searches": "10/10",
-   "retries_429": 79,
-   "search_min": 108.3,
+   "retries_429": 0,
+   "search_min": 92.0,
    "capped": [
-    "\"software engineer, machine learning\" OR \"machine learning software engineer\" OR \"software engineer - machine learning\" OR \"deep learning software engineer\" OR \"ML infrastructure\" OR \"machine learning infrastructure\" OR \"ML platform engineer\" @ Europe",
+    "(graduate OR \"new grad\" OR \"new college grad\" OR \"early career\" OR junior OR trainee OR traineeship OR residency) AND (\"machine learning\" OR \"deep learning\" OR \"artificial intelligence\" OR \"data science\") @ Europe",
     "\"research engineer\" OR \"research scientist\" OR \"AI researcher\" OR \"machine learning researcher\" OR \"member of technical staff\" @ Europe",
     "\"foundation model\" OR \"foundation models\" OR pretraining OR \"pre-training\" OR \"post-training\" OR \"LLM training\" @ Europe",
     "\"edge AI\" OR \"embedded machine learning\" OR tinyML OR \"on-device AI\" OR \"model compression\" OR \"neural network quantization\" @ Europe",
+    "\"computer vision\" OR \"perception engineer\" OR \"signal processing\" @ Europe",
     "\"deep learning\" @ Europe",
     "\"data scientist\" @ Europe"
    ],
-   "new": 1465,
+   "new": 1500,
    "closed": 0
   },
   {
@@ -1652,18 +1712,18 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.4
   },
   {
    "id": "logitech",
    "co": "Logitech",
    "type": "workday",
    "ok": true,
-   "raw": 126,
+   "raw": 124,
    "matched": 3,
    "complete": false,
    "details": 2,
-   "secs": 16.8,
+   "secs": 17.3,
    "new": 0,
    "closed": 0
   },
@@ -1676,51 +1736,50 @@
    "matched": 36,
    "complete": false,
    "details": 0,
-   "secs": 4.6,
-   "new": 6,
-   "closed": 0,
-   "coverage_gaps": 1
+   "secs": 4.0,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "medtronic",
    "co": "Medtronic",
    "type": "workday",
    "ok": true,
-   "raw": 249,
+   "raw": 253,
    "matched": 15,
    "complete": false,
-   "details": 6,
-   "secs": 44.0,
-   "new": 1,
-   "closed": 1
+   "details": 5,
+   "secs": 41.1,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "mercedes",
    "co": "Mercedes-Benz",
    "type": "sitemap",
    "ok": true,
-   "raw": 835,
-   "matched": 144,
+   "raw": 830,
+   "matched": 150,
    "complete": true,
    "details": 150,
-   "secs": 107.8,
+   "secs": 91.0,
    "phd": 2,
-   "new": 6,
-   "closed": 6,
-   "coverage_gaps": 3
+   "new": 11,
+   "closed": 5,
+   "coverage_gaps": 2
   },
   {
    "id": "meta",
    "co": "Meta",
    "type": "meta",
    "ok": true,
-   "raw": 1311,
-   "matched": 46,
+   "raw": 1321,
+   "matched": 48,
    "complete": true,
-   "details": 1,
-   "secs": 4.4,
+   "details": 3,
+   "secs": 10.5,
    "phd": 1,
-   "new": 1,
+   "new": 3,
    "closed": 1
   },
   {
@@ -1728,13 +1787,13 @@
    "co": "Microsoft",
    "type": "eightfold",
    "ok": true,
-   "raw": 224,
-   "matched": 76,
+   "raw": 238,
+   "matched": 79,
    "complete": true,
-   "details": 9,
-   "secs": 35.0,
-   "new": 9,
-   "closed": 1
+   "details": 12,
+   "secs": 42.5,
+   "new": 12,
+   "closed": 9
   },
   {
    "id": "mimic",
@@ -1745,7 +1804,7 @@
    "matched": 12,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -1754,11 +1813,11 @@
    "co": "Mistral AI",
    "type": "ashby",
    "ok": true,
-   "raw": 230,
+   "raw": 231,
    "matched": 80,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -1767,11 +1826,11 @@
    "co": "Netflix",
    "type": "eightfold",
    "ok": true,
-   "raw": 123,
+   "raw": 119,
    "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 22.7,
+   "secs": 21.0,
    "new": 0,
    "closed": 0
   },
@@ -1784,35 +1843,35 @@
    "matched": 28,
    "complete": false,
    "details": 0,
-   "secs": 20.6,
+   "secs": 21.1,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "novartis",
    "co": "Novartis",
    "type": "workday",
    "ok": true,
-   "raw": 235,
+   "raw": 247,
    "matched": 24,
    "complete": false,
-   "details": 22,
-   "secs": 55.8,
-   "new": 3,
-   "closed": 1
+   "details": 20,
+   "secs": 66.8,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "nvidia",
    "co": "NVIDIA",
    "type": "workday",
    "ok": true,
-   "raw": 670,
-   "matched": 10,
+   "raw": 671,
+   "matched": 9,
    "complete": false,
-   "details": 69,
-   "secs": 136.4,
+   "details": 70,
+   "secs": 147.6,
    "phd": 10,
-   "new": 0,
+   "new": 1,
    "closed": 0
   },
   {
@@ -1820,24 +1879,25 @@
    "co": "NXP Semiconductors",
    "type": "workday",
    "ok": true,
-   "raw": 319,
-   "matched": 53,
+   "raw": 313,
+   "matched": 52,
    "complete": false,
    "details": 28,
-   "secs": 68.4,
-   "new": 0,
-   "closed": 0
+   "secs": 54.1,
+   "new": 1,
+   "closed": 0,
+   "coverage_gaps": 1
   },
   {
    "id": "openai",
    "co": "OpenAI",
    "type": "ashby",
    "ok": true,
-   "raw": 805,
-   "matched": 47,
+   "raw": 807,
+   "matched": 48,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.0,
    "new": 1,
    "closed": 0
   },
@@ -1850,7 +1910,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1872,14 +1932,14 @@
    "co": "Perplexity",
    "type": "ashby",
    "ok": true,
-   "raw": 137,
+   "raw": 136,
    "matched": 25,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0,
-   "coverage_gaps": 2
+   "coverage_gaps": 1
   },
   {
    "id": "philips",
@@ -1887,12 +1947,12 @@
    "type": "workday",
    "ok": true,
    "raw": 237,
-   "matched": 20,
+   "matched": 19,
    "complete": false,
-   "details": 8,
-   "secs": 75.6,
+   "details": 9,
+   "secs": 68.1,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "photoroom",
@@ -1912,24 +1972,24 @@
    "co": "PhysicsX",
    "type": "greenhouse",
    "ok": true,
-   "raw": 39,
+   "raw": 41,
    "matched": 5,
    "complete": true,
-   "details": 0,
-   "secs": 0.5,
-   "new": 0,
-   "closed": 0
+   "details": 1,
+   "secs": 0.8,
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "pinterest",
    "co": "Pinterest",
    "type": "greenhouse",
    "ok": true,
-   "raw": 169,
+   "raw": 168,
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1938,13 +1998,13 @@
    "co": "Pirelli",
    "type": "sf_rss",
    "ok": true,
-   "raw": 36,
-   "matched": 20,
+   "raw": 35,
+   "matched": 19,
    "complete": false,
    "details": 0,
-   "secs": 10.0,
+   "secs": 9.4,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "plumerai",
@@ -1977,7 +2037,7 @@
    "co": "Prime Intellect",
    "type": "ashby",
    "ok": true,
-   "raw": 39,
+   "raw": 40,
    "matched": 10,
    "complete": true,
    "details": 0,
@@ -1990,11 +2050,11 @@
    "co": "Prior Labs",
    "type": "ashby",
    "ok": true,
-   "raw": 22,
+   "raw": 21,
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -2007,7 +2067,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 0.6,
    "new": 0,
    "closed": 0
   },
@@ -2020,7 +2080,7 @@
    "matched": 4,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -2029,12 +2089,12 @@
    "co": "Qualcomm",
    "type": "eightfold",
    "ok": true,
-   "raw": 237,
-   "matched": 8,
+   "raw": 249,
+   "matched": 7,
    "complete": false,
-   "details": 2,
-   "secs": 34.2,
-   "new": 2,
+   "details": 1,
+   "secs": 31.6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -2042,37 +2102,38 @@
    "co": "RIVR",
    "type": "lever",
    "ok": true,
-   "raw": 8,
+   "raw": 6,
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 1.0,
    "new": 0,
-   "closed": 1
+   "closed": 0,
+   "coverage_gaps": 3
   },
   {
    "id": "roche",
    "co": "Roche",
    "type": "workday",
    "ok": true,
-   "raw": 331,
-   "matched": 79,
+   "raw": 302,
+   "matched": 70,
    "complete": false,
-   "details": 22,
-   "secs": 47.7,
-   "new": 7,
-   "closed": 3
+   "details": 18,
+   "secs": 41.0,
+   "new": 6,
+   "closed": 0
   },
   {
    "id": "samsung",
    "co": "Samsung",
    "type": "workday",
    "ok": true,
-   "raw": 175,
+   "raw": 198,
    "matched": 5,
    "complete": false,
-   "details": 1,
-   "secs": 28.7,
+   "details": 0,
+   "secs": 26.9,
    "new": 0,
    "closed": 0
   },
@@ -2081,11 +2142,11 @@
    "co": "Sanofi",
    "type": "radancy",
    "ok": true,
-   "raw": 289,
+   "raw": 284,
    "matched": 30,
    "complete": false,
    "details": 5,
-   "secs": 10.3,
+   "secs": 8.7,
    "phd": 1,
    "new": 1,
    "closed": 0
@@ -2095,13 +2156,13 @@
    "co": "Scandit",
    "type": "greenhouse",
    "ok": true,
-   "raw": 9,
+   "raw": 12,
    "matched": 2,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "sdsc",
@@ -2111,21 +2172,21 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.8
   },
   {
    "id": "siemens",
    "co": "Siemens",
    "type": "avature",
    "ok": true,
-   "raw": 659,
-   "matched": 120,
+   "raw": 679,
+   "matched": 129,
    "complete": false,
-   "details": 82,
-   "secs": 455.2,
+   "details": 83,
+   "secs": 461.0,
    "phd": 1,
-   "new": 3,
-   "closed": 1,
+   "new": 10,
+   "closed": 2,
    "coverage_gaps": 1
   },
   {
@@ -2133,11 +2194,11 @@
    "co": "Silicon Labs",
    "type": "workday",
    "ok": true,
-   "raw": 65,
+   "raw": 64,
    "matched": 6,
    "complete": false,
    "details": 0,
-   "secs": 19.6,
+   "secs": 16.9,
    "new": 0,
    "closed": 0
   },
@@ -2146,12 +2207,12 @@
    "co": "Sonar",
    "type": "lever",
    "ok": true,
-   "raw": 120,
+   "raw": 123,
    "matched": 19,
    "complete": true,
    "details": 0,
-   "secs": 2.3,
-   "new": 1,
+   "secs": 1.6,
+   "new": 0,
    "closed": 0
   },
   {
@@ -2160,12 +2221,12 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 41,
-   "matched": 14,
+   "matched": 13,
    "complete": false,
    "details": 0,
-   "secs": 9.8,
-   "new": 1,
-   "closed": 4
+   "secs": 8.5,
+   "new": 5,
+   "closed": 5
   },
   {
    "id": "sony",
@@ -2176,7 +2237,7 @@
    "matched": 1,
    "complete": false,
    "details": 5,
-   "secs": 20.0,
+   "secs": 20.1,
    "new": 0,
    "closed": 0
   },
@@ -2185,26 +2246,26 @@
    "co": "Spotify",
    "type": "lever",
    "ok": true,
-   "raw": 85,
-   "matched": 8,
+   "raw": 86,
+   "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 0.9,
-   "new": 0,
-   "closed": 1
+   "secs": 1.3,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "st",
    "co": "STMicroelectronics",
    "type": "eightfold",
    "ok": true,
-   "raw": 133,
-   "matched": 39,
+   "raw": 134,
+   "matched": 42,
    "complete": false,
-   "details": 2,
-   "secs": 29.8,
-   "phd": 2,
-   "new": 2,
+   "details": 3,
+   "secs": 25.6,
+   "phd": 1,
+   "new": 3,
    "closed": 0
   },
   {
@@ -2217,8 +2278,6 @@
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "shrank_from": 3,
-   "note": "listing shrank from 3 to 1: closures skipped",
    "new": 0,
    "closed": 0
   },
@@ -2236,25 +2295,25 @@
    "co": "Stripe",
    "type": "greenhouse",
    "ok": true,
-   "raw": 742,
-   "matched": 36,
+   "raw": 744,
+   "matched": 39,
    "complete": true,
-   "details": 25,
-   "secs": 11.7,
-   "new": 0,
-   "closed": 1
+   "details": 28,
+   "secs": 12.9,
+   "new": 3,
+   "closed": 0
   },
   {
    "id": "swisscom",
    "co": "Swisscom",
    "type": "workday",
    "ok": true,
-   "raw": 23,
+   "raw": 24,
    "matched": 20,
    "complete": false,
-   "details": 2,
-   "secs": 13.5,
-   "new": 2,
+   "details": 1,
+   "secs": 12.3,
+   "new": 1,
    "closed": 0
   },
   {
@@ -2262,25 +2321,25 @@
    "co": "Swiss Re",
    "type": "links",
    "ok": true,
-   "raw": 232,
-   "matched": 41,
+   "raw": 240,
+   "matched": 40,
    "complete": true,
-   "details": 36,
-   "secs": 33.6,
-   "new": 2,
-   "closed": 1
+   "details": 40,
+   "secs": 32.9,
+   "new": 1,
+   "closed": 2
   },
   {
    "id": "synopsys",
    "co": "Synopsys",
    "type": "radancy",
    "ok": true,
-   "raw": 455,
-   "matched": 9,
+   "raw": 450,
+   "matched": 10,
    "complete": false,
-   "details": 0,
-   "secs": 12.9,
-   "new": 0,
+   "details": 1,
+   "secs": 11.4,
+   "new": 1,
    "closed": 0
   },
   {
@@ -2288,11 +2347,11 @@
    "co": "Synthesia",
    "type": "ashby",
    "ok": true,
-   "raw": 33,
+   "raw": 30,
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -2301,24 +2360,24 @@
    "co": "Telefónica",
    "type": "sf_rss",
    "ok": true,
-   "raw": 35,
-   "matched": 22,
+   "raw": 34,
+   "matched": 25,
    "complete": false,
    "details": 0,
-   "secs": 10.6,
-   "new": 1,
-   "closed": 1
+   "secs": 9.4,
+   "new": 9,
+   "closed": 5
   },
   {
    "id": "tether",
    "co": "Tether",
    "type": "recruitee",
    "ok": true,
-   "raw": 247,
+   "raw": 235,
    "matched": 60,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 1.4,
    "new": 0,
    "closed": 0
   },
@@ -2327,41 +2386,41 @@
    "co": "Thales / Thales Alenia Space",
    "type": "workday",
    "ok": true,
-   "raw": 548,
-   "matched": 294,
+   "raw": 582,
+   "matched": 312,
    "complete": false,
-   "details": 32,
-   "secs": 92.5,
+   "details": 31,
+   "secs": 92.0,
    "phd": 1,
-   "new": 17,
+   "new": 14,
    "closed": 0,
-   "coverage_gaps": 1
+   "coverage_gaps": 2
   },
   {
    "id": "thehub",
    "co": "The Hub",
    "type": "thehub",
    "ok": true,
-   "raw": 350,
-   "matched": 107,
+   "raw": 358,
+   "matched": 109,
    "complete": true,
-   "details": 5,
-   "secs": 38.2,
+   "details": 4,
+   "secs": 35.3,
    "phd": 1,
-   "new": 5,
-   "closed": 0
+   "new": 4,
+   "closed": 2
   },
   {
    "id": "tomtom",
    "co": "TomTom",
    "type": "lever",
    "ok": true,
-   "raw": 22,
-   "matched": 5,
+   "raw": 30,
+   "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 1.3,
-   "new": 0,
+   "secs": 1.2,
+   "new": 3,
    "closed": 0
   },
   {
@@ -2369,24 +2428,24 @@
    "co": "UniCredit",
    "type": "avature",
    "ok": true,
-   "raw": 529,
-   "matched": 294,
+   "raw": 540,
+   "matched": 302,
    "complete": true,
-   "details": 14,
-   "secs": 169.4,
-   "new": 10,
-   "closed": 8
+   "details": 18,
+   "secs": 169.9,
+   "new": 14,
+   "closed": 6
   },
   {
    "id": "valeo",
    "co": "Valeo",
    "type": "workday",
    "ok": true,
-   "raw": 279,
+   "raw": 278,
    "matched": 54,
    "complete": false,
-   "details": 53,
-   "secs": 77.6,
+   "details": 52,
+   "secs": 72.8,
    "new": 1,
    "closed": 0
   },
@@ -2396,11 +2455,11 @@
    "type": "ashby",
    "ok": true,
    "raw": 173,
-   "matched": 34,
+   "matched": 35,
    "complete": true,
    "details": 0,
    "secs": 0.5,
-   "new": 0,
+   "new": 1,
    "closed": 0
   },
   {
@@ -2408,11 +2467,11 @@
    "co": "Withings",
    "type": "workable",
    "ok": true,
-   "raw": 27,
+   "raw": 28,
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -2421,40 +2480,40 @@
    "co": "Welcome to the Jungle",
    "type": "wttj",
    "ok": true,
-   "raw": 2011,
-   "matched": 469,
+   "raw": 2018,
+   "matched": 483,
    "complete": false,
    "details": 150,
-   "secs": 72.8,
+   "secs": 69.2,
    "phd": 3,
-   "new": 46,
-   "closed": 21
+   "new": 43,
+   "closed": 26
   },
   {
    "id": "zalando",
    "co": "Zalando",
    "type": "links",
    "ok": true,
-   "raw": 162,
-   "matched": 60,
+   "raw": 167,
+   "matched": 62,
    "complete": true,
-   "details": 1,
-   "secs": 11.9,
-   "new": 1,
-   "closed": 1
+   "details": 2,
+   "secs": 10.4,
+   "new": 2,
+   "closed": 0
   },
   {
    "id": "zurich-ins",
    "co": "Zurich Insurance",
    "type": "sf_rss",
    "ok": true,
-   "raw": 91,
-   "matched": 18,
+   "raw": 87,
+   "matched": 22,
    "complete": false,
    "details": 0,
-   "secs": 10.3,
-   "new": 5,
-   "closed": 5
+   "secs": 8.4,
+   "new": 10,
+   "closed": 1
   }
  ]
 }
