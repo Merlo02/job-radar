@@ -677,7 +677,10 @@ def cmd_docs():
                                  "academic" if ACADEMIC.search(c.get("co") or "") else "job")
         rel, parts = rilevanza(c.get("co"), j["prest"], j["tipo"], title, area,
                                " ".join(filter(None, [x.get("loc"), city, c.get("loc")])))
-        junior = is_junior(kind, title, c.get("level"), c.get("card"), c.get("req"), x.get("req"), x.get("why"))
+        # the flag too: the routine marks graduate programmes and AI residencies "Programma graduate 2027" (4/11: a
+        # "Modelling Resident" with that flag stayed non-junior and out of Apply today)
+        junior = is_junior(kind, title, c.get("level"), c.get("card"), c.get("req"), x.get("req"), x.get("why"),
+                           x.get("flag"))
         doc = {
             "prio": prio(j["fit"], rel, junior, area), "rel": rel, "relParts": parts, "junior": junior,
             "co": c.get("co"), "title": title, "loc": x.get("loc") or city,
