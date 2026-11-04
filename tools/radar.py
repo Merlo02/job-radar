@@ -1083,7 +1083,7 @@ def cmd_verify():
         i = REQ_START.search(text)
         body = text[max(0, i.start() - 1500):] if i else text
         blocks.append(f"[{r['id']}] {r['url']} · fonte: {where_}\n"
-                      f"   {short(body, 4500) or '(testo non letto: verdict dubbio, lo verifica Claude Code col browser)'}")
+                      f"   {short(body, 4500) or '(testo non letto: cerca lo stesso ruolo sul sito dell azienda con WebSearch e WebFetch; solo se non lo trovi verdict dubbio, lo verifica Claude Code col browser)'}")
     emit(blocks, "verify")
 
 

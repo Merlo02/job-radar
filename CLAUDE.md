@@ -21,6 +21,9 @@ Il piano di lavoro in corso è in `docs/PLAN.md`: leggilo prima di toccare scann
   "Run workflow" dalla tab Actions.
 
 ## Regole
+- A inizio sessione, prima di tutto e senza chiedere: verifica col browser gli annunci del Radar con verdetto
+  «dubbio» (passi in `tools/routines.md`, «Verifica col browser»). Il tempismo conta: un annuncio non
+  verificato non entra in Apply today.
 - La repo è **pubblica**: niente CV, lettere, email, dati personali. Tutto ciò che è personale sta in
   `private/` e `career-ops/`, ignorati da git. Note personali e contesto: `private/NOTES.md`
   (leggilo quando scrivi lettere o valuti il fit di un annuncio).

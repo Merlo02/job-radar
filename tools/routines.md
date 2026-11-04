@@ -138,8 +138,11 @@ with fileSize 1: that is normal, the text is there.)
    of up to 6 of them: read each one in full and write one line per job in verifiche.jsonl, following
    the rules the script prints: no when it asks 2+ years, a PhD (even preferred, except graduate
    programmes), a language he does not speak, a mandatory requirement he lacks entirely, or when the job
-   is not ML/AI. When the text could not be read write "dubbio" with "testo non letto": Claude Code
-   verifies those with his browser (LinkedIn does not answer from this sandbox). Then
+   is not ML/AI. When the text could not be read (LinkedIn does not answer from this sandbox), look for
+   the same role on the company's own careers page or ATS: one WebSearch with the company and the title,
+   then WebFetch the employer's posting and judge from it, writing in checks where you read it. Write
+   "dubbio" with "testo non letto" only when that fails too: Claude Code then verifies it with his browser.
+   A candidate left unverified is a role he may miss, and timing matters (4/11). Then
    `python3 radar.py verify --list verify.txt --write`.
 7. `python3 radar.py pack radar` puts everything in files for Drive and prints how to send them: one
    create_file per file (in the folder, contentMimeType "application/json", disableConversionToGoogleType
@@ -202,10 +205,13 @@ If nothing is new, say so in one line.
 ## Verifica col browser (Claude Code, quando Gabriele apre una sessione)
 
 The jobs with verdict "dubbio" and checks starting "testo non letto" (LinkedIn refused, Indeed, pages
-built in JavaScript) wait for Claude Code: read the posting with Claude in Chrome (Gabriele is logged
+built in JavaScript) wait for Claude Code: at the start of every session, before anything else and without
+asking (4/11, Gabriele: «non possiamo perdere annunci, il tempismo è fondamentale»), query them
+(verdict == "dubbio", closed == false), read each posting with Claude in Chrome (Gabriele is logged
 in to LinkedIn; never solve a CAPTCHA or a security check: use the company's own careers page or ATS
 instead), apply the same rules and write verified, verdict, checks and vq = false with ArtifactData (Claude
-Code, with Gabriele there, can write the database directly). From
+Code, with Gabriele there, can write the database directly). When one passes, add it to today's "picks"
+document (at most 5, one per company) so it shows in Apply today the same day. From
 time to time Claude Code also runs `radar.py check --db db` on the open jobs saved with ArtifactData
 (out_dir): it asks LinkedIn which postings stopped taking applications, which the routine cannot do. Before
 proposing any posting to Gabriele outside the Radar, read its full text the same way.
