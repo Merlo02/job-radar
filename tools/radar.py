@@ -50,7 +50,8 @@ import urllib.request
 RAW = "https://raw.githubusercontent.com/Merlo02/job-radar/main/out/"
 MSG_LINES = 30       # postings listed one by one in the final message (the rest are counted)
 PAGE_CHARS = 24000   # longer lists go to page files: one tool output shows about 30,000 characters
-CARD_PAGES = 20      # pages of cards in one morning (~450,000 characters, what one run can read): the rest waits
+CARD_PAGES = 36      # pages of cards in one morning (~820,000 characters): the rest waits. 5/11 (Gabriele: «il consumo di
+                     # token è quasi nullo, possiamo aumentare il budget»): longer cards and more pages, so nothing is judged blind
 MAX_YEARS = 3        # a new graduate: postings asking this many years of experience or more stay out (Gabriele, 18/10)
 BOARD_DAYS = 30      # Indeed and the other boards (not LinkedIn: graduate programmes stay open for months there, and
                      # Claude Code asks LinkedIn with `check`): older postings count as expired
@@ -483,7 +484,7 @@ def card_block(n, c):
     meta = " | ".join(b for b in bits if b)
     if line or not text.strip():
         return f"{n}. {head}{' | ' + meta if meta else ''}{'' if line else ' | senza descrizione'}"
-    text = short(text, 420 if c.get("form") == "full" else 150)
+    text = short(text, 900 if c.get("form") == "full" else 350)
     return f"{n}. {head}\n   {meta + ' | ' if meta else ''}{text}"
 
 
@@ -523,11 +524,23 @@ def cmd_more():
         print(f"ATTENZIONE: {len(missing)} schede senza giudizio: {missing[:40]}")
     sel = sorted((n for n, j in js.items() if n in cards and kept(j, cards[n]) and j["fit"] >= 3),
                  key=lambda n: (-js[n]["fit"], -js[n]["prest"]))
-    print(f"{len(sel)} schede con fit >= 3: requisiti per scrivere why e req\n")
-    emit([f"{n}. {cards[n].get('co')} · {cards[n].get('title')} · {cards[n].get('loc')} "
-          f"(fit {js[n]['fit']}, prestigio {js[n]['prest']})\n"
-          f"   {short(cards[n].get('req'), 700) or '(requisiti non trovati: guarda la scheda o usa desc)'}"
-          for n in sel], "more")
+    # 5/11: Mistral "Applied Science – Time Series" (time-series foundation models, no years, PhD only a plus) was
+    # judged fit 2 «frontier lab e PhD» from the card and stayed hidden for a week. A fit-2 card at a good company or
+    # in a research, training, edge or ML-SWE role gets a second reading on its full requirements before it stays low.
+    second = sorted((n for n, j in js.items() if n in cards and kept(j, cards[n]) and j["fit"] == 2
+                     and (j["prest"] >= 4 or j["tipo"] in ("ricerca", "training", "edge", "ml-swe"))),
+                    key=lambda n: -js[n]["prest"])
+    print(f"{len(sel)} schede con fit >= 3: requisiti per scrivere why e req. Poi {len(second)} schede con fit 2 da "
+          f"rileggere sui requisiti completi (SECONDA LETTURA)\n")
+    blocks = [f"{n}. {cards[n].get('co')} · {cards[n].get('title')} · {cards[n].get('loc')} "
+              f"(fit {js[n]['fit']}, prestigio {js[n]['prest']})\n"
+              f"   {short(cards[n].get('req'), 1500) or '(requisiti non trovati: usa desc)'}"
+              for n in sel]
+    blocks += [f"SECONDA LETTURA {n}. {cards[n].get('co')} · {cards[n].get('title')} · {cards[n].get('loc')} "
+               f"(fit 2, prestigio {js[n]['prest']}, motivo: {js[n]['motivo']})\n"
+               f"   {short(cards[n].get('req'), 1500) or '(requisiti non trovati: usa desc)'}"
+               for n in second]
+    emit(blocks, "more")
 
 
 def cmd_desc():
@@ -921,7 +934,7 @@ def cmd_check():
 # il testo»): a job goes into Apply today only after someone read its full posting. `docs` puts the candidates in a
 # queue (vq = true), `verify` prints the full text of the ones Claude lists from it, Claude writes verifiche.jsonl,
 # `verify --write` stores the verdicts and takes them out of the queue.
-VERIFY_MAX = 6       # postings read in full each morning (about 1,500 tokens each)
+VERIFY_MAX = 15      # postings read in full each morning (about 1,500 tokens each; 5/11: budget raised from 6)
 REQ_START = re.compile(r"(?:requirements|qualifications|what you(?:'ll)? bring|who you are|you have|your profile|"
                        r"we(?:'re| are) looking for|about you|profil|anforderungen|requisiti|must have)", re.I)
 

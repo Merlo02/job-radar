@@ -104,13 +104,23 @@ with fileSize 1: that is normal, the text is there.)
    - anni: the years of experience asked (a number, or -). motivo: at most 12 Italian words.
 
    Do not skip cards: a card without a line comes back tomorrow. Judge from the card; most cards
-   are clearly out of profile and need only a few words. Signals added by the script: "agenzia" is
+   are clearly out of profile and need only a few words. Never stamp a range of cards with one default
+   line from a script: full and short cards get their own line after you read them (one-line cards may
+   share a motivo, but only those you read and found off-profile). The budget is generous (5/11): a
+   missed role costs far more than tokens. Write in motivo only what the card says: a PhD, years or
+   "frontier lab" are reasons only when the text states them (5/11: Mistral's Time Series role was
+   judged «frontier lab e PhD» and the PhD was only a plus). Signals added by the script: "agenzia" is
    a staffing agency posting for an unnamed client (fit 1 unless the role itself is strong: only fit
    4–5 agency postings go into the Radar); "testo non in inglese né in italiano" means the posting
    is written in a language he does not read, so the job almost surely needs it (the card shows only
    its start). A card listing several places is the same role posted more than once: judge it once.
 4. `python3 radar.py more` prints the requirements of the cards with fit 3 or more (in pages
-   more-1.txt… when they are many: read them all). For each of them write one line in
+   more-1.txt… when they are many: read them all), then, marked SECONDA LETTURA, those of the fit-2
+   cards at good companies or in research, training, edge and ML-SWE roles. Re-judge each SECONDA
+   LETTURA card on its full requirements: when the reason for fit 2 does not hold (a PhD listed only as
+   a plus or as "PhD / Master", no years asked, a requirement he does have), raise its fit by editing its
+   line in giudizi.txt and write its scheda like the others; when it holds, leave it. Run
+   `python3 radar.py desc <n>` when the requirements were not found. For each card with fit 3 or more write one line in
    schede.jsonl: `{"n": 12, "why": "1–2 Italian sentences tying the role to his experience,
    addressing him as tu, with the honest caveat", "req": "short Italian summary of the
    requirements"}` and, only when needed, "flag" (short label such as "Difesa", "In tedesco",
@@ -132,10 +142,10 @@ with fileSize 1: that is normal, the text is there.)
    with the lines of verify-new.txt (this morning's candidates, written by docs); add the older ones of
    the queue: db_query `{"collection": "jobs", "where": [{"field": "vq", "op": "==", "value": true},
    {"field": "closed", "op": "==", "value": false}], "orderBy": {"field": "prio", "direction": "asc"},
-   "limit": 10}` and db_list "tracker" (read only), one line per job returned: `id|version|url|pub|deadline`
+   "limit": 20}` and db_list "tracker" (read only), one line per job returned: `id|version|url|pub|deadline`
    (empty fields stay empty), with `|gestito` at the end when the tracker has that id with status inviata,
    colloquio, offerta, no or scartata. `python3 radar.py verify --list verify.txt` prints the full text
-   of up to 6 of them: read each one in full and write one line per job in verifiche.jsonl, following
+   of up to 15 of them: read each one in full and write one line per job in verifiche.jsonl, following
    the rules the script prints: no when it asks 2+ years, a PhD (even preferred, except graduate
    programmes), a language he does not speak, a mandatory requirement he lacks entirely, or when the job
    is not ML/AI. When the text could not be read (LinkedIn does not answer from this sandbox), look for
