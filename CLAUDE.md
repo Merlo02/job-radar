@@ -28,8 +28,11 @@ Il piano di lavoro in corso è in `docs/PLAN.md`: leggilo prima di toccare scann
   `private/` e `career-ops/`, ignorati da git. Note personali e contesto: `private/NOTES.md`
   (leggilo quando scrivi lettere o valuti il fit di un annuncio).
 - Nelle pagine claude.ai le collezioni `tracker` e `targetChecks` sono dati di Gabriele: mai scriverci.
-- Routine: esistono già, si aggiornano, non se ne creano di nuove. Ogni giro consuma i limiti di
-  Gabriele: prompt brevi, lavoro meccanico negli script (zero token), Claude solo per giudicare.
+- Routine: esistono già, si aggiornano, non se ne creano di nuove. Il lavoro meccanico resta negli script e Claude
+  giudica; dal 5/11 il budget di token è largo (Gabriele: «il consumo è quasi nullo»): meglio leggere di più che
+  perdere un annuncio. Il Radar gira con Opus.
+- Il Radar è responsabilità di Claude: Gabriele non controlla il repo. Un giudizio sbagliato che nasconde un annuncio
+  buono è un guasto grave: si cerca la causa, si corregge la regola e si ricontrollano gli annunci simili.
 - Se trovi un problema nello scanner, sistemalo e pusha.
 - Testi per Gabriele (lettere, risposte ai form): prosa naturale, niente tono da AI, niente elenchi
   su elenchi, nessun fatto inventato, nessuna frase attribuita ai suoi supervisor.
