@@ -1,14 +1,15 @@
 {
- "run_at": "2026-11-07T21:54:13Z",
- "duration_s": 156,
+ "run_at": "2026-11-08T20:27:36Z",
+ "duration_s": 173,
  "sources": 55,
  "failed": [
-  "abg"
+  "abg",
+  "dn-surerob"
  ],
  "blocked": [],
- "new": 7,
- "open": 783,
- "recent": 162,
+ "new": 1,
+ "open": 781,
+ "recent": 150,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -26,7 +27,7 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 2.9
+   "secs": 3.7
   },
   {
    "id": "at-nl",
@@ -37,21 +38,21 @@
    "matched": 33,
    "complete": false,
    "details": 0,
-   "secs": 155.7,
-   "new": 1,
-   "closed": 2
+   "secs": 172.4,
+   "new": 0,
+   "closed": 3
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 784,
-   "matched": 499,
+   "raw": 787,
+   "matched": 500,
    "complete": true,
    "details": 0,
    "secs": 0.2,
-   "new": 6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -62,7 +63,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "id": "dn-aegis",
@@ -72,7 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.7
   },
   {
    "id": "dn-biohybrite",
@@ -82,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 2.8
   },
   {
    "id": "dn-bridge-ai",
@@ -92,7 +93,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.3
   },
   {
    "id": "dn-bug-id",
@@ -102,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.7
   },
   {
    "id": "dn-cafe-bio",
@@ -112,7 +113,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-capture",
@@ -122,7 +123,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.5
   },
   {
    "id": "dn-cavecore",
@@ -132,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.7
   },
   {
    "id": "dn-cdtnet",
@@ -142,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "id": "dn-combine",
@@ -152,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.7
+   "secs": 5.0
   },
   {
    "id": "dn-diamond",
@@ -172,7 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.5
   },
   {
    "id": "dn-elevate",
@@ -182,7 +183,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 2.1
   },
   {
    "id": "dn-emanaire",
@@ -202,7 +203,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 3.8
   },
   {
    "id": "dn-evomg-dn",
@@ -212,7 +213,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.8
+   "secs": 5.4
   },
   {
    "id": "dn-fados",
@@ -222,7 +223,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 2.0
   },
   {
    "id": "dn-framebio",
@@ -232,7 +233,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.8
   },
   {
    "id": "dn-genaide",
@@ -242,7 +243,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 0.9
   },
   {
    "id": "dn-genome",
@@ -252,7 +253,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.2
   },
   {
    "id": "dn-heal-4ward",
@@ -262,7 +263,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.1
   },
   {
    "id": "dn-her-care",
@@ -272,7 +273,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.3
   },
   {
    "id": "dn-intros",
@@ -282,7 +283,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.7
   },
   {
    "id": "dn-istride",
@@ -292,7 +293,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 3.0
   },
   {
    "id": "dn-justhealth",
@@ -302,7 +303,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-lowdataml",
@@ -312,7 +313,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 1.3
   },
   {
    "id": "dn-mediculous-remedy",
@@ -332,7 +333,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.9
   },
   {
    "id": "dn-mindnet",
@@ -342,7 +343,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 2.2
   },
   {
    "id": "dn-miningbrines",
@@ -352,7 +353,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.5
   },
   {
    "id": "dn-mlcare",
@@ -362,7 +363,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 2.9
   },
   {
    "id": "dn-orfeus",
@@ -372,7 +373,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.5
   },
   {
    "id": "dn-protaiomics",
@@ -382,7 +383,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.9
+   "secs": 3.2
   },
   {
    "id": "dn-realise",
@@ -392,7 +393,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.9
   },
   {
    "id": "dn-reffracteur",
@@ -402,7 +403,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.0
+   "secs": 2.7
   },
   {
    "id": "dn-specx",
@@ -412,7 +413,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 3.4
   },
   {
    "id": "dn-spring",
@@ -422,17 +423,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "id": "dn-surerob",
    "co": "SureROB (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.9
+   "ok": false,
+   "error": "RuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "trace": "scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://www.surerob.eu/ failed: ConnectionError: HTTPSConnectionPool(host='www.surerob.eu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.surerob.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
+   "secs": 14.4
   },
   {
    "id": "dn-trackaf",
@@ -442,7 +442,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.2
   },
   {
    "id": "dn-train-fast",
@@ -452,7 +452,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.6
   },
   {
    "id": "dn-unchange",
@@ -462,7 +462,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.5
+   "secs": 3.2
   },
   {
    "id": "dn-variabiliti",
@@ -482,18 +482,18 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.7
   },
   {
    "id": "epfl-phd",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 37,
+   "raw": 35,
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 3.0,
+   "secs": 3.3,
    "new": 0,
    "closed": 0
   },
@@ -506,7 +506,7 @@
    "matched": 28,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -532,7 +532,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 1.9,
+   "secs": 1.8,
    "new": 0,
    "closed": 0
   },
@@ -545,7 +545,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -568,9 +568,9 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
+   "secs": 2.0,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "uzh-phd",
@@ -581,7 +581,7 @@
    "matched": 11,
    "complete": true,
    "details": 0,
-   "secs": 1.7,
+   "secs": 2.0,
    "new": 0,
    "closed": 0
   },
@@ -593,7 +593,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.4
+   "secs": 0.5
   }
  ]
 }
