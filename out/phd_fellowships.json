@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T01:25:31Z",
+ "generated": "2026-11-10T01:58:09Z",
  "count": 10,
  "items": [
   {
@@ -183,12 +183,7 @@
    "requirements": "Dottorato congiunto ETH Zürich / Max Planck: dettagli sulla pagina.",
    "kind": "fellowship",
    "reachable": true,
-   "dates_found": [
-    {
-     "date": "2026-11-02",
-     "context": "The application phase to join in 2027 is now open. Deadline for all parts of the application: midnight (11:59pm) CET on November 02, 2026. At the heart of CLS is its doctoral t"
-    }
-   ]
+   "dates_found": []
   },
   {
    "id": "robotx",
