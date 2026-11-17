@@ -599,26 +599,51 @@ def extra_chain(host):
     return path
 
 
+# All Workday tenants sit behind the same myworkdayjobs.com front: 8 workers hitting it at once got every
+# Workday source refused with HTTP 429 on 17/11. Their requests go two at a time and wait longer on a 429.
+_WORKDAY = threading.BoundedSemaphore(2)
+
+
+def _retry_after(r, i, workday):
+    try:
+        wait = float(r.headers.get("Retry-After", ""))
+    except ValueError:
+        wait = 0
+    if workday:
+        return min(max(wait, 15 * (i + 1)), 90) + random.uniform(0, 3)
+    return max(min(wait, 60), 4 * (i + 1) ** 2)
+
+
 def http(method, url, *, json_body=None, data=None, headers=None, expect="json", tries=3, delay=0.35):
     last = None
     host = urlsplit(url).hostname
     verify = _CHAINS.get(host, True)
+    workday = (host or "").endswith("myworkdayjobs.com")
+    if workday:
+        tries, delay = max(tries, 5), max(delay, 1.0)
     for i in range(tries):
         try:
             time.sleep(delay)
+            if workday:
+                _WORKDAY.acquire()
             try:
-                r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40, verify=verify)
-            except requests.exceptions.SSLError:
-                if verify is not True:
-                    raise
-                verify = extra_chain(host)
-                r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40,
-                                      verify=verify)
+                try:
+                    r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40,
+                                          verify=verify)
+                except requests.exceptions.SSLError:
+                    if verify is not True:
+                        raise
+                    verify = extra_chain(host)
+                    r = session().request(method, url, json=json_body, data=data, headers=headers, timeout=40,
+                                          verify=verify)
+            finally:
+                if workday:
+                    _WORKDAY.release()
             if r.status_code in (404, 410):
                 raise Gone(f"{r.status_code} {url}")
             if r.status_code == 429 or r.status_code >= 500:
                 last = f"HTTP {r.status_code}"
-                time.sleep(4 * (i + 1) ** 2)
+                time.sleep(_retry_after(r, i, workday) if r.status_code == 429 else 4 * (i + 1) ** 2)
                 continue
             if 400 <= r.status_code < 500:
                 raise RuntimeError(f"HTTP {r.status_code} for {url}")
