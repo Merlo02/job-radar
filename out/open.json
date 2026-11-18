@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-16T23:34:24Z",
- "count": 1126,
+ "generated": "2026-11-17T22:43:28Z",
+ "count": 1145,
  "items": [
   {
    "key": "abb:GenAI-LLM-Application-Developer_JR00052801",
@@ -97,7 +97,7 @@
    "loc_status": "eu",
    "posted": "2026-09-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -111,7 +111,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -125,7 +125,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -139,7 +139,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -153,7 +153,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -167,7 +167,7 @@
    "loc_status": "eu",
    "posted": "2026-07-08",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -181,7 +181,7 @@
    "loc_status": "eu",
    "posted": "2026-07-08",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -1035,7 +1035,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -1049,7 +1049,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1064,7 +1064,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Software Development"
   },
@@ -1079,7 +1079,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Administrative Support"
   },
@@ -1094,7 +1094,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Administrative Support"
   },
@@ -1109,7 +1109,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
   },
@@ -1124,7 +1124,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Editorial, Writing, & Content Management"
   },
@@ -1139,7 +1139,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1154,7 +1154,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Business Intelligence"
   },
@@ -1169,7 +1169,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Business Intelligence"
   },
@@ -1184,7 +1184,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1199,7 +1199,7 @@
    "loc_status": "eu",
    "posted": "2026-08-27",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1214,7 +1214,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1229,7 +1229,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1244,7 +1244,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1259,7 +1259,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1274,7 +1274,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1289,7 +1289,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1304,7 +1304,7 @@
    "loc_status": "eu",
    "posted": "2026-05-08",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1319,7 +1319,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1334,7 +1334,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T19:43:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1349,7 +1349,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1364,7 +1364,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1379,7 +1379,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1394,7 +1394,7 @@
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1409,7 +1409,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1439,7 +1439,7 @@
    "loc_status": "eu",
    "posted": "2026-06-17",
    "first_seen": "2026-10-27T12:33:38Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Data Science"
   },
@@ -1454,7 +1454,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Applied Science"
   },
@@ -1469,7 +1469,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T19:43:59Z",
-   "last_seen": "2026-11-12T21:38:33Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Data Science"
   },
@@ -1484,7 +1484,7 @@
    "loc_status": "eu",
    "posted": "2026-08-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Data Science"
   },
@@ -1499,7 +1499,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Leadership Development & Training"
   },
@@ -1514,7 +1514,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Systems, Quality, & Security Engineering"
   },
@@ -1529,7 +1529,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Systems, Quality, & Security Engineering"
   },
@@ -1544,7 +1544,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Systems, Quality, & Security Engineering"
   },
@@ -1559,7 +1559,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Software Development"
   },
@@ -1574,9 +1574,24 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "amazon",
    "dept": "Business & Merchant Development"
+  },
+  {
+   "key": "amazon:10507969",
+   "co": "Amazon",
+   "target": "amazon",
+   "big": true,
+   "title": "Software Development Engineer II, AWS AI & Strategic Partner Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10507969/software-development-engineer-ii-aws-ai-strategic-partner-engineering",
+   "loc": "Walldorf, Baden-Wurttemberg, DEU; Frankfurt, Hesse, DEU",
+   "loc_status": "eu",
+   "posted": "2026-08-20",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "amazon",
+   "dept": "Software Development"
   },
   {
    "key": "adi:FY27-Electronic-Engineering-Graduate-Opportunities_R266918",
@@ -1706,7 +1721,7 @@
    "loc_status": "eu",
    "posted": "2026-04-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1720,7 +1735,7 @@
    "loc_status": "eu",
    "posted": "2026-04-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1734,7 +1749,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1748,7 +1763,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1762,7 +1777,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1776,7 +1791,7 @@
    "loc_status": "eu",
    "posted": "2026-08-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1790,7 +1805,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1804,7 +1819,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1818,7 +1833,7 @@
    "loc_status": "eu",
    "posted": "2026-09-07",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1832,7 +1847,7 @@
    "loc_status": "eu",
    "posted": "2026-04-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1846,7 +1861,7 @@
    "loc_status": "eu",
    "posted": "2026-02-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1860,7 +1875,7 @@
    "loc_status": "eu",
    "posted": "2026-02-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1874,7 +1889,7 @@
    "loc_status": "eu",
    "posted": "2025-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1888,7 +1903,7 @@
    "loc_status": "eu",
    "posted": "2026-02-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1902,7 +1917,7 @@
    "loc_status": "eu",
    "posted": "2025-03-31",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -1916,7 +1931,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "PhD Intern S5"
@@ -1932,7 +1947,7 @@
    "loc_status": "eu",
    "posted": "2026-05-03",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware"
   },
@@ -1947,7 +1962,7 @@
    "loc_status": "eu",
    "posted": "2025-11-26",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Machine Learning Research ICT4 – Machine Learning Research ICT5"
@@ -1963,7 +1978,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Machine Learning Research ICT4 – Machine Learning Research ICT5"
@@ -1979,7 +1994,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Intern S4 – Intern S5"
@@ -1995,7 +2010,7 @@
    "loc_status": "eu",
    "posted": "2025-09-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT3 – Machine Learning ICT4"
@@ -2011,7 +2026,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT5"
@@ -2027,7 +2042,7 @@
    "loc_status": "eu",
    "posted": "2026-08-26",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT5"
@@ -2043,7 +2058,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T12:33:38Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT5"
@@ -2059,26 +2074,10 @@
    "loc_status": "eu",
    "posted": "2026-06-12",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4"
-  },
-  {
-   "key": "apple:200664779",
-   "co": "Apple",
-   "target": "apple",
-   "big": true,
-   "title": "AIML - Machine Learning Researcher, MLR",
-   "url": "https://jobs.apple.com/en-gb/details/REQ-200664779/aiml-machine-learning-researcher-mlr",
-   "loc": "Lausanne (Switzerland)",
-   "loc_status": "eu",
-   "posted": "2026-05-21",
-   "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "apple",
-   "dept": "Machine Learning and AI",
-   "level": "Machine Learning Research ICT3"
   },
   {
    "key": "apple:200619263",
@@ -2091,7 +2090,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4"
@@ -2107,7 +2106,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4 – Machine Learning Research ICT5"
@@ -2123,7 +2122,7 @@
    "loc_status": "eu",
    "posted": "2026-08-27",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Software Development Engineering ICT5"
@@ -2139,7 +2138,7 @@
    "loc_status": "eu",
    "posted": "2026-05-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4"
@@ -2155,7 +2154,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Software Development Engineering ICT4"
@@ -2171,7 +2170,7 @@
    "loc_status": "eu",
    "posted": "2026-07-27",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Software Engineering Systems ICT3 – Software Engineering Systems ICT4"
@@ -2181,13 +2180,13 @@
    "co": "Apple",
    "target": "apple",
    "big": true,
-   "title": "Defensive AI Security Intern",
-   "url": "https://jobs.apple.com/en-gb/details/200694900/defensive-ai-security-intern",
+   "title": "Defensive AI Security Intern - Paris, France",
+   "url": "https://jobs.apple.com/en-gb/details/REQ-200694900/defensive-ai-security-intern-paris-france",
    "loc": "Paris (France)",
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Intern S4"
@@ -2203,7 +2202,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Software Development Engineer - Firmware ICT2 – Software Development Engineer - Firmware ICT3"
@@ -2219,7 +2218,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Physical Design Engineer ICT2 – Physical Design Engineer ICT3"
@@ -2235,7 +2234,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Physical Design Engineer ICT2 – Physical Design Engineer ICT3"
@@ -2251,7 +2250,7 @@
    "loc_status": "eu",
    "posted": "2026-04-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Physical Analysis Engineering ICT2 – Physical Analysis Engineering ICT3"
@@ -2267,7 +2266,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "FE Engineering ICT2 – FE Engineering ICT3"
@@ -2283,7 +2282,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Software Development Engineering ICT4"
@@ -2299,7 +2298,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Physical Design Engineer ICT2 – Physical Design Engineer ICT3"
@@ -2315,26 +2314,26 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Design for Test Engineer ICT2"
   },
   {
-   "key": "apple:200685035",
+   "key": "apple:200688716",
    "co": "Apple",
    "target": "apple",
    "big": true,
-   "title": "Internship - Machine Learning (Foundation Models)",
-   "url": "https://jobs.apple.com/en-gb/details/REQ-200685035/internship-machine-learning-foundation-models",
-   "loc": "Zurich (Switzerland)",
+   "title": "Early Careers Quality Engineer, Radar Engineering",
+   "url": "https://jobs.apple.com/en-gb/details/REQ-200688716/early-careers-quality-engineer-radar-engineering",
+   "loc": "Cork (Ireland)",
    "loc_status": "eu",
-   "posted": "2026-10-13",
-   "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "posted": "2026-10-22",
+   "first_seen": "2026-10-22T18:55:45Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
-   "dept": "Machine Learning and AI",
-   "level": "Intern S4 – Intern S5"
+   "dept": "Corporate Functions",
+   "level": "Software Engineering Applications ICT2"
   },
   {
    "key": "apple:200692642",
@@ -2347,7 +2346,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Intern S4 – Intern S5"
@@ -2363,7 +2362,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Students",
    "level": "Intern S4 – Intern S5"
@@ -2379,7 +2378,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Students",
    "level": "Intern S4 – Intern S5"
@@ -2395,7 +2394,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Students",
    "level": "Intern S4"
@@ -2411,7 +2410,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Intern S4 – Intern S5"
@@ -2427,7 +2426,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Intern S4 – Intern S5"
@@ -2443,7 +2442,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Intern S4 – Intern S5"
@@ -2459,7 +2458,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Machine Learning ICT2"
@@ -2475,7 +2474,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Software Development Engineering ICT4 – Software Development Engineering ICT5"
@@ -2491,7 +2490,7 @@
    "loc_status": "eu",
    "posted": "2026-11-15",
    "first_seen": "2026-11-15T20:00:39Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Machine Learning ICT3 – Machine Learning ICT4"
@@ -2507,7 +2506,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT2 – Machine Learning ICT3"
@@ -2523,7 +2522,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "PhD Intern S5"
@@ -2539,7 +2538,7 @@
    "loc_status": "eu",
    "posted": "2026-07-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Software and Services",
    "level": "Machine Learning Research ICT3"
@@ -2555,7 +2554,7 @@
    "loc_status": "eu",
    "posted": "2026-05-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT4 – Machine Learning ICT5"
@@ -2571,7 +2570,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning ICT4 – Machine Learning ICT5"
@@ -2587,7 +2586,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware"
   },
@@ -2602,7 +2601,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Design Verification ICT2 – Design Verification ICT3"
@@ -2618,7 +2617,7 @@
    "loc_status": "eu",
    "posted": "2026-11-05",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Silicon Validation Engineering ICT2 – Silicon Validation Engineering ICT3"
@@ -2634,7 +2633,7 @@
    "loc_status": "eu",
    "posted": "2026-11-05",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Silicon Validation Engineering ICT2 – Silicon Validation Engineering ICT3"
@@ -2650,7 +2649,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Hardware",
    "level": "Machine Learning ICT4"
@@ -2666,7 +2665,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT3 – Machine Learning Research ICT4"
@@ -2682,7 +2681,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Eng Masters Intern S5"
@@ -2698,7 +2697,7 @@
    "loc_status": "eu",
    "posted": "2026-07-17",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT4 – Machine Learning Research ICT5"
@@ -2714,7 +2713,7 @@
    "loc_status": "eu",
    "posted": "2025-10-09",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "apple",
    "dept": "Machine Learning and AI",
    "level": "Machine Learning Research ICT5"
@@ -2728,7 +2727,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2740,7 +2739,7 @@
    "loc": "Multiple locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2776,7 +2775,7 @@
    "loc": "Cambridge, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2800,7 +2799,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2812,7 +2811,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T11:31:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2836,7 +2835,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2848,7 +2847,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2860,7 +2859,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2872,7 +2871,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2884,7 +2883,7 @@
    "loc": "Galway, Ireland",
    "loc_status": "eu",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2896,7 +2895,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2908,7 +2907,7 @@
    "loc": "Multiple locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-31T18:54:04Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2920,7 +2919,7 @@
    "loc": "Cambridge, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2932,7 +2931,7 @@
    "loc": "Budapest, Hungary",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2956,7 +2955,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-31T18:54:04Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2968,7 +2967,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -2992,7 +2991,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -3004,7 +3003,7 @@
    "loc": "Lund, Sweden",
    "loc_status": "eu",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -3028,7 +3027,7 @@
    "loc": "Manchester, United Kingdom",
    "loc_status": "eu",
    "first_seen": "2026-10-27T12:33:38Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -3070,7 +3069,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3084,7 +3083,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3098,7 +3097,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3112,7 +3111,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3126,7 +3125,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3140,7 +3139,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3154,7 +3153,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3168,7 +3167,7 @@
    "loc_status": "eu",
    "posted": "2026-11-07",
    "first_seen": "2026-11-07T19:09:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3182,7 +3181,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3196,7 +3195,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3210,7 +3209,35 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T10:44:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "sf_rss"
+  },
+  {
+   "key": "bmw:1458073033",
+   "co": "BMW Group",
+   "target": "bmw",
+   "big": true,
+   "title": "Praktikant Konzernsicherheit Digitalisierung, Daten und Künstliche Intelligenz (w/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/Regensburg-Praktikant-Konzernsicherheit-Digitalisierung%2C-Daten-und-K%C3%BCnstliche-Intelligenz-%28wmx%29-BY-93055/1458073033/",
+   "loc": "Regensburg, BY, DE, 93055",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "sf_rss"
+  },
+  {
+   "key": "bmw:1458130633",
+   "co": "BMW Group",
+   "target": "bmw",
+   "big": true,
+   "title": "Praktikum Artificial Intelligence & Agentic AI im Produktionssystem (w/m/x)",
+   "url": "https://jobs.bmwgroup.com/job/M%C3%BCnchen-Praktikum-Artificial-Intelligence-&-Agentic-AI-im-Produktionssystem-%28wmx%29-BY-80809/1458130633/",
+   "loc": "München, BY, DE, 80809",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -3224,7 +3251,7 @@
    "loc_status": "unknown",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -3238,7 +3265,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3252,7 +3279,7 @@
    "loc_status": "eu",
    "posted": "2024-09-17",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3266,7 +3293,7 @@
    "loc_status": "eu",
    "posted": "2026-11-15",
    "first_seen": "2026-11-15T20:00:39Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3280,7 +3307,7 @@
    "loc_status": "eu",
    "posted": "2026-04-20",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3294,7 +3321,7 @@
    "loc_status": "eu",
    "posted": "2026-04-20",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3308,7 +3335,7 @@
    "loc_status": "eu",
    "posted": "2026-11-15",
    "first_seen": "2026-11-15T20:00:39Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -3350,7 +3377,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "jibe"
   },
   {
@@ -3392,7 +3419,7 @@
    "loc_status": "eu",
    "posted": "2026-11-05",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3406,7 +3433,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3448,7 +3475,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3462,7 +3489,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3476,7 +3503,7 @@
    "loc_status": "eu",
    "posted": "2026-09-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3504,7 +3531,7 @@
    "loc_status": "eu",
    "posted": "2026-08-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3518,7 +3545,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3546,7 +3573,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3560,7 +3587,7 @@
    "loc_status": "eu",
    "posted": "2026-11-05",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3574,7 +3601,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3616,7 +3643,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3630,7 +3657,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3644,7 +3671,21 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "smartrecruiters"
+  },
+  {
+   "key": "bosch:744000162122629",
+   "co": "Bosch",
+   "target": "bosch",
+   "big": true,
+   "title": "Extracurricular Internship: AI Software Engineer (f/m/div.)",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162122629",
+   "loc": "Aveiro, PT",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3658,7 +3699,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3672,7 +3713,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3686,7 +3727,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3700,7 +3741,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3742,7 +3783,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3770,7 +3811,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3784,7 +3825,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3798,7 +3839,7 @@
    "loc_status": "eu",
    "posted": "2026-07-03",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3812,7 +3853,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3840,7 +3881,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3854,7 +3895,7 @@
    "loc_status": "eu",
    "posted": "2026-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3896,7 +3937,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3910,7 +3951,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3924,7 +3965,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3938,7 +3979,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3952,7 +3993,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T10:44:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3966,7 +4007,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-06T07:48:13Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -3980,7 +4021,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -4022,7 +4063,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -4036,7 +4077,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -4102,7 +4143,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4116,7 +4157,7 @@
    "loc_status": "eu",
    "posted": "2026-05-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4130,7 +4171,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4144,7 +4185,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T10:35:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4158,7 +4199,7 @@
    "loc_status": "eu",
    "posted": "2026-08-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4172,7 +4213,7 @@
    "loc_status": "eu",
    "posted": "2025-09-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4186,7 +4227,7 @@
    "loc_status": "eu",
    "posted": "2026-08-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4200,7 +4241,7 @@
    "loc_status": "eu",
    "posted": "2025-12-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4214,7 +4255,7 @@
    "loc_status": "eu",
    "posted": "2025-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4228,7 +4269,7 @@
    "loc_status": "eu",
    "posted": "2024-11-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4242,7 +4283,7 @@
    "loc_status": "eu",
    "posted": "2026-08-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4256,7 +4297,7 @@
    "loc_status": "eu",
    "posted": "2025-06-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4270,7 +4311,21 @@
    "loc_status": "eu",
    "posted": "2025-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "ashby"
+  },
+  {
+   "key": "cohere:d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
+   "co": "Cohere",
+   "target": "cohere",
+   "big": true,
+   "title": "Member of Technical Staff, Search",
+   "url": "https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
+   "loc": "United States; San Francisco; Europe; Canada; London; New York; United Kingdom; Toronto; Montreal (United States) · remote",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4284,7 +4339,7 @@
    "loc_status": "eu",
    "posted": "2025-02-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4298,7 +4353,7 @@
    "loc_status": "eu",
    "posted": "2025-02-20",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4312,7 +4367,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-07T19:09:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4325,7 +4380,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -4338,7 +4393,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "smartrecruiters"
   },
   {
@@ -4404,7 +4459,7 @@
    "loc_status": "eu",
    "posted": "2025-08-27",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -4418,7 +4473,7 @@
    "loc_status": "eu",
    "posted": "2025-04-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -4432,7 +4487,7 @@
    "loc_status": "eu",
    "posted": "2025-11-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4530,7 +4585,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4544,7 +4599,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4558,7 +4613,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4572,7 +4627,7 @@
    "loc_status": "eu",
    "posted": "2026-09-27",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4586,7 +4641,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4600,7 +4655,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -4613,7 +4668,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4626,7 +4681,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4639,7 +4694,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4652,7 +4707,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4665,7 +4720,7 @@
    "loc": "Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4678,7 +4733,7 @@
    "loc": "Darmstadt, Germany",
    "loc_status": "eu",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4691,7 +4746,7 @@
    "loc": "Darmstadt, Germany",
    "loc_status": "eu",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -4705,7 +4760,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4719,7 +4774,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-06T07:48:13Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4733,7 +4788,7 @@
    "loc_status": "eu",
    "posted": "2026-10-11",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4747,7 +4802,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4761,7 +4816,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4775,7 +4830,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -4789,7 +4844,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4817,7 +4872,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4859,7 +4914,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4873,7 +4928,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T12:33:38Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4915,7 +4970,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4929,7 +4984,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4943,7 +4998,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4971,7 +5026,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -4999,7 +5054,35 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "ericsson:563121777496581",
+   "co": "Ericsson",
+   "target": "ericsson",
+   "big": true,
+   "title": "Software Developer Summer Intern: IMS GW (AI & Automation)",
+   "url": "https://jobs.ericsson.com/careers/job/563121777496581",
+   "loc": "Jorvas, Kirkkonummi,Jorvas, Kirkkonummi,Finland",
+   "loc_status": "eu",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "ericsson:563121777310879",
+   "co": "Ericsson",
+   "target": "ericsson",
+   "big": true,
+   "title": "Software Developer | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777310879",
+   "loc": "Kraków,Kraków,Poland",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -5013,7 +5096,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -5027,7 +5110,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5041,7 +5124,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5055,7 +5138,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-27T19:43:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5069,7 +5152,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5083,7 +5166,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5097,7 +5180,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5125,7 +5208,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-11-01T19:15:44Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5139,7 +5222,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-11-01T19:15:44Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5195,7 +5278,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-11-01T19:15:44Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5223,7 +5306,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-11-01T19:15:44Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -5237,8 +5320,22 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-11-01T19:15:44Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
+  },
+  {
+   "key": "faculty:0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2",
+   "co": "Faculty",
+   "target": "faculty",
+   "big": false,
+   "title": "Data Scientist",
+   "url": "https://jobs.ashbyhq.com/faculty/0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2",
+   "loc": "London (United Kingdom) · remote",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "ashby"
   },
   {
    "key": "faculty:168cb0e1-daea-42d5-ac09-e12a61cf72ca",
@@ -5251,7 +5348,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5265,7 +5362,7 @@
    "loc_status": "eu",
    "posted": "2026-02-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5279,7 +5376,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5293,7 +5390,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5307,7 +5404,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5321,7 +5418,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5335,7 +5432,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -5349,8 +5446,22 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
+  },
+  {
+   "key": "geaerospace:Applied-AI-Engineer-Intern--m-f-d----Spring-2027_R5043333-1",
+   "co": "GE Aerospace / Avio Aero",
+   "target": "avio-aero",
+   "big": true,
+   "title": "Applied AI Engineer Intern (m/f/d) – Spring 2027",
+   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Remote/Applied-AI-Engineer-Intern--m-f-d----Spring-2027_R5043333-1",
+   "loc": "Remote (Germany)",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "workday"
   },
   {
    "key": "geaerospace:Menederka-Meneder-ds-strategii-AI_R5041718-1",
@@ -5363,7 +5474,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-15T20:00:39Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "workday"
   },
   {
@@ -5489,7 +5600,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5503,7 +5614,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5517,7 +5628,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5531,7 +5642,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5545,7 +5656,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5559,7 +5670,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5573,7 +5684,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5587,7 +5698,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5601,7 +5712,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5615,7 +5726,7 @@
    "loc_status": "eu",
    "posted": "2026-06-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5629,7 +5740,7 @@
    "loc_status": "eu",
    "posted": "2026-08-07",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5643,21 +5754,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "google"
-  },
-  {
-   "key": "google-eu:120550077000229574",
-   "co": "Google",
-   "target": "deepmind",
-   "big": true,
-   "title": "Software Engineer, Early Careers, PhD, gSoC Server Software",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/120550077000229574-software-engineer-early-careers-phd-gsoc-server-software",
-   "loc": "Warsaw, Poland (PL)",
-   "loc_status": "eu",
-   "posted": "2025-06-05",
-   "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5671,7 +5768,7 @@
    "loc_status": "eu",
    "posted": "2025-06-26",
    "first_seen": "2026-10-05T15:23:47Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5685,7 +5782,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5699,7 +5796,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5713,7 +5810,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5727,7 +5824,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5741,7 +5838,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5755,7 +5852,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5769,7 +5866,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5783,7 +5880,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5797,7 +5894,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5811,7 +5908,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5825,7 +5922,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5839,7 +5936,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5853,7 +5950,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5867,7 +5964,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5881,7 +5978,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5895,7 +5992,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5923,7 +6020,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5937,7 +6034,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5951,7 +6048,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5965,7 +6062,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5979,7 +6076,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "google"
   },
   {
@@ -5993,7 +6090,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6007,7 +6104,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6021,7 +6118,7 @@
    "loc_status": "eu",
    "posted": "2026-07-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6035,7 +6132,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6049,7 +6146,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6063,7 +6160,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6077,7 +6174,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6091,7 +6188,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6105,7 +6202,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6119,7 +6216,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6133,7 +6230,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6147,7 +6244,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6161,7 +6258,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6175,7 +6272,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6189,7 +6286,7 @@
    "loc_status": "eu",
    "posted": "2026-04-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -6203,7 +6300,7 @@
    "loc_status": "eu",
    "posted": "2026-04-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -6477,7 +6574,7 @@
    "loc_status": "eu",
    "posted": "2026-08-21",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6491,7 +6588,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6505,7 +6602,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6519,7 +6616,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6533,7 +6630,7 @@
    "loc_status": "eu",
    "posted": "2025-01-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6547,7 +6644,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6561,7 +6658,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6575,7 +6672,7 @@
    "loc_status": "eu",
    "posted": "2026-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6589,7 +6686,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6603,7 +6700,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6617,7 +6714,7 @@
    "loc_status": "eu",
    "posted": "2025-12-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -6631,7 +6728,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6644,7 +6741,7 @@
    "loc_status": "eu",
    "posted": "2026-04-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6657,7 +6754,7 @@
    "loc_status": "eu",
    "posted": "2026-06-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6670,7 +6767,7 @@
    "loc_status": "eu",
    "posted": "2026-07-15",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6683,7 +6780,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6696,7 +6793,7 @@
    "loc_status": "eu",
    "posted": "2026-08-14",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6709,7 +6806,21 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "teamtailor"
+  },
+  {
+   "key": "huawei-zrc:7331051",
+   "co": "Huawei Zurich Research Center",
+   "target": "huawei-zrc",
+   "big": true,
+   "title": "Junior Technical Engineer- Fresh Graduates Program",
+   "url": "https://careers.huaweirc.ch/jobs/7331051-junior-technical-engineer-fresh-graduates-program",
+   "loc": "Huawei Technologies Switzerland AG, Dübendorf, Switzerland",
+   "loc_status": "eu",
+   "posted": "2026-03-04",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6723,7 +6834,7 @@
    "loc_status": "eu",
    "posted": "2026-01-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6737,7 +6848,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6751,7 +6862,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6765,21 +6876,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "teamtailor"
-  },
-  {
-   "key": "huawei-zrc:8125413",
-   "co": "Huawei Zurich Research Center",
-   "target": "huawei-zrc",
-   "big": true,
-   "title": "Research Scientist - Scientific Simulation on AI Infrastructure (Fixed Contract)",
-   "url": "https://careers.huaweirc.ch/jobs/8125413-research-scientist-scientific-simulation-on-ai-infrastructure-fixed-contract",
-   "loc": "Zürich, Switzerland",
-   "loc_status": "eu",
-   "posted": "2026-07-24",
-   "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6793,7 +6890,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6807,7 +6904,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6821,7 +6918,7 @@
    "loc_status": "eu",
    "posted": "2026-09-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -6835,7 +6932,7 @@
    "loc_status": "eu",
    "posted": "2026-05-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "workable"
   },
   {
@@ -6849,7 +6946,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -6864,7 +6961,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -6879,7 +6976,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Consulting"
   },
@@ -6894,7 +6991,7 @@
    "loc_status": "eu",
    "posted": "2026-10-30",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -6909,7 +7006,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -6924,7 +7021,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Enterprise Operations"
   },
@@ -6939,7 +7036,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Software Engineering"
   },
@@ -6954,7 +7051,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Software Engineering"
   },
@@ -6969,7 +7066,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Software Engineering"
   },
@@ -6984,7 +7081,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -6999,7 +7096,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Cloud"
   },
@@ -7014,7 +7111,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ibm",
    "dept": "Data & Analytics"
   },
@@ -7028,7 +7125,7 @@
    "loc": "Rüschlikon, Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -7041,7 +7138,7 @@
    "loc": "Rüschlikon, Zurich, Switzerland",
    "loc_status": "eu",
    "first_seen": "2026-10-27T12:33:38Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -7054,7 +7151,7 @@
    "loc": "Italy",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -7067,7 +7164,7 @@
    "loc": "Italy",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -7080,7 +7177,7 @@
    "loc": "Italy",
    "loc_status": "eu",
    "first_seen": "2026-10-27T19:43:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -7094,7 +7191,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7108,7 +7205,7 @@
    "loc_status": "eu",
    "posted": "2026-10-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7122,7 +7219,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7136,7 +7233,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7150,7 +7247,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-08T10:31:13Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7164,7 +7261,7 @@
    "loc_status": "eu",
    "posted": "2026-10-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7192,7 +7289,7 @@
    "loc_status": "eu",
    "posted": "2025-07-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -7206,7 +7303,7 @@
    "loc_status": "eu",
    "posted": "2026-09-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -7220,7 +7317,7 @@
    "loc_status": "eu",
    "posted": "2025-11-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -7234,7 +7331,7 @@
    "loc_status": "eu",
    "posted": "2024-07-06",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -7248,7 +7345,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -7262,7 +7359,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -7301,7 +7398,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7314,7 +7411,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -7860,7 +7957,7 @@
    "loc_status": "eu",
    "posted": "2026-06-26",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7874,7 +7971,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7888,7 +7985,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7902,7 +7999,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7916,7 +8013,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7930,7 +8027,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7944,7 +8041,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7958,7 +8055,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7972,7 +8069,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -7986,7 +8083,7 @@
    "loc_status": "eu",
    "posted": "2026-06-03",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8000,7 +8097,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8014,7 +8111,7 @@
    "loc_status": "eu",
    "posted": "2025-06-23",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8028,7 +8125,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8042,7 +8139,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8056,7 +8153,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8070,7 +8167,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8084,7 +8181,7 @@
    "loc_status": "eu",
    "posted": "2026-11-01",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8098,7 +8195,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8126,7 +8223,7 @@
    "loc_status": "unknown",
    "posted": "2026-07-13",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8139,7 +8236,7 @@
    "loc": "Madrid (Spain)",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8152,7 +8249,7 @@
    "loc": "Paris (France)",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8179,7 +8276,7 @@
    "loc_status": "eu",
    "posted": "2026-09-21",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8207,7 +8304,7 @@
    "loc_status": "eu",
    "posted": "2026-08-18",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8221,7 +8318,7 @@
    "loc_status": "eu",
    "posted": "2026-06-30",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8249,7 +8346,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T16:34:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8263,7 +8360,7 @@
    "loc_status": "eu",
    "posted": "2026-11-01",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8277,7 +8374,7 @@
    "loc_status": "eu",
    "posted": "2026-11-01",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8291,7 +8388,7 @@
    "loc_status": "eu",
    "posted": "2026-11-01",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8305,7 +8402,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8319,7 +8416,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8333,7 +8430,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "mckinsey"
   },
   {
@@ -8376,6 +8473,19 @@
    "ats": "workday"
   },
   {
+   "key": "meta:4406208926373444",
+   "co": "Meta",
+   "target": "meta",
+   "big": true,
+   "title": "Machine Learning Digital Design Engineer",
+   "url": "https://www.metacareers.com/jobs/4406208926373444/",
+   "loc_status": "unknown",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "meta",
+   "dept": "AR/VR"
+  },
+  {
    "key": "meta:2316600655751692",
    "co": "Meta",
    "target": "meta",
@@ -8386,7 +8496,7 @@
    "loc_status": "eu",
    "posted": "2026-09-10",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Software Engineering"
   },
@@ -8401,7 +8511,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Artificial Intelligence, Advertising Technology, AI Infrastructure, AI Research, Software Engineering"
   },
@@ -8416,7 +8526,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Artificial Intelligence, Enterprise Engineering, Facebook, Generative AI"
   },
@@ -8431,7 +8541,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-22T18:55:45Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Infrastructure, AI Research, Research"
   },
@@ -8446,7 +8556,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8461,7 +8571,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8476,7 +8586,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Advertising Technology, AI Research, Artificial Intelligence, Generative AI, Research, Software Engineering"
   },
@@ -8491,7 +8601,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research, University Grad - PhD & Postdoc"
   },
@@ -8506,7 +8616,7 @@
    "loc_status": "eu",
    "posted": "2026-10-24",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research, University Grad - PhD & Postdoc"
   },
@@ -8521,7 +8631,7 @@
    "loc_status": "eu",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02T22:56:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research, Artificial Intelligence, Generative AI, Research"
   },
@@ -8536,7 +8646,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research, Artificial Intelligence, Generative AI, Research, Internship - Engineering, Tech & Design"
   },
@@ -8551,7 +8661,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8566,20 +8676,7 @@
    "loc_status": "eu",
    "posted": "2026-01-30",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "meta",
-   "dept": "AI Research"
-  },
-  {
-   "key": "meta:1513805147458616",
-   "co": "Meta",
-   "target": "meta",
-   "big": true,
-   "title": "Research Scientist, Artificial Intelligence",
-   "url": "https://www.metacareers.com/jobs/1513805147458616/",
-   "loc_status": "unknown",
-   "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8594,7 +8691,7 @@
    "loc_status": "eu",
    "posted": "2026-07-23",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8609,7 +8706,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research"
   },
@@ -8624,7 +8721,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Artificial Intelligence, AI Infrastructure, Security"
   },
@@ -8639,7 +8736,7 @@
    "loc_status": "eu",
    "posted": "2026-09-22",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Advertising Technology, Artificial Intelligence, Facebook, Generative AI, Sales & Marketing, Security, Software Engineering, Technical Program Management"
   },
@@ -8654,7 +8751,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Software Engineering"
   },
@@ -8669,7 +8766,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Software Engineering"
   },
@@ -8680,11 +8777,11 @@
    "big": true,
    "title": "Software Engineer, Machine Learning",
    "url": "https://www.metacareers.com/jobs/1048049836887307/",
-   "loc": "Remote, UK; London, UK",
+   "loc": "London, UK",
    "loc_status": "eu",
    "posted": "2025-06-10",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Software Engineering"
   },
@@ -8699,7 +8796,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "Software Engineering"
   },
@@ -8714,7 +8811,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Infrastructure, Software Engineering"
   },
@@ -8729,7 +8826,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "meta",
    "dept": "AI Research, AR/VR, Artificial Intelligence, Facebook Reality Labs, Research"
   },
@@ -8744,7 +8841,7 @@
    "loc_status": "eu",
    "posted": "2026-11-11",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8758,7 +8855,7 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8772,7 +8869,21 @@
    "loc_status": "eu",
    "posted": "2026-11-06",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "microsoft:1970393557074923",
+   "co": "Microsoft",
+   "target": "microsoft",
+   "big": true,
+   "title": "Member of Technical Staff",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557074923",
+   "loc": "Switzerland, Zürich, Zürich",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8786,7 +8897,7 @@
    "loc_status": "eu",
    "posted": "2026-08-28",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8800,7 +8911,7 @@
    "loc_status": "eu",
    "posted": "2026-08-12",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8814,7 +8925,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8828,7 +8939,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8842,7 +8953,7 @@
    "loc_status": "eu",
    "posted": "2026-08-13",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8856,7 +8967,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -8870,7 +8981,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8884,7 +8995,7 @@
    "loc_status": "eu",
    "posted": "2026-06-24",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8898,7 +9009,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8912,7 +9023,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8926,7 +9037,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8940,7 +9051,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8954,7 +9065,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8968,7 +9079,7 @@
    "loc_status": "eu",
    "posted": "2026-07-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8982,7 +9093,21 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "ashby"
+  },
+  {
+   "key": "mistral:4589a3be-baca-49cd-806f-6159f56bea6a",
+   "co": "Mistral AI",
+   "target": "mistral",
+   "big": true,
+   "title": "Applied AI Engineer, CyberSecurity, Defense",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/4589a3be-baca-49cd-806f-6159f56bea6a",
+   "loc": "Paris (France)",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -8996,7 +9121,7 @@
    "loc_status": "eu",
    "posted": "2026-08-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9010,7 +9135,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9024,7 +9149,7 @@
    "loc_status": "eu",
    "posted": "2026-07-09",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9038,7 +9163,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9052,7 +9177,7 @@
    "loc_status": "eu",
    "posted": "2026-10-09",
    "first_seen": "2026-10-10T09:46:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9066,7 +9191,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9080,7 +9205,7 @@
    "loc_status": "eu",
    "posted": "2026-07-03",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9094,7 +9219,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9108,7 +9233,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9122,7 +9247,7 @@
    "loc_status": "eu",
    "posted": "2026-11-04",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9136,7 +9261,7 @@
    "loc_status": "eu",
    "posted": "2026-07-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9150,7 +9275,7 @@
    "loc_status": "eu",
    "posted": "2026-07-08",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9164,7 +9289,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9178,7 +9303,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9192,7 +9317,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9206,7 +9331,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9220,7 +9345,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9234,7 +9359,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9248,7 +9373,7 @@
    "loc_status": "eu",
    "posted": "2026-09-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9262,7 +9387,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9276,7 +9401,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9290,7 +9415,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9304,7 +9429,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9318,7 +9443,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9332,7 +9457,7 @@
    "loc_status": "eu",
    "posted": "2026-10-29",
    "first_seen": "2026-10-29T19:56:03Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9346,7 +9471,7 @@
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-16T18:29:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9360,7 +9485,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -9875,7 +10000,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "oracle"
   },
   {
@@ -9903,7 +10028,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "oracle"
   },
   {
@@ -9987,7 +10112,7 @@
    "loc_status": "eu",
    "posted": "2026-01-12",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10001,7 +10126,7 @@
    "loc_status": "eu",
    "posted": "2026-08-24",
    "first_seen": "2026-10-14T08:29:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10015,7 +10140,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10029,7 +10154,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10043,7 +10168,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10057,7 +10182,7 @@
    "loc_status": "eu",
    "posted": "2026-09-23",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10071,7 +10196,7 @@
    "loc_status": "eu",
    "posted": "2026-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10085,7 +10210,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-13T21:45:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10099,7 +10224,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T09:39:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10113,7 +10238,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10127,7 +10252,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10141,7 +10266,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10155,7 +10280,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10169,7 +10294,7 @@
    "loc_status": "eu",
    "posted": "2026-07-15",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10183,7 +10308,7 @@
    "loc_status": "eu",
    "posted": "2026-01-13",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10197,7 +10322,7 @@
    "loc_status": "eu",
    "posted": "2026-04-08",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10211,7 +10336,7 @@
    "loc_status": "eu",
    "posted": "2026-04-13",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10225,7 +10350,7 @@
    "loc_status": "eu",
    "posted": "2026-08-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10235,11 +10360,11 @@
    "big": true,
    "title": "Member of Technical Staff (Backend Software Engineer, Search Crawler)",
    "url": "https://jobs.ashbyhq.com/Perplexity/94ccf41e-d3e1-41aa-9569-c3bcbffc4184",
-   "loc": "Belgrade; London; Ireland (Serbia)",
+   "loc": "Belgrade; London; Belgrade; Ireland (Serbia)",
    "loc_status": "eu",
    "posted": "2025-07-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10249,11 +10374,25 @@
    "big": true,
    "title": "Member of Technical Staff (Enterprise Security Engineer)",
    "url": "https://jobs.ashbyhq.com/Perplexity/4c316774-abea-47d9-b681-5fdc005e4229",
-   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City (United States) · remote",
+   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City; Ireland (United States) · remote",
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "ashby"
+  },
+  {
+   "key": "perplexity:7f3dc848-6e0b-4ad1-85bc-d24a30179b74",
+   "co": "Perplexity",
+   "target": "perplexity",
+   "big": true,
+   "title": "Member of Technical Staff (Index Engineer, Search Crawler)",
+   "url": "https://jobs.ashbyhq.com/Perplexity/7f3dc848-6e0b-4ad1-85bc-d24a30179b74",
+   "loc": "London; Belgrade; Ireland (United Kingdom)",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10267,7 +10406,7 @@
    "loc_status": "eu",
    "posted": "2026-08-12",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10281,7 +10420,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-07T10:12:29Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10295,7 +10434,7 @@
    "loc_status": "eu",
    "posted": "2025-03-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10305,11 +10444,11 @@
    "big": true,
    "title": "Member of Technical Staff (Offensive Security Engineer)",
    "url": "https://jobs.ashbyhq.com/Perplexity/69fd6a56-0050-44f7-9ed2-2c3a7320908d",
-   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City (United States) · remote",
+   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City; Ireland (United States) · remote",
    "loc_status": "eu",
    "posted": "2026-04-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10323,7 +10462,7 @@
    "loc_status": "eu",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10333,11 +10472,11 @@
    "big": true,
    "title": "Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream)",
    "url": "https://jobs.ashbyhq.com/Perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd",
-   "loc": "Belgrade; London; Remote; Ireland (Serbia)",
+   "loc": "Belgrade; London; Ireland (Serbia)",
    "loc_status": "eu",
    "posted": "2026-09-18",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10351,7 +10490,7 @@
    "loc_status": "eu",
    "posted": "2026-10-08",
    "first_seen": "2026-10-09T10:29:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10365,7 +10504,7 @@
    "loc_status": "eu",
    "posted": "2025-03-31",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10379,7 +10518,7 @@
    "loc_status": "eu",
    "posted": "2026-09-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10393,7 +10532,7 @@
    "loc_status": "eu",
    "posted": "2026-06-03",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10403,11 +10542,11 @@
    "big": true,
    "title": "Member of Technical Staff (Software Engineer, Cybersecurity Products)",
    "url": "https://jobs.ashbyhq.com/Perplexity/b23d83e3-add8-48ea-b16e-65a956d1192c",
-   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City (United States)",
+   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City; Ireland (United States)",
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10421,7 +10560,7 @@
    "loc_status": "eu",
    "posted": "2026-06-15",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10431,11 +10570,11 @@
    "big": true,
    "title": "Member of Technical Staff (Software Engineer, Enterprise Trust & Governance)",
    "url": "https://jobs.ashbyhq.com/Perplexity/63785f62-07ac-4dc5-8f68-57779dddb1f3",
-   "loc": "San Francisco; London; Seattle; New York City; Toronto (United States)",
+   "loc": "San Francisco; London; Seattle; New York City; Ireland; Toronto (United States)",
    "loc_status": "eu",
    "posted": "2026-10-16",
    "first_seen": "2026-10-17T17:35:21Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10445,11 +10584,11 @@
    "big": true,
    "title": "Member of Technical Staff (Software Engineer, Fraud Prevention)",
    "url": "https://jobs.ashbyhq.com/Perplexity/3938a587-e8ba-4cdf-a811-1f58072b51e3",
-   "loc": "London; Belgrade (United Kingdom) · remote",
+   "loc": "London; Belgrade; Ireland (United Kingdom) · remote",
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T18:47:14Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10463,7 +10602,7 @@
    "loc_status": "eu",
    "posted": "2026-09-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10477,7 +10616,7 @@
    "loc_status": "eu",
    "posted": "2026-08-27",
    "first_seen": "2026-10-23T18:47:14Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10487,11 +10626,11 @@
    "big": true,
    "title": "Member of Technical Staff (Software Engineer, Security)",
    "url": "https://jobs.ashbyhq.com/Perplexity/6c9b3c71-85ba-47db-bce5-44fd9fa95d03",
-   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City (United States)",
+   "loc": "San Francisco; Remote (United States); London; Belgrade; New York City; Ireland (United States)",
    "loc_status": "eu",
    "posted": "2025-12-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10505,7 +10644,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10588,7 +10727,7 @@
    "loc_status": "eu",
    "posted": "2026-11-15",
    "first_seen": "2026-11-15T20:00:39Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10601,7 +10740,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -10614,7 +10753,20 @@
    "loc_status": "eu",
    "posted": "2026-11-05",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "greenhouse"
+  },
+  {
+   "key": "physicsx:4941922101",
+   "co": "PhysicsX",
+   "big": false,
+   "title": "Research Scientist - Large Geometry Models",
+   "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/4941922101",
+   "loc": "London, United Kingdom",
+   "loc_status": "eu",
+   "posted": "2026-08-06",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -10627,7 +10779,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -10640,7 +10792,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -10654,7 +10806,7 @@
    "loc_status": "eu",
    "posted": "2026-09-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -10668,7 +10820,7 @@
    "loc_status": "eu",
    "posted": "2026-10-06",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -10682,7 +10834,7 @@
    "loc_status": "eu",
    "posted": "2026-10-13",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -10696,7 +10848,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -10709,7 +10861,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10722,7 +10874,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10736,7 +10888,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10750,7 +10902,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10764,7 +10916,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10778,7 +10930,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10792,7 +10944,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10806,7 +10958,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10820,7 +10972,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10834,7 +10986,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10848,7 +11000,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10862,7 +11014,7 @@
    "loc_status": "eu",
    "posted": "2026-10-19",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10876,7 +11028,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10890,7 +11042,7 @@
    "loc_status": "eu",
    "posted": "2025-09-26",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10904,7 +11056,7 @@
    "loc_status": "eu",
    "posted": "2026-06-25",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10918,7 +11070,7 @@
    "loc_status": "eu",
    "posted": "2025-09-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10932,7 +11084,7 @@
    "loc_status": "eu",
    "posted": "2025-01-15",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10946,7 +11098,7 @@
    "loc_status": "eu",
    "posted": "2026-07-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10959,7 +11111,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "teamtailor"
   },
   {
@@ -10972,7 +11124,7 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10985,7 +11137,7 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -10998,7 +11150,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -11011,7 +11163,7 @@
    "loc_status": "eu",
    "posted": "2026-09-15",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -11024,7 +11176,7 @@
    "loc_status": "eu",
    "posted": "2026-11-09",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -11037,7 +11189,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -11051,7 +11203,7 @@
    "loc_status": "eu",
    "posted": "2026-07-17",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11079,7 +11231,7 @@
    "loc_status": "eu",
    "posted": "2026-11-03",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11107,7 +11259,7 @@
    "loc_status": "eu",
    "posted": "2026-11-13",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11121,7 +11273,7 @@
    "loc_status": "eu",
    "posted": "2026-10-20",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11135,7 +11287,7 @@
    "loc_status": "eu",
    "posted": "2026-11-12",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11317,7 +11469,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-11-09T23:38:17Z",
-   "last_seen": "2026-11-10T21:05:01Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11331,7 +11483,21 @@
    "loc_status": "eu",
    "posted": "2026-07-27",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-10T21:05:01Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637171891598",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "Embedded Software Development Intern – Audio DSP Platform [Carmel, Indiana ONLY]",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637171891598",
+   "loc": "Kokomo, United States; Cornaredo, Italy",
+   "loc_status": "eu",
+   "posted": "2025-11-05",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11345,7 +11511,7 @@
    "loc_status": "eu",
    "posted": "2026-03-30",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-10T21:05:01Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11360,6 +11526,34 @@
    "posted": "2026-09-08",
    "first_seen": "2026-10-28T09:12:08Z",
    "last_seen": "2026-11-08T19:13:43Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637173507280",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "STAGE - Algorithme IA pour l'aide à la conception de designs Photoniques actifs F/H",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173507280",
+   "loc": "Crolles, France",
+   "loc_status": "eu",
+   "posted": "2026-10-12",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637173606895",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "STAGE - Automatisation du développement de tests industriels avec l’IA F/H",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173606895",
+   "loc": "Grenoble, France",
+   "loc_status": "eu",
+   "posted": "2026-10-12",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11387,7 +11581,7 @@
    "loc_status": "eu",
    "posted": "2026-09-13",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-10T21:05:01Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11401,7 +11595,49 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-10T21:05:01Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637173625302",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "STAGE – Evaluation d’outils d’Intelligence Artificielle pour la modernisation de code applicatif – F/H",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173625302",
+   "loc": "Crolles, France",
+   "loc_status": "eu",
+   "posted": "2026-10-26",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637173624706",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "STAGE – Exploration de l’IA agentique pour accélérer la conception de circuits digitaux – F/H",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173624706",
+   "loc": "Crolles, France; Grenoble, France",
+   "loc_status": "eu",
+   "posted": "2026-10-02",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "eightfold"
+  },
+  {
+   "key": "st:563637173625194",
+   "co": "STMicroelectronics",
+   "target": "st",
+   "big": true,
+   "title": "STAGE – IA agentique appliquée à la spécification de composants microélectroniques – F/H",
+   "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173625194",
+   "loc": "Crolles, France",
+   "loc_status": "eu",
+   "posted": "2026-10-26",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "eightfold"
   },
   {
@@ -11442,7 +11678,7 @@
    "loc": "Paris, France",
    "loc_status": "eu",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11455,7 +11691,7 @@
    "loc": "Paris, France",
    "loc_status": "eu",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11468,20 +11704,7 @@
    "loc": "Paris, France",
    "loc_status": "eu",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "radancy"
-  },
-  {
-   "key": "sanofi:46607642688",
-   "co": "Sanofi",
-   "target": "sanofi",
-   "big": true,
-   "title": "Data & AI Engineering",
-   "url": "https://jobs.sanofi.com/en/job/paris/data-and-ai-engineering/2649/46607642688",
-   "loc": "Paris, France",
-   "loc_status": "eu",
-   "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-07T19:09:33Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11494,7 +11717,7 @@
    "loc": "Barcelona, Spain",
    "loc_status": "eu",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11533,7 +11756,7 @@
    "loc": "Lyon, France",
    "loc_status": "eu",
    "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-15T20:00:39Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11546,7 +11769,7 @@
    "loc": "Waterford, Ireland",
    "loc_status": "eu",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11559,7 +11782,7 @@
    "loc": "Waterford, Ireland",
    "loc_status": "eu",
    "first_seen": "2026-11-08T19:13:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11572,7 +11795,7 @@
    "loc": "Barcelona, Spain",
    "loc_status": "eu",
    "first_seen": "2026-10-05T15:12:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -11585,7 +11808,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11598,7 +11821,7 @@
    "loc": "Amadora - Lisboa - Portugal",
    "loc_status": "eu",
    "first_seen": "2026-10-30T19:46:26Z",
-   "last_seen": "2026-11-11T21:38:49Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11624,7 +11847,7 @@
    "loc": "Alfragide - Lisboa - Portugal",
    "loc_status": "eu",
    "first_seen": "2026-10-13T16:44:58Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11637,7 +11860,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11650,7 +11873,33 @@
    "loc": "Munich",
    "loc_status": "eu",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "avature"
+  },
+  {
+   "key": "siemens:523020",
+   "co": "Siemens",
+   "target": "siemens",
+   "big": true,
+   "title": "Applied Scientist",
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523020",
+   "loc": "Multiple Locations",
+   "loc_status": "unknown",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "avature"
+  },
+  {
+   "key": "siemens:507669",
+   "co": "Siemens",
+   "target": "siemens",
+   "big": true,
+   "title": "Applied Scientist",
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507669",
+   "loc": "Multiple Locations",
+   "loc_status": "unknown",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11663,7 +11912,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11676,7 +11925,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11689,7 +11938,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11702,7 +11951,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11715,7 +11964,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11728,7 +11977,7 @@
    "loc": "Amadora - Lisboa - Portugal",
    "loc_status": "eu",
    "first_seen": "2026-11-13T21:03:52Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11741,7 +11990,7 @@
    "loc": "Ostrava - Moravskoslezsky kraj - Czechia",
    "loc_status": "eu",
    "first_seen": "2026-11-05T21:16:36Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11754,7 +12003,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11767,7 +12016,7 @@
    "loc": "Goa",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11780,7 +12029,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11793,7 +12042,7 @@
    "loc": "Kitchener",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11806,7 +12055,7 @@
    "loc": "Fürth - - Germany",
    "loc_status": "eu",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11819,7 +12068,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11832,7 +12081,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-11-06T20:38:59Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11845,7 +12094,7 @@
    "loc": "Chatillon - Île-de-France - France",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11858,7 +12107,7 @@
    "loc": "Chatillon - Île-de-France - France",
    "loc_status": "eu",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11871,7 +12120,7 @@
    "loc": "Haguenau - Grand-Est - France",
    "loc_status": "eu",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11884,7 +12133,7 @@
    "loc": "Erlangen - - Germany",
    "loc_status": "eu",
    "first_seen": "2026-11-04T20:59:28Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11897,7 +12146,7 @@
    "loc": "Troy",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11910,7 +12159,7 @@
    "loc": "Budapest",
    "loc_status": "eu",
    "first_seen": "2026-11-14T19:33:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11923,7 +12172,7 @@
    "loc": "Budapest",
    "loc_status": "eu",
    "first_seen": "2026-11-03T20:41:41Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11936,7 +12185,7 @@
    "loc": "Multiple Locations",
    "loc_status": "unknown",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -11963,7 +12212,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -11976,7 +12225,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -11989,7 +12238,7 @@
    "loc_status": "eu",
    "posted": "2026-08-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12002,7 +12251,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12015,7 +12264,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12042,7 +12291,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12055,7 +12304,7 @@
    "loc_status": "unknown",
    "posted": "2026-11-11",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12068,7 +12317,7 @@
    "loc_status": "unknown",
    "posted": "2026-11-11",
    "first_seen": "2026-11-12T21:38:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12082,7 +12331,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12110,7 +12359,7 @@
    "loc_status": "eu",
    "posted": "2026-10-22",
    "first_seen": "2026-10-23T18:47:14Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12124,7 +12373,7 @@
    "loc_status": "eu",
    "posted": "2026-10-23",
    "first_seen": "2026-10-23T18:47:14Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12138,7 +12387,7 @@
    "loc_status": "eu",
    "posted": "2026-07-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -12151,7 +12400,7 @@
    "loc_status": "eu",
    "posted": "2026-10-07",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -12164,7 +12413,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -12177,7 +12426,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -12190,7 +12439,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -12203,7 +12452,7 @@
    "loc_status": "eu",
    "posted": "2026-08-31",
    "first_seen": "2026-10-13T10:12:22Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "greenhouse"
   },
   {
@@ -12216,7 +12465,20 @@
    "loc": "Zurich, Zurich, CH",
    "loc_status": "eu",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "links"
+  },
+  {
+   "key": "swissre:1457942833",
+   "co": "Swiss Re",
+   "target": "swissre",
+   "big": true,
+   "title": "Claims Fraud Intelligence & AI Analyst,",
+   "url": "https://www.swissre.com/careers/job/Claims-Fraud-Intelligence-and-AI-Analyst/1457942833",
+   "loc": "Bratislava, SK",
+   "loc_status": "eu",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -12229,7 +12491,7 @@
    "loc": "Zurich, Zurich, CH",
    "loc_status": "eu",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -12241,7 +12503,7 @@
    "loc": "Moreira, Portugal",
    "loc_status": "eu",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "radancy"
   },
   {
@@ -12255,7 +12517,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12269,7 +12531,21 @@
    "loc_status": "eu",
    "posted": "2026-11-10",
    "first_seen": "2026-11-10T21:05:01Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
+   "ats": "sf_rss"
+  },
+  {
+   "key": "telefonica:1458156433",
+   "co": "Telefónica",
+   "target": "telefonica",
+   "big": true,
+   "title": "Beca Talentum - AI engineer - AI Native SOC",
+   "url": "https://jobs.telefonica.com/job/MADRID-Beca-Talentum-AI-engineer-AI-Native-SOC/1458156433/",
+   "loc": "MADRID, ES",
+   "loc_status": "eu",
+   "posted": "2026-11-17",
+   "first_seen": "2026-11-17T22:43:28Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12283,7 +12559,7 @@
    "loc_status": "eu",
    "posted": "2026-11-07",
    "first_seen": "2026-11-07T19:09:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12297,7 +12573,7 @@
    "loc_status": "eu",
    "posted": "2026-09-30",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -12310,7 +12586,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12323,7 +12599,7 @@
    "loc_status": "eu",
    "posted": "2026-10-14",
    "first_seen": "2026-10-14T19:00:54Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12336,7 +12612,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12349,7 +12625,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12362,7 +12638,7 @@
    "loc_status": "unknown",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12375,7 +12651,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12388,7 +12664,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12401,7 +12677,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12414,7 +12690,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12427,7 +12703,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12440,7 +12716,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12453,7 +12729,7 @@
    "loc_status": "eu",
    "posted": "2026-10-12",
    "first_seen": "2026-10-12T10:43:57Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12466,7 +12742,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12479,7 +12755,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12492,7 +12768,7 @@
    "loc_status": "eu",
    "posted": "2026-06-16",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12505,7 +12781,7 @@
    "loc_status": "eu",
    "posted": "2026-05-19",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12518,7 +12794,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12531,7 +12807,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12544,7 +12820,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12557,7 +12833,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12570,7 +12846,7 @@
    "loc_status": "eu",
    "posted": "2026-06-11",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12583,7 +12859,7 @@
    "loc_status": "eu",
    "posted": "2026-08-10",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12596,7 +12872,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12609,7 +12885,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12622,7 +12898,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12635,7 +12911,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12648,7 +12924,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12661,7 +12937,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12674,7 +12950,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12687,7 +12963,7 @@
    "loc_status": "eu",
    "posted": "2026-10-15",
    "first_seen": "2026-10-15T18:45:16Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -12700,7 +12976,7 @@
    "loc_status": "eu",
    "posted": "2025-11-27",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "recruitee"
   },
   {
@@ -15261,7 +15537,7 @@
    "loc_status": "eu",
    "posted": "2026-09-25",
    "first_seen": "2026-10-20T18:48:51Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -15274,7 +15550,7 @@
    "loc_status": "eu",
    "posted": "2026-09-29",
    "first_seen": "2026-10-28T19:57:43Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "lever"
   },
   {
@@ -15287,7 +15563,7 @@
    "loc": "Austria , Vienna People & Culture Full-time/Part-time",
    "loc_status": "eu",
    "first_seen": "2026-11-11T21:38:49Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "avature"
   },
   {
@@ -15413,7 +15689,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -15427,7 +15703,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -15441,7 +15717,7 @@
    "loc_status": "eu",
    "posted": "2026-10-26",
    "first_seen": "2026-10-26T20:12:56Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -15455,7 +15731,7 @@
    "loc_status": "eu",
    "posted": "2026-10-02",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -15469,7 +15745,7 @@
    "loc_status": "eu",
    "posted": "2026-10-05",
    "first_seen": "2026-10-05T15:12:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "ashby"
   },
   {
@@ -15483,7 +15759,7 @@
    "loc_status": "eu",
    "posted": "2026-02-18",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "workable"
   },
   {
@@ -15497,20 +15773,8 @@
    "loc_status": "eu",
    "posted": "2026-10-27",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "workable"
-  },
-  {
-   "key": "zalando:2725793",
-   "co": "Zalando",
-   "target": "zalando",
-   "big": true,
-   "title": "AI Motion Expert (all genders)",
-   "url": "https://jobs.zalando.com/en/jobs/2725793-AI-Motion-Expert-(all-genders)",
-   "loc_status": "unknown",
-   "first_seen": "2026-10-19T20:17:15Z",
-   "last_seen": "2026-11-16T23:34:24Z",
-   "ats": "links"
   },
   {
    "key": "zalando:2725723",
@@ -15521,7 +15785,7 @@
    "url": "https://jobs.zalando.com/en/jobs/2725723-Machine-Learning-Engineer-(all-genders)",
    "loc_status": "unknown",
    "first_seen": "2026-11-16T23:34:24Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "links"
   },
   {
@@ -15535,7 +15799,7 @@
    "loc_status": "eu",
    "posted": "2026-10-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15549,7 +15813,7 @@
    "loc_status": "eu",
    "posted": "2026-09-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15591,7 +15855,7 @@
    "loc_status": "eu",
    "posted": "2026-10-28",
    "first_seen": "2026-10-28T09:12:08Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15605,7 +15869,7 @@
    "loc_status": "eu",
    "posted": "2026-09-14",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15619,7 +15883,7 @@
    "loc_status": "eu",
    "posted": "2026-10-21",
    "first_seen": "2026-10-21T19:01:32Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15633,7 +15897,7 @@
    "loc_status": "eu",
    "posted": "2026-11-07",
    "first_seen": "2026-11-07T19:09:33Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "sf_rss"
   },
   {
@@ -15646,7 +15910,7 @@
    "loc_status": "eu",
    "posted": "2025-07-04",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "gem"
   },
   {
@@ -15659,7 +15923,7 @@
    "loc_status": "eu",
    "posted": "2025-05-28",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "gem"
   },
   {
@@ -15672,7 +15936,7 @@
    "loc_status": "eu",
    "posted": "2026-06-01",
    "first_seen": "2026-10-05T10:39:12Z",
-   "last_seen": "2026-11-16T23:34:24Z",
+   "last_seen": "2026-11-17T22:43:28Z",
    "ats": "gem"
   }
  ]
