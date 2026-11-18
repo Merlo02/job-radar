@@ -1,14 +1,15 @@
 {
- "run_at": "2026-11-17T01:51:08Z",
- "duration_s": 195,
+ "run_at": "2026-11-18T00:27:25Z",
+ "duration_s": 202,
  "sources": 55,
  "failed": [
-  "abg"
+  "abg",
+  "dn-genome"
  ],
  "blocked": [],
- "new": 30,
- "open": 816,
- "recent": 157,
+ "new": 29,
+ "open": 822,
+ "recent": 139,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -26,32 +27,32 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 2.6
+   "secs": 3.2
   },
   {
    "id": "at-nl",
    "co": "AcademicTransfer",
    "type": "academictransfer",
    "ok": true,
-   "raw": 45,
+   "raw": 46,
    "matched": 32,
    "complete": false,
    "details": 0,
-   "secs": 183.5,
-   "new": 3,
-   "closed": 1
+   "secs": 201.5,
+   "new": 2,
+   "closed": 3
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 841,
-   "matched": 531,
+   "raw": 855,
+   "matched": 538,
    "complete": true,
    "details": 0,
    "secs": 0.2,
-   "new": 19,
+   "new": 23,
    "closed": 0
   },
   {
@@ -62,7 +63,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "id": "dn-aegis",
@@ -72,7 +73,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-biohybrite",
@@ -82,7 +83,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.9
   },
   {
    "id": "dn-bridge-ai",
@@ -102,7 +103,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 1.7
   },
   {
    "id": "dn-cafe-bio",
@@ -112,7 +113,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.1
   },
   {
    "id": "dn-capture",
@@ -122,7 +123,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-cavecore",
@@ -132,7 +133,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.8
   },
   {
    "id": "dn-cdtnet",
@@ -142,7 +143,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.7
   },
   {
    "id": "dn-combine",
@@ -152,7 +153,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.5
+   "secs": 5.2
   },
   {
    "id": "dn-diamond",
@@ -162,7 +163,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.7
   },
   {
    "id": "dn-elegance",
@@ -172,8 +173,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4,
-   "new": 1
+   "secs": 1.7
   },
   {
    "id": "dn-elevate",
@@ -183,7 +183,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 2.9
   },
   {
    "id": "dn-emanaire",
@@ -203,7 +203,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.5
   },
   {
    "id": "dn-evomg-dn",
@@ -213,7 +213,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.0
+   "secs": 4.6
   },
   {
    "id": "dn-fados",
@@ -223,7 +223,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.8
   },
   {
    "id": "dn-framebio",
@@ -233,7 +233,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.6
   },
   {
    "id": "dn-genaide",
@@ -243,17 +243,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "dn-genome",
    "co": "GENOME (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 58.8
+   "ok": false,
+   "error": "RuntimeError: GET https://genome-msca.eu/ failed: HTTP 500",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://genome-msca.eu/ failed: HTTP 500\n",
+   "secs": 156.9
   },
   {
    "id": "dn-heal-4ward",
@@ -263,7 +262,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.0
   },
   {
    "id": "dn-her-care",
@@ -273,7 +272,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.3
   },
   {
    "id": "dn-intros",
@@ -293,7 +292,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.2
+   "secs": 6.0
   },
   {
    "id": "dn-justhealth",
@@ -303,7 +302,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-lowdataml",
@@ -313,7 +312,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.2
   },
   {
    "id": "dn-mediculous-remedy",
@@ -323,7 +322,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-met2adapt",
@@ -333,7 +332,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-mindnet",
@@ -343,7 +342,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.8
+   "secs": 1.6
   },
   {
    "id": "dn-miningbrines",
@@ -363,7 +362,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.4
+   "secs": 2.6
   },
   {
    "id": "dn-orfeus",
@@ -373,7 +372,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.4
   },
   {
    "id": "dn-protaiomics",
@@ -383,7 +382,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.1
+   "secs": 2.7
   },
   {
    "id": "dn-realise",
@@ -393,7 +392,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "dn-reffracteur",
@@ -403,7 +402,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 2.1
   },
   {
    "id": "dn-specx",
@@ -413,7 +412,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.6
+   "secs": 2.5
   },
   {
    "id": "dn-spring",
@@ -433,7 +432,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 2.3
   },
   {
    "id": "dn-trackaf",
@@ -443,7 +442,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-train-fast",
@@ -453,8 +452,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0,
-   "new": 1
+   "secs": 1.3
   },
   {
    "id": "dn-unchange",
@@ -464,7 +462,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.1
+   "secs": 3.4
   },
   {
    "id": "dn-variabiliti",
@@ -474,7 +472,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 1.0
   },
   {
    "id": "dn-wildbotics",
@@ -484,32 +482,32 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "epfl-phd",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 42,
-   "matched": 4,
+   "raw": 39,
+   "matched": 3,
    "complete": false,
    "details": 0,
-   "secs": 3.1,
+   "secs": 3.5,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "ethz-phd",
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 122,
-   "matched": 27,
+   "raw": 123,
+   "matched": 26,
    "complete": true,
-   "details": 1,
-   "secs": 1.5,
-   "new": 1,
+   "details": 0,
+   "secs": 1.1,
+   "new": 0,
    "closed": 1
   },
   {
@@ -517,13 +515,13 @@
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 34,
-   "matched": 34,
+   "raw": 37,
+   "matched": 37,
    "complete": true,
    "details": 0,
    "secs": 0.1,
-   "new": 0,
-   "closed": 6
+   "new": 3,
+   "closed": 0
   },
   {
    "id": "kuleuven-phd",
@@ -534,7 +532,7 @@
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 1.8,
+   "secs": 2.3,
    "new": 1,
    "closed": 1
   },
@@ -559,7 +557,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.3
   },
   {
    "id": "ugent-phd",
@@ -569,22 +567,22 @@
    "raw": 9,
    "matched": 9,
    "complete": true,
-   "details": 2,
-   "secs": 4.0,
-   "new": 2,
-   "closed": 1
+   "details": 0,
+   "secs": 2.1,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "uzh-phd",
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 119,
+   "raw": 118,
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 1.8,
-   "new": 2,
+   "secs": 1.9,
+   "new": 0,
    "closed": 0
   },
   {
@@ -595,7 +593,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.4
+   "secs": 0.6
   }
  ]
 }
