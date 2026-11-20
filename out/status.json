@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-18T22:25:38Z",
- "duration_s": 8173,
+ "run_at": "2026-11-19T22:30:19Z",
+ "duration_s": 10874,
  "sources": 152,
  "failed": [
   "abb",
@@ -35,48 +35,44 @@
   "thales",
   "valeo"
  ],
- "blocked": [],
- "new": 1777,
+ "blocked": [
+  "landingjobs"
+ ],
+ "new": 1772,
  "open": 1146,
- "recent": 136,
- "candidates": 50466,
+ "recent": 142,
+ "candidates": 51199,
  "warnings": [
-  "anthropic: 1 postings on LinkedIn/Indeed missing from its listing",
-  "bmw: 2 postings on LinkedIn/Indeed missing from its listing",
+  "bmw: 1 postings on LinkedIn/Indeed missing from its listing",
+  "bosch: 1 postings on LinkedIn/Indeed missing from its listing",
+  "csem: 1 postings on LinkedIn/Indeed missing from its listing",
   "ecmwf: 0 postings",
+  "essilorluxottica: 1 postings on LinkedIn/Indeed missing from its listing",
   "huawei-it: 1 postings on LinkedIn/Indeed missing from its listing",
+  "ibm: 2 postings on LinkedIn/Indeed missing from its listing",
   "lakera: 0 postings",
-  "mercedes: 1 postings on LinkedIn/Indeed missing from its listing",
-  "perplexity: 1 postings on LinkedIn/Indeed missing from its listing",
-  "st: 1 postings on LinkedIn/Indeed missing from its listing"
+  "mercedes: 2 postings on LinkedIn/Indeed missing from its listing",
+  "st: 4 postings on LinkedIn/Indeed missing from its listing"
  ],
  "coverage": {
-  "board_postings": 56249,
-  "known_companies": 4587,
-  "duplicates": 11019,
+  "board_postings": 57208,
+  "known_companies": 4705,
+  "duplicates": 11237,
   "gaps": [
    {
-    "src": "bmw",
-    "co": "BMW Group",
-    "title": "Praktikant Digitalisierung und Künstliche Intelligenz in der Fahrzeugmontage (w/m/x)",
-    "loc": "Regensburg, Bavaria, Germany",
-    "url": "https://www.linkedin.com/jobs/view/4482214340",
+    "src": "csem",
+    "co": "CSEM",
+    "title": "AI-Powered Funding Intelligence, Agentic AI & Strategic Analytics for European Innovation Programs Internship (F/M/D)",
+    "loc": "Neuchâtel, Neuchâtel, Switzerland",
+    "url": "https://www.linkedin.com/jobs/view/4484497818",
     "via": "linkedin"
    },
    {
     "src": "bmw",
     "co": "BMW Group",
-    "title": "Intern Data Science & Data Analytics Financial Services (f/m/x)",
+    "title": "Praktikant Digitalisierung und Agentic AI in der Produktion (w/m/x)",
     "loc": "Munich, Bavaria, Germany",
-    "url": "https://www.linkedin.com/jobs/view/4491314446",
-    "via": "linkedin"
-   },
-   {
-    "src": "mercedes",
-    "co": "Mercedes-Benz Tech Innovation",
-    "title": "Intern Software Engineering - AI Defect Analysis (m/f/d/x)",
-    "loc": "Ulm, Baden-Württemberg, Germany",
-    "url": "https://www.linkedin.com/jobs/view/4490877715",
+    "url": "https://www.linkedin.com/jobs/view/4482532686",
     "via": "linkedin"
    },
    {
@@ -88,47 +84,112 @@
     "via": "linkedin"
    },
    {
-    "src": "anthropic",
-    "co": "Anthropic",
-    "title": "Data Scientist (Policy)",
-    "loc": "Ashington, United Kingdom; New York, United States; New York, United States",
-    "url": "https://www.welcometothejungle.com/en/companies/anthropic/jobs/data-scientist-policy_new-york_ivzxedtn",
-    "via": "wttj"
+    "src": "bosch",
+    "co": "Bosch",
+    "title": "PreMaster im Bereich AI Enabler (w/m/div.)",
+    "loc": "Reutlingen, Baden-Württemberg, Germany",
+    "url": "https://www.linkedin.com/jobs/view/4492158071",
+    "via": "linkedin"
+   },
+   {
+    "src": "ibm",
+    "co": "IBM",
+    "title": "Scientifique des données en intelligence artificielle- H/F - FutureNowCenter France",
+    "loc": "Bois-Colombes, Île-de-France, France",
+    "url": "https://www.linkedin.com/jobs/view/4491399684",
+    "via": "linkedin"
+   },
+   {
+    "src": "mercedes",
+    "co": "Mercedes-Benz AG",
+    "title": "Intern AI-Assisted Software Engineering for Automotive UX/UI",
+    "loc": "Sindelfingen, Baden-Württemberg, Germany",
+    "url": "https://www.linkedin.com/jobs/view/4491341758",
+    "via": "linkedin"
+   },
+   {
+    "src": "st",
+    "co": "STMicroelectronics France",
+    "title": "STAGE - Détection des dérives des tests photoniques par statistique et IA - F/H",
+    "loc": "Crolles, Auvergne-Rhône-Alpes, France",
+    "url": "https://www.linkedin.com/jobs/view/4492490848",
+    "via": "linkedin"
+   },
+   {
+    "src": "mercedes",
+    "co": "Mercedes-Benz AG",
+    "title": "Praktikant*in Software Engineering: Analyse- & KI-Tools",
+    "loc": "Sindelfingen, Baden-Württemberg, Germany",
+    "url": "https://www.linkedin.com/jobs/view/4491609227",
+    "via": "linkedin"
+   },
+   {
+    "src": "st",
+    "co": "STMicroelectronics France",
+    "title": "STAGE - Product Development Edge AI F/H",
+    "loc": "Toulon, Provence-Alpes-Côte d'Azur, France",
+    "url": "https://www.linkedin.com/jobs/view/4492499741",
+    "via": "linkedin"
+   },
+   {
+    "src": "ibm",
+    "co": "IBM",
+    "title": "Intern 2027: Quantum Algorithms for Differential Equations",
+    "loc": "Dublin, County Dublin, Ireland",
+    "url": "https://www.linkedin.com/jobs/view/4491386951",
+    "via": "linkedin"
+   },
+   {
+    "src": "st",
+    "co": "STMicroelectronics France",
+    "title": "STAGE – Développement de solutions IA appliquées à l’analyse temporelle statique (STA) de SoC MCU H/F",
+    "loc": "Biot, Provence-Alpes-Côte d'Azur, France",
+    "url": "https://www.linkedin.com/jobs/view/4492075967",
+    "via": "linkedin"
    },
    {
     "src": "st",
     "co": "STMicroelectronics",
-    "title": "STAGE – Développement de solutions IA appliquées à l’analyse temporelle statique (STA) de SoC MCU H/F",
-    "loc": "Sophia Antipolis, B8, France",
-    "url": "https://fr.indeed.com/viewjob?jk=57951b1d1b142128",
+    "title": "STAGE - Safety & IA pour protection Infrastructure Ips & systèmes embarqués - H/F",
+    "loc": "Grenoble, ARA, France",
+    "url": "https://fr.indeed.com/viewjob?jk=c3b7ae87e41b925d",
     "via": "indeed"
    },
    {
-    "src": "perplexity",
-    "co": "Perplexity AI",
-    "title": "Machine Learning Research Engineer Internship",
-    "loc": "Berlin, Germany",
-    "url": "https://www.welcometothejungle.com/en/companies/perplexity-ai/jobs/machine-learning-research-engineer-internship_fr_e2cxfk5o",
+    "src": "essilorluxottica",
+    "co": "EssilorLuxottica France",
+    "title": "STAGE - Ingénieur(e) Data Sciences (H/F)",
+    "loc": "Paris, France",
+    "url": "https://www.welcometothejungle.com/en/companies/essilorluxottica/jobs/stage-ingenieur-data-sciences-h-f_paris_EF_5w89yyr",
     "via": "wttj"
    }
   ],
   "new_companies": [
    {
     "co": "Jobgether",
-    "postings": 251,
+    "postings": 221,
     "titles": [
-     "AI Evaluation Engineer",
-     "Data Scientist (Time Series Forecasting)",
-     "Data Scientist (Time Series Forecasting)"
+     "AI/ML Engineer",
+     "AI/ML Engineer",
+     "AI/ML Engineer"
     ]
    },
    {
     "co": "Alignerr",
-    "postings": 155,
+    "postings": 152,
     "titles": [
      "Computer Vision & ML Expert",
      "Computer Vision & ML Expert",
      "Machine Learning Engineer"
+    ]
+   },
+   {
+    "co": "Dassault Systèmes",
+    "postings": 151,
+    "titles": [
+     "Ingénieur Qualité IA – Ingénierie Mécanique (H/F)",
+     "Ingénieur développement AI Physique (H/F)",
+     "Ingénieur IA - 3DExperience Platform (F/H)"
     ]
    },
    {
@@ -141,17 +202,8 @@
     ]
    },
    {
-    "co": "Dassault Systèmes",
-    "postings": 145,
-    "titles": [
-     "Ingénieur Qualité IA – Ingénierie Mécanique (H/F)",
-     "Ingénieur développement AI Physique (H/F)",
-     "Ingénieur IA - 3DExperience Platform (F/H)"
-    ]
-   },
-   {
     "co": "Sii Poland",
-    "postings": 129,
+    "postings": 143,
     "titles": [
      "Data Scientist – Python & Cloud Data Platforms (f/m/x)",
      "Data Scientist – Python & Cloud Data Platforms (f/m/x)",
@@ -160,7 +212,7 @@
    },
    {
     "co": "adesso SE",
-    "postings": 119,
+    "postings": 117,
     "titles": [
      "Azure AI Engineer - Agentic Systems (all genders)",
      "Azure AI Engineer - Agentic Systems (all genders)",
@@ -169,7 +221,7 @@
    },
    {
     "co": "NTT DATA Europe & Latam",
-    "postings": 91,
+    "postings": 96,
     "titles": [
      "AI Engineer (Python)",
      "AI Engineer (Python)",
@@ -178,7 +230,7 @@
    },
    {
     "co": "EY",
-    "postings": 80,
+    "postings": 79,
     "titles": [
      "Data scientist - Machine Learning",
      "Data scientist - Machine Learning",
@@ -187,16 +239,16 @@
    },
    {
     "co": "Free-Work",
-    "postings": 72,
+    "postings": 73,
     "titles": [
      "Expert IA (Expert intelligence artificielle)",
-     "Ingénieur IA / Data Scientist IA Générative",
-     "Expert en agentic coding"
+     "Expert en agentic coding",
+     "Data Scientist Sénior (Time series, python,PowerBI,scikit-learn) -(h/f) (IT) / Freelance"
     ]
    },
    {
     "co": "CEA",
-    "postings": 66,
+    "postings": 67,
     "titles": [
      "Intelligence Artificielle pour l'Estimation Rapide de Termes Sources H/F",
      "Ingénieur - Chercheur en communications sémantiques 6G et IA - CDD 3 ans H/F",
@@ -205,7 +257,7 @@
    },
    {
     "co": "Groupe Talents Handicap",
-    "postings": 62,
+    "postings": 64,
     "titles": [
      "Responsable d'Offres & Développement Commercial IA",
      "Ingénieur IA - Services Financiers – Ile-de-France",
@@ -214,7 +266,7 @@
    },
    {
     "co": "targetjobs UK",
-    "postings": 59,
+    "postings": 62,
     "titles": [
      "Audit - Data Transformation - Graduate - London - September 2027",
      "Enterprise Data Graduate Programme",
@@ -223,7 +275,7 @@
    },
    {
     "co": "Orange",
-    "postings": 55,
+    "postings": 57,
     "titles": [
      "AI Product Engineer",
      "Data Scientist (m/ž)",
@@ -240,6 +292,15 @@
     ]
    },
    {
+    "co": "Capgemini",
+    "postings": 53,
+    "titles": [
+     "Agentic AI Developer",
+     "AI & Data Scientist",
+     "MLOps Engineer (Machine Learning, MLFlow, Kubernetes, DVC)"
+    ]
+   },
+   {
     "co": "Mistral",
     "postings": 53,
     "titles": [
@@ -249,21 +310,21 @@
     ]
    },
    {
-    "co": "Capgemini",
-    "postings": 50,
-    "titles": [
-     "Agentic AI Developer",
-     "AI & Data Scientist",
-     "MLOps Engineer (Machine Learning, MLFlow, Kubernetes, DVC)"
-    ]
-   },
-   {
     "co": "Stellantis",
-    "postings": 49,
+    "postings": 50,
     "titles": [
      "Robotics & AI Software Engineer",
      "Stage : Digital & AI Supply Chain – Value Creation Program & Transformation",
      "STAGE : Data & AI Product Analyst – Pro One Next"
+    ]
+   },
+   {
+    "co": "ALTEN",
+    "postings": 48,
+    "titles": [
+     "AI Development Engineer - Python & LLM (all gender)",
+     "Software Engineer Machine Vision C++ (all gender)",
+     "Data Scientist"
     ]
    },
    {
@@ -276,17 +337,8 @@
     ]
    },
    {
-    "co": "ALTEN",
-    "postings": 47,
-    "titles": [
-     "AI Development Engineer - Python & LLM (all gender)",
-     "Software Engineer Machine Vision C++ (all gender)",
-     "Data Scientist"
-    ]
-   },
-   {
     "co": "Atos",
-    "postings": 44,
+    "postings": 45,
     "titles": [
      "Data Scientist",
      "AI / MLOps Engineer",
@@ -321,6 +373,15 @@
     ]
    },
    {
+    "co": "SAP",
+    "postings": 37,
+    "titles": [
+     "Application AI Engineer",
+     "Data Science Expert (CX) - Data Labs (m/f/d)",
+     "Limited employment up to 6 months (f/m/d) –Developer (w/m/d) – Agentic Foundation for SAP Cloud ALM Development & Operations"
+    ]
+   },
+   {
     "co": "adesso business consulting AG",
     "postings": 37,
     "titles": [
@@ -348,21 +409,21 @@
     ]
    },
    {
-    "co": "SAP",
-    "postings": 34,
-    "titles": [
-     "Application AI Engineer",
-     "Data Science Expert (CX) - Data Labs (m/f/d)",
-     "Limited employment up to 6 months (f/m/d) –Developer (w/m/d) – Agentic Foundation for SAP Cloud ALM Development & Operations"
-    ]
-   },
-   {
     "co": "NEURA Robotics",
     "postings": 34,
     "titles": [
      "AI Engineer – Human-to-Robot Learning (human)",
      "Agentic AI Engineer (Mensch)",
      "Agentic AI Engineer (human)"
+    ]
+   },
+   {
+    "co": "CGI",
+    "postings": 34,
+    "titles": [
+     "Business Analyst Data Science (m/w/d)",
+     "Business Analyst Payments & AI (m/w/d)",
+     "AI Developer"
     ]
    },
    {
@@ -378,18 +439,18 @@
     "co": "Sopra Steria",
     "postings": 33,
     "titles": [
-     "Mid-Level Python Developer (GenAI)",
      "AI Agent Engineer",
-     "AI Engineer Stockholm"
+     "AI Engineer Stockholm",
+     "AI Engineer Göteborg"
     ]
    },
    {
-    "co": "CGI",
+    "co": "Hays",
     "postings": 33,
     "titles": [
-     "Business Analyst Data Science (m/w/d)",
-     "Business Analyst Payments & AI (m/w/d)",
-     "AI Developer"
+     "Machine Learning Engineer",
+     "DATA SCIENTIST - AI Engineer | Banking",
+     "Junior Data Scientist"
     ]
    },
    {
@@ -402,30 +463,12 @@
     ]
    },
    {
-    "co": "Hays",
-    "postings": 31,
-    "titles": [
-     "AI Engineer | Settore Life Sciences",
-     "Machine Learning Engineer",
-     "DATA SCIENTIST - AI Engineer | Banking"
-    ]
-   },
-   {
     "co": "University of Birmingham",
-    "postings": 30,
+    "postings": 32,
     "titles": [
-     "Research Fellow - Department of Cancer and Genomic Sciences - 108132 - Grade 7",
      "Research fellow (EPSRC Funded CLEETS Project) - School of Geography, Earth and Environmental Sciences - 107469 - Grade 7",
-     "Research Fellow - School of Engineering - 108142 - Grade 7"
-    ]
-   },
-   {
-    "co": "Rise Data Labs",
-    "postings": 30,
-    "titles": [
-     "AI Model Evaluation Specialist",
-     "AI Training Python Coding Specialist",
-     "AI Training Python Coding Specialist"
+     "Research Fellow - School of Engineering - 108142 - Grade 7",
+     "Research Fellow - School of Engineering - 106915 - Grade 7"
     ]
    },
    {
@@ -443,7 +486,16 @@
     "titles": [
      "AI Engineer (LLMs & AI Agents)",
      "AI Data Science Engineer | Cyber Security",
-     "Regular Java Developer + AI"
+     "Java Developer | AI, GenAI & Cloud Technologies"
+    ]
+   },
+   {
+    "co": "Renault Group",
+    "postings": 29,
+    "titles": [
+     "CS27 BAC+5 Développement de fonctionnalité data / IA dans le périmètre du développement logiciel du GMP (Groupe Moto Propulseur) (H/F)",
+     "CS27 - BAC+5 - Data Scientist - Évaluation et déploiement de modèles multimodaux pour des cas d’usage industriels",
+     "Procurement Data Scientist (H/F)"
     ]
    },
    {
@@ -459,18 +511,18 @@
     "co": "Imperial College London",
     "postings": 28,
     "titles": [
-     "Bioinformatics Research Associate",
      "Research Associate or Research Fellow in Computational Health Policy Modelling",
-     "Research Associate in Dexterous Manipulation and Robot Learning"
+     "Research Associate in Dexterous Manipulation and Robot Learning",
+     "Research Associate"
     ]
    },
    {
-    "co": "Renault Group",
-    "postings": 27,
+    "co": "Capgemini Engineering",
+    "postings": 26,
     "titles": [
-     "CS27 BAC+5 Développement de fonctionnalité data / IA dans le périmètre du développement logiciel du GMP (Groupe Moto Propulseur) (H/F)",
-     "CS27 - BAC+5 - Data Scientist - Évaluation et déploiement de modèles multimodaux pour des cas d’usage industriels",
-     "Procurement Data Scientist (H/F)"
+     "Agentic AI / LLM Developer",
+     "Ingeniero/a I+D Telco Edge Cloud con AI/ML",
+     "Agentic AI / LLM Developer"
     ]
    }
   ]
@@ -485,7 +537,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -496,7 +548,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://abb.wd3.myworkdayjobs.com/wday/cxs/abb/External_Career_Page/jobs failed: HTTP 429",
    "trace": " call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://abb.wd3.myworkdayjobs.com/wday/cxs/abb/External_Career_Page/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.2
   },
   {
    "id": "adi",
@@ -512,12 +564,12 @@
    "co": "Adyen",
    "type": "greenhouse",
    "ok": true,
-   "raw": 241,
-   "matched": 6,
+   "raw": 243,
+   "matched": 9,
    "complete": true,
-   "details": 1,
-   "secs": 0.8,
-   "new": 1,
+   "details": 3,
+   "secs": 1.8,
+   "new": 3,
    "closed": 0
   },
   {
@@ -528,7 +580,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 1.0
   },
   {
    "id": "aignostics",
@@ -550,7 +602,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs failed: HTTP 429",
    "trace": "ack (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "aleph",
@@ -570,11 +622,11 @@
    "co": "Amazon",
    "type": "amazon",
    "ok": true,
-   "raw": 538,
-   "matched": 107,
+   "raw": 535,
+   "matched": 105,
    "complete": false,
    "details": 0,
-   "secs": 11.4,
+   "secs": 14.4,
    "new": 2,
    "closed": 2
   },
@@ -583,27 +635,26 @@
    "co": "AMD (Silo AI)",
    "type": "jibe",
    "ok": true,
-   "raw": 786,
-   "matched": 17,
+   "raw": 782,
+   "matched": 16,
    "complete": false,
    "details": 0,
-   "secs": 22.7,
-   "new": 2,
-   "closed": 0
+   "secs": 21.1,
+   "new": 0,
+   "closed": 2
   },
   {
    "id": "anthropic",
    "co": "Anthropic",
    "type": "greenhouse",
    "ok": true,
-   "raw": 646,
+   "raw": 636,
    "matched": 31,
    "complete": true,
-   "details": 1,
-   "secs": 0.9,
-   "new": 1,
-   "closed": 0,
-   "coverage_gaps": 1
+   "details": 0,
+   "secs": 0.5,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "anybotics",
@@ -623,24 +674,24 @@
    "co": "Apple",
    "type": "apple",
    "ok": true,
-   "raw": 412,
-   "matched": 197,
+   "raw": 409,
+   "matched": 196,
    "complete": true,
-   "details": 4,
-   "secs": 123.3,
-   "new": 4,
-   "closed": 4
+   "details": 5,
+   "secs": 81.2,
+   "new": 5,
+   "closed": 6
   },
   {
    "id": "apple-residency",
    "co": "Apple",
    "type": "apple",
    "ok": true,
-   "raw": 127,
+   "raw": 131,
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 37.0,
+   "secs": 5.3,
    "new": 0,
    "closed": 0
   },
@@ -649,13 +700,13 @@
    "co": "Arm",
    "type": "radancy",
    "ok": true,
-   "raw": 330,
+   "raw": 326,
    "matched": 30,
    "complete": false,
    "details": 0,
-   "secs": 12.4,
+   "secs": 8.4,
    "new": 0,
-   "closed": 0
+   "closed": 2
   },
   {
    "id": "asml",
@@ -664,7 +715,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://asml.wd3.myworkdayjobs.com/wday/cxs/asml/ASMLEXT1/jobs failed: HTTP 429",
    "trace": "ost recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://asml.wd3.myworkdayjobs.com/wday/cxs/asml/ASMLEXT1/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "axelera",
@@ -690,7 +741,7 @@
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "bending",
@@ -700,20 +751,20 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.1
+   "secs": 0.9
   },
   {
    "id": "bfl",
    "co": "Black Forest Labs",
    "type": "ashby",
    "ok": true,
-   "raw": 16,
+   "raw": 17,
    "matched": 6,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "bmw",
@@ -721,41 +772,42 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 80,
-   "matched": 25,
+   "matched": 24,
    "complete": false,
    "details": 0,
-   "secs": 11.7,
+   "secs": 10.3,
    "phd": 2,
-   "new": 3,
-   "closed": 7,
-   "coverage_gaps": 2
+   "new": 5,
+   "closed": 1,
+   "coverage_gaps": 1
   },
   {
    "id": "booking",
    "co": "Booking.com",
    "type": "jibe",
    "ok": true,
-   "raw": 57,
-   "matched": 15,
+   "raw": 58,
+   "matched": 14,
    "complete": false,
    "details": 0,
-   "secs": 9.6,
-   "new": 0,
-   "closed": 4
+   "secs": 9.1,
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "bosch",
    "co": "Bosch",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 2415,
-   "matched": 308,
+   "raw": 2424,
+   "matched": 305,
    "complete": false,
-   "details": 13,
-   "secs": 48.5,
+   "details": 5,
+   "secs": 39.5,
    "phd": 23,
-   "new": 13,
-   "closed": 11
+   "new": 5,
+   "closed": 9,
+   "coverage_gaps": 1
   },
   {
    "id": "cadence",
@@ -780,13 +832,13 @@
    "co": "CERN",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 54,
-   "matched": 30,
+   "raw": 57,
+   "matched": 32,
    "complete": true,
    "details": 2,
    "secs": 2.4,
    "new": 2,
-   "closed": 3
+   "closed": 0
   },
   {
    "id": "cohere",
@@ -797,8 +849,8 @@
    "matched": 20,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
-   "new": 1,
+   "secs": 0.5,
+   "new": 0,
    "closed": 0
   },
   {
@@ -809,20 +861,21 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8,
+   "new": 1
   },
   {
    "id": "continental",
    "co": "Continental",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 548,
+   "raw": 545,
    "matched": 149,
    "complete": true,
-   "details": 5,
-   "secs": 9.0,
-   "new": 5,
-   "closed": 5
+   "details": 6,
+   "secs": 9.2,
+   "new": 6,
+   "closed": 6
   },
   {
    "id": "cradle",
@@ -833,7 +886,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -844,7 +897,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://criteo.wd3.myworkdayjobs.com/wday/cxs/criteo/Criteo_Career_Site/jobs failed: HTTP 429",
    "trace": "l last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://criteo.wd3.myworkdayjobs.com/wday/cxs/criteo/Criteo_Career_Site/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "csem",
@@ -855,16 +908,17 @@
    "matched": 16,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.7,
    "new": 0,
-   "closed": 0
+   "closed": 0,
+   "coverage_gaps": 1
   },
   {
    "id": "datadog",
    "co": "Datadog",
    "type": "greenhouse",
    "ok": true,
-   "raw": 380,
+   "raw": 379,
    "matched": 6,
    "complete": true,
    "details": 0,
@@ -881,7 +935,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -890,11 +944,11 @@
    "co": "DeepL",
    "type": "ashby",
    "ok": true,
-   "raw": 9,
+   "raw": 10,
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -907,7 +961,7 @@
    "matched": 26,
    "complete": false,
    "details": 0,
-   "secs": 4.9,
+   "secs": 5.2,
    "new": 0,
    "closed": 0
   },
@@ -928,7 +982,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2,
+   "secs": 1.1,
    "new": 1
   },
   {
@@ -936,11 +990,11 @@
    "co": "DNV",
    "type": "oracle",
    "ok": true,
-   "raw": 57,
+   "raw": 56,
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 13.7,
+   "secs": 12.8,
    "new": 0,
    "closed": 0
   },
@@ -962,7 +1016,7 @@
    "matched": 3,
    "complete": true,
    "details": 11,
-   "secs": 9.2,
+   "secs": 7.9,
    "new": 0,
    "closed": 0
   },
@@ -984,13 +1038,13 @@
    "co": "ElevenLabs",
    "type": "ashby",
    "ok": true,
-   "raw": 130,
-   "matched": 40,
+   "raw": 128,
+   "matched": 41,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 1,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "embl",
@@ -999,7 +1053,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://embl.wd103.myworkdayjobs.com/wday/cxs/embl/EMBL/jobs failed: HTTP 429",
    "trace": "(most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://embl.wd103.myworkdayjobs.com/wday/cxs/embl/EMBL/jobs failed: HTTP 429\n",
-   "secs": 59.1
+   "secs": 58.2
   },
   {
    "id": "empatica",
@@ -1010,7 +1064,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1019,12 +1073,12 @@
    "co": "Enel",
    "type": "avature",
    "ok": true,
-   "raw": 98,
-   "matched": 31,
+   "raw": 106,
+   "matched": 36,
    "complete": true,
-   "details": 4,
-   "secs": 40.9,
-   "new": 4,
+   "details": 5,
+   "secs": 41.9,
+   "new": 5,
    "closed": 0
   },
   {
@@ -1032,38 +1086,38 @@
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 36,
-   "matched": 15,
+   "raw": 37,
+   "matched": 13,
    "complete": false,
    "details": 0,
-   "secs": 9.1,
-   "new": 1,
-   "closed": 2
+   "secs": 8.0,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "ericsson",
    "co": "Ericsson",
    "type": "eightfold",
    "ok": true,
-   "raw": 194,
-   "matched": 27,
+   "raw": 206,
+   "matched": 29,
    "complete": false,
-   "details": 4,
-   "secs": 35.5,
-   "new": 2,
-   "closed": 3
+   "details": 8,
+   "secs": 30.2,
+   "new": 3,
+   "closed": 4
   },
   {
    "id": "esa",
    "co": "European Space Agency",
    "type": "sf_rss",
    "ok": true,
-   "raw": 73,
-   "matched": 14,
+   "raw": 74,
+   "matched": 17,
    "complete": false,
    "details": 0,
-   "secs": 14.7,
-   "new": 0,
+   "secs": 10.6,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1074,32 +1128,33 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "essilorluxottica",
    "co": "EssilorLuxottica",
    "type": "sf_rss",
    "ok": true,
-   "raw": 56,
+   "raw": 55,
    "matched": 7,
    "complete": false,
    "details": 0,
-   "secs": 11.7,
+   "secs": 10.8,
    "new": 0,
-   "closed": 2
+   "closed": 2,
+   "coverage_gaps": 1
   },
   {
    "id": "ethz",
    "co": "ETH Zurich",
    "type": "links",
    "ok": true,
-   "raw": 127,
-   "matched": 42,
+   "raw": 128,
+   "matched": 44,
    "complete": true,
-   "details": 2,
-   "secs": 2.3,
-   "new": 2,
+   "details": 3,
+   "secs": 2.6,
+   "new": 3,
    "closed": 1
   },
   {
@@ -1120,11 +1175,11 @@
    "co": "Faculty",
    "type": "ashby",
    "ok": true,
-   "raw": 95,
+   "raw": 94,
    "matched": 23,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1137,9 +1192,9 @@
    "matched": 1,
    "complete": false,
    "details": 0,
-   "secs": 9.6,
+   "secs": 8.0,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "flexion",
@@ -1150,7 +1205,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1177,25 +1232,25 @@
    "co": "Google",
    "type": "google",
    "ok": true,
-   "raw": 478,
+   "raw": 482,
    "matched": 136,
    "complete": true,
    "details": 0,
-   "secs": 15.1,
+   "secs": 15.9,
    "new": 3,
-   "closed": 4
+   "closed": 3
   },
   {
    "id": "graphcore",
    "co": "Graphcore",
    "type": "greenhouse",
    "ok": true,
-   "raw": 195,
-   "matched": 55,
+   "raw": 190,
+   "matched": 54,
    "complete": true,
-   "details": 2,
-   "secs": 1.2,
-   "new": 2,
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
    "closed": 1
   },
   {
@@ -1207,7 +1262,7 @@
    "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 1.2,
    "new": 0,
    "closed": 0
   },
@@ -1216,12 +1271,12 @@
    "co": "H Company",
    "type": "ashby",
    "ok": true,
-   "raw": 26,
-   "matched": 7,
+   "raw": 28,
+   "matched": 9,
    "complete": true,
    "details": 0,
    "secs": 0.4,
-   "new": 0,
+   "new": 2,
    "closed": 0
   },
   {
@@ -1231,7 +1286,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://onehealthineers.wd3.myworkdayjobs.com/wday/cxs/onehealthineers/SHSJB/jobs failed: HTTP 429",
    "trace": "t):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://onehealthineers.wd3.myworkdayjobs.com/wday/cxs/onehealthineers/SHSJB/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "helsing",
@@ -1241,10 +1296,10 @@
    "raw": 177,
    "matched": 87,
    "complete": true,
-   "details": 2,
-   "secs": 1.2,
-   "new": 2,
-   "closed": 2
+   "details": 0,
+   "secs": 0.4,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "hn",
@@ -1255,7 +1310,7 @@
    "matched": 94,
    "complete": true,
    "details": 0,
-   "secs": 1.4,
+   "secs": 1.5,
    "phd": 1,
    "new": 0,
    "closed": 0
@@ -1267,19 +1322,19 @@
    "ok": false,
    "error": "RuntimeError: POST https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs failed: HTTP 429",
    "trace": "cent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs failed: HTTP 429\n",
-   "secs": 79.2
+   "secs": 57.2
   },
   {
    "id": "huawei-de",
    "co": "Huawei Research Germany/Austria",
    "type": "teamtailor",
    "ok": true,
-   "raw": 78,
-   "matched": 32,
+   "raw": 80,
+   "matched": 33,
    "complete": true,
    "details": 0,
    "secs": 1.0,
-   "phd": 5,
+   "phd": 6,
    "new": 1,
    "closed": 0
   },
@@ -1306,9 +1361,9 @@
    "matched": 14,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
-   "new": 1,
-   "closed": 1
+   "secs": 0.6,
+   "new": 0,
+   "closed": 0
   },
   {
    "id": "huggingface",
@@ -1319,7 +1374,7 @@
    "matched": 1,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1332,9 +1387,10 @@
    "matched": 106,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 2.8,
    "new": 0,
-   "closed": 0
+   "closed": 0,
+   "coverage_gaps": 2
   },
   {
    "id": "ibm-zrl",
@@ -1345,7 +1401,7 @@
    "matched": 7,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
+   "secs": 1.2,
    "phd": 1,
    "new": 0,
    "closed": 0
@@ -1359,7 +1415,7 @@
    "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 9.0,
+   "secs": 7.2,
    "new": 0,
    "closed": 0
   },
@@ -1378,16 +1434,16 @@
    "co": "Indeed",
    "type": "jobspy",
    "ok": true,
-   "raw": 1546,
-   "matched": 679,
+   "raw": 1590,
+   "matched": 678,
    "complete": false,
    "details": 0,
-   "secs": 71.5,
-   "phd": 19,
+   "secs": 58.6,
+   "phd": 17,
    "searches": "342/342",
    "retries_429": 0,
-   "search_min": 1.2,
-   "new": 642,
+   "search_min": 1.0,
+   "new": 617,
    "closed": 0
   },
   {
@@ -1399,7 +1455,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1411,7 +1467,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.3
   },
   {
    "id": "instadeep",
@@ -1422,7 +1478,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 4.2,
+   "secs": 1.3,
    "new": 0,
    "closed": 0
   },
@@ -1431,20 +1487,20 @@
    "co": "Intesa Sanpaolo",
    "type": "sf_rss",
    "ok": true,
-   "raw": 45,
-   "matched": 24,
+   "raw": 46,
+   "matched": 20,
    "complete": false,
    "details": 0,
-   "secs": 10.9,
-   "new": 8,
-   "closed": 5
+   "secs": 9.2,
+   "new": 6,
+   "closed": 9
   },
   {
    "id": "isomorphic",
    "co": "Isomorphic Labs",
    "type": "greenhouse",
    "ok": true,
-   "raw": 37,
+   "raw": 38,
    "matched": 7,
    "complete": true,
    "details": 0,
@@ -1481,7 +1537,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs failed: HTTP 429",
    "trace": "all last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "kaiko",
@@ -1492,7 +1548,7 @@
    "matched": 2,
    "complete": true,
    "details": 0,
-   "secs": 0.7,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1501,13 +1557,13 @@
    "co": "KUKA",
    "type": "sf_rss",
    "ok": true,
-   "raw": 26,
+   "raw": 25,
    "matched": 11,
    "complete": false,
    "details": 0,
-   "secs": 9.9,
-   "new": 8,
-   "closed": 5
+   "secs": 8.6,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "kyutai",
@@ -1528,7 +1584,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -1536,14 +1592,10 @@
    "id": "landingjobs",
    "co": "Landing.jobs",
    "type": "landingjobs",
-   "ok": true,
-   "raw": 55,
-   "matched": 30,
-   "complete": true,
-   "details": 0,
-   "secs": 2.1,
-   "new": 30,
-   "closed": 0
+   "ok": false,
+   "error": "RuntimeError: HTTP 403 for https://landing.jobs/api/v1/jobs?limit=50&offset=0",
+   "trace": "runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 1490, in landingjobs_list\n    data = http(\"GET\", f\"https://landing.jobs/api/v1/jobs?limit=50&offset={offset}\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 624, in http\n    raise RuntimeError(f\"HTTP {r.status_code} for {url}\")\nRuntimeError: HTTP 403 for https://landing.jobs/api/v1/jobs?limit=50&offset=0\n",
+   "secs": 0.7
   },
   {
    "id": "leonardo",
@@ -1552,23 +1604,23 @@
    "ok": false,
    "error": "RuntimeError: POST https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/LeonardoCareerSite/jobs failed: HTTP 429",
    "trace": "home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/LeonardoCareerSite/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.2
   },
   {
    "id": "linkedin",
    "co": "LinkedIn",
    "type": "jobspy",
    "ok": true,
-   "raw": 2479,
-   "matched": 1531,
+   "raw": 2572,
+   "matched": 1448,
    "complete": false,
    "details": 400,
-   "secs": 7814.4,
-   "phd": 40,
+   "secs": 10507.3,
+   "phd": 34,
    "searches": "10/10",
-   "retries_429": 89,
-   "search_min": 95.4,
-   "new": 925,
+   "retries_429": 189,
+   "search_min": 124.2,
+   "new": 959,
    "closed": 0
   },
   {
@@ -1588,7 +1640,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://logitech.wd5.myworkdayjobs.com/wday/cxs/logitech/Logitech/jobs failed: HTTP 429",
    "trace": "nt call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://logitech.wd5.myworkdayjobs.com/wday/cxs/logitech/Logitech/jobs failed: HTTP 429\n",
-   "secs": 57.2
+   "secs": 57.3
   },
   {
    "id": "mckinsey",
@@ -1596,12 +1648,12 @@
    "type": "mckinsey",
    "ok": true,
    "raw": 115,
-   "matched": 35,
+   "matched": 36,
    "complete": false,
    "details": 0,
-   "secs": 5.0,
-   "new": 0,
-   "closed": 1
+   "secs": 4.1,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "medtronic",
@@ -1617,49 +1669,49 @@
    "co": "Mercedes-Benz",
    "type": "sitemap",
    "ok": true,
-   "raw": 888,
-   "matched": 156,
+   "raw": 906,
+   "matched": 158,
    "complete": true,
    "details": 150,
-   "secs": 170.0,
+   "secs": 143.1,
    "phd": 2,
-   "new": 1,
-   "closed": 4,
-   "coverage_gaps": 1
+   "new": 9,
+   "closed": 7,
+   "coverage_gaps": 2
   },
   {
    "id": "meta",
    "co": "Meta",
    "type": "meta",
    "ok": true,
-   "raw": 1356,
-   "matched": 61,
+   "raw": 1365,
+   "matched": 59,
    "complete": true,
-   "details": 4,
-   "secs": 8.2,
+   "details": 2,
+   "secs": 8.1,
    "phd": 1,
-   "new": 4,
-   "closed": 3
+   "new": 2,
+   "closed": 4
   },
   {
    "id": "microsoft",
    "co": "Microsoft",
    "type": "eightfold",
    "ok": true,
-   "raw": 250,
-   "matched": 89,
+   "raw": 260,
+   "matched": 91,
    "complete": true,
-   "details": 9,
-   "secs": 39.9,
-   "new": 9,
-   "closed": 9
+   "details": 7,
+   "secs": 38.3,
+   "new": 7,
+   "closed": 5
   },
   {
    "id": "mimic",
    "co": "mimic robotics",
    "type": "gem",
    "ok": true,
-   "raw": 20,
+   "raw": 19,
    "matched": 11,
    "complete": true,
    "details": 0,
@@ -1672,12 +1724,12 @@
    "co": "Mistral AI",
    "type": "ashby",
    "ok": true,
-   "raw": 252,
-   "matched": 90,
+   "raw": 251,
+   "matched": 91,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 0,
+   "secs": 0.6,
+   "new": 1,
    "closed": 0
   },
   {
@@ -1685,26 +1737,26 @@
    "co": "Netflix",
    "type": "eightfold",
    "ok": true,
-   "raw": 106,
-   "matched": 2,
+   "raw": 127,
+   "matched": 7,
    "complete": false,
-   "details": 0,
-   "secs": 15.6,
-   "new": 0,
-   "closed": 3
+   "details": 4,
+   "secs": 26.3,
+   "new": 4,
+   "closed": 0
   },
   {
    "id": "nokia",
    "co": "Nokia / Bell Labs",
    "type": "oracle",
    "ok": true,
-   "raw": 204,
+   "raw": 206,
    "matched": 17,
    "complete": false,
    "details": 0,
-   "secs": 22.5,
+   "secs": 22.7,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "novartis",
@@ -1713,7 +1765,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs failed: HTTP 429",
    "trace": "last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.2
   },
   {
    "id": "nvidia",
@@ -1729,22 +1781,22 @@
    "co": "NXP Semiconductors",
    "type": "workday",
    "ok": false,
-   "error": "RuntimeError: HTTP 422 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
-   "trace": "raceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 624, in http\n    raise RuntimeError(f\"HTTP {r.status_code} for {url}\")\nRuntimeError: HTTP 422 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs\n",
-   "secs": 0.9
+   "error": "RuntimeError: POST https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs failed: HTTP 429",
+   "trace": " (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs failed: HTTP 429\n",
+   "secs": 58.1
   },
   {
    "id": "openai",
    "co": "OpenAI",
    "type": "ashby",
    "ok": true,
-   "raw": 834,
+   "raw": 845,
    "matched": 45,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 1.0,
    "new": 0,
-   "closed": 1
+   "closed": 0
   },
   {
    "id": "oura",
@@ -1777,14 +1829,13 @@
    "co": "Perplexity",
    "type": "ashby",
    "ok": true,
-   "raw": 147,
+   "raw": 148,
    "matched": 30,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 0,
-   "coverage_gaps": 1
+   "closed": 0
   },
   {
    "id": "philips",
@@ -1793,7 +1844,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/jobs failed: HTTP 429",
    "trace": "l last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "photoroom",
@@ -1826,7 +1877,7 @@
    "co": "Pinterest",
    "type": "greenhouse",
    "ok": true,
-   "raw": 172,
+   "raw": 175,
    "matched": 2,
    "complete": true,
    "details": 0,
@@ -1843,9 +1894,9 @@
    "matched": 11,
    "complete": false,
    "details": 0,
-   "secs": 10.5,
-   "new": 2,
-   "closed": 0
+   "secs": 9.3,
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "plumerai",
@@ -1858,7 +1909,7 @@
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 2
+   "closed": 0
   },
   {
    "id": "poolside",
@@ -1882,7 +1933,7 @@
    "matched": 10,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "new": 0,
    "closed": 0
   },
@@ -1891,12 +1942,12 @@
    "co": "Prior Labs",
    "type": "ashby",
    "ok": true,
-   "raw": 24,
-   "matched": 12,
+   "raw": 25,
+   "matched": 13,
    "complete": true,
    "details": 0,
-   "secs": 0.5,
-   "new": 2,
+   "secs": 0.4,
+   "new": 1,
    "closed": 0
   },
   {
@@ -1904,21 +1955,21 @@
    "co": "Prophesee",
    "type": "teamtailor",
    "ok": true,
-   "raw": 12,
-   "matched": 4,
+   "raw": 11,
+   "matched": 3,
    "complete": true,
    "details": 0,
-   "secs": 0.8,
+   "secs": 0.7,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "prosus",
    "co": "Prosus",
    "type": "ashby",
    "ok": true,
-   "raw": 19,
-   "matched": 5,
+   "raw": 18,
+   "matched": 4,
    "complete": true,
    "details": 0,
    "secs": 0.4,
@@ -1930,24 +1981,24 @@
    "co": "Qualcomm",
    "type": "eightfold",
    "ok": true,
-   "raw": 288,
-   "matched": 7,
+   "raw": 272,
+   "matched": 8,
    "complete": false,
-   "details": 0,
-   "secs": 28.5,
-   "new": 0,
-   "closed": 2
+   "details": 1,
+   "secs": 29.4,
+   "new": 1,
+   "closed": 1
   },
   {
    "id": "rivr",
    "co": "RIVR",
    "type": "lever",
    "ok": true,
-   "raw": 6,
+   "raw": 4,
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
+   "secs": 0.8,
    "new": 0,
    "closed": 0
   },
@@ -1958,7 +2009,7 @@
    "ok": false,
    "error": "RuntimeError: POST https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs failed: HTTP 429",
    "trace": " recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs failed: HTTP 429\n",
-   "secs": 58.7
+   "secs": 58.2
   },
   {
    "id": "samsung",
@@ -1967,18 +2018,18 @@
    "ok": false,
    "error": "RuntimeError: POST https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs failed: HTTP 429",
    "trace": "ecent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "sanofi",
    "co": "Sanofi",
    "type": "radancy",
    "ok": true,
-   "raw": 296,
-   "matched": 31,
+   "raw": 240,
+   "matched": 25,
    "complete": false,
-   "details": 4,
-   "secs": 25.4,
+   "details": 3,
+   "secs": 72.7,
    "new": 0,
    "closed": 2
   },
@@ -1988,12 +2039,12 @@
    "type": "greenhouse",
    "ok": true,
    "raw": 11,
-   "matched": 2,
+   "matched": 1,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "sdsc",
@@ -2003,21 +2054,21 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.7
   },
   {
    "id": "siemens",
    "co": "Siemens",
    "type": "avature",
    "ok": true,
-   "raw": 628,
-   "matched": 122,
+   "raw": 625,
+   "matched": 105,
    "complete": false,
-   "details": 82,
-   "secs": 473.7,
+   "details": 78,
+   "secs": 427.3,
    "phd": 2,
-   "new": 7,
-   "closed": 1
+   "new": 1,
+   "closed": 5
   },
   {
    "id": "silabs",
@@ -2033,13 +2084,13 @@
    "co": "Sonar",
    "type": "lever",
    "ok": true,
-   "raw": 117,
-   "matched": 17,
+   "raw": 110,
+   "matched": 14,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
-   "new": 2,
-   "closed": 0
+   "secs": 1.6,
+   "new": 0,
+   "closed": 3
   },
   {
    "id": "sonova",
@@ -2047,12 +2098,12 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 40,
-   "matched": 15,
+   "matched": 13,
    "complete": false,
    "details": 0,
-   "secs": 10.7,
-   "new": 5,
-   "closed": 13
+   "secs": 9.2,
+   "new": 3,
+   "closed": 2
   },
   {
    "id": "sony",
@@ -2061,35 +2112,35 @@
    "ok": false,
    "error": "RuntimeError: POST https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs failed: HTTP 429",
    "trace": ":\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs failed: HTTP 429\n",
-   "secs": 58.2
+   "secs": 57.2
   },
   {
    "id": "spotify",
    "co": "Spotify",
    "type": "lever",
    "ok": true,
-   "raw": 91,
-   "matched": 11,
+   "raw": 94,
+   "matched": 10,
    "complete": true,
    "details": 0,
-   "secs": 0.4,
-   "new": 1,
-   "closed": 0
+   "secs": 1.0,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "st",
    "co": "STMicroelectronics",
    "type": "eightfold",
    "ok": true,
-   "raw": 142,
-   "matched": 38,
+   "raw": 146,
+   "matched": 40,
    "complete": false,
-   "details": 4,
-   "secs": 35.7,
+   "details": 3,
+   "secs": 29.4,
    "phd": 3,
-   "new": 4,
-   "closed": 1,
-   "coverage_gaps": 1
+   "new": 3,
+   "closed": 2,
+   "coverage_gaps": 4
   },
   {
    "id": "stability",
@@ -2111,20 +2162,20 @@
    "ok": false,
    "error": "RuntimeError: HTTP 403 for https://startupmap.one/api/startups",
    "trace": "/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 1561, in startupmap_list\n    names = {s.get(\"startup_id\"): s.get(\"name\") for s in http(\"GET\", \"https://startupmap.one/api/startups\")}\n                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 624, in http\n    raise RuntimeError(f\"HTTP {r.status_code} for {url}\")\nRuntimeError: HTTP 403 for https://startupmap.one/api/startups\n",
-   "secs": 0.4
+   "secs": 0.7
   },
   {
    "id": "stripe",
    "co": "Stripe",
    "type": "greenhouse",
    "ok": true,
-   "raw": 785,
-   "matched": 47,
+   "raw": 770,
+   "matched": 46,
    "complete": true,
-   "details": 23,
-   "secs": 10.8,
-   "new": 1,
-   "closed": 2
+   "details": 22,
+   "secs": 10.6,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "swisscom",
@@ -2133,46 +2184,46 @@
    "ok": false,
    "error": "RuntimeError: POST https://swisscom.wd103.myworkdayjobs.com/wday/cxs/swisscom/SwisscomExternalCareers/jobs failed: HTTP 429",
    "trace": "File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://swisscom.wd103.myworkdayjobs.com/wday/cxs/swisscom/SwisscomExternalCareers/jobs failed: HTTP 429\n",
-   "secs": 58.8
+   "secs": 58.2
   },
   {
    "id": "swissre",
    "co": "Swiss Re",
    "type": "links",
    "ok": true,
-   "raw": 211,
-   "matched": 47,
+   "raw": 207,
+   "matched": 46,
    "complete": true,
-   "details": 34,
-   "secs": 27.0,
-   "new": 3,
-   "closed": 0
+   "details": 33,
+   "secs": 24.0,
+   "new": 1,
+   "closed": 2
   },
   {
    "id": "synopsys",
    "co": "Synopsys",
    "type": "radancy",
    "ok": true,
-   "raw": 467,
-   "matched": 12,
+   "raw": 468,
+   "matched": 11,
    "complete": false,
-   "details": 0,
-   "secs": 14.9,
-   "new": 0,
-   "closed": 1
+   "details": 1,
+   "secs": 12.0,
+   "new": 1,
+   "closed": 0
   },
   {
    "id": "synthesia",
    "co": "Synthesia",
    "type": "ashby",
    "ok": true,
-   "raw": 28,
-   "matched": 2,
+   "raw": 27,
+   "matched": 1,
    "complete": true,
    "details": 0,
    "secs": 0.4,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "telefonica",
@@ -2180,24 +2231,24 @@
    "type": "sf_rss",
    "ok": true,
    "raw": 43,
-   "matched": 37,
+   "matched": 33,
    "complete": false,
    "details": 0,
-   "secs": 11.5,
-   "new": 10,
-   "closed": 13
+   "secs": 10.0,
+   "new": 7,
+   "closed": 14
   },
   {
    "id": "tether",
    "co": "Tether",
    "type": "recruitee",
    "ok": true,
-   "raw": 222,
-   "matched": 55,
+   "raw": 216,
+   "matched": 58,
    "complete": true,
    "details": 0,
-   "secs": 1.0,
-   "new": 1,
+   "secs": 1.2,
+   "new": 3,
    "closed": 0
   },
   {
@@ -2207,47 +2258,47 @@
    "ok": false,
    "error": "RuntimeError: POST https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/Careers/jobs failed: HTTP 429",
    "trace": " recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/Careers/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 65.8
   },
   {
    "id": "thehub",
    "co": "The Hub",
    "type": "thehub",
    "ok": true,
-   "raw": 379,
+   "raw": 372,
    "matched": 112,
    "complete": true,
-   "details": 5,
-   "secs": 41.9,
+   "details": 6,
+   "secs": 38.9,
    "phd": 1,
-   "new": 5,
-   "closed": 4
+   "new": 6,
+   "closed": 6
   },
   {
    "id": "tomtom",
    "co": "TomTom",
    "type": "lever",
    "ok": true,
-   "raw": 30,
-   "matched": 6,
+   "raw": 29,
+   "matched": 5,
    "complete": true,
    "details": 0,
-   "secs": 1.5,
-   "new": 1,
-   "closed": 0
+   "secs": 1.3,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "unicredit",
    "co": "UniCredit",
    "type": "avature",
    "ok": true,
-   "raw": 528,
-   "matched": 282,
+   "raw": 527,
+   "matched": 274,
    "complete": true,
-   "details": 13,
-   "secs": 158.7,
-   "new": 9,
-   "closed": 7
+   "details": 6,
+   "secs": 138.3,
+   "new": 2,
+   "closed": 10
   },
   {
    "id": "valeo",
@@ -2256,14 +2307,14 @@
    "ok": false,
    "error": "RuntimeError: POST https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs failed: HTTP 429",
    "trace": "recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 790, in workday_list\n    data = http(\"POST\", base, json_body=body, headers=hdr)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 634, in http\n    raise RuntimeError(f\"{method} {url} failed: {last}\")\nRuntimeError: POST https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs failed: HTTP 429\n",
-   "secs": 58.6
+   "secs": 58.1
   },
   {
    "id": "wayve",
    "co": "Wayve",
    "type": "ashby",
    "ok": true,
-   "raw": 151,
+   "raw": 150,
    "matched": 26,
    "complete": true,
    "details": 0,
@@ -2280,7 +2331,7 @@
    "matched": 6,
    "complete": true,
    "details": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "new": 0,
    "closed": 0
   },
@@ -2289,40 +2340,40 @@
    "co": "Welcome to the Jungle",
    "type": "wttj",
    "ok": true,
-   "raw": 2021,
-   "matched": 565,
+   "raw": 1993,
+   "matched": 527,
    "complete": false,
    "details": 150,
-   "secs": 70.6,
+   "secs": 71.1,
    "phd": 1,
-   "new": 41,
-   "closed": 64
+   "new": 75,
+   "closed": 36
   },
   {
    "id": "zalando",
    "co": "Zalando",
    "type": "links",
    "ok": true,
-   "raw": 176,
-   "matched": 62,
+   "raw": 186,
+   "matched": 68,
    "complete": true,
-   "details": 1,
-   "secs": 11.0,
-   "new": 1,
-   "closed": 0
+   "details": 7,
+   "secs": 13.6,
+   "new": 7,
+   "closed": 1
   },
   {
    "id": "zurich-ins",
    "co": "Zurich Insurance",
    "type": "sf_rss",
    "ok": true,
-   "raw": 87,
-   "matched": 13,
+   "raw": 89,
+   "matched": 15,
    "complete": false,
    "details": 0,
-   "secs": 9.3,
-   "new": 1,
-   "closed": 2
+   "secs": 9.0,
+   "new": 3,
+   "closed": 4
   }
  ]
 }
