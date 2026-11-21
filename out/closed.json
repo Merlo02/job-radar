@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-21T01:27:41Z",
+ "generated": "2026-11-21T20:42:15Z",
  "days": 14,
- "count": 311,
+ "count": 313,
  "items": [
   {
    "key": "meta:969721062271014",
@@ -4944,6 +4944,37 @@
    "ats": "radancy",
    "closed_at": "2026-11-21T01:27:41Z",
    "reason": "not seen for 10+ days"
+  },
+  {
+   "key": "meta:1527384832276536",
+   "co": "Meta",
+   "target": "meta",
+   "big": true,
+   "title": "Software Developer, Scaled Ops AI Acceleration Team",
+   "url": "https://www.metacareers.com/jobs/1527384832276536/",
+   "loc_status": "unknown",
+   "first_seen": "2026-11-20T22:02:24Z",
+   "last_seen": "2026-11-21T01:27:41Z",
+   "ats": "meta",
+   "dept": "Global Operations, Online Operations, Software Engineering, Generative AI",
+   "closed_at": "2026-11-21T20:42:15Z",
+   "reason": "not listed anymore"
+  },
+  {
+   "key": "elevenlabs:2d7f9a7c-a9e6-4877-bb38-34e4d989054c",
+   "co": "ElevenLabs",
+   "target": "elevenlabs",
+   "big": true,
+   "title": "Research Engineer - Inference",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/2d7f9a7c-a9e6-4877-bb38-34e4d989054c",
+   "loc": "United Kingdom; United States; Poland; Bulgaria (United Kingdom) · remote",
+   "loc_status": "eu",
+   "posted": "2026-08-28",
+   "first_seen": "2026-10-05T10:39:12Z",
+   "last_seen": "2026-11-21T01:27:41Z",
+   "ats": "ashby",
+   "closed_at": "2026-11-21T20:42:15Z",
+   "reason": "not listed anymore"
   }
  ]
 }
