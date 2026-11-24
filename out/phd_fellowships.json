@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T01:51:08Z",
+ "generated": "2026-11-24T03:59:59Z",
  "count": 10,
  "items": [
   {
@@ -183,7 +183,12 @@
    "requirements": "Dottorato congiunto ETH Zürich / Max Planck: dettagli sulla pagina.",
    "kind": "fellowship",
    "reachable": true,
-   "dates_found": []
+   "dates_found": [
+    {
+     "date": "2026-11-24",
+     "context": "to join our doctoral program in 2027 has closed. We are now evaluating all complete applications. Starting from Tuesday 24 November 2026, we will request submission of a 2-5 mi"
+    }
+   ]
   },
   {
    "id": "robotx",
