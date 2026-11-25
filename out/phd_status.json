@@ -1,15 +1,14 @@
 {
- "run_at": "2026-11-24T03:59:59Z",
- "duration_s": 222,
+ "run_at": "2026-11-25T02:32:03Z",
+ "duration_s": 188,
  "sources": 55,
  "failed": [
-  "abg",
-  "dn-heal-4ward"
+  "abg"
  ],
  "blocked": [],
- "new": 39,
- "open": 851,
- "recent": 195,
+ "new": 17,
+ "open": 817,
+ "recent": 186,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -27,32 +26,32 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 3.9
+   "secs": 2.9
   },
   {
    "id": "at-nl",
    "co": "AcademicTransfer",
    "type": "academictransfer",
    "ok": true,
-   "raw": 45,
-   "matched": 34,
+   "raw": 44,
+   "matched": 33,
    "complete": false,
    "details": 0,
-   "secs": 203.4,
-   "new": 3,
-   "closed": 0
+   "secs": 187.7,
+   "new": 1,
+   "closed": 5
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 828,
-   "matched": 525,
+   "raw": 838,
+   "matched": 533,
    "complete": true,
    "details": 0,
-   "secs": 0.2,
-   "new": 28,
+   "secs": 0.3,
+   "new": 11,
    "closed": 0
   },
   {
@@ -63,7 +62,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 0.8
   },
   {
    "id": "dn-aegis",
@@ -73,7 +72,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "id": "dn-biohybrite",
@@ -83,7 +82,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.2
+   "secs": 1.7
   },
   {
    "id": "dn-bridge-ai",
@@ -93,7 +92,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.1
   },
   {
    "id": "dn-bug-id",
@@ -103,7 +102,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.3
   },
   {
    "id": "dn-cafe-bio",
@@ -113,7 +112,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "id": "dn-capture",
@@ -123,7 +122,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.2
   },
   {
    "id": "dn-cavecore",
@@ -133,7 +132,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.4
   },
   {
    "id": "dn-cdtnet",
@@ -153,7 +152,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.7
+   "secs": 5.6
   },
   {
    "id": "dn-diamond",
@@ -163,7 +162,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "dn-elegance",
@@ -173,7 +172,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.2
   },
   {
    "id": "dn-elevate",
@@ -183,7 +182,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 13.8
+   "secs": 1.7
   },
   {
    "id": "dn-emanaire",
@@ -193,7 +192,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.4
+   "secs": 0.7
   },
   {
    "id": "dn-endure",
@@ -203,7 +202,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.2
   },
   {
    "id": "dn-evomg-dn",
@@ -213,7 +212,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.9
+   "secs": 5.9
   },
   {
    "id": "dn-fados",
@@ -223,7 +222,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 0.9
   },
   {
    "id": "dn-framebio",
@@ -233,7 +232,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 3.1
   },
   {
    "id": "dn-genaide",
@@ -243,7 +242,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8
   },
   {
    "id": "dn-genome",
@@ -253,16 +252,17 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 0.8
   },
   {
    "id": "dn-heal-4ward",
    "co": "HEAL-4WARD (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: GET https://heal-4ward.eu/2026/06/01/heal4ward-opens-call-for-11-fully-funded-phd-positions-in-advanced-wound-care-research/ failed: HTTP 500",
-   "trace": "b-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://heal-4ward.eu/2026/06/01/heal4ward-opens-call-for-11-fully-funded-phd-positions-in-advanced-wound-care-research/ failed: HTTP 500\n",
-   "secs": 60.3
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 0.8
   },
   {
    "id": "dn-her-care",
@@ -272,7 +272,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.1
   },
   {
    "id": "dn-intros",
@@ -282,7 +282,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5
+   "secs": 1.3
   },
   {
    "id": "dn-istride",
@@ -302,7 +302,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "dn-lowdataml",
@@ -312,7 +312,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.9
   },
   {
    "id": "dn-mediculous-remedy",
@@ -322,7 +322,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.6
   },
   {
    "id": "dn-met2adapt",
@@ -332,7 +332,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.5
   },
   {
    "id": "dn-mindnet",
@@ -342,7 +342,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.7
+   "secs": 1.3
   },
   {
    "id": "dn-miningbrines",
@@ -352,7 +352,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 4.1
+   "secs": 1.9
   },
   {
    "id": "dn-mlcare",
@@ -362,7 +362,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 1.9
   },
   {
    "id": "dn-orfeus",
@@ -372,7 +372,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 0.9
   },
   {
    "id": "dn-protaiomics",
@@ -392,7 +392,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.8
   },
   {
    "id": "dn-reffracteur",
@@ -402,7 +402,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.7
+   "secs": 1.5
   },
   {
    "id": "dn-specx",
@@ -412,7 +412,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 2.3
   },
   {
    "id": "dn-spring",
@@ -422,7 +422,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.5
   },
   {
    "id": "dn-surerob",
@@ -432,7 +432,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.9
+   "secs": 1.6
   },
   {
    "id": "dn-trackaf",
@@ -442,7 +442,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.6
+   "secs": 1.0
   },
   {
    "id": "dn-train-fast",
@@ -452,7 +452,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.5,
+   "secs": 1.0,
    "new": 1
   },
   {
@@ -463,8 +463,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.3,
-   "new": 1
+   "secs": 3.6
   },
   {
    "id": "dn-variabiliti",
@@ -474,7 +473,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.6
   },
   {
    "id": "dn-wildbotics",
@@ -484,58 +483,58 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "epfl-phd",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 38,
+   "raw": 39,
    "matched": 5,
    "complete": false,
    "details": 0,
-   "secs": 3.7,
-   "new": 3,
-   "closed": 0
+   "secs": 3.0,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "ethz-phd",
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 138,
-   "matched": 30,
+   "raw": 133,
+   "matched": 29,
    "complete": true,
-   "details": 1,
-   "secs": 1.9,
-   "new": 1,
-   "closed": 0
+   "details": 0,
+   "secs": 1.2,
+   "new": 0,
+   "closed": 1
   },
   {
    "id": "industrial",
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 38,
-   "matched": 38,
+   "raw": 36,
+   "matched": 36,
    "complete": true,
    "details": 0,
-   "secs": 0.0,
-   "new": 1,
-   "closed": 2
+   "secs": 0.1,
+   "new": 2,
+   "closed": 4
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 28,
-   "matched": 17,
+   "raw": 30,
+   "matched": 19,
    "complete": true,
    "details": 0,
    "secs": 2.0,
-   "new": 1,
+   "new": 2,
    "closed": 0
   },
   {
@@ -547,7 +546,7 @@
    "matched": 0,
    "complete": true,
    "details": 0,
-   "secs": 1.2,
+   "secs": 1.0,
    "new": 0,
    "closed": 0
   },
@@ -559,7 +558,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 1.4
   },
   {
    "id": "ugent-phd",
@@ -570,7 +569,7 @@
    "matched": 8,
    "complete": true,
    "details": 0,
-   "secs": 2.2,
+   "secs": 1.0,
    "new": 0,
    "closed": 0
   },
@@ -579,13 +578,13 @@
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 117,
-   "matched": 15,
+   "raw": 111,
+   "matched": 14,
    "complete": true,
    "details": 0,
-   "secs": 2.1,
+   "secs": 1.9,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "valeo-ai",
