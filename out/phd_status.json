@@ -1,15 +1,20 @@
 {
- "run_at": "2026-11-27T01:26:21Z",
- "duration_s": 193,
+ "run_at": "2026-11-28T01:56:19Z",
+ "duration_s": 161,
  "sources": 55,
  "failed": [
   "abg",
-  "dn-specx"
+  "dn-bug-id",
+  "dn-elegance",
+  "dn-endure",
+  "dn-framebio",
+  "dn-mindnet",
+  "dn-train-fast"
  ],
  "blocked": [],
- "new": 28,
- "open": 859,
- "recent": 175,
+ "new": 25,
+ "open": 869,
+ "recent": 172,
  "candidates": null,
  "warnings": [],
  "coverage": {
@@ -27,7 +32,7 @@
    "ok": false,
    "error": "Gone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche",
    "trace": "ner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2142, in abg_list\n    html = http(\"POST\", \"https://www.abg.asso.fr/fr/candidatOffres/recherche\", expect=\"text\", headers=hdr,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 618, in http\n    raise Gone(f\"{r.status_code} {url}\")\nGone: 404 https://www.abg.asso.fr/fr/candidatOffres/recherche\n",
-   "secs": 3.0
+   "secs": 3.2
   },
   {
    "id": "at-nl",
@@ -35,23 +40,23 @@
    "type": "academictransfer",
    "ok": true,
    "raw": 45,
-   "matched": 35,
+   "matched": 34,
    "complete": false,
    "details": 0,
-   "secs": 192.4,
-   "new": 3,
-   "closed": 3
+   "secs": 160.4,
+   "new": 1,
+   "closed": 4
   },
   {
    "id": "boards-phd",
    "co": "Dottorati da LinkedIn, Indeed e altri portali",
    "type": "board_phd",
    "ok": true,
-   "raw": 880,
-   "matched": 558,
+   "raw": 879,
+   "matched": 561,
    "complete": true,
    "details": 0,
-   "secs": 0.1,
+   "secs": 0.3,
    "new": 22,
    "closed": 0
   },
@@ -63,7 +68,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "id": "dn-aegis",
@@ -73,7 +78,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-biohybrite",
@@ -83,7 +88,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.7
   },
   {
    "id": "dn-bridge-ai",
@@ -93,17 +98,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.3
   },
   {
    "id": "dn-bug-id",
    "co": "BUG-ID (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.5
+   "ok": false,
+   "error": "RuntimeError: GET https://bug-id.dtu.dk/vacancies failed: ReadTimeout: HTTPSConnectionPool(host='bug-id.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": "radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://bug-id.dtu.dk/vacancies failed: ReadTimeout: HTTPSConnectionPool(host='bug-id.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 134.3
   },
   {
    "id": "dn-cafe-bio",
@@ -113,7 +117,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 0.9
   },
   {
    "id": "dn-capture",
@@ -133,7 +137,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "id": "dn-cdtnet",
@@ -143,7 +147,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.5
+   "secs": 0.8
   },
   {
    "id": "dn-combine",
@@ -153,7 +157,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.2
+   "secs": 5.0
   },
   {
    "id": "dn-diamond",
@@ -163,17 +167,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "id": "dn-elegance",
    "co": "ELEGANCE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.7
+   "ok": false,
+   "error": "RuntimeError: GET https://elegance.dtu.dk/Doctoral-Candidates failed: ReadTimeout: HTTPSConnectionPool(host='elegance.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": ", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://elegance.dtu.dk/Doctoral-Candidates failed: ReadTimeout: HTTPSConnectionPool(host='elegance.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 133.8
   },
   {
    "id": "dn-elevate",
@@ -183,7 +186,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.3
+   "secs": 2.0
   },
   {
    "id": "dn-emanaire",
@@ -193,17 +196,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "id": "dn-endure",
    "co": "ENDURE (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.5
+   "ok": false,
+   "error": "RuntimeError: GET https://endure.dtu.dk/vacancies failed: ReadTimeout: HTTPSConnectionPool(host='endure.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": "radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://endure.dtu.dk/vacancies failed: ReadTimeout: HTTPSConnectionPool(host='endure.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 134.1
   },
   {
    "id": "dn-evomg-dn",
@@ -213,7 +215,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 5.2
+   "secs": 4.9
   },
   {
    "id": "dn-fados",
@@ -223,17 +225,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.9
+   "secs": 1.1
   },
   {
    "id": "dn-framebio",
    "co": "FrameBio (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.5
+   "ok": false,
+   "error": "RuntimeError: GET https://framebio.dtu.dk/Recruitment failed: ReadTimeout: HTTPSConnectionPool(host='framebio.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": "scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://framebio.dtu.dk/Recruitment failed: ReadTimeout: HTTPSConnectionPool(host='framebio.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 134.4
   },
   {
    "id": "dn-genaide",
@@ -243,7 +244,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.8
   },
   {
    "id": "dn-genome",
@@ -263,7 +264,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.0
+   "secs": 0.8
   },
   {
    "id": "dn-her-care",
@@ -273,7 +274,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.4
+   "secs": 1.1
   },
   {
    "id": "dn-intros",
@@ -293,7 +294,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.9
+   "secs": 2.4
   },
   {
    "id": "dn-justhealth",
@@ -303,7 +304,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "id": "dn-lowdataml",
@@ -313,7 +314,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.0
   },
   {
    "id": "dn-mediculous-remedy",
@@ -323,7 +324,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "id": "dn-met2adapt",
@@ -333,17 +334,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.2
+   "secs": 0.8
   },
   {
    "id": "dn-mindnet",
    "co": "MINDnet (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.9
+   "ok": false,
+   "error": "RuntimeError: GET https://mindnet.dtu.dk/ failed: ReadTimeout: HTTPSConnectionPool(host='mindnet.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": "ar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://mindnet.dtu.dk/ failed: ReadTimeout: HTTPSConnectionPool(host='mindnet.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 134.2
   },
   {
    "id": "dn-miningbrines",
@@ -373,7 +373,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.3
+   "secs": 1.0
   },
   {
    "id": "dn-protaiomics",
@@ -383,7 +383,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.5
+   "secs": 3.2
   },
   {
    "id": "dn-realise",
@@ -393,7 +393,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.9
+   "secs": 1.0
   },
   {
    "id": "dn-reffracteur",
@@ -403,16 +403,17 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.2
+   "secs": 1.8
   },
   {
    "id": "dn-specx",
    "co": "SpecX (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": false,
-   "error": "RuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/",
-   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: HTTP 403 for https://specx-dn.eu/recruitment/open-positions/\n",
-   "secs": 1.0
+   "ok": true,
+   "raw": 1,
+   "matched": 0,
+   "complete": true,
+   "secs": 2.8
   },
   {
    "id": "dn-spring",
@@ -422,7 +423,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "id": "dn-surerob",
@@ -432,7 +433,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 2.5
+   "secs": 2.3
   },
   {
    "id": "dn-trackaf",
@@ -442,17 +443,16 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 1.1
+   "secs": 1.4
   },
   {
    "id": "dn-train-fast",
    "co": "TRAIN-FAST (MSCA Doctoral Network)",
    "type": "watch",
-   "ok": true,
-   "raw": 1,
-   "matched": 0,
-   "complete": true,
-   "secs": 1.4
+   "ok": false,
+   "error": "RuntimeError: GET https://train-fast.dtu.dk/ failed: ReadTimeout: HTTPSConnectionPool(host='train-fast.dtu.dk', port=443): Read timed out. (read timeout=40)",
+   "trace": "-radar/scan.py\", line 2306, in run_source\n    recs, complete = lister(src)\n                     ^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 2214, in watch_list\n    text = page_text(src[\"url\"])\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-radar/job-radar/scan.py\", line 762, in page_text\n    return strip_html(http(\"GET\", url, expect=\"text\"))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: GET https://train-fast.dtu.dk/ failed: ReadTimeout: HTTPSConnectionPool(host='train-fast.dtu.dk', port=443): Read timed out. (read timeout=40)\n",
+   "secs": 133.9
   },
   {
    "id": "dn-unchange",
@@ -462,7 +462,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 3.0
+   "secs": 1.4
   },
   {
    "id": "dn-variabiliti",
@@ -472,7 +472,7 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "dn-wildbotics",
@@ -482,58 +482,58 @@
    "raw": 1,
    "matched": 0,
    "complete": true,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "id": "epfl-phd",
    "co": "EPFL",
    "type": "sf_rss",
    "ok": true,
-   "raw": 39,
-   "matched": 5,
+   "raw": 38,
+   "matched": 4,
    "complete": false,
    "details": 0,
-   "secs": 3.0,
+   "secs": 3.1,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "ethz-phd",
    "co": "ETH Zurich",
    "type": "ethz",
    "ok": true,
-   "raw": 141,
-   "matched": 30,
+   "raw": 140,
+   "matched": 29,
    "complete": true,
    "details": 0,
-   "secs": 1.1,
+   "secs": 1.2,
    "new": 0,
-   "closed": 0
+   "closed": 1
   },
   {
    "id": "industrial",
    "co": "Dottorati industriali (fonti aziendali)",
    "type": "industrial",
    "ok": true,
-   "raw": 35,
-   "matched": 35,
+   "raw": 33,
+   "matched": 33,
    "complete": true,
    "details": 0,
-   "secs": 0.0,
-   "new": 3,
-   "closed": 0
+   "secs": 0.1,
+   "new": 0,
+   "closed": 2
   },
   {
    "id": "kuleuven-phd",
    "co": "KU Leuven",
    "type": "kuleuven",
    "ok": true,
-   "raw": 30,
-   "matched": 19,
+   "raw": 33,
+   "matched": 21,
    "complete": true,
    "details": 0,
-   "secs": 2.1,
-   "new": 0,
+   "secs": 2.6,
+   "new": 2,
    "closed": 0
   },
   {
@@ -568,7 +568,7 @@
    "matched": 9,
    "complete": true,
    "details": 0,
-   "secs": 2.0,
+   "secs": 1.1,
    "new": 0,
    "closed": 0
   },
@@ -577,7 +577,7 @@
    "co": "Università di Zurigo (UZH)",
    "type": "prospective",
    "ok": true,
-   "raw": 111,
+   "raw": 112,
    "matched": 14,
    "complete": true,
    "details": 0,
